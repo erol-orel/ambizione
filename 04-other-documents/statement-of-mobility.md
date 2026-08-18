@@ -77,7 +77,10 @@ stay serves.
 
 ## Draft
 
-> _(to be written once at least one mobility partner has confirmed)_
+**→ `statement-of-mobility-draft.md`** (v1, ~715 words). Written before any mobility partner has
+confirmed, so the three planned stays carry `[[…]]` placeholders for dates and letters. The
+argument does not depend on all three: the UNIL stay is the load-bearing one, because it is tied
+to a work package rather than to a wish.
 
 ## Actions this week
 
