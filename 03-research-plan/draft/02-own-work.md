@@ -1,0 +1,89 @@
+# 2. Current state of my own research
+
+My route to this project is unusual and it is the reason the project is tractable. I spent
+fifteen years in quantitative finance — risk modelling, extreme value estimation for non-Gaussian
+tails, regime and factor models, stress testing and scenario analysis — before completing a
+doctorate in biomedical sciences at the University of Geneva (defended 18 December 2023). The
+methodological inheritance is not decorative: the instruments that this proposal brings to
+health-system surge are the ones I used daily to anticipate rare, costly transitions in another
+domain.
+
+## 2.1 Prediction under sparse and imperfect information
+
+My doctoral work addressed prediction where individual-level data are incomplete and
+heterogeneous. In **Orel et al., *PLoS ONE* 2022**, I predicted individual HIV status from
+socio-behavioural characteristics across East and Southern Africa using gradient-boosted models,
+establishing which classes of variable carry signal across settings and — more relevant here —
+where models transported between countries and where they did not. Related work on
+sociobehavioural clustering and latent-class structure across sub-Saharan African populations
+(**Merzouki et al., *PeerJ* 2021**; ***J Int AIDS Soc* 2020**) and on treatment-interruption
+prediction (**Esra et al., *JAIDS* 2023**) developed the same theme: the conditions under which
+an estimate obtained in one population is usable in another. That is the transportability problem
+at the centre of this proposal, encountered first in a different disease area.
+
+## 2.2 Automated evidence synthesis
+
+**Orel et al., *J Med Internet Res* 2023** introduced **LiteRev**, an automated literature review
+tool combining natural language processing, dimensionality reduction, clustering and
+nearest-neighbour retrieval to accelerate the identification and structuring of relevant
+research. It is used in practice: the systematic review of artificial intelligence in emergency
+medical services for disasters and health emergencies (**Edjinedja, Larribau, Orel et al.**,
+submitted 2026), conducted within the GESICA consortium, used LiteRev in its methods to structure
+138 retained publications.
+
+## 2.3 Outbreak and health-system modelling in Switzerland
+
+**Orel et al., *CMI Communications* 2024** compared clinical severity between Delta and Omicron
+sub-lineages in a Swiss tertiary centre, working directly with hospital clinical data.
+**Estill et al., *F1000Research* 2020** developed age-structured scenario models for the Swiss
+SARS-CoV-2 epidemic. I contributed to national and regional COVID-19 analysis and to WHO African
+region epidemiological reporting, and to seroprevalence estimation published in
+***Nature Communications*** (Nwosu et al., 2021). This is the health-system modelling and Swiss
+data-governance experience the project requires.
+
+## 2.4 The instrument: LiteRev-Evidence
+
+Since 2024 I have developed **LiteRev-Evidence** (literev-scenario.com), which extends LiteRev
+from retrieval into structured quantitative extraction and modelling. It is a running production
+system, not a prototype:
+
+- a corpus of **81,209 documents** and **323,868 embedded text chunks**, ingested continuously
+  from PubMed, PMC, OpenAlex, CrossRef and preprint servers by a **living-review scheduler**;
+- structured extraction with provenance, screening state and study-quality scoring;
+- **quality-weighted pooling of extracted quantitative parameters, converted into parameter
+  distributions** and propagated through ensemble simulation — the literature-to-prior mechanism
+  this proposal interrogates, in working form;
+- compartmental (SEIR with vaccination and quarantine), time-series and automated
+  machine-learning components, with uncertainty bands and calibration to observed data;
+- operational connectors to MeteoSwiss, Copernicus ERA5, Sentinelles and routing services.
+
+Thirty-one operational scenarios have been elaborated with emergency-medicine partners, spanning
+epidemic early warning, out-of-hospital cardiac arrest, EMS demand, heatwave impact and surge
+management.
+
+**This is what makes the proposed research feasible rather than aspirational.** The proposal is
+not to build this system. It is to use it to answer the question it raises: the platform will
+happily pool published estimates into priors, and nobody — including me — has established whether
+it should.
+
+## 2.5 Linked data on a contrasting crisis archetype
+
+I lead the data work on a cantonal study (BASEC 2026-00324, ethics granted) linking confirmed
+legionellosis cases in Geneva to individual domestic hot water installations, with technical,
+meteorological and territorial covariates. The linkage is, to my knowledge, unique, and it
+supplies a waterborne outbreak archetype whose dynamics differ fundamentally from a respiratory
+epidemic — the hardest available test of whether a forecasting framework generalises across
+crisis types.
+
+## 2.6 Position
+
+I am embedded in the Geneva emergency and public health system through GESICA — with HUG
+emergency medicine `[[Desmettre, Larribau — confirm how you want them named]]` — teach statistics
+and epidemiology on the MAS in Public Health, and contribute to a Horizon Europe consortium on
+epidemic intelligence. `[[See the delimitation note: state explicitly here how this project
+differs from GESICA and from the Horizon work.]]`
+
+What I have not yet done, and what this grant is for, is to lead an independent line of my own.
+The components are in place: the extraction platform is mine, the methodological approach comes
+from my own prior career rather than from any group I have worked in, and the question is one I
+arrived at by building the thing that raises it.
