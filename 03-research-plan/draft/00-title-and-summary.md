@@ -1,13 +1,15 @@
 # Title
 
-**COLDSTART — Evidence-informed forecasting of health-system crises when local data are scarce**
+**COLDSTART — Anticipating health-system crises before the outcome is observable**
 
 # Summary
 
-When a health crisis begins, the data needed to forecast it does not yet exist. Emergency
-services and hospitals must decide how many ambulances to staff, how many intensive care beds to
-open and when to escalate, at precisely the moment when the local time series is a handful of
-observations long. The forecasting methods that perform best in steady state — and the ensemble
+When a health crisis begins, context data is abundant and outcome data does not yet exist.
+Weather, demography, mobility, pollution and the entire published literature are available on day
+one; what is missing is any observation of the quantity that must actually be forecast — how many
+people will present, in this population, for this event. Emergency services and hospitals must
+decide how many ambulances to staff, how many beds to open and when to escalate, at precisely the
+moment when that series is a handful of noisy points. The forecasting methods that perform best in steady state — and the ensemble
 infrastructures now organised around them — require years of history, so they are weakest exactly
 where the decisions are most consequential and least reversible.
 
@@ -22,8 +24,8 @@ short window, and therefore available when nothing else is.
 
 This project asks both questions directly. Building on **LiteRev-Evidence**, a production
 literature-synthesis platform I developed that already extracts and pools quantitative parameters
-from a corpus of over 80,000 documents, I will (i) establish how reliably quantitative evidence
-can be extracted automatically and where extraction is systematically biased; (ii) develop a
+from over 80,000 documents, I will (i) establish how reliably quantitative evidence can be
+extracted automatically and where extraction is biased; (ii) develop a
 **Bayesian regime-switching** framework — with extreme value methods for the tail, resilience
 indicators on its transition intensities, and a conformal layer guaranteeing calibrated coverage
 even under misspecification — representing health-system state as latent regimes rather than as a

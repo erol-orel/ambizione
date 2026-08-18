@@ -38,22 +38,22 @@ to seroprevalence estimation in ***Nature Communications*** (Nwosu et al., 2021)
 
 ## 2.4 The instrument: LiteRev-Evidence
 
-Since 2024 I have developed **LiteRev-Evidence** (literev-scenario.com), which extends LiteRev
-from retrieval into structured quantitative extraction and modelling. It is a running production
-system, not a prototype:
+Since 2024 I have developed **LiteRev-Evidence** (literev-scenario.com), extending LiteRev from
+retrieval into structured quantitative extraction and modelling. It is a running production
+system, not a prototype: **81,209 documents** and **323,868 embedded passages** ingested
+continuously from PubMed, PMC, OpenAlex, CrossRef and preprint servers by a living-review
+scheduler; structured extraction with provenance, screening state and study-quality scoring;
+**quality-weighted pooling of extracted parameters into distributions**, propagated through
+ensemble simulation — the literature-to-prior mechanism this proposal interrogates, in working
+form; compartmental (SEIR with vaccination and quarantine), time-series and machine-learning
+components with uncertainty bands and calibration to observed data; and connectors to MeteoSwiss,
+Copernicus ERA5, Sentinelles and routing services. Thirty-one operational scenarios have been
+elaborated with emergency-medicine partners.
 
-- a corpus of **81,209 documents** and **323,868 embedded text chunks**, ingested continuously
-  from PubMed, PMC, OpenAlex, CrossRef and preprint servers by a **living-review scheduler**;
-- structured extraction with provenance, screening state and study-quality scoring;
-- **quality-weighted pooling of extracted quantitative parameters, converted into parameter
-  distributions** and propagated through ensemble simulation — the literature-to-prior mechanism
-  this proposal interrogates, in working form;
-- compartmental (SEIR with vaccination and quarantine), time-series and automated
-  machine-learning components, with uncertainty bands and calibration to observed data;
-- operational connectors to MeteoSwiss, Copernicus ERA5, Sentinelles and routing services.
-
-Thirty-one operational scenarios have been elaborated with emergency-medicine partners, spanning
-epidemic early warning, cardiac arrest, EMS demand, heatwave impact and surge management.
+For GESICA I built the Geneva–Vaud data foundation: a classification of 76 notifiable diseases
+into eight model classes by transmission mode, and an inventory of 22 surveillance sources with
+their latency, granularity, access route and known completeness. That work is why the validation
+archetypes here are chosen by **model class** rather than by convenience.
 
 **This is what makes the proposed research feasible rather than aspirational.** The proposal is
 not to build this system. It is to use it to answer the question it raises: the platform will

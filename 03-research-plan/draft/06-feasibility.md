@@ -8,20 +8,19 @@ Desmettre, Dr Robert Larribau — confirm titles and agreed roles]]`.
 
 ## 6.1 Why this environment
 
-The project sits at the intersection of three fields, and the hosting arrangement reflects that
-structure rather than hedging between options.
+The project sits at the intersection of three fields and the hosting arrangement reflects that
+structure rather than hedging.
 
-**Methodological home — DS4DH.** Biomedical natural language processing, information retrieval and
-machine learning for health are the immediate neighbours of WP1, and DS4DH has an established
-record in clinical text mining and biomedical entity recognition. This is also a **different
-department and a different scientific community** from the one in which my doctoral and
-postdoctoral work was conducted: the move from global-health epidemiological modelling into medical
+**Methodological home — DS4DH.** Biomedical NLP, information retrieval and machine learning for
+health are WP1's immediate neighbours, and DS4DH has an established record in clinical text mining
+and biomedical entity recognition. This is also a **different department and scientific community**
+from the one in which I trained: the move from global-health epidemiological modelling into medical
 informatics is deliberate.
 
 **Domain home — Institute of Global Health.** The associated affiliation keeps the project
-connected to the epidemiological and public health community in which its questions are posed and
-its results must land, and gives the doctoral researcher access to that training environment.
-`[[Under its incoming direction, and independent of the group in which I previously worked.]]`
+connected to the community in which its questions are posed and its results must land, and gives
+the doctoral researcher that training environment. `[[Under its incoming direction, and independent
+of the group in which I previously worked.]]`
 
 **Access to the operational system.** Through GESICA I work directly with HUG emergency medicine
 and the Geneva emergency response system. The data WP3 and WP4 require are reachable through
@@ -37,9 +36,9 @@ state that it runs with transport-layer security, managed secrets, version-contr
 documented disaster recovery. Do not submit this section until that sentence is true — a
 data-protection reviewer will ask, and the answer is currently the wrong one.]]`
 
-**Unique linked data** for the waterborne archetype: confirmed legionellosis cases in Geneva
-matched to individual hot water installations with technical, meteorological and territorial
-covariates, under ethics approval BASEC 2026-00324.
+**Unique linked data** for the waterborne archetype: Geneva legionellosis cases matched to
+individual hot water installations with technical and environmental covariates, under ethics
+approval BASEC 2026-00324.
 
 **Computing.** `[[UNIGE HPC (Baobab/Yggdrasil) — confirm access and whether the secure analysis
 environment for clinical data is separate.]]`

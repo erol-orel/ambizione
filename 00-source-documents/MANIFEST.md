@@ -40,6 +40,8 @@ from the grants office by email.
 | `legionella-basec-2026-00324-form.pdf` | BASEC 2026-00324 application form — ethics status, funders, data sources. |
 | `gesica-interreg-application-form.pdf` | GESICA Interreg VI France–Suisse application (Sept 2024 – Feb 2027). Partners, objectives, work plan. |
 | `gesica-social-media-data-sources-report.pdf` | GESICA report on social media data sources for weak-signal detection. |
+| `gesica-disease-model-source-table.xlsx` | GESICA reference table: 76 notifiable diseases classified into 8 model classes, 22 Geneva/Vaud surveillance sources with latency and access, and the disease × source matrix. |
+| `gesica-data-foundation-report.docx` | GESICA report on the respiratory disease scope, variables of interest and data sources for Geneva and Vaud. |
 | `ai-in-ems-systematic-review-2026.pdf` | AI in Emergency Medical Services systematic review (submitted Feb 2026), Orel 3rd author, LiteRev used in the methods. |
 
 ## Related repositories

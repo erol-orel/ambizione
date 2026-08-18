@@ -7,14 +7,16 @@
 
 # Title
 
-**COLDSTART — Evidence-informed forecasting of health-system crises when local data are scarce**
+**COLDSTART — Anticipating health-system crises before the outcome is observable**
 
 # Summary
 
-When a health crisis begins, the data needed to forecast it does not yet exist. Emergency
-services and hospitals must decide how many ambulances to staff, how many intensive care beds to
-open and when to escalate, at precisely the moment when the local time series is a handful of
-observations long. The forecasting methods that perform best in steady state — and the ensemble
+When a health crisis begins, context data is abundant and outcome data does not yet exist.
+Weather, demography, mobility, pollution and the entire published literature are available on day
+one; what is missing is any observation of the quantity that must actually be forecast — how many
+people will present, in this population, for this event. Emergency services and hospitals must
+decide how many ambulances to staff, how many beds to open and when to escalate, at precisely the
+moment when that series is a handful of noisy points. The forecasting methods that perform best in steady state — and the ensemble
 infrastructures now organised around them — require years of history, so they are weakest exactly
 where the decisions are most consequential and least reversible.
 
@@ -29,8 +31,8 @@ short window, and therefore available when nothing else is.
 
 This project asks both questions directly. Building on **LiteRev-Evidence**, a production
 literature-synthesis platform I developed that already extracts and pools quantitative parameters
-from a corpus of over 80,000 documents, I will (i) establish how reliably quantitative evidence
-can be extracted automatically and where extraction is systematically biased; (ii) develop a
+from over 80,000 documents, I will (i) establish how reliably quantitative evidence can be
+extracted automatically and where extraction is biased; (ii) develop a
 **Bayesian regime-switching** framework — with extreme value methods for the tail, resilience
 indicators on its transition intensities, and a conformal layer guaranteeing calibrated coverage
 even under misspecification — representing health-system state as latent regimes rather than as a
@@ -64,18 +66,15 @@ question worth four years.
 
 ## 1.1 Forecasting health-system crises: strong in steady state, weak at onset
 
-Anticipating surges in demand for emergency care is an established field with a mature toolkit.
-Syndromic surveillance methods detect departures from an expected baseline: the Farrington
-quasi-Poisson framework [Farrington 1996] and its reweighted "Flexible" extension
-[Noufaily 2013] remain the operational standard across European public health institutions,
-valued for interpretability and specificity across heterogeneous series without per-series
-tuning. For quantitative prediction, seasonal ARIMA variants, decomposition models and — where
-sufficient history exists — recurrent architectures are routinely compared, and ensembles of
-structurally different models consistently outperform their best member. That finding is robust
-enough to have organised the field institutionally: the US COVID-19 Forecast Hub aggregated
-submissions from more than 90 groups, and its ensemble was the most consistently accurate
-probabilistic forecaster of incident deaths over eighteen months [Cramer 2022], with the European
-hub reproducing the pattern across 32 countries [Sherratt 2023].
+Anticipating surges in emergency care demand is an established field with a mature toolkit.
+Syndromic surveillance detects departures from an expected baseline — the Farrington quasi-Poisson
+framework [Farrington 1996] and its reweighted "Flexible" extension [Noufaily 2013] remain the
+European operational standard. For quantitative prediction, seasonal ARIMA, decomposition models
+and, where history allows, recurrent architectures are routinely compared, and ensembles of
+structurally different models consistently outperform their best member — robustly enough to have
+organised the field institutionally, with the US COVID-19 Forecast Hub's ensemble the most
+consistently accurate probabilistic forecaster of incident deaths over eighteen months
+[Cramer 2022] and the European hub reproducing the pattern across 32 countries [Sherratt 2023].
 
 Two features matter here. First, **prehospital data are a leading indicator**: dispatch and
 ambulance records carry syndromic signal ahead of laboratory-confirmed surveillance, capturing
@@ -102,10 +101,27 @@ The early COVID-19 period demonstrated this at scale: forecast quality improved 
 pandemic [Cramer 2022], and that improvement tracked the accumulation of local data at least as
 closely as methodological innovation. The field, in effect, solved the easy regime.
 
-Existing responses are partial: transfer learning and multi-region pooling require other locations
-observed contemporaneously and comparably; mechanistic models function with little data but demand
-parameter values set by hand, from a few familiar papers, with uncertainty asserted rather than
-derived; scenario projection sidesteps prediction altogether.
+It is worth being precise about what is scarce, because the naive statement is wrong. Surveillance
+variables divide into **outcome** variables (confirmed incidence, presentations, occupancy — what
+must be predicted), **early-signal** variables (dispatch call symptoms, wastewater load, web
+search), **susceptibility** variables (vaccination, seroprevalence) and **covariates**
+(environment, contacts, calendar). Only the first class is scarce at onset; the rest are abundant
+and increasingly automatable. The cold-start problem is therefore not a data problem but a
+**labelled-outcome** problem — and it is worse than ordinary small-*n*, because the covariate
+space is simultaneously enormous. Many candidate predictors against twenty outcomes is how Google
+Flu Trends came to overestimate influenza by more than a factor of two [Lazer 2014].
+
+**Early-signal variables relocate the problem rather than solving it.** Wastewater surveillance is
+the clearest case: Switzerland has monitored SARS-CoV-2, influenza and RSV in wastewater since
+2020, and the signal leads clinical presentation. But converting viral load into expected
+presentations requires a shedding-to-incidence calibration, and that calibration is itself a
+quantitative parameter drawn from published studies of uncertain transportability. The early
+signal is only as good as a literature-derived conversion — which is precisely the object this
+project studies.
+
+Other responses are partial: transfer learning requires other locations observed contemporaneously
+and comparably; mechanistic models demand parameter values set by hand from a few familiar papers,
+with uncertainty asserted rather than derived; scenario projection sidesteps prediction.
 
 ## 1.3 The unused resource: published evidence as quantitative prior information
 
@@ -164,13 +180,12 @@ both that the approach is applicable to Swiss hospital data and that the tail be
 non-trivial — which is precisely why the present project treats the critical regime with an
 extreme-value model rather than leaving it to a handful of observed transitions.
 
-**A theoretically motivated route to anticipating transitions.** A separate literature, developed
-in ecology and imported into epidemiology, holds that systems approaching a critical transition
-exhibit **critical slowing down**: fluctuations around the current state recover more slowly from
-perturbation, so their variance and lag-1 autocorrelation rise measurably *before* the transition
-occurs [Scheffer 2009]. The theory has been developed specifically for epidemic transitions
-[O'Regan 2013; Brett 2018] and reviewed comparatively [Southall 2021], and resilience indicators
-of this kind have recently been evaluated at scale across many diseases and regions.
+**A theoretically motivated route to anticipating transitions.** A literature developed in ecology
+and imported into epidemiology holds that systems approaching a critical transition exhibit
+**critical slowing down**: fluctuations recover more slowly from perturbation, so their variance
+and lag-1 autocorrelation rise measurably *before* the transition [Scheffer 2009]. The theory has
+been developed for epidemic transitions [O'Regan 2013; Brett 2018] and reviewed comparatively
+[Southall 2021].
 
 This matters for a non-obvious reason. These indicators are computed from the *shape of recent
 fluctuations*, not from a long history of previous crises, so they are informative in exactly the
@@ -218,12 +233,11 @@ elsewhere.
 For rare adverse states this is a necessity rather than a refinement. An alarming regime is by
 construction infrequent; an accuracy-based criterion rewards a model that never raises the alarm,
 and a threshold optimising AUC bears no relation to the point at which an emergency service can
-act differently. The consequences are documented. Between 72% and 99% of clinical monitoring
-alarms are false or clinically non-actionable, producing override, delayed response and lost trust
-[Winters 2018]; heat–health warning systems set thresholds against a single health proxy, and the
-temperatures at which morbidity and mortality rise differ by several degrees, so systems calibrated
-on deaths misfire on emergency demand [Lee 2021]; and clinical prediction models adhere to a median
-of 44% of TRIPOD items and degrade on external validation [Damen 2025]. That so few forecasting
+act differently. The consequences are documented: 72–99% of clinical monitoring alarms are false or non-actionable,
+producing override and lost trust [Winters 2018]; heat–health warning thresholds are set against a
+single health proxy, though morbidity and mortality thresholds differ by several degrees, so
+systems calibrated on deaths misfire on emergency demand [Lee 2021]; and prediction models adhere
+to a median of 44% of TRIPOD items and degrade on external validation [Damen 2025]. That so few forecasting
 tools are adopted is usually attributed to implementation barriers; a more parsimonious explanation
 is that they were optimised for a quantity nobody needed.
 
@@ -286,22 +300,22 @@ to seroprevalence estimation in ***Nature Communications*** (Nwosu et al., 2021)
 
 ## 2.4 The instrument: LiteRev-Evidence
 
-Since 2024 I have developed **LiteRev-Evidence** (literev-scenario.com), which extends LiteRev
-from retrieval into structured quantitative extraction and modelling. It is a running production
-system, not a prototype:
+Since 2024 I have developed **LiteRev-Evidence** (literev-scenario.com), extending LiteRev from
+retrieval into structured quantitative extraction and modelling. It is a running production
+system, not a prototype: **81,209 documents** and **323,868 embedded passages** ingested
+continuously from PubMed, PMC, OpenAlex, CrossRef and preprint servers by a living-review
+scheduler; structured extraction with provenance, screening state and study-quality scoring;
+**quality-weighted pooling of extracted parameters into distributions**, propagated through
+ensemble simulation — the literature-to-prior mechanism this proposal interrogates, in working
+form; compartmental (SEIR with vaccination and quarantine), time-series and machine-learning
+components with uncertainty bands and calibration to observed data; and connectors to MeteoSwiss,
+Copernicus ERA5, Sentinelles and routing services. Thirty-one operational scenarios have been
+elaborated with emergency-medicine partners.
 
-- a corpus of **81,209 documents** and **323,868 embedded text chunks**, ingested continuously
-  from PubMed, PMC, OpenAlex, CrossRef and preprint servers by a **living-review scheduler**;
-- structured extraction with provenance, screening state and study-quality scoring;
-- **quality-weighted pooling of extracted quantitative parameters, converted into parameter
-  distributions** and propagated through ensemble simulation — the literature-to-prior mechanism
-  this proposal interrogates, in working form;
-- compartmental (SEIR with vaccination and quarantine), time-series and automated
-  machine-learning components, with uncertainty bands and calibration to observed data;
-- operational connectors to MeteoSwiss, Copernicus ERA5, Sentinelles and routing services.
-
-Thirty-one operational scenarios have been elaborated with emergency-medicine partners, spanning
-epidemic early warning, cardiac arrest, EMS demand, heatwave impact and surge management.
+For GESICA I built the Geneva–Vaud data foundation: a classification of 76 notifiable diseases
+into eight model classes by transmission mode, and an inventory of 22 surveillance sources with
+their latency, granularity, access route and known completeness. That work is why the validation
+archetypes here are chosen by **model class** rather than by convenience.
 
 **This is what makes the proposed research feasible rather than aspirational.** The proposal is
 not to build this system. It is to use it to answer the question it raises: the platform will
@@ -418,21 +432,23 @@ criteria rather than accuracy.
 The hypotheses are tested across crisis archetypes chosen for **contrast in dynamics**, not for
 convenience:
 
-| Archetype | Dynamics | Data |
+| Archetype (model class) | Dynamics | Data |
 | --- | --- | --- |
-| **Respiratory epidemic** | Transmissible, multi-wave, strong seasonality | COVID-19 waves, influenza seasons `[[HUG ED, 144/CASU, ICU occupancy]]` |
-| **Heatwave** | Environmentally forced, short, sharply peaked, no transmission | `[[MeteoSwiss + HUG/144 — 2003, 2015, 2018, 2022, 2023]]` |
-| **Waterborne outbreak** *(extension)* | Point-source or diffuse, environmentally mediated, long latency | Geneva legionellosis, linked to installations (BASEC 2026-00324) |
+| **Respiratory epidemic** (M1, person-to-person SEIR) | Transmissible, multi-wave, seasonal | COVID-19 waves, influenza seasons `[[HUG ED, 144/CASU, ICU]]`, wastewater |
+| **Heatwave** (environmental, non-transmissible) | Forced, short, sharply peaked | `[[MeteoSwiss + HUG/144 — 2003, 2015, 2018, 2022, 2023]]`; includes pollution-driven respiratory exacerbations |
+| **Waterborne outbreak** (M4, common source) *(extension)* | Point-source or diffuse, environmentally mediated | Geneva legionellosis linked to installations (BASEC 2026-00324) |
 
-Two archetypes constitute the core claim; the third is scoped as an extension in year 4 and is
-declared as such rather than promised.
+The classes are not arbitrary: in the disease-to-model classification I built for GESICA, M1 and
+M4 together account for 32 of 76 notifiable diseases, so testing across them is a **coverage**
+claim rather than a convenience one.
 
-## What this project does not claim
+Two archetypes carry the core claim; the third is scoped as a year-4 extension and declared as
+such rather than promised.
 
-It does not aim to deploy an early-warning system for Geneva, nor to outperform established
-forecast hubs in the data-rich regime. It answers a specific methodological question with
-operational consequences, leaving an open validated framework and an honest account of where the
-approach fails.
+**What this project does not claim.** It does not aim to deploy an early-warning system for
+Geneva, nor to outperform established forecast hubs in the data-rich regime. It answers a
+methodological question with operational consequences, leaving an open validated framework and an
+honest account of where the approach fails.
 
 
 ---
@@ -456,10 +472,9 @@ serve as priors, and what is the structure of the error?
 
 ### Tasks
 
-**T1.1 — Define the extractable parameter classes (M1–M4).**
-Fix in advance, with justification, the classes in scope: weather–demand associations, surge
-magnitudes (peak-to-baseline ratios), transmission parameters, length-of-stay and occupancy
-distributions. Register the extraction protocol before running it.
+**T1.1 — Define the extractable parameter classes (M1–M4).** Fix in advance, with justification:
+weather–demand associations, surge magnitudes, transmission parameters, shedding-to-incidence
+conversions, length-of-stay and occupancy distributions. Register the protocol before running it.
 
 **T1.2 — Build a gold-standard benchmark (M3–M10).**
 Two independent expert extractors manually extract the target parameters from a stratified random
@@ -481,10 +496,9 @@ a prior carries both between-study heterogeneity and extraction uncertainty. Com
 strategies: naive inverse-variance, quality-weighted (as implemented), meta-analytic-predictive,
 power-prior discounting.
 
-**T1.5 — Transportability assessment (M18–M24).**
-For each parameter class, assess formally whether the study populations support transport to
-Geneva: characterise effect-modifier distributions and, where transport is unsupported, quantify
-the resulting bias rather than assuming it away.
+**T1.5 — Transportability (M18–M24).** For each parameter class, assess whether the study
+populations support transport to Geneva: characterise effect-modifier distributions and, where
+transport is unsupported, quantify the resulting bias rather than assuming it away.
 
 ### Sample size for the benchmark
 
@@ -563,6 +577,9 @@ Power-prior discounting [Ibrahim 2000] and commensurate priors [Hobbs 2011] are 
 comparators, so the choice of borrowing mechanism is evaluated rather than assumed.
 
 **T2.4 — Baselines and comparators (M12–M22).**
+The covariate space is **pre-specified and justified** rather than discovered — weather,
+demography, calendar, epidemic and early-signal indicators, each with a stated rationale. Anything
+found by automated search is reported as exploratory and validated on a held-out crisis.
 Pre-specify the comparison set so evaluation cannot be tuned after the fact: seasonal naive;
 Farrington-style detection, including a variant designed for short baselines [Yoneoka 2021];
 SARIMA/Prophet with thresholding; gradient boosting with weather features; a compartmental
@@ -588,6 +605,15 @@ safety net for H3b: if an evidence-derived prior is badly wrong, Bayesian credib
 inherit the error, whereas conformal intervals retain their coverage guarantee. For a decision
 layer this is the difference between a threshold that is unsafe when the model is misspecified and
 one that is not.
+
+**Simulation is prior information, not data.** A compartmental model parameterised from the
+literature can generate arbitrarily many trajectories, and fitting to them would tighten the
+posterior without adding information — counting the same prior twice, and disabling the
+prior–data discrepancy diagnostic H3b depends on, since a prior cannot conflict with its own
+output. Mechanistic simulation is therefore used in three declared ways only: to characterise an
+intractable likelihood before confronting it with real observations; to impose structural
+constraints on the hypothesis space; and for prior predictive checking, which is run as standard.
+Generated trajectories are never treated as observations.
 
 **T2.7 — Implementation (M18–M30).** Documented, open reference implementation, integrated with
 the existing platform.
@@ -744,14 +770,14 @@ are delayed; WP4's core analysis is retrospective and needs no deployment. Seria
 uncertain result is the standard feasibility objection to four-year plans, and the design removes
 it.
 
-| Milestone | Month | Criterion |
+| Milestone | M | Criterion |
 | --- | --- | --- |
-| M1 — Extraction benchmark complete | 10 | D1.1 released |
-| M2 — Regime model identifiable in simulation | 12 | Recovery demonstrated; else fallback triggered |
-| M3 — Operational data in place | 20 | Agreements executed and data harmonised; else fallback triggered |
-| M4 — Cold-start result | 32 | H3a tested with pre-specified comparators |
-| M5 — Decision-analytic evaluation | 40 | H4 tested |
-| M6 — Prospective validation | 48 | T4.5 reported |
+| M1 Extraction benchmark | 10 | D1.1 released |
+| M2 Regime model identifiable | 12 | Recovery demonstrated in simulation, else fallback |
+| M3 Operational data in place | 20 | Agreements executed and data harmonised, else fallback |
+| M4 Cold-start result | 32 | H3a tested against pre-specified comparators |
+| M5 Decision-analytic evaluation | 40 | H4 tested |
+| M6 Prospective validation | 48 | T4.5 reported |
 
 ## Methods, data protection and reproducibility
 
@@ -764,31 +790,19 @@ equivalents provided for reproducibility.
 
 ---
 
-## Consolidated risk register
+## Risks
 
-| # | Risk | L | I | Mitigation | Fallback trigger |
-| --- | --- | --- | --- | --- | --- |
-| R1 | Operational data delayed or refused | M | **H** | Agreements pre-award with letters attached; hardening done in advance; WP3 fallback to open surveillance plus the Legionella linkage | M20 missed |
-| R2 | Regime model weakly identified | M | H | Simulation study in T2.1 before application; fall back to an ordinal state-space form | M12 recovery poor |
-| R3 | Extraction too unreliable for priors | M | L | A result, not a failure: answers O1, settles O3 negatively; WP2–3 proceed under weak priors | T1.3 outcome |
-| R4 | Too few critical-regime episodes | **H** | M | Extreme-value tail model (T2.2) exists for this; pool across series and archetypes; power stated in advance | Known at T3.1 |
-| R5 | Shadow deployment refused, or a quiet period | M | L | T4.2 stands alone; T4.5 scoped as calibration validation, not a crisis test | M36 |
-| R6 | Doctoral recruitment delay | L | M | WP2 is PI-executed; WP1 benchmark design proceeds | M3 |
-| R7 | Overlap with GESICA or Horizon | L | M | Delimitation in §5, declared in mySNF; outputs inferential, theirs infrastructural | Ongoing |
-
-R4 is intrinsic rather than circumstantial: the critical regime is rare by definition, and no
-amount of data collection within four years changes that. It is why the design imports extreme
-value methods and resilience indicators rather than relying on the regime model alone, and why
-evaluation is decision-analytic rather than accuracy-based.
+Each work package states its own risk and mitigation above. Two are handled by design rather than
+mitigation, and are worth naming: extraction proving too unreliable for priors is a *result* that
+answers O1 and settles O3, not a failure; and scarcity of critical-regime episodes is intrinsic
+rather than circumstantial, which is why the design imports extreme value methods and resilience
+indicators rather than relying on the regime model alone.
 
 ## Expected outputs
 
-Four to six papers, plus two open resources — the extraction benchmark (M10–M14) and the
-regime-switching software (M24–M30). Sequence: extraction benchmark and error characterisation
-(M14–M24); methods paper on the regime framework (M24–M30); the cold-start result (M32–M38);
-decision-analytic and counterfactual evaluation (M40–M44); prospective validation (M46–M48). The
-doctoral researcher is first author on the benchmark and evaluation work.
-`[[Adjust to field norms — credible rather than maximal.]]`
+Four to six papers and two open resources — the extraction benchmark (M14) and the
+regime-switching software (M30) — with the doctoral researcher first author on the benchmark and
+evaluation work.
 
 
 ---
@@ -883,20 +897,19 @@ Desmettre, Dr Robert Larribau — confirm titles and agreed roles]]`.
 
 ## 6.1 Why this environment
 
-The project sits at the intersection of three fields, and the hosting arrangement reflects that
-structure rather than hedging between options.
+The project sits at the intersection of three fields and the hosting arrangement reflects that
+structure rather than hedging.
 
-**Methodological home — DS4DH.** Biomedical natural language processing, information retrieval and
-machine learning for health are the immediate neighbours of WP1, and DS4DH has an established
-record in clinical text mining and biomedical entity recognition. This is also a **different
-department and a different scientific community** from the one in which my doctoral and
-postdoctoral work was conducted: the move from global-health epidemiological modelling into medical
+**Methodological home — DS4DH.** Biomedical NLP, information retrieval and machine learning for
+health are WP1's immediate neighbours, and DS4DH has an established record in clinical text mining
+and biomedical entity recognition. This is also a **different department and scientific community**
+from the one in which I trained: the move from global-health epidemiological modelling into medical
 informatics is deliberate.
 
 **Domain home — Institute of Global Health.** The associated affiliation keeps the project
-connected to the epidemiological and public health community in which its questions are posed and
-its results must land, and gives the doctoral researcher access to that training environment.
-`[[Under its incoming direction, and independent of the group in which I previously worked.]]`
+connected to the community in which its questions are posed and its results must land, and gives
+the doctoral researcher that training environment. `[[Under its incoming direction, and independent
+of the group in which I previously worked.]]`
 
 **Access to the operational system.** Through GESICA I work directly with HUG emergency medicine
 and the Geneva emergency response system. The data WP3 and WP4 require are reachable through
@@ -912,9 +925,9 @@ state that it runs with transport-layer security, managed secrets, version-contr
 documented disaster recovery. Do not submit this section until that sentence is true — a
 data-protection reviewer will ask, and the answer is currently the wrong one.]]`
 
-**Unique linked data** for the waterborne archetype: confirmed legionellosis cases in Geneva
-matched to individual hot water installations with technical, meteorological and territorial
-covariates, under ethics approval BASEC 2026-00324.
+**Unique linked data** for the waterborne archetype: Geneva legionellosis cases matched to
+individual hot water installations with technical and environmental covariates, under ethics
+approval BASEC 2026-00324.
 
 **Computing.** `[[UNIGE HPC (Baobab/Yggdrasil) — confirm access and whether the secure analysis
 environment for clinical data is separate.]]`

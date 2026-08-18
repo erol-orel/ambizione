@@ -2,18 +2,15 @@
 
 ## 1.1 Forecasting health-system crises: strong in steady state, weak at onset
 
-Anticipating surges in demand for emergency care is an established field with a mature toolkit.
-Syndromic surveillance methods detect departures from an expected baseline: the Farrington
-quasi-Poisson framework [Farrington 1996] and its reweighted "Flexible" extension
-[Noufaily 2013] remain the operational standard across European public health institutions,
-valued for interpretability and specificity across heterogeneous series without per-series
-tuning. For quantitative prediction, seasonal ARIMA variants, decomposition models and — where
-sufficient history exists — recurrent architectures are routinely compared, and ensembles of
-structurally different models consistently outperform their best member. That finding is robust
-enough to have organised the field institutionally: the US COVID-19 Forecast Hub aggregated
-submissions from more than 90 groups, and its ensemble was the most consistently accurate
-probabilistic forecaster of incident deaths over eighteen months [Cramer 2022], with the European
-hub reproducing the pattern across 32 countries [Sherratt 2023].
+Anticipating surges in emergency care demand is an established field with a mature toolkit.
+Syndromic surveillance detects departures from an expected baseline — the Farrington quasi-Poisson
+framework [Farrington 1996] and its reweighted "Flexible" extension [Noufaily 2013] remain the
+European operational standard. For quantitative prediction, seasonal ARIMA, decomposition models
+and, where history allows, recurrent architectures are routinely compared, and ensembles of
+structurally different models consistently outperform their best member — robustly enough to have
+organised the field institutionally, with the US COVID-19 Forecast Hub's ensemble the most
+consistently accurate probabilistic forecaster of incident deaths over eighteen months
+[Cramer 2022] and the European hub reproducing the pattern across 32 countries [Sherratt 2023].
 
 Two features matter here. First, **prehospital data are a leading indicator**: dispatch and
 ambulance records carry syndromic signal ahead of laboratory-confirmed surveillance, capturing
@@ -40,10 +37,27 @@ The early COVID-19 period demonstrated this at scale: forecast quality improved 
 pandemic [Cramer 2022], and that improvement tracked the accumulation of local data at least as
 closely as methodological innovation. The field, in effect, solved the easy regime.
 
-Existing responses are partial: transfer learning and multi-region pooling require other locations
-observed contemporaneously and comparably; mechanistic models function with little data but demand
-parameter values set by hand, from a few familiar papers, with uncertainty asserted rather than
-derived; scenario projection sidesteps prediction altogether.
+It is worth being precise about what is scarce, because the naive statement is wrong. Surveillance
+variables divide into **outcome** variables (confirmed incidence, presentations, occupancy — what
+must be predicted), **early-signal** variables (dispatch call symptoms, wastewater load, web
+search), **susceptibility** variables (vaccination, seroprevalence) and **covariates**
+(environment, contacts, calendar). Only the first class is scarce at onset; the rest are abundant
+and increasingly automatable. The cold-start problem is therefore not a data problem but a
+**labelled-outcome** problem — and it is worse than ordinary small-*n*, because the covariate
+space is simultaneously enormous. Many candidate predictors against twenty outcomes is how Google
+Flu Trends came to overestimate influenza by more than a factor of two [Lazer 2014].
+
+**Early-signal variables relocate the problem rather than solving it.** Wastewater surveillance is
+the clearest case: Switzerland has monitored SARS-CoV-2, influenza and RSV in wastewater since
+2020, and the signal leads clinical presentation. But converting viral load into expected
+presentations requires a shedding-to-incidence calibration, and that calibration is itself a
+quantitative parameter drawn from published studies of uncertain transportability. The early
+signal is only as good as a literature-derived conversion — which is precisely the object this
+project studies.
+
+Other responses are partial: transfer learning requires other locations observed contemporaneously
+and comparably; mechanistic models demand parameter values set by hand from a few familiar papers,
+with uncertainty asserted rather than derived; scenario projection sidesteps prediction.
 
 ## 1.3 The unused resource: published evidence as quantitative prior information
 
@@ -102,13 +116,12 @@ both that the approach is applicable to Swiss hospital data and that the tail be
 non-trivial — which is precisely why the present project treats the critical regime with an
 extreme-value model rather than leaving it to a handful of observed transitions.
 
-**A theoretically motivated route to anticipating transitions.** A separate literature, developed
-in ecology and imported into epidemiology, holds that systems approaching a critical transition
-exhibit **critical slowing down**: fluctuations around the current state recover more slowly from
-perturbation, so their variance and lag-1 autocorrelation rise measurably *before* the transition
-occurs [Scheffer 2009]. The theory has been developed specifically for epidemic transitions
-[O'Regan 2013; Brett 2018] and reviewed comparatively [Southall 2021], and resilience indicators
-of this kind have recently been evaluated at scale across many diseases and regions.
+**A theoretically motivated route to anticipating transitions.** A literature developed in ecology
+and imported into epidemiology holds that systems approaching a critical transition exhibit
+**critical slowing down**: fluctuations recover more slowly from perturbation, so their variance
+and lag-1 autocorrelation rise measurably *before* the transition [Scheffer 2009]. The theory has
+been developed for epidemic transitions [O'Regan 2013; Brett 2018] and reviewed comparatively
+[Southall 2021].
 
 This matters for a non-obvious reason. These indicators are computed from the *shape of recent
 fluctuations*, not from a long history of previous crises, so they are informative in exactly the
@@ -156,12 +169,11 @@ elsewhere.
 For rare adverse states this is a necessity rather than a refinement. An alarming regime is by
 construction infrequent; an accuracy-based criterion rewards a model that never raises the alarm,
 and a threshold optimising AUC bears no relation to the point at which an emergency service can
-act differently. The consequences are documented. Between 72% and 99% of clinical monitoring
-alarms are false or clinically non-actionable, producing override, delayed response and lost trust
-[Winters 2018]; heat–health warning systems set thresholds against a single health proxy, and the
-temperatures at which morbidity and mortality rise differ by several degrees, so systems calibrated
-on deaths misfire on emergency demand [Lee 2021]; and clinical prediction models adhere to a median
-of 44% of TRIPOD items and degrade on external validation [Damen 2025]. That so few forecasting
+act differently. The consequences are documented: 72–99% of clinical monitoring alarms are false or non-actionable,
+producing override and lost trust [Winters 2018]; heat–health warning thresholds are set against a
+single health proxy, though morbidity and mortality thresholds differ by several degrees, so
+systems calibrated on deaths misfire on emergency demand [Lee 2021]; and prediction models adhere
+to a median of 44% of TRIPOD items and degrade on external validation [Damen 2025]. That so few forecasting
 tools are adopted is usually attributed to implementation barriers; a more parsimonious explanation
 is that they were optimised for a quantity nobody needed.
 

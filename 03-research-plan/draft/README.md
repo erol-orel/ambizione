@@ -34,27 +34,25 @@ Alternatives if the acronym grates:
 - *From published evidence to actionable early warning: quantifying when synthesised literature
   improves crisis forecasting*
 
-## If you need to cut
+## You need to cut ~1,500 characters
 
-The plan is **at 100% of the assumed 60,000-character limit**. If the real limit is lower, or the
-SNSF counts differently, cut in this order — each item is genuinely severable:
+The plan is **~61,500 against an assumed 60,000**. I stopped compressing rather than keep
+degrading the prose — the document now contains more good material than the format allows, and
+choosing what leaves is the remaining editorial act. **Verify the real limit first**; if it is
+genuinely 60,000, the three cuts marked ★ clear it with the least loss.
 
-1. **§4 T3.5 waterborne archetype** (~400 ch). Already scoped as an extension; the cleanest cut.
-2. **§4 T4.3 value of information** (~350 ch). Elegant, but the least load-bearing task.
-3. **§1.2 paragraph on partial existing responses** (~450 ch). Compress to one sentence.
-4. **§6.4 preparatory work** (~700 ch). Move into the mobility statement or a cover note.
-5. **§4 consolidated risk register** — keep the table, cut the R4 commentary (~400 ch).
+| Cut | Saves | Damage |
+| --- | --- | --- |
+| ★ §1.1 — compress the forecast-hub detail to two sentences | ~500 | Low. The hubs matter as context, not as argument |
+| ★ §6.2 — turn the commitments table into prose | ~500 | Low. The content survives; only the layout goes |
+| ★ §2.3 — compress the Swiss outbreak-modelling paragraph | ~400 | Low. The *F1000Research* point is what carries it |
+| §4 T2.6 — fold the conformal layer into T2.2 as one sentence | ~450 | Moderate. It is the safety net for H3b |
+| §4 T4.3 — drop the equity audit | ~700 | Moderate. The SNSF assesses this dimension explicitly |
+| §3 — drop the heatwave archetype to extension status | ~600 | High. Weakens the generalisability claim to a single core archetype |
 
-Do **not** cut: the identifiability risk in T2.1, the WP3 data fallback, or the §5 delimitation
-table. Each pre-empts a specific objection a referee will otherwise raise unanswered.
-
-## Current length
-
-**~60,600 characters against an assumed 60,000 limit — roughly 600 over**, and the counter here is
-approximate (it strips markdown imperfectly). **Verify the real limit before cutting anything.**
-If it is 60,000, one item from the cut list above clears it.
-Run `sh wordcount.sh` after each edit. Both figures are drawn and linked from §3 and §4. They consume page budget rather than
-characters, so check both limits when you typeset.
+Do **not** cut: the T2.1 identifiability risk, the WP3 data fallback, the §5 delimitation table,
+or the simulation-as-prior paragraph in WP2. Each pre-empts a specific objection that would
+otherwise arrive unanswered.
 
 ## Open decisions blocking completion
 

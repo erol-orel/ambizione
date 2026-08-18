@@ -83,18 +83,20 @@ criteria rather than accuracy.
 The hypotheses are tested across crisis archetypes chosen for **contrast in dynamics**, not for
 convenience:
 
-| Archetype | Dynamics | Data |
+| Archetype (model class) | Dynamics | Data |
 | --- | --- | --- |
-| **Respiratory epidemic** | Transmissible, multi-wave, strong seasonality | COVID-19 waves, influenza seasons `[[HUG ED, 144/CASU, ICU occupancy]]` |
-| **Heatwave** | Environmentally forced, short, sharply peaked, no transmission | `[[MeteoSwiss + HUG/144 — 2003, 2015, 2018, 2022, 2023]]` |
-| **Waterborne outbreak** *(extension)* | Point-source or diffuse, environmentally mediated, long latency | Geneva legionellosis, linked to installations (BASEC 2026-00324) |
+| **Respiratory epidemic** (M1, person-to-person SEIR) | Transmissible, multi-wave, seasonal | COVID-19 waves, influenza seasons `[[HUG ED, 144/CASU, ICU]]`, wastewater |
+| **Heatwave** (environmental, non-transmissible) | Forced, short, sharply peaked | `[[MeteoSwiss + HUG/144 — 2003, 2015, 2018, 2022, 2023]]`; includes pollution-driven respiratory exacerbations |
+| **Waterborne outbreak** (M4, common source) *(extension)* | Point-source or diffuse, environmentally mediated | Geneva legionellosis linked to installations (BASEC 2026-00324) |
 
-Two archetypes constitute the core claim; the third is scoped as an extension in year 4 and is
-declared as such rather than promised.
+The classes are not arbitrary: in the disease-to-model classification I built for GESICA, M1 and
+M4 together account for 32 of 76 notifiable diseases, so testing across them is a **coverage**
+claim rather than a convenience one.
 
-## What this project does not claim
+Two archetypes carry the core claim; the third is scoped as a year-4 extension and declared as
+such rather than promised.
 
-It does not aim to deploy an early-warning system for Geneva, nor to outperform established
-forecast hubs in the data-rich regime. It answers a specific methodological question with
-operational consequences, leaving an open validated framework and an honest account of where the
-approach fails.
+**What this project does not claim.** It does not aim to deploy an early-warning system for
+Geneva, nor to outperform established forecast hubs in the data-rich regime. It answers a
+methodological question with operational consequences, leaving an open validated framework and an
+honest account of where the approach fails.

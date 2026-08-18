@@ -17,10 +17,9 @@ serve as priors, and what is the structure of the error?
 
 ### Tasks
 
-**T1.1 — Define the extractable parameter classes (M1–M4).**
-Fix in advance, with justification, the classes in scope: weather–demand associations, surge
-magnitudes (peak-to-baseline ratios), transmission parameters, length-of-stay and occupancy
-distributions. Register the extraction protocol before running it.
+**T1.1 — Define the extractable parameter classes (M1–M4).** Fix in advance, with justification:
+weather–demand associations, surge magnitudes, transmission parameters, shedding-to-incidence
+conversions, length-of-stay and occupancy distributions. Register the protocol before running it.
 
 **T1.2 — Build a gold-standard benchmark (M3–M10).**
 Two independent expert extractors manually extract the target parameters from a stratified random
@@ -42,10 +41,9 @@ a prior carries both between-study heterogeneity and extraction uncertainty. Com
 strategies: naive inverse-variance, quality-weighted (as implemented), meta-analytic-predictive,
 power-prior discounting.
 
-**T1.5 — Transportability assessment (M18–M24).**
-For each parameter class, assess formally whether the study populations support transport to
-Geneva: characterise effect-modifier distributions and, where transport is unsupported, quantify
-the resulting bias rather than assuming it away.
+**T1.5 — Transportability (M18–M24).** For each parameter class, assess whether the study
+populations support transport to Geneva: characterise effect-modifier distributions and, where
+transport is unsupported, quantify the resulting bias rather than assuming it away.
 
 ### Sample size for the benchmark
 
@@ -124,6 +122,9 @@ Power-prior discounting [Ibrahim 2000] and commensurate priors [Hobbs 2011] are 
 comparators, so the choice of borrowing mechanism is evaluated rather than assumed.
 
 **T2.4 — Baselines and comparators (M12–M22).**
+The covariate space is **pre-specified and justified** rather than discovered — weather,
+demography, calendar, epidemic and early-signal indicators, each with a stated rationale. Anything
+found by automated search is reported as exploratory and validated on a held-out crisis.
 Pre-specify the comparison set so evaluation cannot be tuned after the fact: seasonal naive;
 Farrington-style detection, including a variant designed for short baselines [Yoneoka 2021];
 SARIMA/Prophet with thresholding; gradient boosting with weather features; a compartmental
@@ -149,6 +150,15 @@ safety net for H3b: if an evidence-derived prior is badly wrong, Bayesian credib
 inherit the error, whereas conformal intervals retain their coverage guarantee. For a decision
 layer this is the difference between a threshold that is unsafe when the model is misspecified and
 one that is not.
+
+**Simulation is prior information, not data.** A compartmental model parameterised from the
+literature can generate arbitrarily many trajectories, and fitting to them would tighten the
+posterior without adding information — counting the same prior twice, and disabling the
+prior–data discrepancy diagnostic H3b depends on, since a prior cannot conflict with its own
+output. Mechanistic simulation is therefore used in three declared ways only: to characterise an
+intractable likelihood before confronting it with real observations; to impose structural
+constraints on the hypothesis space; and for prior predictive checking, which is run as standard.
+Generated trajectories are never treated as observations.
 
 **T2.7 — Implementation (M18–M30).** Documented, open reference implementation, integrated with
 the existing platform.
@@ -305,14 +315,14 @@ are delayed; WP4's core analysis is retrospective and needs no deployment. Seria
 uncertain result is the standard feasibility objection to four-year plans, and the design removes
 it.
 
-| Milestone | Month | Criterion |
+| Milestone | M | Criterion |
 | --- | --- | --- |
-| M1 — Extraction benchmark complete | 10 | D1.1 released |
-| M2 — Regime model identifiable in simulation | 12 | Recovery demonstrated; else fallback triggered |
-| M3 — Operational data in place | 20 | Agreements executed and data harmonised; else fallback triggered |
-| M4 — Cold-start result | 32 | H3a tested with pre-specified comparators |
-| M5 — Decision-analytic evaluation | 40 | H4 tested |
-| M6 — Prospective validation | 48 | T4.5 reported |
+| M1 Extraction benchmark | 10 | D1.1 released |
+| M2 Regime model identifiable | 12 | Recovery demonstrated in simulation, else fallback |
+| M3 Operational data in place | 20 | Agreements executed and data harmonised, else fallback |
+| M4 Cold-start result | 32 | H3a tested against pre-specified comparators |
+| M5 Decision-analytic evaluation | 40 | H4 tested |
+| M6 Prospective validation | 48 | T4.5 reported |
 
 ## Methods, data protection and reproducibility
 
@@ -325,28 +335,16 @@ equivalents provided for reproducibility.
 
 ---
 
-## Consolidated risk register
+## Risks
 
-| # | Risk | L | I | Mitigation | Fallback trigger |
-| --- | --- | --- | --- | --- | --- |
-| R1 | Operational data delayed or refused | M | **H** | Agreements pre-award with letters attached; hardening done in advance; WP3 fallback to open surveillance plus the Legionella linkage | M20 missed |
-| R2 | Regime model weakly identified | M | H | Simulation study in T2.1 before application; fall back to an ordinal state-space form | M12 recovery poor |
-| R3 | Extraction too unreliable for priors | M | L | A result, not a failure: answers O1, settles O3 negatively; WP2–3 proceed under weak priors | T1.3 outcome |
-| R4 | Too few critical-regime episodes | **H** | M | Extreme-value tail model (T2.2) exists for this; pool across series and archetypes; power stated in advance | Known at T3.1 |
-| R5 | Shadow deployment refused, or a quiet period | M | L | T4.2 stands alone; T4.5 scoped as calibration validation, not a crisis test | M36 |
-| R6 | Doctoral recruitment delay | L | M | WP2 is PI-executed; WP1 benchmark design proceeds | M3 |
-| R7 | Overlap with GESICA or Horizon | L | M | Delimitation in §5, declared in mySNF; outputs inferential, theirs infrastructural | Ongoing |
-
-R4 is intrinsic rather than circumstantial: the critical regime is rare by definition, and no
-amount of data collection within four years changes that. It is why the design imports extreme
-value methods and resilience indicators rather than relying on the regime model alone, and why
-evaluation is decision-analytic rather than accuracy-based.
+Each work package states its own risk and mitigation above. Two are handled by design rather than
+mitigation, and are worth naming: extraction proving too unreliable for priors is a *result* that
+answers O1 and settles O3, not a failure; and scarcity of critical-regime episodes is intrinsic
+rather than circumstantial, which is why the design imports extreme value methods and resilience
+indicators rather than relying on the regime model alone.
 
 ## Expected outputs
 
-Four to six papers, plus two open resources — the extraction benchmark (M10–M14) and the
-regime-switching software (M24–M30). Sequence: extraction benchmark and error characterisation
-(M14–M24); methods paper on the regime framework (M24–M30); the cold-start result (M32–M38);
-decision-analytic and counterfactual evaluation (M40–M44); prospective validation (M46–M48). The
-doctoral researcher is first author on the benchmark and evaluation work.
-`[[Adjust to field norms — credible rather than maximal.]]`
+Four to six papers and two open resources — the extraction benchmark (M14) and the
+regime-switching software (M30) — with the doctoral researcher first author on the benchmark and
+evaluation work.
