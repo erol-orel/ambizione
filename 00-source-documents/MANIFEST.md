@@ -42,14 +42,17 @@ from the grants office by email.
 | `gesica-social-media-data-sources-report.pdf` | GESICA report on social media data sources for weak-signal detection. |
 | `ai-in-ems-systematic-review-2026.pdf` | AI in Emergency Medical Services systematic review (submitted Feb 2026), Orel 3rd author, LiteRev used in the methods. |
 
+## Related repositories
+
+- **`github.com/erol-orel/LiteRev-Evidence`** — the platform behind literev-scenario.com.
+  Deliberately *not* vendored here: separate project, own history, and its git history contains
+  credential material. Assessed in `03-research-plan/literev-evidence-assessment.md`.
+
 ## Still to add
 
 - [ ] **Written data-access commitments: HUG ED, 144/CASU, ICU occupancy.** The load-bearing
       assumption of Candidate D — see `03-research-plan/candidate-D-crisis-forecasting.md`
 - [ ] The Horizon proposal's final submitted version, for the overlap declaration
-- [ ] literev-scenario.com — a description of the tool's current state (the site is blocked from
-      this environment, so I could not read it; a few paragraphs or a screenshot would let me
-      write the feasibility argument properly)
 - [ ] Ambizione applications from UNIGE colleagues that were funded (ask the ISG and the grants office — this is normal and the best single reference you can get)
 - [ ] Your PhD thesis defence certificate with the exact date
 - [ ] SIG / OCEN / cantonal doctor data agreements and letters of support

@@ -193,6 +193,30 @@ Item 2 is the one that can kill the application. Do it first.
 
 ---
 
+## Addendum 2 — LiteRev-Evidence is far more built than I assumed
+
+See `literev-evidence-assessment.md`. In short: 81,209 documents, 323,868 embedded chunks, a
+live production stack, SEIR ensemble modelling, AutoML, and — critically —
+`pool_weighted()` / `params_to_distributions()` in `seir_model.py`, which is
+**literature-to-prior elicitation already implemented**. WP1 as I sketched it above is not work
+to be done; it is work you have a prototype of.
+
+Two consequences:
+
+1. **The preliminary-work section becomes exceptionally strong.** Section 2 of the research plan
+   writes itself, and it is the section that establishes both expertise and independence.
+2. **The argument against pitching a tool becomes decisive rather than advisory.** A referee who
+   visits literev-scenario.com will see the platform largely exists. Proposing to build it means
+   proposing your own completed work. The system is precisely what earns you the right to ask the
+   harder question instead.
+
+There is also a **prerequisite on the critical path** that was not visible before: the live system
+has no TLS and had a credential exposed in a public CI log. You will not get an HUG / 144 / ICU
+data agreement in that state, and those agreements are the load-bearing assumption of this whole
+proposal. Harden first, then request data. Details and actions in the assessment file.
+
+---
+
 ## Addendum — the Horizon proposal changes one thing materially
 
 `Internal_Hject5.xlsx` is a Horizon Europe consortium proposal on AI for pandemic preparedness
