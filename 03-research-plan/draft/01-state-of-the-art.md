@@ -40,10 +40,10 @@ The early COVID-19 period demonstrated this at scale: forecast quality improved 
 pandemic [Cramer 2022], and that improvement tracked the accumulation of local data at least as
 closely as methodological innovation. The field, in effect, solved the easy regime.
 
-Existing responses are partial. Transfer learning and multi-region pooling require other locations
-to be observed contemporaneously and comparably. Mechanistic models function with little data but
-demand parameter values that in practice are set by hand, from a few familiar papers, with
-uncertainty asserted rather than derived. Scenario projection sidesteps prediction altogether.
+Existing responses are partial: transfer learning and multi-region pooling require other locations
+observed contemporaneously and comparably; mechanistic models function with little data but demand
+parameter values set by hand, from a few familiar papers, with uncertainty asserted rather than
+derived; scenario projection sidesteps prediction altogether.
 
 ## 1.3 The unused resource: published evidence as quantitative prior information
 
@@ -52,14 +52,14 @@ demand associations, surge multipliers, transmission parameters, intervention ef
 length-of-stay distributions have been estimated many times, in many settings, and reported in a
 literature that is large, indexed and machine-readable.
 
-The statistical machinery for using such information is well developed. Power priors discount
-historical data by an explicit weight [Ibrahim 2000]; commensurate priors tie the discount to
-agreement between sources [Hobbs 2011]; meta-analytic-predictive priors derive a prior for a new
-setting from a random-effects synthesis of previous ones, with robust mixture variants that
-protect against prior–data conflict [Schmidli 2014].
+The statistical machinery is well developed: power priors discount historical data by an explicit
+weight [Ibrahim 2000], commensurate priors tie the discount to agreement between sources
+[Hobbs 2011], and meta-analytic-predictive priors derive a prior for a new setting from a
+random-effects synthesis of previous ones, with robust mixtures protecting against prior–data
+conflict [Schmidli 2014].
 
-What is missing is the link between this machinery and operational forecasting, and it is missing
-for two substantive reasons rather than by oversight.
+What is missing is the link to operational forecasting, and it is missing for two substantive
+reasons rather than by oversight.
 
 **Extraction.** Converting a corpus into quantitative estimates with usable uncertainty is hard.
 Effect measures are reported inconsistently, populations and exposure definitions differ, and
@@ -72,13 +72,12 @@ on the quantities a prior needs. What is unestablished is the *structure* of tha
 estimates are pooled: whether the distributions are merely noisy or systematically too narrow.
 
 **Transportability.** Even a perfectly extracted estimate may not transfer. The formal literature
-establishes when an effect estimated in one population identifies a quantity in another, via
-selection diagrams and do-calculus [Bareinboim 2016], via sampling-score reweighting in the
-potential-outcomes tradition [Dahabreh 2019], and as reviewed comparatively by [Degtiar 2023].
-The conditions are demanding. A prior built from studies conducted under different health systems,
-case definitions and policy regimes may be not merely uninformative but actively misleading — and
-a confidently wrong prior in the cold-start regime is worse than no prior, because it is most
-influential exactly when local data cannot correct it.
+establishes when an effect estimated in one population identifies a quantity in another — via
+selection diagrams and do-calculus [Bareinboim 2016], sampling-score reweighting [Dahabreh 2019],
+and as reviewed by [Degtiar 2023] — and the conditions are demanding. A prior built from studies
+under different health systems, case definitions and policy regimes may be not merely
+uninformative but actively misleading, and a confidently wrong prior is worse than none, because
+it is most influential exactly when local data cannot correct it.
 
 **These two problems are the scientific content of this proposal.** Usually treated as
 implementation obstacles, they are better understood as the empirical question of whether

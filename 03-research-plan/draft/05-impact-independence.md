@@ -67,8 +67,10 @@ the intersection of evidence synthesis, econometric time-series methods and emer
 health.
 
 I will do so in a **different department from the one in which I trained** — Data Science for
-Digital Health, Department of Radiology and Medical Informatics, rather than the Institute of
-Global Health — hosted by a colleague with whom I collaborate as a peer rather than a former
-supervisor, and with a formal partnership with HUG emergency medicine that gives the project its
-clinical anchor. `[[The detailed confirmation letter states the concrete arrangements: own group,
-own doctoral supervision, own research line.]]`
+Digital Health, Department of Radiology and Medical Informatics — hosted by a colleague with whom I
+collaborate as a peer rather than a former supervisor, with an associated affiliation at the
+Institute of Global Health that keeps the work connected to its domain community, and a formal
+partnership with HUG emergency medicine that provides the clinical anchor. The arrangement mirrors
+the project: methods, domain and clinical practice, with the research line my own across all three.
+`[[The detailed confirmation letter states the concrete arrangements: own group, own doctoral
+supervision, own research line, own budget.]]`

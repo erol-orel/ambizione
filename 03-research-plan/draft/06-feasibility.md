@@ -1,26 +1,33 @@
 # 6. Feasibility, environment and resources
 
-**Host: Data Science for Digital Health (DS4DH), Department of Radiology and Medical
-Informatics, Faculty of Medicine, University of Geneva** — Prof. Douglas Teodoro — with a formal
-research collaboration with **HUG emergency medicine** `[[Prof. Thibaut Desmettre,
-Dr Robert Larribau — confirm titles and agreed roles]]`.
+**Host: Data Science for Digital Health (DS4DH), Department of Radiology and Medical Informatics,
+Faculty of Medicine, University of Geneva** (Prof. Douglas Teodoro), with an **associated
+affiliation at the Institute of Global Health** `[[Prof. Alexandra Calmy, Director — confirm
+title]]` and a formal research collaboration with **HUG emergency medicine** `[[Prof. Thibaut
+Desmettre, Dr Robert Larribau — confirm titles and agreed roles]]`.
 
 ## 6.1 Why this environment
 
-**Disciplinary home.** DS4DH works on biomedical natural language processing, information
-retrieval and machine learning for health — the immediate methodological neighbours of WP1 — with
-an established record in clinical text mining and biomedical entity recognition. It is where the
-extraction half of this project belongs. It is also a **different department and a different
-scientific community** from the Institute of Global Health, where my doctoral and postdoctoral
-work was conducted: the move is from global-health epidemiological modelling into medical
-informatics, and it is deliberate.
+The project sits at the intersection of three fields, and the hosting arrangement reflects that
+structure rather than hedging between options.
+
+**Methodological home — DS4DH.** Biomedical natural language processing, information retrieval and
+machine learning for health are the immediate neighbours of WP1, and DS4DH has an established
+record in clinical text mining and biomedical entity recognition. This is also a **different
+department and a different scientific community** from the one in which my doctoral and
+postdoctoral work was conducted: the move from global-health epidemiological modelling into medical
+informatics is deliberate.
+
+**Domain home — Institute of Global Health.** The associated affiliation keeps the project
+connected to the epidemiological and public health community in which its questions are posed and
+its results must land, and gives the doctoral researcher access to that training environment.
+`[[Under its incoming direction, and independent of the group in which I previously worked.]]`
 
 **Access to the operational system.** Through GESICA I work directly with HUG emergency medicine
-`[[Prof. Thibaut Desmettre, Dr Robert Larribau — confirm naming and agreed roles]]` and the Geneva
-emergency response system. The data WP3 and WP4 require are reachable through relationships that
-already exist and produce joint work — the AI-in-EMS systematic review [Edjinedja 2026] is the
-concrete output. This is not a proposal to build a collaboration but one resting on a functioning
-one.
+and the Geneva emergency response system. The data WP3 and WP4 require are reachable through
+relationships that already exist and produce joint work — the AI-in-EMS systematic review
+[Edjinedja 2026] is the concrete output. This is not a proposal to build a collaboration but one
+resting on a functioning one.
 
 **Existing infrastructure.** LiteRev-Evidence is operational: 80,000+ publications, 320,000
 embedded passages, structured extraction with provenance and quality scoring, quality-weighted
@@ -44,7 +51,9 @@ Public Health. `[[Confirm the doctoral programme the student would enrol in.]]`
 
 | Item | Status | Evidence |
 | --- | --- | --- |
-| Host institution and unit | **Agreed in principle** `[[confirm]]` | Detailed and general confirmation letters |
+| Primary host unit (DS4DH) | **Agreed in principle** `[[confirm]]` | Detailed confirmation letter |
+| Associated affiliation (ISG) | `[[in discussion]]` | `[[letter of support]]` |
+| Institutional confirmation | `[[ ]]` | General confirmation letter, UNIGE |
 | Right to supervise doctoral students | `[[ ]]` | Detailed confirmation letter — must be explicit |
 | HUG emergency department data | `[[ ]]` | `[[letter of support]]` |
 | 144 / CASU dispatch data | `[[ ]]` | `[[letter of support]]` |

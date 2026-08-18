@@ -164,10 +164,9 @@ WPS = [
     ("WP4", "Decision relevance and prospective test", 24, 48, [
         ("T4.1 threshold elicitation", 24, 32),
         ("T4.2 consequence-weighted evaluation", 30, 40),
-        ("T4.3 value of information", 34, 42),
-        ("T4.4 prospective shadow mode", 36, 48),
-        ("T4.5 equity audit", 32, 40),
-        ("T4.6 retrospective counterfactuals", 36, 44)]),
+        ("T4.3 equity audit", 32, 40),
+        ("T4.4 retrospective counterfactuals", 36, 44),
+        ("T4.5 prospective shadow mode", 36, 48)]),
 ]
 MILESTONES = [(10, "M1"), (12, "M2"), (20, "M3"), (32, "M4"), (40, "M5"), (48, "M6")]
 MS_TEXT = ["M1 extraction benchmark released", "M2 regime model identifiable in simulation",

@@ -71,12 +71,11 @@ crisis types.
 
 ## 2.6 Position
 
-I am embedded in the Geneva emergency and public health system through GESICA — with HUG
-emergency medicine `[[Prof. Thibaut Desmettre, Dr Robert Larribau]]` and with the Data Science for
-Digital Health group at the Department of Radiology and Medical Informatics, which will host this
-project — teach statistics and epidemiology on the MAS in Public Health, and contribute to a
-Horizon Europe consortium on epidemic intelligence. `[[See §5 for the explicit delimitation from
-GESICA and the Horizon work; both are declared in the mySNF form.]]`
+I am embedded in the Geneva emergency and public health system through GESICA — with HUG emergency
+medicine `[[Prof. Thibaut Desmettre, Dr Robert Larribau]]` and with the Data Science for Digital
+Health group, which will host this project — teach statistics and epidemiology on the MAS in Public
+Health, and contribute to a Horizon Europe consortium on epidemic intelligence. `[[See §5 for the
+delimitation from GESICA and the Horizon work; both are declared in mySNF.]]`
 
 What I have not yet done, and what this grant is for, is to lead an independent line of my own.
 The components are in place: the extraction platform is mine, the methodological approach comes

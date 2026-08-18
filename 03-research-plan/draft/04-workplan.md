@@ -214,21 +214,20 @@ and test whether divergence was detectable early from prior–data discrepancy d
 Includes stress tests with deliberately misspecified priors — a different pathogen, health system
 or era — to bound the damage.
 
-**T3.5 — Waterborne archetype (M34–M42, extension).**
-Apply the framework to Geneva legionellosis using the linked case–installation data. Scoped as an
-extension: it strengthens generalisability and its omission does not invalidate O3.
+**T3.5 — Waterborne archetype (M34–M42, extension).** Apply the framework to Geneva legionellosis
+using the linked case–installation data. Scoped as an extension: it strengthens generalisability
+and its omission does not invalidate O3.
 
 **Deliverables.** D3.1 reproducible evaluation pipeline. D3.2 the cold-start result. D3.3 failure
 and stress-test analysis.
 
-**Risk — and this is the project's principal risk.** Clinical operational data may be delayed or
-refused. *Mitigation, in order:* (i) agreements initiated before the grant starts, with the
-supporting letters in this application; (ii) infrastructure hardening completed in advance so
-that data-protection review is not the obstacle; (iii) **fallback design** — the cold-start
-hypothesis can be tested on openly available surveillance series (federal and cantonal
-notifications, Sentinelles, European surveillance) plus the Legionella linkage already covered by
-ethics. This is a weaker test, because it loses the operational endpoint, but it is a real one,
-and it means the project cannot fail outright on data access.
+**Risk — the project's principal one.** Clinical operational data may be delayed or refused.
+*Mitigation, in order:* (i) agreements initiated before the grant starts, with supporting letters
+in this application; (ii) infrastructure hardening completed in advance so data-protection review
+is not the obstacle; (iii) **fallback** — the cold-start hypothesis can be tested on open
+surveillance series (federal and cantonal notifications, Sentinelles, European surveillance) plus
+the Legionella linkage already under ethics. A weaker test, since it loses the operational
+endpoint, but a real one: the project cannot fail outright on data access.
 
 ---
 
@@ -256,19 +255,16 @@ managers hold materially different loss structures, no single threshold serves b
 **T4.2 — Consequence-weighted evaluation (M30–M40).**
 Re-evaluate WP3's comparisons under the elicited loss structure using net benefit and
 decision-curve analysis. Test H4 by comparing elicited thresholds with statistically optimal ones
-and determining whether the ranking of methods changes.
+and determining whether the ranking of methods changes. Include a value-of-information calculation
+— what a perfect forecast would be worth under the elicited losses — as an upper bound on the value
+of further methodological work.
 
-**T4.3 — Value of information (M34–M42).**
-Quantify what a perfect forecast would be worth under the elicited loss structure: an upper bound
-on the value of further methodological work, and a discipline on the field's tendency to pursue
-marginal skill gains of unknown worth.
-
-**T4.4 — Prospective shadow-mode deployment (M36–M48).**
+**T4.5 — Prospective shadow-mode deployment (M36–M48).**
 Run the framework prospectively alongside routine operations, issuing forecasts that are recorded
 but **not** used for decisions. Compare prospective skill with retrospective estimates — the gap
 between the two is one of the most useful and least reported quantities in this literature.
 
-**T4.5 — Equity audit of forecasts and thresholds (M32–M40).**
+**T4.3 — Equity audit of forecasts and thresholds (M32–M40).**
 Escalation decisions and prehospital records carry the structural inequalities of the system that
 produced them, and a model trained on historical escalation reproduces them by construction — a
 concern our review identifies as paramount for AI in emergency services [Edjinedja 2026]. Assess
@@ -276,7 +272,7 @@ whether forecast skill and elicited thresholds differ systematically across `[[a
 neighbourhood deprivation, language]]` strata available in the aggregate data. A system well
 calibrated on average and poorly calibrated for one group is not fit for deployment.
 
-**T4.6 — Retrospective counterfactual analysis (M36–M44).**
+**T4.4 — Retrospective counterfactual analysis (M36–M44).**
 For each historical episode, ask the question the partners actually care about: *had escalation
 been triggered when the model signalled it rather than when it in fact occurred, what would have
 changed?* Couple the estimated regime trajectories to a simple capacity model to produce
@@ -304,10 +300,10 @@ concealed. T4.4 is scoped as calibration validation in routine conditions, not a
 *Figure 2 — work plan over 48 months, with the milestones at which fallbacks are triggered.*
 
 **No work package is contingent on another succeeding.** WP2 proceeds under weakly informative
-priors if WP1 returns a negative result; WP3 proceeds on open surveillance data if operational
-data are delayed; WP4's core analysis is retrospective and does not require deployment. This is
-deliberate: serial dependency on an uncertain result is the standard feasibility objection to
-four-year plans, and the design removes it.
+priors if WP1 returns a negative result; WP3 proceeds on open surveillance data if operational data
+are delayed; WP4's core analysis is retrospective and needs no deployment. Serial dependency on an
+uncertain result is the standard feasibility objection to four-year plans, and the design removes
+it.
 
 | Milestone | Month | Criterion |
 | --- | --- | --- |
@@ -316,7 +312,7 @@ four-year plans, and the design removes it.
 | M3 — Operational data in place | 20 | Agreements executed and data harmonised; else fallback triggered |
 | M4 — Cold-start result | 32 | H3a tested with pre-specified comparators |
 | M5 — Decision-analytic evaluation | 40 | H4 tested |
-| M6 — Prospective validation | 48 | T4.4 reported |
+| M6 — Prospective validation | 48 | T4.5 reported |
 
 ## Methods, data protection and reproducibility
 
@@ -331,15 +327,15 @@ equivalents provided for reproducibility.
 
 ## Consolidated risk register
 
-| # | Risk | Likelihood | Impact | Mitigation | Trigger for fallback |
+| # | Risk | L | I | Mitigation | Fallback trigger |
 | --- | --- | --- | --- | --- | --- |
-| R1 | Clinical operational data delayed or refused | Medium | **High** | Agreements initiated pre-award with letters in this application; infrastructure hardened in advance; WP3 fallback to open surveillance series plus the Legionella linkage | M20 milestone not met |
-| R2 | Regime model weakly identified | Medium | High | Simulation study in T2.1 before application; fall back to an ordinal state-space formulation | M12 simulation shows poor recovery |
-| R3 | Automated extraction too unreliable for priors | Medium | Low | This is a result, not a failure — it answers O1 and settles O3 negatively; WP2 and WP3 proceed with weakly informative priors | T1.3 outcome |
-| R4 | Too few critical-regime episodes for estimation | **High** | Medium | Extreme-value tail model (T2.2) exists precisely for this; pool across series and archetypes; simulation-based power stated in advance | Known at T3.1 |
-| R5 | Shadow deployment not authorised, or a quiet observation period | Medium | Low | T4.2 and T4.3 stand alone; T4.4 scoped as calibration validation in routine conditions, not as a crisis test | M36 |
-| R6 | Doctoral recruitment delay | Low | Medium | WP2 is PI-executed and unaffected; WP1 benchmark design proceeds | M3 |
-| R7 | Overlap with GESICA or the Horizon consortium | Low | Medium | Delimitation stated in §5 and declared in mySNF; this project's outputs are inferential, theirs are infrastructural | Ongoing |
+| R1 | Operational data delayed or refused | M | **H** | Agreements pre-award with letters attached; hardening done in advance; WP3 fallback to open surveillance plus the Legionella linkage | M20 missed |
+| R2 | Regime model weakly identified | M | H | Simulation study in T2.1 before application; fall back to an ordinal state-space form | M12 recovery poor |
+| R3 | Extraction too unreliable for priors | M | L | A result, not a failure: answers O1, settles O3 negatively; WP2–3 proceed under weak priors | T1.3 outcome |
+| R4 | Too few critical-regime episodes | **H** | M | Extreme-value tail model (T2.2) exists for this; pool across series and archetypes; power stated in advance | Known at T3.1 |
+| R5 | Shadow deployment refused, or a quiet period | M | L | T4.2 stands alone; T4.5 scoped as calibration validation, not a crisis test | M36 |
+| R6 | Doctoral recruitment delay | L | M | WP2 is PI-executed; WP1 benchmark design proceeds | M3 |
+| R7 | Overlap with GESICA or Horizon | L | M | Delimitation in §5, declared in mySNF; outputs inferential, theirs infrastructural | Ongoing |
 
 R4 is intrinsic rather than circumstantial: the critical regime is rare by definition, and no
 amount of data collection within four years changes that. It is why the design imports extreme

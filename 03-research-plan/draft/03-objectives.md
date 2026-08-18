@@ -23,10 +23,9 @@ literature, and identify the structure of the errors.
 > well-reported effect measures, but **systematically underestimates between-study heterogeneity**
 > — producing priors that are too confident rather than merely noisy.
 
-H1 is falsifiable in both directions and either result is informative. If extraction is
-unreliable in an unstructured way, evidence-derived priors are unusable and that is a finding
-worth publishing. If the bias is systematic, it can be corrected, and the correction is a
-contribution.
+H1 is falsifiable in both directions and either result informs. Unstructured unreliability means
+evidence-derived priors are unusable — a finding worth publishing. Systematic bias can be
+corrected, and the correction is a contribution.
 
 ### O2 — Develop a regime-switching representation of health-system state
 
@@ -42,8 +41,8 @@ to a point forecast, with extreme-value methods for the tail, and admitting info
 > already contained in the level and trend** of the series, and improve transition-intensity
 > estimation when included as covariates.
 
-H2b is the theoretically motivated half of the cold-start answer, and it is independent of H1 and
-H3: it holds or fails whether or not literature-derived priors turn out to be usable.
+H2b is the theory-driven half of the cold-start answer, independent of H1 and H3: it holds or
+fails whether or not literature-derived priors prove usable.
 
 ### O3 — Test the cold-start hypothesis
 
@@ -61,10 +60,10 @@ how that advantage decays as data accumulate, and when priors do harm.
 > **H3c.** Evidence-derived priors and theory-derived resilience indicators are **complementary
 > rather than redundant**: their combination outperforms either alone in the early phase.
 
-H3b is the safety claim, and the one an operational partner will care about most: a method that
-helps on average but fails unpredictably is not deployable. A conformal wrapper provides the
-distribution-free coverage guarantee that makes this claim testable rather than asserted, even
-where the Bayesian model is misspecified.
+H3b is the safety claim, and the one an operational partner cares about most: a method that helps
+on average but fails unpredictably is not deployable. A conformal wrapper supplies the
+distribution-free coverage guarantee that makes it testable rather than asserted, even under
+misspecification.
 
 ### O4 — Establish decision relevance
 
@@ -95,7 +94,7 @@ declared as such rather than promised.
 
 ## What this project does not claim
 
-It does not aim to produce a deployed early-warning system for Geneva, nor to outperform
-established forecast hubs in the data-rich regime. It aims to answer a specific methodological
-question with operational consequences, and to leave behind an open, validated framework and an
-honest account of where the approach fails.
+It does not aim to deploy an early-warning system for Geneva, nor to outperform established
+forecast hubs in the data-rich regime. It answers a specific methodological question with
+operational consequences, leaving an open validated framework and an honest account of where the
+approach fails.
