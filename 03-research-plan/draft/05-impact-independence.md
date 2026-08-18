@@ -2,22 +2,23 @@
 
 ## 5.1 Scientific relevance
 
-The immediate contribution is an answer to a question the field currently assumes: whether
-published evidence can be converted into prior information that improves forecasting where it
-matters. Both possible answers change practice. A positive result gives compartmental modellers,
-forecast hubs and operational teams a principled and auditable alternative to setting parameters
-by hand from a few familiar papers. A negative or strongly conditional result is arguably more
-valuable, because that hand-setting happens now, informally and undocumented, in every crisis
-response — and if it cannot be justified, that should be established rather than assumed.
+The immediate contribution answers a question the field currently assumes: whether published
+evidence and theory-derived resilience indicators can supply usable information about a crisis
+before local data exist. Both possible answers change practice. A positive result gives
+modellers, forecast hubs and operational teams a principled, auditable alternative to setting
+parameters by hand from a few familiar papers. A negative or conditional result is arguably more
+valuable, because that hand-setting happens now, undocumented, in every crisis response — and if
+it cannot be justified, that should be established rather than assumed.
 
 Three further contributions stand independently of the headline result:
 
 - **A reference benchmark for quantitative extraction.** No gold standard exists for evaluating
   automated extraction of quantitative parameters intended for quantitative reuse. As automated
   and living evidence synthesis expands, that gap will be felt well beyond this project.
-- **A regime-switching representation of health-system state**, with an extreme-value tail —
-  importing an apparatus that has been standard for decades in fields concerned with rare, costly
-  transitions, into one with the same problem structure and almost none of the machinery.
+- **A regime-switching representation of health-system state** with an extreme-value tail and
+  theory-derived resilience indicators on its transitions — importing apparatus standard for
+  decades in fields concerned with rare, costly transitions into one with the same problem
+  structure and almost none of the machinery.
 - **Decision-analytic evaluation of crisis forecasts.** Shifting the criterion from discrimination
   to consequence addresses a plausible explanation for why so few forecasting tools are ever
   adopted.
@@ -25,12 +26,11 @@ Three further contributions stand independently of the headline result:
 ## 5.2 Practical and societal impact
 
 Switzerland has committed to strengthening health-crisis preparedness, and the cantonal emergency
-systems that would act on early warning are precisely the partners in this work. The realistic
-impact is not a deployed alarm system at month 48 — it is knowing, with evidence, whether the
-early-crisis forecasts that will be produced in the next emergency can be improved by information
-that already exists, and what such a forecast is worth in decisions rather than in statistics.
-The prospective shadow-mode component and the elicited loss structure are designed so that the
-answer arrives in a form the responders can use.
+systems that would act on early warning are the partners in this work. The realistic impact is not
+a deployed alarm system at month 48 — it is knowing, with evidence, whether the early-crisis
+forecasts produced in the next emergency can be improved by information that already exists, and
+what such a forecast is worth in decisions rather than statistics. The shadow-mode component and
+the elicited loss structure are designed so the answer arrives in a form responders can use.
 
 The framework is not specific to Geneva or to one pathogen. The archetypes were chosen for
 contrast precisely so that what transfers, and what does not, is part of the result.

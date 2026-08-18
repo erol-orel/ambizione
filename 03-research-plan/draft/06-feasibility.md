@@ -16,16 +16,16 @@ work was conducted: the move is from global-health epidemiological modelling int
 informatics, and it is deliberate.
 
 **Access to the operational system.** Through GESICA I work directly with HUG emergency medicine
-`[[Prof. Thibaut Desmettre, Dr Robert Larribau — confirm naming and their agreed roles]]` and with
-the Geneva emergency response system. The dispatch, emergency department and intensive care data
-that WP3 and WP4 require are reachable through relationships that already exist and produce joint
-work — the AI-in-EMS systematic review [Edjinedja 2026] is the concrete output. This is not a
-proposal to build a collaboration; it is a proposal that rests on one already functioning.
+`[[Prof. Thibaut Desmettre, Dr Robert Larribau — confirm naming and agreed roles]]` and the Geneva
+emergency response system. The data WP3 and WP4 require are reachable through relationships that
+already exist and produce joint work — the AI-in-EMS systematic review [Edjinedja 2026] is the
+concrete output. This is not a proposal to build a collaboration but one resting on a functioning
+one.
 
-**Existing infrastructure.** LiteRev-Evidence is operational: a continuously updated corpus of
-over 80,000 publications with 320,000 embedded passages, structured extraction with provenance
-and quality scoring, quality-weighted pooling into parameter distributions, and connectors to
-MeteoSwiss, Copernicus ERA5 and national surveillance. `[[After the hardening described in §6.4:
+**Existing infrastructure.** LiteRev-Evidence is operational: 80,000+ publications, 320,000
+embedded passages, structured extraction with provenance and quality scoring, quality-weighted
+pooling into parameter distributions, and connectors to MeteoSwiss, Copernicus ERA5 and national
+surveillance. `[[After the hardening described in §6.4:
 state that it runs with transport-layer security, managed secrets, version-controlled schema and
 documented disaster recovery. Do not submit this section until that sentence is true — a
 data-protection reviewer will ask, and the answer is currently the wrong one.]]`
@@ -38,8 +38,7 @@ covariates, under ethics approval BASEC 2026-00324.
 environment for clinical data is separate.]]`
 
 **Teaching and training environment.** I lecture in statistics and epidemiology on the MAS in
-Public Health, which provides both a supervision context and a route for the doctoral researcher's
-training. `[[Confirm the doctoral programme the student would enrol in.]]`
+Public Health. `[[Confirm the doctoral programme the student would enrol in.]]`
 
 ## 6.2 Secured commitments
 
@@ -55,10 +54,9 @@ training. `[[Confirm the doctoral programme the student would enrol in.]]`
 | Mobility host | `[[ ]]` | `[[letter]]` |
 | Computing | `[[ ]]` | — |
 
-**Every unresolved row in this table is a weakness a referee will find, and the three data rows
-are the ones that matter.** Convert as many as possible into letters before submission. For any
-that remain open, the fallback design in WP3 is what carries the risk, and it is stated there
-rather than concealed.
+**Every unresolved row is a weakness a referee will find, and the three data rows are the ones
+that matter.** Convert as many as possible into letters before submission; for any that remain,
+the WP3 fallback carries the risk and is stated there rather than concealed.
 
 ## 6.3 Resources requested
 

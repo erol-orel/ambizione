@@ -10,16 +10,14 @@ domain.
 
 ## 2.1 Prediction under sparse and imperfect information
 
-My doctoral work addressed prediction where individual-level data are incomplete and
-heterogeneous. In **Orel et al., *PLoS ONE* 2022**, I predicted individual HIV status from
-socio-behavioural characteristics across East and Southern Africa using gradient-boosted models,
-establishing which classes of variable carry signal across settings and — more relevant here —
-where models transported between countries and where they did not. Related work on
-sociobehavioural clustering and latent-class structure across sub-Saharan African populations
-(**Merzouki et al., *PeerJ* 2021**; ***J Int AIDS Soc* 2020**) and on treatment-interruption
-prediction (**Esra et al., *JAIDS* 2023**) developed the same theme: the conditions under which
-an estimate obtained in one population is usable in another. That is the transportability problem
-at the centre of this proposal, encountered first in a different disease area.
+My doctoral work addressed prediction where individual-level data are incomplete. In
+**Orel et al., *PLoS ONE* 2022** I predicted individual HIV status from socio-behavioural
+characteristics across East and Southern Africa, establishing where models transported between
+countries and where they did not. Related work on latent structure across sub-Saharan African
+populations (**Merzouki et al., *PeerJ* 2021**) and on treatment-interruption prediction
+(**Esra et al., *JAIDS* 2023**) developed the same theme: when an estimate obtained in one
+population is usable in another. That is the transportability problem at the centre of this
+proposal, met first in a different disease area.
 
 ## 2.2 Automated evidence synthesis
 
@@ -36,10 +34,9 @@ submitted 2026), conducted within the GESICA consortium, used LiteRev in its met
 **Orel et al., *CMI Communications* 2024** compared clinical severity between Delta and Omicron
 sub-lineages in a Swiss tertiary centre, working directly with hospital clinical data.
 **Estill et al., *F1000Research* 2020** developed age-structured scenario models for the Swiss
-SARS-CoV-2 epidemic. I contributed to national and regional COVID-19 analysis and to WHO African
-region epidemiological reporting, and to seroprevalence estimation published in
-***Nature Communications*** (Nwosu et al., 2021). This is the health-system modelling and Swiss
-data-governance experience the project requires.
+SARS-CoV-2 epidemic, produced for planning under time pressure — the experience from which this
+proposal's question comes. I also contributed to WHO African region epidemiological reporting and
+to seroprevalence estimation in ***Nature Communications*** (Nwosu et al., 2021).
 
 ## 2.4 The instrument: LiteRev-Evidence
 
@@ -58,8 +55,7 @@ system, not a prototype:
 - operational connectors to MeteoSwiss, Copernicus ERA5, Sentinelles and routing services.
 
 Thirty-one operational scenarios have been elaborated with emergency-medicine partners, spanning
-epidemic early warning, out-of-hospital cardiac arrest, EMS demand, heatwave impact and surge
-management.
+epidemic early warning, cardiac arrest, EMS demand, heatwave impact and surge management.
 
 **This is what makes the proposed research feasible rather than aspirational.** The proposal is
 not to build this system. It is to use it to answer the question it raises: the platform will

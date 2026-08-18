@@ -34,9 +34,23 @@ Alternatives if the acronym grates:
 - *From published evidence to actionable early warning: quantifying when synthesised literature
   improves crisis forecasting*
 
+## If you need to cut
+
+The plan is **at 100% of the assumed 60,000-character limit**. If the real limit is lower, or the
+SNSF counts differently, cut in this order — each item is genuinely severable:
+
+1. **§4 T3.5 waterborne archetype** (~400 ch). Already scoped as an extension; the cleanest cut.
+2. **§4 T4.3 value of information** (~350 ch). Elegant, but the least load-bearing task.
+3. **§1.2 paragraph on partial existing responses** (~450 ch). Compress to one sentence.
+4. **§6.4 preparatory work** (~700 ch). Move into the mobility statement or a cover note.
+5. **§4 consolidated risk register** — keep the table, cut the R4 commentary (~400 ch).
+
+Do **not** cut: the identifiability risk in T2.1, the WP3 data fallback, or the §5 delimitation
+table. Each pre-empts a specific objection a referee will otherwise raise unanswered.
+
 ## Current length
 
-**53,540 characters** against an assumed 60,000 limit — about 6,500 in reserve, before figures.
+**~60,000 characters against an assumed 60,000 limit — no reserve.** See the cut list above.
 Run `sh wordcount.sh` after each edit. Both figures are drawn and linked from §3 and §4. They consume page budget rather than
 characters, so check both limits when you typeset.
 

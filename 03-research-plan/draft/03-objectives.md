@@ -3,9 +3,11 @@
 ![Framework](figures/fig1-framework.svg)
 *Figure 1 — the cold-start problem and the proposed framework. See `figures/`.*
 
-**Overall aim.** To determine whether, and under what conditions, quantitative evidence extracted
-systematically from the published literature improves the forecasting of health-system crises in
-the regime where local data are scarce — and to establish what would have to be true for such
+**Overall aim.** To determine whether, and under what conditions, health-system crises can be
+anticipated when local data are scarce — by combining two independent routes to information at
+crisis onset: **quantitative evidence extracted from the published literature**, and
+**theory-derived resilience indicators** that signal an approaching transition from the shape of
+recent fluctuations alone — and to establish what would have to be true for the resulting
 forecasts to change decisions.
 
 Four objectives, each with a testable hypothesis and each corresponding to one work package.
@@ -31,9 +33,17 @@ contribution.
 Formulate health-system escalation as a latent regime process rather than as a threshold applied
 to a point forecast, with extreme-value methods for the tail, and admitting informative priors.
 
-> **H2.** A Bayesian regime-switching representation anticipates transitions into strained and
+> **H2a.** A Bayesian regime-switching representation anticipates transitions into strained and
 > critical states **earlier and with better-calibrated uncertainty** than thresholding a point
 > forecast, at matched false-alarm rates.
+>
+> **H2b.** Resilience indicators from critical-slowing-down theory — rising variance and lag-1
+> autocorrelation of fluctuations — carry **information about imminent transitions that is not
+> already contained in the level and trend** of the series, and improve transition-intensity
+> estimation when included as covariates.
+
+H2b is the theoretically motivated half of the cold-start answer, and it is independent of H1 and
+H3: it holds or fails whether or not literature-derived priors turn out to be usable.
 
 ### O3 — Test the cold-start hypothesis
 
@@ -47,9 +57,14 @@ how that advantage decays as data accumulate, and when priors do harm.
 > **H3b.** The harm caused by a misspecified prior is **bounded and detectable** — divergence
 > between prior-implied and observed dynamics is identifiable early enough to trigger
 > down-weighting, so that adaptive discounting dominates both fixed-prior and no-prior strategies.
+>
+> **H3c.** Evidence-derived priors and theory-derived resilience indicators are **complementary
+> rather than redundant**: their combination outperforms either alone in the early phase.
 
-H3b is the safety claim, and it is the one an operational partner will care about most. A method
-that helps on average but fails unpredictably is not deployable.
+H3b is the safety claim, and the one an operational partner will care about most: a method that
+helps on average but fails unpredictably is not deployable. A conformal wrapper provides the
+distribution-free coverage guarantee that makes this claim testable rather than asserted, even
+where the Bayesian model is misspecified.
 
 ### O4 — Establish decision relevance
 
@@ -58,8 +73,9 @@ escalation thresholds with the people who act on them and evaluating on conseque
 criteria rather than accuracy.
 
 > **H4.** Escalation thresholds elicited from emergency responders differ materially from those
-> obtained by optimising statistical criteria, and evaluation by net benefit changes which
-> modelling strategy is preferred.
+> obtained by optimising statistical criteria; evaluation by net benefit changes which modelling
+> strategy is preferred; and retrospective counterfactual analysis identifies past episodes in
+> which acting on the model's escalation signal would have altered the outcome.
 
 ---
 

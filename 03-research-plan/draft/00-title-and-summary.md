@@ -11,23 +11,29 @@ observations long. The forecasting methods that perform best in steady state —
 infrastructures now organised around them — require years of history, so they are weakest exactly
 where the decisions are most consequential and least reversible.
 
-There is, however, information available at the outset: the accumulated published evidence from
-analogous events elsewhere. Thousands of studies report transmission parameters, weather–demand
-associations, surge magnitudes and intervention effects. That evidence is not used
-quantitatively in operational forecasting, because turning heterogeneous published estimates into
-usable priors is difficult, and because nobody has established whether doing so helps or harms.
+There is, however, information available at the outset, from two directions. The first is the
+accumulated published evidence from analogous events elsewhere. Thousands of studies report transmission parameters, weather–demand
+associations, surge magnitudes and intervention effects. That evidence is not used quantitatively in operational forecasting, because turning
+heterogeneous published estimates into usable priors is difficult and nobody has established
+whether doing so helps or harms. The second is the local series itself: dynamical systems theory
+holds that a system approaching a critical transition loses resilience, so the variance and
+autocorrelation of its fluctuations rise **before** the transition — a signal computable from a
+short window, and therefore available when nothing else is.
 
 This project asks that question directly. Building on **LiteRev-Evidence**, a production
 literature-synthesis platform I developed that already extracts and pools quantitative parameters
 from a corpus of over 80,000 documents, I will (i) establish how reliably quantitative evidence
 can be extracted automatically and where that extraction is systematically biased; (ii) develop a
-**Bayesian regime-switching** framework — with extreme value methods for the tail — that
-represents health-system state as latent regimes rather than as a threshold on a point forecast;
+**Bayesian regime-switching** framework — with extreme value methods for the tail, resilience
+indicators on its transition intensities, and a conformal layer guaranteeing calibrated coverage
+even under misspecification — representing health-system state as latent regimes rather than as a
+threshold on a point forecast;
 (iii) test, by rolling-origin evaluation that respects the true information set available at each
 historical moment, whether evidence-derived priors improve forecast skill in the cold-start
 regime, and characterise when they mislead; and (iv) evaluate the result on the criterion that
-matters — whether it changes decisions and outcomes — through threshold elicitation with
-emergency responders and a prospective shadow-mode deployment.
+matters — whether it changes decisions and outcomes — through threshold elicitation with emergency
+responders, retrospective counterfactual analysis of what earlier escalation would have changed,
+and a prospective shadow-mode deployment.
 
 Validation spans crisis archetypes with different dynamics: a respiratory epidemic, a heatwave,
 and — using linked case–installation data unique to Geneva — a waterborne outbreak.

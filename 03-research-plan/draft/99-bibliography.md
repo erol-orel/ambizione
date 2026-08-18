@@ -91,6 +91,29 @@
 - **[Degtiar 2023]** Degtiar I, Rose S. A review of generalizability and transportability.
   *Annual Review of Statistics and Its Application* 2023;10:501–524. arXiv:2102.11904
 
+## Critical slowing down and resilience indicators
+
+- **[Scheffer 2009]** Scheffer M, Bascompte J, Brock WA, Brovkin V, Carpenter SR, Dakos V, Held H,
+  van Nes EH, Rietkerk M, Sugihara G. Early-warning signals for critical transitions.
+  *Nature* 2009;461:53–59.
+- **[O'Regan 2013]** O'Regan SM, Drake JM. Theory of early warning signals of disease emergence
+  and leading indicators of elimination. *Theoretical Ecology* 2013;6:333–357. `verify pages`
+- **[Brett 2018]** Brett TS, O'Dea EB, Marty É, Miller PB, Park AW, Drake JM, Rohani P.
+  Anticipating epidemic transitions with imperfect data. *PLoS Comput Biol* 2018;14(6):e1006204.
+- **[Southall 2021]** Southall E, Brett TS, Tildesley MJ, Dyson L. Early warning signals of
+  infectious disease transitions: a review. *J R Soc Interface* 2021;18(182):20210555.
+  **The review to work from** — it catalogues the candidate indicators and their known
+  false-positive behaviour, which T2.5 must confront rather than tune away.
+
+## Conformal prediction
+
+- **[Angelopoulos 2023]** Angelopoulos AN, Bates S. Conformal prediction: a gentle introduction.
+  *Foundations and Trends in Machine Learning* 2023;16(4):494–591. `verify volume/pages`
+- **[Xu 2023]** Barber RF, Candès EJ, Ramdas A, Tibshirani RJ. Conformal prediction beyond
+  exchangeability. *Annals of Statistics* 2023;51(2):816–845. `verify — and fix the citation key
+  to [Barber 2023] throughout §1.5 if you use this rather than a time-series-specific reference;
+  several 2025–2026 papers on conformal forecasting under temporal dependence may serve better`
+
 ## Regime switching and extremes
 
 - **[Hamilton 1989]** Hamilton JD. A new approach to the economic analysis of nonstationary time

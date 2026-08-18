@@ -296,10 +296,26 @@ latent state process*, coupled to regime transitions and informed by literature-
 Not citing the nearest precedent — in the same country, on the same kind of data — would have been
 the worst available outcome.
 
-**Consider approaching them.** Eva Cantoni is at the **Research Center for Statistics, University
-of Geneva**; Valérie Chavez-Demoulin is at UNIL and works on extreme value theory. This is the
-Swiss extreme-value-in-hospital-data community, it is on your doorstep, and it is outside both
-Keiser's and Teodoro's orbits.
+**Approach them — and you already know one.** Eva Cantoni, at the **Research Center for
+Statistics, UNIGE**, was your **DEA supervisor in econometrics**. Valérie Chavez-Demoulin is at
+UNIL and works on extreme value theory. This is the Swiss extreme-value-in-hospital-data
+community, it is on your doorstep, it is outside both Keiser's and Teodoro's orbits, and the
+approach is warm rather than cold.
+
+Two consequences worth being deliberate about.
+
+**It strengthens the independence story rather than complicating it.** Cantoni supervised a
+master's-level thesis in a different faculty twenty years ago — categorically different from a
+doctoral supervisor, and no referee will read it as dependence. What it does give you is a
+*verifiable intellectual lineage that has nothing to do with your PhD group*: econometrics under
+Cantoni → fifteen years applying those methods to rare-event risk in finance → back into public
+health with an apparatus the field lacks. That is exactly the origin story §5 needs, and it is now
+documented rather than asserted. Consider naming her supervision of your DEA in §2.
+
+**Keep the roles right.** Collaborator or methodological adviser on WP2 — not co-applicant, not
+anything that reads as mentorship. And note that a stay with Cantoni is *not* mobility, since she
+is at UNIGE; the mobility component is the stay at UNIL with Chavez-Demoulin, to which Cantoni is
+the introduction.
 
 Three things that could come from it, in increasing order of value:
 

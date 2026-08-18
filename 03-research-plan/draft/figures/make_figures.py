@@ -152,7 +152,9 @@ WPS = [
         ("T2.2 tail model", 6, 14),
         ("T2.3 prior structure, adaptive discounting", 10, 20),
         ("T2.4 baselines pre-specified", 12, 22),
-        ("T2.5 reference implementation", 18, 30)]),
+        ("T2.5 resilience indicators as covariates", 8, 18),
+        ("T2.6 conformal calibration layer", 20, 28),
+        ("T2.7 reference implementation", 18, 30)]),
     ("WP3", "Retrospective cold-start evaluation", 12, 42, [
         ("T3.1 operational record assembled", 12, 20),
         ("T3.2 rolling-origin evaluation", 18, 32),
@@ -163,7 +165,9 @@ WPS = [
         ("T4.1 threshold elicitation", 24, 32),
         ("T4.2 consequence-weighted evaluation", 30, 40),
         ("T4.3 value of information", 34, 42),
-        ("T4.4 prospective shadow mode", 36, 48)]),
+        ("T4.4 prospective shadow mode", 36, 48),
+        ("T4.5 equity audit", 32, 40),
+        ("T4.6 retrospective counterfactuals", 36, 44)]),
 ]
 MILESTONES = [(10, "M1"), (12, "M2"), (20, "M3"), (32, "M4"), (40, "M5"), (48, "M6")]
 MS_TEXT = ["M1 extraction benchmark released", "M2 regime model identifiable in simulation",

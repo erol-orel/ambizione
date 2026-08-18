@@ -15,23 +15,18 @@ submissions from more than 90 groups, and its ensemble was the most consistently
 probabilistic forecaster of incident deaths over eighteen months [Cramer 2022], with the European
 hub reproducing the pattern across 32 countries [Sherratt 2023].
 
-Two features of this literature matter here.
+Two features matter here. First, **prehospital data are a leading indicator**: dispatch and
+ambulance records carry syndromic signal ahead of laboratory-confirmed surveillance, capturing
+care-seeking before it becomes a notified case. A three-region European comparison identified the
+onset of the 2009 A(H1N1) autumn wave eight days in advance [Rosenkötter 2013], and a ten-year
+series of emergency calls tracks influenza-like illness incidence [EMS-ILI 2024]; our systematic
+review maps this literature and its limits [Edjinedja 2026].
 
-First, **prehospital data are a leading indicator**. Emergency medical dispatch and ambulance
-records carry syndromic signal ahead of laboratory-confirmed surveillance, because they capture
-care-seeking before it is formalised into a notified case. A three-region European comparison of
-dispatch, ambulance and emergency department data identified the onset of the 2009 A(H1N1)
-autumn/winter wave eight days in advance [Rosenkötter 2013], and a ten-year series of emergency
-telephone calls has been shown to track influenza-like illness incidence [Bonora 2024]. Our own
-systematic review of artificial intelligence in emergency medical services for disasters and
-health emergencies maps this literature and its methodological limits [Edjinedja 2026].
-
-Second, and decisively for this proposal, **the performance of these methods is conditional on
-history**. Data-adaptive models require years of observations to learn seasonality, weekday
-structure and weather response. Even the Farrington family — deliberately robust — is known to
-degrade when historical baselines are short, which is the recognised difficulty in applying it to
-emerging diseases. The published performance figures that motivate operational adoption are
-almost invariably obtained in the data-rich regime.
+Second, and decisively, **performance is conditional on history**. Data-adaptive models need
+years of observations to learn seasonality, weekday structure and weather response, and even the
+deliberately robust Farrington family degrades when baselines are short — the recognised
+difficulty in applying it to emerging diseases. The published figures that motivate operational
+adoption are almost invariably obtained in the data-rich regime.
 
 ## 1.2 The cold-start problem
 
@@ -41,16 +36,14 @@ relevant local series is short, unstable and possibly unrepresentative of what f
 taken in those first weeks are consequential, expensive and hard to reverse: opening surge
 capacity, cancelling elective activity, redistributing ambulances, triggering cantonal escalation.
 
-The early COVID-19 period demonstrated this at scale. Forecast quality improved through the
+The early COVID-19 period demonstrated this at scale: forecast quality improved through the
 pandemic [Cramer 2022], and that improvement tracked the accumulation of local data at least as
-closely as it tracked methodological innovation. The field, in effect, solved the easy regime.
+closely as methodological innovation. The field, in effect, solved the easy regime.
 
-Existing responses to data scarcity are partial. Transfer learning and multi-region pooling borrow
-strength from other locations, but require those locations to be observed contemporaneously and
-comparably. Mechanistic compartmental models function with little data but demand parameter
-values that must come from somewhere — and in practice are set by hand, from a small number of
-familiar papers, with uncertainty asserted rather than derived. Scenario projection sidesteps
-prediction altogether, which is defensible but leaves the operational question unanswered.
+Existing responses are partial. Transfer learning and multi-region pooling require other locations
+to be observed contemporaneously and comparably. Mechanistic models function with little data but
+demand parameter values that in practice are set by hand, from a few familiar papers, with
+uncertainty asserted rather than derived. Scenario projection sidesteps prediction altogether.
 
 ## 1.3 The unused resource: published evidence as quantitative prior information
 
@@ -70,15 +63,13 @@ for two substantive reasons rather than by oversight.
 
 **Extraction.** Converting a corpus into quantitative estimates with usable uncertainty is hard.
 Effect measures are reported inconsistently, populations and exposure definitions differ, and
-reporting is selective. Automated extraction with large language models makes the operation
-tractable at scale, and a recent systematic review of this literature is directly informative
-about its limits: accuracy ranges from 47% to 99.9% and is markedly worse for **numerical** items
-(47–88%) than for categorical or string items (74–96%), with **omission** rather than fabrication
-the dominant error mode (60–74% of errors, against hallucination rates of 0.08–6%)
-[Ghersi 2026 — verify authorship]. This is the clearest available evidence that automated
-extraction is weakest precisely on the quantities a prior needs. What has not been established is
-the *structure* of that error when the extracted quantities are pooled: whether the resulting
-distributions are merely noisy, or systematically too narrow.
+reporting is selective. Automated extraction with large language models makes this tractable
+at scale, and a systematic review of that literature is directly informative about its limits —
+accuracy ranges from 47% to 99.9%, markedly worse for **numerical** items (47–88%) than
+categorical ones (74–96%), with **omission** rather than fabrication dominant (60–74% of errors,
+against hallucination rates of 0.08–6%) [Shankar 2026]. Extraction is therefore weakest precisely
+on the quantities a prior needs. What is unestablished is the *structure* of that error once
+estimates are pooled: whether the distributions are merely noisy or systematically too narrow.
 
 **Transportability.** Even a perfectly extracted estimate may not transfer. The formal literature
 establishes when an effect estimated in one population identifies a quantity in another, via
@@ -89,9 +80,9 @@ case definitions and policy regimes may be not merely uninformative but actively
 a confidently wrong prior in the cold-start regime is worse than no prior, because it is most
 influential exactly when local data cannot correct it.
 
-**These two problems are the scientific content of this proposal.** They are usually treated as
-implementation obstacles. They are better understood as the empirical question of whether
-published evidence can be made to earn its place in operational forecasting.
+**These two problems are the scientific content of this proposal.** Usually treated as
+implementation obstacles, they are better understood as the empirical question of whether
+published evidence can earn its place in operational forecasting.
 
 ## 1.4 Representing escalation: latent regimes and tails
 
@@ -113,6 +104,23 @@ both that the approach is applicable to Swiss hospital data and that the tail be
 non-trivial — which is precisely why the present project treats the critical regime with an
 extreme-value model rather than leaving it to a handful of observed transitions.
 
+**A theoretically motivated route to anticipating transitions.** A separate literature, developed
+in ecology and imported into epidemiology, holds that systems approaching a critical transition
+exhibit **critical slowing down**: fluctuations around the current state recover more slowly from
+perturbation, so their variance and lag-1 autocorrelation rise measurably *before* the transition
+occurs [Scheffer 2009]. The theory has been developed specifically for epidemic transitions
+[O'Regan 2013; Brett 2018] and reviewed comparatively [Southall 2021], and resilience indicators
+of this kind have recently been evaluated at scale across many diseases and regions.
+
+This matters here for a reason that is not obvious. These indicators are computed from the *shape
+of recent fluctuations*, not from a long history of previous crises — so they are informative in
+exactly the regime where data-adaptive models fail. They constitute a **second, independent route
+to information at crisis onset**, theoretically grounded rather than evidence-derived, and to my
+knowledge nobody has combined the two: resilience indicators as theoretically motivated
+covariates for the transition intensities of a fitted regime-switching model, with priors on
+those intensities drawn from published evidence. Each addresses the cold-start problem from a
+different direction, and whether they are complementary or redundant is an empirical question.
+
 **The claim here is therefore narrower and stronger than "these methods are absent".** What
 exists is two-state epidemic/non-epidemic detection on a single surveillance series, and separate
 extreme-value description of congestion. What does not exist is the object this project builds:
@@ -120,7 +128,8 @@ a **multi-regime, ordinally interpretable state process for health-system capaci
 jointly across dispatch, emergency and intensive care series, with **covariate-dependent
 transition intensities**, an **extreme-value representation of the critical regime coupled to the state model** — where
 [Ranjbar 2022] models the tail as a stand-alone description rather than as the tail of a latent
-state process — and **priors derived from the published literature**. The econometric tradition
+state process — **resilience indicators from critical-slowing-down theory as covariates on the
+transitions**, and **priors derived from the published literature**. The econometric tradition
 that developed this apparatus for rare, costly, persistent regime transitions [Hamilton 1989] has
 not been brought to bear on health-system surge in this form. `[[Confirm with a systematic search
 before submission — a referee will test this sentence. LiteRev is the instrument; record the
@@ -137,12 +146,22 @@ point predictions, and are minimised uniquely by the true predictive distributio
 their consequences at an explicit decision threshold [Vickers 2006], and value-of-information
 analysis asks what better prediction would be worth.
 
-For rare adverse states this is not a refinement but a necessity. An alarming regime is by
+That this gap is real rather than rhetorical is something our systematic review measured: across
+138 studies of artificial intelligence in emergency medical services for disasters and health
+emergencies, explicit treatment of **uncertainty, transparency and explainability remained
+infrequent**, though the field regards these as preconditions for clinical adoption
+[Edjinedja 2026]. The same review documents a second obstacle: prehospital data are markedly
+incomplete — completeness averaging 52% for triage records, 70% for care reports and 57% for
+emergency forms, with individual variables missing in over 90% of records in some registries — so
+any method proposed here must tolerate missingness of a magnitude that would be disqualifying
+elsewhere.
+
+For rare adverse states this is a necessity rather than a refinement. An alarming regime is by
 construction infrequent; an accuracy-based criterion rewards a model that never raises the alarm,
-and a threshold chosen to optimise AUC bears no relation to the point at which an emergency
-service can and should act differently. That most operational forecasting tools are never adopted
-is usually attributed to implementation barriers. A more parsimonious explanation is that they
-were optimised for a quantity nobody needed.
+and a threshold optimising AUC bears no relation to the point at which an emergency service can
+act differently. That so few operational forecasting tools are ever adopted is usually attributed
+to implementation barriers; a more parsimonious explanation is that they were optimised for a
+quantity nobody needed.
 
 ## 1.6 The gap this project addresses
 
@@ -150,9 +169,9 @@ were optimised for a quantity nobody needed.
 - A large body of relevant quantitative evidence exists but is not used as prior information,
   because automated extraction is weakest exactly on numerical quantities and its pooled error
   structure is uncharacterised, and because transportability is unestablished.
-- The operational target — escalation state — has latent-regime and extreme-value
-  representations in partial forms, but not in the coupled, multi-regime, prior-informed form the
-  problem requires.
+- The operational target — escalation state — has latent-regime, extreme-value and
+  critical-slowing-down representations in separate partial forms, but not in the coupled,
+  multi-regime, theory-and-evidence-informed form the problem requires.
 - Evaluation conventions measure something other than usefulness.
 
 **No study has tested whether evidence derived systematically from the published literature
