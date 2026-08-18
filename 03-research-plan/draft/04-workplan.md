@@ -48,6 +48,19 @@ For each parameter class, assess formally whether the study populations support 
 Geneva setting: characterise effect-modifier distributions, and where transport is not supported,
 quantify the resulting bias rather than assuming it away.
 
+### Sample size for the benchmark
+
+The benchmark is sized to detect the bias in H1, not to estimate accuracy precisely. The
+quantity of interest is the ratio of extracted to reference between-study variance; a simulation
+under plausible values (`[[insert your assumed τ² range]]`) fixes the number of publications per
+parameter class needed to detect a ratio of `[[0.7]]` or lower at 80% power. Recent evidence
+suggests the effect is large enough to be detectable in a modest sample: numerical extraction
+accuracy of 47–88%, against 74–96% for categorical items, with omissions dominating the error
+budget [Ghersi 2026], implies substantial and non-random attrition of exactly the quantities that
+carry dispersion information. Omission that is correlated with reporting quality — plausible,
+since poorly reported studies are harder to extract from — produces systematically narrow pooled
+distributions. That is the mechanism H1 proposes and T1.3 tests.
+
 **Deliverables.** D1.1 gold-standard benchmark dataset (open). D1.2 characterisation of automated
 extraction error, with correction. D1.3 open library converting corpus queries into prior
 distributions with documented provenance.
@@ -68,12 +81,24 @@ threshold on a point forecast, anticipate escalation better?
 
 **T2.1 — Specify the state process (M1–M8).**
 A Bayesian hierarchical **Markov regime-switching model** over the joint series of emergency call
-volume, emergency department presentations and intensive care occupancy. Three to four latent
-regimes with an ordinal interpretation (routine / elevated / strained / critical); regime-dependent
-level, trend and dispersion; transition probabilities allowed to depend on covariates (weather,
-epidemic indicators, calendar structure). Fitted by MCMC or variational approximation depending
-on dimension; identifiability handled by ordering constraints on regime means, with label-switching
-diagnostics reported.
+volume, emergency department presentations and intensive care occupancy.
+
+Structurally: an unobserved state `S(t) ∈ {routine, elevated, strained, critical}` follows a
+first-order Markov chain whose transition intensities depend on covariates — temperature and heat
+indices, epidemic indicators, calendar and holiday structure — through a multinomial logit link.
+Conditional on the state, each observed series follows a count or continuous distribution with
+state-dependent level, trend and dispersion, with the three series sharing the state process and
+retaining series-specific emission parameters. This is the joint structure that distinguishes the
+model from existing two-state epidemic/non-epidemic HMMs on a single surveillance series
+[Le Strat 1999; Watkins 2009]: escalation is a property of the health system, observed through
+three imperfect and differently lagged windows onto it.
+
+Estimation by MCMC with forward filtering–backward sampling, or variational approximation if
+dimension requires it. **Identifiability is the live methodological risk**, not an afterthought:
+ordering constraints on regime means resolve label switching, but weak regime separation can leave
+the posterior effectively multimodal. T2.1 therefore concludes with a simulation study
+establishing the regime separation and series length required for reliable recovery, run **before**
+any application to real data, and reported whatever it shows.
 
 **T2.2 — Tail behaviour (M6–M14).**
 The critical regime is by construction rarely observed, so the regime model alone will estimate it
@@ -84,10 +109,24 @@ Threshold selection by standard stability diagnostics, with sensitivity reported
 single chosen value.
 
 **T2.3 — Prior structure (M10–M20).**
-Define how WP1's evidence-derived distributions enter: as priors on covariate effects, on regime
-means, and on transition intensities. Implement **adaptive discounting** so the weight on the
-prior declines as local data accumulate, with the discount rate itself estimated. This is the
-machinery that H3b tests.
+Define how WP1's evidence-derived distributions enter the model: as priors on covariate effects
+(the weather–demand associations), on regime-specific means (surge magnitudes), and on transition
+intensities (escalation and recovery rates). The mechanism is the robust meta-analytic-predictive
+construction [Schmidli 2014] — a mixture of the evidence-derived component with a weakly
+informative one, whose mixture weight is estimated rather than fixed. Prior–data conflict then
+resolves itself: when the literature and the local data agree, the informative component dominates
+and the effective sample size gain is real; when they diverge, weight shifts to the vague
+component automatically.
+
+This is precisely the machinery H3b tests, and it is why H3b is stated as a claim about
+**bounded and detectable** harm rather than about no harm. The theoretical protection is
+well established in clinical trials, where historical borrowing is routine. Whether it holds when
+the "historical" information is a machine-extracted synthesis of a heterogeneous literature,
+rather than a small number of curated control arms, is an open question — and it is the question
+that decides whether any of this is deployable.
+
+Power-prior discounting [Ibrahim 2000] and commensurate priors [Hobbs 2011] are implemented as
+comparators, so the choice of borrowing mechanism is evaluated rather than assumed.
 
 **T2.4 — Baselines and comparators (M12–M22).**
 Pre-specify the comparison set so the evaluation cannot be tuned after the fact: seasonal
@@ -131,10 +170,17 @@ relevant horizons (`[[7, 14, 28 days]]`). This constraint is what makes the cold
 meaningful and it is routinely violated in retrospective forecasting studies.
 
 **T3.3 — Skill and calibration (M24–M36).**
-Evaluate with proper scoring rules — continuous ranked probability score, logarithmic score —
-plus calibration (PIT histograms, coverage) and sharpness. Report skill **as a function of
-elapsed time since onset**, which is the quantity H3a is about; a single aggregate number would
-average away the effect being tested.
+Evaluate with strictly proper scoring rules — continuous ranked probability score and logarithmic
+score [Gneiting 2007] — plus calibration assessed by probability integral transform histograms
+and interval coverage, and sharpness conditional on calibration. Report skill **as a function of
+elapsed time since onset**, which is the quantity H3a is about; a single aggregate score would
+average away the effect being tested, and the shape of that decay curve — how many weeks of local
+data are worth a literature prior — is itself the practically useful result.
+
+Uncertainty on skill differences by block bootstrap over crisis episodes, respecting temporal
+dependence. The confirmatory comparisons (regime model with evidence priors versus with weakly
+informative priors, and versus the pre-specified baselines) are registered in advance; everything
+else is reported as exploratory and labelled as such.
 
 **T3.4 — Failure analysis (M28–M38).**
 Deliberately adversarial. Identify episodes where priors degraded performance; characterise them;
@@ -168,9 +214,17 @@ and it means the project cannot fail outright on data access.
 
 **T4.1 — Threshold elicitation (M24–M32).**
 Structured elicitation with emergency physicians, dispatch supervisors and hospital capacity
-managers `[[HUG, 144/CASU]]`: what action becomes available at each escalation level, what it
-costs, what a false alarm costs, and what a missed escalation costs. The output is an explicit
-loss structure, not a preference survey.
+managers `[[HUG, 144/CASU — n ≈ 15–20, purposively sampled across roles]]`. The instrument is
+built around actions rather than probabilities: for each escalation level, what becomes available
+that was not available before, what it costs to do, what it costs to do it unnecessarily, and
+what it costs to omit it. Threshold probabilities are then derived from the elicited cost ratios
+in the standard decision-analytic way [Vickers 2006], rather than asked for directly — people are
+poor at stating probability thresholds and much better at comparing consequences.
+
+Elicit individually, then present the group distribution and re-elicit, recording both rounds.
+Disagreement between roles is a finding, not noise: if dispatch supervisors and intensive care
+managers hold materially different loss structures, a single alarm threshold cannot serve both,
+and that has design consequences for any operational system.
 
 **T4.2 — Consequence-weighted evaluation (M30–M40).**
 Re-evaluate WP3's comparisons under the elicited loss structure using net benefit and
@@ -224,3 +278,39 @@ confirmatory comparisons in WP3. Clinical data processed under `[[CCER approval 
 with the PI as applicant]]` in the University of Geneva secure environment. Code released open
 source; the extraction benchmark released openly; clinical data not shareable, with synthetic
 equivalents provided for reproducibility.
+
+
+---
+
+## Consolidated risk register
+
+| # | Risk | Likelihood | Impact | Mitigation | Trigger for fallback |
+| --- | --- | --- | --- | --- | --- |
+| R1 | Clinical operational data delayed or refused | Medium | **High** | Agreements initiated pre-award with letters in this application; infrastructure hardened in advance; WP3 fallback to open surveillance series plus the Legionella linkage | M20 milestone not met |
+| R2 | Regime model weakly identified | Medium | High | Simulation study in T2.1 before application; fall back to an ordinal state-space formulation | M12 simulation shows poor recovery |
+| R3 | Automated extraction too unreliable for priors | Medium | Low | This is a result, not a failure — it answers O1 and settles O3 negatively; WP2 and WP3 proceed with weakly informative priors | T1.3 outcome |
+| R4 | Too few critical-regime episodes for estimation | **High** | Medium | Extreme-value tail model (T2.2) exists precisely for this; pool across series and archetypes; simulation-based power stated in advance | Known at T3.1 |
+| R5 | Shadow deployment not authorised, or a quiet observation period | Medium | Low | T4.2 and T4.3 stand alone; T4.4 scoped as calibration validation in routine conditions, not as a crisis test | M36 |
+| R6 | Doctoral recruitment delay | Low | Medium | WP2 is PI-executed and unaffected; WP1 benchmark design proceeds | M3 |
+| R7 | Overlap with GESICA or the Horizon consortium | Low | Medium | Delimitation stated in §5 and declared in mySNF; this project's outputs are inferential, theirs are infrastructural | Ongoing |
+
+R4 deserves emphasis because it is intrinsic rather than circumstantial. The critical regime is
+rare by definition; no amount of data collection within four years changes that. It is the reason
+the design imports extreme value methods rather than relying on the regime model alone, and the
+reason evaluation is decision-analytic rather than accuracy-based. A project of this kind that did
+not confront rare-event scarcity head-on would be proposing to measure something it cannot observe.
+
+## Expected outputs
+
+| Output | Type | Timing |
+| --- | --- | --- |
+| Gold-standard benchmark for quantitative extraction | Open dataset + paper | M10–M14 |
+| Characterisation and correction of extraction error | Paper | M18–M24 |
+| Regime-switching framework with evidence-derived priors | Methods paper + open software | M24–M30 |
+| Cold-start evaluation result | Paper | M32–M38 |
+| Decision-analytic evaluation and elicited loss structure | Paper | M40–M44 |
+| Prospective validation report | Paper | M46–M48 |
+
+Four to six papers, with the doctoral researcher first author on the benchmark and evaluation
+work. `[[Adjust to your field's norms — and note that the SNSF assesses output relative to
+academic age, so this plan should look credible rather than maximal.]]`
