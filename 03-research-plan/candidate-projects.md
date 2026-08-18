@@ -19,6 +19,9 @@ as a continuation of your PI's programme scores badly on the criterion the schem
 
 ## The candidates
 
+*(Candidate D — evidence-informed crisis forecasting — was added later and is analysed in
+`candidate-D-crisis-forecasting.md`.)*
+
 ### A. Legionella / environmental infectious disease — *extended well beyond the cantonal study*
 
 **For.** You have something almost nobody has: cantonal case registry (2003–present) linked at
@@ -48,7 +51,18 @@ on originality and topicality, and topicality is an explicit criterion.
 **Against.** It *is* Keiser's programme. On the criterion that decides Ambizione, this is the
 worst of the three. It also leans on data and partnerships that came through her network.
 
-## Recommendation
+## Superseded — see `candidate-D-crisis-forecasting.md`
+
+**The recommendation below was made before I had seen the GESICA, Horizon and systematic-review
+material.** With those in hand, the recommendation changed: **Candidate D** (evidence-informed
+early warning and surge forecasting, reframed around the cold-start problem) is the stronger
+Ambizione, principally because it solves the independence problem that A cannot, and the
+Legionella data is better used as a validation domain inside D than as a proposal of its own.
+
+The analysis below stands as the reasoning about A, B and C, and the sections on independence,
+mobility and budget apply to D unchanged.
+
+## Earlier recommendation (superseded)
 
 **Candidate A, restructured** — and the restructuring is the whole point.
 

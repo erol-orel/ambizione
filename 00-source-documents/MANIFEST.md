@@ -38,9 +38,18 @@ from the grants office by email.
 | `cv-orel-current.pdf` | Current CV and publication list. **Note: this is a classic CV. The SNSF requires the narrative format — it is a rewrite, not a reformat.** See `04-other-documents/cv-and-output-list.md`. |
 | `legionella-protocol-v1.4-ccer.docx` | CCER research protocol v1.4 (05.05.2026), cantonal Legionella project. |
 | `legionella-basec-2026-00324-form.pdf` | BASEC 2026-00324 application form — ethics status, funders, data sources. |
+| `gesica-interreg-application-form.pdf` | GESICA Interreg VI France–Suisse application (Sept 2024 – Feb 2027). Partners, objectives, work plan. |
+| `gesica-social-media-data-sources-report.pdf` | GESICA report on social media data sources for weak-signal detection. |
+| `ai-in-ems-systematic-review-2026.pdf` | AI in Emergency Medical Services systematic review (submitted Feb 2026), Orel 3rd author, LiteRev used in the methods. |
 
 ## Still to add
 
+- [ ] **Written data-access commitments: HUG ED, 144/CASU, ICU occupancy.** The load-bearing
+      assumption of Candidate D — see `03-research-plan/candidate-D-crisis-forecasting.md`
+- [ ] The Horizon proposal's final submitted version, for the overlap declaration
+- [ ] literev-scenario.com — a description of the tool's current state (the site is blocked from
+      this environment, so I could not read it; a few paragraphs or a screenshot would let me
+      write the feasibility argument properly)
 - [ ] Ambizione applications from UNIGE colleagues that were funded (ask the ISG and the grants office — this is normal and the best single reference you can get)
 - [ ] Your PhD thesis defence certificate with the exact date
 - [ ] SIG / OCEN / cantonal doctor data agreements and letters of support

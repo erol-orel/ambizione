@@ -5,9 +5,8 @@ research plan and are then declared ineligible on a date arithmetic error.
 
 ## Hard gates
 
-- [x] **Doctorate date.** Date of thesis **defence/examination**: `________`  ← PhD UNIGE 2023;
-      confirmed comfortably eligible. **Record the exact date anyway** — mySNF asks for it and
-      the grants office will check it.
+- [x] **Doctorate date.** Thesis defence: **18 December 2023**, UNIGE. Window opens 3 Nov 2022 —
+      eligible with almost two years to spare.
       Is it on or after **3 November 2022**? (4 years before the deadline.)
       - If no → not eligible on the standard route unless an extension applies (see below).
       - Medical route: exam date `________`, ≥3 years clinical work → 9-year window applies.

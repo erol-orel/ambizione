@@ -11,7 +11,10 @@ Institute of Global Health (ISG), Faculty of Medicine, University of Geneva — 
 
 ## Education
 
-- **PhD, Biomedical Sciences (Global Health track)**, Faculty of Medicine, UNIGE, 2019–2023.
+- **PhD, Biomedical Sciences (Global Health track)**, Faculty of Medicine, UNIGE.
+  **Defended 18 December 2023** — comfortably within the four-year window (deadline 3 Nov 2026),
+  with roughly 2 years 10 months of academic age at submission. This is *young* for the scheme
+  and works in your favour: output is assessed relative to academic age.
   *"Enhancing HIV Prediction through Machine Learning and Streamlining Research with LiteRev"*
 - MAS/DEA Econometrics, UNIGE Faculty of Economics, 2004–2006
 - MSc Quantitative Economics, UNIGE, 2000–2004
@@ -43,7 +46,19 @@ Cameroon, 2021).
 
 Nine oral/poster communications, 2019–2023.
 
-## Current project — cantonal Legionella study
+## Active project portfolio
+
+Three concurrent lines, which is itself relevant to how the application is framed:
+
+| Project | Role | Lead | Runs to | Bearing on the Ambizione |
+| --- | --- | --- | --- | --- |
+| **Cantonal Legionella study** (BASEC 2026-00324) | Data lead | **Keiser** | May 2027 | Unique linked data; Keiser-led |
+| **GESICA** (Interreg VI France–Suisse) | Contributor; co-author on the AI-in-EMS systematic review | Desmettre (HUG) / Teodoro (UNIGE) | Feb 2027 | **The one line not led by Keiser** |
+| **Horizon EU consortium** (AI for pandemic preparedness) | Contributor, "LLM" | **Keiser** (UNIGE lead, ~EUR 1.12M task) | — | Thematic overlap with Candidate D; must be declared and delimited |
+
+Two of the three are Keiser-led. GESICA is the route to an independent scientific home.
+
+## Detail — cantonal Legionella study
 
 **BASEC 2026-00324**, CCER Geneva. Runs 01.06.2026 – 31.05.2027.
 **Project leader and sponsor: Prof. Olivia Keiser.** Erol Orel is the team member with sole
@@ -94,8 +109,10 @@ This is the weakest part of the dossier and it will not fix itself. See
 
 ## To confirm
 
-- [ ] **Exact PhD defence date** (must be on/after 3 November 2022 — you have said you are
-      comfortably eligible; the file wants the date recorded)
+- [x] **PhD defence: 18 December 2023.** Eligible with a wide margin.
 - [ ] Career interruptions to declare, if any
 - [ ] Nationality / permit
-- [ ] Whether ISG under Keiser is the intended host unit, or another unit
+- [x] **Open to a host unit other than ISG-under-Keiser** — confirmed. This is the single most
+      useful thing you have said, because it unlocks the independence argument. Candidates:
+      Teodoro's group (medical informatics, UNIGE), an HUG-affiliated unit via Desmettre and
+      Larribau, or another Faculty of Medicine institute.
