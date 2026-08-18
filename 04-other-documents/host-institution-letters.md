@@ -9,6 +9,18 @@
 These are the most common reason applications miss the deadline. They involve people who are
 not invested in your timeline, and August is a holiday month in Switzerland.
 
+## Who signs what
+
+| Letter | From | Content |
+| --- | --- | --- |
+| **Detailed confirmation** | Prof. Douglas Teodoro, DS4DH, Department of Radiology and Medical Informatics, Faculty of Medicine, UNIGE | Space, infrastructure, independence, doctoral supervision, integration |
+| **General confirmation** | UNIGE central research office / Vice-Rectorate for Research | Institutional commitment to employ and host |
+| **Supporting letters** (not required, but strong) | HUG emergency medicine `[[Desmettre, Larribau]]`; 144/CASU; intensive care | Data access commitments — see below |
+
+**The supporting letters matter as much as the required ones.** WP3 and WP4 rest on access to
+emergency department, dispatch and intensive care data; without written commitments those are
+assertions, and a referee will treat them as such.
+
 ## Act now
 
 - [ ] Ask the host institute for the **detailed confirmation letter**.
@@ -22,11 +34,23 @@ not invested in your timeline, and August is a holiday month in Switzerland.
 
 ## What the detailed letter should say
 
-Write a draft for them. Busy department heads sign drafts and rewrite them only where they
-disagree — this is normal practice, it speeds everything up, and it means the letter says what
-the application needs it to say.
+Write a draft for Prof. Teodoro. Busy colleagues sign drafts and rewrite only where they disagree
+— normal practice, it speeds everything up, and it means the letter says what the application
+needs it to say.
 
-It should confirm, concretely:
+**The sentence that matters most for an Ambizione is the one about independence.** The panel is
+assessing whether you are becoming a principal investigator. A letter that describes you as a
+valued member of the group undoes the argument §5 makes; one that describes you as leading your
+own line, with your own students, supports it. Suggested wording to adapt:
+
+> Dr Orel will establish and lead his own research group within the department, on a research
+> line he has defined and which is distinct from the group's existing programme. He will act as
+> principal investigator, recruit and supervise his own doctoral researcher(s), hold his own
+> ethics approvals, and manage his own budget. The department will provide `[[office and
+> workspace, computing, administrative support]]` and will support his integration into teaching
+> and departmental research life.
+
+It should also confirm, concretely:
 - **Space and infrastructure** — office and lab/workspace, access to specific facilities.
 - **Independence** — that you will lead your own group, supervise your own students, and pursue
   your own research line. This is the sentence that matters most for an Ambizione. Vague

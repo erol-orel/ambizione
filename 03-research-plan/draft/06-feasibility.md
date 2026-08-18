@@ -1,23 +1,19 @@
 # 6. Feasibility, environment and resources
 
-> **Drafted under an assumption you need to confirm or overturn.** I have written this for a host
-> in **Prof. Douglas Teodoro's group (medical informatics, Faculty of Medicine, UNIGE), with a
-> formal collaboration with HUG emergency medicine**. Reasoning: it moves you out of the institute
-> and the supervisor that make the independence argument hard; medical informatics is the natural
-> disciplinary home for evidence extraction and predictive modelling; and it sits inside the
-> GESICA network that carries the clinical data access. The alternative — a directly
-> HUG-affiliated unit — is stronger on data proximity and weaker on methodological home; a third
-> option, remaining at ISG, is the one I would advise against, for reasons in
-> `02-profile/erol-orel-profile.md`. Change the names and this section survives; change the
-> institution and §5 and the mobility statement need rewriting too.
+**Host: Data Science for Digital Health (DS4DH), Department of Radiology and Medical
+Informatics, Faculty of Medicine, University of Geneva** — Prof. Douglas Teodoro — with a formal
+research collaboration with **HUG emergency medicine** `[[Prof. Thibaut Desmettre,
+Dr Robert Larribau — confirm titles and agreed roles]]`.
 
 ## 6.1 Why this environment
 
-**Disciplinary home.** `[[Host unit]]` combines biomedical natural language processing,
-information retrieval and machine learning for health — the methodological neighbours of WP1 —
-with an established record in epidemic intelligence. It is where the extraction half of this
-project belongs, and it is a different scientific community from the one in which my doctoral and
-postdoctoral work was conducted, which is the point.
+**Disciplinary home.** DS4DH works on biomedical natural language processing, information
+retrieval and machine learning for health — the immediate methodological neighbours of WP1 — with
+an established record in clinical text mining and biomedical entity recognition. It is where the
+extraction half of this project belongs. It is also a **different department and a different
+scientific community** from the Institute of Global Health, where my doctoral and postdoctoral
+work was conducted: the move is from global-health epidemiological modelling into medical
+informatics, and it is deliberate.
 
 **Access to the operational system.** Through GESICA I work directly with HUG emergency medicine
 `[[Prof. Thibaut Desmettre, Dr Robert Larribau — confirm naming and their agreed roles]]` and with
@@ -49,7 +45,7 @@ training. `[[Confirm the doctoral programme the student would enrol in.]]`
 
 | Item | Status | Evidence |
 | --- | --- | --- |
-| Host institution and unit | `[[ ]]` | Detailed and general confirmation letters |
+| Host institution and unit | **Agreed in principle** `[[confirm]]` | Detailed and general confirmation letters |
 | Right to supervise doctoral students | `[[ ]]` | Detailed confirmation letter — must be explicit |
 | HUG emergency department data | `[[ ]]` | `[[letter of support]]` |
 | 144 / CASU dispatch data | `[[ ]]` | `[[letter of support]]` |

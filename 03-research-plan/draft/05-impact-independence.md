@@ -64,4 +64,11 @@ under what conditions it fails. `[[Both are declared in the mySNF application.]]
 The grant would let me lead my own group for the first time: supervise a doctoral researcher on a
 question I defined, hold the ethics approval as applicant, and establish an independent line at
 the intersection of evidence synthesis, econometric time-series methods and emergency public
-health. `[[State the host unit and the independence arrangements — see the confirmation letter.]]`
+health.
+
+I will do so in a **different department from the one in which I trained** — Data Science for
+Digital Health, Department of Radiology and Medical Informatics, rather than the Institute of
+Global Health — hosted by a colleague with whom I collaborate as a peer rather than a former
+supervisor, and with a formal partnership with HUG emergency medicine that gives the project its
+clinical anchor. `[[The detailed confirmation letter states the concrete arrangements: own group,
+own doctoral supervision, own research line.]]`
