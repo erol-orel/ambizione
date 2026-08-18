@@ -84,13 +84,10 @@ in §4: the WP2 timeline assumes a substantial fraction of my own time.]]`
 
 ## 6.4 Preparatory work before the grant starts
 
-Three things are underway and must be complete before month 1, because the project's data access
-depends on them:
-
-1. **Infrastructure hardening** of the LiteRev-Evidence platform — transport security, secrets
-   management, schema under migration control, documented recovery — so that a data-protection
-   review of the clinical data request meets no avoidable obstacle.
-2. **Data agreements** with HUG, the 144/CASU and the intensive care service, initiated now so
-   that the supporting letters accompany this application rather than following it.
-3. **A CCER submission with myself as applicant** for the operational data, which is both a
-   practical necessity and concrete evidence of the independence claimed in §5.
+Three things are underway and complete before month 1, because data access depends on them:
+**infrastructure hardening** of the platform (transport security, secrets management, schema under
+migration control, documented recovery) so that data-protection review meets no avoidable
+obstacle; **data agreements** with HUG, the 144/CASU and intensive care, initiated now so the
+supporting letters accompany this application; and a **CCER submission with myself as applicant**
+for the operational data — a practical necessity and concrete evidence of the independence claimed
+in §5.

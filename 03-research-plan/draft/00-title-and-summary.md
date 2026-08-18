@@ -20,10 +20,10 @@ holds that a system approaching a critical transition loses resilience, so the v
 autocorrelation of its fluctuations rise **before** the transition — a signal computable from a
 short window, and therefore available when nothing else is.
 
-This project asks that question directly. Building on **LiteRev-Evidence**, a production
+This project asks both questions directly. Building on **LiteRev-Evidence**, a production
 literature-synthesis platform I developed that already extracts and pools quantitative parameters
 from a corpus of over 80,000 documents, I will (i) establish how reliably quantitative evidence
-can be extracted automatically and where that extraction is systematically biased; (ii) develop a
+can be extracted automatically and where extraction is systematically biased; (ii) develop a
 **Bayesian regime-switching** framework — with extreme value methods for the tail, resilience
 indicators on its transition intensities, and a conformal layer guaranteeing calibrated coverage
 even under misspecification — representing health-system state as latent regimes rather than as a
@@ -35,17 +35,17 @@ matters — whether it changes decisions and outcomes — through threshold elic
 responders, retrospective counterfactual analysis of what earlier escalation would have changed,
 and a prospective shadow-mode deployment.
 
-Validation spans crisis archetypes with different dynamics: a respiratory epidemic, a heatwave,
-and — using linked case–installation data unique to Geneva — a waterborne outbreak.
+Validation spans archetypes with different dynamics: a respiratory epidemic, a heatwave, and —
+using linked case–installation data unique to Geneva — a waterborne outbreak.
 
 The approach is deliberately imported from outside epidemiology. Regime-switching models, extreme
 value theory and stress testing are standard instruments for anticipating rare, costly transitions
-in quantitative finance, where I worked for fifteen years before moving into public health. They
-have barely been applied to health-system surge. The combination of that methodological
-inheritance with a working evidence-synthesis platform and established links to Geneva's emergency
-system is, as far as I am aware, unique.
+in quantitative finance, where I worked for fifteen years before moving into public health, and
+they have barely been applied to health-system surge. Combining that inheritance with a working
+evidence-synthesis platform and established links to Geneva's emergency system is, as far as I am
+aware, unique.
 
-The deliverables are a validated answer to whether published evidence can be made to earn its
-place in operational forecasting, an open framework for doing so, and — if the answer is negative
-or conditional — a clear account of the conditions under which it fails. Both outcomes are
-useful, which is what makes the question worth four years.
+The deliverables are a validated answer to whether published evidence can earn its place in
+operational forecasting, an open framework for doing so, and — if the answer is negative or
+conditional — a clear account of when it fails. Both outcomes are useful, which is what makes the
+question worth four years.

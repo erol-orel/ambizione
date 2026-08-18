@@ -1,12 +1,10 @@
 # 2. Current state of my own research
 
-My route to this project is unusual and it is the reason the project is tractable. I spent
-fifteen years in quantitative finance — risk modelling, extreme value estimation for non-Gaussian
-tails, regime and factor models, stress testing and scenario analysis — before completing a
-doctorate in biomedical sciences at the University of Geneva (defended 18 December 2023). The
-methodological inheritance is not decorative: the instruments that this proposal brings to
-health-system surge are the ones I used daily to anticipate rare, costly transitions in another
-domain.
+My route here is unusual and it is why the project is tractable. I spent fifteen years in
+quantitative finance — risk modelling, extreme value estimation for non-Gaussian tails, regime and
+factor models, stress testing — before a doctorate in biomedical sciences at Geneva (defended
+18 December 2023). The inheritance is not decorative: the instruments this proposal brings to
+health-system surge are the ones I used daily to anticipate rare, costly transitions elsewhere.
 
 ## 2.1 Prediction under sparse and imperfect information
 

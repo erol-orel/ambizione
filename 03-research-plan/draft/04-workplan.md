@@ -30,17 +30,17 @@ quantitative extraction, so the benchmark is a deliverable in its own right and 
 others.
 
 **T1.3 — Characterise automated extraction against the benchmark (M8–M16).**
-Evaluate the platform's extraction against the gold standard: agreement on point estimates,
-agreement on reported uncertainty, and — the substantive test of H1 — whether the *dispersion* of
-extracted estimates reproduces the dispersion of manually extracted ones. Decompose error by
-parameter class, reporting completeness and study design. Assess sensitivity to the underlying
-language model, since the platform's behaviour must not be an artefact of one model version.
+Evaluate the platform's extraction against the gold standard: agreement on point estimates, on
+reported uncertainty, and — the substantive test of H1 — whether the *dispersion* of extracted
+estimates reproduces that of manually extracted ones. Decompose error by parameter class,
+reporting completeness and study design, and assess sensitivity to the underlying language model,
+since the behaviour must not be an artefact of one version.
 
-**T1.4 — Model the extraction error and construct corrected priors (M14–M22).**
-Represent extraction error explicitly as a measurement-error layer above the evidence synthesis,
-so that a prior carries both between-study heterogeneity and extraction uncertainty. Compare
-pooling strategies: naive inverse-variance, quality-weighted (as currently implemented),
-random-effects meta-analytic-predictive, and power-prior discounting.
+**T1.4 — Model extraction error, construct corrected priors (M14–M22).**
+Represent extraction error as an explicit measurement-error layer above the evidence synthesis, so
+a prior carries both between-study heterogeneity and extraction uncertainty. Compare pooling
+strategies: naive inverse-variance, quality-weighted (as implemented), meta-analytic-predictive,
+power-prior discounting.
 
 **T1.5 — Transportability assessment (M18–M24).**
 For each parameter class, assess formally whether the study populations support transport to
@@ -97,12 +97,11 @@ establishing the regime separation and series length required for reliable recov
 any application to real data, and reported whatever it shows.
 
 **T2.2 — Tail behaviour (M6–M14).**
-The critical regime is by construction rarely observed, so the regime model alone will estimate it
-poorly. Complement it with a peaks-over-threshold generalised Pareto representation of exceedances
-in the operational series, and couple the two so that the probability of entering the critical
-regime is informed by the tail model rather than by the handful of observed transitions.
-Threshold selection by standard stability diagnostics, with sensitivity reported rather than a
-single chosen value.
+The critical regime is rarely observed, so the regime model alone estimates it poorly. Complement
+it with a peaks-over-threshold generalised Pareto representation of exceedances, coupled so that
+the probability of entering the critical regime is informed by the tail model rather than by a
+handful of observed transitions. Threshold selection by stability diagnostics, with sensitivity
+reported rather than a single chosen value.
 
 **T2.3 — Prior structure (M10–M20).**
 Define how WP1's evidence-derived distributions enter the model: as priors on covariate effects
@@ -126,9 +125,11 @@ comparators, so the choice of borrowing mechanism is evaluated rather than assum
 
 **T2.4 — Baselines and comparators (M12–M22).**
 Pre-specify the comparison set so evaluation cannot be tuned after the fact: seasonal naive;
-Farrington-style detection; SARIMA/Prophet with thresholding; gradient boosting with weather
-features; an ensemble; and the regime-switching model under weakly informative priors — the last
-isolating the contribution of the priors from that of the representation.
+Farrington-style detection, including a variant designed for short baselines [Yoneoka 2021];
+SARIMA/Prophet with thresholding; gradient boosting with weather features; a compartmental
+patient-flow model of the kind hospitals actually use; an ensemble; and the regime-switching model
+under weakly informative priors — the last isolating the contribution of the priors from that of
+the representation.
 
 **T2.5 — Resilience indicators as transition covariates (M8–M18).**
 Compute critical-slowing-down indicators — rolling variance, lag-1 autocorrelation, and the
@@ -175,7 +176,11 @@ when do they mislead?
 **T3.1 — Assemble the retrospective operational record (M12–M20).**
 `[[HUG emergency presentations; 144/CASU call and dispatch records; ICU occupancy; MeteoSwiss;
 cantonal and federal surveillance — specify years and granularity once agreements are in place.]]`
-Harmonise into a reproducible pipeline with **quantified completeness**.
+Harmonise into a reproducible pipeline with **quantified completeness**, including a
+**reporting-delay model**: operational counts are right-truncated, and recent days fill in over
+subsequent days, so a model fitted to raw recent data reads truncation as decline — the wrong
+signal precisely at surge onset. The delay distribution is estimated jointly with the epidemic
+curve by established nowcasting methods [Höhle 2014; McGough 2020] rather than assumed.
 
 Incompleteness is expected and modelled rather than caveated: our review reports completeness of
 roughly 52–70% across prehospital record types, some variables missing in over 90% of records
@@ -204,10 +209,10 @@ Uncertainty on skill differences by block bootstrap over episodes, respecting te
 The confirmatory comparisons are registered in advance; everything else is labelled exploratory.
 
 **T3.4 — Failure analysis (M28–M38).**
-Deliberately adversarial. Identify episodes where priors degraded performance; characterise them;
-test whether the divergence was detectable early from prior–data discrepancy diagnostics (H3b).
-Include stress tests with deliberately misspecified priors — drawn from a different pathogen, a
-different health system, a different era — to bound the damage.
+Deliberately adversarial: identify episodes where priors degraded performance, characterise them,
+and test whether divergence was detectable early from prior–data discrepancy diagnostics (H3b).
+Includes stress tests with deliberately misspecified priors — a different pathogen, health system
+or era — to bound the damage.
 
 **T3.5 — Waterborne archetype (M34–M42, extension).**
 Apply the framework to Geneva legionellosis using the linked case–installation data. Scoped as an
@@ -234,11 +239,13 @@ and it means the project cannot fail outright on data access.
 ### Tasks
 
 **T4.1 — Threshold elicitation (M24–M32).**
-Structured elicitation with emergency physicians, dispatch supervisors and hospital capacity
-managers `[[HUG, 144/CASU — n ≈ 15–20, purposively sampled across roles]]`. The instrument is
+Structured elicitation following the **SHELF** protocol — individual elicitation, facilitated
+discussion, then a distribution representing a rational impartial observer — with emergency
+physicians, dispatch supervisors and hospital capacity managers `[[HUG, 144/CASU — n ≈ 15–20, purposively sampled across roles]]`. The instrument is
 built around actions rather than probabilities: for each escalation level, what becomes available
-that was not available before, what it costs to do, what it costs to do it unnecessarily, and
-what it costs to omit it. Threshold probabilities are then derived from the elicited cost ratios
+that was not available before, what it costs to do, what it costs to do unnecessarily — including the cost to *future
+compliance*, since an alarm that cries wolf degrades response to the next one — and what it costs
+to omit. Threshold probabilities are then derived from the elicited cost ratios
 in the standard decision-analytic way [Vickers 2006], rather than asked for directly — people are
 poor at stating probability thresholds and much better at comparing consequences.
 
@@ -341,14 +348,9 @@ evaluation is decision-analytic rather than accuracy-based.
 
 ## Expected outputs
 
-| Output | Type | Timing |
-| --- | --- | --- |
-| Gold-standard benchmark for quantitative extraction | Open dataset + paper | M10–M14 |
-| Characterisation and correction of extraction error | Paper | M18–M24 |
-| Regime-switching framework with evidence-derived priors | Methods paper + open software | M24–M30 |
-| Cold-start evaluation result | Paper | M32–M38 |
-| Decision-analytic evaluation and elicited loss structure | Paper | M40–M44 |
-| Prospective validation report | Paper | M46–M48 |
-
-Four to six papers, with the doctoral researcher first author on the benchmark and evaluation
-work. `[[Adjust to field norms — credible rather than maximal.]]`
+Four to six papers, plus two open resources — the extraction benchmark (M10–M14) and the
+regime-switching software (M24–M30). Sequence: extraction benchmark and error characterisation
+(M14–M24); methods paper on the regime framework (M24–M30); the cold-start result (M32–M38);
+decision-analytic and counterfactual evaluation (M40–M44); prospective validation (M46–M48). The
+doctoral researcher is first author on the benchmark and evaluation work.
+`[[Adjust to field norms — credible rather than maximal.]]`

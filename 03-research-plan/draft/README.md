@@ -50,7 +50,9 @@ table. Each pre-empts a specific objection a referee will otherwise raise unansw
 
 ## Current length
 
-**~60,000 characters against an assumed 60,000 limit — no reserve.** See the cut list above.
+**~60,600 characters against an assumed 60,000 limit — roughly 600 over**, and the counter here is
+approximate (it strips markdown imperfectly). **Verify the real limit before cutting anything.**
+If it is 60,000, one item from the cut list above clears it.
 Run `sh wordcount.sh` after each edit. Both figures are drawn and linked from §3 and §4. They consume page budget rather than
 characters, so check both limits when you typeset.
 

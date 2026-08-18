@@ -92,11 +92,10 @@ strain, or heading for failure. Practice typically produces this by thresholding
 which discards the structure of the problem: escalation is persistent, transitions are abrupt, and
 the same observed value means different things on different trajectories.
 
-Latent-state representations are not new to surveillance. Le Strat and Carrat introduced Poisson
-hidden Markov models for epidemic surveillance, with states interpreted as epidemic and
-non-epidemic periods [Le Strat 1999]; the approach has been developed since [Watkins 2009] and is
-implemented in the standard `surveillance` package. At low false-alarm rates, HMM-based detection
-compares favourably with CUSUM alternatives. Extreme value methods likewise have a foothold, and the closest precedent to this work is Swiss:
+Latent-state representations are not new to surveillance: Le Strat and Carrat introduced Poisson
+hidden Markov models with states interpreted as epidemic and non-epidemic periods [Le Strat 1999],
+developed since [Watkins 2009] and implemented in the standard `surveillance` package, and at low
+false-alarm rates HMM detection compares favourably with CUSUM alternatives. Extreme value methods likewise have a foothold, and the closest precedent to this work is Swiss:
 peaks-over-threshold and generalised Pareto approximation of exceedances [Coles 2001] have been
 applied, in discrete form, to the extremes of influenza-like hospital visits and hospital
 congestion using daily data from a large Swiss hospital [Ranjbar 2022]. That study establishes
@@ -112,14 +111,13 @@ occurs [Scheffer 2009]. The theory has been developed specifically for epidemic 
 [O'Regan 2013; Brett 2018] and reviewed comparatively [Southall 2021], and resilience indicators
 of this kind have recently been evaluated at scale across many diseases and regions.
 
-This matters here for a reason that is not obvious. These indicators are computed from the *shape
-of recent fluctuations*, not from a long history of previous crises — so they are informative in
-exactly the regime where data-adaptive models fail. They constitute a **second, independent route
-to information at crisis onset**, theoretically grounded rather than evidence-derived, and to my
-knowledge nobody has combined the two: resilience indicators as theoretically motivated
-covariates for the transition intensities of a fitted regime-switching model, with priors on
-those intensities drawn from published evidence. Each addresses the cold-start problem from a
-different direction, and whether they are complementary or redundant is an empirical question.
+This matters for a non-obvious reason. These indicators are computed from the *shape of recent
+fluctuations*, not from a long history of previous crises, so they are informative in exactly the
+regime where data-adaptive models fail. They constitute a **second, independent route to
+information at crisis onset** — theoretically grounded rather than evidence-derived — and to my
+knowledge nobody has combined the two: resilience indicators as covariates on the transition
+intensities of a fitted regime-switching model, with priors on those intensities drawn from
+published evidence. Whether they are complementary or redundant is an empirical question.
 
 **The claim here is therefore narrower and stronger than "these methods are absent".** What
 exists is two-state epidemic/non-epidemic detection on a single surveillance series, and separate
@@ -159,9 +157,14 @@ elsewhere.
 For rare adverse states this is a necessity rather than a refinement. An alarming regime is by
 construction infrequent; an accuracy-based criterion rewards a model that never raises the alarm,
 and a threshold optimising AUC bears no relation to the point at which an emergency service can
-act differently. That so few operational forecasting tools are ever adopted is usually attributed
-to implementation barriers; a more parsimonious explanation is that they were optimised for a
-quantity nobody needed.
+act differently. The consequences are documented. Between 72% and 99% of clinical monitoring
+alarms are false or clinically non-actionable, producing override, delayed response and lost trust
+[Winters 2018]; heat–health warning systems set thresholds against a single health proxy, and the
+temperatures at which morbidity and mortality rise differ by several degrees, so systems calibrated
+on deaths misfire on emergency demand [Lee 2021]; and clinical prediction models adhere to a median
+of 44% of TRIPOD items and degrade on external validation [Damen 2025]. That so few forecasting
+tools are adopted is usually attributed to implementation barriers; a more parsimonious explanation
+is that they were optimised for a quantity nobody needed.
 
 ## 1.6 The gap this project addresses
 
