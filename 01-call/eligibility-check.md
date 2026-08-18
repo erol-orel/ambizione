@@ -5,18 +5,23 @@ research plan and are then declared ineligible on a date arithmetic error.
 
 ## Hard gates
 
-- [ ] **Doctorate date.** Date of thesis **defence/examination**: `________`
+- [x] **Doctorate date.** Date of thesis **defence/examination**: `________`  ← PhD UNIGE 2023;
+      confirmed comfortably eligible. **Record the exact date anyway** — mySNF asks for it and
+      the grants office will check it.
       Is it on or after **3 November 2022**? (4 years before the deadline.)
       - If no → not eligible on the standard route unless an extension applies (see below).
       - Medical route: exam date `________`, ≥3 years clinical work → 9-year window applies.
-- [ ] **≥12 months of research activity** after the doctorate, completed by the deadline. Dates: `________`
+- [x] **≥12 months of research activity** after the doctorate — Senior Research Associate, ISG
+      UNIGE, continuously since 2019. Comfortably satisfied.
 - [ ] **Connection to Switzerland** — which one applies?
       - [ ] Swiss national
-      - [ ] Swiss degree (master's/doctorate) — institution and year: `________`
-      - [ ] ≥12 months research at a Swiss institution post-doctorate — institution and dates: `________`
-- [ ] **Not a professor** (permanent or temporary, with or without tenure track), and will not
-      become one before the decision.
-- [ ] **Host institution** in Switzerland identified and willing to host you. Name: `________`
+      - [x] Swiss degree — MSc (2004), DEA (2006), PhD (2023), all University of Geneva
+      - [x] ≥12 months research at a Swiss institution post-doctorate — ISG, UNIGE, 2023–present
+- [x] **Not a professor** — Senior Research Associate. Satisfied.
+- [ ] **Host institution** identified and willing. University of Geneva — but **which unit** is
+      an open and consequential question (see `03-research-plan/candidate-projects.md`,
+      "Independence"). Hosting under Keiser at ISG is the configuration that makes the
+      independence argument hardest to make.
 
 ## Extensions to the 4-year window — claim these if they apply
 
@@ -45,5 +50,9 @@ merely where you happen to be. If the honest answer is "because my life is here"
 need a scientific argument alongside it — and you should consider whether a move, or a
 credibly documented plan for outgoing/incoming mobility during the grant, strengthens the case.
 
-Decision: `________`
-Reasoning to develop in `04-other-documents/statement-of-mobility.md`.
+**Decision: staying at UNIGE.** This is the harder case and it is your single weakest criterion —
+MSc, DEA, PhD and current post are all at the same institution. The argument for Geneva is
+genuinely strong (the SIG installation-level data linkage exists nowhere else, and the ethics
+approval is already in hand), but it must be paired with real, agreed, outgoing mobility during
+the grant. Worked through in `04-other-documents/statement-of-mobility.md` — start this in
+August, since it depends on other people agreeing.

@@ -10,6 +10,7 @@ discontinued and replaced from 2028).
 
 | Folder | Contents |
 | --- | --- |
+| `00-source-documents/` | Official call documents (to download) and the applicant's own materials |
 | `01-call/` | What the call actually requires: facts, document list, evaluation criteria, timeline |
 | `02-profile/` | Intake questionnaire — **fill this in first**, everything else is generated from it |
 | `03-research-plan/` | The research plan: outline, page budget, and drafts |
@@ -18,7 +19,8 @@ discontinued and replaced from 2028).
 
 ## Order of work
 
-1. Fill in `02-profile/intake.md` (or answer the questions in chat and I will fill it in).
+0. Read `03-research-plan/candidate-projects.md` — the project-choice recommendation.
+1. `02-profile/erol-orel-profile.md` is filled in from the CV; correct anything wrong.
 2. Confirm eligibility against `01-call/eligibility-check.md` — do this before writing anything.
 3. Lock the one-paragraph project pitch in `03-research-plan/00-core-idea.md`.
    Nothing else gets written until this is sharp.
