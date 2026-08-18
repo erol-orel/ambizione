@@ -275,3 +275,40 @@ Being named on a Horizon consortium proposal and holding a role in an Interreg p
 **evidence for the CV**, and you should use it. It shows you operate in international consortia
 and attract funded collaboration — PI-shaped behaviour. Put it in the narrative CV. Just make
 sure the Ambizione reads as the thing you lead, not the fourth item on a list.
+
+
+---
+
+## Addendum 3 — a precedent, and a possible collaborator
+
+The citation-verification pass turned up the closest published precedent to WP2, and it is Swiss:
+
+> Ranjbar S, **Cantoni E**, **Chavez-Demoulin V**, Marra G, Radice R, Jaton-Ogay K. Modelling the
+> extremes of seasonal viruses and hospital congestion: the example of flu in a Swiss hospital.
+> *J R Stat Soc Ser C* 2022. doi:10.1111/rssc.12559
+
+They fit a discrete generalised Pareto model to the extremes of influenza-like hospital visits
+using three years of daily data from a large Swiss hospital (CHUV). Two consequences:
+
+**Cite it, and position against it.** §1.4 now does. The distinction is real and clean: they model
+the tail as a stand-alone description of congestion; this project makes the tail the *tail of a
+latent state process*, coupled to regime transitions and informed by literature-derived priors.
+Not citing the nearest precedent — in the same country, on the same kind of data — would have been
+the worst available outcome.
+
+**Consider approaching them.** Eva Cantoni is at the **Research Center for Statistics, University
+of Geneva**; Valérie Chavez-Demoulin is at UNIL and works on extreme value theory. This is the
+Swiss extreme-value-in-hospital-data community, it is on your doorstep, and it is outside both
+Keiser's and Teodoro's orbits.
+
+Three things that could come from it, in increasing order of value:
+
+1. A sanity check on the WP2 tail specification from people who have done it on Swiss hospital
+   data — worth a coffee regardless.
+2. A named methodological collaborator in the proposal, which strengthens the feasibility of the
+   part of WP2 furthest from your published record.
+3. A **mobility component** that is scientifically load-bearing rather than decorative — a stay
+   at UNIL with Chavez-Demoulin would be a genuine change of institution, tied to a work package,
+   and would address the weakest criterion in your dossier.
+
+Option 3 is the one worth pursuing this month, because it needs someone else to say yes.

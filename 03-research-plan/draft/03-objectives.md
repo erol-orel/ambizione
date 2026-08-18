@@ -1,5 +1,8 @@
 # 3. Objectives and hypotheses
 
+![Framework](figures/fig1-framework.svg)
+*Figure 1 — the cold-start problem and the proposed framework. See `figures/`.*
+
 **Overall aim.** To determine whether, and under what conditions, quantitative evidence extracted
 systematically from the published literature improves the forecasting of health-system crises in
 the regime where local data are scarce — and to establish what would have to be true for such

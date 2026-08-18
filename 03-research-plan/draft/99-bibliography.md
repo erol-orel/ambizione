@@ -39,9 +39,11 @@
   syndromic influenza surveillance during the autumn/winter wave of A(H1N1) influenza 2009:
   results of emergency medical dispatch, ambulance and emergency department data from three
   European regions. *BMC Public Health* 2013. PMC3852468.
-- **[Bonora 2024]** Telephone calls to emergency medical service as a tool to predict
-  influenza-like illness: a 10-year study. *Public Health* 2024. `verify authorship`
-  doi:10.1016/j.puhe.2024 — ScienceDirect S0033350624005171
+- **[EMS-ILI 2024]** Telephone calls to emergency medical service as a tool to predict
+  influenza-like illness: a 10-year study. *Public Health* 2024.
+  ScienceDirect S0033350624005171. Lombardy region, influenza seasons 2014–2024 excluding
+  2020–2022. `AUTHOR LIST STILL NEEDED — the only entry not yet resolved; get it from the
+  publisher page and replace the citation key`
 - **[Edjinedja 2026]** Edjinedja KL, Larribau R, **Orel E**, Cossus J, Elfahim O, Yendouname K,
   Vaussenat F, Teodoro D, Robert-Nicoud S, Barakat O, Desmettre T. Artificial intelligence in
   emergency medical services for disasters and health emergencies: a systematic review.
@@ -68,9 +70,10 @@
 
 ## Automated extraction
 
-- **[Ghersi 2026]** Performance of large language models in data extraction for evidence
-  synthesis: a systematic review. *J Biomed Inform* 2026. PMID 42501879;
-  ScienceDirect S1532046426001103. `verify authorship`
+- **[Shankar 2026]** Shankar R, et al. Performance of large language models in data extraction
+  for evidence synthesis: a systematic review. *J Biomed Inform* 2026. PMID 42501879;
+  ScienceDirect S1532046426001103. `verified: lead author and venue confirmed; complete the
+  co-author list from the publisher record`
   — Key figures for §1.3: overall accuracy 47–99.9%; numerical items 47–88% vs categorical/string
   74–96%; omissions 60–74% of errors; hallucination 0.08–6%.
 - **[Orel 2023]** **Orel E**, Ciglenecki I, Thiabaud A, Temerev A, Calmy A, Keiser O, Merzouki A.
@@ -94,9 +97,14 @@
   series and the business cycle. *Econometrica* 1989;57(2):357–384.
 - **[Coles 2001]** Coles S. *An Introduction to Statistical Modeling of Extreme Values.*
   Springer, 2001.
-- **[Minkoff 2020]** Modelling the extremes of seasonal viruses and hospital congestion: the
-  example of flu in a Swiss hospital. arXiv:2005.05808. `verify authorship and publication venue —
-  this one matters, it is the closest published precedent`
+- **[Ranjbar 2022]** Ranjbar S, Cantoni E, Chavez-Demoulin V, Marra G, Radice R, Jaton-Ogay K.
+  Modelling the extremes of seasonal viruses and hospital congestion: the example of flu in a
+  Swiss hospital. *J R Stat Soc Ser C (Appl Stat)* 2022. doi:10.1111/rssc.12559.
+  **The closest published precedent.** Discrete generalised Pareto model for extremes of
+  flu-like hospital visits, three years of daily data from a large Swiss hospital (CHUV).
+  Note the affiliations: **Cantoni is at the Research Center for Statistics, University of
+  Geneva; Chavez-Demoulin is at UNIL** — see the note in §1.4 and in
+  `03-research-plan/candidate-D-crisis-forecasting.md`.
 
 ## Evaluation
 

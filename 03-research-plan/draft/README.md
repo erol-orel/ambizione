@@ -12,7 +12,8 @@ bibliography — `[VERIFY]` against the Call 2026 guidelines before drafting to 
 | `04-workplan.md` | Detailed research plan | 7.5 pp | Draft — expanded; needs the Gantt figure |
 | `05-impact-independence.md` | Relevance, impact, independence | 1.0 pp | Draft |
 | `06-feasibility.md` | Feasibility, environment, resources | 0.5–1.0 pp | Draft — **written under an assumed host; confirm or overturn** |
-| `99-bibliography.md` | Bibliography | excluded | Real references located; final details to verify from publisher records |
+| `99-bibliography.md` | Bibliography | excluded | Verified; **one author list outstanding** (the *Public Health* 2024 EMS/ILI paper) |
+| `figures/` | Figure 1 (framework) and Figure 2 (Gantt) | — | Drawn; regenerate with `python3 figures/make_figures.py` |
 
 ## Conventions in the draft
 
@@ -36,8 +37,8 @@ Alternatives if the acronym grates:
 ## Current length
 
 **53,540 characters** against an assumed 60,000 limit — about 6,500 in reserve, before figures.
-Run `sh wordcount.sh` after each edit. Two figures are still to come (a concept figure in §3 and
-the Gantt in §4); they consume page budget rather than characters, so check both limits.
+Run `sh wordcount.sh` after each edit. Both figures are drawn and linked from §3 and §4. They consume page budget rather than
+characters, so check both limits when you typeset.
 
 ## Open decisions blocking completion
 

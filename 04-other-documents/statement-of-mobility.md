@@ -52,6 +52,7 @@ work package. Candidates, chosen so the stay does scientific work:
 | **A forecasting-hub group** (e.g. European hub contributors) | WP3 evaluation methodology; puts you in the community whose conventions you are critiquing |
 | **RIVM** (Netherlands) | Legionella and water systems; strong environmental infectious disease modelling |
 | **ECDC / ELDSNet** | European surveillance perspective |
+| **Prof. Valérie Chavez-Demoulin (UNIL)** — with Prof. Eva Cantoni (Research Center for Statistics, UNIGE) | **Strongest option.** Authors of the closest precedent to WP2 (extreme value modelling of flu and hospital congestion in a Swiss hospital, *JRSS-C* 2022). A stay at UNIL is a genuine change of institution, tied directly to WP2's tail model, and outside both your current and future host groups. |
 
 A three-month stay that a work package depends on is worth more than a list of conferences. Aim
 for **one confirmed in writing before submission**.

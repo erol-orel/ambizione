@@ -105,17 +105,22 @@ Latent-state representations are not new to surveillance. Le Strat and Carrat in
 hidden Markov models for epidemic surveillance, with states interpreted as epidemic and
 non-epidemic periods [Le Strat 1999]; the approach has been developed since [Watkins 2009] and is
 implemented in the standard `surveillance` package. At low false-alarm rates, HMM-based detection
-compares favourably with CUSUM alternatives. Extreme value methods likewise have a foothold:
+compares favourably with CUSUM alternatives. Extreme value methods likewise have a foothold, and the closest precedent to this work is Swiss:
 peaks-over-threshold and generalised Pareto approximation of exceedances [Coles 2001] have been
-applied to seasonal viruses and hospital congestion in a Swiss hospital [Minkoff 2020 — verify].
+applied, in discrete form, to the extremes of influenza-like hospital visits and hospital
+congestion using daily data from a large Swiss hospital [Ranjbar 2022]. That study establishes
+both that the approach is applicable to Swiss hospital data and that the tail behaviour is
+non-trivial — which is precisely why the present project treats the critical regime with an
+extreme-value model rather than leaving it to a handful of observed transitions.
 
 **The claim here is therefore narrower and stronger than "these methods are absent".** What
 exists is two-state epidemic/non-epidemic detection on a single surveillance series, and separate
 extreme-value description of congestion. What does not exist is the object this project builds:
 a **multi-regime, ordinally interpretable state process for health-system capacity**, estimated
 jointly across dispatch, emergency and intensive care series, with **covariate-dependent
-transition intensities**, an **extreme-value representation of the critical regime** coupled to
-the state model, and **priors derived from the published literature**. The econometric tradition
+transition intensities**, an **extreme-value representation of the critical regime coupled to the state model** — where
+[Ranjbar 2022] models the tail as a stand-alone description rather than as the tail of a latent
+state process — and **priors derived from the published literature**. The econometric tradition
 that developed this apparatus for rare, costly, persistent regime transitions [Hamilton 1989] has
 not been brought to bear on health-system surge in this form. `[[Confirm with a systematic search
 before submission — a referee will test this sentence. LiteRev is the instrument; record the

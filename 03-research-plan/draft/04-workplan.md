@@ -254,7 +254,8 @@ T4.4 is scoped as validation of calibration in routine conditions, not as a cris
 
 ## Dependencies, milestones and timing
 
-`[[Insert Gantt figure.]]`
+![Work plan](figures/fig2-gantt.svg)
+*Figure 2 — work plan over 48 months, with the milestones at which fallbacks are triggered.*
 
 **No work package is contingent on another succeeding.** WP2 proceeds under weakly informative
 priors if WP1 returns a negative result; WP3 proceeds on open surveillance data if operational
