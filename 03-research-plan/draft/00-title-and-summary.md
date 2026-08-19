@@ -1,6 +1,6 @@
 # Title
 
-**COLDSTART — Can published evidence improve health-crisis forecasts before local outcomes are observable?**
+**COLDSTART — Anticipating health-system crises before the outcome is observable**
 
 # Summary
 
