@@ -34,25 +34,20 @@ Alternatives if the acronym grates:
 - *From published evidence to actionable early warning: quantifying when synthesised literature
   improves crisis forecasting*
 
-## You need to cut ~1,500 characters
+## Length
 
-The plan is **~61,500 against an assumed 60,000**. I stopped compressing rather than keep
-degrading the prose — the document now contains more good material than the format allows, and
-choosing what leaves is the remaining editorial act. **Verify the real limit first**; if it is
-genuinely 60,000, the three cuts marked ★ clear it with the least loss.
+**51,569 characters against an assumed 60,000 — about 8,400 in reserve**, before figures. The
+restructure in PR #1 replaced compression with subordination: one falsifiable question, with the
+extreme-value, resilience and conformal components as supporting machinery rather than separate
+claims. Verify the real limit against the call document; there is now room for the `[[…]]` content
+you still have to supply.
 
-| Cut | Saves | Damage |
-| --- | --- | --- |
-| ★ §1.1 — compress the forecast-hub detail to two sentences | ~500 | Low. The hubs matter as context, not as argument |
-| ★ §6.2 — turn the commitments table into prose | ~500 | Low. The content survives; only the layout goes |
-| ★ §2.3 — compress the Swiss outbreak-modelling paragraph | ~400 | Low. The *F1000Research* point is what carries it |
-| §4 T2.6 — fold the conformal layer into T2.2 as one sentence | ~450 | Moderate. It is the safety net for H3b |
-| §4 T4.3 — drop the equity audit | ~700 | Moderate. The SNSF assesses this dimension explicitly |
-| §3 — drop the heatwave archetype to extension status | ~600 | High. Weakens the generalisability claim to a single core archetype |
+Run `sh wordcount.sh` after edits, and rebuild both artefacts before submission:
 
-Do **not** cut: the T2.1 identifiability risk, the WP3 data fallback, the §5 delimitation table,
-or the simulation-as-prior paragraph in WP2. Each pre-empts a specific objection that would
-otherwise arrive unanswered.
+```sh
+python3 03-research-plan/draft/figures/make_figures.py   # figures
+sh 03-research-plan/draft/assemble.sh                    # FINAL-research-plan.md
+```
 
 ## Open decisions blocking completion
 
