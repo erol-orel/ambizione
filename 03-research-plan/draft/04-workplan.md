@@ -2,7 +2,9 @@
 
 Four work packages over 48 months. The workplan is deliberately built around the central experiment: **does borrowing quantitative evidence improve forecasting before local outcomes become informative?** WP1 establishes whether the evidence can be trusted; WP2 supplies the common state representation; WP3 is the decisive cold-start evaluation; WP4 translates predictive differences into operational value. No positive result from an earlier package is required for the later packages to produce a publishable answer.
 
-**Staffing.** The project is PI-led. The Ambizione grant will **not request a doctoral student or postdoc**, because doctoral students and postdocs cannot be employed through Ambizione under the 2026 regulations. If justified and approved, limited **other-employee** support (scientific/technical/auxiliary staff) will be requested for bounded extraction, data-engineering and reproducibility tasks. I execute WP2 and lead the integrated evaluation; support staff do not constitute an independent scientific lead.
+**Staffing.** The project is led by the PI and resourced by a **scientific/technical collaborator** employed from project funds `[[FTE and duration — confirm rates with the grants office]]`. Under the 2026 regulations doctoral students and postdocs cannot be employed through Ambizione; other staff can, and the work this project needs done alongside the PI is well suited to that category. The collaborator carries the labour-intensive, fully specified work: benchmark extraction in WP1 (as one of the two independent extractors), the harmonisation and evaluation pipeline in WP3, and reproducibility engineering. I execute WP2 and the confirmatory evaluation design personally, because that is the methodological core.
+
+The division is deliberate and, for an independence-focused scheme, clearer than a doctoral team would be: the scientific direction, the hypotheses and the confirmatory design are mine, and the supporting role is technical rather than an independent scientific lead.
 
 ---
 

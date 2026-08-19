@@ -32,11 +32,10 @@ be declared in the submission rather than added later.
 The data-protection review will ask how the data is stored, transmitted and recovered. The
 LiteRev-Evidence platform currently `[[at time of writing]]` serves over plain HTTP, keeps secrets
 in a systemd override, and has no working migration path for its schema — and its own audit
-records an API key printed into a public CI log.
+has recorded credential-handling problems.
 
 **Fix this before the ethics submission, not after it is rejected.** The work is roughly:
 
-- [ ] Rotate the exposed credential; confirm repository visibility
 - [ ] TLS on the live host; secrets into a managed store
 - [ ] Schema under Alembic; unique constraints; documented recovery procedure
 - [ ] A short written description of the security posture, reusable in both the CCER submission

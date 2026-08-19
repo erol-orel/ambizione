@@ -2,14 +2,19 @@
 
 The final 2026 Ambizione regulations cap **project funds at CHF 250,000 for four years**. Doctoral students and postdocs **cannot be employed through Ambizione**. The applicant's salary is covered separately by an Ambizione grant with salary; project funds are reserved for eligible project costs.
 
-The application therefore does **not** budget a doctoral student or postdoc. If personnel support is needed, it will be requested only in the eligible **other-employee** category and justified as bounded technical/scientific support (for example quantitative extraction, data engineering or reproducibility), subject to SNSF approval.
+The application therefore does **not** budget a doctoral student or postdoc. It does budget a
+**scientific/technical collaborator** in the eligible other-employee category. This is a real
+resource, not a fallback: with no student or postdoctoral salary charged to the grant, the ceiling
+supports a substantial position alongside computing, data and mobility costs. Set the FTE and
+duration once the grants office confirms institutional salary rates, and state the scale concretely
+enough in §6 that a referee can see the work is resourced.
 
 ## Working budget structure
 
 | Category | Detail | Years | Cost (CHF) |
 | --- | --- | --- | ---: |
-| Other employees | `[[FTE/months; institutional salary rate]]` for bounded extraction/data-engineering support | `[[ ]]` | `[[ ]]` |
-| Expert extraction / adjudication | Gold-standard benchmark | `[[ ]]` | `[[ ]]` |
+| Scientific/technical collaborator | `[[FTE and duration; institutional salary rate]]` — WP1 extraction, WP3 pipeline, reproducibility | `[[ ]]` | `[[ ]]` |
+| Second independent extractor | `[[contracted or in-kind]]` — required by the dual-extraction design in T1.2 | `[[ ]]` | `[[ ]]` |
 | Computing / infrastructure use | Bayesian estimation, evidence processing, rolling-origin evaluation | `[[ ]]` | `[[ ]]` |
 | Data access / procurement | Directly project-linked data costs, if applicable | `[[ ]]` | `[[ ]]` |
 | Travel / mobility | Research stay, scientific exchange, networking | `[[ ]]` | `[[ ]]` |
@@ -27,4 +32,10 @@ The grants office should provide the final institutional salary rates and confir
 
 ## Resource implication for the research plan
 
-The revised workplan assumes **no doctoral or postdoctoral employee**. The PI carries the scientific core. Any approved other-employee support is bounded and task-specific. This is consistent with the 2026 Ambizione rules and prevents the application from promising a team that the scheme cannot fund.
+The workplan assumes **no doctoral or postdoctoral employee**, and a funded scientific/technical
+collaborator alongside the PI. The PI carries the scientific core — WP2 and the confirmatory
+evaluation design — while the collaborator carries the labour-intensive specified work.
+
+For an independence-focused scheme this division is arguably cleaner than a doctoral team: the
+hypotheses, the design and the scientific direction are unambiguously the applicant's, and the
+supporting role is technical rather than an independent scientific lead.

@@ -2,13 +2,12 @@
 
 **Today: 19 August 2026.** Target submission **30 October** to preserve a buffer before the SNSF deadline of 3 November at 17:00 CET.
 
-Ordered by what blocks what. The critical-path items depend on other people or irreversible security actions; everything else is under your control.
+Ordered by what blocks what. The critical-path items depend on other people saying yes; everything else is under your control.
 
 ---
 
 ## Immediate / critical path
 
-- [ ] **⚠ CRITICAL PATH — Rotate the exposed OpenAI API key.** Your audit records it printed into a public GitHub Actions log. Deleting a log does not revoke a credential. Also confirm whether `LiteRev-Evidence` is a public repository and rotate any related secrets if necessary.
 - [ ] **⚠ CRITICAL PATH — Send the data-access requests.** HUG emergency (Desmettre), 144/CASU (Larribau), ICU. Ask for letters of support, not data, and ask whether daily aggregate extracts avoid individual-level approval requirements.
 - [ ] **⚠ CRITICAL PATH — Settle the host.** Confirm DS4DH as primary host and whether an associated ISG affiliation is formally possible; obtain the required institutional confirmation.
 - [ ] **⚠ CRITICAL PATH — Secure the mobility host.** Contact Prof. Valérie Chavez-Demoulin (UNIL) and obtain a concrete invitation/hosting statement for the planned stay.

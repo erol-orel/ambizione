@@ -39,17 +39,20 @@ The three operational-data rows are the most important remaining feasibility ite
 
 ## 6.3 Resources requested
 
-The 2026 Ambizione regulations cap project funds at **CHF 250,000 over four years**. Doctoral students and postdocs cannot be employed through an Ambizione grant. The budget will therefore prioritise the PI's scientific work and a limited, justified amount of eligible **other-employee** support for bounded technical/extraction tasks, plus computing/data, travel and other directly project-linked costs. The exact institutional salary rates and allocation will be confirmed with the UNIGE grants office.
+The 2026 regulations cap project funds at **CHF 250,000 over four years**, with the applicant's salary covered separately. Doctoral students and postdocs cannot be employed from these funds; other staff can. Since no student or postdoctoral salary is charged to the grant, the ceiling supports a substantial **scientific/technical collaborator** alongside computing, data and mobility costs.
 
 | Item | Rationale |
 | --- | --- |
-| Other-employee support, `[[FTE/months]]` | Bounded quantitative extraction, data engineering and reproducibility tasks |
-| Expert extraction time | Gold-standard benchmark for WP1 |
-| Computing and data access | Evidence processing, Bayesian estimation and rolling-origin evaluation |
-| Travel/research stays | Scientific exchange and mobility component |
+| Scientific/technical collaborator, `[[FTE and duration]]` | WP1 benchmark extraction (one of two independent extractors), WP3 harmonisation and evaluation pipeline, reproducibility |
+| Second independent extractor | `[[contracted or in-kind]]` — required for the dual-extraction design in T1.2 |
+| Computing and data access | Evidence processing, Bayesian estimation, rolling-origin evaluation |
+| Travel and research stays | Scientific exchange and the mobility component |
 | Other eligible direct costs | As justified in the final SNSF budget |
 
-**Division of labour.** I execute WP2 and lead the integrated evaluation because these are the methodological core. Any approved support staff carry defined technical/extraction tasks under my supervision. WP4 is conducted with operational partners but remains scientifically led by me.
+`[[Confirm institutional salary rates with the grants office and set the FTE. The scale should be
+stated concretely enough that a referee can see the work is resourced.]]`
+
+**Division of labour.** I execute WP2 and the confirmatory evaluation design because they are the methodological core. The collaborator carries defined technical and extraction work under my direction. WP4 is conducted with operational partners and remains scientifically led by me.
 
 ## 6.4 Preparatory work before the grant starts
 
