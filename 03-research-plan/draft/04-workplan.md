@@ -56,6 +56,8 @@ Map WP1 distributions to the parameters for which published evidence is scientif
 
 The adaptive specification uses a robust mixture of an evidence-derived and weakly informative component. Prior–data conflict is recorded explicitly; the model is not allowed to "prove" that the prior was appropriate merely because it generated plausible trajectories.
 
+Power-prior discounting and commensurate-prior approaches are retained as sensitivity comparators rather than additional methodological claims.
+
 ### T2.4 — Add resilience indicators as a secondary information channel *(M12–M20)*
 
 Compute rolling variance and lag-1 autocorrelation, with pre-specified sensitivity analyses, and enter them as optional covariates on transition dynamics. Their role is deliberately secondary: the question is whether they add information beyond local level/trend and evidence-derived priors. A null result is acceptable and interpretable.
@@ -63,6 +65,8 @@ Compute rolling variance and lag-1 autocorrelation, with pre-specified sensitivi
 ### T2.5 — Calibration and implementation *(M20–M28)*
 
 Use calibration methods appropriate to temporal dependence to assess predictive coverage. A conformal component may be used as a robustness layer if simulation confirms that the chosen temporal formulation supports its assumptions; it is **not** a headline claim of universal coverage under arbitrary distribution shift. Release a documented reference implementation integrated with LiteRev-Evidence.
+
+**Simulation is prior information, not data.** A mechanistic model parameterised from the literature can generate arbitrarily many trajectories, but fitting the forecasting model to those trajectories as if they were independent observations would count the same prior information twice and would disable the prior–data discrepancy diagnostic that H3b depends on. Mechanistic simulation is therefore used only for (i) characterising an intractable likelihood before confronting it with observations, (ii) imposing structural constraints on the hypothesis space, (iii) simulation-based identifiability/recovery studies, and (iv) prior predictive checking. Generated trajectories are never treated as observations and are not used to tighten the evidence-derived prior.
 
 **Deliverables.** D2.1 model specification and identifiability study; D2.2 open implementation; D2.3 methodological paper on latent health-system escalation and evidence-informed borrowing.
 
@@ -76,7 +80,7 @@ Use calibration methods appropriate to temporal dependence to assess predictive 
 
 ### T3.1 — Assemble the retrospective information set *(M12–M20)*
 
-Harmonise `[[HUG emergency presentations; 144/CASU call and dispatch records; ICU occupancy; MeteoSwiss; cantonal and federal surveillance — specify years and granularity once agreements are in place]]`. Quantify completeness and reporting delay. Model right truncation/nowcasting where necessary so that incomplete recent reporting is not mistaken for falling demand.
+Harmonise `[[HUG emergency presentations; 144/CASU call and dispatch records; ICU occupancy; MeteoSwiss; cantonal and federal surveillance — specify years and granularity once agreements are in place]]`. Quantify completeness and reporting delay. Model right truncation/nowcasting where necessary so that incomplete recent reporting is not mistaken for falling demand [Höhle 2014; McGough 2020].
 
 The analysis is at daily aggregate level wherever possible. Missingness and reporting delay are characterised explicitly because degradation of reporting under strain could otherwise create a false early-warning signal.
 
@@ -121,11 +125,13 @@ Apply the framework to the second core archetype (heatwave) and, resources permi
 
 ### T4.1 — Elicit operational losses and thresholds *(M24–M32)*
 
-Use structured elicitation with emergency physicians, dispatch supervisors and hospital-capacity managers `[[n ≈ 15–20; confirm participating units]]`. Elicit consequences of early, late and unnecessary escalation rather than asking respondents to guess probability thresholds directly. Derive decision thresholds from the elicited loss structure.
+Use structured elicitation following the **SHELF** protocol with emergency physicians, dispatch supervisors and hospital-capacity managers `[[n ≈ 15–20; confirm participating units]]`. Elicit consequences of early, late and unnecessary escalation rather than asking respondents to guess probability thresholds directly. Derive decision thresholds from the elicited loss structure.
 
-### T4.2 — Decision-analytic evaluation *(M30–M40)*
+### T4.2 — Decision-analytic evaluation and equity audit *(M30–M40)*
 
 Re-evaluate the WP3 forecasts using net benefit/decision-curve analysis and value-of-information. Test whether the ranking of models changes once consequences are incorporated. A model is considered useful only if its predictive improvement crosses a decision-relevant threshold.
+
+Because operational records and escalation decisions may encode structural differences across populations, assess calibration, forecast error and threshold performance across available aggregate strata (for example age, sex and neighbourhood-level deprivation where legally and statistically appropriate). A model that is calibrated only on average but systematically miscalibrated for a relevant group is not considered operationally ready. This is an audit of model performance and decision thresholds, not a claim of individual-level causal fairness.
 
 ### T4.3 — Retrospective counterfactual analysis *(M34–M44)*
 
@@ -135,7 +141,7 @@ For selected historical episodes, estimate what would have changed had escalatio
 
 If authorised, run the framework alongside routine operations with forecasts recorded but not used for clinical decisions. Compare prospective calibration and skill with retrospective estimates. If shadow mode is not authorised or no crisis occurs, the project remains complete on the basis of retrospective evaluation and reports the limitation.
 
-**Deliverables.** D4.1 elicited loss structure; D4.2 decision-analytic evaluation; D4.3 counterfactual analysis; D4.4 prospective validation if feasible.
+**Deliverables.** D4.1 elicited loss structure and equity audit; D4.2 decision-analytic evaluation; D4.3 counterfactual analysis; D4.4 prospective validation if feasible.
 
 ---
 
