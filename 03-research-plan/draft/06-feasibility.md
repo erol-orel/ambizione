@@ -20,7 +20,7 @@ The project requires three capabilities that are rarely housed together: quantit
 
 ## 6.2 Commitments, by status
 
-Each row is labelled **secured** (signed or formally granted), **agreed** (confirmed in principle, letter pending), **requested** (asked, not yet answered) or **fallback** (no commitment sought; the design absorbs its absence). Nothing above its actual status.
+Each row is labelled **secured**, **agreed**, **requested** or **fallback**. Nothing is described above its actual status.
 
 | Item | Status | Evidence / action |
 | --- | --- | --- |
@@ -35,21 +35,21 @@ Each row is labelled **secured** (signed or formally granted), **agreed** (confi
 | Mobility host | `[[requested]]` | `[[letter of invitation]]` |
 | Computing | `[[requested]]` | `[[UNIGE HPC]]` |
 
-The three operational-data rows are the most important remaining feasibility items, and §4 states explicitly what their absence would cost the primary outcome claim. Nothing in this proposal is described as a collaboration or a commitment beyond the status recorded here.
+The three operational-data rows are the most important remaining feasibility items, and §4 states explicitly what their absence would cost the primary outcome claim. Nothing in this proposal is described as a collaboration or commitment beyond the status recorded here.
 
 ## 6.3 Resources requested
 
-`[[Complete with the grants office. Confirm the 2026 Ambizione ceiling and current doctoral salary rates before finalising.]]`
+The 2026 Ambizione regulations cap project funds at **CHF 250,000 over four years**. Doctoral students and postdocs cannot be employed through an Ambizione grant. The budget will therefore prioritise the PI's scientific work and a limited, justified amount of eligible **other-employee** support for bounded technical/extraction tasks, plus computing/data, travel and other directly project-linked costs. The exact institutional salary rates and allocation will be confirmed with the UNIGE grants office.
 
 | Item | Rationale |
 | --- | --- |
-| Doctoral researcher, `[[~42 months]]` | Quantitative extraction benchmark and reproducible retrospective evaluation |
+| Other-employee support, `[[FTE/months]]` | Bounded quantitative extraction, data engineering and reproducibility tasks |
 | Expert extraction time | Gold-standard benchmark for WP1 |
-| Computing and storage | Evidence processing, Bayesian estimation and rolling-origin evaluation |
+| Computing and data access | Evidence processing, Bayesian estimation and rolling-origin evaluation |
 | Travel/research stays | Scientific exchange and mobility component |
-| Open access/data publication | Benchmark and software dissemination |
+| Other eligible direct costs | As justified in the final SNSF budget |
 
-**Division of labour.** I execute WP2 and lead the integrated evaluation because these are the methodological core. The doctoral researcher carries the benchmark and evaluation pipeline under my supervision. WP4 is conducted with operational partners but remains scientifically led by me.
+**Division of labour.** I execute WP2 and lead the integrated evaluation because these are the methodological core. Any approved support staff carry defined technical/extraction tasks under my supervision. WP4 is conducted with operational partners but remains scientifically led by me.
 
 ## 6.4 Preparatory work before the grant starts
 
