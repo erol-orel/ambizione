@@ -13,7 +13,7 @@ This audit is the operational checklist for the scientific claims in the researc
 | Analysis window | First `[[N]]` weeks after a pre-defined **real-time** onset criterion `[[onset rule]]` |
 | Primary metric | CRPS skill score, rung 4 vs rung 3 |
 | Uncertainty | Block bootstrap over crisis episodes |
-| Decision rule | `[[pre-specified minimum skill improvement δ and interval criterion]]` |
+| Decision rule | `[[supported if the mean CRPS skill improvement exceeds δ with the bootstrap interval excluding zero]]` |
 | Registration | Before any historical evaluation |
 
 **Critical onset check:** the onset rule may use only information observable at the forecast origin. It must not use the eventual peak, cumulative future cases, or any other future information.
@@ -24,9 +24,9 @@ This audit is the operational checklist for the scientific claims in the researc
 | --- | --- |
 | Claim | Automated extraction underestimates between-study heterogeneity; a measurement-error layer recovers enough dispersion |
 | Comparison | Automated extraction vs dual independent expert extraction with adjudication |
-| Primary outcome | Ratio of extracted to reference between-study variance |
+| Outcome | (a) agreement on point estimates; (b) agreement on reported uncertainty; (c) **ratio of extracted to reference between-study variance** |
 | Sample | `[[n]]` publications, stratified by core parameter class, reporting quality and venue |
-| Primary metric | Variance ratio |
+| Primary metric | Variance ratio (c) — the directional claim lives there, not in (a) |
 | Decision rule | `[[ratio threshold r and confidence criterion]]` |
 | Power | `[[simulation assumptions and target τ² range]]` |
 
@@ -36,7 +36,7 @@ This audit is the operational checklist for the scientific claims in the researc
 | --- | --- |
 | Requirement | Identifiable parameters and calibrated escalation-state probabilities |
 | Test | Simulation recovery before real-data application; held-out calibration during WP3 |
-| Metric | Recovery bias/coverage; PIT and interval coverage |
+| Metric | Recovery: bias and coverage of regime means and transition intensities. Calibration: PIT and interval coverage |
 | Pass rule | `[[thresholds]]` |
 | Failure consequence | Pre-specified ordinal state-space fallback; H3a remains testable |
 

@@ -719,7 +719,7 @@ The proposal therefore does not depend on every component succeeding. Its main s
   flu-like hospital visits, three years of daily data from a large Swiss hospital (CHUV).
   Note the affiliations: **Cantoni is at the Research Center for Statistics, University of
   Geneva; Chavez-Demoulin is at UNIL** — see the note in §1.4 and in
-  `03-research-plan/candidate-D-crisis-forecasting.md`.
+  the mobility statement, which names them as the strongest mobility lead.
 
 ## Evaluation
 

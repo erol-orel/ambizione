@@ -17,17 +17,34 @@ discontinued and replaced from 2028).
 | `04-other-documents/` | Statement of mobility, CV narratives, host-institution letter briefs, budget |
 | `05-review/` | Self-assessment against the reviewers' scoring lens; reviewer-simulation notes |
 
-## Order of work
+## Where to start
 
-0. Read `03-research-plan/candidate-projects.md` — the project-choice recommendation.
-1. `02-profile/erol-orel-profile.md` is filled in from the CV; correct anything wrong.
-2. Confirm eligibility against `01-call/eligibility-check.md` — do this before writing anything.
-3. Lock the one-paragraph project pitch in `03-research-plan/00-core-idea.md`.
-   Nothing else gets written until this is sharp.
-4. Trigger the host-institution letters early (`04-other-documents/host-institution-letters.md`)
-   — these have institutional lead times measured in weeks, not days.
-5. Draft the research plan section by section against `03-research-plan/00-outline.md`.
-6. Run `05-review/self-assessment.md` before submission.
+| | |
+| --- | --- |
+| **What to do next** | `TODO.md` — ordered by what blocks what |
+| **The research plan** | `03-research-plan/FINAL-research-plan.md` (assembled; edit `draft/`, then `sh draft/assemble.sh`) |
+| **Scheme rules** | `01-call/scheme-facts.md` |
+| **Applicant profile** | `02-profile/erol-orel-profile.md` |
+| **CV narratives + output list** | `04-other-documents/cv-narratives/` |
+| **Statement of mobility** | `04-other-documents/statement-of-mobility-draft.md` |
+| **Emails to send** | `04-other-documents/emails/` |
+| **Data access package** | `04-other-documents/data-access/` |
+| **Budget** | `04-other-documents/budget.md` |
+| **Pre-submission checks** | `05-review/hypothesis-audit.md`, `05-review/self-assessment.md` |
+
+Working notes kept for reference — the reasoning behind decisions already taken, useful if a
+choice is revisited or at interview: `03-research-plan/why-cold-start.md`,
+`idea-provenance.md`, `literature-to-strengthen.md`, `literev-evidence-assessment.md`.
+
+## Rebuilding the generated artefacts
+
+```sh
+python3 03-research-plan/draft/figures/make_figures.py
+sh 03-research-plan/draft/assemble.sh
+```
+
+Run both after editing any section file. `FINAL-research-plan.md` and the figures are generated —
+never edit them directly.
 
 ## Important caveat on sourcing
 

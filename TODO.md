@@ -84,6 +84,5 @@ The 2026 Ambizione rules are now reflected in the research plan: **no doctoral s
 | CV narratives + output list | `04-other-documents/cv-narratives/` |
 | Statement of mobility | `04-other-documents/statement-of-mobility-draft.md` |
 | Data-access package | `04-other-documents/data-access/` |
-| Host decision | `02-profile/host-decision.md` |
 | Literature to strengthen | `03-research-plan/literature-to-strengthen.md` |
 | Pre-submission review | `05-review/self-assessment.md` |

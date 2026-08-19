@@ -1,7 +1,7 @@
 # Applicant profile — Erol Orel
 
 Compiled from `00-source-documents/my-materials/cv-orel-current.pdf`. Correct anything wrong;
-the strategy in `03-research-plan/candidate-projects.md` rests on this reading.
+the research plan rests on this reading.
 
 ## Position
 

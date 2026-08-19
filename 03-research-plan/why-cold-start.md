@@ -141,5 +141,5 @@ rather than assumed.
 ## Why this is a good sign
 
 You found the objection before a referee did — the purpose of the hostile-reader test in
-`00-core-idea.md`. It is also the second time interrogating your own platform produced the sharper
+the hostile-reader test. It is also the second time interrogating your own platform produced the sharper
 question; the first was the literature-prior problem itself. That pattern is worth trusting.
