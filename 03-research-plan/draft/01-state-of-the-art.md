@@ -44,13 +44,8 @@ This distinction matters in crisis response because false alarms and missed esca
 
 ## 1.6 The specific gap addressed by this project
 
-The literature establishes four pieces separately:
+Four pieces exist separately: forecasting and surveillance work substantially better once local history exists; Bayesian methods can borrow from historical studies with discounting and conflict handling; latent-state, extreme-value and resilience methods give partial representations of escalation; and decision analysis evaluates whether predictive information changes action.
 
-- forecasting and surveillance methods work substantially better once sufficient local history exists;
-- Bayesian methods can borrow information from historical studies while allowing discounting and conflict handling;
-- latent-state, extreme-value and resilience methods offer partial representations of escalation;
-- decision analysis provides a way to evaluate whether predictive information changes action.
+What has not been established is whether they connect around the **cold-start question** — whether systematically extracted quantitative evidence improves probabilistic forecasting before local outcome data become informative, and whether harmful borrowing is detectable early enough to discount.
 
-What has not been established is whether these pieces can be connected around the **cold-start question**: whether systematically extracted quantitative evidence improves probabilistic forecasting before local outcome data become informative, and whether harmful borrowing can be detected early enough to be discounted.
-
-The project therefore makes a deliberately falsifiable claim rather than a broad novelty claim: **the primary contribution is an empirical answer to the value of evidence-derived priors in cold-start health-system forecasting.** The supporting methodological components are justified only insofar as they make that comparison scientifically valid.
+The claim is therefore deliberately falsifiable rather than broadly novel: **the primary contribution is an empirical answer to the value of evidence-derived priors in cold-start health-system forecasting.** The supporting components are justified only insofar as they make that comparison valid.

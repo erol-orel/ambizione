@@ -18,21 +18,15 @@ The project has **one central hypothesis, H3a**, and everything else is subordin
 | **H3c** | Secondary channel | Do resilience indicators add information beyond the prior? |
 | **H4** | Decision value | Is any predictive gain large enough to change an operational choice? |
 
-C2 is stated as a **criterion rather than a hypothesis**: the latent-state representation exists to provide a common target in which borrowing strategies can be compared fairly, not to establish that regime switching is generally superior to thresholding a point forecast.
-
 ---
 
 ## O1 — Make published quantitative evidence usable without hiding its uncertainty
-
-Establish whether quantitative estimates can be extracted and pooled with an uncertainty structure that is sufficiently faithful for forecasting.
 
 > **H1.** Automated extraction will systematically **underestimate between-study heterogeneity**, producing evidence-derived priors that are too concentrated; an explicit measurement-error layer will recover enough of the missing dispersion to construct usable prior distributions.
 
 The direction follows from the difficulty of numerical extraction and the dominance of omissions among reported errors [Shankar 2026]. H1 is tested on point estimates, reported uncertainty, omissions and between-study dispersion. If the predicted overconfidence is absent, that is informative; if it occurs but cannot be corrected, the project establishes a boundary condition.
 
 ## O2 — Represent escalation in a form that separates state from the point forecast
-
-Develop a parsimonious latent-state representation of health-system escalation that can accept evidence-derived priors and compare them fairly with weakly informative alternatives.
 
 > **C2 — model adequacy criterion.** The latent-state representation must yield **identifiable** parameters and **calibrated** probabilities of escalation states at matched false-alarm rates. Its role is to provide the common state representation in which evidence-borrowing strategies are compared; it is not advanced as a claim that regime switching is generally superior to thresholding a point forecast.
 
@@ -41,8 +35,6 @@ C2 is verified rather than discovered: T2.1's identifiability study and T3.3's c
 Extreme-value modelling is used to represent the tail of the critical state. Critical-slowing-down indicators are treated as **supporting, theory-derived covariates** on transition dynamics, not as a separate project-level claim. Their incremental value is tested against level and trend information.
 
 ## O3 — Test the cold-start hypothesis and map failure
-
-Determine whether evidence-derived priors improve forecasts when local outcome data are scarce, how their value decays as local data accumulate, and when they become harmful.
 
 > **H3a.** Evidence-derived priors improve probabilistic forecast skill during the early phase of a crisis, with the advantage declining as local observations accumulate.
 
@@ -55,26 +47,23 @@ H3b is two-sided by design: non-inferiority where the evidence is sound, superio
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 
-These hypotheses are tested through a pre-specified model ladder rather than by comparing only the final model with a weak baseline:
+These hypotheses are tested through the **pre-specified model ladder** set out in §4 (T3.3), which
+runs from a local baseline through the regime model under weakly informative priors, the same model
+under fixed evidence-derived priors, adaptive borrowing, and adaptive borrowing plus resilience
+indicators. The ladder isolates each increment rather than comparing a final model against a weak
+baseline.
 
-1. local seasonal/naive baseline;
-2. established short-baseline surveillance method;
-3. regime model with weakly informative priors;
-4. the same regime model with fixed evidence-derived priors;
-5. adaptive evidence borrowing with prior–data conflict monitoring;
-6. adaptive borrowing plus resilience indicators.
-
-**Primary confirmatory comparison — one, stated once.** Rung 4 (fixed evidence-derived priors) against rung 3 (weakly informative priors), by **CRPS skill score**, over the pre-specified cold-start window `[[first N weeks after onset]]`, pooled across origins by block bootstrap. Every other contrast — rungs 1–2 as context, rung 5 for H3b, rung 6 for H3c — is secondary and labelled so.
-
-The advantage should vanish once local data become informative, so the **shape of the advantage over elapsed local data** is also reported. That decay curve is the descriptive result; rung 3 versus rung 4 is the confirmatory one.
+**Primary confirmatory comparison — one, stated once.** Rung 4 (fixed evidence-derived priors)
+against rung 3 (weakly informative priors), by **CRPS skill score**, over the pre-specified
+cold-start window `[[first N weeks after onset]]`, pooled across origins by block bootstrap. Every
+other contrast is secondary and labelled so. The **shape of the advantage over elapsed local data**
+is also reported: it should decay to nothing, and that decay curve is the descriptive result.
 
 ## O4 — Establish whether predictive improvement is decision-relevant
 
-Determine whether differences between modelling strategies change operational choices under explicitly elicited consequences.
-
 > **H4.** Decision-analytic evaluation based on the losses and escalation thresholds of emergency responders can rank modelling strategies differently from generic statistical accuracy criteria, and the evidence-derived strategy is useful only when its predictive gain is large enough to cross a decision threshold.
 
-Threshold elicitation, net benefit and retrospective counterfactual analysis are therefore downstream tests of value, not additional claims of methodological novelty. Prospective shadow-mode evaluation is a validation extension, not a prerequisite for the main scientific conclusion.
+Threshold elicitation, net benefit and counterfactual analysis are downstream tests of value, not additional novelty claims. Prospective shadow-mode evaluation is a validation extension, not a prerequisite for the main conclusion.
 
 ---
 
@@ -82,12 +71,15 @@ Threshold elicitation, net benefit and retrospective counterfactual analysis are
 
 The domains span **two contrasting model classes** from my GESICA classification — interhuman
 respiratory transmission, and common-source or environmentally mediated exposure — chosen for
-contrast in dynamics rather than convenience.
+contrast in dynamics rather than convenience. Both are measured on **the same outcome**, daily
+respiratory-related emergency demand: non-infectious exacerbations driven by heat and pollution
+feed the same care demand as an epidemic does, so generalisation is tested across mechanisms
+rather than across incommensurable measures.
 
 | Archetype | Role in the project | Dynamics | Data |
 | --- | --- | --- | --- |
-| **Respiratory epidemic** | Core validation | Transmissible, multi-wave, seasonal | **COVID-19 and influenza as the principal historical validation series**, RSV as a supporting surveillance channel |
-| **Heatwave** | Core generalisation test | Environmental, short and sharply peaked | MeteoSwiss plus emergency-demand data |
+| **Respiratory epidemic** | Core validation | Transmissible, multi-wave, seasonal | COVID-19 and influenza as principal validation episodes; RSV supporting |
+| **Heatwave** | Core generalisation test | Environmental, short and sharply peaked | Same demand outcome, driven by MeteoSwiss exposures |
 | **Waterborne outbreak** | Year-4 extension | Common-source / environmentally mediated | Geneva legionellosis linked to installations |
 
 The first two domains carry the core claim. The third tests whether the framework can cross a substantially different crisis mechanism; its omission does not invalidate the main cold-start result.

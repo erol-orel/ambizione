@@ -28,8 +28,8 @@ Each row is labelled **secured**, **agreed**, **requested** or **fallback**. Not
 | Primary host unit (DS4DH) | **Agreed** `[[confirm]]` | Detailed confirmation letter to follow |
 | Associated affiliation (ISG) | `[[requested]]` | `[[letter of support]]` |
 | Institutional confirmation | `[[requested]]` | General confirmation letter, UNIGE |
-| 144 / CASU dispatch data (HUG-operated) | `[[requested]]` | `[[letter of support]]`. Documented in my GESICA inventory: continuous, daily, ~71,000 emergency calls/year in Geneva |
-| HUG emergency department presentations | `[[requested]]` | `[[letter of support]]`. Daily historical availability **to be confirmed**; hospital statistics via the OFS are annual |
+| **CASU-144 records (HUG-operated) — primary outcome** | `[[requested]]` | `[[letter of support]]`. Documented in my GESICA inventory: continuous, daily, ~71,000 emergency calls/year in Geneva |
+| ED presentations — additional channel | `[[requested]]` | `[[letter of support]]`. Daily historical availability to be confirmed; OFS hospital statistics are annual |
 | ICU occupancy data | `[[requested]]` | `[[letter of support]]`; fallback in WP3 |
 | Operational-data ethics | `[[requested]]` | CCER submission, PI as applicant |
 | Mobility host | `[[requested]]` | `[[letter of invitation]]` |

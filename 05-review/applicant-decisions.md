@@ -5,24 +5,36 @@ this list, it is marked **DIFFER**. Where something is missing, **ADDED**.
 
 ---
 
-## Open disagreement — one decision, for you to settle
+## Locked — no decisions pending
 
-Everything else from the GESICA review has been agreed and applied. **One point remains open,
-and it is the order of the outcome hierarchy.**
+Both reviews converged. Nothing here is open.
 
-| | Position |
+| Element | Decision |
 | --- | --- |
-| **His** | **ED presentations preferred**, with CASU-144 as the substitute if HUG cannot confirm daily ED access. Rationale: ED is intellectually the more attractive outcome and sits closer to bed-capacity decisions. |
-| **Mine** | **CASU-144 emergency call volume primary**, with ED presentations as the substitute — and as an additional observation channel if obtained. Rationale: 144 is the only candidate documented and quantified in your own inventory (HUG-operated, daily, ~71,000 emergency calls a year); ED presentations appear nowhere as a source, and hospital statistics are annual with over a year's lag. Your report also states that 144 data suit **ambulatory demand** prediction — which is this project's outcome, not a limitation for it. Leading with the documented series and upgrading is safer than leading with the undocumented one and falling back. |
+| Central hypothesis | H3a — evidence-derived priors improve cold-start probabilistic forecast skill |
+| Primary confirmatory comparison | Rung 4 vs rung 3, CRPS skill score |
+| **Primary outcome** | **Daily respiratory-related emergency demand derived from CASU-144 records** |
+| ED presentations | Additional observation channel if accessible — not a competing outcome |
+| ICU / occupancy | Additional observation channel if accessible |
+| Respiratory validation | COVID-19 and influenza principal; RSV supporting |
+| Heatwave | Core generalisation domain, on the same outcome |
+| Legionellosis | Scoped year-4 extension |
+| Data-access gate | Yes — T3.0 |
+| Episode eligibility rule | Yes — T3.0 |
+| Registration point 1 | Now: hierarchy, gate, eligibility |
+| Registration point 2 | After the access checkpoint and episode inventory, before any evaluation: N, horizons, Δ |
+| GESICA description | 77 diseases, 8 model classes, 23 sources |
+| "32 of 76" coverage claim | Deleted |
+| Benchmark size | 300, with a pre-specified extension rule |
+| H1 | Directional, retained |
+| Equity audit | Core, inside T4.2 |
+| N, horizons, Δ | Not fixed — from the power simulation |
 
-Both of us agree on the structure: a pre-specified hierarchy, a data-access gate, and no change in
-response to observed performance. Only the order differs, and it is marked `[[ORDER TO CONFIRM]]`
-in T3.0 rather than silently decided.
-
-**A point that dissolves much of the disagreement:** the regime model is already multivariate. The
-series *not* selected as primary — plus ICU occupancy if available — enters as an additional
-observation channel on the shared latent state. So ED data are used either way; the only question
-is which series H3a is scored on.
+The outcome choice was settled on the evidence rather than by preference: CASU-144 is the only
+candidate the GESICA inventory documents and quantifies, and the report's observation that these
+data suit *ambulatory demand* rather than incidence is a recommendation for this project, whose
+outcome is demand. The wording avoids "144 calls" in favour of **demand derived from** those
+records, because a raw call count is a care-seeking signal.
 
 ## The ordering problem
 

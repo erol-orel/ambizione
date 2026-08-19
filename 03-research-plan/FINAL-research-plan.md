@@ -72,16 +72,11 @@ This distinction matters in crisis response because false alarms and missed esca
 
 ## 1.6 The specific gap addressed by this project
 
-The literature establishes four pieces separately:
+Four pieces exist separately: forecasting and surveillance work substantially better once local history exists; Bayesian methods can borrow from historical studies with discounting and conflict handling; latent-state, extreme-value and resilience methods give partial representations of escalation; and decision analysis evaluates whether predictive information changes action.
 
-- forecasting and surveillance methods work substantially better once sufficient local history exists;
-- Bayesian methods can borrow information from historical studies while allowing discounting and conflict handling;
-- latent-state, extreme-value and resilience methods offer partial representations of escalation;
-- decision analysis provides a way to evaluate whether predictive information changes action.
+What has not been established is whether they connect around the **cold-start question** — whether systematically extracted quantitative evidence improves probabilistic forecasting before local outcome data become informative, and whether harmful borrowing is detectable early enough to discount.
 
-What has not been established is whether these pieces can be connected around the **cold-start question**: whether systematically extracted quantitative evidence improves probabilistic forecasting before local outcome data become informative, and whether harmful borrowing can be detected early enough to be discounted.
-
-The project therefore makes a deliberately falsifiable claim rather than a broad novelty claim: **the primary contribution is an empirical answer to the value of evidence-derived priors in cold-start health-system forecasting.** The supporting methodological components are justified only insofar as they make that comparison scientifically valid.
+The claim is therefore deliberately falsifiable rather than broadly novel: **the primary contribution is an empirical answer to the value of evidence-derived priors in cold-start health-system forecasting.** The supporting components are justified only insofar as they make that comparison valid.
 
 
 ---
@@ -196,21 +191,15 @@ The project has **one central hypothesis, H3a**, and everything else is subordin
 | **H3c** | Secondary channel | Do resilience indicators add information beyond the prior? |
 | **H4** | Decision value | Is any predictive gain large enough to change an operational choice? |
 
-C2 is stated as a **criterion rather than a hypothesis**: the latent-state representation exists to provide a common target in which borrowing strategies can be compared fairly, not to establish that regime switching is generally superior to thresholding a point forecast.
-
 ---
 
 ## O1 — Make published quantitative evidence usable without hiding its uncertainty
-
-Establish whether quantitative estimates can be extracted and pooled with an uncertainty structure that is sufficiently faithful for forecasting.
 
 > **H1.** Automated extraction will systematically **underestimate between-study heterogeneity**, producing evidence-derived priors that are too concentrated; an explicit measurement-error layer will recover enough of the missing dispersion to construct usable prior distributions.
 
 The direction follows from the difficulty of numerical extraction and the dominance of omissions among reported errors [Shankar 2026]. H1 is tested on point estimates, reported uncertainty, omissions and between-study dispersion. If the predicted overconfidence is absent, that is informative; if it occurs but cannot be corrected, the project establishes a boundary condition.
 
 ## O2 — Represent escalation in a form that separates state from the point forecast
-
-Develop a parsimonious latent-state representation of health-system escalation that can accept evidence-derived priors and compare them fairly with weakly informative alternatives.
 
 > **C2 — model adequacy criterion.** The latent-state representation must yield **identifiable** parameters and **calibrated** probabilities of escalation states at matched false-alarm rates. Its role is to provide the common state representation in which evidence-borrowing strategies are compared; it is not advanced as a claim that regime switching is generally superior to thresholding a point forecast.
 
@@ -219,8 +208,6 @@ C2 is verified rather than discovered: T2.1's identifiability study and T3.3's c
 Extreme-value modelling is used to represent the tail of the critical state. Critical-slowing-down indicators are treated as **supporting, theory-derived covariates** on transition dynamics, not as a separate project-level claim. Their incremental value is tested against level and trend information.
 
 ## O3 — Test the cold-start hypothesis and map failure
-
-Determine whether evidence-derived priors improve forecasts when local outcome data are scarce, how their value decays as local data accumulate, and when they become harmful.
 
 > **H3a.** Evidence-derived priors improve probabilistic forecast skill during the early phase of a crisis, with the advantage declining as local observations accumulate.
 
@@ -233,26 +220,23 @@ H3b is two-sided by design: non-inferiority where the evidence is sound, superio
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 
-These hypotheses are tested through a pre-specified model ladder rather than by comparing only the final model with a weak baseline:
+These hypotheses are tested through the **pre-specified model ladder** set out in §4 (T3.3), which
+runs from a local baseline through the regime model under weakly informative priors, the same model
+under fixed evidence-derived priors, adaptive borrowing, and adaptive borrowing plus resilience
+indicators. The ladder isolates each increment rather than comparing a final model against a weak
+baseline.
 
-1. local seasonal/naive baseline;
-2. established short-baseline surveillance method;
-3. regime model with weakly informative priors;
-4. the same regime model with fixed evidence-derived priors;
-5. adaptive evidence borrowing with prior–data conflict monitoring;
-6. adaptive borrowing plus resilience indicators.
-
-**Primary confirmatory comparison — one, stated once.** Rung 4 (fixed evidence-derived priors) against rung 3 (weakly informative priors), by **CRPS skill score**, over the pre-specified cold-start window `[[first N weeks after onset]]`, pooled across origins by block bootstrap. Every other contrast — rungs 1–2 as context, rung 5 for H3b, rung 6 for H3c — is secondary and labelled so.
-
-The advantage should vanish once local data become informative, so the **shape of the advantage over elapsed local data** is also reported. That decay curve is the descriptive result; rung 3 versus rung 4 is the confirmatory one.
+**Primary confirmatory comparison — one, stated once.** Rung 4 (fixed evidence-derived priors)
+against rung 3 (weakly informative priors), by **CRPS skill score**, over the pre-specified
+cold-start window `[[first N weeks after onset]]`, pooled across origins by block bootstrap. Every
+other contrast is secondary and labelled so. The **shape of the advantage over elapsed local data**
+is also reported: it should decay to nothing, and that decay curve is the descriptive result.
 
 ## O4 — Establish whether predictive improvement is decision-relevant
 
-Determine whether differences between modelling strategies change operational choices under explicitly elicited consequences.
-
 > **H4.** Decision-analytic evaluation based on the losses and escalation thresholds of emergency responders can rank modelling strategies differently from generic statistical accuracy criteria, and the evidence-derived strategy is useful only when its predictive gain is large enough to cross a decision threshold.
 
-Threshold elicitation, net benefit and retrospective counterfactual analysis are therefore downstream tests of value, not additional claims of methodological novelty. Prospective shadow-mode evaluation is a validation extension, not a prerequisite for the main scientific conclusion.
+Threshold elicitation, net benefit and counterfactual analysis are downstream tests of value, not additional novelty claims. Prospective shadow-mode evaluation is a validation extension, not a prerequisite for the main conclusion.
 
 ---
 
@@ -260,12 +244,15 @@ Threshold elicitation, net benefit and retrospective counterfactual analysis are
 
 The domains span **two contrasting model classes** from my GESICA classification — interhuman
 respiratory transmission, and common-source or environmentally mediated exposure — chosen for
-contrast in dynamics rather than convenience.
+contrast in dynamics rather than convenience. Both are measured on **the same outcome**, daily
+respiratory-related emergency demand: non-infectious exacerbations driven by heat and pollution
+feed the same care demand as an epidemic does, so generalisation is tested across mechanisms
+rather than across incommensurable measures.
 
 | Archetype | Role in the project | Dynamics | Data |
 | --- | --- | --- | --- |
-| **Respiratory epidemic** | Core validation | Transmissible, multi-wave, seasonal | **COVID-19 and influenza as the principal historical validation series**, RSV as a supporting surveillance channel |
-| **Heatwave** | Core generalisation test | Environmental, short and sharply peaked | MeteoSwiss plus emergency-demand data |
+| **Respiratory epidemic** | Core validation | Transmissible, multi-wave, seasonal | COVID-19 and influenza as principal validation episodes; RSV supporting |
+| **Heatwave** | Core generalisation test | Environmental, short and sharply peaked | Same demand outcome, driven by MeteoSwiss exposures |
 | **Waterborne outbreak** | Year-4 extension | Common-source / environmentally mediated | Geneva legionellosis linked to installations |
 
 The first two domains carry the core claim. The third tests whether the framework can cross a substantially different crisis mechanism; its omission does not invalidate the main cold-start result.
@@ -308,7 +295,7 @@ Define inclusion criteria, effect measures, uncertainty representation and trans
 
 ### T1.2 — Build the quantitative extraction benchmark *(M3–M9)*
 
-Two independent expert extractors manually extract target quantities from a stratified random sample of `[[n ≈ 300–500]]` publications, with adjudication. Stratification covers parameter class, reporting quality and study design. The benchmark is an open methodological deliverable in its own right.
+Two independent expert extractors manually extract target quantities from a stratified random sample of **300** publications, with adjudication. Stratification covers parameter class, reporting quality and study design. The benchmark is an open methodological deliverable in its own right.
 
 ### T1.3 — Characterise automated extraction error *(M7–M14)*
 
@@ -373,21 +360,24 @@ Use calibration methods appropriate to temporal dependence to assess predictive 
 ### T3.0 — Outcome hierarchy, data-access gate and episode eligibility *(M1–M14)*
 
 Three things are fixed before any evaluation is designed, and none may be revisited in response to
-observed forecast performance.
+observed performance.
 
-**Outcome hierarchy.** The primary outcome is respiratory-related **emergency demand**, selected
-from a pre-specified hierarchy: `[[ORDER TO CONFIRM — (a) CASU-144 emergency call volume, with ED
-presentations as substitute, or (b) ED presentations, with CASU-144 as substitute]]`. The series
-not selected as primary, together with ICU occupancy where available, enters the model as an
-additional observation channel on the shared latent state rather than being discarded.
+**Outcome.** The primary outcome is **daily respiratory-related emergency demand derived from
+CASU-144 records** — not a raw call count, which is a care-seeking signal rather than a demand
+measure. "Respiratory-related" is constructed from the recorded call reason and urgency level by a
+classification fixed before evaluation `[[symptom keyword set and EST levels]]`, with sensitivity
+to that construction reported. Emergency department presentations and intensive care occupancy,
+where obtained, enter as **additional observation channels on the shared latent state**;
+wastewater, sentinel consultations and weather as signals and covariates. Nothing obtained is
+discarded — the hierarchy governs only which series H3a is scored on.
 
 **Data-access gate.** Each candidate outcome must satisfy criteria fixed in advance for
 **historical depth, temporal resolution, reporting latency and completeness** `[[thresholds]]`.
 The primary outcome is selected at a pre-specified checkpoint `[[month]]`, on those criteria
 alone.
 
-**Episode eligibility.** A historical episode enters the confirmatory evaluation only if all of
-the following can be reconstructed prospectively across the evaluation window:
+**Episode eligibility.** An episode enters the confirmatory evaluation only if all of the
+following can be reconstructed prospectively across the window:
 
 1. a detectable onset under the prospective onset rule;
 2. sufficient pre-onset history to estimate the rolling baseline that rule requires;
@@ -408,7 +398,8 @@ after any look at performance would be indefensible.
 
 ### T3.1 — Assemble the retrospective information set *(M12–M20)*
 
-Harmonise `[[HUG emergency presentations; 144/CASU call and dispatch records; ICU occupancy; MeteoSwiss; cantonal and federal surveillance — specify years and granularity once agreements are in place]]`. Quantify completeness and reporting delay. Model right truncation/nowcasting where necessary so that incomplete recent reporting is not mistaken for falling demand [Höhle 2014; McGough 2020].
+Harmonise the primary CASU-144 series with the additional channels and covariates
+`[[years and granularity, once agreements are in place]]`. Quantify completeness and reporting delay. Model right truncation/nowcasting where necessary so that incomplete recent reporting is not mistaken for falling demand [Höhle 2014; McGough 2020].
 
 The analysis is at daily aggregate level wherever possible. Missingness and reporting delay are characterised explicitly because degradation of reporting under strain could otherwise create a false early-warning signal.
 
@@ -514,7 +505,7 @@ The project will produce approximately four to six papers and two durable open r
 
 ## 5.1 Scientific relevance
 
-The project tests an assumption that crisis forecasting currently makes informally: that accumulated evidence from elsewhere can provide useful information when local outcome data are insufficient. The result is useful in either direction. If literature-derived priors improve cold-start forecasts, the project provides a principled and auditable way to borrow information. If the benefit is weak, conditional or negative, the project establishes when borrowing should not be trusted — an equally important result because manual parameter selection from a few familiar papers is common but rarely evaluated as a forecasting intervention.
+The project tests an assumption crisis forecasting currently makes informally: that accumulated evidence from elsewhere provides useful information when local outcome data are insufficient. The result is useful either way. If literature-derived priors improve cold-start forecasts, the project gives a principled, auditable way to borrow. If the benefit is weak or negative, it establishes when borrowing should not be trusted — equally important, because manual parameter selection from a few familiar papers is common and rarely evaluated as a forecasting intervention.
 
 The project also leaves three durable resources:
 
@@ -522,7 +513,7 @@ The project also leaves three durable resources:
 - **An open reference framework** for evidence-informed latent-state forecasting, with explicit borrowing, conflict detection and calibration rather than a black-box forecast.
 - **A decision-analytic evaluation framework** showing when a statistical improvement is large enough to matter operationally.
 
-These contributions are deliberately subordinate to the central scientific question. The project is not primarily a new LLM extraction system, a new early-warning indicator, or a new forecasting competition. It is a test of whether external quantitative evidence earns its place in cold-start prediction.
+These are deliberately subordinate to the central question. The project is not a new extraction system, a new early-warning indicator or a forecasting competition; it tests whether external quantitative evidence earns its place in cold-start prediction.
 
 ## 5.2 Practical and societal impact
 
@@ -586,8 +577,8 @@ Each row is labelled **secured**, **agreed**, **requested** or **fallback**. Not
 | Primary host unit (DS4DH) | **Agreed** `[[confirm]]` | Detailed confirmation letter to follow |
 | Associated affiliation (ISG) | `[[requested]]` | `[[letter of support]]` |
 | Institutional confirmation | `[[requested]]` | General confirmation letter, UNIGE |
-| 144 / CASU dispatch data (HUG-operated) | `[[requested]]` | `[[letter of support]]`. Documented in my GESICA inventory: continuous, daily, ~71,000 emergency calls/year in Geneva |
-| HUG emergency department presentations | `[[requested]]` | `[[letter of support]]`. Daily historical availability **to be confirmed**; hospital statistics via the OFS are annual |
+| **CASU-144 records (HUG-operated) — primary outcome** | `[[requested]]` | `[[letter of support]]`. Documented in my GESICA inventory: continuous, daily, ~71,000 emergency calls/year in Geneva |
+| ED presentations — additional channel | `[[requested]]` | `[[letter of support]]`. Daily historical availability to be confirmed; OFS hospital statistics are annual |
 | ICU occupancy data | `[[requested]]` | `[[letter of support]]`; fallback in WP3 |
 | Operational-data ethics | `[[requested]]` | CCER submission, PI as applicant |
 | Mobility host | `[[requested]]` | `[[letter of invitation]]` |

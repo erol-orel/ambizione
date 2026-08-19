@@ -2,7 +2,7 @@
 
 ## 5.1 Scientific relevance
 
-The project tests an assumption that crisis forecasting currently makes informally: that accumulated evidence from elsewhere can provide useful information when local outcome data are insufficient. The result is useful in either direction. If literature-derived priors improve cold-start forecasts, the project provides a principled and auditable way to borrow information. If the benefit is weak, conditional or negative, the project establishes when borrowing should not be trusted — an equally important result because manual parameter selection from a few familiar papers is common but rarely evaluated as a forecasting intervention.
+The project tests an assumption crisis forecasting currently makes informally: that accumulated evidence from elsewhere provides useful information when local outcome data are insufficient. The result is useful either way. If literature-derived priors improve cold-start forecasts, the project gives a principled, auditable way to borrow. If the benefit is weak or negative, it establishes when borrowing should not be trusted — equally important, because manual parameter selection from a few familiar papers is common and rarely evaluated as a forecasting intervention.
 
 The project also leaves three durable resources:
 
@@ -10,7 +10,7 @@ The project also leaves three durable resources:
 - **An open reference framework** for evidence-informed latent-state forecasting, with explicit borrowing, conflict detection and calibration rather than a black-box forecast.
 - **A decision-analytic evaluation framework** showing when a statistical improvement is large enough to matter operationally.
 
-These contributions are deliberately subordinate to the central scientific question. The project is not primarily a new LLM extraction system, a new early-warning indicator, or a new forecasting competition. It is a test of whether external quantitative evidence earns its place in cold-start prediction.
+These are deliberately subordinate to the central question. The project is not a new extraction system, a new early-warning indicator or a forecasting competition; it tests whether external quantitative evidence earns its place in cold-start prediction.
 
 ## 5.2 Practical and societal impact
 

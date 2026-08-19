@@ -24,7 +24,7 @@ Define inclusion criteria, effect measures, uncertainty representation and trans
 
 ### T1.2 — Build the quantitative extraction benchmark *(M3–M9)*
 
-Two independent expert extractors manually extract target quantities from a stratified random sample of `[[n ≈ 300–500]]` publications, with adjudication. Stratification covers parameter class, reporting quality and study design. The benchmark is an open methodological deliverable in its own right.
+Two independent expert extractors manually extract target quantities from a stratified random sample of **300** publications, with adjudication. Stratification covers parameter class, reporting quality and study design. The benchmark is an open methodological deliverable in its own right.
 
 ### T1.3 — Characterise automated extraction error *(M7–M14)*
 
@@ -89,21 +89,24 @@ Use calibration methods appropriate to temporal dependence to assess predictive 
 ### T3.0 — Outcome hierarchy, data-access gate and episode eligibility *(M1–M14)*
 
 Three things are fixed before any evaluation is designed, and none may be revisited in response to
-observed forecast performance.
+observed performance.
 
-**Outcome hierarchy.** The primary outcome is respiratory-related **emergency demand**, selected
-from a pre-specified hierarchy: `[[ORDER TO CONFIRM — (a) CASU-144 emergency call volume, with ED
-presentations as substitute, or (b) ED presentations, with CASU-144 as substitute]]`. The series
-not selected as primary, together with ICU occupancy where available, enters the model as an
-additional observation channel on the shared latent state rather than being discarded.
+**Outcome.** The primary outcome is **daily respiratory-related emergency demand derived from
+CASU-144 records** — not a raw call count, which is a care-seeking signal rather than a demand
+measure. "Respiratory-related" is constructed from the recorded call reason and urgency level by a
+classification fixed before evaluation `[[symptom keyword set and EST levels]]`, with sensitivity
+to that construction reported. Emergency department presentations and intensive care occupancy,
+where obtained, enter as **additional observation channels on the shared latent state**;
+wastewater, sentinel consultations and weather as signals and covariates. Nothing obtained is
+discarded — the hierarchy governs only which series H3a is scored on.
 
 **Data-access gate.** Each candidate outcome must satisfy criteria fixed in advance for
 **historical depth, temporal resolution, reporting latency and completeness** `[[thresholds]]`.
 The primary outcome is selected at a pre-specified checkpoint `[[month]]`, on those criteria
 alone.
 
-**Episode eligibility.** A historical episode enters the confirmatory evaluation only if all of
-the following can be reconstructed prospectively across the evaluation window:
+**Episode eligibility.** An episode enters the confirmatory evaluation only if all of the
+following can be reconstructed prospectively across the window:
 
 1. a detectable onset under the prospective onset rule;
 2. sufficient pre-onset history to estimate the rolling baseline that rule requires;
@@ -124,7 +127,8 @@ after any look at performance would be indefensible.
 
 ### T3.1 — Assemble the retrospective information set *(M12–M20)*
 
-Harmonise `[[HUG emergency presentations; 144/CASU call and dispatch records; ICU occupancy; MeteoSwiss; cantonal and federal surveillance — specify years and granularity once agreements are in place]]`. Quantify completeness and reporting delay. Model right truncation/nowcasting where necessary so that incomplete recent reporting is not mistaken for falling demand [Höhle 2014; McGough 2020].
+Harmonise the primary CASU-144 series with the additional channels and covariates
+`[[years and granularity, once agreements are in place]]`. Quantify completeness and reporting delay. Model right truncation/nowcasting where necessary so that incomplete recent reporting is not mistaken for falling demand [Höhle 2014; McGough 2020].
 
 The analysis is at daily aggregate level wherever possible. Missingness and reporting delay are characterised explicitly because degradation of reporting under strain could otherwise create a false early-warning signal.
 
