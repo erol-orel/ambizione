@@ -24,7 +24,7 @@ Assemble in this order. The **2026 SNSF Ambizione guidelines (version 11.08.2026
 
 The proposal has one central scientific question: **can published quantitative evidence provide useful information when local outcome data are insufficient at crisis onset, and can harmful borrowing be detected early?**
 
-H1 is methodological validation; C2 is a model-adequacy criterion; **H3a is the central hypothesis**; H3b is robustness; H3c is a secondary information channel; H4 concerns decision value. Exactly one comparison is confirmatory: rung 4 versus rung 3 on CRPS skill score over the pre-specified cold-start window.
+H1 is methodological validation; C2 is a model-adequacy criterion; **H3a is the central hypothesis**; H3b is robustness; H3c is a secondary information channel; H4 concerns decision value. Exactly one comparison is confirmatory: rung 4 versus rung 3 on CRPS skill score over the pre-specified cold-start window, **on respiratory episodes**; the heat domain repeats it as a sequential generalisation test, run only if the respiratory test is met.
 
 EVT, resilience indicators and conformal calibration are supporting machinery, not separate headline contributions.
 

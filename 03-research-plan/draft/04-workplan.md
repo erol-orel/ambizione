@@ -2,9 +2,7 @@
 
 Four work packages over 48 months. The workplan is deliberately built around the central experiment: **does borrowing quantitative evidence improve forecasting before local outcomes become informative?** WP1 establishes whether the evidence can be trusted; WP2 supplies the common state representation; WP3 is the decisive cold-start evaluation; WP4 translates predictive differences into operational value. No positive result from an earlier package is required for the later packages to produce a publishable answer.
 
-**Staffing.** The project is led by the PI and resourced by a **scientific/technical collaborator** employed from project funds `[[FTE and duration — confirm rates with the grants office]]`. Under the 2026 regulations doctoral students and postdocs cannot be employed through Ambizione; other staff can, and the work this project needs done alongside the PI is well suited to that category. The collaborator carries the labour-intensive, fully specified work: benchmark extraction in WP1 (as one of the two independent extractors), the harmonisation and evaluation pipeline in WP3, and reproducibility engineering. I execute WP2 and the confirmatory evaluation design personally, because that is the methodological core.
-
-The division is deliberate and, for an independence-focused scheme, clearer than a doctoral team would be: the scientific direction, the hypotheses and the confirmatory design are mine, and the supporting role is technical rather than an independent scientific lead.
+**Staffing.** The project is led by the PI and resourced by a **scientific/technical collaborator** employed from project funds `[[FTE and duration — confirm rates with the grants office]]`. Under the 2026 regulations doctoral students and postdocs cannot be employed through Ambizione; other staff can, and the work this project needs done alongside the PI is well suited to that category. The collaborator carries the labour-intensive, fully specified work: benchmark extraction in WP1 (as one of the two independent extractors), the harmonisation and evaluation pipeline in WP3, and reproducibility engineering. I execute WP2 and the confirmatory evaluation design personally, because that is the methodological core: the scientific direction, the hypotheses and the confirmatory design are mine, and the supporting role is technical rather than an independent scientific lead.
 
 ---
 
@@ -24,7 +22,7 @@ Define inclusion criteria, effect measures, uncertainty representation and trans
 
 ### T1.2 — Build the quantitative extraction benchmark *(M3–M9)*
 
-Two independent expert extractors manually extract target quantities from a stratified random sample of **300** publications, with adjudication. Stratification covers parameter class, reporting quality and study design. The benchmark is an open methodological deliverable in its own right.
+Two independent expert extractors manually extract target quantities from a stratified random sample of **300** publications, with adjudication. Stratification covers parameter class, reporting quality, study design and **source type** — journal article versus timestamped situational report — so that extraction error is characterised separately for the faster external sources admitted in T3.2. The benchmark is an open methodological deliverable in its own right.
 
 ### T1.3 — Characterise automated extraction error *(M7–M14)*
 
@@ -74,7 +72,7 @@ Compute rolling variance and lag-1 autocorrelation, with pre-specified sensitivi
 
 Use calibration methods appropriate to temporal dependence to assess predictive coverage. A conformal component may be used as a robustness layer if simulation confirms that the chosen temporal formulation supports its assumptions; it is **not** a headline claim of universal coverage under arbitrary distribution shift. Release a documented reference implementation integrated with LiteRev-Evidence.
 
-**Simulation is prior information, not data.** A mechanistic model parameterised from the literature can generate arbitrarily many trajectories, but fitting the forecasting model to those trajectories as if they were independent observations would count the same prior information twice and would disable the prior–data discrepancy diagnostic that H3b depends on. Mechanistic simulation is therefore used only for (i) characterising an intractable likelihood before confronting it with observations, (ii) imposing structural constraints on the hypothesis space, (iii) simulation-based identifiability/recovery studies, and (iv) prior predictive checking. Generated trajectories are never treated as observations and are not used to tighten the evidence-derived prior.
+**Simulation is prior information, not data.** A mechanistic model parameterised from the literature can generate arbitrarily many trajectories, but fitting to them as if they were independent observations would count the same prior information twice and disable the prior–data discrepancy diagnostic H3b depends on. Mechanistic simulation is therefore used only for characterising an intractable likelihood, imposing structural constraints, identifiability/recovery studies and prior predictive checking. Generated trajectories are never treated as observations, and never tighten the evidence-derived prior.
 
 **Deliverables.** D2.1 model specification and identifiability study; D2.2 open implementation; D2.3 methodological paper on latent health-system escalation and evidence-informed borrowing.
 
@@ -134,7 +132,9 @@ The analysis is at daily aggregate level wherever possible. Missingness and repo
 
 ### T3.2 — Reconstruct the true information set *(M18–M30)*
 
-For each historical crisis onset, create successive forecast origins using **only information available at that date**. This includes only literature published and indexed before the origin date. Forecast at pre-specified horizons (`[[7, 14, 28 days]]`). The cold-start window is defined by elapsed local outcome observations **after a pre-defined real-time onset criterion**. The onset rule may use only variables available at the forecast origin and cannot use the eventual peak, cumulative future cases or any other future information.
+For each historical crisis onset, create successive forecast origins using **only information available at that date**. This includes only literature published and indexed before the origin date.
+
+**Admissibility as a prior is defined by referent, not by publication venue.** Prior inputs are statements about *other* populations, places or past events: literature and preprints, plus timestamped situational reporting on the ongoing event *elsewhere* (WHO Disease Outbreak News, ECDC rapid risk assessments, ReliefWeb). These faster sources let the prior be refreshed *within* a crisis, not only between crises, and pass through the same extraction and measurement-error pipeline as T1. **Text describing the local event is excluded from the prior**: it is a noisy measurement of the outcome H3a is scored against, and admitting it would collapse the distinction the hypothesis tests. Every input carries an index timestamp and the rolling cut-off is enforced on it. Forecast at pre-specified horizons (`[[7, 14, 28 days]]`). The cold-start window is defined by elapsed local outcome observations **after a pre-defined real-time onset criterion**. The onset rule may use only variables available at the forecast origin and cannot use the eventual peak, cumulative future cases or any other future information.
 
 ### T3.3 — Evaluate a pre-specified model ladder *(M20–M34)*
 
@@ -147,9 +147,11 @@ At each origin compare:
 5. adaptive evidence borrowing with prior–data conflict monitoring;
 6. adaptive borrowing plus resilience indicators.
 
-**Exactly one comparison is confirmatory: rung 4 vs rung 3 on the primary CRPS skill score over the pre-specified cold-start window.** All other ladder contrasts are secondary or robustness analyses.
+**Exactly one comparison is confirmatory: rung 4 vs rung 3 on the primary CRPS skill score over the pre-specified cold-start window, on respiratory episodes.** The heat domain repeats that single contrast as a **sequential generalisation test**, evaluated only if the respiratory test is met (§3). All other ladder contrasts are secondary or robustness analyses.
 
-**Primary endpoint:** the CRPS skill score of rung 4 relative to rung 3 over the cold-start window, with uncertainty by block bootstrap over crisis episodes. Secondary endpoints: log score, calibration (PIT, interval coverage), and escalation detection compared at matched false-alarm rates.
+**Rung 3 is pinned in the registration**, together with `[[a pre-declared set of vaguer and tighter alternatives]]` over which the primary result is reported as a sensitivity band. An advantage that survives only against the vaguest baseline is reported as such: the comparator cannot be tuned into a straw man after the fact.
+
+**Primary endpoint:** the CRPS skill score of rung 4 relative to rung 3 over the cold-start window. Because the number of eligible episodes is small `[[expected order of ten]]`, inference is by **paired permutation over episodes**, with a block bootstrap over episodes reported alongside it; both are pre-specified, and disagreement between them is reported rather than resolved after the fact. Secondary endpoints: log score, calibration (PIT, interval coverage), and escalation detection compared at matched false-alarm rates.
 
 **H3b non-inferiority margin `[[Δ]]` is fixed here, before any historical evaluation**, and justified against the rung 3 → rung 4 effect size the study is powered to detect. Adaptive borrowing is declared non-inferior if its CRPS skill deficit relative to fixed borrowing is no greater than `[[Δ]]`. The superiority half of H3b is tested on deliberately misspecified priors constructed in T3.4. Confirmatory contrasts are registered before the evaluation runs; exploratory searches are separated and labelled.
 
@@ -161,11 +163,11 @@ The output is therefore a **failure map**, not simply an average performance est
 
 ### T3.5 — Test generalisation *(M34–M42)*
 
-Apply the framework to the second core archetype (heatwave) and, resources permitting, the Geneva legionellosis extension. The respiratory epidemic and heatwave carry the main generalisation claim; legionellosis is explicitly a year-4 extension and is not required for the central conclusion.
+Run the sequential generalisation test on the heatwave archetype and, resources permitting, the Geneva legionellosis extension — the latter explicitly a year-4 addition, not required for the central conclusion.
 
 **Deliverables.** D3.1 reproducible cold-start evaluation pipeline; D3.2 primary result on the value of evidence-derived priors; D3.3 failure/stress-test map; D3.4 cross-archetype generalisation analysis.
 
-**Risk — operational data access.** *Mitigation:* agreements are initiated before the grant starts and supporting letters accompany the application. If clinical operational data are delayed, the primary hypothesis remains testable on open federal/cantonal and European surveillance series, with the same rolling-origin information-set restriction. The claim is then narrowed to routinely observed crisis indicators, and WP4 becomes illustrative rather than confirmatory.
+**Risk — operational data access.** *Mitigation:* agreements are initiated before the grant starts and supporting letters accompany the application. If clinical data are delayed, H3a remains testable on open federal/cantonal and European surveillance series under the same rolling-origin restriction — see the cost of that fallback below.
 
 ---
 
@@ -175,13 +177,13 @@ Apply the framework to the second core archetype (heatwave) and, resources permi
 
 ### T4.1 — Elicit operational losses and thresholds *(M24–M32)*
 
-Use structured elicitation following the **SHELF** protocol with emergency physicians, dispatch supervisors and hospital-capacity managers `[[n ≈ 15–20; confirm participating units]]`. Elicit consequences of early, late and unnecessary escalation rather than asking respondents to guess probability thresholds directly. Derive decision thresholds from the elicited loss structure.
+Structured elicitation following the **SHELF** protocol with emergency physicians, dispatch supervisors and hospital-capacity managers `[[n ≈ 15–20; confirm participating units]]`. Elicit the consequences of early, late and unnecessary escalation rather than asking respondents to guess probability thresholds, then derive thresholds from the elicited loss structure.
 
 ### T4.2 — Decision-analytic evaluation and equity audit *(M30–M40)*
 
 Re-evaluate the WP3 forecasts using net benefit/decision-curve analysis and value-of-information. Test whether the ranking of models changes once consequences are incorporated. A model is considered useful only if its predictive improvement crosses a decision-relevant threshold.
 
-Because operational records and escalation decisions may encode structural differences across populations, assess calibration, forecast error and threshold performance across available aggregate strata (for example age, sex and neighbourhood-level deprivation where legally and statistically appropriate). A model that is calibrated only on average but systematically miscalibrated for a relevant group is not considered operationally ready. This is an audit of model performance and decision thresholds, not a claim of individual-level causal fairness.
+Because operational records may encode structural differences across populations, assess calibration, forecast error and threshold performance across available aggregate strata (age, sex, neighbourhood deprivation where legally and statistically appropriate). A model calibrated only on average but systematically miscalibrated for a relevant group is not operationally ready. This audits model performance and thresholds; it is not a claim of individual-level causal fairness.
 
 ### T4.3 — Retrospective counterfactual analysis *(M34–M44)*
 
@@ -197,9 +199,9 @@ If authorised, run the framework alongside routine operations with forecasts rec
 
 ## Dependencies, milestones and timing
 
-The design avoids a serial chain in which one uncertain result can stop the project. WP2 can use weakly informative priors if WP1 finds that automated evidence extraction is inadequate. WP3 can use open surveillance data if operational access is delayed. WP4's main decision analysis is retrospective and does not depend on prospective deployment.
+The design avoids a serial chain in which one uncertain result stops the project: WP2 can fall back to weakly informative priors if WP1 finds extraction inadequate, WP3 to open surveillance data if operational access is delayed, and WP4's decision analysis is retrospective and independent of prospective deployment.
 
-**What the data fallback costs, stated plainly.** Open surveillance series are not the same outcome as emergency-system demand. Falling back to them **preserves the methodological test of evidence borrowing but narrows the primary outcome claim** — from operational health-system demand to routinely observed crisis indicators. H3a remains testable; what would be lost is the direct operational interpretation, and with it most of WP4's decision analysis, which would become illustrative rather than confirmatory. This is why the data agreements are treated as a pre-award action rather than a project risk to be managed later.
+**What the data fallback costs, stated plainly.** Open surveillance series are not the same outcome as emergency-system demand. Falling back to them **preserves the methodological test but narrows the outcome claim** — from operational demand to routinely observed crisis indicators — and turns most of WP4's decision analysis illustrative rather than confirmatory. Hence the data agreements are a pre-award action, not a risk to manage later.
 
 | Milestone | Month | Criterion |
 | --- | ---: | --- |
@@ -216,13 +218,8 @@ Analyses will use R and Python with version-controlled code and a registered ana
 
 ## Risks and fallback logic
 
-The two central risks are deliberately scientific rather than hidden implementation risks:
-
-- **Evidence may be unusable.** If extraction uncertainty or transportability makes literature-derived priors unreliable, WP1 establishes that boundary and WP3 quantifies the consequence of using them. This is a publishable negative result.
-- **The state model may be weakly identifiable.** Simulation determines the identifiable regime before real-data fitting. The pre-specified ordinal state-space fallback preserves the central comparison between borrowing strategies.
-
-Data access, missingness and prospective deployment are handled through explicit fallbacks above. None is allowed to convert an inconclusive analysis into an unqualified success claim.
+The two central risks are scientific rather than hidden implementation risks, and each yields a result rather than a stall. **Evidence may be unusable** — WP1 then establishes that boundary and WP3 quantifies the cost of ignoring it, which is a publishable negative result. **The state model may be weakly identifiable** — simulation establishes the identifiable regime before real-data fitting, and the pre-specified ordinal fallback preserves the central comparison. Data access, missingness and prospective deployment have the explicit fallbacks set out above. None is allowed to convert an inconclusive analysis into an unqualified success claim.
 
 ## Expected outputs
 
-The project will produce approximately four to six papers and two durable open resources: the quantitative extraction benchmark and the evidence-to-prior/reference modelling framework. **I will lead the methodological, benchmark and integrative outputs; any approved support staff will contribute defined technical or extraction tasks and will not be presented as independent scientific leads.**
+Approximately four to six papers and two durable open resources: the quantitative extraction benchmark and the evidence-to-prior reference framework. **I lead the methodological, benchmark and integrative outputs.**

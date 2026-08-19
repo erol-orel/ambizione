@@ -52,19 +52,10 @@ The 2026 regulations cap project funds at **CHF 250,000 over four years**, with 
 `[[Confirm institutional salary rates with the grants office and set the FTE. The scale should be
 stated concretely enough that a referee can see the work is resourced.]]`
 
-**Division of labour.** I execute WP2 and the confirmatory evaluation design because they are the methodological core. The collaborator carries defined technical and extraction work under my direction. WP4 is conducted with operational partners and remains scientifically led by me.
-
 ## 6.4 Preparatory work before the grant starts
 
 Three activities are being advanced before month 1: **data agreements** with HUG, 144/CASU and intensive care; **CCER preparation with myself as applicant** for the operational data; and **infrastructure hardening** of LiteRev-Evidence. The latter must include transport security, managed secrets, version-controlled schemas and documented recovery procedures before clinical data are connected. These are preparatory conditions, not work packages funded by the grant.
 
 ## 6.5 Feasibility logic
 
-Feasibility rests on four safeguards:
-
-1. **The instrument already exists.** The grant does not spend its first year building the evidence-synthesis platform.
-2. **The central experiment is modular.** WP3 can compare weakly informative and evidence-derived priors even if WP1 finds that some parameter classes are unusable.
-3. **Data access has a real fallback.** If operational records are delayed, the same rolling-origin experiment can be conducted on open surveillance series, with the claim narrowed appropriately.
-4. **Methodological failure is itself informative.** If the regime model is not identifiable, the pre-specified ordinal state-space fallback preserves the central test; if evidence borrowing is harmful, that is the scientific result rather than a reason to relax the evaluation.
-
-The proposal therefore does not depend on every component succeeding. Its main scientific question remains answerable under the principal foreseeable failures.
+Feasibility rests on one structural property: **the instrument already exists**, so the grant does not spend its first year building the evidence-synthesis platform, and on the fallbacks set out in §4 — modular work packages, an open-data route if operational access is delayed, and an ordinal state-space formulation if the regime model proves weakly identifiable. Each failure mode leaves the central question answerable, with the claim narrowed and the narrowing stated.

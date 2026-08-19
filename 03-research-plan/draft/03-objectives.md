@@ -30,9 +30,7 @@ The direction follows from the difficulty of numerical extraction and the domina
 
 > **C2 — model adequacy criterion.** The latent-state representation must yield **identifiable** parameters and **calibrated** probabilities of escalation states at matched false-alarm rates. Its role is to provide the common state representation in which evidence-borrowing strategies are compared; it is not advanced as a claim that regime switching is generally superior to thresholding a point forecast.
 
-C2 is verified rather than discovered: T2.1's identifiability study and T3.3's calibration checks either establish adequacy or trigger the pre-specified ordinal state-space fallback. Either outcome leaves H3a intact.
-
-Extreme-value modelling is used to represent the tail of the critical state. Critical-slowing-down indicators are treated as **supporting, theory-derived covariates** on transition dynamics, not as a separate project-level claim. Their incremental value is tested against level and trend information.
+C2 is verified rather than discovered: T2.1's identifiability study and T3.3's calibration checks either establish adequacy or trigger the pre-specified ordinal state-space fallback, and either outcome leaves H3a intact. Extreme-value modelling represents the tail of the critical state; critical-slowing-down indicators are **supporting, theory-derived covariates** on transition dynamics, with their incremental value tested against level and trend information.
 
 ## O3 — Test the cold-start hypothesis and map failure
 
@@ -47,17 +45,23 @@ H3b is two-sided by design: non-inferiority where the evidence is sound, superio
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 
-These hypotheses are tested through the **pre-specified model ladder** set out in §4 (T3.3), which
-runs from a local baseline through the regime model under weakly informative priors, the same model
+These hypotheses are tested through the **pre-specified model ladder** of §4 (T3.3), which runs
+from a local baseline through the regime model under weakly informative priors, the same model
 under fixed evidence-derived priors, adaptive borrowing, and adaptive borrowing plus resilience
-indicators. The ladder isolates each increment rather than comparing a final model against a weak
-baseline.
+indicators. It isolates each increment rather than pitting a final model against a weak baseline.
 
 **Primary confirmatory comparison — one, stated once.** Rung 4 (fixed evidence-derived priors)
 against rung 3 (weakly informative priors), by **CRPS skill score**, over the pre-specified
-cold-start window `[[first N weeks after onset]]`, pooled across origins by block bootstrap. Every
-other contrast is secondary and labelled so. The **shape of the advantage over elapsed local data**
-is also reported: it should decay to nothing, and that decay curve is the descriptive result.
+cold-start window `[[first N weeks after onset]]`, **on respiratory episodes only**, pooled across
+origins. Every other contrast is secondary and labelled so. The **shape of the advantage over
+elapsed local data** is also reported: it should decay to nothing, and that decay curve is the
+descriptive result.
+
+**Ordering across the two core domains.** Heat carries the same contrast as a **sequential
+generalisation test**, run only if the respiratory test is met — fixed-order testing controls the
+family-wise error rate without a multiplicity penalty, and follows the science: respiratory
+evidence is richest, heat transport hardest. A respiratory-positive, heat-negative result is a
+boundary condition on transportability, and is reported as one.
 
 ## O4 — Establish whether predictive improvement is decision-relevant
 
@@ -78,11 +82,11 @@ rather than across incommensurable measures.
 
 | Archetype | Role in the project | Dynamics | Data |
 | --- | --- | --- | --- |
-| **Respiratory epidemic** | Core validation | Transmissible, multi-wave, seasonal | COVID-19 and influenza as principal validation episodes; RSV supporting |
-| **Heatwave** | Core generalisation test | Environmental, short and sharply peaked | Same demand outcome, driven by MeteoSwiss exposures |
+| **Respiratory epidemic** | Primary confirmatory domain | Transmissible, multi-wave, seasonal | COVID-19 and influenza as principal validation episodes; RSV supporting |
+| **Heatwave** | Sequential generalisation test | Environmental, short and sharply peaked | Same demand outcome, driven by MeteoSwiss exposures |
 | **Waterborne outbreak** | Year-4 extension | Common-source / environmentally mediated | Geneva legionellosis linked to installations |
 
-The first two domains carry the core claim. The third tests whether the framework can cross a substantially different crisis mechanism; its omission does not invalidate the main cold-start result.
+The first domain carries the confirmatory claim and the second tests whether it generalises. The third tests whether the framework can cross a substantially different crisis mechanism; its omission does not invalidate the main cold-start result.
 
 ## What the project does not claim
 

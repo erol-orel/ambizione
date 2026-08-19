@@ -73,10 +73,41 @@ This audit is the operational checklist for the scientific claims in the researc
 | Decision rule | `[[decision-relevant threshold criterion]]` |
 | Elicitation | SHELF; `[[n]]` participants across specified operational roles |
 
+## Multiplicity across domains (resolved, hostile review F2.1)
+
+The plan names **two core validation domains** but must name **one** confirmatory comparison.
+Resolution adopted: **fixed-order hierarchical testing.**
+
+| | Respiratory | Heat |
+| --- | --- | --- |
+| Role | **Primary confirmatory domain** | Sequential generalisation test |
+| Contrast | Rung 4 vs rung 3, CRPS skill score | Identical contrast |
+| Condition to run | None — always evaluated | Only if the respiratory test is met |
+| Level | Full α | Full α (protected by the fixed order) |
+
+No multiplicity correction is required because the order is fixed in advance and the second test
+is conditional on the first. A respiratory-positive, heat-negative outcome is reported as a
+**boundary condition on transportability**, not as a failure.
+
+## Open uncertainty — the onset rule (hostile review F2.3)
+
+The prospective onset rule determines when the cold-start window starts, and therefore which
+episodes are eligible (T3.0) and what "first N weeks" means (H3a). **It is not yet specified**,
+and its specification is genuinely uncertain: a rule tuned to fire early inflates the apparent
+cold-start advantage, one tuned to fire late deflates it.
+
+Position taken: the rule is registered at the **second registration point**, after the episode
+inventory but before any evaluation, and the primary result is reported with sensitivity across
+`[[a pre-declared band of onset thresholds]]`. This is recorded as an open methodological
+uncertainty rather than a solved problem, because pretending otherwise would be the exact
+post-hoc freedom the registration is meant to remove.
+
 ## Cross-cutting checks
 
 - [ ] Every "improves", "better" or "at least as well" in the research plan has a metric and a threshold behind it.
-- [ ] Exactly one primary confirmatory comparison: rung 4 vs rung 3 on CRPS skill score.
+- [ ] Exactly one primary confirmatory comparison: rung 4 vs rung 3 on CRPS skill score, on respiratory episodes.
+- [ ] The heat domain is described as a sequential generalisation test everywhere it appears.
+- [ ] Onset-rule sensitivity band is pre-declared and reported.
 - [ ] The primary outcome series and horizon are named once and identically in §3, §4 and this audit.
 - [ ] The onset rule is real-time and reproducible.
 - [ ] `[[Δ]]` is fixed before evaluation and not tuned to observed effects.

@@ -2,7 +2,9 @@
 
 ## 5.1 Scientific relevance
 
-The project tests an assumption crisis forecasting currently makes informally: that accumulated evidence from elsewhere provides useful information when local outcome data are insufficient. The result is useful either way. If literature-derived priors improve cold-start forecasts, the project gives a principled, auditable way to borrow. If the benefit is weak or negative, it establishes when borrowing should not be trusted — equally important, because manual parameter selection from a few familiar papers is common and rarely evaluated as a forecasting intervention.
+The project tests an assumption crisis forecasting currently makes informally: that accumulated evidence from elsewhere provides useful information when local outcome data are insufficient. The result is useful either way. If literature-derived priors improve cold-start forecasts, the project gives a principled, auditable way to borrow. If the benefit is weak or negative, it establishes when borrowing should not be trusted.
+
+**A null result changes identifiable practice.** Modellers advising cantonal and federal preparedness routinely seed early-crisis models with parameters lifted from a few published studies, and evidence-synthesis platforms — including my own — assume pooled estimates are reusable as priors. A calibrated null tells those groups the practice buys nothing where it is most used, that early forecasts belong with local-data-only uncertainty, and that effort belongs in acquiring local observations faster rather than pooling external ones harder. That is a change of course, not an absence of finding.
 
 The project also leaves three durable resources:
 
@@ -16,7 +18,7 @@ These are deliberately subordinate to the central question. The project is not a
 
 The practical contribution is preparedness rather than a promised clinical deployment. During the first weeks of a crisis, emergency systems must decide whether to open capacity, redistribute resources or escalate before local outcomes provide a reliable empirical base. The project will quantify whether external evidence can improve those decisions and, crucially, how much uncertainty should remain around the resulting recommendation.
 
-The Geneva setting provides a realistic operational anchor through established emergency and public-health collaborations. The contrasting validation domains are designed to show what transfers and what does not. A negative result would also have practical value by identifying situations in which literature-derived parameters should not be allowed to drive operational decisions.
+The Geneva setting provides a realistic operational anchor through established emergency and public-health collaborations, and the contrasting validation domains are designed to show what transfers and what does not.
 
 ## 5.3 Scientific independence
 
@@ -37,6 +39,10 @@ The Geneva setting provides a realistic operational anchor through established e
 | Main output | Collaborative system/infrastructure | Collaborative platform/data outputs | **Independent inferential result, method and research line** |
 | Scientific ownership | Shared | Shared | **Question, methodological core and programme led by me** |
 
+**On my publication record.** My doctoral and post-doctoral output was produced within Prof. Olivia Keiser's group, and she is a co-author on it; that is the expected profile at this career stage. The delimitation is explicit: the cold-start question, the model ladder, the confirmatory design and the evaluation are mine, no part of this project continues a line she leads, and she has no role in it. Moving host unit makes that separation institutional rather than merely asserted.
+
 The host arrangement reinforces rather than dilutes this independence. I will move into **Data Science for Digital Health, Department of Radiology and Medical Informatics**, a different department and scientific community from the one in which I trained, while maintaining an associated connection to the Institute of Global Health and a formal clinical collaboration with HUG emergency medicine. The host provides methods, domain access and clinical interaction; it does not define the research question or own the programme.
+
+**Where the line goes next.** The design keeps a clean boundary between external evidence and local observation because that boundary is what makes H3a testable. The continuation, once it is measured, is to relax it: to fuse streams of very different velocity — literature, situational reporting, structured environmental feeds — in one calibrated state model, with conflict monitoring deciding continuously how much each may say. LiteRev-Evidence already ingests such feeds; what does not exist is the evidence on whether borrowing helps and where it fails. This project supplies that, which is what makes it an opening move rather than a single study.
 
 The career outcome is therefore concrete: Ambizione would allow me to establish an independent line at the intersection of evidence synthesis, quantitative time-series modelling and emergency public health, lead the research programme directly, and develop a line that can continue beyond the grant independently of the collaborative infrastructure from which it originated.

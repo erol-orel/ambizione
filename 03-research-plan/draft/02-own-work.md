@@ -58,10 +58,9 @@ are chosen by **model class** rather than by convenience, and why this proposal 
 data landscape rather than an assumed one.
 
 **This is what makes the proposed research feasible rather than aspirational.** The proposal is
-not to build this system. It is to use it to answer the question it raises: the platform can pool
-published estimates into priors, but whether those priors improve genuinely cold-start forecasting
-of a new health-system outcome has not yet been established in the specific operational setting
-proposed here.
+not to build the system but to answer the question it raises: the platform pools published
+estimates into priors, and whether those priors improve genuinely cold-start forecasting of a new
+health-system outcome has never been established.
 
 ## 2.5 Linked data on a contrasting crisis archetype
 

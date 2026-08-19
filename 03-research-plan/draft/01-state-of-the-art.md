@@ -14,7 +14,7 @@ At crisis onset, context variables are abundant but the outcome to be forecast i
 
 This distinction matters because abundance of candidate predictors can itself mislead. Google Flu Trends, for example, famously overestimated influenza activity by more than a factor of two [Lazer 2014]. More information is not automatically more information about the quantity that matters.
 
-Early signals help but do not eliminate the problem. Wastewater, for example, may lead clinical presentation, but converting viral load into expected presentations requires a shedding-to-incidence relationship that itself comes from external evidence. Transfer learning similarly requires contemporaneous observations from comparable locations. Mechanistic models require parameter values that are often set manually from a small number of studies, with uncertainty asserted rather than derived. The common unresolved issue is therefore **how to use external quantitative information without pretending that it is perfectly transferable**.
+Early signals help but do not eliminate the problem. Wastewater may lead clinical presentation, but converting viral load into expected presentations needs a shedding-to-incidence relationship that itself comes from external evidence; transfer learning needs contemporaneous observations from comparable locations; mechanistic models need parameters usually set by hand from a few studies, with uncertainty asserted rather than derived. The common unresolved issue is **how to use external quantitative information without pretending it is perfectly transferable**.
 
 ## 1.3 The unused resource: published evidence as quantitative prior information
 
@@ -32,7 +32,7 @@ These are therefore not merely engineering obstacles. They define the scientific
 
 A second, supporting problem concerns the target itself. Emergency operations are interested in state — routine, elevated, strained or critical — rather than only in a point prediction of tomorrow's count. Latent-state representations are established in surveillance: Poisson hidden Markov models have long been used to distinguish epidemic and non-epidemic periods [Le Strat 1999; Watkins 2009]. Extreme-value methods have also been applied to Swiss hospital visits and congestion [Coles 2001; Ranjbar 2022].
 
-This project combines these ideas in a deliberately limited way: a latent ordinal state provides the common representation needed to compare borrowing strategies, while an extreme-value component handles rare critical exceedances. The contribution is not the invention of hidden Markov or extreme-value models; it is their use as a **common state representation for testing evidence borrowing at crisis onset**.
+This project uses these ideas in a deliberately limited way: a latent ordinal state provides the common representation in which borrowing strategies are compared, with an extreme-value component for rare critical exceedances. The contribution is not the models but their use as a **common state representation for testing evidence borrowing at crisis onset**.
 
 A complementary theoretical signal comes from critical-slowing-down theory. Systems approaching some critical transitions can show rising variance and lag-1 autocorrelation before the transition [Scheffer 2009], with applications and reviews in epidemic dynamics [O'Regan 2013; Brett 2018; Southall 2021]. These indicators are attractive here because they use the shape of a short recent series rather than a long history of comparable crises. They are therefore treated as a **secondary information channel** whose incremental value is tested empirically, not as a universal early-warning mechanism.
 
@@ -44,8 +44,4 @@ This distinction matters in crisis response because false alarms and missed esca
 
 ## 1.6 The specific gap addressed by this project
 
-Four pieces exist separately: forecasting and surveillance work substantially better once local history exists; Bayesian methods can borrow from historical studies with discounting and conflict handling; latent-state, extreme-value and resilience methods give partial representations of escalation; and decision analysis evaluates whether predictive information changes action.
-
-What has not been established is whether they connect around the **cold-start question** — whether systematically extracted quantitative evidence improves probabilistic forecasting before local outcome data become informative, and whether harmful borrowing is detectable early enough to discount.
-
-The claim is therefore deliberately falsifiable rather than broadly novel: **the primary contribution is an empirical answer to the value of evidence-derived priors in cold-start health-system forecasting.** The supporting components are justified only insofar as they make that comparison valid.
+The four pieces above exist separately — forecasting that needs local history, Bayesian borrowing with discounting, latent-state and resilience representations of escalation, and decision analysis. What has not been established is whether they connect around the **cold-start question**: whether systematically extracted quantitative evidence improves probabilistic forecasting before local outcome data become informative, and whether harmful borrowing is detectable early enough to discount. The claim is therefore deliberately falsifiable rather than broadly novel, and the supporting components are justified only insofar as they make that comparison valid.
