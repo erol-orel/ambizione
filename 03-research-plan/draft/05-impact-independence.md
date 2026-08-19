@@ -2,75 +2,41 @@
 
 ## 5.1 Scientific relevance
 
-The immediate contribution answers a question the field currently assumes: whether published
-evidence and theory-derived resilience indicators can supply usable information about a crisis
-before local data exist. Both possible answers change practice. A positive result gives
-modellers, forecast hubs and operational teams a principled, auditable alternative to setting
-parameters by hand from a few familiar papers. A negative or conditional result is arguably more
-valuable, because that hand-setting happens now, undocumented, in every crisis response — and if
-it cannot be justified, that should be established rather than assumed.
+The project tests an assumption that crisis forecasting currently makes informally: that accumulated evidence from elsewhere can be used to compensate for missing local outcome data. The result is useful in either direction. If literature-derived priors improve cold-start forecasts, the project provides a principled and auditable way to borrow information. If the benefit is weak, conditional or negative, the project establishes when borrowing should not be trusted — an equally important result because manual parameter selection from a few familiar papers is common but rarely evaluated as a forecasting intervention.
 
-Three further contributions stand independently of the headline result:
+The project also leaves three durable resources:
 
-- **A reference benchmark for quantitative extraction.** No gold standard exists for evaluating
-  automated extraction of quantitative parameters intended for quantitative reuse. As automated
-  and living evidence synthesis expands, that gap will be felt well beyond this project.
-- **A regime-switching representation of health-system state** with an extreme-value tail and
-  theory-derived resilience indicators on its transitions — importing apparatus standard for
-  decades in fields concerned with rare, costly transitions into one with the same problem
-  structure and almost none of the machinery.
-- **Decision-analytic evaluation of crisis forecasts.** Shifting the criterion from discrimination
-  to consequence addresses a plausible explanation for why so few forecasting tools are ever
-  adopted.
+- **A quantitative extraction benchmark** for testing whether automated evidence synthesis preserves the uncertainty needed for quantitative reuse.
+- **An open reference framework** for evidence-informed latent-state forecasting, with explicit borrowing, conflict detection and calibration rather than a black-box forecast.
+- **A decision-analytic evaluation framework** showing when a statistical improvement is large enough to matter operationally.
+
+These contributions are deliberately subordinate to the central scientific question. The project is not primarily a new LLM extraction system, a new early-warning indicator, or a new forecasting competition. It is a test of whether external quantitative evidence earns its place in cold-start prediction.
 
 ## 5.2 Practical and societal impact
 
-Switzerland has committed to strengthening health-crisis preparedness, and the cantonal emergency
-systems that would act on early warning are the partners in this work. The realistic impact is not
-a deployed alarm system at month 48 — it is knowing, with evidence, whether the early-crisis
-forecasts produced in the next emergency can be improved by information that already exists, and
-what such a forecast is worth in decisions rather than statistics. The shadow-mode component and
-the elicited loss structure are designed so the answer arrives in a form responders can use.
+The practical contribution is preparedness rather than a promised clinical deployment. During the first weeks of a crisis, emergency systems must decide whether to open capacity, redistribute resources or escalate before local outcomes provide a reliable empirical base. The project will quantify whether external evidence can improve those decisions and, crucially, how much uncertainty should remain around the resulting recommendation.
 
-The framework is not specific to Geneva or to one pathogen. The archetypes were chosen for
-contrast precisely so that what transfers, and what does not, is part of the result.
+The Geneva setting provides a realistic operational anchor through established emergency and public-health collaborations. The contrasting validation domains are designed to show what transfers and what does not. A negative result would also have practical value by identifying situations in which literature-derived parameters should not be allowed to drive operational decisions.
 
 ## 5.3 Scientific independence
 
-`[[This subsection is the one that decides an Ambizione. Write it plainly and do not hedge.]]`
+**This project is my first independent research programme, not an extension of a supervisor's or consortium's work.** Its independence is demonstrable in four ways.
 
-This project is mine in a specific and demonstrable sense. **The methodological approach comes
-from my own prior career** — regime-switching models, extreme value estimation and stress testing
-are instruments I brought into public health, not ones I acquired in any group I have worked in.
-**The instrument is mine**: LiteRev, published as first author, and LiteRev-Evidence, which I
-designed and built. **The question arose from that work**: I built a system that pools published
-estimates into priors and then could not establish whether it should, which is not a question
-inherited from a supervisor's programme.
+**1. The question is mine.** The question arose from a problem I encountered while developing LiteRev-Evidence: a system could pool published quantitative estimates into prior distributions, but there was no empirical basis for knowing whether those priors improved forecasting in a genuinely new setting. The Ambizione project tests that assumption rather than building another infrastructure component for an existing programme.
 
-It is also distinct from the collaborative projects I contribute to, and I state that explicitly
-rather than leaving it to be inferred:
+**2. The methodological core is mine.** I bring fifteen years of quantitative-finance experience in regime models, extreme-value risk and stress testing into biomedical crisis forecasting. These methods were not inherited from my doctoral or current research group; their transfer to this problem is part of the intellectual trajectory that defines the project.
 
-| | GESICA (Interreg) | Horizon consortium | **This project** |
+**3. The key instrument is mine.** I developed LiteRev and, subsequently, LiteRev-Evidence. The platform is already operational and is used as the instrument through which the project asks its scientific question. Ambizione funds the research programme around the instrument, not the creation of the instrument itself.
+
+**4. The research line and supervision will be mine.** I will lead the methodological work, supervise the doctoral researcher and be the scientific lead for the integrated programme. The project is distinct from my collaborative roles in GESICA and the Horizon consortium:
+
+| | GESICA | Horizon consortium | **Ambizione project** |
 | --- | --- | --- | --- |
-| Aim | Cross-border EMS decision system | Pan-European epidemic intelligence infrastructure | **Whether evidence-derived priors improve cold-start forecasting** |
-| Scale | France–Switzerland border region | Continental | Health-system operational, Geneva |
-| Output | Prototype system | Platform, datasets, dashboards | **Inferential result and method** |
+| Primary aim | Cross-border EMS decision/infrastructure work | Epidemic-intelligence infrastructure | **Test the value and limits of evidence-derived priors in cold-start forecasting** |
 | My role | Contributor | Contributor | **Principal investigator** |
+| Main output | Collaborative system/infrastructure | Collaborative platform/data outputs | **Independent inferential result, method and research line** |
+| Scientific ownership | Shared | Shared | **Question, methodological core and programme led by me** |
 
-The distinction is not one of topic but of **kind of question**. Those consortia build
-infrastructure; this project asks whether an assumption underneath such infrastructure holds, and
-under what conditions it fails. `[[Both are declared in the mySNF application.]]`
+The host arrangement reinforces rather than dilutes this independence. I will move into **Data Science for Digital Health, Department of Radiology and Medical Informatics**, a different department and scientific community from the one in which I trained, while maintaining an associated connection to the Institute of Global Health and a formal clinical collaboration with HUG emergency medicine. The host provides methods, domain access and clinical interaction; it does not define the research question or own the programme.
 
-The grant would let me lead my own group for the first time: supervise a doctoral researcher on a
-question I defined, hold the ethics approval as applicant, and establish an independent line at
-the intersection of evidence synthesis, econometric time-series methods and emergency public
-health.
-
-I will do so in a **different department from the one in which I trained** — Data Science for
-Digital Health, Department of Radiology and Medical Informatics — hosted by a colleague with whom I
-collaborate as a peer rather than a former supervisor, with an associated affiliation at the
-Institute of Global Health that keeps the work connected to its domain community, and a formal
-partnership with HUG emergency medicine that provides the clinical anchor. The arrangement mirrors
-the project: methods, domain and clinical practice, with the research line my own across all three.
-`[[The detailed confirmation letter states the concrete arrangements: own group, own doctoral
-supervision, own research line, own budget.]]`
+The career outcome is therefore concrete: Ambizione would allow me to establish an independent line at the intersection of evidence synthesis, quantitative time-series modelling and emergency public health, lead a doctoral researcher, and develop a programme that can continue beyond the grant independently of the collaborative infrastructure from which it originated.

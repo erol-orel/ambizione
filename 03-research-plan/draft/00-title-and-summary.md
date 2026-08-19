@@ -4,50 +4,14 @@
 
 # Summary
 
-When a health crisis begins, context data is abundant and outcome data does not yet exist.
-Weather, demography, mobility, pollution and the entire published literature are available on day
-one; what is missing is any observation of the quantity that must actually be forecast — how many
-people will present, in this population, for this event. Emergency services and hospitals must
-decide how many ambulances to staff, how many beds to open and when to escalate, at precisely the
-moment when that series is a handful of noisy points. The forecasting methods that perform best in steady state — and the ensemble
-infrastructures now organised around them — require years of history, so they are weakest exactly
-where the decisions are most consequential and least reversible.
+When a health crisis begins, the quantity that decision-makers need to forecast — local presentations, demand or occupancy — is precisely the quantity for which almost no local outcome data yet exist. Weather, demography, mobility and other context variables are available, but the relevant outcome series is initially a handful of noisy observations. The forecasting systems that perform well once years of local history have accumulated are therefore weakest when early decisions are most consequential.
 
-There is, however, information available at the outset, from two directions. The first is the
-accumulated published evidence from analogous events elsewhere. Thousands of studies report transmission parameters, weather–demand
-associations, surge magnitudes and intervention effects. That evidence is not used quantitatively in operational forecasting, because turning
-heterogeneous published estimates into usable priors is difficult and nobody has established
-whether doing so helps or harms. The second is the local series itself: dynamical systems theory
-holds that a system approaching a critical transition loses resilience, so the variance and
-autocorrelation of its fluctuations rise **before** the transition — a signal computable from a
-short window, and therefore available when nothing else is.
+There is, however, another source of quantitative information: the accumulated published evidence from analogous events elsewhere. Thousands of studies report transmission parameters, weather–demand associations, surge magnitudes, intervention effects and lengths of stay. This evidence is rarely converted into formal prior information for operational forecasting. The reason is not lack of statistical machinery, but uncertainty about the two steps that matter most: **can quantitative estimates be extracted reliably enough to pool, and do they transport to the new setting?** A confidently wrong prior is worse than no prior because it is most influential when local data cannot yet correct it.
 
-This project asks both questions directly. Building on **LiteRev-Evidence**, a production
-literature-synthesis platform I developed that already extracts and pools quantitative parameters
-from over 80,000 documents, I will (i) establish how reliably quantitative evidence can be
-extracted automatically and where extraction is biased; (ii) develop a
-**Bayesian regime-switching** framework — with extreme value methods for the tail, resilience
-indicators on its transition intensities, and a conformal layer guaranteeing calibrated coverage
-even under misspecification — representing health-system state as latent regimes rather than as a
-threshold on a point forecast;
-(iii) test, by rolling-origin evaluation that respects the true information set available at each
-historical moment, whether evidence-derived priors improve forecast skill in the cold-start
-regime, and characterise when they mislead; and (iv) evaluate the result on the criterion that
-matters — whether it changes decisions and outcomes — through threshold elicitation with emergency
-responders, retrospective counterfactual analysis of what earlier escalation would have changed,
-and a prospective shadow-mode deployment.
+This project asks the central question directly: **can published quantitative evidence compensate for missing local outcome data at crisis onset, and can we detect early when it should not be trusted?** Building on LiteRev-Evidence, a literature-synthesis platform I developed that already extracts and pools quantitative parameters from more than 80,000 documents, I will (1) establish the error structure of automated quantitative extraction and propagate that uncertainty into evidence-derived priors; (2) develop an uncertainty-aware latent-regime framework for health-system escalation, with evidence-derived priors and a complementary short-window resilience signal; (3) test, through strict rolling-origin experiments that reconstruct the information available at each historical moment, whether those priors improve probabilistic forecast skill during the cold-start phase, how rapidly their value disappears as local data accumulate, and when they cause harm; and (4) determine whether any predictive gain is large enough to change operational decisions.
 
-Validation spans archetypes with different dynamics: a respiratory epidemic, a heatwave, and —
-using linked case–installation data unique to Geneva — a waterborne outbreak.
+The methodological core is deliberately simpler than the full machinery might suggest. The decisive experiment is a pre-specified ladder of models: local baselines; established short-baseline methods; a regime model with weakly informative priors; the same model with literature-derived priors; and adaptive borrowing that discounts the literature when prior–data conflict emerges. Critical-slowing-down indicators and extreme-value methods are supporting components of the state representation, not separate claims of success. Conformal calibration is used as a calibration safeguard rather than as a headline contribution.
 
-The approach is deliberately imported from outside epidemiology. Regime-switching models, extreme
-value theory and stress testing are standard instruments for anticipating rare, costly transitions
-in quantitative finance, where I worked for fifteen years before moving into public health, and
-they have barely been applied to health-system surge. Combining that inheritance with a working
-evidence-synthesis platform and established links to Geneva's emergency system is, as far as I am
-aware, unique.
+Validation uses contrasting crisis archetypes — respiratory epidemic and heatwave as the core domains, with Geneva legionellosis as a scoped extension — so that generalisability is tested rather than assumed. The outcome is intentionally falsifiable. If literature-derived priors improve cold-start forecasts, the project establishes when and by how much. If they do not, or if their harm cannot be detected early enough, the project establishes a boundary condition for automated evidence-informed forecasting. In either case, the deliverable is a validated scientific answer and an open framework, not another untested forecasting platform.
 
-The deliverables are a validated answer to whether published evidence can earn its place in
-operational forecasting, an open framework for doing so, and — if the answer is negative or
-conditional — a clear account of when it fails. Both outcomes are useful, which is what makes the
-question worth four years.
+The project is enabled by an unusual combination of expertise and infrastructure. I spent fifteen years in quantitative finance working with rare-event risk, regime models and stress testing before moving into biomedical sciences. I then developed LiteRev and LiteRev-Evidence and worked directly with Swiss hospital and emergency data. Ambizione would turn these existing components into my first independent research programme at the intersection of evidence synthesis, quantitative time-series modelling and emergency public health.
