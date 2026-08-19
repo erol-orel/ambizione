@@ -1,70 +1,53 @@
-# Host institution letters — start this in week one
+# Host institution and collaboration letters — Ambizione 2026
 
-`[HIGH]` Two separate documents are required:
+The 2026 SNSF guidelines require **two separate host-institution confirmations**:
 
-1. **Detailed confirmation letter** — from the hosting institute/department/professor.
-2. **General confirmation letter** — from the institution's central level (e.g. the
-   Vice-President for Research or equivalent research office).
+1. **Detailed confirmation** — signed by the named group leader and head of institute/department.
+2. **General confirmation** — from the central research leadership (e.g. Vice-Rectorate for Research).
 
-These are the most common reason applications miss the deadline. They involve people who are
-not invested in your timeline, and August is a holiday month in Switzerland.
+In addition, each project collaborator should provide a **letter of collaboration** confirming the collaboration and its practical contribution. Collaboration letters should not praise the applicant or the merits of the project; the SNSF says such support/reference letters are discarded.
 
 ## Who signs what
 
 | Letter | From | Content |
 | --- | --- | --- |
-| **Detailed confirmation** | Prof. Douglas Teodoro, DS4DH, Department of Radiology and Medical Informatics, Faculty of Medicine, UNIGE | Space, infrastructure, independence, doctoral supervision, integration |
-| **General confirmation** | UNIGE central research office / Vice-Rectorate for Research | Institutional commitment to employ and host |
-| **Supporting letters** (not required, but strong) | HUG emergency medicine `[[Desmettre, Larribau]]`; 144/CASU; intensive care | Data access commitments — see below |
+| **Detailed confirmation** | Prof. Douglas Teodoro / DS4DH, UNIGE `[[confirm signatory and title]]` | Hosting, infrastructure, employment, institutional obligations and independence-compatible working arrangement, following the SNSF template |
+| **General confirmation** | UNIGE central research office / Vice-Rectorate for Research | Institutional confirmation using the SNSF template |
+| **Collaboration letter** | HUG emergency medicine `[[Desmettre, Larribau]]` | Concrete collaboration/data access only |
+| **Collaboration letter** | 144/CASU `[[contact]]` | Concrete collaboration/data access only |
+| **Collaboration letter** | ICU / hospital capacity `[[contact]]` | Concrete collaboration/data access only |
+| **Mobility invitation** | `[[UNIL host]]` | Invitation, scientific activities, duration and practical arrangements for the planned stay |
 
-**The supporting letters matter as much as the required ones.** WP3 and WP4 rest on access to
-emergency department, dispatch and intensive care data; without written commitments those are
-assertions, and a referee will treat them as such.
+## Detailed host confirmation
+
+Use the **official SNSF template**, not a bespoke letter, and ensure the signed version addresses all points relevant to the application.
+
+The application itself carries the scientific independence argument. The host letter should confirm the institutional facts that make that independence possible: the host will provide the required working environment and infrastructure, the applicant will conduct and lead the proposed project, and the institutional arrangement is compatible with independent scientific leadership.
+
+Do **not** describe a doctoral researcher or postdoc as project staff: the 2026 Ambizione rules prohibit employing doctoral students and postdocs through Ambizione.
+
+A useful factual sentence to adapt, if compatible with the official template, is:
+
+> Dr Orel will conduct and lead the proposed Ambizione project as an independent research programme within the department. The department will provide `[[office/workspace, computing, administrative support and other agreed infrastructure]]` and will support his integration into departmental research and teaching.
+
+## Collaboration letters
+
+Ask collaborators for concise letters stating only:
+
+- what collaboration they agree to provide;
+- what data/infrastructure/access they can make available, if applicable;
+- the expected timing or duration;
+- any conditions that must be met (ethics, data protection, governance).
+
+Do **not** ask collaborators to assess your qualifications, originality or the quality of the proposal. Those arguments belong in the application and CV.
 
 ## Act now
 
-- [ ] Ask the host institute for the **detailed confirmation letter**.
-- [ ] Ask the central research office for their **internal deadline** for the general letter —
-      in writing. `[VERIFY]` ETH Zurich has been asking for the detailed letter plus a CV by
-      **21 October 2026**; every institution differs, so get yours confirmed rather than
-      assuming a date.
-- [ ] Ask whether the institution offers **internal proposal review** — many Swiss grants offices
-      do, it is free, and it is run by people who read successful applications for a living.
-- [ ] Ask whether they have a **required template** for either letter.
-
-## What the detailed letter should say
-
-Write a draft for Prof. Teodoro. Busy colleagues sign drafts and rewrite only where they disagree
-— normal practice, it speeds everything up, and it means the letter says what the application
-needs it to say.
-
-**The sentence that matters most for an Ambizione is the one about independence.** The panel is
-assessing whether you are becoming a principal investigator. A letter that describes you as a
-valued member of the group undoes the argument §5 makes; one that describes you as leading your
-own line, with your own students, supports it. Suggested wording to adapt:
-
-> Dr Orel will establish and lead his own research group within the department, on a research
-> line he has defined and which is distinct from the group's existing programme. He will act as
-> principal investigator, recruit and supervise his own doctoral researcher(s), hold his own
-> ethics approvals, and manage his own budget. The department will provide `[[office and
-> workspace, computing, administrative support]]` and will support his integration into teaching
-> and departmental research life.
-
-It should also confirm, concretely:
-- **Space and infrastructure** — office and lab/workspace, access to specific facilities.
-- **Independence** — that you will lead your own group, supervise your own students, and pursue
-  your own research line. This is the sentence that matters most for an Ambizione. Vague
-  wording here undercuts the independence argument the whole application rests on.
-- **Right to supervise doctoral students**, and the arrangement for it if you cannot formally
-  supervise alone.
-- **Integration** — teaching, seminars, department role.
-- **Financial and administrative commitments**, including anything the institution contributes.
-- **Willingness to employ you** for the grant period.
-
-## What to send with the request
-
-Your CV, the project summary, the intended budget, and the internal deadline you need it by.
-Make it as close to a one-click task as you can.
+- [ ] Ask the host institute for the detailed confirmation using the official SNSF template.
+- [ ] Ask the UNIGE central research office for the general confirmation and internal deadline.
+- [ ] Ask HUG/144/ICU collaborators for collaboration letters limited to concrete collaboration/access.
+- [ ] Ask the mobility host for a formal invitation specifying the planned stay and scientific activities.
+- [ ] Ask whether UNIGE offers internal proposal review.
 
 ## Status tracker
 
@@ -72,4 +55,8 @@ Make it as close to a one-click task as you can.
 | --- | --- | --- | --- | --- |
 | Detailed confirmation letter | | | | |
 | General confirmation letter | | | | |
+| HUG collaboration letter | | | | |
+| 144/CASU collaboration letter | | | | |
+| ICU collaboration letter | | | | |
+| Mobility invitation | | | | |
 | Internal review (if offered) | | | | |
