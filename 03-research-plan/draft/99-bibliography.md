@@ -126,8 +126,8 @@
   **The closest published precedent.** Discrete generalised Pareto model for extremes of
   flu-like hospital visits, three years of daily data from a large Swiss hospital (CHUV).
   Note the affiliations: **Cantoni is at the Research Center for Statistics, University of
-  Geneva; Chavez-Demoulin is at UNIL** — see the note in §1.4 and in
-  the mobility statement, which names them as the strongest mobility lead.
+  Geneva** (the applicant's DEA supervisor); **Chavez-Demoulin is at UNIL**. Relevant as the
+  nearest prior work to §1.4, not as a mobility lead — no research stay is proposed.
 
 ## Evaluation
 

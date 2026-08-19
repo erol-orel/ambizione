@@ -30,21 +30,20 @@ Each row is labelled **secured**, **agreed**, **requested** or **fallback**. Not
 | ED presentations — additional channel | `[[requested]]` | `[[letter of support]]`. Daily historical availability to be confirmed; OFS hospital statistics are annual |
 | ICU occupancy data | `[[requested]]` | `[[letter of support]]`; fallback in WP3 |
 | Operational-data ethics | `[[requested]]` | CCER submission, PI as applicant |
-| Mobility host | `[[requested]]` | `[[letter of invitation]]` |
 | Computing | `[[requested]]` | `[[UNIGE HPC]]` |
 
 The three operational-data rows are the most important remaining feasibility items, and §4 states what their absence would cost the primary outcome claim. Nothing here is described above its actual status.
 
 ## 6.3 Resources requested
 
-The 2026 regulations cap project funds at **CHF 250,000 over four years**, with the applicant's salary covered separately. Doctoral students and postdocs cannot be employed from these funds; other staff can. Since no student or postdoctoral salary is charged to the grant, the ceiling supports a substantial **scientific/technical collaborator** alongside computing, data and mobility costs.
+The 2026 regulations cap project funds at **CHF 250,000 over four years**, with the applicant's salary covered separately. Doctoral students and postdocs cannot be employed from these funds; other staff can. Since no student or postdoctoral salary is charged to the grant, the ceiling supports a substantial **scientific/technical collaborator** alongside computing, data and travel costs.
 
 | Item | Rationale |
 | --- | --- |
 | Scientific/technical collaborator, `[[FTE and duration]]` | WP1 benchmark extraction (one of two independent extractors), WP3 harmonisation and evaluation pipeline, reproducibility |
 | Second independent extractor | `[[contracted or in-kind]]` — required for the dual-extraction design in T1.2 |
 | Computing and data access | Evidence processing, Bayesian estimation, rolling-origin evaluation |
-| Travel and research stays | Scientific exchange and the mobility component |
+| Travel, conferences and incoming visits | Presentation of results and sustained international collaboration |
 | Other eligible direct costs | As justified in the final SNSF budget |
 
 `[[Confirm institutional salary rates with the grants office and set the FTE. The scale should be

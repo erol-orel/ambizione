@@ -4,15 +4,13 @@
 a 1.5-page allowance, slightly over a strict single page at 10 pt / 1.5 spacing. Check
 `charcount-mobility.sh` after edits.
 
-**`[VERIFY]` before using this draft:** the planned-mobility section below still names an
-outgoing stay. Whether one is *required* is unconfirmed — see `05-review/eligibility-verification.md`
-— and the current position is not to manufacture one. Rewrite that section once you have read the
-call documents and decided whether you want an exchange at all.
+**Settled:** eligibility and the absence of a mobility requirement are confirmed with the UNIGE
+Research Office. No outgoing research stay is proposed.
 
 **If it must fit one page, cut in this order:** (1) the international-networks paragraph in §1,
-compressed to one sentence; (2) the last mobility bullet; (3) the closing sentence about hosting
-visiting collaborators. Do **not** cut the opening admission, the sectoral-mobility paragraph, or
-the paragraph on leading an independent programme — those three carry the case.
+compressed to one sentence; (2) the second paragraph of the research-stays section. Do **not** cut
+the opening admission, the sectoral-mobility paragraph, or the paragraph on leading an independent
+programme — those three carry the case.
 
 Guidance and reasoning behind the choices are in `statement-of-mobility.md`.
 `[[…]]` marks what only you can supply or confirm.
@@ -85,26 +83,16 @@ beyond it.
 be stated here. The SNSF takes such factors into account and they are not held against
 applicants — but state them once, plainly, without elaboration.]]`
 
-### Planned mobility during the grant
+### Position on research stays during the grant
 
-`[[Decide whether you want an outgoing stay at all — see the note at the top. If you do not, cut
-this section to the collaboration and visiting-researcher sentences and let the sectoral,
-intellectual and organisational arguments carry the statement. Do not propose a relocation you do
-not want.]]`
+The scheme permits a research stay but does not require one, and I do not propose one. My research
+assets are concentrated in Geneva and are not reproducible elsewhere: the evidence-extraction
+platform, the emergency-system partnerships with HUG and CASU-144, the cantonal public-health
+links, and the linked legionellosis data under BASEC 2026-00324. A semester elsewhere would remove
+me from the environment the project is built on in exchange for an affiliation it does not need.
 
-- **Centre for Mathematical Modelling of Infectious Diseases, London School of Hygiene and
-  Tropical Medicine — `[[Prof. Sebastian Funk; confirm]]`. `[[3–6 months, years 2–3]]`.**
-  The stay serves the **confirmatory experiment**, not a supporting component. The group built
-  the probabilistic forecast-evaluation methodology this project's primary endpoint depends on —
-  proper scoring for epidemic forecasts and the multi-model comparison of the European COVID-19
-  Forecast Hub — and works directly on forecasting under short data histories and on nowcasting.
-  I will conduct WP3's rolling-origin evaluation design and its scoring under that group's
-  scrutiny, in the community that will judge the result.
-  `[[Letter of invitation — request in September.]]`
-- **`[[Michael Höhle, Stockholm University — fallback if LSHTM is not available]]`.** Nowcasting
-  and right-truncation for T3.1, and the surveillance baselines the model ladder's rung 2 uses.
-- **`[[Swiss National Reference Centre for Legionella, Bellinzona / SwissLEGIO network]]`.
-  `[[1–2 months, year 3]]`.** National perspective for the waterborne extension.
-
-I will also host visiting collaborators in Geneva, so that the exchange runs in both directions
-rather than only outward.
+The exchange this project needs runs inward and continuously rather than outward and once:
+sustained methodological collaboration, joint publication, conference presentation of the
+evaluation results, and hosting visiting researchers in Geneva. I will maintain and extend the
+international collaborations described above, and the programme is designed so that its benchmark,
+framework and evaluation code are open and usable by the groups working on the same problem.

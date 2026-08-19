@@ -39,7 +39,7 @@ The 2026 Ambizione regulations cap project funds at **CHF 250,000 over four year
 3. H3b non-inferiority margin `[[Δ]]`.
 4. H1 benchmark sample size and variance-ratio threshold.
 5. C2 recovery/calibration thresholds and H3c secondary criterion.
-6. Host, data-access, mobility and computing confirmations.
+6. Host confirmation (institute level), data-access agreements and computing confirmation.
 7. Final eligible project budget.
 8. Novelty and citation verification.
 

@@ -16,9 +16,10 @@ In addition, each project collaborator should provide a **letter of collaboratio
 | **Collaboration letter** | HUG emergency medicine `[[Desmettre, Larribau]]` | Concrete collaboration/data access only |
 | **Collaboration letter** | 144/CASU `[[contact]]` | Concrete collaboration/data access only |
 | **Collaboration letter** | ICU / hospital capacity `[[contact]]` | Concrete collaboration/data access only |
-| **Mobility invitation** | `[[LSHTM — Prof. Sebastian Funk; fallback Stockholm — Prof. Michael Höhle]]` | Invitation, scientific activities, duration and practical arrangements for the planned stay |
 
-**Who should sign — a decision that matters.** The host is now the Institute of Global Health, where the applicant already works. A confirmation signed by the PI of a programme that currently funds the applicant (Prof. Keiser: GeoAI4EI, legionellosis, MAS; Prof. Teodoro: GESICA) invites the reviewer to read dependency into the arrangement. Ask whether the Institute or Faculty can sign at institute level instead. If a group leader must sign, the letter should state explicitly that the applicant leads and conducts the project and that no existing programme directs it.
+**Who signs — settled.** Signed at institute level by `[[Prof. Nicolas Ray, interim Director]]`. Not by the PI of any programme that currently funds the applicant (Prof. Keiser: GeoAI4EI, legionellosis, MAS; Prof. Teodoro: GESICA), and not by Prof. Calmy, who sat on the applicant's thesis jury — the SNSF reads prior relationships at the signature line.
+
+**What the letter must establish, and this is the load-bearing part.** The independence argument now rests on an organisational claim: the applicant leads an **independent research programme within the Institute**, alongside its research groups rather than inside one. The host letter is where that becomes an institutional fact rather than an assertion in the applicant's own prose. Before drafting, confirm with the Faculty what designation it can actually make — do not ask for wording UNIGE cannot sign.
 
 ## Detailed host confirmation
 
