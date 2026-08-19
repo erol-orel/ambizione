@@ -2,7 +2,7 @@
 
 ## 5.1 Scientific relevance
 
-The project tests an assumption that crisis forecasting currently makes informally: that accumulated evidence from elsewhere can be used to provide useful information when local outcome data are insufficient. The result is useful in either direction. If literature-derived priors improve cold-start forecasts, the project provides a principled and auditable way to borrow information. If the benefit is weak, conditional or negative, the project establishes when borrowing should not be trusted — an equally important result because manual parameter selection from a few familiar papers is common but rarely evaluated as a forecasting intervention.
+The project tests an assumption that crisis forecasting currently makes informally: that accumulated evidence from elsewhere can provide useful information when local outcome data are insufficient. The result is useful in either direction. If literature-derived priors improve cold-start forecasts, the project provides a principled and auditable way to borrow information. If the benefit is weak, conditional or negative, the project establishes when borrowing should not be trusted — an equally important result because manual parameter selection from a few familiar papers is common but rarely evaluated as a forecasting intervention.
 
 The project also leaves three durable resources:
 
