@@ -35,11 +35,22 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
    the platform is University of Geneva intellectual property developed under the applicant's
    scientific direction, and that the project uses it as an instrument without depending on
    owning it. Nowhere in the dossier claims personal ownership.
-3. **Mobility host — reopened and re-decided.** Chavez-Demoulin (UNIL) withdrawn: the fit was to
-   WP2's extreme-value component, which is supporting machinery rather than the confirmatory core,
-   and an intra-Swiss stay adds no transnational dimension. Replaced by **LSHTM (Funk)**, which is
-   transnational, academic and attached to WP3's evaluation methodology. Invitation letter is the
-   single outstanding item and now carries the whole institutional-mobility argument.
+3. **Mobility — reopened, and the premise rejected.** Chavez-Demoulin (UNIL) is withdrawn on the
+   merits (WP2 is supporting machinery; intra-Swiss adds no transnational dimension). LSHTM was
+   proposed as the replacement and has been **demoted from centrepiece to option**: the applicant
+   does not want to relocate, and designing a stay to satisfy a criterion is the wrong reason to
+   propose one. The institutional claim is now **organisational** — leading an independent
+   programme within the Institute rather than sitting inside an existing group. Whether a stay is
+   *required* is unverified; see `eligibility-verification.md`.
+4. **Organisational designation.** The plan now says the applicant will lead an independent
+   research programme within the Institute of Global Health, alongside its research groups rather
+   than inside one. Confirm what designation the Faculty can actually make before the host letter
+   is drafted — the text must not hard-code a structure UNIGE has not agreed to.
+5. **BLOCKING — eligibility.** See `eligibility-verification.md`. The call documents have never
+   been downloaded and snf.ch is unreachable from the working environment. One unresolved clause
+   (12 months at an institution other than the doctoral one) would be disqualifying if it applies
+   to Ambizione. I believe it does not — it reads as the connection-to-Switzerland criterion, or
+   as Postdoc.Mobility's rule — but this must be confirmed with the RGO before further work.
 
 ## Explicitly closed
 

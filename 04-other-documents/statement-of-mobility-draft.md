@@ -4,11 +4,15 @@
 a 1.5-page allowance, slightly over a strict single page at 10 pt / 1.5 spacing. Check
 `charcount-mobility.sh` after edits.
 
+**`[VERIFY]` before using this draft:** the planned-mobility section below still names an
+outgoing stay. Whether one is *required* is unconfirmed — see `05-review/eligibility-verification.md`
+— and the current position is not to manufacture one. Rewrite that section once you have read the
+call documents and decided whether you want an exchange at all.
+
 **If it must fit one page, cut in this order:** (1) the international-networks paragraph in §1,
-compressed to one sentence; (2) the third mobility bullet (RIVM/ECDC); (3) the closing sentence
-about hosting visiting collaborators. Do **not** cut the opening admission, the sectoral-mobility
-paragraph, or the LSHTM bullet — those are the three things carrying the case, and since the host
-is now the applicant's own institute, the LSHTM stay carries it alone on the institutional axis.
+compressed to one sentence; (2) the last mobility bullet; (3) the closing sentence about hosting
+visiting collaborators. Do **not** cut the opening admission, the sectoral-mobility paragraph, or
+the paragraph on leading an independent programme — those three carry the case.
 
 Guidance and reasoning behind the choices are in `statement-of-mobility.md`.
 `[[…]]` marks what only you can supply or confirm.
@@ -83,7 +87,10 @@ applicants — but state them once, plainly, without elaboration.]]`
 
 ### Planned mobility during the grant
 
-Mobility is built into the work plan rather than appended to it.
+`[[Decide whether you want an outgoing stay at all — see the note at the top. If you do not, cut
+this section to the collaboration and visiting-researcher sentences and let the sectoral,
+intellectual and organisational arguments carry the statement. Do not propose a relocation you do
+not want.]]`
 
 - **Centre for Mathematical Modelling of Infectious Diseases, London School of Hygiene and
   Tropical Medicine — `[[Prof. Sebastian Funk; confirm]]`. `[[3–6 months, years 2–3]]`.**

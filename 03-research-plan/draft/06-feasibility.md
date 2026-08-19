@@ -6,7 +6,7 @@
 
 The project requires three capabilities that are rarely housed together — quantitative methods, evidence synthesis and access to a functioning emergency and public-health system — and the arrangement below provides them without depending on any one collaborator.
 
-**Domain and infectious-disease expertise — Institute of Global Health.** Epidemiology, infectious-disease modelling and automated evidence extraction sit in the same institute, together with the surveillance and global-health methodology the project consumes. This is the environment in which the scientific gap became visible, and hosting here is a choice for feasibility over optics: independence is established by dedicated time and a delimited agenda (§5.3), not by distance from colleagues.
+**Domain and infectious-disease expertise — Institute of Global Health.** Epidemiology, infectious-disease modelling and automated evidence extraction sit in the same institute, alongside the surveillance and global-health methodology the project consumes. This is where the scientific gap became visible, and hosting here is a choice for feasibility over optics. Independence is established organisationally — an independent programme led by me alongside the Institute's groups rather than inside one — and by dedicated time and a delimited agenda (§5.3).
 
 **Methodological collaboration — DS4DH.** Biomedical NLP, information retrieval and machine learning for health are directly relevant to WP1's extraction work, and the group's medical-informatics environment supports reproducible data and software engineering.
 
