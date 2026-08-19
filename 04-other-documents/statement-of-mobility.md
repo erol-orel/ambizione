@@ -1,91 +1,47 @@
 # Statement of mobility
 
-`[HIGH]` Required, and **evaluated**. Two jobs: justify the choice of research institution, and
-present past and planned mobility.
+`[HIGH]` Required and **evaluated**. The 2026 SNSF guidelines define five dimensions of academic mobility: institutional, transnational, intersectoral, interdisciplinary and intellectual mobility. The statement should cover relevant past and planned mobility, with particular emphasis on the post-PhD period, and justify the choice of the Swiss host and its added value for scientific independence.
 
-`[VERIFY]` Length limit — check the Call 2026 guidelines. Plan for about one page.
+## Where you stand now
 
----
+MSc (2004), DEA (2006), PhD (2023) and current position are all at the University of Geneva, and the project will be hosted at UNIGE. This is the weakest element of the dossier, and it must be addressed directly rather than disguised.
 
-## Where you stand now that the host is settled
+Moving from the **Institute of Global Health** to **DS4DH, Department of Radiology and Medical Informatics** is a genuine change of department, scientific community and methodological environment. The statement should not overclaim a physical move if the groups share a campus/address; the defensible argument is a change of scientific home and host relationship.
 
-MSc (2004), DEA (2006), PhD (2023) and current position are all at the University of Geneva, and
-the project will be hosted at UNIGE. This remains the **weakest element of the dossier**, and a
-referee sees it from the CV without looking for it.
+## The mobility argument
 
-The host decision improves the position but does not resolve it. Moving from the **Institute of
-Global Health** to **DS4DH, Department of Radiology and Medical Informatics** is a real change of
-department, discipline and scientific community — from global-health epidemiological modelling
-into medical informatics — and that is the strongest structural argument available short of
-leaving Geneva. Make it explicitly.
+**1. Geneva is where this project is possible.** The justification is concrete: the linked cantonal case–installation data under BASEC 2026-00324; established HUG emergency, 144/CASU and intensive-care collaborations; and the DS4DH biomedical-NLP environment needed for WP1. The host therefore provides complementary capabilities that directly enable the project.
 
-**One caveat to handle rather than hope nobody notices.** Prof. Teodoro's group is based at
-Campus Biotech, 9 chemin des Mines — the same address as the Institute of Global Health. A
-Geneva-based referee will know this. Do not overclaim a physical move; claim what is true and
-verifiable: a different department, a different faculty structure, a different research
-community, a different host with whom you collaborate as a peer rather than as a former
-supervisor. Overstating it would cost more than the point is worth.
+**2. Intersectoral and interdisciplinary mobility already occurred.** Fifteen years in quantitative finance followed by biomedical research is a major methodological transition. It brought regime-switching models, extreme-value estimation and stress-testing into health research. This should be presented as substantive intellectual/interdisciplinary mobility, not as a substitute for every other mobility dimension.
 
-Three arguments then have to carry the statement.
+**3. Planned outgoing mobility.** The 2026 scheme permits a research stay of up to 12 months at a Swiss or foreign academic host or an institution in the practical realm, provided the application includes the required invitation and detailed budget. The project should name **one confirmed stay** with a concrete scientific role rather than list several speculative visits.
 
-**1. Geneva is where this project is possible.** Not "UNIGE is excellent" — specifics that can be
-checked: the linked cantonal case–installation data under ethics approval BASEC 2026-00324 exists
-nowhere else; the HUG emergency, 144/CASU and intensive care partnerships were built through
-GESICA and are documented in joint publication; DS4DH supplies the biomedical NLP environment that
-WP1 requires. Very few applicants can make a claim this concrete. Lead with it.
-
-**2. Sectoral mobility.** Fifteen years in quantitative finance before moving into biomedical
-research is a change of discipline more radical than most geographic moves, and it is the direct
-source of the methods this project brings — regime-switching models, extreme value estimation,
-stress testing. Make this a genuine argument about breadth of method and perspective, not an
-excuse offered in place of mobility. A reader who is not told will simply see a CV that never left
-Geneva.
-
-**3. Planned outgoing mobility — the part still missing.** This is what has to be built now,
-because it depends on other people agreeing. Named host, agreed period, and a role visible in a
-work package. Candidates, chosen so the stay does scientific work:
+### Candidate hosts
 
 | Partner | What it serves |
 | --- | --- |
-| **Swiss National Reference Centre for Legionella** (Bellinzona) | WP3 waterborne archetype; national perspective |
-| **SwissLEGIO / ISPM Bern / Unisanté** | Multi-canton data for WP3; national surveillance |
-| **A forecasting-hub group** (e.g. European hub contributors) | WP3 evaluation methodology; puts you in the community whose conventions you are critiquing |
-| **RIVM** (Netherlands) | Legionella and water systems; strong environmental infectious disease modelling |
-| **ECDC / ELDSNet** | European surveillance perspective |
-| **Prof. Valérie Chavez-Demoulin (UNIL)** | **Strongest option.** Co-author of the closest precedent to WP2 — extreme value modelling of flu and hospital congestion in a Swiss hospital (*JRSS-C* 2022). A stay at UNIL is a genuine change of institution, tied directly to WP2's tail model, and outside both your current and future host groups. **Prof. Eva Cantoni (Research Center for Statistics, UNIGE), your DEA supervisor and a co-author of that paper, is the natural introduction** — a warm approach rather than a cold one. |
+| **Prof. Valérie Chavez-Demoulin (UNIL)** | Strongest current option: direct methodological connection to WP2's extreme-value component and a genuine change of institution |
+| **Swiss National Reference Centre for Legionella (Bellinzona)** | WP3 waterborne archetype; national perspective |
+| **SwissLEGIO / ISPM Bern / Unisanté** | Multi-canton surveillance/data perspective for WP3 |
+| **A forecasting-hub group** | WP3 evaluation methodology and forecasting practice |
+| **RIVM / ECDC-related group** | European infectious-disease surveillance and environmental health |
 
-A three-month stay that a work package depends on is worth more than a list of conferences. Aim
-for **one confirmed in writing before submission**.
-
----
+A stay tied to a work package is stronger than a generic conference list. The final statement should give the host, duration, scientific activity, expected output and lasting career benefit.
 
 ## Structure
 
-**1. Past mobility and trajectory.** Institutions and dates, and what each move bought
-scientifically. Include the sector change as a substantive move, with what it brought: econometric
-identification, tail and rare-event modelling, cost-effectiveness — the methods carrying WP2
-and WP4.
+**1. Past mobility and trajectory.** Institutions and dates, with the scientific value of each move. Include the sector and disciplinary transition explicitly.
 
-**2. Why Geneva, and why this department.** The data linkage, the emergency-system partnerships,
-the existing ethics approval, the DS4DH environment. Then the departmental move and what changes
-because of it: new scientific community, new host, own group, own doctoral supervision.
+**2. Why Geneva, and why this department.** Explain the data, emergency-system partnerships and DS4DH environment, then explain how the new host broadens the scientific community and supports independence.
 
-**3. Planned mobility during the grant.** Named hosts, agreed periods, and the work package each
-stay serves.
+**3. Planned mobility during the grant.** Name the host, period and work-package contribution; explain the lasting effect on the research programme and network.
 
----
+**4. Other relevant dimensions.** Address transnational, intersectoral, interdisciplinary and intellectual mobility where supported by actual evidence. The SNSF does not require every dimension to be filled if it is not applicable.
 
-## Draft
+## Actions
 
-**→ `statement-of-mobility-draft.md`** (v1, ~715 words). Written before any mobility partner has
-confirmed, so the three planned stays carry `[[…]]` placeholders for dates and letters. The
-argument does not depend on all three: the UNIL stay is the load-bearing one, because it is tied
-to a work package rather than to a wish.
-
-## Actions this week
-
-- [ ] Contact 2–3 candidate hosts from the table; ask for a short letter confirming willingness
-- [ ] Ask the UNIGE grants office how applicants without geographic mobility have handled this —
-      they will have seen both successful and unsuccessful versions
-- [ ] Confirm with Prof. Teodoro that the statement's description of the arrangement matches what
-      his detailed confirmation letter will say
+- [ ] Contact 2–3 candidate hosts; obtain **one written invitation before submission** if possible.
+- [ ] Ask the host to specify the scientific activities, duration and practical arrangements.
+- [ ] Prepare the required detailed mobility budget for the stay.
+- [ ] Explain the institutional move from the current Geneva research environment to DS4DH without overstating physical relocation.
+- [ ] Complete the official SNSF mobility form rather than relying on this Markdown draft alone.
