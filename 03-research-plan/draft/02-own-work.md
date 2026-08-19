@@ -56,9 +56,10 @@ their latency, granularity, access route and known completeness. That work is wh
 archetypes here are chosen by **model class** rather than by convenience.
 
 **This is what makes the proposed research feasible rather than aspirational.** The proposal is
-not to build this system. It is to use it to answer the question it raises: the platform will
-happily pool published estimates into priors, and nobody — including me — has established whether
-it should.
+not to build this system. It is to use it to answer the question it raises: the platform can pool
+published estimates into priors, but whether those priors improve genuinely cold-start forecasting
+of a new health-system outcome has not yet been established in the specific operational setting
+proposed here.
 
 ## 2.5 Linked data on a contrasting crisis archetype
 
