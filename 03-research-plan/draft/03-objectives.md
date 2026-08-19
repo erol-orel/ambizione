@@ -15,9 +15,9 @@ The project is organised around one central hypothesis and three supporting ques
 
 Establish whether quantitative estimates can be extracted and pooled with an uncertainty structure that is sufficiently faithful for forecasting.
 
-> **H1.** Automated extraction can reproduce expert-derived estimates and, after an explicit measurement-error layer, preserve the relevant between-study heterogeneity well enough to construct usable prior distributions.
+> **H1.** Automated extraction will systematically **underestimate between-study heterogeneity**, producing evidence-derived priors that are too concentrated; an explicit measurement-error layer will recover enough of the missing dispersion to construct usable prior distributions.
 
-The important result is not a target accuracy percentage. H1 is tested on point estimates, reported uncertainty, omissions and dispersion. If extraction systematically produces overconfident priors that cannot be corrected, the project establishes a boundary condition: the evidence cannot yet be used safely for cold-start forecasting.
+The directional prediction follows from the observed difficulty of numerical extraction and the dominance of omissions among reported extraction errors [Shankar 2026]. H1 is tested on point estimates, reported uncertainty, omissions and between-study dispersion. If the predicted overconfidence is absent, that is informative; if it occurs but cannot be corrected, the project establishes a boundary condition for using automated evidence in cold-start forecasting.
 
 ## O2 — Represent escalation in a form that separates state from the point forecast
 
@@ -42,9 +42,9 @@ These hypotheses are tested through a pre-specified model ladder rather than by 
 1. local seasonal/naive baseline;
 2. established short-baseline surveillance method;
 3. regime model with weakly informative priors;
-4. the same regime model with evidence-derived priors;
-5. adaptive borrowing with explicit prior–data conflict detection;
-6. the adaptive model plus resilience indicators.
+4. the same regime model with fixed evidence-derived priors;
+5. adaptive evidence borrowing with prior–data conflict monitoring;
+6. adaptive borrowing plus resilience indicators.
 
 The confirmatory comparison is the incremental value of steps 4–6 in the cold-start window. Once local data become sufficiently informative, the expected advantage of borrowing should disappear; the project therefore tests the **shape of the advantage over time**, not only one aggregate score.
 
@@ -60,7 +60,7 @@ Threshold elicitation, net benefit and retrospective counterfactual analysis are
 
 ## Validation domains
 
-The domains are chosen for **contrast in dynamics** and for the availability of information at crisis onset:
+The domains are chosen for **contrast in dynamics** and for the availability of information at crisis onset. They also reflect the disease-to-model classification developed in my GESICA work: respiratory transmission and common-source/environmentally mediated mechanisms together cover 32 of 76 notifiable diseases in that classification. The selection is therefore a coverage test rather than a convenience sample.
 
 | Archetype | Role in the project | Dynamics | Data |
 | --- | --- | --- | --- |
