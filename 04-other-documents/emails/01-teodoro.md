@@ -1,15 +1,12 @@
-# To Prof. Douglas Teodoro — methodological collaboration (WP1)
+# To Prof. Douglas Teodoro — WP1 methodological collaboration and letter of support
 
-> **Revised:** the host is now the Institute of Global Health. This email asks for the WP1
-> biomedical-NLP collaboration and a letter of support, not for primary hosting. Adjust the
-> wording below accordingly before sending.
-
-> Subject: Hosting an SNSF Ambizione application at DS4DH — deadline 3 November
+> Subject: SNSF Ambizione application — WP1 collaboration with DS4DH, deadline 3 November
 
 Dear Douglas,
 
 I am preparing an application to the **SNSF Ambizione** scheme, due **3 November 2026**, and I
-would like to ask whether **DS4DH could host it as my primary unit**.
+would like to ask whether **DS4DH would act as the methodological collaboration partner for its
+evidence-extraction work package**, and provide a letter of support.
 
 The project — COLDSTART — asks a question that came directly out of building LiteRev-Evidence:
 at the onset of a health crisis, the local outcome data needed to forecast it does not yet exist,
@@ -19,37 +16,30 @@ whether it should. The project tests that, with a regime-switching representatio
 state, and evaluates the result on whether it changes decisions rather than on statistical
 accuracy. A one-page summary is attached.
 
-DS4DH is the natural methodological home: the evidence-extraction half of the work sits squarely
-in biomedical NLP and information retrieval. It would also mean conducting the project in a
-different department and a different scientific community from the one in which I trained, which
-matters for a scheme whose central criterion is scientific independence.
+**What the collaboration would cover.** WP1 builds a manually adjudicated benchmark of quantitative
+extraction from 300 publications and characterises where automated extraction loses the dispersion
+a calibrated prior needs. That is biomedical NLP and information retrieval, and it is where DS4DH's
+expertise is decisive. Nothing in it requires departmental resources beyond scientific exchange.
 
-**What I would need from the department.** The SNSF requires a detailed confirmation letter, and
-for an Ambizione the decisive part is the statement of independence. I have drafted a paragraph
-you are free to modify:
+**On hosting.** I should be direct, since we discussed this earlier: the host will be the
+**Institute of Global Health**, not DS4DH. The reason is feasibility rather than preference — the
+emergency-system partnerships, the CASU-144 route and the ongoing legionellosis linkage are all
+anchored there, and moving unit would have cost the project its operational base for a purely
+presentational gain. The independence argument now rests on dedicated time and a delimited agenda
+instead, and the application states explicitly that GESICA and this project are different
+undertakings: GESICA builds cross-border decision-support capability, while COLDSTART tests
+whether evidence-derived priors deserve to be used at all.
 
-> Dr Orel will establish and lead his own research group within the department, on a research line
-> he has defined and which is distinct from the group's existing programme. He will act as
-> principal investigator, define and lead his own research line, hold his own ethics approvals,
-> and manage his own budget.
-
-Concretely, this means office and workspace, access to computing, and an arrangement compatible
-with independent scientific leadership.
-
-One point I would like to check with you separately from the grant itself: **the formal route to
-supervising doctoral students in the department** — whether I could supervise directly or only
-co-supervise, and what that requires procedurally. This is not a budget question — the 2026
-Ambizione rules do not allow doctoral students or postdocs to be employed from the grant — but it
-matters for how the group develops beyond it.
-
-I am also asking the Institute of Global Health about an associated affiliation, so that the
-project keeps its epidemiological and public health community alongside the methodological one.
-`[[Adjust if you would rather discuss that with him before approaching ISG.]]`
+**What I would need** is a short letter of support confirming the WP1 collaboration and the
+scientific exchange it involves. I can draft it if that saves you time.
 
 On resources: the SNSF pays my salary, and under the 2026 rules the project funds (capped at
-CHF 250,000 over four years) cannot be used to employ doctoral students or postdocs. The project
-is therefore PI-led, with at most bounded technical support. The department would carry no staff
-costs.
+CHF 250,000 over four years) cannot be used to employ doctoral students or postdocs. The work is
+PI-led with a budgeted scientific/technical collaborator. DS4DH would carry no costs.
+
+Separately from the grant, I would still value your view on **the formal route to supervising
+doctoral students** — whether directly or only as co-supervisor, and what that requires
+procedurally. It matters for how the line develops beyond this project, not for the budget.
 
 Given the deadline, a first answer by **`[[12 September]]`** would help a great deal. I would be
 glad to come and talk it through whenever suits you.
@@ -57,4 +47,4 @@ glad to come and talk it through whenever suits you.
 With best wishes,
 Erol
 
-*Attached: one-page project summary; draft independence paragraph.*
+*Attached: one-page project summary.*

@@ -27,19 +27,19 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
 
 ## Still open — applicant only
 
-1. **Formal host declaration.** The plan now says "Institute of Global Health". mySNF requires a
-   named responsible person and a signature. **Recommendation:** do not have the host confirmation
-   signed by the PI of a programme that currently funds you. Keiser is PI of GeoAI4EI and the
-   legionellosis study and directs the MAS; Teodoro is PI of GESICA. If the Faculty or Institute
-   can sign at institute level, that is materially cleaner than either. This is the single
-   remaining decision that a reviewer can read as dependency.
-2. **LiteRev-Evidence legal ownership.** The plan says "I developed" and "the platform I
-   principally developed" — never "I own". Before submission, establish whether the code and IP
-   sit with you personally, with UNIGE (likely, given the CHF 30,000 UNIGE grant and employment),
-   or with an entity created around Venture Kick/Mimosa. The wording changes if UNIGE holds it.
-3. **Mobility host.** UNIL / Chavez-Demoulin, introduced via Cantoni — invitation letter still
-   outstanding. Now more important, not less: with the host inside the institute where you
-   trained, the external stay is the whole mobility argument.
+1. ~~**Formal host declaration.**~~ **Settled.** Signed at institute level by the Institute's
+   Director, `[[Prof. Nicolas Ray, interim Director]]`. Prof. Calmy was deliberately not chosen:
+   she sat on the applicant's thesis jury, which is exactly the prior relationship the
+   independence argument should avoid at the signature line. Ray is the cleaner signatory.
+2. ~~**LiteRev-Evidence legal ownership.**~~ **Settled: UNIGE holds the IP.** §5.3 now states that
+   the platform is University of Geneva intellectual property developed under the applicant's
+   scientific direction, and that the project uses it as an instrument without depending on
+   owning it. Nowhere in the dossier claims personal ownership.
+3. **Mobility host — reopened and re-decided.** Chavez-Demoulin (UNIL) withdrawn: the fit was to
+   WP2's extreme-value component, which is supporting machinery rather than the confirmatory core,
+   and an intra-Swiss stay adds no transnational dimension. Replaced by **LSHTM (Funk)**, which is
+   transnational, academic and attached to WP3's evaluation methodology. Invitation letter is the
+   single outstanding item and now carries the whole institutional-mobility argument.
 
 ## Explicitly closed
 

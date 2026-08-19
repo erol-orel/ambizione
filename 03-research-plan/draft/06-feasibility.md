@@ -1,6 +1,6 @@
 # 6. Feasibility, environment and resources
 
-**Host: Institute of Global Health, Faculty of Medicine, University of Geneva** `[[responsible person and signature level — confirm with the Faculty]]`, with a formal methodological collaboration with **Data Science for Digital Health** (Prof. Douglas Teodoro, Department of Radiology and Medical Informatics) and a clinical collaboration with **HUG emergency medicine** `[[Prof. Thibaut Desmettre, Dr Robert Larribau — confirm titles and agreed roles]]`.
+**Host: Institute of Global Health, Faculty of Medicine, University of Geneva** (host confirmation signed by the Institute's Director, `[[Prof. Nicolas Ray, interim Director — confirm title]]`), with a formal methodological collaboration with **Data Science for Digital Health** (Prof. Douglas Teodoro, Department of Radiology and Medical Informatics) and a clinical collaboration with **HUG emergency medicine** `[[Prof. Thibaut Desmettre, Dr Robert Larribau — confirm titles and agreed roles]]`.
 
 ## 6.1 Why this environment
 

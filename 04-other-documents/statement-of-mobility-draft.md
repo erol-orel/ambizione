@@ -6,8 +6,9 @@ a 1.5-page allowance, slightly over a strict single page at 10 pt / 1.5 spacing.
 
 **If it must fit one page, cut in this order:** (1) the international-networks paragraph in §1,
 compressed to one sentence; (2) the third mobility bullet (RIVM/ECDC); (3) the closing sentence
-about hosting visiting collaborators. Do **not** cut the opening admission, the
-sectoral-mobility paragraph, or the UNIL bullet — those are the three things carrying the case.
+about hosting visiting collaborators. Do **not** cut the opening admission, the sectoral-mobility
+paragraph, or the LSHTM bullet — those are the three things carrying the case, and since the host
+is now the applicant's own institute, the LSHTM stay carries it alone on the institutional axis.
 
 Guidance and reasoning behind the choices are in `statement-of-mobility.md`.
 `[[…]]` marks what only you can supply or confirm.
@@ -16,8 +17,8 @@ Guidance and reasoning behind the choices are in `statement-of-mobility.md`.
 
 ## Statement of mobility
 
-**Erol Orel** · Ambizione 2026 · Host: Data Science for Digital Health, Department of Radiology
-and Medical Informatics, Faculty of Medicine, University of Geneva
+**Erol Orel** · Ambizione 2026 · Host: Institute of Global Health, Faculty of Medicine,
+University of Geneva
 
 ### Past mobility and scientific trajectory
 
@@ -48,7 +49,7 @@ cross-border **GESICA** consortium with HUG emergency medicine, the Université 
 Pasteur and HES-SO, alongside a Horizon Europe consortium on epidemic intelligence. My scientific
 networks are not local, even where my address has been.
 
-### Why the University of Geneva, and why this department
+### Why the University of Geneva, and why this institute
 
 Three reasons specific to this project rather than to the institution's general standing.
 
@@ -60,16 +61,21 @@ joint publication. For the waterborne validation domain I hold a linkage between
 legionellosis registry and individual water installations, under ethics approval already granted
 (BASEC 2026-00324), with no equivalent I am aware of elsewhere.
 
-**The methodological environment matches the work.** The Data Science for Digital Health group
-works on biomedical natural language processing and information retrieval — the immediate
-neighbours of the evidence-extraction half of this project.
+**The methodological environment matches the work.** The host institute holds the
+infectious-disease and evidence-extraction expertise the project consumes, and the collaboration
+with Data Science for Digital Health supplies the biomedical natural language processing and
+information retrieval that WP1's extraction work requires.
 
-**The move is disciplinary rather than geographic, and deliberate.** I will conduct this project
-in a **different department and a different scientific community** from those in which I trained:
-from the Institute of Global Health and global-health epidemiological modelling to the Department
-of Radiology and Medical Informatics. I will be hosted by a colleague with whom I collaborate as a
-peer rather than by a former supervisor, and will lead my own research line, direct its
-scientific programme and hold my own ethics approvals.
+**I have not manufactured a move I did not make.** I will conduct this project in the institute
+where I already work. Relocating to another department to make the word "independence" look
+cleaner would have cost the project its operational base — the emergency-system partnerships, the
+cantonal linkage under BASEC 2026-00324 — and changed nothing real, since the units share a
+campus. My independence rests on facts a reviewer can check rather than on an address: **100% of
+my research time on a programme I lead as principal investigator**, a scientific question and
+confirmatory design that belong to no existing programme, my own ethics approvals, and a host
+confirmation signed at institute level by the Director rather than by any group leader whose
+grants currently fund me. The mobility I claim is the outgoing stay below, and I claim nothing
+beyond it.
 
 `[[Optional, and only if true: any personal or family circumstances constraining relocation may
 be stated here. The SNSF takes such factors into account and they are not held against
@@ -79,14 +85,19 @@ applicants — but state them once, plainly, without elaboration.]]`
 
 Mobility is built into the work plan rather than appended to it.
 
-- **UNIL, Institute `[[…]]` — Prof. Valérie Chavez-Demoulin. `[[3 months, year 2]]`.**
-  Co-author of the closest published precedent to this project's tail model (extreme value
-  modelling of seasonal viruses and hospital congestion in a Swiss hospital, *JRSS-C* 2022). The
-  stay serves WP2 directly. `[[Letter of invitation — request in September.]]`
+- **Centre for Mathematical Modelling of Infectious Diseases, London School of Hygiene and
+  Tropical Medicine — `[[Prof. Sebastian Funk; confirm]]`. `[[3–6 months, years 2–3]]`.**
+  The stay serves the **confirmatory experiment**, not a supporting component. The group built
+  the probabilistic forecast-evaluation methodology this project's primary endpoint depends on —
+  proper scoring for epidemic forecasts and the multi-model comparison of the European COVID-19
+  Forecast Hub — and works directly on forecasting under short data histories and on nowcasting.
+  I will conduct WP3's rolling-origin evaluation design and its scoring under that group's
+  scrutiny, in the community that will judge the result.
+  `[[Letter of invitation — request in September.]]`
+- **`[[Michael Höhle, Stockholm University — fallback if LSHTM is not available]]`.** Nowcasting
+  and right-truncation for T3.1, and the surveillance baselines the model ladder's rung 2 uses.
 - **`[[Swiss National Reference Centre for Legionella, Bellinzona / SwissLEGIO network]]`.
-  `[[1–2 months, year 3]]`.** National perspective for WP3 and the route to multi-canton data.
-- **`[[RIVM, Netherlands, or ECDC]]`. `[[short stay, year 4]]`.** European surveillance
-  perspective for the generalisability assessment.
+  `[[1–2 months, year 3]]`.** National perspective for the waterborne extension.
 
 I will also host visiting collaborators in Geneva, so that the exchange runs in both directions
 rather than only outward.

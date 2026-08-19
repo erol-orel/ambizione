@@ -18,17 +18,35 @@ MSc (2004), DEA (2006), PhD (2023) and current position are all at the Universit
 
 **3. Planned outgoing mobility.** The 2026 scheme permits a research stay of up to 12 months at a Swiss or foreign academic host or an institution in the practical realm, provided the application includes the required invitation and detailed budget. The project should name **one confirmed stay** with a concrete scientific role rather than list several speculative visits.
 
-### Candidate hosts
+### Candidate hosts — revised
 
-| Partner | What it serves |
-| --- | --- |
-| **Prof. Valérie Chavez-Demoulin (UNIL)** | Strongest current option: direct methodological connection to WP2's extreme-value component and a genuine change of institution |
-| **Swiss National Reference Centre for Legionella (Bellinzona)** | WP3 waterborne archetype; national perspective |
-| **SwissLEGIO / ISPM Bern / Unisanté** | Multi-canton surveillance/data perspective for WP3 |
-| **A forecasting-hub group** | WP3 evaluation methodology and forecasting practice |
-| **RIVM / ECDC-related group** | European infectious-disease surveillance and environmental health |
+Chavez-Demoulin (UNIL) is **withdrawn**. The fit was to WP2's extreme-value component, and WP2 is
+explicitly supporting machinery rather than the confirmatory core; a stay that serves the weakest
+part of the plan cannot carry the whole mobility argument. It is also intra-Swiss, so it adds no
+transnational dimension.
 
-A stay tied to a work package is stronger than a generic conference list. The final statement should give the host, duration, scientific activity, expected output and lasting career benefit.
+Because the outgoing stay is now the only institutional-mobility evidence, it should be
+**transnational, academic, and tied to the confirmatory work package (WP3)**.
+
+| Rank | Host | Fit | Mobility dimensions |
+| --- | --- | --- | --- |
+| **1** | **Sebastian Funk / Centre for Mathematical Modelling of Infectious Diseases, LSHTM (London)** | WP3's entire evaluation methodology: probabilistic forecast scoring (`scoringutils`), the European COVID-19 Forecast Hub already cited as [Sherratt 2023], nowcasting and forecasting under short data histories | Institutional, transnational, interdisciplinary |
+| 2 | **Michael Höhle / Stockholm University** | T3.1 directly — nowcasting and right-truncation [Höhle 2014], and the `surveillance` package implementing the Farrington/Noufaily baselines cited in §1.1 | Institutional, transnational |
+| 3 | **Issa Dahabreh / Harvard** | Transportability [Dahabreh 2019], conceptually central to H3a but a supporting framework in the plan rather than a method being built | Institutional, transnational |
+| 4 | **Bayesian borrowing group, Basel (e.g. Novartis biostatistics — Schmidli, Neuenschwander)** | MAP and robust priors [Schmidli 2014], the exact machinery of WP1/WP2 | Institutional, **intersectoral** — but intra-Swiss, and an industry host raises data/IP questions |
+
+**Recommendation: LSHTM.** It is the only option that is simultaneously transnational, academic,
+and attached to the confirmatory experiment rather than to supporting machinery. It also has a
+citation link already in the plan, so the invitation is not a cold approach — the request is to
+spend a stay on the evaluation methodology his group built and this project consumes.
+
+Option 4 is the one to reach for **only** if the reviewer-facing priority becomes intersectoral
+breadth rather than institutional mobility. It would not be my choice: the quantitative-finance
+career already supplies the intersectoral dimension, and institutional mobility is the one the
+dossier genuinely lacks.
+
+`[[Decide the duration. A 3–6 month stay tied to WP3's evaluation design (M20–M34) is more
+credible than 12 months, and easier for a host to accept.]]`
 
 ## Structure
 

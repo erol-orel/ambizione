@@ -1,12 +1,13 @@
 # Emails to send this week
 
-Four emails, two purposes. Send all four the same day — they reference each other, and people
-compare notes.
+Four emails, three purposes. Send all four the same day — they reference each other, and people
+compare notes. Order matters: **Ray first**, since the host confirmation is the item everything
+else hangs on.
 
 | To | Purpose | Language | File |
 | --- | --- | --- | --- |
-| Prof. Douglas Teodoro | Primary host unit + independence terms | English `[[switch to French if that is your habit with him]]` | `01-teodoro.md` |
-| Prof. Alexandra Calmy | Associated affiliation at ISG + support letter | French | `02-calmy.md` |
+| Prof. Douglas Teodoro | WP1 methodological collaboration + letter of support | English `[[switch to French if that is your habit with him]]` | `01-teodoro.md` |
+| Prof. Nicolas Ray | **Host confirmation** for ISG, signed at institute level | French | `02-ray-host.md` |
 | Prof. Thibaut Desmettre | ED data + support letter + collaborator role | French | `03-desmettre.md` |
 | Dr Robert Larribau | 144/CASU dispatch data + support letter | French | `04-larribau.md` |
 
@@ -23,5 +24,6 @@ compare notes.
 ## What to attach
 
 - All four: `04-other-documents/data-access/02-project-note.md` (one page, French).
-- Teodoro and Calmy: the independence paragraph from `host-institution-letters.md`.
+- Ray: the independence paragraph from `host-institution-letters.md`. Teodoro now receives a WP1 collaboration request, not a hosting request.
+- Prof. Alexandra Calmy: a short courtesy note only. She directs the institute and co-authored the LiteRev paper, but she sat on the thesis jury, so the host confirmation is deliberately requested from the interim director instead. The note should inform, not solicit.
 - Desmettre and Larribau: `data-access/03-support-letter-template.md`.
