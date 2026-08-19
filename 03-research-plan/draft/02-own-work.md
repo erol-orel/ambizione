@@ -50,10 +50,12 @@ components with uncertainty bands and calibration to observed data; and connecto
 Copernicus ERA5, Sentinelles and routing services. Thirty-one operational scenarios have been
 elaborated with emergency-medicine partners.
 
-For GESICA I built the Geneva–Vaud data foundation: a classification of 76 notifiable diseases
-into eight model classes by transmission mode, and an inventory of 22 surveillance sources with
-their latency, granularity, access route and known completeness. That work is why the validation
-archetypes here are chosen by **model class** rather than by convenience.
+For GESICA I built the Geneva–Vaud data foundation: a classification of **77 notifiable diseases
+into eight model classes** by transmission mode, and an inventory of **23 surveillance sources**
+documenting for each the holding institution, historical coverage, temporal resolution, publication
+latency, access route and known quality limitations. That work is why the validation domains here
+are chosen by **model class** rather than by convenience, and why this proposal rests on a mapped
+data landscape rather than an assumed one.
 
 **This is what makes the proposed research feasible rather than aspirational.** The proposal is
 not to build this system. It is to use it to answer the question it raises: the platform can pool

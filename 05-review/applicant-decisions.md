@@ -5,6 +5,25 @@ this list, it is marked **DIFFER**. Where something is missing, **ADDED**.
 
 ---
 
+## Open disagreement — one decision, for you to settle
+
+Everything else from the GESICA review has been agreed and applied. **One point remains open,
+and it is the order of the outcome hierarchy.**
+
+| | Position |
+| --- | --- |
+| **His** | **ED presentations preferred**, with CASU-144 as the substitute if HUG cannot confirm daily ED access. Rationale: ED is intellectually the more attractive outcome and sits closer to bed-capacity decisions. |
+| **Mine** | **CASU-144 emergency call volume primary**, with ED presentations as the substitute — and as an additional observation channel if obtained. Rationale: 144 is the only candidate documented and quantified in your own inventory (HUG-operated, daily, ~71,000 emergency calls a year); ED presentations appear nowhere as a source, and hospital statistics are annual with over a year's lag. Your report also states that 144 data suit **ambulatory demand** prediction — which is this project's outcome, not a limitation for it. Leading with the documented series and upgrading is safer than leading with the undocumented one and falling back. |
+
+Both of us agree on the structure: a pre-specified hierarchy, a data-access gate, and no change in
+response to observed performance. Only the order differs, and it is marked `[[ORDER TO CONFIRM]]`
+in T3.0 rather than silently decided.
+
+**A point that dissolves much of the disagreement:** the regime model is already multivariate. The
+series *not* selected as primary — plus ICU occupancy if available — enters as an additional
+observation channel on the shared latent state. So ED data are used either way; the only question
+is which series H3a is scored on.
+
 ## The ordering problem
 
 The list presents Steps 1–3 (primary outcome, horizon, cold-start window) as free scientific

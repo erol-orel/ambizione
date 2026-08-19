@@ -138,10 +138,12 @@ components with uncertainty bands and calibration to observed data; and connecto
 Copernicus ERA5, Sentinelles and routing services. Thirty-one operational scenarios have been
 elaborated with emergency-medicine partners.
 
-For GESICA I built the Geneva–Vaud data foundation: a classification of 76 notifiable diseases
-into eight model classes by transmission mode, and an inventory of 22 surveillance sources with
-their latency, granularity, access route and known completeness. That work is why the validation
-archetypes here are chosen by **model class** rather than by convenience.
+For GESICA I built the Geneva–Vaud data foundation: a classification of **77 notifiable diseases
+into eight model classes** by transmission mode, and an inventory of **23 surveillance sources**
+documenting for each the holding institution, historical coverage, temporal resolution, publication
+latency, access route and known quality limitations. That work is why the validation domains here
+are chosen by **model class** rather than by convenience, and why this proposal rests on a mapped
+data landscape rather than an assumed one.
 
 **This is what makes the proposed research feasible rather than aspirational.** The proposal is
 not to build this system. It is to use it to answer the question it raises: the platform can pool
@@ -204,7 +206,7 @@ Establish whether quantitative estimates can be extracted and pooled with an unc
 
 > **H1.** Automated extraction will systematically **underestimate between-study heterogeneity**, producing evidence-derived priors that are too concentrated; an explicit measurement-error layer will recover enough of the missing dispersion to construct usable prior distributions.
 
-The directional prediction follows from the observed difficulty of numerical extraction and the dominance of omissions among reported extraction errors [Shankar 2026]. H1 is tested on point estimates, reported uncertainty, omissions and between-study dispersion. If the predicted overconfidence is absent, that is informative; if it occurs but cannot be corrected, the project establishes a boundary condition for using automated evidence in cold-start forecasting.
+The direction follows from the difficulty of numerical extraction and the dominance of omissions among reported errors [Shankar 2026]. H1 is tested on point estimates, reported uncertainty, omissions and between-study dispersion. If the predicted overconfidence is absent, that is informative; if it occurs but cannot be corrected, the project establishes a boundary condition.
 
 ## O2 — Represent escalation in a form that separates state from the point forecast
 
@@ -212,7 +214,7 @@ Develop a parsimonious latent-state representation of health-system escalation t
 
 > **C2 — model adequacy criterion.** The latent-state representation must yield **identifiable** parameters and **calibrated** probabilities of escalation states at matched false-alarm rates. Its role is to provide the common state representation in which evidence-borrowing strategies are compared; it is not advanced as a claim that regime switching is generally superior to thresholding a point forecast.
 
-C2 is verified rather than discovered: the identifiability study in T2.1 and the calibration checks in T3.3 either establish adequacy or trigger the pre-specified ordinal state-space fallback. Either outcome leaves the central test of H3a intact.
+C2 is verified rather than discovered: T2.1's identifiability study and T3.3's calibration checks either establish adequacy or trigger the pre-specified ordinal state-space fallback. Either outcome leaves H3a intact.
 
 Extreme-value modelling is used to represent the tail of the critical state. Critical-slowing-down indicators are treated as **supporting, theory-derived covariates** on transition dynamics, not as a separate project-level claim. Their incremental value is tested against level and trend information.
 
@@ -227,7 +229,7 @@ Determine whether evidence-derived priors improve forecasts when local outcome d
 > `[[Δ]]` on the CRPS skill score, and is **superior** to fixed borrowing under deliberately
 > misspecified priors.
 
-H3b is deliberately two-sided: non-inferiority where the evidence is sound, superiority where it is not. The margin `[[Δ]]` is fixed before the historical evaluation and justified against the size of the rung 3 → rung 4 effect the study is powered to detect, so that "no material loss" is a quantity rather than a rhetorical claim.
+H3b is two-sided by design: non-inferiority where the evidence is sound, superiority where it is not. The margin `[[Δ]]` is fixed before evaluation and justified against the rung 3 → rung 4 effect the study is powered to detect, so "no material loss" is a quantity rather than a claim.
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 
@@ -240,9 +242,9 @@ These hypotheses are tested through a pre-specified model ladder rather than by 
 5. adaptive evidence borrowing with prior–data conflict monitoring;
 6. adaptive borrowing plus resilience indicators.
 
-**Primary confirmatory comparison — one, stated once.** Rung 4 (fixed evidence-derived priors) against rung 3 (weakly informative priors), measured by **CRPS skill score**, over the pre-specified cold-start window of `[[the first N weeks after onset]]`, pooled across origins by block bootstrap. Every other contrast on the ladder — rungs 1–2 as context, rung 5 for H3b, rung 6 for H3c — is secondary and labelled as such.
+**Primary confirmatory comparison — one, stated once.** Rung 4 (fixed evidence-derived priors) against rung 3 (weakly informative priors), by **CRPS skill score**, over the pre-specified cold-start window `[[first N weeks after onset]]`, pooled across origins by block bootstrap. Every other contrast — rungs 1–2 as context, rung 5 for H3b, rung 6 for H3c — is secondary and labelled so.
 
-Once local data become sufficiently informative the advantage should disappear, so the project also reports the **shape of the advantage over elapsed local data** rather than a single aggregate score. That decay curve is the descriptive result; the rung 3 versus rung 4 contrast is the confirmatory one.
+The advantage should vanish once local data become informative, so the **shape of the advantage over elapsed local data** is also reported. That decay curve is the descriptive result; rung 3 versus rung 4 is the confirmatory one.
 
 ## O4 — Establish whether predictive improvement is decision-relevant
 
@@ -256,11 +258,13 @@ Threshold elicitation, net benefit and retrospective counterfactual analysis are
 
 ## Validation domains
 
-The domains are chosen for **contrast in dynamics** and for the availability of information at crisis onset. They also reflect the disease-to-model classification developed in my GESICA work: respiratory transmission and common-source/environmentally mediated mechanisms together cover 32 of 76 notifiable diseases in that classification. The selection is therefore a coverage test rather than a convenience sample.
+The domains span **two contrasting model classes** from my GESICA classification — interhuman
+respiratory transmission, and common-source or environmentally mediated exposure — chosen for
+contrast in dynamics rather than convenience.
 
 | Archetype | Role in the project | Dynamics | Data |
 | --- | --- | --- | --- |
-| **Respiratory epidemic** | Core validation | Transmissible, multi-wave, seasonal | COVID-19 / influenza operational and surveillance series |
+| **Respiratory epidemic** | Core validation | Transmissible, multi-wave, seasonal | **COVID-19 and influenza as the principal historical validation series**, RSV as a supporting surveillance channel |
 | **Heatwave** | Core generalisation test | Environmental, short and sharply peaked | MeteoSwiss plus emergency-demand data |
 | **Waterborne outbreak** | Year-4 extension | Common-source / environmentally mediated | Geneva legionellosis linked to installations |
 
@@ -365,6 +369,42 @@ Use calibration methods appropriate to temporal dependence to assess predictive 
 ## WP3 — The decisive cold-start experiment *(M12–M42)*
 
 **Question.** Do evidence-derived priors improve forecasting when local outcome data are scarce, and when do they become harmful?
+
+### T3.0 — Outcome hierarchy, data-access gate and episode eligibility *(M1–M14)*
+
+Three things are fixed before any evaluation is designed, and none may be revisited in response to
+observed forecast performance.
+
+**Outcome hierarchy.** The primary outcome is respiratory-related **emergency demand**, selected
+from a pre-specified hierarchy: `[[ORDER TO CONFIRM — (a) CASU-144 emergency call volume, with ED
+presentations as substitute, or (b) ED presentations, with CASU-144 as substitute]]`. The series
+not selected as primary, together with ICU occupancy where available, enters the model as an
+additional observation channel on the shared latent state rather than being discarded.
+
+**Data-access gate.** Each candidate outcome must satisfy criteria fixed in advance for
+**historical depth, temporal resolution, reporting latency and completeness** `[[thresholds]]`.
+The primary outcome is selected at a pre-specified checkpoint `[[month]]`, on those criteria
+alone.
+
+**Episode eligibility.** A historical episode enters the confirmatory evaluation only if all of
+the following can be reconstructed prospectively across the evaluation window:
+
+1. a detectable onset under the prospective onset rule;
+2. sufficient pre-onset history to estimate the rolling baseline that rule requires;
+3. sufficient post-onset outcome observations at the primary horizon;
+4. the external evidence available **as it stood at the historical origin**;
+5. no leakage of future information into any input;
+6. sufficient separation from adjacent episodes that one prolonged wave is not counted as several.
+
+Episodes failing any criterion remain available for descriptive and sensitivity analysis but do
+not enter the confirmatory comparison. **At demand level, co-circulating pathogens form one
+episode**: a winter with concurrent influenza and RSV is a single demand surge, not two.
+
+**Two registration points.** The hierarchy, gate criteria and eligibility rule are registered now.
+The cold-start window **N**, the archetype-specific horizons and the margin **Δ** are registered
+after the checkpoint and the resulting episode inventory — they depend on the number of eligible
+episodes — but before any evaluation is run. Fixing them earlier would be guesswork; fixing them
+after any look at performance would be indefensible.
 
 ### T3.1 — Assemble the retrospective information set *(M12–M20)*
 
@@ -546,8 +586,8 @@ Each row is labelled **secured**, **agreed**, **requested** or **fallback**. Not
 | Primary host unit (DS4DH) | **Agreed** `[[confirm]]` | Detailed confirmation letter to follow |
 | Associated affiliation (ISG) | `[[requested]]` | `[[letter of support]]` |
 | Institutional confirmation | `[[requested]]` | General confirmation letter, UNIGE |
-| HUG emergency department data | `[[requested]]` | `[[letter of support]]`; fallback in WP3 |
-| 144 / CASU dispatch data | `[[requested]]` | `[[letter of support]]`; fallback in WP3 |
+| 144 / CASU dispatch data (HUG-operated) | `[[requested]]` | `[[letter of support]]`. Documented in my GESICA inventory: continuous, daily, ~71,000 emergency calls/year in Geneva |
+| HUG emergency department presentations | `[[requested]]` | `[[letter of support]]`. Daily historical availability **to be confirmed**; hospital statistics via the OFS are annual |
 | ICU occupancy data | `[[requested]]` | `[[letter of support]]`; fallback in WP3 |
 | Operational-data ethics | `[[requested]]` | CCER submission, PI as applicant |
 | Mobility host | `[[requested]]` | `[[letter of invitation]]` |

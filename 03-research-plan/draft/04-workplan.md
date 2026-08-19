@@ -86,6 +86,42 @@ Use calibration methods appropriate to temporal dependence to assess predictive 
 
 **Question.** Do evidence-derived priors improve forecasting when local outcome data are scarce, and when do they become harmful?
 
+### T3.0 — Outcome hierarchy, data-access gate and episode eligibility *(M1–M14)*
+
+Three things are fixed before any evaluation is designed, and none may be revisited in response to
+observed forecast performance.
+
+**Outcome hierarchy.** The primary outcome is respiratory-related **emergency demand**, selected
+from a pre-specified hierarchy: `[[ORDER TO CONFIRM — (a) CASU-144 emergency call volume, with ED
+presentations as substitute, or (b) ED presentations, with CASU-144 as substitute]]`. The series
+not selected as primary, together with ICU occupancy where available, enters the model as an
+additional observation channel on the shared latent state rather than being discarded.
+
+**Data-access gate.** Each candidate outcome must satisfy criteria fixed in advance for
+**historical depth, temporal resolution, reporting latency and completeness** `[[thresholds]]`.
+The primary outcome is selected at a pre-specified checkpoint `[[month]]`, on those criteria
+alone.
+
+**Episode eligibility.** A historical episode enters the confirmatory evaluation only if all of
+the following can be reconstructed prospectively across the evaluation window:
+
+1. a detectable onset under the prospective onset rule;
+2. sufficient pre-onset history to estimate the rolling baseline that rule requires;
+3. sufficient post-onset outcome observations at the primary horizon;
+4. the external evidence available **as it stood at the historical origin**;
+5. no leakage of future information into any input;
+6. sufficient separation from adjacent episodes that one prolonged wave is not counted as several.
+
+Episodes failing any criterion remain available for descriptive and sensitivity analysis but do
+not enter the confirmatory comparison. **At demand level, co-circulating pathogens form one
+episode**: a winter with concurrent influenza and RSV is a single demand surge, not two.
+
+**Two registration points.** The hierarchy, gate criteria and eligibility rule are registered now.
+The cold-start window **N**, the archetype-specific horizons and the margin **Δ** are registered
+after the checkpoint and the resulting episode inventory — they depend on the number of eligible
+episodes — but before any evaluation is run. Fixing them earlier would be guesswork; fixing them
+after any look at performance would be indefensible.
+
 ### T3.1 — Assemble the retrospective information set *(M12–M20)*
 
 Harmonise `[[HUG emergency presentations; 144/CASU call and dispatch records; ICU occupancy; MeteoSwiss; cantonal and federal surveillance — specify years and granularity once agreements are in place]]`. Quantify completeness and reporting delay. Model right truncation/nowcasting where necessary so that incomplete recent reporting is not mistaken for falling demand [Höhle 2014; McGough 2020].

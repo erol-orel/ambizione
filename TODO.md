@@ -13,6 +13,12 @@ Ordered by what blocks what. The critical-path items depend on other people sayi
 - [ ] **⚠ CRITICAL PATH — Secure the mobility host.** Contact Prof. Valérie Chavez-Demoulin (UNIL) and obtain a concrete invitation/hosting statement for the planned stay.
 - [ ] Confirm multi-canton case-data availability. If unavailable, keep the design on Geneva/open surveillance and do not imply broader access.
 
+## Length
+
+- [ ] **Trim pass after the placeholders are filled.** The plan sits at ~59,300 of 60,000
+      characters and the counter excludes `[[…]]` content, so filling the ~29 remaining
+      placeholders will push it over. Cut list is in `03-research-plan/draft/README.md`.
+
 ## Scientific lock
 
 - [ ] Fix the **primary outcome series and forecast horizon** for H3a.
