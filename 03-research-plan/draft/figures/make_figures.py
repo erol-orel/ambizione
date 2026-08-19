@@ -113,10 +113,8 @@ def fig1():
     px, py, pw, ph = ix + 48, iy + 36, 300, 74
     s.append(f'<line x1="{px}" y1="{py+ph}" x2="{px+pw}" y2="{py+ph}" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<line x1="{px}" y1="{py}" x2="{px}" y2="{py+ph}" stroke="{INK}" stroke-width="1.2"/>')
-    # with priors: high early, flattening
     s.append(f'<path d="M {px} {py+16} C {px+80} {py+18} {px+160} {py+30} {px+pw} {py+34}" '
              f'fill="none" stroke="{ACCENT}" stroke-width="2.2"/>')
-    # without priors: poor early, converging
     s.append(f'<path d="M {px} {py+68} C {px+70} {py+62} {px+150} {py+38} {px+pw} {py+34}" '
              f'fill="none" stroke="{MUTE}" stroke-width="2.2" stroke-dasharray="5,4"/>')
     s.append(text(px + pw + 8, py + 30, "with evidence priors", 9.5, ACCENT))
@@ -140,38 +138,36 @@ def fig1():
 
 
 # ---------------------------------------------------------------- Figure 2
+# This list mirrors the 19 tasks in draft/04-workplan.md exactly.
 WPS = [
     ("WP1", "Evidence to quantitative priors", 1, 24, [
-        ("T1.1 parameter classes, protocol", 1, 4),
-        ("T1.2 gold-standard benchmark", 3, 10),
-        ("T1.3 extraction error characterised", 8, 16),
-        ("T1.4 error model, corrected priors", 14, 22),
-        ("T1.5 transportability assessment", 18, 24)]),
-    ("WP2", "Regime switching with extreme-value tail", 1, 30, [
-        ("T2.1 state process + identifiability sim.", 1, 8),
-        ("T2.2 tail model", 6, 14),
-        ("T2.3 prior structure, adaptive discounting", 10, 20),
-        ("T2.4 baselines pre-specified", 12, 22),
-        ("T2.5 resilience indicators as covariates", 8, 18),
-        ("T2.6 conformal calibration layer", 20, 28),
-        ("T2.7 reference implementation", 18, 30)]),
-    ("WP3", "Retrospective cold-start evaluation", 12, 42, [
-        ("T3.1 operational record assembled", 12, 20),
-        ("T3.2 rolling-origin evaluation", 18, 32),
-        ("T3.3 skill and calibration", 24, 36),
-        ("T3.4 failure and stress analysis", 28, 38),
-        ("T3.5 waterborne archetype (extension)", 34, 42)]),
-    ("WP4", "Decision relevance and prospective test", 24, 48, [
-        ("T4.1 threshold elicitation", 24, 32),
-        ("T4.2 consequence-weighted evaluation", 30, 40),
-        ("T4.3 equity audit", 32, 40),
-        ("T4.4 retrospective counterfactuals", 36, 44),
-        ("T4.5 prospective shadow mode", 36, 48)]),
+        ("T1.1 evidence target + protocol", 1, 4),
+        ("T1.2 quantitative extraction benchmark", 3, 9),
+        ("T1.3 automated extraction error", 7, 14),
+        ("T1.4 uncertainty-aware evidence distributions", 12, 18),
+        ("T1.5 transportability screen", 15, 20)]),
+    ("WP2", "Parsimonious model of health-system escalation", 1, 28, [
+        ("T2.1 state model + identifiability", 1, 9),
+        ("T2.2 critical tail", 6, 14),
+        ("T2.3 evidence-derived priors", 10, 20),
+        ("T2.4 resilience indicators", 12, 20),
+        ("T2.5 calibration + implementation", 20, 28)]),
+    ("WP3", "Decisive cold-start experiment", 12, 42, [
+        ("T3.1 retrospective information set", 12, 20),
+        ("T3.2 true information set reconstruction", 18, 30),
+        ("T3.3 pre-specified model ladder", 20, 34),
+        ("T3.4 benefit + failure map", 28, 38),
+        ("T3.5 cross-archetype generalisation", 34, 42)]),
+    ("WP4", "Predictive skill to operational value", 24, 48, [
+        ("T4.1 operational losses + thresholds", 24, 32),
+        ("T4.2 decision analysis + equity audit", 30, 40),
+        ("T4.3 retrospective counterfactuals", 34, 44),
+        ("T4.4 prospective shadow validation", 36, 48)]),
 ]
-MILESTONES = [(10, "M1"), (12, "M2"), (20, "M3"), (32, "M4"), (40, "M5"), (48, "M6")]
-MS_TEXT = ["M1 extraction benchmark released", "M2 regime model identifiable in simulation",
-           "M3 operational data in place", "M4 cold-start result",
-           "M5 decision-analytic evaluation", "M6 prospective validation"]
+MILESTONES = [(9, "M1"), (12, "M2"), (20, "M3"), (34, "M4"), (40, "M5"), (48, "M6")]
+MS_TEXT = ["M1 extraction benchmark released", "M2 regime/state representation validated or fallback selected",
+           "M3 core retrospective information set harmonised or fallback activated", "M4 primary cold-start hypothesis tested",
+           "M5 decision relevance established", "M6 final cross-domain/prospective validation reported"]
 
 
 def fig2():
@@ -189,7 +185,6 @@ def fig2():
     s.append(text(0, 36, "No work package is contingent on another succeeding; fallbacks are "
                          "triggered at the milestones marked below.", 10.5, MUTE, style="italic"))
 
-    # year grid
     for yr in range(5):
         x = mx(yr * 12)
         s.append(f'<line x1="{x}" y1="{TOP-14}" x2="{x}" y2="{TOP + n*ROW + 6}" '
@@ -211,7 +206,6 @@ def fig2():
             y += ROW
     base = y + 6
 
-    # milestones
     for m, lab in MILESTONES:
         x = mx(m)
         s.append(f'<line x1="{x}" y1="{TOP-14}" x2="{x}" y2="{base}" stroke="{ACCENT}" '
