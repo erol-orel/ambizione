@@ -3,25 +3,24 @@
 Working repository for an application to the Swiss National Science Foundation
 [Ambizione](https://www.snf.ch/en/N18L3oGWomTSSGkF/funding/careers/ambizione) scheme.
 
-**Target deadline: 3 November 2026** (the final Ambizione call — the scheme is being
-discontinued and replaced from 2028).
+**Target deadline: 3 November 2026, 17:00 CET** — the final Ambizione call.
 
 ## How this repo is organised
 
 | Folder | Contents |
 | --- | --- |
-| `00-source-documents/` | Official call documents (to download) and the applicant's own materials |
-| `01-call/` | What the call actually requires: facts, document list, evaluation criteria, timeline |
-| `02-profile/` | Intake questionnaire — **fill this in first**, everything else is generated from it |
-| `03-research-plan/` | The research plan: outline, page budget, and drafts |
-| `04-other-documents/` | Statement of mobility, CV narratives, host-institution letter briefs, budget |
-| `05-review/` | Self-assessment against the reviewers' scoring lens; reviewer-simulation notes |
+| `00-source-documents/` | Official call documents and the applicant's own materials |
+| `01-call/` | Current call requirements, evaluation criteria, documents and timeline |
+| `02-profile/` | Applicant profile and career information |
+| `03-research-plan/` | Research plan sources, drafts and generated artefacts |
+| `04-other-documents/` | Mobility statement, CV narratives, host/data-access materials, correspondence and budget |
+| `05-review/` | Hypothesis audit, self-assessment and reviewer-simulation notes |
 
 ## Where to start
 
 | | |
 | --- | --- |
-| **What to do next** | `TODO.md` — ordered by what blocks what |
+| **What to do next** | `TODO.md` — ordered by dependencies and blocking decisions |
 | **The research plan** | `03-research-plan/FINAL-research-plan.md` (assembled; edit `draft/`, then `sh draft/assemble.sh`) |
 | **Scheme rules** | `01-call/scheme-facts.md` |
 | **Applicant profile** | `02-profile/erol-orel-profile.md` |
@@ -46,11 +45,13 @@ sh 03-research-plan/draft/assemble.sh
 Run both after editing any section file. `FINAL-research-plan.md` and the figures are generated —
 never edit them directly.
 
-## Important caveat on sourcing
+## Sourcing and verification
 
-This session could not reach `snf.ch` directly (blocked by the network egress policy),
-so the facts in `01-call/` were reconstructed from search results and from Swiss university
-grant-office pages. Every requirement is marked with a confidence level. **Anything marked
-`[VERIFY]` must be checked against the official Call 2026 document and guidelines PDF before
-you rely on it**, in particular page limits, character counts, and the exact document list,
-which the SNSF changes between calls.
+The 2026 Ambizione call is now open. The official SNSF call page and current regulations are the
+primary sources for scheme facts. Repository notes may contain working interpretations or earlier
+call information; where a repository note is marked `[VERIFY]`, check it against the current
+official Call 2026 documents before relying on it.
+
+The binding submission limits are those reported by the SNSF Portal: the research plan may not
+exceed 15 pages or 60,000 characters with spaces, whichever limit is reached first. The SNSF
+notes that the portal count is binding and may vary slightly with document/PDF encoding.
