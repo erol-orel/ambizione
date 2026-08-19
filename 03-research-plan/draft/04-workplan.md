@@ -30,11 +30,11 @@ Compare automated extraction with the benchmark on point estimates, uncertainty,
 
 ### T1.4 — Construct uncertainty-aware evidence distributions *(M12–M18)*
 
-Represent extraction error explicitly as measurement error and compare pooling strategies: inverse-variance, quality-weighted pooling, meta-analytic-predictive priors and power-prior discounting. The output is a prior distribution with provenance, extraction uncertainty and a documented borrowing weight.
+Represent extraction error explicitly as measurement error and compare pooling strategies — inverse-variance, quality-weighted, meta-analytic-predictive and power-prior discounting. The output is a prior with provenance, extraction uncertainty and a documented borrowing weight.
 
 ### T1.5 — Transportability screen *(M15–M20)*
 
-Characterise effect modifiers and study-setting differences relevant to Geneva. Where transport is weak, widen or discount the prior rather than silently treating studies as exchangeable. This produces the metadata needed by WP3's prior–data conflict analysis.
+Characterise effect modifiers and study-setting differences relevant to Geneva. Where transport is weak, widen or discount the prior rather than silently treating studies as exchangeable, producing the metadata WP3's prior–data conflict analysis needs.
 
 **Deliverables.** D1.1 open benchmark; D1.2 extraction-error analysis; D1.3 evidence-to-prior library with provenance, extraction uncertainty and transportability metadata.
 
@@ -66,7 +66,7 @@ Power-prior discounting and commensurate-prior approaches are retained as sensit
 
 ### T2.4 — Add resilience indicators as a secondary information channel *(M12–M20)*
 
-Compute rolling variance and lag-1 autocorrelation, with pre-specified sensitivity analyses, and enter them as optional covariates on transition dynamics. Their role is deliberately secondary: the question is whether they add information beyond local level/trend and evidence-derived priors. A null result is acceptable and interpretable.
+Compute rolling variance and lag-1 autocorrelation with pre-specified sensitivity analyses, entering them as optional covariates on transition dynamics. Their role is deliberately secondary: whether they add information beyond local level/trend and the evidence-derived prior. A null result is acceptable and interpretable.
 
 ### T2.5 — Calibration and implementation *(M20–M28)*
 
@@ -147,7 +147,13 @@ At each origin compare:
 5. adaptive evidence borrowing with prior–data conflict monitoring;
 6. adaptive borrowing plus resilience indicators.
 
-**Exactly one comparison is confirmatory: rung 4 vs rung 3 on the primary CRPS skill score over the pre-specified cold-start window, on respiratory episodes.** The heat domain repeats that single contrast as a **sequential generalisation test**, evaluated only if the respiratory test is met (§3). All other ladder contrasts are secondary or robustness analyses.
+**Confirmatory testing procedure, fixed in advance (fixed-sequence testing).**
+
+1. **Test 1 — primary.** Rung 4 vs rung 3, CRPS skill score, **respiratory** episodes, cold-start window `[[N]]`, at α = 0.05 two-sided. Passing requires a positive skill-score difference with paired-permutation p < α *and* a lower confidence bound above `[[the minimal relevant improvement]]`.
+2. **Test 2 — generalisation.** The identical contrast on **heat** episodes, at the same α, **conducted only if Test 1 passes**.
+3. **If Test 1 fails**, H3a is not supported, Test 2 is not conducted confirmatorily, the heat analysis is reported as exploratory, and the project's result is the failure map and the boundary condition.
+
+Because the order is fixed in advance and the second test is conditional on the first, the family-wise error rate is controlled at α with no adjustment. All other ladder contrasts are secondary or robustness analyses.
 
 **Rung 3 is pinned in the registration**, together with `[[a pre-declared set of vaguer and tighter alternatives]]` over which the primary result is reported as a sensitivity band. An advantage that survives only against the vaguest baseline is reported as such: the comparator cannot be tuned into a straw man after the fact.
 
@@ -157,9 +163,7 @@ At each origin compare:
 
 ### T3.4 — Map benefit and failure *(M28–M38)*
 
-Identify episodes in which evidence borrowing improves or worsens forecasts. Characterise failure by population mismatch, outcome definition, health-system structure, policy regime, temporal mismatch, extraction uncertainty and prior–data conflict. Deliberately stress-test misspecified priors. The key safety question is whether harmful borrowing can be detected early enough for adaptive discounting to reduce its impact.
-
-The output is therefore a **failure map**, not simply an average performance estimate.
+Identify episodes in which evidence borrowing improves or worsens forecasts, and characterise failure by population mismatch, outcome definition, health-system structure, policy regime, temporal mismatch, extraction uncertainty and prior–data conflict, with deliberately misspecified priors as a stress test. The safety question is whether harmful borrowing is detectable early enough for adaptive discounting to reduce its impact. The output is a **failure map**, not an average performance estimate.
 
 ### T3.5 — Test generalisation *(M34–M42)*
 
@@ -185,15 +189,13 @@ Re-evaluate the WP3 forecasts using net benefit/decision-curve analysis and valu
 
 Because operational records may encode structural differences across populations, assess calibration, forecast error and threshold performance across available aggregate strata (age, sex, neighbourhood deprivation where legally and statistically appropriate). A model calibrated only on average but systematically miscalibrated for a relevant group is not operationally ready. This audits model performance and thresholds; it is not a claim of individual-level causal fairness.
 
-### T4.3 — Retrospective counterfactual analysis *(M34–M44)*
+### T4.3 — Counterfactual analysis and prospective validation *(M34–M48)*
 
-For selected historical episodes, estimate what would have changed had escalation been triggered when the model signalled it rather than when it actually occurred. Use a simple capacity model and propagate uncertainty. These are model-based counterfactuals, not causal estimates; sensitivity to the capacity assumptions is explicit.
+For selected historical episodes, estimate what would have changed had escalation been triggered when the model signalled it rather than when it occurred, using a simple capacity model with propagated uncertainty. These are model-based counterfactuals, not causal estimates, and sensitivity to the capacity assumptions is explicit.
 
-### T4.4 — Prospective shadow-mode validation *(M36–M48)*
+If authorised, the framework additionally runs in **shadow mode** alongside routine operations, forecasts recorded but not used for clinical decisions, comparing prospective with retrospective calibration. If shadow mode is not authorised or no crisis occurs, the project remains complete on retrospective evaluation and reports the limitation.
 
-If authorised, run the framework alongside routine operations with forecasts recorded but not used for clinical decisions. Compare prospective calibration and skill with retrospective estimates. If shadow mode is not authorised or no crisis occurs, the project remains complete on the basis of retrospective evaluation and reports the limitation.
-
-**Deliverables.** D4.1 elicited loss structure and equity audit; D4.2 decision-analytic evaluation; D4.3 counterfactual analysis; D4.4 prospective validation if feasible.
+**Deliverables.** D4.1 elicited loss structure and equity audit; D4.2 decision-analytic evaluation; D4.3 counterfactual analysis and prospective validation where feasible.
 
 ---
 
@@ -210,7 +212,7 @@ The design avoids a serial chain in which one uncertain result stops the project
 | M3 | 20 | Core retrospective information set harmonised, or open-data fallback activated |
 | M4 | 34 | Primary cold-start hypothesis tested against pre-specified model ladder |
 | M5 | 40 | Decision relevance established |
-| M6 | 48 | Final cross-domain and prospective validation reported where feasible |
+| M6 | 48 | Cross-domain and prospective validation reported where feasible |
 
 ## Methods, data protection and reproducibility
 

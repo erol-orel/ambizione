@@ -19,13 +19,15 @@ proposal, met first in a different disease area.
 
 ## 2.2 Automated evidence synthesis
 
-**Orel et al., *J Med Internet Res* 2023** introduced **LiteRev**, an automated literature review
-tool combining natural language processing, dimensionality reduction, clustering and
-nearest-neighbour retrieval to accelerate the identification and structuring of relevant
-research. It is used in practice: the systematic review of artificial intelligence in emergency
-medical services for disasters and health emergencies (**Edjinedja, Larribau, Orel et al.**,
-submitted 2026), conducted within the GESICA consortium, used LiteRev in its methods to structure
-138 retained publications.
+I have worked on automated evidence extraction since joining the Institute of Global Health in
+**2019**. **Orel et al., *J Med Internet Res* 2023** introduced **LiteRev**, an automated
+literature review tool combining natural language processing, dimensionality reduction, clustering
+and nearest-neighbour retrieval. I led its development with **Aziza Merzouki** (PhD, computer
+science) and secured dedicated development funding on my own initiative — **CHF 30,000**
+(University of Geneva), **CHF 10,000** (Venture Kick), **CHF 20,000** (Mimosa) — outside any group
+grant. LiteRev is used in practice: the systematic review of artificial intelligence in emergency
+medical services (**Edjinedja, Larribau, Orel et al.**, submitted 2026), within the GESICA
+consortium, used it to structure 138 retained publications.
 
 ## 2.3 Outbreak and health-system modelling in Switzerland
 
@@ -64,22 +66,23 @@ health-system outcome has never been established.
 
 ## 2.5 Linked data on a contrasting crisis archetype
 
-I lead the data work on a cantonal study (BASEC 2026-00324, ethics granted) linking confirmed
-legionellosis cases in Geneva to individual domestic hot water installations, with technical,
-meteorological and territorial covariates. The linkage is, to my knowledge, unique, and it
-supplies a waterborne outbreak archetype whose dynamics differ fundamentally from a respiratory
-epidemic — the hardest available test of whether a forecasting framework generalises across
-crisis types.
+I lead the data work on a cantonal study **already under way** (BASEC 2026-00324, ethics granted)
+linking confirmed legionellosis cases in Geneva to individual domestic hot water installations,
+with technical, meteorological and territorial covariates. The linkage is, to my knowledge,
+unique, and it supplies a waterborne outbreak archetype whose dynamics differ fundamentally from a
+respiratory epidemic — the hardest available test of whether a forecasting framework generalises
+across crisis types.
 
 ## 2.6 Position
 
-I am embedded in the Geneva emergency and public health system through GESICA — with HUG emergency
-medicine `[[Prof. Thibaut Desmettre, Dr Robert Larribau]]` and with the Data Science for Digital
-Health group, which will host this project — teach statistics and epidemiology on the MAS in Public
-Health, and contribute to a Horizon Europe consortium on epidemic intelligence. `[[See §5 for the
-delimitation from GESICA and the Horizon work; both are declared in mySNF.]]`
+My research time is currently divided across collaborative programmes: the GESICA consortium,
+the legionellosis study, teaching on the MAS in Public Health, and from 2026 the Horizon Europe
+project **GeoAI4EI** (2026–2030), which develops a European epidemic-intelligence toolbox. Through
+these I am embedded in the Geneva emergency and public-health system — HUG emergency medicine
+`[[Prof. Thibaut Desmettre, Dr Robert Larribau]]`, CASU-144, and the cantonal public-health
+services. `[[All are declared in mySNF; §5 states the delimitation.]]`
 
-What I have not yet done, and what this grant is for, is to lead an independent line of my own.
-The components are in place: the extraction platform is mine, the methodological approach comes
-from my own prior career rather than from any group I have worked in, and the question is one I
-arrived at by building the thing that raises it.
+What I have not yet had is a programme of my own with the time to run it. The components are in
+place — the extraction platform, the methods from my prior career, and a question I arrived at by
+building the thing that raises it. Ambizione would be the first position in which **my full
+research time is dedicated to a programme for which I am the principal investigator**.

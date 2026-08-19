@@ -6,11 +6,13 @@
 
 MSc (2004), DEA (2006), PhD (2023) and current position are all at the University of Geneva, and the project will be hosted at UNIGE. This is the weakest element of the dossier, and it must be addressed directly rather than disguised.
 
-Moving from the **Institute of Global Health** to **DS4DH, Department of Radiology and Medical Informatics** is a genuine change of department, scientific community and methodological environment. The statement should not overclaim a physical move if the groups share a campus/address; the defensible argument is a change of scientific home and host relationship.
+**The host is now the Institute of Global Health, not a different department.** That decision was taken on feasibility grounds (§5.3 and §6.1 of the research plan): the infectious-disease and evidence-extraction expertise, the HUG/CASU-144/cantonal links and the ongoing legionellosis study are all there, and moving to a different department for optics would have cost the project its operational base while changing nothing real — the groups share a campus.
+
+**This makes the outgoing research stay carry the institutional-mobility argument on its own.** It is no longer one dimension among several; it is the dimension. The statement must therefore name a confirmed host, a period and a work-package contribution, not a list of possibilities. Do not attempt to present an intra-UNIGE change of unit as institutional mobility.
 
 ## The mobility argument
 
-**1. Geneva is where this project is possible.** The justification is concrete: the linked cantonal case–installation data under BASEC 2026-00324; established HUG emergency, 144/CASU and intensive-care collaborations; and the DS4DH biomedical-NLP environment needed for WP1. The host therefore provides complementary capabilities that directly enable the project.
+**1. Geneva is where this project is possible.** The justification is concrete: the linked cantonal case–installation data under BASEC 2026-00324, already under way; established HUG emergency, 144/CASU and intensive-care collaborations; infectious-disease and evidence-extraction expertise in the host institute; and the DS4DH biomedical-NLP collaboration needed for WP1.
 
 **2. Intersectoral and interdisciplinary mobility already occurred.** Fifteen years in quantitative finance followed by biomedical research is a major methodological transition. It brought regime-switching models, extreme-value estimation and stress-testing into health research. This should be presented as substantive intellectual/interdisciplinary mobility, not as a substitute for every other mobility dimension.
 
@@ -32,7 +34,7 @@ A stay tied to a work package is stronger than a generic conference list. The fi
 
 **1. Past mobility and trajectory.** Institutions and dates, with the scientific value of each move. Include the sector and disciplinary transition explicitly.
 
-**2. Why Geneva, and why this department.** Explain the data, emergency-system partnerships and DS4DH environment, then explain how the new host broadens the scientific community and supports independence.
+**2. Why Geneva, and why this institute.** Explain the data, the emergency-system partnerships and the institute's expertise. Then make the independence argument the research plan makes: it rests on **100% dedicated time and a delimited agenda**, not on distance from colleagues. Do not claim a change of scientific community that did not happen.
 
 **3. Planned mobility during the grant.** Name the host, period and work-package contribution; explain the lasting effect on the research programme and network.
 

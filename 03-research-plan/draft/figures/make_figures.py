@@ -161,8 +161,7 @@ WPS = [
     ("WP4", "Predictive skill to operational value", 24, 48, [
         ("T4.1 operational losses + thresholds", 24, 32),
         ("T4.2 decision analysis + equity audit", 30, 40),
-        ("T4.3 retrospective counterfactuals", 34, 44),
-        ("T4.4 prospective shadow validation", 36, 48)]),
+        ("T4.3 counterfactuals + shadow validation", 34, 48)]),
 ]
 MILESTONES = [(9, "M1"), (12, "M2"), (20, "M3"), (34, "M4"), (40, "M5"), (48, "M6")]
 MS_TEXT = ["M1 extraction benchmark released", "M2 regime/state representation validated or fallback selected",

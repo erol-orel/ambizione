@@ -11,12 +11,14 @@ In addition, each project collaborator should provide a **letter of collaboratio
 
 | Letter | From | Content |
 | --- | --- | --- |
-| **Detailed confirmation** | Prof. Douglas Teodoro / DS4DH, UNIGE `[[confirm signatory and title]]` | Hosting, infrastructure, employment, institutional obligations and independence-compatible working arrangement, following the SNSF template |
+| **Detailed confirmation** | Institute of Global Health, UNIGE `[[confirm signatory and title — see note below]]` | Hosting, infrastructure, employment, institutional obligations and independence-compatible working arrangement, following the SNSF template |
 | **General confirmation** | UNIGE central research office / Vice-Rectorate for Research | Institutional confirmation using the SNSF template |
 | **Collaboration letter** | HUG emergency medicine `[[Desmettre, Larribau]]` | Concrete collaboration/data access only |
 | **Collaboration letter** | 144/CASU `[[contact]]` | Concrete collaboration/data access only |
 | **Collaboration letter** | ICU / hospital capacity `[[contact]]` | Concrete collaboration/data access only |
 | **Mobility invitation** | `[[UNIL host]]` | Invitation, scientific activities, duration and practical arrangements for the planned stay |
+
+**Who should sign — a decision that matters.** The host is now the Institute of Global Health, where the applicant already works. A confirmation signed by the PI of a programme that currently funds the applicant (Prof. Keiser: GeoAI4EI, legionellosis, MAS; Prof. Teodoro: GESICA) invites the reviewer to read dependency into the arrangement. Ask whether the Institute or Faculty can sign at institute level instead. If a group leader must sign, the letter should state explicitly that the applicant leads and conducts the project and that no existing programme directs it.
 
 ## Detailed host confirmation
 

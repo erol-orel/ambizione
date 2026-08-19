@@ -1,20 +1,18 @@
 # 6. Feasibility, environment and resources
 
-**Host: Data Science for Digital Health (DS4DH), Department of Radiology and Medical Informatics, Faculty of Medicine, University of Geneva** (Prof. Douglas Teodoro), with an **associated affiliation at the Institute of Global Health** `[[Prof. Alexandra Calmy, Director — confirm title]]` and a formal research collaboration with **HUG emergency medicine** `[[Prof. Thibaut Desmettre, Dr Robert Larribau — confirm titles and agreed roles]]`.
+**Host: Institute of Global Health, Faculty of Medicine, University of Geneva** `[[responsible person and signature level — confirm with the Faculty]]`, with a formal methodological collaboration with **Data Science for Digital Health** (Prof. Douglas Teodoro, Department of Radiology and Medical Informatics) and a clinical collaboration with **HUG emergency medicine** `[[Prof. Thibaut Desmettre, Dr Robert Larribau — confirm titles and agreed roles]]`.
 
 ## 6.1 Why this environment
 
-The project requires three capabilities that are rarely housed together: quantitative methods, evidence synthesis and access to a functioning emergency/public-health system. The hosting arrangement provides them without making the project dependent on any one collaborator.
+The project requires three capabilities that are rarely housed together — quantitative methods, evidence synthesis and access to a functioning emergency and public-health system — and the arrangement below provides them without depending on any one collaborator.
 
-**Methodological home — DS4DH.** Biomedical NLP, information retrieval and machine learning for health are directly relevant to WP1, while the group's medical-informatics environment provides the technical setting for reproducible data and software work. This is a different department and scientific community from the one in which I trained, supporting the independence transition central to Ambizione.
+**Domain and infectious-disease expertise — Institute of Global Health.** Epidemiology, infectious-disease modelling and automated evidence extraction sit in the same institute, together with the surveillance and global-health methodology the project consumes. This is the environment in which the scientific gap became visible, and hosting here is a choice for feasibility over optics: independence is established by dedicated time and a delimited agenda (§5.3), not by distance from colleagues.
 
-**Domain home — Institute of Global Health.** The associated affiliation keeps the project connected to epidemiology and global-health methodology while leaving the research programme independent of my previous group.
+**Methodological collaboration — DS4DH.** Biomedical NLP, information retrieval and machine learning for health are directly relevant to WP1's extraction work, and the group's medical-informatics environment supports reproducible data and software engineering.
 
-**Operational access — HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners. The existing AI-in-EMS systematic review [Edjinedja 2026] is concrete evidence of a functioning collaboration. The project therefore does not depend on creating a new relationship after the grant starts.
+**Operational access — HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners; the AI-in-EMS systematic review [Edjinedja 2026] is concrete evidence of a functioning collaboration. No new relationship has to be created after the grant starts.
 
-**Existing infrastructure.** LiteRev-Evidence is operational, with 80,000+ publications, structured quantitative extraction, provenance and quality scoring, quality-weighted pooling into parameter distributions, and connectors to MeteoSwiss, Copernicus ERA5 and surveillance sources. Ambizione does not fund construction of this platform; it uses the platform to test the scientific question it raises.
-
-**Linked data.** The Geneva legionellosis study (BASEC 2026-00324) provides a contrasting crisis archetype and is already under ethics approval.
+**Existing infrastructure.** LiteRev-Evidence is operational: 80,000+ publications, structured quantitative extraction with provenance and quality scoring, quality-weighted pooling into parameter distributions, and connectors to MeteoSwiss, Copernicus ERA5 and surveillance sources. Ambizione does not fund its construction; it uses it to test the question the platform raises. The Geneva legionellosis study (BASEC 2026-00324), already under way with ethics granted, supplies the contrasting crisis archetype.
 
 **Computing.** `[[UNIGE HPC (Baobab/Yggdrasil) — confirm access and secure-analysis arrangement]]`.
 
@@ -25,8 +23,8 @@ Each row is labelled **secured**, **agreed**, **requested** or **fallback**. Not
 | Item | Status | Evidence / action |
 | --- | --- | --- |
 | Legionellosis linked data | **Secured** | Ethics approval BASEC 2026-00324 |
-| Primary host unit (DS4DH) | **Agreed** `[[confirm]]` | Detailed confirmation letter to follow |
-| Associated affiliation (ISG) | `[[requested]]` | `[[letter of support]]` |
+| Host institute (ISG) | `[[requested]]` | `[[host confirmation letter]]` |
+| DS4DH methodological collaboration | **Agreed** `[[confirm]]` | `[[letter of support]]` |
 | Institutional confirmation | `[[requested]]` | General confirmation letter, UNIGE |
 | **CASU-144 records (HUG-operated) — primary outcome** | `[[requested]]` | `[[letter of support]]`. Documented in my GESICA inventory: continuous, daily, ~71,000 emergency calls/year in Geneva |
 | ED presentations — additional channel | `[[requested]]` | `[[letter of support]]`. Daily historical availability to be confirmed; OFS hospital statistics are annual |
@@ -35,7 +33,7 @@ Each row is labelled **secured**, **agreed**, **requested** or **fallback**. Not
 | Mobility host | `[[requested]]` | `[[letter of invitation]]` |
 | Computing | `[[requested]]` | `[[UNIGE HPC]]` |
 
-The three operational-data rows are the most important remaining feasibility items, and §4 states explicitly what their absence would cost the primary outcome claim. Nothing in this proposal is described as a collaboration or commitment beyond the status recorded here.
+The three operational-data rows are the most important remaining feasibility items, and §4 states what their absence would cost the primary outcome claim. Nothing here is described above its actual status.
 
 ## 6.3 Resources requested
 
@@ -54,7 +52,7 @@ stated concretely enough that a referee can see the work is resourced.]]`
 
 ## 6.4 Preparatory work before the grant starts
 
-Three activities are being advanced before month 1: **data agreements** with HUG, 144/CASU and intensive care; **CCER preparation with myself as applicant** for the operational data; and **infrastructure hardening** of LiteRev-Evidence. The latter must include transport security, managed secrets, version-controlled schemas and documented recovery procedures before clinical data are connected. These are preparatory conditions, not work packages funded by the grant.
+Three activities are advanced before month 1: **data agreements** with HUG, 144/CASU and intensive care; **CCER preparation with myself as applicant** for the operational data; and **infrastructure hardening** of LiteRev-Evidence — transport security, managed secrets, version-controlled schemas and documented recovery before clinical data are connected. These are preparatory conditions, not grant-funded work packages.
 
 ## 6.5 Feasibility logic
 

@@ -41,7 +41,7 @@ C2 is verified rather than discovered: T2.1's identifiability study and T3.3's c
 > `[[Δ]]` on the CRPS skill score, and is **superior** to fixed borrowing under deliberately
 > misspecified priors.
 
-H3b is two-sided by design: non-inferiority where the evidence is sound, superiority where it is not. The margin `[[Δ]]` is fixed before evaluation and justified against the rung 3 → rung 4 effect the study is powered to detect, so "no material loss" is a quantity rather than a claim.
+H3b is two-sided by design: non-inferiority where the evidence is sound, superiority where it is not. The margin `[[Δ]]` is fixed before evaluation and justified against the rung 3 → rung 4 effect the study is powered to detect, making "no material loss" a quantity rather than a claim.
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 
@@ -90,9 +90,6 @@ The first domain carries the confirmatory claim and the second tests whether it 
 
 ## What the project does not claim
 
-- It does **not** aim to outperform established forecast hubs in the data-rich regime.
-- It does **not** assume that literature-derived priors are beneficial.
-- It does **not** claim that critical slowing down will provide a universal early-warning signal.
-- It does **not** promise a deployed clinical alarm system by month 48.
+It does **not** aim to outperform established forecast hubs in the data-rich regime, assume that literature-derived priors are beneficial, claim critical slowing down as a universal early-warning signal, or promise a deployed clinical alarm system by month 48.
 
 The central scientific contribution is narrower: **a rigorous answer to whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, together with a map of when it should not be trusted.**

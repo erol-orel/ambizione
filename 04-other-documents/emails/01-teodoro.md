@@ -1,4 +1,8 @@
-# To Prof. Douglas Teodoro — primary host
+# To Prof. Douglas Teodoro — methodological collaboration (WP1)
+
+> **Revised:** the host is now the Institute of Global Health. This email asks for the WP1
+> biomedical-NLP collaboration and a letter of support, not for primary hosting. Adjust the
+> wording below accordingly before sending.
 
 > Subject: Hosting an SNSF Ambizione application at DS4DH — deadline 3 November
 
