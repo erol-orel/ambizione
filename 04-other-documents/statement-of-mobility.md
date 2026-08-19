@@ -1,7 +1,10 @@
 # Statement of mobility
 
-`[HIGH]` Required and **evaluated** — but **no research stay is required**, confirmed with the
-UNIGE Research Office, which also confirmed eligibility. The 2026 SNSF guidelines define five dimensions of academic mobility: institutional, transnational, intersectoral, interdisciplinary and intellectual mobility. The statement should cover relevant past and planned mobility, with particular emphasis on the post-PhD period, and justify the choice of the Swiss host and its added value for scientific independence.
+`[HIGH]` Required and **evaluated** (Regulations Art. 15 §2b). Eligibility and the absence of an
+eligibility-level mobility bar are confirmed with the UNIGE Research Office — but see Art. 9 §3
+below: a **prospective mobility plan is mandatory** for this applicant even though a relocation is
+not. **The deliverable is a provided SNSF form**, structured by the five dimensions and to be
+filled in Adobe Acrobat Reader/Acrobat only; the prose here is input to that form. The guidelines define five dimensions of academic mobility: institutional, transnational, intersectoral, interdisciplinary and intellectual mobility. The statement should cover relevant past and planned mobility, with particular emphasis on the post-PhD period, and justify the choice of the Swiss host and its added value for scientific independence.
 
 ## Where you stand now
 
@@ -17,47 +20,88 @@ MSc (2004), DEA (2006), PhD (2023) and current position are all at the Universit
 
 **2. Intersectoral and interdisciplinary mobility already occurred.** Fifteen years in quantitative finance followed by biomedical research is a major methodological transition. It brought regime-switching models, extreme-value estimation and stress-testing into health research. This should be presented as substantive intellectual/interdisciplinary mobility, not as a substitute for every other mobility dimension.
 
-**3. No outgoing stay is proposed.** The scheme permits a research stay but does not require one, and the applicant does not want to relocate. Proposing one anyway would read as a box being ticked, and would move him away from the ecosystem the project depends on. The statement should say what it does claim and stop, rather than gesture at speculative visits.
+**3. Equivalent mobility under Art. 9 §4(c), not a relocation.** The regulations require a
+prospective plan; they do not require a stay. Short visits and international collaborations are an
+explicitly permitted route to equivalence, and that is what the form must name concretely.
 
-### Planned mobility — settled: none proposed
+### Planned mobility — corrected against Regulations Art. 9
 
-**Confirmed with the UNIGE Research Office: the applicant is eligible, and there is no mobility
-requirement.** That closes the question. No outgoing research stay is proposed, and none should be
-invented.
+**Regulations Art. 9 §3 makes a prospective mobility plan mandatory here:**
 
-Two candidates were considered and both are withdrawn. Chavez-Demoulin (UNIL) was withdrawn on the
-merits — the fit was to WP2's extreme-value component, which the plan classes as supporting
-machinery rather than the confirmatory core, and an intra-Swiss stay adds no transnational
-dimension. An external forecasting-methodology stay was then proposed as a replacement and is
-withdrawn too, for a better reason: it existed to satisfy a criterion that turns out not to exist,
-and it would have moved the applicant away from the ecosystem the project is built on — the
-extraction platform, infectious-disease expertise, HUG, CASU-144, cantonal public health, GESICA
-and the linked legionellosis data. That combination is the comparative advantage. Leaving it for a
-semester to collect an affiliation would have weakened the application, not strengthened it.
+> If the applicant did not conduct a research stay of 12 months after the doctorate at an
+> institution other than the one where he/she obtained the doctorate […] the applicant **must
+> explain in the application how he/she plans to achieve mobility that is equivalent in
+> qualitative terms under the Ambizione grant.**
 
-**What the mobility case rests on**, in order of strength:
+That applies. There is no eligibility bar — the RGO is right — but "nothing proposed" is not an
+option the regulations permit. **Art. 9 §4** then lists three routes to equivalence, and the third
+settles it:
 
-1. **Intersectoral mobility — real and documented.** Fifteen years as a quantitative analyst and
-   risk manager, then a doctorate in biomedical sciences. A change of sector and of field, not of
-   address. This leads.
-2. **Intellectual mobility — the methods travelled.** Regime-switching models, extreme-value
-   estimation and stress testing were carried from finance into public health. They came from no
-   research group the applicant has belonged to. This is what makes the project his rather than
-   inherited.
-3. **Institutional mobility, stated as organisational.** He will lead an independent research
-   programme within the Institute rather than remain a member of an existing research group. That
-   is a real change of position. Do not inflate it into a change of institution.
-4. **Interdisciplinary mobility.** Econometrics → biomedical sciences → automated evidence
+| Route | Art. 9 §4 | Position |
+| --- | --- | --- |
+| (a) Stay at a research institution, CH or abroad | permitted, ≤12 months | Declined — see below |
+| (b) Stay in the practical realm (industry, administration) | permitted, ≤12 months | Declined |
+| **(c) Other types of mobility, particularly short visits or international collaborations** | **permitted** | **This is the route taken** |
+
+**No relocation is proposed, and the regulations do not require one.** The research assets are
+concentrated in Geneva and are not reproducible elsewhere: the extraction platform, the HUG and
+CASU-144 partnerships, the cantonal public-health links, the linked legionellosis data under BASEC
+2026-00324. A semester away would remove the applicant from the environment the project is built
+on. Chavez-Demoulin (UNIL) was separately withdrawn on the merits — the fit was to WP2's
+extreme-value component, which the plan classes as supporting machinery, and an intra-Swiss stay
+adds no transnational dimension.
+
+**What must therefore be written into the form, concretely.** Art. 9 §4(c) is satisfied by named,
+scheduled activity — not by a general willingness to collaborate. Draft it as:
+
+`[[Name 2–3 short visits (days to weeks, not months) tied to specific work packages, with named
+groups and indicative years. Candidates by fit to the confirmatory experiment: groups working on
+probabilistic forecast evaluation and scoring (WP3); nowcasting and reporting-delay correction
+(T3.1); Bayesian evidence borrowing and MAP priors (T1.4/T2.3). Add the international
+collaborations already running — GESICA's French partners, the GeoAI4EI consortium — with what
+each contributes and what it produces.]]`
+
+`[[Also name the incoming direction: visiting researchers hosted in Geneva, and conference
+presentation of the confirmatory results. Both count under §4(c).]]`
+
+**One finding that helps materially.** Dimension 1 of the form defines institutional academic
+mobility as collaborations "on a national level **or even within the same research institution**
+providing, for instance, complementary expertise, or additional infrastructure." The organisational
+argument — leading a programme alongside the Institute's groups rather than inside one, drawing
+complementary expertise from DS4DH, HUG and CASU-144 — is therefore an admissible
+institutional-mobility claim under the SNSF's own definition, not a workaround for a missing one.
+
+### The four triggers, all of which apply
+
+Guidelines 2.15 and dimension 1 require the choice of institution to be **carefully motivated** if
+any of four conditions hold. **All four hold here:** more than one year already spent at the present
+Swiss institution; more than one year as a postdoctoral researcher at the selected institution;
+returning to the institution of the doctorate; joining the institution of the PhD advisor.
+
+This is the most scrutinised part of this particular application. It has to be argued — the data,
+the partnerships, the ongoing ethics approval, the organisational change of position — not
+mentioned in passing.
+
+### Ordering for the form
+
+1. **Intersectoral (dimension 3)** — fifteen years in quantitative risk, then a change of field.
+   Real, documented, and the strongest element. Note that the SNSF defines this dimension as
+   "experience in the public, private and non-profit sectors relevant for the proposed research"
+   — which is exactly what it is.
+2. **Interdisciplinary (dimension 4)** — econometrics → biomedical sciences → automated evidence
    synthesis → emergency public health.
-5. **International networks without relocation.** Doctoral work across East and Southern Africa;
-   seroprevalence work in Cameroon; WHO African Region reporting; the Franco-Swiss GESICA
-   consortium; Horizon Europe GeoAI4EI from 2026.
-6. **Geographic mobility — thin, and said so.** All degrees and the current post at UNIGE. State
-   it in the opening paragraph rather than let a reviewer find it, then move on. It is not a
-   disqualification and, with no mobility requirement, not a gap to be patched.
+3. **Institutional (dimension 1)** — the organisational change of position, plus complementary
+   expertise from DS4DH, HUG and CASU-144 within and across institutions.
+4. **Transnational (dimension 2)** — East and Southern Africa; Cameroon seroprevalence; WHO African
+   Region reporting; the Franco-Swiss GESICA consortium; Horizon Europe GeoAI4EI. The SNSF
+   explicitly counts "involvement in border-crossing networks without active travel".
+5. **Intellectual (dimension 5)** — note that the SNSF defines this as **communicating research
+   beyond academia**, not as intellectual range. Use the teaching on the MAS in Public Health, the
+   operational partners, and the open benchmark and software. Do **not** reuse the "methods
+   travelled with me" argument here; that belongs under interdisciplinary.
 
-Incoming exchange is worth a sentence: hosting visiting researchers in Geneva runs the exchange in
-the direction the project's assets actually point.
+Physical mobility is thin. State it in the opening paragraph rather than let a reviewer find it,
+then move on.
 
 ## Structure
 
@@ -71,8 +115,13 @@ the direction the project's assets actually point.
 
 ## Actions
 
-- [x] ~~Contact candidate hosts and obtain a written invitation.~~ **Dropped** — no stay proposed.
-- [x] Eligibility and the absence of a mobility requirement confirmed with the UNIGE Research Office.
-- [ ] Write the statement around the six-item ordering above, leading with the sectoral change.
+- [x] Eligibility and the absence of an eligibility-level mobility bar confirmed with the RGO.
+- [x] ~~Obtain an invitation letter for a research stay.~~ Dropped — no stay proposed. (An
+      invitation letter and detailed budget would be **mandatory** if one were, per Art. 9 §7.)
+- [ ] **Obtain the SNSF mobility form** from mySNF and fill it in Adobe Acrobat. The prose in this
+      repository is input, not the deliverable.
+- [ ] Name 2–3 concrete short visits and the running international collaborations, to satisfy
+      Art. 9 §3 via §4(c). This is mandatory content, not optional colour.
+- [ ] Argue all four institution-choice triggers explicitly under dimension 1.
 - [ ] Confirm what organisational designation the Faculty can make for an independent programme
-      within the Institute, so §5.3 and this statement describe the same thing.
+      within the Institute, so §2.6 and this statement describe the same thing.

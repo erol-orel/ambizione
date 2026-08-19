@@ -14,8 +14,7 @@ OUT="$DIR/../FINAL-research-plan.md"
 ---
 
 HDR
-  for f in "$DIR"/00-*.md "$DIR"/01-*.md "$DIR"/02-*.md "$DIR"/03-*.md \
-           "$DIR"/04-*.md "$DIR"/05-*.md "$DIR"/06-*.md; do
+  for f in "$DIR"/0[0-7]-*.md; do
       cat "$f"; printf '\n\n---\n\n'
   done
   cat "$DIR/99-bibliography.md"

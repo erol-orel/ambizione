@@ -1,14 +1,12 @@
-# 6. Feasibility, environment and resources
+### 2.3.3 Research environment, team and resources
 
 **Host: Institute of Global Health, Faculty of Medicine, University of Geneva** (host confirmation signed by the Institute's Director, `[[Prof. Nicolas Ray, interim Director — confirm title]]`), with a formal methodological collaboration with **Data Science for Digital Health** (Prof. Douglas Teodoro, Department of Radiology and Medical Informatics) and a clinical collaboration with **HUG emergency medicine** `[[Prof. Thibaut Desmettre, Dr Robert Larribau — confirm titles and agreed roles]]`.
 
-## 6.1 Why this environment
+#### 2.3.3.1 Why this environment
 
-The project requires three capabilities that are rarely housed together — quantitative methods, evidence synthesis and access to a functioning emergency and public-health system — and the arrangement below provides them without depending on any one collaborator.
+The project requires three capabilities rarely housed together — quantitative methods, evidence synthesis and access to a functioning emergency and public-health system — and the arrangement below provides them without depending on any one collaborator.
 
-**Domain and infectious-disease expertise — Institute of Global Health.** Epidemiology, infectious-disease modelling and automated evidence extraction sit in the same institute, alongside the surveillance and global-health methodology the project consumes. This is where the scientific gap became visible, and hosting here is a choice for feasibility over optics. Independence is established organisationally — an independent programme led by me alongside the Institute's groups rather than inside one — and by dedicated time and a delimited agenda (§5.3).
-
-**Methodological collaboration — DS4DH.** Biomedical NLP, information retrieval and machine learning for health are directly relevant to WP1's extraction work, and the group's medical-informatics environment supports reproducible data and software engineering.
+**Institute of Global Health.** Epidemiology, infectious-disease modelling and automated evidence extraction sit in one institute, alongside the surveillance methodology the project consumes. This is where the gap became visible. Independence is organisational — a programme led by me alongside the Institute's groups rather than inside one (§2.6). **DS4DH** contributes the biomedical NLP and information retrieval WP1's extraction work needs.
 
 **Operational access — HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners; the AI-in-EMS systematic review [Edjinedja 2026] is concrete evidence of a functioning collaboration. No new relationship has to be created after the grant starts.
 
@@ -16,7 +14,7 @@ The project requires three capabilities that are rarely housed together — quan
 
 **Computing.** `[[UNIGE HPC (Baobab/Yggdrasil) — confirm access and secure-analysis arrangement]]`.
 
-## 6.2 Commitments, by status
+#### 2.3.3.2 Commitments, by status
 
 Each row is labelled **secured**, **agreed**, **requested** or **fallback**. Nothing is described above its actual status.
 
@@ -34,9 +32,9 @@ Each row is labelled **secured**, **agreed**, **requested** or **fallback**. Not
 
 The three operational-data rows are the most important remaining feasibility items, and §4 states what their absence would cost the primary outcome claim. Nothing here is described above its actual status.
 
-## 6.3 Resources requested
+#### 2.3.3.3 Resources requested
 
-The 2026 regulations cap project funds at **CHF 250,000 over four years**, with the applicant's salary covered separately. Doctoral students and postdocs cannot be employed from these funds; other staff can. Since no student or postdoctoral salary is charged to the grant, the ceiling supports a substantial **scientific/technical collaborator** alongside computing, data and travel costs.
+Project funds are capped at **CHF 250,000 over four years**; the applicant's salary is covered separately. Doctoral students and postdocs cannot be employed, but support personnel can, so the ceiling supports a substantial **scientific/technical collaborator** alongside computing, data and travel costs.
 
 | Item | Rationale |
 | --- | --- |
@@ -49,10 +47,8 @@ The 2026 regulations cap project funds at **CHF 250,000 over four years**, with 
 `[[Confirm institutional salary rates with the grants office and set the FTE. The scale should be
 stated concretely enough that a referee can see the work is resourced.]]`
 
-## 6.4 Preparatory work before the grant starts
+#### 2.3.3.4 Preparatory work before the grant starts
 
-Three activities are advanced before month 1: **data agreements** with HUG, 144/CASU and intensive care; **CCER preparation with myself as applicant** for the operational data; and **infrastructure hardening** of LiteRev-Evidence — transport security, managed secrets, version-controlled schemas and documented recovery before clinical data are connected. These are preparatory conditions, not grant-funded work packages.
+Advanced before month 1, as preparatory conditions rather than grant-funded work: **data agreements** with HUG, 144/CASU and intensive care; **CCER preparation with myself as applicant**; and **infrastructure hardening** of LiteRev-Evidence before clinical data are connected.
 
-## 6.5 Feasibility logic
-
-Feasibility rests on one structural property: **the instrument already exists**, so the grant does not spend its first year building the evidence-synthesis platform, and on the fallbacks set out in §4 — modular work packages, an open-data route if operational access is delayed, and an ordinal state-space formulation if the regime model proves weakly identifiable. Each failure mode leaves the central question answerable, with the claim narrowed and the narrowing stated.
+Feasibility rests on one structural property — **the instrument already exists** — and on the fallbacks set out above, each of which leaves the central question answerable with the claim narrowed and the narrowing stated.

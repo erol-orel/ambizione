@@ -1,26 +1,30 @@
 # Source documents
 
-## Why these are not already downloaded
+## `call-documents/` — three obtained
 
-This session's network egress proxy **blocks `snf.ch` and `unige.ch`** (403 at the CONNECT
-tunnel — an organisation policy denial, not a transient error). I could not download the call
-documents, and I should not route around the policy. The list below has direct URLs and a
-script; running the script from your own machine takes about ten seconds and fills
-`call-documents/`.
+The applicant supplied these on 19 August 2026. `snf.ch` is blocked by this session's network
+egress proxy, so they could not be downloaded here.
 
-## `call-documents/` — to be downloaded
-
-| File | Source | Why you need it |
+| File | Version | Status |
 | --- | --- | --- |
-| `ambizione_guidelines.pdf` | https://www.snf.ch/media/en/c2myDnv9atMX0r8t/ambizione_guidelines.pdf | **The authoritative document.** Page limits, document list, formatting rules. Everything in `01-call/` marked `[VERIFY]` gets checked against this. |
-| `ambizione_reglement_e.pdf` | https://www.snf.ch/media/en/pbmaThfYhkhSYHqG/ambizione_reglement_e.pdf | Regulations: eligibility, extensions to the 4-year window, funding rules. |
-| `ambizione_call_document.pdf` | Ambizione page → Call 2026 documents | Call-specific figures: budget ceiling, salary rates, dates. |
-| `snsf_cv_guidelines.pdf` | https://www.snf.ch/en/f8TLKrHtiaxVbevw/page/funding/documents-downloads/guidelines-cv-research-output-list | Narrative CV format and research output list rules. |
-| `research_plan_requirements.pdf` | SNSF → documents & downloads → requirements for the research plan | Structure the research plan must follow. |
-| `evaluation_procedure.pdf` | SNSF → career funding evaluation procedure | How referees and the panel score you. Read it as a checklist. |
-| `general_implementation_regulations.pdf` | SNSF funding regulations | Eligible costs — what the CHF 250k can and cannot buy. |
-| `unige_ambizione_page.pdf` | https://www.unige.ch/recherche/fr/grants-office/individuel/snsf-ambizione | **UNIGE internal deadlines and procedure.** Save as PDF from the browser. |
-| `unige_internal_deadlines.md` | Email from `research-grants-office@unige.ch` | The internal deadline is the one that actually binds you. Get it in writing. |
+| `ambizione_guidelines.pdf` | 11.08.2026 | **Read in full.** Page/character limits, prescribed research-plan structure, mobility form, CV route, timeline |
+| `ambizione_reglement_e.pdf` | 25.02.2026 | **Read in full.** Eligibility (Art. 5), mobility (Art. 9), eligible costs (Art. 10–12), assessment criteria (Art. 15) |
+| `ambizione_confirmation_institution_e.pdf` | 03.08.2026 | **Read in full.** The two confirmation letter templates |
+
+Findings and every change they forced are in `05-review/snsf-compliance-audit.md`.
+
+## Still worth having
+
+| File | Where | Why |
+| --- | --- | --- |
+| `snsf_cv_template` | portal.snf.ch | The CV is now compiled **on the SNSF Portal** to a fixed template and uploaded as PDF. ORCID required, public profile sent to reviewers. `cv-narratives/` is input to it, not a substitute |
+| `general_implementation_regulations.pdf` | SNSF funding regulations | Clause 1.11 (eligibility-window extensions), Clause 2.8 (CHF 100,000 cap on equipment), Clause 7 (staff) |
+| `evaluation_procedure` | SNSF → how we select | Two phases; **Life Sciences interviews 3–4 June 2027** |
+| `unige_internal_deadline` | research-grants-office@unige.ch | The binding deadline. UNIGE sets its own, well before 3 November |
+| Mobility form | mySNF | The statement of mobility is a **provided form**, five dimensions, Adobe Acrobat only |
+
+**No longer needed:** a cover letter and career plan are *not* required — uploaded files are
+deleted (Guidelines 2.13).
 
 ## Download
 

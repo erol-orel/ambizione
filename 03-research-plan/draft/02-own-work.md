@@ -1,4 +1,4 @@
-# 2. Current state of my own research
+## 2.2 Current state of personal research and competences required for the project
 
 My route here is unusual and it is why the project is tractable. I spent fifteen years in
 quantitative finance — risk modelling, extreme value estimation for non-Gaussian tails, regime and
@@ -6,7 +6,7 @@ factor models, stress testing — before a doctorate in biomedical sciences at G
 18 December 2023). The inheritance is not decorative: the instruments this proposal brings to
 health-system surge are the ones I used daily to anticipate rare, costly transitions elsewhere.
 
-## 2.1 Prediction under sparse and imperfect information
+### 2.2.1 Prediction under sparse and imperfect information
 
 My doctoral work addressed prediction where individual-level data are incomplete. In
 **Orel et al., *PLoS ONE* 2022** I predicted individual HIV status from socio-behavioural
@@ -17,7 +17,7 @@ populations (**Merzouki et al., *PeerJ* 2021**) and on treatment-interruption pr
 population is usable in another. That is the transportability problem at the centre of this
 proposal, met first in a different disease area.
 
-## 2.2 Automated evidence synthesis
+### 2.2.2 Automated evidence synthesis
 
 I have worked on automated evidence extraction since joining the Institute of Global Health in
 **2019**. **Orel et al., *J Med Internet Res* 2023** introduced **LiteRev**, an automated
@@ -29,7 +29,7 @@ grant. LiteRev is used in practice: the systematic review of artificial intellig
 medical services (**Edjinedja, Larribau, Orel et al.**, submitted 2026), within the GESICA
 consortium, used it to structure 138 retained publications.
 
-## 2.3 Outbreak and health-system modelling in Switzerland
+### 2.2.3 Outbreak and health-system modelling in Switzerland
 
 **Orel et al., *CMI Communications* 2024** compared clinical severity between Delta and Omicron
 sub-lineages in a Swiss tertiary centre, working directly with hospital clinical data.
@@ -38,9 +38,9 @@ SARS-CoV-2 epidemic, produced for planning under time pressure — the experienc
 proposal's question comes. I also contributed to WHO African region epidemiological reporting and
 to seroprevalence estimation in ***Nature Communications*** (Nwosu et al., 2021).
 
-## 2.4 The instrument: LiteRev-Evidence
+### 2.2.4 The instrument: LiteRev-Evidence
 
-Since 2024 I have developed **LiteRev-Evidence** (literev-scenario.com), extending LiteRev from
+Since 2024 I have developed **LiteRev-Evidence**, extending LiteRev from
 retrieval into structured quantitative extraction and modelling. It is a running production
 system, not a prototype: **81,209 documents** and **323,868 embedded passages** ingested
 continuously from PubMed, PMC, OpenAlex, CrossRef and preprint servers by a living-review
@@ -59,12 +59,11 @@ latency, access route and known quality limitations. That work is why the valida
 are chosen by **model class** rather than by convenience, and why this proposal rests on a mapped
 data landscape rather than an assumed one.
 
-**This is what makes the proposed research feasible rather than aspirational.** The proposal is
-not to build the system but to answer the question it raises: the platform pools published
-estimates into priors, and whether those priors improve genuinely cold-start forecasting of a new
-health-system outcome has never been established.
+**This is what makes the research feasible rather than aspirational**, and — as software with
+independent funding behind it — a research output in its own right. The proposal is not to build
+the system but to answer the question it raises.
 
-## 2.5 Linked data on a contrasting crisis archetype
+### 2.2.5 Linked data on a contrasting crisis archetype
 
 I lead the data work on a cantonal study **already under way** (BASEC 2026-00324, ethics granted)
 linking confirmed legionellosis cases in Geneva to individual domestic hot water installations,
@@ -73,16 +72,20 @@ unique, and it supplies a waterborne outbreak archetype whose dynamics differ fu
 respiratory epidemic — the hardest available test of whether a forecasting framework generalises
 across crisis types.
 
-## 2.6 Position
+### 2.2.6 Position
 
-My research time is currently divided across collaborative programmes: the GESICA consortium,
-the legionellosis study, teaching on the MAS in Public Health, and from 2026 the Horizon Europe
-project **GeoAI4EI** (2026–2030), which develops a European epidemic-intelligence toolbox. Through
-these I am embedded in the Geneva emergency and public-health system — HUG emergency medicine
-`[[Prof. Thibaut Desmettre, Dr Robert Larribau]]`, CASU-144, and the cantonal public-health
-services. `[[All are declared in mySNF; §5 states the delimitation.]]`
+Through the GESICA consortium I am embedded in the Geneva emergency and public-health system — HUG
+emergency medicine `[[Prof. Thibaut Desmettre, Dr Robert Larribau]]`, CASU-144 and the cantonal
+services. My other current commitments, and their delimitation from this project, are set out in
+§2.6.
 
-What I have not yet had is a programme of my own with the time to run it. The components are in
-place — the extraction platform, the methods from my prior career, and a question I arrived at by
-building the thing that raises it. Ambizione would be the first position in which **my full
-research time is dedicated to a programme for which I am the principal investigator**.
+**Competences required for this project.** Bayesian hierarchical and regime-switching estimation,
+extreme-value modelling and stress testing under misspecification come from fifteen years of
+quantitative risk work and form the core of WP2–WP3; probabilistic forecast evaluation and
+decision analysis, from the same background applied to health data above. Evidence extraction,
+NLP retrieval and quality-weighted pooling come from LiteRev and LiteRev-Evidence, which I built.
+Domain knowledge comes from the doctorate, the Swiss COVID-19 work and GESICA. I program in Python
+and R and work with version control, HPC scheduling and secure clinical environments. French and
+English are working languages.
+
+What I have not yet had is a programme of my own with the time to run it.

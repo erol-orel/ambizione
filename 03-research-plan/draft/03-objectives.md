@@ -1,9 +1,11 @@
-# 3. Objectives and hypotheses
+## 2.3 Detailed research plan
+
+### 2.3.1 Objectives and hypotheses
 
 ![Framework](figures/fig1-framework.svg)
 *Figure 1 — the cold-start problem, the evidence-borrowing hypothesis and the evaluation ladder. See `figures/`.*
 
-## Overall aim
+#### Overall aim
 
 To determine **whether, and under what conditions, published quantitative evidence provides useful information when local outcome data are insufficient at the onset of a health-system crisis — and whether the resulting forecasts change decisions.** The claim is not that external evidence substitutes for local observation; it is that it can carry information during the window before local data become informative.
 
@@ -20,19 +22,19 @@ The project has **one central hypothesis, H3a**, and everything else is subordin
 
 ---
 
-## O1 — Make published quantitative evidence usable without hiding its uncertainty
+#### O1 — Make published quantitative evidence usable without hiding its uncertainty
 
 > **H1.** Automated extraction will systematically **underestimate between-study heterogeneity**, producing evidence-derived priors that are too concentrated; an explicit measurement-error layer will recover enough of the missing dispersion to construct usable prior distributions.
 
 The direction follows from the difficulty of numerical extraction and the dominance of omissions among reported errors [Shankar 2026]. H1 is tested on point estimates, reported uncertainty, omissions and between-study dispersion. If the predicted overconfidence is absent, that is informative; if it occurs but cannot be corrected, the project establishes a boundary condition.
 
-## O2 — Represent escalation in a form that separates state from the point forecast
+#### O2 — Represent escalation in a form that separates state from the point forecast
 
 > **C2 — model adequacy criterion.** The latent-state representation must yield **identifiable** parameters and **calibrated** probabilities of escalation states at matched false-alarm rates. Its role is to provide the common state representation in which evidence-borrowing strategies are compared; it is not advanced as a claim that regime switching is generally superior to thresholding a point forecast.
 
 C2 is verified rather than discovered: T2.1's identifiability study and T3.3's calibration checks either establish adequacy or trigger the pre-specified ordinal state-space fallback, and either outcome leaves H3a intact. Extreme-value modelling represents the tail of the critical state; critical-slowing-down indicators are **supporting, theory-derived covariates** on transition dynamics, with their incremental value tested against level and trend information.
 
-## O3 — Test the cold-start hypothesis and map failure
+#### O3 — Test the cold-start hypothesis and map failure
 
 > **H3a.** Evidence-derived priors improve probabilistic forecast skill during the early phase of a crisis, with the advantage declining as local observations accumulate.
 
@@ -63,7 +65,7 @@ family-wise error rate without a multiplicity penalty, and follows the science: 
 evidence is richest, heat transport hardest. A respiratory-positive, heat-negative result is a
 boundary condition on transportability, and is reported as one.
 
-## O4 — Establish whether predictive improvement is decision-relevant
+#### O4 — Establish whether predictive improvement is decision-relevant
 
 > **H4.** Decision-analytic evaluation based on the losses and escalation thresholds of emergency responders can rank modelling strategies differently from generic statistical accuracy criteria, and the evidence-derived strategy is useful only when its predictive gain is large enough to cross a decision threshold.
 
@@ -71,7 +73,7 @@ Threshold elicitation, net benefit and counterfactual analysis are downstream te
 
 ---
 
-## Validation domains
+#### Validation domains
 
 The domains span **two contrasting model classes** from my GESICA classification — interhuman
 respiratory transmission, and common-source or environmentally mediated exposure — chosen for
@@ -88,8 +90,6 @@ rather than across incommensurable measures.
 
 The first domain carries the confirmatory claim and the second tests whether it generalises. The third tests whether the framework can cross a substantially different crisis mechanism; its omission does not invalidate the main cold-start result.
 
-## What the project does not claim
+#### What the project does not claim
 
-It does **not** aim to outperform established forecast hubs in the data-rich regime, assume that literature-derived priors are beneficial, claim critical slowing down as a universal early-warning signal, or promise a deployed clinical alarm system by month 48.
-
-The central scientific contribution is narrower: **a rigorous answer to whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, together with a map of when it should not be trusted.**
+It does **not** aim to outperform forecast hubs in the data-rich regime, assume literature-derived priors are beneficial, claim critical slowing down as a universal early-warning signal, or promise a deployed clinical alarm system by month 48. The contribution is narrower: **whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, and a map of when it should not be trusted.**

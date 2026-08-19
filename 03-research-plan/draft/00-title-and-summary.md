@@ -2,7 +2,7 @@
 
 **COLDSTART — Anticipating health-system crises before the outcome is observable**
 
-# Summary
+# 1. Summary
 
 When a health crisis begins, the quantity that decision-makers need to forecast — local presentations, demand or occupancy — is precisely the quantity for which almost no local outcome data yet exist. Weather, demography, mobility and other context variables are available, but the relevant outcome series is initially a handful of noisy observations. The forecasting systems that perform well once years of local history have accumulated are therefore weakest when early decisions are most consequential.
 

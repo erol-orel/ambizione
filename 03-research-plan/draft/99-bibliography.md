@@ -2,6 +2,15 @@
 
 > ## Status of this list
 >
+> **Two formal requirements from the call documents (Guidelines, "Bibliography"):**
+> (1) **Do not use "et al."** — give the full author list. The only exception is a publication
+> involving a large international consortium with **over 50 authors**. (2) Give the full reference
+> including **title, source and a DOI where possible**. Entries below marked
+> `[[FULL AUTHOR LIST REQUIRED]]` must be completed from the publisher record; I have not invented
+> names. Only three entries currently carry a DOI — add the rest.
+>
+> Note also: **links to websites are not permitted** anywhere in the research plan or bibliography.
+>
 > The references below were **located and cross-checked against search results during drafting**.
 > They are real works, and the attributions match what the sources report. They are **not yet
 > verified against the articles themselves** — volume, issue, page numbers and exact author lists
@@ -35,7 +44,8 @@
 
 ## Prehospital data as a leading indicator
 
-- **[Rosenkötter 2013]** Rosenkötter N, Ziemann A, Riesgo LG-C, et al. Validity and timeliness of
+- **[Rosenkötter 2013]** Rosenkötter N, Ziemann A, Riesgo LG-C,
+  `[[FULL AUTHOR LIST REQUIRED]]`. Validity and timeliness of
   syndromic influenza surveillance during the autumn/winter wave of A(H1N1) influenza 2009:
   results of emergency medical dispatch, ambulance and emergency department data from three
   European regions. *BMC Public Health* 2013. PMC3852468.
@@ -51,10 +61,12 @@
 
 ## Collaborative forecasting and its evaluation
 
-- **[Cramer 2022]** Cramer EY, Ray EL, Lopez VK, et al. Evaluation of individual and ensemble
+- **[Cramer 2022]** Cramer EY, Ray EL, Lopez VK, et al. *(consortium >50 authors — shortening
+  permitted by the guidelines; verify the count)*. Evaluation of individual and ensemble
   probabilistic forecasts of COVID-19 mortality in the United States. *PNAS* 2022;119(15):
   e2113561119. doi:10.1073/pnas.2113561119
-- **[Sherratt 2023]** Sherratt K, Gruson H, Grah R, et al. Predictive performance of multi-model
+- **[Sherratt 2023]** Sherratt K, Gruson H, Grah R, et al. *(consortium >50 authors — shortening
+  permitted; verify the count)*. Predictive performance of multi-model
   ensemble forecasts of COVID-19 across European nations. *eLife* 2023. PMID 37083521.
 
 ## Evidence as prior information
@@ -70,7 +82,7 @@
 
 ## Automated extraction
 
-- **[Shankar 2026]** Shankar R, et al. Performance of large language models in data extraction
+- **[Shankar 2026]** Shankar R, `[[FULL AUTHOR LIST REQUIRED]]`. Performance of large language models in data extraction
   for evidence synthesis: a systematic review. *J Biomed Inform* 2026. PMID 42501879;
   ScienceDirect S1532046426001103. `verified: lead author and venue confirmed; complete the
   co-author list from the publisher record`
@@ -138,8 +150,9 @@
 
 ## Own work — cite from the CV, verify details
 
-- **Orel E**, et al. Prediction of HIV status based on socio-behavioural characteristics in East
-  and Southern Africa. *PLoS ONE* 2022;17(3):e0264429.
+- **Orel E**, Esra R, Estill J, Thiabaud A, Marchand-Maillet S, Merzouki A, Keiser O. Prediction
+  of HIV status based on socio-behavioural characteristics in East and Southern Africa.
+  *PLoS ONE* 2022;17(3):e0264429.
 - **Orel E**, Sobel J, Zanella MC, Iten A, Kaiser L, Keiser O, Vetter P. Difference in clinical
   severity between Delta variant and Omicron sub-lineages in a Swiss tertiary center.
   *CMI Communications* 2024.
@@ -148,11 +161,13 @@
   *F1000Research* 2020;9.
 - Merzouki A, Estill J, **Orel E**, Tal K, Keiser O. Clusters of sub-Saharan African countries
   based on sociobehavioural characteristics and associated HIV incidence. *PeerJ* 2021;9:e10660.
-- Esra R, Carstens J, Le Roux S, et al. (incl. **Orel E**). Validation and improvement of a machine
-  learning model to predict interruptions in antiretroviral treatment in South Africa.
+- Esra R, Carstens J, Le Roux S, Mabuto T, Eisenstein M, Keiser O, **Orel E**, Merzouki A,
+  De Voux L, Maskew M, Sharpey-Schafer K. Validation and improvement of a machine learning model
+  to predict interruptions in antiretroviral treatment in South Africa.
   *J Acquir Immune Defic Syndr* 2023;92(1):42–49.
-- Nwosu K, Fokam J, Wanda F, et al. (incl. **Orel E**). SARS-CoV-2 antibody seroprevalence and
-  associated risk factors in an urban district in Cameroon. *Nat Commun* 2021;12:5851.
+- Nwosu K, Fokam J, Wanda F, `[[FULL AUTHOR LIST REQUIRED — no "et al." permitted]]`
+  (incl. **Orel E**). SARS-CoV-2 antibody seroprevalence and associated risk factors in an urban
+  district in Cameroon. *Nat Commun* 2021;12:5851.
 
 ## Still to source — supply from your own reading
 

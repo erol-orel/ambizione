@@ -17,12 +17,30 @@ enough in §6 that a referee can see the work is resourced.
 | Second independent extractor | `[[contracted or in-kind]]` — required by the dual-extraction design in T1.2 | `[[ ]]` | `[[ ]]` |
 | Computing / infrastructure use | Bayesian estimation, evidence processing, rolling-origin evaluation | `[[ ]]` | `[[ ]]` |
 | Data access / procurement | Directly project-linked data costs, if applicable | `[[ ]]` | `[[ ]]` |
-| Travel / mobility | Research stay, scientific exchange, networking | `[[ ]]` | `[[ ]]` |
+| Travel / mobility | Short visits, conferences, incoming visitors (Art. 11 §1e, h) | `[[ ]]` | `[[ ]]` |
 | Workshops / cooperation | Directly linked to the project, if needed | `[[ ]]` | `[[ ]]` |
-| Open research data | Eligible costs for making research data freely available | `[[ ]]` | `[[ ]]` |
+| Open Research Data | Making research data freely available — **eligible, but must be budgeted now; cannot be added later by supplementary grant** | `[[ ]]` | `[[ ]]` |
 | Other eligible direct costs | Only if specifically justified | `[[ ]]` | `[[ ]]` |
 | **Total project funds** | | | **≤ CHF 250,000** |
 | Applicant salary | Covered separately by Ambizione grant with salary | | **separate** |
+
+## Rules taken from the call documents
+
+- **Ceiling: CHF 250,000 for four years** (Art. 10 §4), i.e. ~CHF 62,500/year. Pro-rated if shorter.
+- **Applicant salary is separate** and covered by the grant. The guidelines give an indicative
+  **~CHF 115,000/annum gross at 100%**, plus employer social security. Confirm the exact figure with
+  UNIGE HR before submission; it must be entered as a budget line in mySNF.
+- **Work quota is 100%** (Art. 1 §4, Art. 6 §1c). 80% is permissible only for care duties or further
+  qualification.
+- **Equipment and material of enduring value: max CHF 100,000** overall. Not a live constraint here.
+- **Open-access publication costs are NOT eligible** and must be applied for separately via mySNF.
+  Do not put APCs in this budget. Open *Research Data* costs are eligible — see the table.
+- **The budget must be as detailed as possible**: separate entries for equipment, infrastructure
+  access, consumables, travel, support personnel.
+- **Changes to the budget after submission are not possible.**
+- Personnel salary rates differ by institution — get UNIGE's standards from HR in advance.
+- **All requested support personnel must be justified in the research plan** (Guidelines 4.3). §2.4
+  does this: one collaborator, three named tasks.
 
 ## Budget principle
 

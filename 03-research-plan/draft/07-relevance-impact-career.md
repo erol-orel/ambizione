@@ -1,22 +1,29 @@
-# 5. Relevance, impact and scientific independence
+## 2.5 Relevance and impact
 
-## 5.1 Scientific relevance
+### Scientific relevance
 
 The project tests an assumption crisis forecasting currently makes informally: that accumulated evidence from elsewhere is useful when local outcome data are insufficient. The result is useful either way — a principled, auditable way to borrow if the priors help, and a stated boundary if they do not.
 
 **A null result changes identifiable practice.** Modellers advising cantonal and federal preparedness routinely seed early-crisis models with parameters lifted from a few published studies, and evidence-synthesis platforms — including my own — assume pooled estimates are reusable as priors. A calibrated null tells those groups the practice buys nothing where it is most used, that early forecasts belong with local-data-only uncertainty, and that effort belongs in acquiring local observations faster rather than pooling external ones harder. That is a change of course, not an absence of finding.
 
+**Form of publication.** Results appear as **articles in peer-reviewed journals** — methodological
+work in biostatistics and evidence-synthesis venues, applied results in infectious-disease
+epidemiology and emergency/health-services journals — with preprints on submission and open access
+throughout. The benchmark, the evidence-to-prior library and the evaluation code are released as
+**citable, versioned open datasets and software**. Results are also presented at international
+conferences and returned to the operational partners who supplied the data.
+
 The project also leaves three durable resources, deliberately subordinate to the central question: **a quantitative extraction benchmark** for testing whether automated synthesis preserves the uncertainty needed for quantitative reuse; **an open reference framework** for evidence-informed latent-state forecasting with explicit borrowing, conflict detection and calibration; and **a decision-analytic evaluation framework** showing when a statistical improvement is large enough to matter operationally. The project is not a new extraction system, a new early-warning indicator or a forecasting competition.
 
-## 5.2 Practical and societal impact
+### Practical and societal impact
 
 The practical contribution is preparedness rather than a promised clinical deployment. In the first weeks of a crisis, emergency systems must decide whether to open capacity, redistribute resources or escalate before local outcomes provide a reliable empirical base. The project quantifies whether external evidence improves those decisions and how much uncertainty should remain around the recommendation. The Geneva setting provides a realistic operational anchor, and the contrasting validation domains are designed to show what transfers and what does not.
 
-## 5.3 Scientific independence
+## 2.6 Relevance for personal career development
 
-**Ambizione would mark the transition from contributing to collaborative research programmes to leading a dedicated independent programme of my own.** That is the precise claim, and the record supports it. My trajectory developed inside collaborative environments at the University of Geneva, and I state them in full rather than at a distance.
+**Why I am ready, and why now.** I have the methodological apparatus, the instrument and the domain access this project needs, and I have used all three inside other people's programmes. What I have not had is a research agenda that is mine to set, with the time to pursue it. Ambizione would mark exactly that transition — from contributing to collaborative programmes to leading a dedicated independent one — and it comes at the point where the question has become sharp enough to answer and the components are already in place. My trajectory developed inside collaborative environments at the University of Geneva, and I state them in full rather than at a distance.
 
-I have worked on automated evidence extraction since 2019, led the development of LiteRev and LiteRev-Evidence, and obtained development funding on my own initiative (CHF 30,000 UNIGE; CHF 10,000 Venture Kick; CHF 20,000 Mimosa). I have since applied those capabilities in collaborative programmes; none has this project's objective.
+Since 2019 I have worked on automated evidence extraction, led the development of LiteRev and LiteRev-Evidence, and obtained development funding on my own initiative (CHF 30,000 UNIGE; CHF 10,000 Venture Kick; CHF 20,000 Mimosa). I have since applied those capabilities in collaborative programmes; none has this project's objective.
 
 | Programme | Objective | My role | Distinction from Ambizione |
 | --- | --- | --- | --- |
@@ -24,16 +31,16 @@ I have worked on automated evidence extraction since 2019, led the development o
 | GeoAI4EI (Horizon Europe, 2026–2030) | European epidemic-intelligence toolbox integrating geospatial, environmental and epidemiological data with AI | Contributor | Builds infrastructure; does not test the inferential value of borrowed evidence |
 | Legionellosis study (ongoing) | Environmental determinants of a Geneva waterborne outbreak | Data/scientific lead | Supplies a contrasting validation extension, not the central question |
 | MAS in Public Health | Teaching | Statistics and epidemiology | Not a research programme |
-| **Ambizione** | **Establish when evidence-derived priors help cold-start forecasting and when they harm it** | **PI — 100% of research time** | — |
+| **Ambizione** | **Establish when evidence-derived priors help cold-start forecasting and when they harm it** | **PI, full-time** | — |
 
-**This project does not build another epidemic-intelligence platform.** It uses existing infrastructures to test a question that cuts across them: whether quantitatively extracted external evidence improves probabilistic forecasting when local outcome data are insufficient, how its uncertainty should propagate, and whether prior–data conflict identifies harmful borrowing early enough to act on. The question emerged from the trajectory above; it is a work package of none of it.
+**This project does not build another epidemic-intelligence platform.** It uses existing infrastructures to test a question that cuts across them, and which is a work package of none of them.
 
-**The question and the methods are mine.** It arose from a problem I met while building LiteRev-Evidence: the platform could pool published estimates into priors, but nothing established whether those priors improved forecasting in a new setting. The methodological core comes from fifteen years of quantitative-finance work on regime models, extreme-value risk and stress testing, inherited from no group I have worked in. The platform is University of Geneva intellectual property developed under my scientific direction; the project uses it as an instrument and does not depend on owning it.
+**The question and the methods are mine.** It arose from a problem I met building LiteRev-Evidence: the platform could pool published estimates into priors, but nothing established whether those priors improved forecasting in a new setting. The methodological core came from fifteen years of quantitative-finance work, inherited from no group I have worked in. The platform is University of Geneva intellectual property developed under my scientific direction; the project uses it and does not depend on owning it.
 
-**On collaborators, stated plainly.** Prof. Olivia Keiser leads the research group in which I developed LiteRev, directs the MAS on which I teach, and leads the legionellosis study and GeoAI4EI; she is a co-author on my doctoral and post-doctoral output, the expected profile at this career stage, and remains an important scientific collaborator. She has no role in this project: the question, the model ladder, the confirmatory design and the evaluation are mine, and no part of it continues a line she leads. Prof. Douglas Teodoro leads GESICA, delimited above, and provides the WP1 biomedical-NLP collaboration.
+**On collaborators, stated plainly.** Prof. Olivia Keiser leads the group in which I developed LiteRev, directs the MAS on which I teach, and leads the legionellosis study and GeoAI4EI; she co-authors my doctoral and post-doctoral output, the expected profile at this stage, and remains an important collaborator. She has no role in this project: the question, the model ladder, the confirmatory design and the evaluation are mine. Prof. Douglas Teodoro leads GESICA, delimited above, and provides the WP1 biomedical-NLP collaboration.
 
 **The organisational position is the substance of the transition.** The project will be hosted by the **Institute of Global Health**, where I will lead an independent research programme rather than continue as a member of an existing research group, maintaining scientific collaborations with the Institute's groups — including the infectious-disease modelling group in which I developed LiteRev. `[[Confirm the designation the Faculty can actually make.]]` The distinction is not cosmetic: an Ambizione project *inside* an existing group invites the question of whose project it is, whereas a programme *alongside* those groups does not. The host confirmation is signed at institute level by the Director, not by the leader of any group whose grants currently fund me.
 
 The Institute provides the infectious-disease, evidence-extraction and biomedical-NLP expertise — including my long-standing collaboration with Aziza Merzouki — and its links to HUG emergency medicine, CASU-144 and the cantonal public-health services provide the operational setting. The programme is executable by the PI and one budgeted technical collaborator: **no named individual is load-bearing, by design.**
 
-This project establishes my independent research programme at the intersection of automated evidence synthesis, quantitative modelling of rare transitions and emergency public health, asking when published evidence can — and cannot — substitute for missing local data, how its uncertainty should be propagated into forecasts, and when external evidence becomes harmful rather than informative. Ambizione provides the dedicated time and scientific autonomy to turn a set of complementary capabilities into a programme of my own.
+**Where this leads.** This project establishes my independent research programme at the intersection of automated evidence synthesis, quantitative modelling of rare transitions and emergency public health, asking when published evidence can — and cannot — substitute for missing local data, how its uncertainty should be propagated into forecasts, and when external evidence becomes harmful rather than informative. By month 48 I intend to hold a validated answer, two open resources the field can build on, and a first-author methodological record in my own name — the basis for a group leadership position or a professorship, and for the follow-on programme sketched above. The grant's full-time commitment is what makes that possible: my research time is currently divided across four collaborative programmes, and Ambizione consolidates it into one.

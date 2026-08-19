@@ -1,65 +1,101 @@
 # Host institution and collaboration letters — Ambizione 2026
 
-The 2026 SNSF guidelines require **two separate host-institution confirmations**:
-
-1. **Detailed confirmation** — signed by the named group leader and head of institute/department.
-2. **General confirmation** — from the central research leadership (e.g. Vice-Rectorate for Research).
-
-In addition, each project collaborator should provide a **letter of collaboration** confirming the collaboration and its practical contribution. Collaboration letters should not praise the applicant or the merits of the project; the SNSF says such support/reference letters are discarded.
+Source: `00-source-documents/call-documents/ambizione_confirmation_institution_e.pdf` (v. 03.08.2026),
+Guidelines 2.16–2.17, Regulations Art. 8. **Both confirmations must follow the SNSF text template
+verbatim and be on the institution's official letterhead.** They are regarded as complete only if
+every applicable point is addressed.
 
 ## Who signs what
 
-| Letter | From | Content |
+| Letter | Signed by | Content |
 | --- | --- | --- |
-| **Detailed confirmation** | Institute of Global Health, UNIGE `[[confirm signatory and title — see note below]]` | Hosting, infrastructure, employment, institutional obligations and independence-compatible working arrangement, following the SNSF template |
-| **General confirmation** | UNIGE central research office / Vice-Rectorate for Research | Institutional confirmation using the SNSF template |
-| **Collaboration letter** | HUG emergency medicine `[[Desmettre, Larribau]]` | Concrete collaboration/data access only |
-| **Collaboration letter** | 144/CASU `[[contact]]` | Concrete collaboration/data access only |
-| **Collaboration letter** | ICU / hospital capacity `[[contact]]` | Concrete collaboration/data access only |
+| **1. Detailed confirmation** | **Two signatures**: the **contact person (head of the research group) named in the application** *and* the **head of the institute/department** | The Art. 8 obligations, per the template below |
+| **2. General confirmation** | Vice-rector for research or equivalent, UNIGE | Short institutional endorsement, per the template |
+| **Collaboration letter** | HUG emergency medicine `[[Desmettre, Larribau]]` | Confirmation of the collaboration only |
+| **Collaboration letter** | CASU-144 `[[contact]]` | Confirmation of the collaboration only |
+| **Collaboration letter** | ICU / hospital capacity `[[contact]]` | Confirmation of the collaboration only |
 
-**Who signs — settled.** Signed at institute level by `[[Prof. Nicolas Ray, interim Director]]`. Not by the PI of any programme that currently funds the applicant (Prof. Keiser: GeoAI4EI, legionellosis, MAS; Prof. Teodoro: GESICA), and not by Prof. Calmy, who sat on the applicant's thesis jury — the SNSF reads prior relationships at the signature line.
+**Routing:** the institute directorate forwards the detailed confirmation to the vice-rectorate,
+which issues the general confirmation. Both come back to the applicant. Research institutions set
+their own internal deadlines — **check the UNIGE RGO deadline now**, it will be well before
+3 November.
 
-**What the letter must establish, and this is the load-bearing part.** The independence argument now rests on an organisational claim: the applicant leads an **independent research programme within the Institute**, alongside its research groups rather than inside one. The host letter is where that becomes an institutional fact rather than an assertion in the applicant's own prose. Before drafting, confirm with the Faculty what designation it can actually make — do not ask for wording UNIGE cannot sign.
+## The open structural question — resolve first
 
-## Detailed host confirmation
+The template requires the detailed confirmation to be signed by **the contact person (head of the
+research group)** *and* **the head of the institute/department**. Two distinct roles.
 
-Use the **official SNSF template**, not a bespoke letter, and ensure the signed version addresses all points relevant to the application.
+This sits awkwardly with the plan's central claim, that the applicant leads an **independent
+programme alongside** the Institute's groups rather than inside one. He cannot be his own contact
+person. So:
 
-The application itself carries the scientific independence argument. The host letter should confirm the institutional facts that make that independence possible: the host will provide the required working environment and infrastructure, the applicant will conduct and lead the proposed project, and the institutional arrangement is compatible with independent scientific leadership.
+- **Who is named as contact person in the application?** If it is the head of a group the applicant
+  is not part of, the letter must still describe the project as autonomous.
+- **Can one person sign in both roles** (e.g. the Institute Director as both contact person and head
+  of institute)? Ask the RGO — this is a routine question for them.
+- **Regulations Art. 8 §6, new for this call:** *"The contact person … can only support one
+  applicant per Ambizione call."* Whoever signs is spending that slot. **Confirm nobody else at the
+  Institute is applying under the same person**, and note that the letter must contain an explicit
+  acknowledgement of this restriction.
 
-Do **not** describe a doctoral researcher or postdoc as project staff: the 2026 Ambizione rules prohibit employing doctoral students and postdocs through Ambizione.
+Current intent: signature at institute level by `[[Prof. Nicolas Ray, interim Director]]`.
+Deliberately **not** the PI of a programme currently funding the applicant (Prof. Keiser: GeoAI4EI,
+legionellosis, MAS; Prof. Teodoro: GESICA), and **not** Prof. Calmy, who sat on the applicant's
+thesis jury — the SNSF reads prior relationships at the signature line.
 
-A useful factual sentence to adapt, if compatible with the official template, is:
+## What the detailed confirmation must contain
 
-> Dr Orel will conduct and lead the proposed Ambizione project as an independent research programme within the department. The department will provide `[[office/workspace, computing, administrative support and other agreed infrastructure]]` and will support his integration into departmental research and teaching.
+Verbatim from the template. The institution commits to host the PI and to:
 
-## Collaboration letters
+- integrate the PI and **provide working space**;
+- **support the PI in the management of their team** and provide administrative assistance;
+- provide research support to the PI and team, in particular **access rights to infrastructures,
+  equipment and other services** — *the template says `[please specify]`, so name them*:
+  `[[UNIGE HPC (Baobab/Yggdrasil), the secure analysis environment for clinical data, and the
+  institute's data-protection and administrative support]]`;
+- **guarantee the necessary scientific independence of the PI**, specifically as regards:
+  - realisation of the project **under the scientific guidance of the PI**,
+  - **selection and supervision** of other team members,
+  - **use of the budget** to achieve the scientific objectives,
+  - **authority to publish as senior author** and to invite as co-authors only those who
+    contributed substantially;
+- inform the PI about job openings in their field of competence.
 
-Ask collaborators for concise letters stating only:
+**Three points the template marks as mandatory:**
 
-- what collaboration they agree to provide;
-- what data/infrastructure/access they can make available, if applicable;
-- the expected timing or duration;
-- any conditions that must be met (ethics, data protection, governance).
+1. A statement on the Institute's **general interest** in the PI and the research field, and
+   **possible synergies**.
+2. **"A statement on the project's autonomy compared to other ongoing research objectives at the
+   research institution."** — This is the decisive sentence for this application. The SNSF is
+   asking the *Institute*, not the applicant, to delimit COLDSTART from GESICA, GeoAI4EI and the
+   legionellosis study. Hand whoever drafts the letter the delimitation table from §2.6 of the
+   research plan so the two documents agree.
+3. **The contact person acknowledges that they can only support one applicant in the current call.**
 
-Do **not** ask collaborators to assess your qualifications, originality or the quality of the proposal. Those arguments belong in the application and CV.
+Do **not** describe a doctoral researcher or postdoc as project staff — Art. 12 prohibits employing
+them through Ambizione. Support personnel only.
 
-## Act now
+## What the general confirmation must contain
 
-- [ ] Ask the host institute for the detailed confirmation using the official SNSF template.
-- [ ] Ask the UNIGE central research office for the general confirmation and internal deadline.
-- [ ] Ask HUG/144/ICU collaborators for collaboration letters limited to concrete collaboration/access.
-- [ ] Ask the mobility host for a formal invitation specifying the planned stay and scientific activities.
-- [ ] Ask whether UNIGE offers internal proposal review.
+One sentence, from the template: the executive board supports the application and warrants the
+necessary conditions, pursuant to the institute's letter. Nothing to draft.
 
-## Status tracker
+## Collaboration letters — what they must NOT say
 
-| Item | Requested | Contact | Promised by | Received |
-| --- | --- | --- | --- | --- |
-| Detailed confirmation letter | | | | |
-| General confirmation letter | | | | |
-| HUG collaboration letter | | | | |
-| 144/CASU collaboration letter | | | | |
-| ICU collaboration letter | | | | |
-| Mobility invitation | | | | |
-| Internal review (if offered) | | | | |
+Guidelines 2.17: each collaborator provides a letter **confirming the collaboration**, which
+"limits itself to a statement about the collaboration and refrains from highlighting the
+qualifications of the applicant or the merits of the project."
+
+**Support or reference letters praising the applicant or the project will be discarded.** Tell each
+collaborator this explicitly — the instinct is to write a warm letter, and a warm letter is worse
+than useless here. Uploaded under "Other annexes".
+
+## Actions
+
+- [ ] Ask the RGO: can one person sign as both contact person and head of institute? What is the
+      internal UNIGE deadline?
+- [ ] Confirm no one else at the Institute is applying under the same contact person (Art. 8 §6).
+- [ ] Establish what organisational designation the Faculty can make, before drafting.
+- [ ] Supply the infrastructure list for the `[please specify]` field.
+- [ ] Hand the §2.6 delimitation table to the letter's drafter for mandatory point 2.
+- [ ] Brief each collaborator that praise disqualifies their letter.
