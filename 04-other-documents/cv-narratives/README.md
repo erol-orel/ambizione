@@ -28,7 +28,7 @@ left thin reads as a gap rather than as focus.
 
 **You have no completed doctoral supervision.** Module 2 exists precisely to surface this, and a
 reviewer will notice whether you wrote around it or addressed it. The draft addresses it: teaching
-on the MAS in Public Health since 2024, mentoring within GESICA, and the doctoral researcher this
+on the MAS in Public Health since 2024, mentoring within GESICA, and the research leadership this
 grant would fund. Do not pad it. A short, honest Module 2 that names the trajectory reads better
 than a long one that inflates a co-authorship into mentorship.
 

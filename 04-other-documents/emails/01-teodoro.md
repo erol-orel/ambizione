@@ -26,20 +26,26 @@ you are free to modify:
 
 > Dr Orel will establish and lead his own research group within the department, on a research line
 > he has defined and which is distinct from the group's existing programme. He will act as
-> principal investigator, recruit and supervise his own doctoral researcher(s), hold his own
-> ethics approvals, and manage his own budget.
+> principal investigator, define and lead his own research line, hold his own ethics approvals,
+> and manage his own budget.
 
-Concretely, this means office and workspace, access to computing, and — the point I would like to
-check with you — **the formal route to supervising a doctoral researcher** in the department: can
-I supervise directly, or would it need to be co-supervision, and what does that require
-procedurally?
+Concretely, this means office and workspace, access to computing, and an arrangement compatible
+with independent scientific leadership.
+
+One point I would like to check with you separately from the grant itself: **the formal route to
+supervising doctoral students in the department** — whether I could supervise directly or only
+co-supervise, and what that requires procedurally. This is not a budget question — the 2026
+Ambizione rules do not allow doctoral students or postdocs to be employed from the grant — but it
+matters for how the group develops beyond it.
 
 I am also asking the Institute of Global Health about an associated affiliation, so that the
 project keeps its epidemiological and public health community alongside the methodological one.
 `[[Adjust if you would rather discuss that with him before approaching ISG.]]`
 
-The grant would fund one doctoral researcher over four years; the SNSF pays my salary, so the
-department would not carry staff costs.
+On resources: the SNSF pays my salary, and under the 2026 rules the project funds (capped at
+CHF 250,000 over four years) cannot be used to employ doctoral students or postdocs. The project
+is therefore PI-led, with at most bounded technical support. The department would carry no staff
+costs.
 
 Given the deadline, a first answer by **`[[12 September]]`** would help a great deal. I would be
 glad to come and talk it through whenever suits you.

@@ -13,9 +13,9 @@
 
 When a health crisis begins, the quantity that decision-makers need to forecast — local presentations, demand or occupancy — is precisely the quantity for which almost no local outcome data yet exist. Weather, demography, mobility and other context variables are available, but the relevant outcome series is initially a handful of noisy observations. The forecasting systems that perform well once years of local history have accumulated are therefore weakest when early decisions are most consequential.
 
-There is, however, another source of quantitative information: the accumulated published evidence from analogous events elsewhere. Thousands of studies report transmission parameters, weather–demand associations, surge magnitudes, intervention effects and lengths of stay. This evidence is rarely converted into formal prior information for operational forecasting. The reason is not lack of statistical machinery, but uncertainty about the two steps that matter most: **can quantitative estimates be extracted reliably enough to pool, and do they transport to the new setting?** A confidently wrong prior is worse than no prior because it is most influential when local data cannot yet correct it.
+There is, however, another source of quantitative information: the accumulated published evidence from analogous events elsewhere. Thousands of studies report transmission parameters, weather–demand associations, surge magnitudes, intervention effects and lengths of stay. This evidence is rarely tested as formal prior information for operational forecasting. The reason is not lack of statistical machinery, but uncertainty about the two steps that matter most: **can quantitative estimates be extracted reliably enough to pool, and do they transport to the new setting?** A confidently wrong prior is worse than no prior because it is most influential when local data cannot yet correct it.
 
-This project asks the central question directly: **can published quantitative evidence compensate for missing local outcome data at crisis onset, and can we detect early when it should not be trusted?** Building on LiteRev-Evidence, a literature-synthesis platform I developed that already extracts and pools quantitative parameters from more than 80,000 documents, I will (1) establish the error structure of automated quantitative extraction and propagate that uncertainty into evidence-derived priors; (2) develop an uncertainty-aware latent-regime framework for health-system escalation, with evidence-derived priors and a complementary short-window resilience signal; (3) test, through strict rolling-origin experiments that reconstruct the information available at each historical moment, whether those priors improve probabilistic forecast skill during the cold-start phase, how rapidly their value disappears as local data accumulate, and when they cause harm; and (4) determine whether any predictive gain is large enough to change operational decisions.
+This project asks the central question directly: **can published quantitative evidence provide useful information when local outcome data are insufficient at crisis onset, and can we detect early when it should not be trusted?** Building on LiteRev-Evidence, a literature-synthesis platform I developed that already extracts and pools quantitative parameters from more than 80,000 documents, I will (1) establish the error structure of automated quantitative extraction and propagate that uncertainty into evidence-derived priors; (2) develop an uncertainty-aware latent-regime framework for health-system escalation, with evidence-derived priors and a complementary short-window resilience signal; (3) test, through strict rolling-origin experiments that reconstruct the information available at each historical moment, whether those priors improve probabilistic forecast skill during the cold-start phase, how rapidly their value disappears as local data accumulate, and when they cause harm; and (4) determine whether any predictive gain is large enough to change operational decisions.
 
 The methodological core is deliberately simpler than the full machinery might suggest. The decisive experiment is a pre-specified ladder of models: local baselines; established short-baseline methods; a regime model with weakly informative priors; the same model with literature-derived priors; and adaptive borrowing that discounts the literature when prior–data conflict emerges. Critical-slowing-down indicators and extreme-value methods are supporting components of the state representation, not separate claims of success. Conformal calibration is used as a calibration safeguard rather than as a headline contribution.
 
@@ -144,9 +144,10 @@ their latency, granularity, access route and known completeness. That work is wh
 archetypes here are chosen by **model class** rather than by convenience.
 
 **This is what makes the proposed research feasible rather than aspirational.** The proposal is
-not to build this system. It is to use it to answer the question it raises: the platform will
-happily pool published estimates into priors, and nobody — including me — has established whether
-it should.
+not to build this system. It is to use it to answer the question it raises: the platform can pool
+published estimates into priors, but whether those priors improve genuinely cold-start forecasting
+of a new health-system outcome has not yet been established in the specific operational setting
+proposed here.
 
 ## 2.5 Linked data on a contrasting crisis archetype
 
@@ -281,7 +282,7 @@ The central scientific contribution is narrower: **a rigorous answer to whether 
 
 Four work packages over 48 months. The workplan is deliberately built around the central experiment: **does borrowing quantitative evidence improve forecasting before local outcomes become informative?** WP1 establishes whether the evidence can be trusted; WP2 supplies the common state representation; WP3 is the decisive cold-start evaluation; WP4 translates predictive differences into operational value. No positive result from an earlier package is required for the later packages to produce a publishable answer.
 
-Staffing: PI `[[Erol Orel, XX%]]` and one doctoral researcher (`[[months]]`). The PI leads the methodological core (WP2) and the integration/evaluation design. The doctoral researcher carries the benchmark and much of the reproducible evaluation work under supervision.
+**Staffing.** The project is PI-led. The Ambizione grant will **not request a doctoral student or postdoc**, because doctoral students and postdocs cannot be employed through Ambizione under the 2026 regulations. If justified and approved, limited **other-employee** support (scientific/technical/auxiliary staff) will be requested for bounded extraction, data-engineering and reproducibility tasks. I execute WP2 and lead the integrated evaluation; support staff do not constitute an independent scientific lead.
 
 ---
 
@@ -295,7 +296,7 @@ Pre-specify the parameter classes, split by whether they enter the primary forec
 
 **Core — extracted and benchmarked in full.** These are the quantities the demand model actually consumes: **weather–demand associations**, **surge magnitudes** (peak-to-baseline ratios), and **length-of-stay / occupancy distributions**.
 
-**Secondary — extracted only if core work completes on schedule.** **Transmission parameters** and **shedding-to-incidence conversions**. Both are scientifically interesting — the second is the bridge between wastewater signals and expected presentations — but the project's primary outcome is health-system demand, not incidence, so neither is on the critical path. They are declared as extensions rather than promised.
+**Secondary — extracted only if core work completes on schedule.** **Transmission parameters** and **shedding-to-incidence conversions**. Both are scientifically interesting — the second is the bridge between wastewater signals and expected presentations — but the project's primary outcome is health-system demand, not incidence, so neither is on the critical path.
 
 Define inclusion criteria, effect measures, uncertainty representation and transportability variables before extraction.
 
@@ -315,9 +316,9 @@ Represent extraction error explicitly as measurement error and compare pooling s
 
 Characterise effect modifiers and study-setting differences relevant to Geneva. Where transport is weak, widen or discount the prior rather than silently treating studies as exchangeable. This produces the metadata needed by WP3's prior–data conflict analysis.
 
-**Deliverables.** D1.1 open benchmark; D1.2 extraction-error analysis; D1.3 evidence-to-prior library with provenance and transportability metadata.
+**Deliverables.** D1.1 open benchmark; D1.2 extraction-error analysis; D1.3 evidence-to-prior library with provenance, extraction uncertainty and transportability metadata.
 
-**Risk.** Manual extraction is expensive. *Mitigation:* sample size is determined by simulation for the variance/dispersion quantity that matters; if expert time binds, the benchmark narrows to the parameter classes used in the core validation.
+**Risk.** Manual extraction is expensive. *Mitigation:* sample size is determined by simulation for the variance/dispersion quantity that matters; if expert time binds, the benchmark narrows to the parameter classes used in the core validation. Any approved support staff are used only for bounded extraction/data-engineering tasks.
 
 ---
 
@@ -371,7 +372,7 @@ The analysis is at daily aggregate level wherever possible. Missingness and repo
 
 ### T3.2 — Reconstruct the true information set *(M18–M30)*
 
-For each historical crisis onset, create successive forecast origins using **only information available at that date**. This includes only literature published and indexed before the origin date. Forecast at pre-specified horizons (`[[7, 14, 28 days]]`). The cold-start window is defined by elapsed local outcome observations, not retrospectively by a convenient calendar cut-off.
+For each historical crisis onset, create successive forecast origins using **only information available at that date**. This includes only literature published and indexed before the origin date. Forecast at pre-specified horizons (`[[7, 14, 28 days]]`). The cold-start window is defined by elapsed local outcome observations **after a pre-defined real-time onset criterion**. The onset rule may use only variables available at the forecast origin and cannot use the eventual peak, cumulative future cases or any other future information.
 
 ### T3.3 — Evaluate a pre-specified model ladder *(M20–M34)*
 
@@ -384,11 +385,11 @@ At each origin compare:
 5. adaptive evidence borrowing with prior–data conflict monitoring;
 6. adaptive borrowing plus resilience indicators.
 
-This isolates the incremental value of the literature prior, then tests whether adaptive discounting and resilience indicators add further value. The primary endpoint is the difference in probabilistic forecast skill during the cold-start window and its decay with elapsed local data.
+**Exactly one comparison is confirmatory: rung 4 vs rung 3 on the primary CRPS skill score over the pre-specified cold-start window.** All other ladder contrasts are secondary or robustness analyses.
 
-**Primary endpoint:** the CRPS skill score of rung 4 relative to rung 3 over the pre-specified cold-start window, with uncertainty by block bootstrap over crisis episodes. Secondary endpoints: log score, calibration (PIT, interval coverage), and escalation detection compared at matched false-alarm rates.
+**Primary endpoint:** the CRPS skill score of rung 4 relative to rung 3 over the cold-start window, with uncertainty by block bootstrap over crisis episodes. Secondary endpoints: log score, calibration (PIT, interval coverage), and escalation detection compared at matched false-alarm rates.
 
-**The non-inferiority margin `[[Δ]]` for H3b is fixed here, before any historical evaluation**, and justified against the rung 3 → rung 4 effect size the study is powered to detect: adaptive borrowing is declared non-inferior if its CRPS skill score is no worse than fixed borrowing by more than `[[Δ]]`. The superiority half of H3b is tested on the deliberately misspecified priors constructed in T3.4. Confirmatory contrasts are registered before the evaluation runs; exploratory searches are separated and labelled.
+**H3b non-inferiority margin `[[Δ]]` is fixed here, before any historical evaluation**, and justified against the rung 3 → rung 4 effect size the study is powered to detect. Adaptive borrowing is declared non-inferior if its CRPS skill deficit relative to fixed borrowing is no greater than `[[Δ]]`. The superiority half of H3b is tested on deliberately misspecified priors constructed in T3.4. Confirmatory contrasts are registered before the evaluation runs; exploratory searches are separated and labelled.
 
 ### T3.4 — Map benefit and failure *(M28–M38)*
 
@@ -402,7 +403,7 @@ Apply the framework to the second core archetype (heatwave) and, resources permi
 
 **Deliverables.** D3.1 reproducible cold-start evaluation pipeline; D3.2 primary result on the value of evidence-derived priors; D3.3 failure/stress-test map; D3.4 cross-archetype generalisation analysis.
 
-**Risk — operational data access.** *Mitigation:* agreements are initiated before the grant starts and supporting letters accompany the application. If clinical operational data are delayed, the primary hypothesis remains testable on open federal/cantonal and European surveillance series, with the same rolling-origin information-set restriction. The claim is then narrowed from operational demand to crisis forecasting rather than abandoned.
+**Risk — operational data access.** *Mitigation:* agreements are initiated before the grant starts and supporting letters accompany the application. If clinical operational data are delayed, the primary hypothesis remains testable on open federal/cantonal and European surveillance series, with the same rolling-origin information-set restriction. The claim is then narrowed to routinely observed crisis indicators, and WP4 becomes illustrative rather than confirmatory.
 
 ---
 
@@ -436,7 +437,7 @@ If authorised, run the framework alongside routine operations with forecasts rec
 
 The design avoids a serial chain in which one uncertain result can stop the project. WP2 can use weakly informative priors if WP1 finds that automated evidence extraction is inadequate. WP3 can use open surveillance data if operational access is delayed. WP4's main decision analysis is retrospective and does not depend on prospective deployment.
 
-**What the data fallback costs, stated plainly.** Open surveillance series are not the same outcome as emergency-system demand. Falling back to them **preserves the methodological test of evidence borrowing but narrows the primary outcome claim** — from operational health-system demand to routinely observed crisis indicators. The central hypothesis H3a remains testable; what would be lost is the direct operational interpretation, and with it most of WP4's decision analysis, which would become illustrative rather than confirmatory. This is why the data agreements are treated as a pre-award action rather than a project risk to be managed later.
+**What the data fallback costs, stated plainly.** Open surveillance series are not the same outcome as emergency-system demand. Falling back to them **preserves the methodological test of evidence borrowing but narrows the primary outcome claim** — from operational health-system demand to routinely observed crisis indicators. H3a remains testable; what would be lost is the direct operational interpretation, and with it most of WP4's decision analysis, which would become illustrative rather than confirmatory. This is why the data agreements are treated as a pre-award action rather than a project risk to be managed later.
 
 | Milestone | Month | Criterion |
 | --- | ---: | --- |
@@ -462,7 +463,7 @@ Data access, missingness and prospective deployment are handled through explicit
 
 ## Expected outputs
 
-The project will produce approximately four to six papers and two durable open resources: the quantitative extraction benchmark and the evidence-to-prior/reference modelling framework. The doctoral researcher will lead the benchmark and evaluation outputs; I will lead the methodological and integrative papers.
+The project will produce approximately four to six papers and two durable open resources: the quantitative extraction benchmark and the evidence-to-prior/reference modelling framework. **I will lead the methodological, benchmark and integrative outputs; any approved support staff will contribute defined technical or extraction tasks and will not be presented as independent scientific leads.**
 
 
 ---
@@ -471,7 +472,7 @@ The project will produce approximately four to six papers and two durable open r
 
 ## 5.1 Scientific relevance
 
-The project tests an assumption that crisis forecasting currently makes informally: that accumulated evidence from elsewhere can be used to compensate for missing local outcome data. The result is useful in either direction. If literature-derived priors improve cold-start forecasts, the project provides a principled and auditable way to borrow information. If the benefit is weak, conditional or negative, the project establishes when borrowing should not be trusted — an equally important result because manual parameter selection from a few familiar papers is common but rarely evaluated as a forecasting intervention.
+The project tests an assumption that crisis forecasting currently makes informally: that accumulated evidence from elsewhere can provide useful information when local outcome data are insufficient. The result is useful in either direction. If literature-derived priors improve cold-start forecasts, the project provides a principled and auditable way to borrow information. If the benefit is weak, conditional or negative, the project establishes when borrowing should not be trusted — an equally important result because manual parameter selection from a few familiar papers is common but rarely evaluated as a forecasting intervention.
 
 The project also leaves three durable resources:
 
@@ -497,7 +498,7 @@ The Geneva setting provides a realistic operational anchor through established e
 
 **3. The key instrument is mine.** I developed LiteRev and, subsequently, LiteRev-Evidence. The platform is already operational and is used as the instrument through which the project asks its scientific question. Ambizione funds the research programme around the instrument, not the creation of the instrument itself.
 
-**4. The research line and supervision will be mine.** I will lead the methodological work, supervise the doctoral researcher and be the scientific lead for the integrated programme. The project is distinct from my collaborative roles in GESICA and the Horizon consortium:
+**4. The research line and scientific leadership will be mine.** I will lead the methodological work, the confirmatory analysis and the integrated programme. Limited approved support staff, if requested, will carry bounded technical/extraction tasks and will not be presented as independent scientific leads. The project is distinct from my collaborative roles in GESICA and the Horizon consortium:
 
 | | GESICA | Horizon consortium | **Ambizione project** |
 | --- | --- | --- | --- |
@@ -508,7 +509,7 @@ The Geneva setting provides a realistic operational anchor through established e
 
 The host arrangement reinforces rather than dilutes this independence. I will move into **Data Science for Digital Health, Department of Radiology and Medical Informatics**, a different department and scientific community from the one in which I trained, while maintaining an associated connection to the Institute of Global Health and a formal clinical collaboration with HUG emergency medicine. The host provides methods, domain access and clinical interaction; it does not define the research question or own the programme.
 
-The career outcome is therefore concrete: Ambizione would allow me to establish an independent line at the intersection of evidence synthesis, quantitative time-series modelling and emergency public health, lead a doctoral researcher, and develop a programme that can continue beyond the grant independently of the collaborative infrastructure from which it originated.
+The career outcome is therefore concrete: Ambizione would allow me to establish an independent line at the intersection of evidence synthesis, quantitative time-series modelling and emergency public health, lead the research programme directly, and develop a line that can continue beyond the grant independently of the collaborative infrastructure from which it originated.
 
 
 ---
@@ -535,7 +536,7 @@ The project requires three capabilities that are rarely housed together: quantit
 
 ## 6.2 Commitments, by status
 
-Each row is labelled **secured** (signed or formally granted), **agreed** (confirmed in principle, letter pending), **requested** (asked, not yet answered) or **fallback** (no commitment sought; the design absorbs its absence). Nothing above its actual status.
+Each row is labelled **secured**, **agreed**, **requested** or **fallback**. Nothing is described above its actual status.
 
 | Item | Status | Evidence / action |
 | --- | --- | --- |
@@ -550,21 +551,21 @@ Each row is labelled **secured** (signed or formally granted), **agreed** (confi
 | Mobility host | `[[requested]]` | `[[letter of invitation]]` |
 | Computing | `[[requested]]` | `[[UNIGE HPC]]` |
 
-The three operational-data rows are the most important remaining feasibility items, and §4 states explicitly what their absence would cost the primary outcome claim. Nothing in this proposal is described as a collaboration or a commitment beyond the status recorded here.
+The three operational-data rows are the most important remaining feasibility items, and §4 states explicitly what their absence would cost the primary outcome claim. Nothing in this proposal is described as a collaboration or commitment beyond the status recorded here.
 
 ## 6.3 Resources requested
 
-`[[Complete with the grants office. Confirm the 2026 Ambizione ceiling and current doctoral salary rates before finalising.]]`
+The 2026 Ambizione regulations cap project funds at **CHF 250,000 over four years**. Doctoral students and postdocs cannot be employed through an Ambizione grant. The budget will therefore prioritise the PI's scientific work and a limited, justified amount of eligible **other-employee** support for bounded technical/extraction tasks, plus computing/data, travel and other directly project-linked costs. The exact institutional salary rates and allocation will be confirmed with the UNIGE grants office.
 
 | Item | Rationale |
 | --- | --- |
-| Doctoral researcher, `[[~42 months]]` | Quantitative extraction benchmark and reproducible retrospective evaluation |
+| Other-employee support, `[[FTE/months]]` | Bounded quantitative extraction, data engineering and reproducibility tasks |
 | Expert extraction time | Gold-standard benchmark for WP1 |
-| Computing and storage | Evidence processing, Bayesian estimation and rolling-origin evaluation |
+| Computing and data access | Evidence processing, Bayesian estimation and rolling-origin evaluation |
 | Travel/research stays | Scientific exchange and mobility component |
-| Open access/data publication | Benchmark and software dissemination |
+| Other eligible direct costs | As justified in the final SNSF budget |
 
-**Division of labour.** I execute WP2 and lead the integrated evaluation because these are the methodological core. The doctoral researcher carries the benchmark and evaluation pipeline under my supervision. WP4 is conducted with operational partners but remains scientifically led by me.
+**Division of labour.** I execute WP2 and lead the integrated evaluation because these are the methodological core. Any approved support staff carry defined technical/extraction tasks under my supervision. WP4 is conducted with operational partners but remains scientifically led by me.
 
 ## 6.4 Preparatory work before the grant starts
 

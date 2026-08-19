@@ -13,10 +13,16 @@ way these applications fail.
 
 `[HIGH]` Duration: **maximum 4 years, minimum 2 years**.
 
-`[VERIFY]` Funding for the 2026 call: the grantee's **salary** (including social security
-contributions) plus **project funds capped at approximately CHF 250,000** for a four-year grant.
-This is a reduction from the earlier ceiling of CHF 400,000 — budget against the 2026 figure,
-not against older examples you may be shown by colleagues.
+`[HIGH]` Funding for the 2026 call: the grantee's **salary** (including social security
+contributions) plus **project funds capped at CHF 250,000** for a four-year grant — down from the
+earlier CHF 400,000 ceiling. Budget against the 2026 figure, not older examples.
+
+`[HIGH]` **Doctoral students and postdocs cannot be employed from Ambizione project funds.** This
+changed from the 2025 call onwards; employment of *other* staff (technical and scientific
+assistants) remains possible. Confirmed independently against the official guidelines
+(version 11 August 2026) and against university grant-office summaries. The practical consequence
+is large: **the project must be PI-led**, and any proposal budgeting a doctoral researcher is
+building on a rule that no longer exists.
 
 `[VERIFY]` Salary placeholder for budgeting purposes: around **CHF 115,000/year** (older
 guidance said ~CHF 105,000). Check the current figure in the call document.

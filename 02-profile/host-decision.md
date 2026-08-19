@@ -31,10 +31,10 @@ Three supporting reasons:
 ## What would change my recommendation
 
 **If Teodoro cannot commit to the independence terms.** He is an assistant professor; the binding
-questions are whether he can offer space and computing, and whether you can **formally supervise
-doctoral students** in that department, or only co-supervise. If doctoral supervision has to run
-through him, much of the independence advantage evaporates and ISG under a full professor who
-*can* delegate it may be better.
+questions are whether he can offer space, computing and an arrangement compatible with independent
+scientific leadership. Doctoral supervision rights matter for the group beyond this grant — the
+2026 rules do not allow doctoral students to be employed from Ambizione funds — but they are no
+longer part of the budget question, so weigh them accordingly.
 
 **If there is an ISG group with a distinct name and its own budget line** that you have not
 co-published with. A formally constituted separate unit is more visible from outside than "a
@@ -47,12 +47,12 @@ Do not decide on preference. Send **both** candidates the independence paragraph
 
 > Dr Orel will establish and lead his own research group within the department, on a research line
 > he has defined and which is distinct from the group's existing programme. He will act as
-> principal investigator, recruit and supervise his own doctoral researcher(s), hold his own
-> ethics approvals, and manage his own budget.
+> principal investigator, define and lead his own research line, hold his own ethics approvals,
+> and manage his own budget.
 
 Whoever signs that without softening it is the right host. Whoever hedges has told you something
-important, early and cheaply. Ask in the same message about **space, computing, and the formal
-route to doctoral supervision** — those are the three things that turn the sentence into a fact.
+important, early and cheaply. Ask in the same message about **space, computing, and the working
+arrangement** — those are what turn the sentence into a fact.
 
 ## Worth asking: can you have both?
 

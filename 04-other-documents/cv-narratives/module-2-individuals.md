@@ -42,7 +42,8 @@ such a setting consists of translation: making a modelling constraint intelligib
 and a clinical constraint intelligible to an engineer. I have found this to be where projects
 succeed or quietly fail.
 
-**Where this goes.** The grant I am applying for would fund the first doctoral researcher I
-supervise as principal investigator, on a question I defined, with a work plan structured so that
-the student holds two coherent work packages rather than fragments of mine. Preparing to do this
-well — rather than claiming to have done it already — is the honest position at my career stage.
+**Where this goes.** The grant would establish me as principal investigator of a research line I
+defined, leading its scientific programme, and would give me the standing to supervise doctoral
+students funded through other channels — the step I am preparing for rather than claiming to have
+taken. Developing others is the part of the academic role for which I have the least evidence and
+the clearest intention, and I would rather say so than dress a co-authorship up as mentorship.

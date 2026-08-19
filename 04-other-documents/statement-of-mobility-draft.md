@@ -6,7 +6,7 @@ a 1.5-page allowance, slightly over a strict single page at 10 pt / 1.5 spacing.
 
 **If it must fit one page, cut in this order:** (1) the international-networks paragraph in §1,
 compressed to one sentence; (2) the third mobility bullet (RIVM/ECDC); (3) the closing sentence
-about hosting and the doctoral researcher's stay. Do **not** cut the opening admission, the
+about hosting visiting collaborators. Do **not** cut the opening admission, the
 sectoral-mobility paragraph, or the UNIL bullet — those are the three things carrying the case.
 
 Guidance and reasoning behind the choices are in `statement-of-mobility.md`.
@@ -68,8 +68,8 @@ neighbours of the evidence-extraction half of this project.
 in a **different department and a different scientific community** from those in which I trained:
 from the Institute of Global Health and global-health epidemiological modelling to the Department
 of Radiology and Medical Informatics. I will be hosted by a colleague with whom I collaborate as a
-peer rather than by a former supervisor, and will lead my own group, supervise my own doctoral
-researcher and hold my own ethics approvals.
+peer rather than by a former supervisor, and will lead my own research line, direct its
+scientific programme and hold my own ethics approvals.
 
 `[[Optional, and only if true: any personal or family circumstances constraining relocation may
 be stated here. The SNSF takes such factors into account and they are not held against
@@ -88,6 +88,5 @@ Mobility is built into the work plan rather than appended to it.
 - **`[[RIVM, Netherlands, or ECDC]]`. `[[short stay, year 4]]`.** European surveillance
   perspective for the generalisability assessment.
 
-I will also host visiting collaborators in Geneva, and the doctoral researcher funded by this
-grant will undertake a research stay of their own `[[specify]]` — mobility being part of what I
-intend to give as a supervisor, not only something I undertake.
+I will also host visiting collaborators in Geneva, so that the exchange runs in both directions
+rather than only outward.
