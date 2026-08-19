@@ -5,9 +5,20 @@
 
 ## Overall aim
 
-To determine **whether, and under what conditions, published quantitative evidence can compensate for missing local outcome data at the onset of a health-system crisis — and whether the resulting forecasts improve decisions.**
+To determine **whether, and under what conditions, published quantitative evidence provides useful information when local outcome data are insufficient at the onset of a health-system crisis — and whether the resulting forecasts change decisions.** The claim is not that external evidence substitutes for local observation; it is that it can carry information during the window before local data become informative.
 
-The project is organised around one central hypothesis and three supporting questions. The supporting methods are deliberately subordinate to this test: extraction establishes whether the evidence can be trusted; the regime model provides a common representation of escalation; resilience indicators provide a complementary local signal; and decision analysis establishes whether forecast differences matter operationally.
+The project has **one central hypothesis, H3a**, and everything else is subordinate to testing it:
+
+| | Role | Statement |
+| --- | --- | --- |
+| **H1** | Methodological validation | Can the evidence be trusted enough to use? |
+| **C2** | Model adequacy criterion | Is the state representation fit to compare borrowing strategies in? |
+| **H3a** | **Central hypothesis** | **Do evidence-derived priors improve cold-start forecast skill?** |
+| **H3b** | Robustness | Is adaptive borrowing safe when the prior is wrong? |
+| **H3c** | Secondary channel | Do resilience indicators add information beyond the prior? |
+| **H4** | Decision value | Is any predictive gain large enough to change an operational choice? |
+
+C2 is stated as a **criterion rather than a hypothesis**: the latent-state representation exists to provide a common target in which borrowing strategies can be compared fairly, not to establish that regime switching is generally superior to thresholding a point forecast.
 
 ---
 
@@ -23,7 +34,9 @@ The directional prediction follows from the observed difficulty of numerical ext
 
 Develop a parsimonious latent-state representation of health-system escalation that can accept evidence-derived priors and compare them fairly with weakly informative alternatives.
 
-> **H2.** A latent regime representation improves probabilistic identification of transitions into elevated, strained and critical states relative to thresholding a point forecast, at matched false-alarm rates and with calibrated uncertainty.
+> **C2 — model adequacy criterion.** The latent-state representation must yield **identifiable** parameters and **calibrated** probabilities of escalation states at matched false-alarm rates. Its role is to provide the common state representation in which evidence-borrowing strategies are compared; it is not advanced as a claim that regime switching is generally superior to thresholding a point forecast.
+
+C2 is verified rather than discovered: the identifiability study in T2.1 and the calibration checks in T3.3 either establish adequacy or trigger the pre-specified ordinal state-space fallback. Either outcome leaves the central test of H3a intact.
 
 Extreme-value modelling is used to represent the tail of the critical state. Critical-slowing-down indicators are treated as **supporting, theory-derived covariates** on transition dynamics, not as a separate project-level claim. Their incremental value is tested against level and trend information.
 
@@ -33,7 +46,12 @@ Determine whether evidence-derived priors improve forecasts when local outcome d
 
 > **H3a.** Evidence-derived priors improve probabilistic forecast skill during the early phase of a crisis, with the advantage declining as local observations accumulate.
 
-> **H3b.** Adaptive borrowing that discounts the evidence when prior–data conflict emerges performs at least as well as fixed borrowing and limits the degradation caused by a misspecified prior.
+> **H3b.** Adaptive borrowing that discounts the evidence when prior–data conflict emerges is
+> **non-inferior** to fixed borrowing under well-specified priors, within a pre-specified margin
+> `[[Δ]]` on the CRPS skill score, and is **superior** to fixed borrowing under deliberately
+> misspecified priors.
+
+H3b is deliberately two-sided: non-inferiority where the evidence is sound, superiority where it is not. The margin `[[Δ]]` is fixed before the historical evaluation and justified against the size of the rung 3 → rung 4 effect the study is powered to detect, so that "no material loss" is a quantity rather than a rhetorical claim.
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 
@@ -46,7 +64,9 @@ These hypotheses are tested through a pre-specified model ladder rather than by 
 5. adaptive evidence borrowing with prior–data conflict monitoring;
 6. adaptive borrowing plus resilience indicators.
 
-The confirmatory comparison is the incremental value of steps 4–6 in the cold-start window. Once local data become sufficiently informative, the expected advantage of borrowing should disappear; the project therefore tests the **shape of the advantage over time**, not only one aggregate score.
+**Primary confirmatory comparison — one, stated once.** Rung 4 (fixed evidence-derived priors) against rung 3 (weakly informative priors), measured by **CRPS skill score**, over the pre-specified cold-start window of `[[the first N weeks after onset]]`, pooled across origins by block bootstrap. Every other contrast on the ladder — rungs 1–2 as context, rung 5 for H3b, rung 6 for H3c — is secondary and labelled as such.
+
+Once local data become sufficiently informative the advantage should disappear, so the project also reports the **shape of the advantage over elapsed local data** rather than a single aggregate score. That decay curve is the descriptive result; the rung 3 versus rung 4 contrast is the confirmatory one.
 
 ## O4 — Establish whether predictive improvement is decision-relevant
 

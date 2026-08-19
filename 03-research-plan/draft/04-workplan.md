@@ -12,7 +12,13 @@ Staffing: PI `[[Erol Orel, XX%]]` and one doctoral researcher (`[[months]]`). Th
 
 ### T1.1 — Define the evidence target and register the protocol *(M1–M4)*
 
-Pre-specify a small set of parameter classes that directly enter the forecasting problem: weather–demand associations, surge magnitudes, transmission parameters, shedding-to-incidence conversions, and length-of-stay/occupancy distributions. Define inclusion criteria, effect measures, uncertainty representation and transportability variables before extraction.
+Pre-specify the parameter classes, split by whether they enter the primary forecasting problem.
+
+**Core — extracted and benchmarked in full.** These are the quantities the demand model actually consumes: **weather–demand associations**, **surge magnitudes** (peak-to-baseline ratios), and **length-of-stay / occupancy distributions**.
+
+**Secondary — extracted only if core work completes on schedule.** **Transmission parameters** and **shedding-to-incidence conversions**. Both are scientifically interesting — the second is the bridge between wastewater signals and expected presentations — but the project's primary outcome is health-system demand, not incidence, so neither is on the critical path. They are declared as extensions rather than promised.
+
+Define inclusion criteria, effect measures, uncertainty representation and transportability variables before extraction.
 
 ### T1.2 — Build the quantitative extraction benchmark *(M3–M9)*
 
@@ -101,7 +107,9 @@ At each origin compare:
 
 This isolates the incremental value of the literature prior, then tests whether adaptive discounting and resilience indicators add further value. The primary endpoint is the difference in probabilistic forecast skill during the cold-start window and its decay with elapsed local data.
 
-Use strictly proper scoring rules (CRPS and log score), calibration and interval coverage. Compare methods at matched false-alarm rates for escalation detection. Confirmatory contrasts are registered before the historical evaluation is run; exploratory feature searches are clearly separated.
+**Primary endpoint:** the CRPS skill score of rung 4 relative to rung 3 over the pre-specified cold-start window, with uncertainty by block bootstrap over crisis episodes. Secondary endpoints: log score, calibration (PIT, interval coverage), and escalation detection compared at matched false-alarm rates.
+
+**The non-inferiority margin `[[Δ]]` for H3b is fixed here, before any historical evaluation**, and justified against the rung 3 → rung 4 effect size the study is powered to detect: adaptive borrowing is declared non-inferior if its CRPS skill score is no worse than fixed borrowing by more than `[[Δ]]`. The superiority half of H3b is tested on the deliberately misspecified priors constructed in T3.4. Confirmatory contrasts are registered before the evaluation runs; exploratory searches are separated and labelled.
 
 ### T3.4 — Map benefit and failure *(M28–M38)*
 
@@ -148,6 +156,8 @@ If authorised, run the framework alongside routine operations with forecasts rec
 ## Dependencies, milestones and timing
 
 The design avoids a serial chain in which one uncertain result can stop the project. WP2 can use weakly informative priors if WP1 finds that automated evidence extraction is inadequate. WP3 can use open surveillance data if operational access is delayed. WP4's main decision analysis is retrospective and does not depend on prospective deployment.
+
+**What the data fallback costs, stated plainly.** Open surveillance series are not the same outcome as emergency-system demand. Falling back to them **preserves the methodological test of evidence borrowing but narrows the primary outcome claim** — from operational health-system demand to routinely observed crisis indicators. The central hypothesis H3a remains testable; what would be lost is the direct operational interpretation, and with it most of WP4's decision analysis, which would become illustrative rather than confirmatory. This is why the data agreements are treated as a pre-award action rather than a project risk to be managed later.
 
 | Milestone | Month | Criterion |
 | --- | ---: | --- |

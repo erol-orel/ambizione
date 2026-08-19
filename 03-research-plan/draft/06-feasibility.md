@@ -18,22 +18,24 @@ The project requires three capabilities that are rarely housed together: quantit
 
 **Computing.** `[[UNIGE HPC (Baobab/Yggdrasil) — confirm access and secure-analysis arrangement]]`.
 
-## 6.2 Secured commitments
+## 6.2 Commitments, by status
+
+Each row is labelled **secured** (signed or formally granted), **agreed** (confirmed in principle, letter pending), **requested** (asked, not yet answered) or **fallback** (no commitment sought; the design absorbs its absence). Nothing above its actual status.
 
 | Item | Status | Evidence / action |
 | --- | --- | --- |
-| Primary host unit (DS4DH) | **Agreed in principle** `[[confirm]]` | Detailed confirmation letter |
-| Associated affiliation (ISG) | `[[in discussion]]` | `[[letter of support]]` |
-| Institutional confirmation | `[[ ]]` | General confirmation letter |
-| HUG emergency data | `[[ ]]` | `[[letter of support]]` |
-| 144 / CASU dispatch data | `[[ ]]` | `[[letter of support]]` |
-| ICU occupancy data | `[[ ]]` | `[[letter of support]]` |
-| Legionellosis linked data | **Granted** | BASEC 2026-00324 |
-| Operational-data ethics | `[[new CCER submission, PI as applicant]]` | — |
-| Mobility host | `[[ ]]` | `[[letter]]` |
-| Computing | `[[ ]]` | — |
+| Legionellosis linked data | **Secured** | Ethics approval BASEC 2026-00324 |
+| Primary host unit (DS4DH) | **Agreed** `[[confirm]]` | Detailed confirmation letter to follow |
+| Associated affiliation (ISG) | `[[requested]]` | `[[letter of support]]` |
+| Institutional confirmation | `[[requested]]` | General confirmation letter, UNIGE |
+| HUG emergency department data | `[[requested]]` | `[[letter of support]]`; fallback in WP3 |
+| 144 / CASU dispatch data | `[[requested]]` | `[[letter of support]]`; fallback in WP3 |
+| ICU occupancy data | `[[requested]]` | `[[letter of support]]`; fallback in WP3 |
+| Operational-data ethics | `[[requested]]` | CCER submission, PI as applicant |
+| Mobility host | `[[requested]]` | `[[letter of invitation]]` |
+| Computing | `[[requested]]` | `[[UNIGE HPC]]` |
 
-The three operational-data rows are the most important remaining feasibility items. Obtain letters wherever possible before submission. The proposal retains an open-data fallback so that unresolved access does not become an unacknowledged single point of failure.
+The three operational-data rows are the most important remaining feasibility items, and §4 states explicitly what their absence would cost the primary outcome claim. Nothing in this proposal is described as a collaboration or a commitment beyond the status recorded here.
 
 ## 6.3 Resources requested
 

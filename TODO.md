@@ -78,6 +78,11 @@ other people saying yes; everything else you control. If you do nothing else thi
       support letters.
 - [ ] Draft the **CCER submission with yourself as applicant**. Being PI on your own ethics
       submission is checkable evidence of independence.
+- [ ] **Run `05-review/hypothesis-audit.md`.** For every hypothesis: predictor, outcome,
+      comparison, window, primary metric, decision rule. Anything that cannot be filled in cannot
+      be operationalised and should come out of the plan rather than be softened. Two cells are
+      load-bearing and only you can set them: the **non-inferiority margin `[[Δ]]` for H3b** and
+      the **cold-start window `[[N]]`** — both must be fixed before any evaluation is designed.
 - [ ] Run `05-review/self-assessment.md` end to end. Score honestly; anything below 4 gets a fix.
 - [ ] **Formatting compliance:** single PDF, no annexes, ≥10 pt, 1.5 spacing, within the page
       *and* character limits. Regenerate figures (`python3 draft/figures/make_figures.py`) and
@@ -105,6 +110,8 @@ other people saying yes; everything else you control. If you do nothing else thi
 2. **Keiser's role** — collaborator, mentor or supporter. A supporting letter describing the line
    as yours is worth more than her absence.
 3. **Third archetype** — Legionella is currently scoped as an extension in WP3. Keep or cut.
+   Related: WP1's secondary parameter classes (transmission parameters, shedding-to-incidence)
+   are now declared extensions rather than promised — confirm you are happy with that scoping.
 4. **Doctoral researcher vs postdoc** — drives the budget and the WP staffing lines.
 
 ## Where things are
@@ -112,6 +119,7 @@ other people saying yes; everything else you control. If you do nothing else thi
 | | |
 | --- | --- |
 | Research plan (assembled) | `03-research-plan/FINAL-research-plan.md` |
+| Hypothesis audit | `05-review/hypothesis-audit.md` |
 | Research plan (edit here) | `03-research-plan/draft/` — then `sh draft/assemble.sh` |
 | Figures | `03-research-plan/draft/figures/` |
 | CV narratives + output list | `04-other-documents/cv-narratives/` |

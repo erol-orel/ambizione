@@ -180,9 +180,20 @@ arrived at by building the thing that raises it.
 
 ## Overall aim
 
-To determine **whether, and under what conditions, published quantitative evidence can compensate for missing local outcome data at the onset of a health-system crisis — and whether the resulting forecasts improve decisions.**
+To determine **whether, and under what conditions, published quantitative evidence provides useful information when local outcome data are insufficient at the onset of a health-system crisis — and whether the resulting forecasts change decisions.** The claim is not that external evidence substitutes for local observation; it is that it can carry information during the window before local data become informative.
 
-The project is organised around one central hypothesis and three supporting questions. The supporting methods are deliberately subordinate to this test: extraction establishes whether the evidence can be trusted; the regime model provides a common representation of escalation; resilience indicators provide a complementary local signal; and decision analysis establishes whether forecast differences matter operationally.
+The project has **one central hypothesis, H3a**, and everything else is subordinate to testing it:
+
+| | Role | Statement |
+| --- | --- | --- |
+| **H1** | Methodological validation | Can the evidence be trusted enough to use? |
+| **C2** | Model adequacy criterion | Is the state representation fit to compare borrowing strategies in? |
+| **H3a** | **Central hypothesis** | **Do evidence-derived priors improve cold-start forecast skill?** |
+| **H3b** | Robustness | Is adaptive borrowing safe when the prior is wrong? |
+| **H3c** | Secondary channel | Do resilience indicators add information beyond the prior? |
+| **H4** | Decision value | Is any predictive gain large enough to change an operational choice? |
+
+C2 is stated as a **criterion rather than a hypothesis**: the latent-state representation exists to provide a common target in which borrowing strategies can be compared fairly, not to establish that regime switching is generally superior to thresholding a point forecast.
 
 ---
 
@@ -198,7 +209,9 @@ The directional prediction follows from the observed difficulty of numerical ext
 
 Develop a parsimonious latent-state representation of health-system escalation that can accept evidence-derived priors and compare them fairly with weakly informative alternatives.
 
-> **H2.** A latent regime representation improves probabilistic identification of transitions into elevated, strained and critical states relative to thresholding a point forecast, at matched false-alarm rates and with calibrated uncertainty.
+> **C2 — model adequacy criterion.** The latent-state representation must yield **identifiable** parameters and **calibrated** probabilities of escalation states at matched false-alarm rates. Its role is to provide the common state representation in which evidence-borrowing strategies are compared; it is not advanced as a claim that regime switching is generally superior to thresholding a point forecast.
+
+C2 is verified rather than discovered: the identifiability study in T2.1 and the calibration checks in T3.3 either establish adequacy or trigger the pre-specified ordinal state-space fallback. Either outcome leaves the central test of H3a intact.
 
 Extreme-value modelling is used to represent the tail of the critical state. Critical-slowing-down indicators are treated as **supporting, theory-derived covariates** on transition dynamics, not as a separate project-level claim. Their incremental value is tested against level and trend information.
 
@@ -208,7 +221,12 @@ Determine whether evidence-derived priors improve forecasts when local outcome d
 
 > **H3a.** Evidence-derived priors improve probabilistic forecast skill during the early phase of a crisis, with the advantage declining as local observations accumulate.
 
-> **H3b.** Adaptive borrowing that discounts the evidence when prior–data conflict emerges performs at least as well as fixed borrowing and limits the degradation caused by a misspecified prior.
+> **H3b.** Adaptive borrowing that discounts the evidence when prior–data conflict emerges is
+> **non-inferior** to fixed borrowing under well-specified priors, within a pre-specified margin
+> `[[Δ]]` on the CRPS skill score, and is **superior** to fixed borrowing under deliberately
+> misspecified priors.
+
+H3b is deliberately two-sided: non-inferiority where the evidence is sound, superiority where it is not. The margin `[[Δ]]` is fixed before the historical evaluation and justified against the size of the rung 3 → rung 4 effect the study is powered to detect, so that "no material loss" is a quantity rather than a rhetorical claim.
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 
@@ -221,7 +239,9 @@ These hypotheses are tested through a pre-specified model ladder rather than by 
 5. adaptive evidence borrowing with prior–data conflict monitoring;
 6. adaptive borrowing plus resilience indicators.
 
-The confirmatory comparison is the incremental value of steps 4–6 in the cold-start window. Once local data become sufficiently informative, the expected advantage of borrowing should disappear; the project therefore tests the **shape of the advantage over time**, not only one aggregate score.
+**Primary confirmatory comparison — one, stated once.** Rung 4 (fixed evidence-derived priors) against rung 3 (weakly informative priors), measured by **CRPS skill score**, over the pre-specified cold-start window of `[[the first N weeks after onset]]`, pooled across origins by block bootstrap. Every other contrast on the ladder — rungs 1–2 as context, rung 5 for H3b, rung 6 for H3c — is secondary and labelled as such.
+
+Once local data become sufficiently informative the advantage should disappear, so the project also reports the **shape of the advantage over elapsed local data** rather than a single aggregate score. That decay curve is the descriptive result; the rung 3 versus rung 4 contrast is the confirmatory one.
 
 ## O4 — Establish whether predictive improvement is decision-relevant
 
@@ -271,7 +291,13 @@ Staffing: PI `[[Erol Orel, XX%]]` and one doctoral researcher (`[[months]]`). Th
 
 ### T1.1 — Define the evidence target and register the protocol *(M1–M4)*
 
-Pre-specify a small set of parameter classes that directly enter the forecasting problem: weather–demand associations, surge magnitudes, transmission parameters, shedding-to-incidence conversions, and length-of-stay/occupancy distributions. Define inclusion criteria, effect measures, uncertainty representation and transportability variables before extraction.
+Pre-specify the parameter classes, split by whether they enter the primary forecasting problem.
+
+**Core — extracted and benchmarked in full.** These are the quantities the demand model actually consumes: **weather–demand associations**, **surge magnitudes** (peak-to-baseline ratios), and **length-of-stay / occupancy distributions**.
+
+**Secondary — extracted only if core work completes on schedule.** **Transmission parameters** and **shedding-to-incidence conversions**. Both are scientifically interesting — the second is the bridge between wastewater signals and expected presentations — but the project's primary outcome is health-system demand, not incidence, so neither is on the critical path. They are declared as extensions rather than promised.
+
+Define inclusion criteria, effect measures, uncertainty representation and transportability variables before extraction.
 
 ### T1.2 — Build the quantitative extraction benchmark *(M3–M9)*
 
@@ -360,7 +386,9 @@ At each origin compare:
 
 This isolates the incremental value of the literature prior, then tests whether adaptive discounting and resilience indicators add further value. The primary endpoint is the difference in probabilistic forecast skill during the cold-start window and its decay with elapsed local data.
 
-Use strictly proper scoring rules (CRPS and log score), calibration and interval coverage. Compare methods at matched false-alarm rates for escalation detection. Confirmatory contrasts are registered before the historical evaluation is run; exploratory feature searches are clearly separated.
+**Primary endpoint:** the CRPS skill score of rung 4 relative to rung 3 over the pre-specified cold-start window, with uncertainty by block bootstrap over crisis episodes. Secondary endpoints: log score, calibration (PIT, interval coverage), and escalation detection compared at matched false-alarm rates.
+
+**The non-inferiority margin `[[Δ]]` for H3b is fixed here, before any historical evaluation**, and justified against the rung 3 → rung 4 effect size the study is powered to detect: adaptive borrowing is declared non-inferior if its CRPS skill score is no worse than fixed borrowing by more than `[[Δ]]`. The superiority half of H3b is tested on the deliberately misspecified priors constructed in T3.4. Confirmatory contrasts are registered before the evaluation runs; exploratory searches are separated and labelled.
 
 ### T3.4 — Map benefit and failure *(M28–M38)*
 
@@ -407,6 +435,8 @@ If authorised, run the framework alongside routine operations with forecasts rec
 ## Dependencies, milestones and timing
 
 The design avoids a serial chain in which one uncertain result can stop the project. WP2 can use weakly informative priors if WP1 finds that automated evidence extraction is inadequate. WP3 can use open surveillance data if operational access is delayed. WP4's main decision analysis is retrospective and does not depend on prospective deployment.
+
+**What the data fallback costs, stated plainly.** Open surveillance series are not the same outcome as emergency-system demand. Falling back to them **preserves the methodological test of evidence borrowing but narrows the primary outcome claim** — from operational health-system demand to routinely observed crisis indicators. The central hypothesis H3a remains testable; what would be lost is the direct operational interpretation, and with it most of WP4's decision analysis, which would become illustrative rather than confirmatory. This is why the data agreements are treated as a pre-award action rather than a project risk to be managed later.
 
 | Milestone | Month | Criterion |
 | --- | ---: | --- |
@@ -503,22 +533,24 @@ The project requires three capabilities that are rarely housed together: quantit
 
 **Computing.** `[[UNIGE HPC (Baobab/Yggdrasil) — confirm access and secure-analysis arrangement]]`.
 
-## 6.2 Secured commitments
+## 6.2 Commitments, by status
+
+Each row is labelled **secured** (signed or formally granted), **agreed** (confirmed in principle, letter pending), **requested** (asked, not yet answered) or **fallback** (no commitment sought; the design absorbs its absence). Nothing above its actual status.
 
 | Item | Status | Evidence / action |
 | --- | --- | --- |
-| Primary host unit (DS4DH) | **Agreed in principle** `[[confirm]]` | Detailed confirmation letter |
-| Associated affiliation (ISG) | `[[in discussion]]` | `[[letter of support]]` |
-| Institutional confirmation | `[[ ]]` | General confirmation letter |
-| HUG emergency data | `[[ ]]` | `[[letter of support]]` |
-| 144 / CASU dispatch data | `[[ ]]` | `[[letter of support]]` |
-| ICU occupancy data | `[[ ]]` | `[[letter of support]]` |
-| Legionellosis linked data | **Granted** | BASEC 2026-00324 |
-| Operational-data ethics | `[[new CCER submission, PI as applicant]]` | — |
-| Mobility host | `[[ ]]` | `[[letter]]` |
-| Computing | `[[ ]]` | — |
+| Legionellosis linked data | **Secured** | Ethics approval BASEC 2026-00324 |
+| Primary host unit (DS4DH) | **Agreed** `[[confirm]]` | Detailed confirmation letter to follow |
+| Associated affiliation (ISG) | `[[requested]]` | `[[letter of support]]` |
+| Institutional confirmation | `[[requested]]` | General confirmation letter, UNIGE |
+| HUG emergency department data | `[[requested]]` | `[[letter of support]]`; fallback in WP3 |
+| 144 / CASU dispatch data | `[[requested]]` | `[[letter of support]]`; fallback in WP3 |
+| ICU occupancy data | `[[requested]]` | `[[letter of support]]`; fallback in WP3 |
+| Operational-data ethics | `[[requested]]` | CCER submission, PI as applicant |
+| Mobility host | `[[requested]]` | `[[letter of invitation]]` |
+| Computing | `[[requested]]` | `[[UNIGE HPC]]` |
 
-The three operational-data rows are the most important remaining feasibility items. Obtain letters wherever possible before submission. The proposal retains an open-data fallback so that unresolved access does not become an unacknowledged single point of failure.
+The three operational-data rows are the most important remaining feasibility items, and §4 states explicitly what their absence would cost the primary outcome claim. Nothing in this proposal is described as a collaboration or a commitment beyond the status recorded here.
 
 ## 6.3 Resources requested
 
