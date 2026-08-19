@@ -1,6 +1,6 @@
 # Research plan — draft v0.2
 
-Assemble in this order. The character/page limits must be verified against the **2026 Ambizione call documents** before submission.
+Assemble in this order. The **2026 SNSF Ambizione guidelines (version 11.08.2026)** require a maximum of **15 A4 pages and 60,000 characters including spaces**; the mySNF character counter is binding. The bibliography is excluded. Minimum 10-point font and 1.5 line spacing apply, and the research plan must be one PDF without annexes. Tables, illustrations and formulae count toward the character limit.
 
 | File | Section | Status |
 | --- | --- | --- |
@@ -11,7 +11,7 @@ Assemble in this order. The character/page limits must be verified against the *
 | `04-workplan.md` | Detailed research plan | Revised; PI-led, no doctoral/postdoctoral staffing |
 | `05-impact-independence.md` | Relevance, impact, independence | Revised |
 | `06-feasibility.md` | Feasibility, environment, resources | Revised; 2026 budget/staffing rules reflected |
-| `99-bibliography.md` | Bibliography | Citation verification still required |
+| `99-bibliography.md` | Bibliography | Excluded from character/page maximum |
 | `figures/` | Framework and Gantt | Regenerate from committed generator before submission |
 
 ## Conventions
@@ -52,4 +52,4 @@ python3 03-research-plan/draft/figures/make_figures.py
 sh 03-research-plan/draft/assemble.sh
 ```
 
-Then verify idempotence by running both commands a second time and confirming no tracked diff remains.
+Then verify idempotence by running both commands a second time and confirming no tracked diff remains. The final character count must be checked in **mySNF**, because that counter is binding.
