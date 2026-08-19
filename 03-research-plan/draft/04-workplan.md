@@ -2,7 +2,7 @@
 
 Four work packages over 48 months. The workplan is deliberately built around the central experiment: **does borrowing quantitative evidence improve forecasting before local outcomes become informative?** WP1 establishes whether the evidence can be trusted; WP2 supplies the common state representation; WP3 is the decisive cold-start evaluation; WP4 translates predictive differences into operational value. No positive result from an earlier package is required for the later packages to produce a publishable answer.
 
-Staffing: PI `[[Erol Orel, XX%]]` and one doctoral researcher (`[[months]]`). The PI leads the methodological core (WP2) and the integration/evaluation design. The doctoral researcher carries the benchmark and much of the reproducible evaluation work under supervision.
+**Staffing.** The project is PI-led. The Ambizione grant will **not request a doctoral student or postdoc**, because doctoral students and postdocs cannot be employed through Ambizione under the 2026 regulations. If justified and approved, limited **other-employee** support (scientific/technical/auxiliary staff) will be requested for bounded extraction, data-engineering and reproducibility tasks. I execute WP2 and lead the integrated evaluation; support staff do not constitute an independent scientific lead.
 
 ---
 
@@ -16,7 +16,7 @@ Pre-specify the parameter classes, split by whether they enter the primary forec
 
 **Core — extracted and benchmarked in full.** These are the quantities the demand model actually consumes: **weather–demand associations**, **surge magnitudes** (peak-to-baseline ratios), and **length-of-stay / occupancy distributions**.
 
-**Secondary — extracted only if core work completes on schedule.** **Transmission parameters** and **shedding-to-incidence conversions**. Both are scientifically interesting — the second is the bridge between wastewater signals and expected presentations — but the project's primary outcome is health-system demand, not incidence, so neither is on the critical path. They are declared as extensions rather than promised.
+**Secondary — extracted only if core work completes on schedule.** **Transmission parameters** and **shedding-to-incidence conversions**. Both are scientifically interesting — the second is the bridge between wastewater signals and expected presentations — but the project's primary outcome is health-system demand, not incidence, so neither is on the critical path.
 
 Define inclusion criteria, effect measures, uncertainty representation and transportability variables before extraction.
 
@@ -36,9 +36,9 @@ Represent extraction error explicitly as measurement error and compare pooling s
 
 Characterise effect modifiers and study-setting differences relevant to Geneva. Where transport is weak, widen or discount the prior rather than silently treating studies as exchangeable. This produces the metadata needed by WP3's prior–data conflict analysis.
 
-**Deliverables.** D1.1 open benchmark; D1.2 extraction-error analysis; D1.3 evidence-to-prior library with provenance and transportability metadata.
+**Deliverables.** D1.1 open benchmark; D1.2 extraction-error analysis; D1.3 evidence-to-prior library with provenance, extraction uncertainty and transportability metadata.
 
-**Risk.** Manual extraction is expensive. *Mitigation:* sample size is determined by simulation for the variance/dispersion quantity that matters; if expert time binds, the benchmark narrows to the parameter classes used in the core validation.
+**Risk.** Manual extraction is expensive. *Mitigation:* sample size is determined by simulation for the variance/dispersion quantity that matters; if expert time binds, the benchmark narrows to the parameter classes used in the core validation. Any approved support staff are used only for bounded extraction/data-engineering tasks.
 
 ---
 
@@ -92,7 +92,7 @@ The analysis is at daily aggregate level wherever possible. Missingness and repo
 
 ### T3.2 — Reconstruct the true information set *(M18–M30)*
 
-For each historical crisis onset, create successive forecast origins using **only information available at that date**. This includes only literature published and indexed before the origin date. Forecast at pre-specified horizons (`[[7, 14, 28 days]]`). The cold-start window is defined by elapsed local outcome observations, not retrospectively by a convenient calendar cut-off.
+For each historical crisis onset, create successive forecast origins using **only information available at that date**. This includes only literature published and indexed before the origin date. Forecast at pre-specified horizons (`[[7, 14, 28 days]]`). The cold-start window is defined by elapsed local outcome observations **after a pre-defined real-time onset criterion**. The onset rule may use only variables available at the forecast origin and cannot use the eventual peak, cumulative future cases or any other future information.
 
 ### T3.3 — Evaluate a pre-specified model ladder *(M20–M34)*
 
@@ -105,11 +105,11 @@ At each origin compare:
 5. adaptive evidence borrowing with prior–data conflict monitoring;
 6. adaptive borrowing plus resilience indicators.
 
-This isolates the incremental value of the literature prior, then tests whether adaptive discounting and resilience indicators add further value. The primary endpoint is the difference in probabilistic forecast skill during the cold-start window and its decay with elapsed local data.
+**Exactly one comparison is confirmatory: rung 4 vs rung 3 on the primary CRPS skill score over the pre-specified cold-start window.** All other ladder contrasts are secondary or robustness analyses.
 
-**Primary endpoint:** the CRPS skill score of rung 4 relative to rung 3 over the pre-specified cold-start window, with uncertainty by block bootstrap over crisis episodes. Secondary endpoints: log score, calibration (PIT, interval coverage), and escalation detection compared at matched false-alarm rates.
+**Primary endpoint:** the CRPS skill score of rung 4 relative to rung 3 over the cold-start window, with uncertainty by block bootstrap over crisis episodes. Secondary endpoints: log score, calibration (PIT, interval coverage), and escalation detection compared at matched false-alarm rates.
 
-**The non-inferiority margin `[[Δ]]` for H3b is fixed here, before any historical evaluation**, and justified against the rung 3 → rung 4 effect size the study is powered to detect: adaptive borrowing is declared non-inferior if its CRPS skill score is no worse than fixed borrowing by more than `[[Δ]]`. The superiority half of H3b is tested on the deliberately misspecified priors constructed in T3.4. Confirmatory contrasts are registered before the evaluation runs; exploratory searches are separated and labelled.
+**H3b non-inferiority margin `[[Δ]]` is fixed here, before any historical evaluation**, and justified against the rung 3 → rung 4 effect size the study is powered to detect. Adaptive borrowing is declared non-inferior if its CRPS skill deficit relative to fixed borrowing is no greater than `[[Δ]]`. The superiority half of H3b is tested on deliberately misspecified priors constructed in T3.4. Confirmatory contrasts are registered before the evaluation runs; exploratory searches are separated and labelled.
 
 ### T3.4 — Map benefit and failure *(M28–M38)*
 
@@ -123,7 +123,7 @@ Apply the framework to the second core archetype (heatwave) and, resources permi
 
 **Deliverables.** D3.1 reproducible cold-start evaluation pipeline; D3.2 primary result on the value of evidence-derived priors; D3.3 failure/stress-test map; D3.4 cross-archetype generalisation analysis.
 
-**Risk — operational data access.** *Mitigation:* agreements are initiated before the grant starts and supporting letters accompany the application. If clinical operational data are delayed, the primary hypothesis remains testable on open federal/cantonal and European surveillance series, with the same rolling-origin information-set restriction. The claim is then narrowed from operational demand to crisis forecasting rather than abandoned.
+**Risk — operational data access.** *Mitigation:* agreements are initiated before the grant starts and supporting letters accompany the application. If clinical operational data are delayed, the primary hypothesis remains testable on open federal/cantonal and European surveillance series, with the same rolling-origin information-set restriction. The claim is then narrowed to routinely observed crisis indicators, and WP4 becomes illustrative rather than confirmatory.
 
 ---
 
@@ -157,7 +157,7 @@ If authorised, run the framework alongside routine operations with forecasts rec
 
 The design avoids a serial chain in which one uncertain result can stop the project. WP2 can use weakly informative priors if WP1 finds that automated evidence extraction is inadequate. WP3 can use open surveillance data if operational access is delayed. WP4's main decision analysis is retrospective and does not depend on prospective deployment.
 
-**What the data fallback costs, stated plainly.** Open surveillance series are not the same outcome as emergency-system demand. Falling back to them **preserves the methodological test of evidence borrowing but narrows the primary outcome claim** — from operational health-system demand to routinely observed crisis indicators. The central hypothesis H3a remains testable; what would be lost is the direct operational interpretation, and with it most of WP4's decision analysis, which would become illustrative rather than confirmatory. This is why the data agreements are treated as a pre-award action rather than a project risk to be managed later.
+**What the data fallback costs, stated plainly.** Open surveillance series are not the same outcome as emergency-system demand. Falling back to them **preserves the methodological test of evidence borrowing but narrows the primary outcome claim** — from operational health-system demand to routinely observed crisis indicators. H3a remains testable; what would be lost is the direct operational interpretation, and with it most of WP4's decision analysis, which would become illustrative rather than confirmatory. This is why the data agreements are treated as a pre-award action rather than a project risk to be managed later.
 
 | Milestone | Month | Criterion |
 | --- | ---: | --- |
@@ -183,4 +183,4 @@ Data access, missingness and prospective deployment are handled through explicit
 
 ## Expected outputs
 
-The project will produce approximately four to six papers and two durable open resources: the quantitative extraction benchmark and the evidence-to-prior/reference modelling framework. The doctoral researcher will lead the benchmark and evaluation outputs; I will lead the methodological and integrative papers.
+The project will produce approximately four to six papers and two durable open resources: the quantitative extraction benchmark and the evidence-to-prior/reference modelling framework. **I will lead the methodological, benchmark and integrative outputs; any approved support staff will contribute defined technical or extraction tasks and will not be presented as independent scientific leads.**
