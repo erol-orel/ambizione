@@ -2,7 +2,7 @@
 
 ## 5.1 Scientific relevance
 
-The project tests an assumption that crisis forecasting currently makes informally: that accumulated evidence from elsewhere can be used to compensate for missing local outcome data. The result is useful in either direction. If literature-derived priors improve cold-start forecasts, the project provides a principled and auditable way to borrow information. If the benefit is weak, conditional or negative, the project establishes when borrowing should not be trusted — an equally important result because manual parameter selection from a few familiar papers is common but rarely evaluated as a forecasting intervention.
+The project tests an assumption that crisis forecasting currently makes informally: that accumulated evidence from elsewhere can be used to provide useful information when local outcome data are insufficient. The result is useful in either direction. If literature-derived priors improve cold-start forecasts, the project provides a principled and auditable way to borrow information. If the benefit is weak, conditional or negative, the project establishes when borrowing should not be trusted — an equally important result because manual parameter selection from a few familiar papers is common but rarely evaluated as a forecasting intervention.
 
 The project also leaves three durable resources:
 
@@ -28,7 +28,7 @@ The Geneva setting provides a realistic operational anchor through established e
 
 **3. The key instrument is mine.** I developed LiteRev and, subsequently, LiteRev-Evidence. The platform is already operational and is used as the instrument through which the project asks its scientific question. Ambizione funds the research programme around the instrument, not the creation of the instrument itself.
 
-**4. The research line and supervision will be mine.** I will lead the methodological work, supervise the doctoral researcher and be the scientific lead for the integrated programme. The project is distinct from my collaborative roles in GESICA and the Horizon consortium:
+**4. The research line and scientific leadership will be mine.** I will lead the methodological work, the confirmatory analysis and the integrated programme. Limited approved support staff, if requested, will carry bounded technical/extraction tasks and will not be presented as independent scientific leads. The project is distinct from my collaborative roles in GESICA and the Horizon consortium:
 
 | | GESICA | Horizon consortium | **Ambizione project** |
 | --- | --- | --- | --- |
@@ -39,4 +39,4 @@ The Geneva setting provides a realistic operational anchor through established e
 
 The host arrangement reinforces rather than dilutes this independence. I will move into **Data Science for Digital Health, Department of Radiology and Medical Informatics**, a different department and scientific community from the one in which I trained, while maintaining an associated connection to the Institute of Global Health and a formal clinical collaboration with HUG emergency medicine. The host provides methods, domain access and clinical interaction; it does not define the research question or own the programme.
 
-The career outcome is therefore concrete: Ambizione would allow me to establish an independent line at the intersection of evidence synthesis, quantitative time-series modelling and emergency public health, lead a doctoral researcher, and develop a programme that can continue beyond the grant independently of the collaborative infrastructure from which it originated.
+The career outcome is therefore concrete: Ambizione would allow me to establish an independent line at the intersection of evidence synthesis, quantitative time-series modelling and emergency public health, lead the research programme directly, and develop a line that can continue beyond the grant independently of the collaborative infrastructure from which it originated.
