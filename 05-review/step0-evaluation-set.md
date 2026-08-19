@@ -33,12 +33,87 @@ open substitute. Say so in the letters — it is a more precise ask than "retros
 
 ---
 
+## What the updated GESICA inventory settles
+
+The revised report and table (RSV added; twenty respiratory diseases in five priority tiers)
+answer several open cells and change one recommendation.
+
+**144/CASU is the best-characterised candidate outcome — by some distance.**
+
+- Geneva's CASU-144 is operated by **HUG**: **>165,000 calls/year, ~71,000 of them emergency
+  calls** — roughly **195 emergency calls per day**. That is ample volume for daily count
+  modelling, and it is a documented figure rather than an assumption.
+- Records carry date and time, age, sex, intervention type, unit engaged, **call reason**,
+  medical history, **EST urgency level** and destination facility. The urgency scale allows
+  severity stratification; the call reason carries the syndromic signal.
+- Single institutional interlocutor (HUG for Geneva), which the report notes simplifies access.
+- Your report's stated limitation — *"probablement plus adaptées à la prédiction de la demande
+  ambulancière qu'à l'incidence globale de la maladie"* — **is not a limitation for this project.**
+  The outcome here is demand, not incidence. The report is saying 144 data are well suited to
+  exactly what COLDSTART forecasts.
+
+**ED presentations, by contrast, appear nowhere in the inventory as a source.** Hospital
+statistics (D06) are annual with >1 year lag via the OFS. That is not proof that daily ED data
+cannot be obtained from HUG — only that it is undocumented, while 144 is documented and
+quantified.
+
+### Recommendation changed: make 144 emergency call volume the primary outcome
+
+I previously recommended ED presentations. The evidence in your own inventory reverses that:
+
+| | 144 calls | ED presentations |
+| --- | --- | --- |
+| Daily granularity | **Documented** | Undocumented `[[verify with HUG]]` |
+| Volume | ~195 emergency calls/day | `[[unknown]]` |
+| History | From centre commissioning `[[verify]]` | `[[unknown]]` |
+| Suited to demand forecasting | **Stated in your report** | Yes |
+| Decision relevance | Ambulance staffing and dispatch — a decision WP4 already covers | Bed capacity |
+| Interlocutor | HUG (single) | HUG |
+
+My earlier argument — that the primary outcome should be the one the decision layer acts on —
+still holds, but it does not select ED over 144: **T4.1 elicits from dispatch supervisors as well
+as capacity managers**, and ambulance redistribution is explicitly among the decisions the plan
+addresses.
+
+So: **144/CASU emergency call volume primary; ED presentations as the pre-declared substitute.**
+Revisit only if HUG confirms daily ED data with long history, since ED sits one step closer to
+bed capacity.
+
+### One outcome series can serve both archetypes
+
+Section 1.2 of the revised report is more useful than it looks. Non-infectious respiratory
+conditions — asthma and COPD exacerbations driven by pollution peaks and heat — do not transmit
+and fit no epidemic model, **but they contribute to the same respiratory care demand the model
+predicts**.
+
+That means a single outcome — respiratory-related emergency demand — carries **both** the
+respiratory-epidemic and the heatwave archetype, with different drivers acting on the same series.
+The generalisation test becomes cleaner: same outcome, same metric, different mechanism. Say this
+explicitly in §3; it removes the objection that the two archetypes are being compared on
+incommensurable outcomes.
+
+### Episode counting depends on how the outcome is defined
+
+Priority 1 groups **COVID-19, influenza and RSV** as the only three diseases with simultaneous
+weekly sentinel surveillance, wastewater monitoring and near-real-time emergency signals.
+
+If the outcome is **all-cause respiratory demand**, co-circulating pathogens collapse into one
+episode: a winter with both influenza and RSV is one demand surge, not two. Episodes are then
+roughly *distinct demand surges*, not *pathogen-seasons* — which lowers the count relative to my
+earlier estimate but keeps each episode genuinely independent.
+
+If the outcome were **pathogen-specific confirmed cases**, the count would rise but the outcome
+would stop being the decision-relevant demand measure.
+
+**Choose demand, accept the lower count, and say why.** A referee who spots pathogen-seasons being
+counted as independent episodes when they overlap in time will not be gentle.
+
 ## A. Data access status
 
 | Dataset | Status | Historical coverage | Granularity | Source of truth |
 | --- | --- | --- | --- | --- |
 | HUG ED presentations | `[[requested]]` | `[[ask: from when?]]` | `[[daily?]]` | HUG |
-| 144 / CASU calls | `[[requested]]` | From each centre's commissioning — *exact dates to verify with HUG* (per your D03 note) | Daily | HUG (GE) |
+| **144 / CASU calls** | `[[requested]]` | From centre commissioning — *dates to verify with HUG* | **Daily; ~195 emergency calls/day** | HUG (GE) — single interlocutor |
 | ICU occupancy | `[[requested]]` | `[[ask]]` | `[[ask]]` | HUG |
 | Mandatory notification | **Public** (aggregate) | Decades | Weekly | OFSP / cantonal doctor |
 | Sentinella | **Public** | 1986; SARS-CoV-2/flu/RSV since week 40 of 2020 | Weekly | OFSP |
@@ -100,8 +175,10 @@ hide that heat is the weaker arm.
 
 ## What only you can supply
 
-1. Whether HUG can provide **daily** ED presentations, and from what year.
-2. The 144/CASU commissioning dates — your own inventory flags these as to be verified.
+1. The 144/CASU **commissioning date and the start of usable electronic records** — this now sets
+   the length of the primary series and therefore the episode count.
+2. Whether HUG can also provide **daily** ED presentations, and from what year — needed for the
+   substitute outcome, and to decide whether the primary should be revisited.
 3. Whether ICU occupancy exists at daily resolution and is a demand signal rather than a
    reflection of capacity policy.
 4. Whether case and presentation definitions are stable across the candidate period.
