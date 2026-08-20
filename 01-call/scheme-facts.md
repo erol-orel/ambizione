@@ -1,5 +1,11 @@
 # Ambizione — scheme facts
 
+> **Primary sources now in the repo (19 Aug 2026):** `00-source-documents/call-documents/` holds
+> the Guidelines (11.08.2026), Regulations (25.02.2026) and confirmation-letter template
+> (03.08.2026), all read in full — see `05-review/snsf-compliance-audit.md`. **Where this file
+> disagrees with those, the PDFs win.** Items below marked `[CONFIRMED]` were checked against
+> them; remaining `[VERIFY]` items concern the SNSF Portal CV format, which is not in these PDFs.
+
 Confidence key: `[HIGH]` corroborated across several independent sources ·
 `[VERIFY]` single source or possibly call-specific — confirm in the official Call 2026 document.
 
@@ -24,10 +30,10 @@ assistants) remains possible. Confirmed independently against the official guide
 is large: **the project must be PI-led**, and any proposal budgeting a doctoral researcher is
 building on a rule that no longer exists.
 
-`[VERIFY]` Salary placeholder for budgeting purposes: around **CHF 115,000/year** (older
+`[CONFIRMED]` (Guidelines 2.9) Average gross salary **around CHF 115,000/year at 100%**, employer social contributions covered; exact figure set with UNIGE HR (older
 guidance said ~CHF 105,000). Check the current figure in the call document.
 
-`[VERIFY]` Two variants have historically existed: an **Ambizione grant with salary**, and an
+`[CONFIRMED]` (Art. 2) Two variants exist: an **Ambizione grant with salary**, and an
 **Ambizione project grant** where the host institution pays the salary and the SNSF covers only
 project costs. Confirm both are still offered in 2026.
 
@@ -60,7 +66,7 @@ licence) is required.
 
 `[HIGH]` **Professors are not eligible** — permanent or temporary, with or without tenure track.
 
-`[VERIFY]` Extensions to the 4-year window exist for care duties, illness, military service,
+`[CONFIRMED]` (Art. 5 §6 → GIR Clause 1.11) Extensions to the 4-year window exist for care duties, illness, military service,
 and similar interruptions; the SNSF has adapted these criteria recently. If any interruption
 applies to you, claim it — it is not automatic and it is routinely under-claimed.
 
@@ -71,7 +77,7 @@ research plan, CV and research output list are uploaded as PDFs.
 
 | Document | Notes |
 | --- | --- |
-| Research plan | `[VERIFY]` max **15 pages / 60,000 characters**, bibliography excluded. Uploaded as a **single PDF with no annexes**. Min. 10 pt font, 1.5 line spacing. |
+| Research plan | `[CONFIRMED]` (Guidelines 4.3) max **15 pages AND 60,000 characters with spaces** (title, summary, tables, figures, footnotes included; bibliography excluded). Single PDF, no annexes, min. 10 pt, 1.5 spacing, **no website links**, prescribed section structure, **mySNF counter binding**. |
 | CV | `[HIGH]` Must use the **SNSF CV format** (narrative-based, not a classic academic CV). |
 | Research output list | `[VERIFY]` Max **10 works in total** across all achievements, distributed as you choose. |
 | Achievement narratives | `[VERIFY]` Max **4,350 characters** (~1 A4 page) per narrative. |
@@ -105,7 +111,7 @@ and no further differentiation is possible, the decision within that group is ma
 Practical consequence: the goal is not to be "fundable" but to be clearly *above* the tie-break
 band. A proposal that lands in the lottery zone has already lost most of its agency.
 
-`[VERIFY]` Whether the 2026 call includes an **interview stage** for shortlisted applicants.
+`[CONFIRMED]` (Guidelines 2.18) Two-phase evaluation with an **interview** for phase-2 applicants: presentation + panel Q&A. **Life Sciences panels: 3–4 June 2027.** Phase-1 outcome early April 2027; final decision early August 2027. Equal-quality tie-breaks may be decided **by drawing lots**.
 Ambizione has historically been decided on the written dossier, unlike Eccellenza/PRIMA.
 Confirm this — it changes how much preparation the autumn/winter needs.
 

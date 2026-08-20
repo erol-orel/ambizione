@@ -1,94 +1,91 @@
 # To do — Ambizione, deadline 3 November 2026
 
-**Today: 19 August 2026.** Target submission **30 October** to preserve a buffer before the SNSF deadline of 3 November at 17:00 CET.
+**Updated 19 August 2026.** Target submission **30 October** to keep a buffer before the SNSF
+deadline of 3 November, 17:00 Swiss time. The call opened 3 August; the mySNF application can be
+created now. **UNIGE runs its own internal deadline for the host confirmations — ask the RGO for
+it first; it, not 3 November, is the date that binds.**
 
-Ordered by what blocks what. The critical-path items depend on other people saying yes; everything else is under your control.
+Settled and no longer open: eligibility (RGO-confirmed), host (Institute of Global Health,
+independent programme), no research stay (equivalent mobility via short visits/collaborations,
+Art. 9 §4c), IP (UNIGE), no doctoral student or postdoc (2026 rules), one scientific/technical
+collaborator from project funds, structure of the plan (SNSF Guidelines 4.3), hierarchical
+confirmatory testing (respiratory primary, heat sequential).
 
 ---
 
-## Immediate / critical path
+## Blocked on other people — start all of these now
 
-- [ ] **⚠ CRITICAL PATH — Send the data-access requests.** HUG emergency (Desmettre), 144/CASU (Larribau), ICU. Ask for letters of support, not data, and ask whether daily aggregate extracts avoid individual-level approval requirements.
-- [ ] **⚠ CRITICAL PATH — Settle the host.** Confirm DS4DH as primary host and whether an associated ISG affiliation is formally possible; obtain the required institutional confirmation.
-- [ ] **⚠ CRITICAL PATH — Secure the mobility host.** Contact Prof. Valérie Chavez-Demoulin (UNIL) and obtain a concrete invitation/hosting statement for the planned stay.
-- [ ] Confirm multi-canton case-data availability. If unavailable, keep the design on Geneva/open surveillance and do not imply broader access.
+- [ ] **⚠ RGO, one email:** internal deadline; salary standards for the applicant (~CHF 115k
+      indicative) and for support personnel; whether one person can sign the detailed host
+      confirmation as both contact person and head of institute; budget-entry guidance.
+- [ ] **⚠ Host confirmation, two signatures** (contact person + head of institute, SNSF template
+      verbatim, institute letterhead): resolve who signs as contact person; confirm **nobody else
+      at ISG applies under the same person** (Art. 8 §6 — one applicant per contact person);
+      confirm the "independent programme within ISG" wording the Faculty can actually sign.
+      Send `04-other-documents/emails/02-ray-host.md`.
+- [ ] **⚠ Data-access letters:** HUG emergency (Desmettre), CASU-144 (Larribau), ICU. Letters of
+      collaboration only — **no praise of applicant or project, or the SNSF discards them**
+      (Guidelines 2.17). Send `04-other-documents/emails/03-…`, `04-…`.
+- [ ] DS4DH collaboration letter (Teodoro) — `04-other-documents/emails/01-teodoro.md`.
+- [ ] General confirmation from the Vice-Rectorate (routed via the institute — automatic once the
+      detailed confirmation exists, but chase it).
 
-## Length
+## mySNF / portal mechanics (your account, start early)
 
-- [ ] **Trim pass after the placeholders are filled.** The plan sits at ~59,300 of 60,000
-      characters and the counter excludes `[[…]]` content, so filling the ~29 remaining
-      placeholders will push it over. Cut list is in `03-research-plan/draft/README.md`.
+- [ ] Create/check the mySNF account, role "grant applicant" — processing takes days.
+- [ ] Compile the **CV + major achievements on portal.snf.ch** (fixed template; include your
+      contribution per publication; present **LiteRev-Evidence as a research output** under DORA).
+- [ ] Update the **ORCID profile** — its public content goes to reviewers.
+- [ ] Download the **statement-of-mobility form** from mySNF; fill in **Adobe Acrobat only**.
+      Content plan: `04-other-documents/statement-of-mobility.md` (Art. 9 §3 makes the prospective
+      part mandatory — name 2–3 short visits + running collaborations; argue all four
+      institution-choice triggers).
+- [ ] No cover letter, no career plan — they are deleted if uploaded.
 
-## Scientific lock
+## The one empirical task that gates the registration numbers
 
-- [ ] Fix the **primary outcome series and forecast horizon** for H3a.
-- [ ] Fix the **real-time onset rule** and **cold-start window `[[N]]`** before any historical evaluation design is finalised.
-- [ ] Fix the **H3b non-inferiority margin `[[Δ]]`** before evaluation and justify it against the rung 3 → rung 4 effect size.
-- [ ] Complete the H1 benchmark sample-size simulation (`[[n]]`, `[[τ² range]]`, variance-ratio threshold).
-- [ ] Complete C2 recovery/calibration thresholds and the H3c secondary criterion.
-- [ ] Specify the registered analysis-plan location.
-- [ ] Run the novelty audit: search specifically for prior work combining literature-derived quantitative priors, cold-start crisis forecasting and latent/regime state representations. If a precedent exists, state the distinction rather than defending an absolute novelty claim.
-- [ ] Verify every citation against the publisher record; do not rely on repository-generated reference metadata without checking.
+- [ ] **Build the episode inventory** (respiratory, then heat) once CASU-144 series access is
+      confirmed — template in `05-review/applicant-facts.md`. Then fix `[[N]]`, horizons, `[[Δ]]`,
+      run the design/power simulation, and replace `[[expected order of ten]]` with the count.
 
-## Budget / scheme compliance
+## Writing that remains (all under your control)
 
-The 2026 Ambizione rules are now reflected in the research plan: **no doctoral student or postdoc is budgeted**. Project funds are capped at **CHF 250,000 over four years**. If personnel support is needed, request only eligible **other-employee** support for bounded technical/extraction work.
+- [ ] Fill the ~30 `[[…]]` placeholders. **Reserve is ~0 and the counter excludes placeholder
+      text — every fill needs an offsetting cut.** Cut list in `03-research-plan/draft/README.md`.
+- [ ] Bibliography: full author lists (no "et al." except >50-author consortia), DOIs everywhere
+      possible, verify against publisher records. Flags are in `draft/99-bibliography.md`.
+- [ ] Novelty audit via LiteRev (documented search for prior evidence-priors + cold-start work).
+- [ ] Verify the summary fits **one page** in the rendered PDF (the cap is a page, not characters).
+- [ ] Final budget in mySNF categories: ≤ CHF 250k; **no open-access costs** (separate mechanism);
+      **Open Research Data costs must be in now**; equipment ≤ CHF 100k; budget frozen at
+      submission. Rules: `04-other-documents/budget.md`.
+- [ ] Declare GESICA, GeoAI4EI, legionellosis funding in mySNF; delimitation table is in §2.6.
+- [ ] Exclusion list for external reviewers (optional — decide; Guidelines 2.12).
+- [ ] Final consistency audit: plan ↔ budget ↔ portal CV ↔ mobility form ↔ host letters ↔ data
+      letters. Then upload, and **check the character count in mySNF — its counter is binding**.
 
-- [ ] Email `research-grants-office@unige.ch` for the UNIGE internal deadline, internal proposal review, institutional salary rates for eligible other employees, and final budget-entry guidance.
-- [ ] Build the final four-year project budget in official SNSF categories; keep total project funds ≤ CHF 250,000 and exclude non-eligible normal institutional operations.
-- [ ] Declare the cantonal Legionella funding and any other significant related funding in mySNF.
-- [ ] Check whether any planned open-access costs belong in a separate SNSF mechanism rather than the Ambizione project budget.
+## Dates ahead (from the call documents)
 
-## Application documents
-
-- [ ] Fill every remaining `[[…]]` in the research plan, especially sections 2, 4, 5 and 6.
-- [ ] Finalise CV narratives and contribution statements for the major outputs, especially the *Nature Communications* paper.
-- [ ] Answer the CV questions on co-supervision and peer-review record.
-- [ ] Finish the statement of mobility only after the host is confirmed; make it a scientific/independence argument, not a travel history.
-- [ ] Obtain host-institution and data-access letters.
-- [ ] Prepare CCER submission with yourself as applicant if required for the operational data.
-- [ ] Confirm secure computing/HPC access and the data-security arrangement before connecting clinical data.
-- [ ] Deposit a versioned LiteRev-Evidence release on Zenodo if the repository/software claims will be presented as durable outputs.
-
-## External review
-
-- [ ] Send the full dossier around 22 September to 2–3 readers: one in-field senior colleague, one out-of-field reader, and one grants-office/former-panel reader.
-- [ ] Ask specifically: (1) can they state H3a after reading the summary? (2) can they identify the primary comparison? (3) do they believe the project is feasible with the named resources? (4) do they see an independence problem?
-- [ ] Run `05-review/hypothesis-audit.md` end to end and eliminate any claim that cannot be operationalised.
-- [ ] Run `05-review/self-assessment.md` end to end; any score below 4 needs a concrete fix.
-
-## Final build / submission
-
-- [ ] Re-run the figure generator and assembly script from the committed sources; verify both are idempotent.
-- [ ] Verify page/character limits against the **2026 call documents**, not an assumed limit.
-- [ ] Verify font, spacing, single-PDF and no-annex requirements.
-- [ ] Enter the final dossier in mySNF, including DMP, budget and relations/related-project declarations.
-- [ ] Declare GESICA and the Horizon consortium where required and explain the delimitation from the Ambizione project.
-- [ ] Final consistency audit: research plan ↔ budget ↔ CV ↔ mobility ↔ host letter ↔ data letters.
-- [ ] Target submission ~30 October; absolute SNSF deadline: **3 November 2026, 17:00 CET**.
-
-## Decisions still open
-
-1. Primary host — DS4DH vs any alternative formal arrangement.
-2. Associated ISG affiliation and exact role of HUG collaborators.
-3. Mobility host and scientific scope of the stay.
-4. Primary outcome series and horizon for H3a.
-5. `[[N]]` cold-start window and real-time onset rule.
-6. `[[Δ]]` non-inferiority margin.
-7. Amount and duration of eligible other-employee support, if any.
-8. Whether the Legionella extension remains in the final four-year plan.
+| When | What |
+| --- | --- |
+| ~Oct (RGO) | UNIGE internal deadline for confirmations |
+| 30 Oct | Target submission |
+| 3 Nov 2026, 17:00 | SNSF deadline |
+| Early Apr 2027 | Phase 1 outcome |
+| **3–4 Jun 2027** | **Life Sciences panel interview** (project presentation + Q&A — the confirmatory design and failure map must survive a live panel) |
+| Mid-Jul / early Aug 2027 | Phase 2 outcome / decision letter |
+| 1 Sep 2027 – 1 Sep 2028 | Grant start window |
 
 ## Where things are
 
 | | |
 | --- | --- |
-| Research plan (assembled) | `03-research-plan/FINAL-research-plan.md` |
+| Research plan (assembled) | `03-research-plan/FINAL-research-plan.md` — edit `draft/`, run `sh draft/assemble.sh` |
+| Compliance audit vs call documents | `05-review/snsf-compliance-audit.md` |
+| Applicant decisions log | `05-review/applicant-facts.md` |
 | Hypothesis audit | `05-review/hypothesis-audit.md` |
-| Research plan sources | `03-research-plan/draft/` — then `sh draft/assemble.sh` |
-| Figures | `03-research-plan/draft/figures/` |
-| Budget | `04-other-documents/budget.md` |
-| CV narratives + output list | `04-other-documents/cv-narratives/` |
-| Statement of mobility | `04-other-documents/statement-of-mobility-draft.md` |
-| Data-access package | `04-other-documents/data-access/` |
-| Literature to strengthen | `03-research-plan/literature-to-strengthen.md` |
-| Pre-submission review | `05-review/self-assessment.md` |
+| Host letters guidance | `04-other-documents/host-institution-letters.md` |
+| Budget rules + table | `04-other-documents/budget.md` |
+| Mobility content plan | `04-other-documents/statement-of-mobility.md` |
+| Emails ready to adapt | `04-other-documents/emails/` |
+| Call documents (primary sources) | `00-source-documents/call-documents/` |

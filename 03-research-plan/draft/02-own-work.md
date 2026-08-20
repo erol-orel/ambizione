@@ -1,10 +1,10 @@
 ## 2.2 Current state of personal research and competences required for the project
 
-My route here is unusual and it is why the project is tractable. I spent fifteen years in
-quantitative finance — risk modelling, extreme value estimation for non-Gaussian tails, regime and
-factor models, stress testing — before a doctorate in biomedical sciences at Geneva (defended
-18 December 2023). The inheritance is not decorative: the instruments this proposal brings to
-health-system surge are the ones I used daily to anticipate rare, costly transitions elsewhere.
+My route here is unusual and it is why the project is tractable: fifteen years in quantitative
+finance — risk modelling, extreme value estimation for non-Gaussian tails, regime and factor
+models, stress testing — then a doctorate in biomedical sciences at Geneva (defended 18 December
+2023). The instruments this proposal brings to health-system surge are the ones I used daily to
+anticipate rare, costly transitions elsewhere.
 
 ### 2.2.1 Prediction under sparse and imperfect information
 
@@ -72,7 +72,7 @@ unique, and it supplies a waterborne outbreak archetype whose dynamics differ fu
 respiratory epidemic — the hardest available test of whether a forecasting framework generalises
 across crisis types.
 
-### 2.2.6 Position
+### 2.2.6 Position and competences
 
 Through the GESICA consortium I am embedded in the Geneva emergency and public-health system — HUG
 emergency medicine `[[Prof. Thibaut Desmettre, Dr Robert Larribau]]`, CASU-144 and the cantonal
@@ -88,4 +88,4 @@ Domain knowledge comes from the doctorate, the Swiss COVID-19 work and GESICA. I
 and R and work with version control, HPC scheduling and secure clinical environments. French and
 English are working languages.
 
-What I have not yet had is a programme of my own with the time to run it.
+What I have not yet had is a programme of my own with the time to run it — §2.6 takes this up.

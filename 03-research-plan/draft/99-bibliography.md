@@ -18,7 +18,7 @@
 > `verify authorship` below are ones where the search returned the work but not a reliable author
 > list.
 >
-> I have **not generated any citation I could not locate.** Where §1 makes a claim I could not
+> I have **not generated any citation I could not locate.** Where §2.1 makes a claim I could not
 > source, it carries a `[[…]]` marker asking you to supply the reference from your own reading
 > rather than a plausible-looking placeholder.
 >
@@ -26,7 +26,7 @@
 > LiteRev-Evidence repository: those are automatically generated and attribute specific
 > performance figures to named papers. Verify every one before reuse.
 >
-> LiteRev is the right instrument for completing this list — particularly for §1.4, where the
+> LiteRev is the right instrument for completing this list — particularly for §2.1.4, where the
 > novelty claim needs a documented systematic search you can report if challenged.
 
 ## Surveillance and outbreak detection
@@ -115,7 +115,7 @@
 - **[Southall 2021]** Southall E, Brett TS, Tildesley MJ, Dyson L. Early warning signals of
   infectious disease transitions: a review. *J R Soc Interface* 2021;18(182):20210555.
   **The review to work from** — it catalogues the candidate indicators and their known
-  false-positive behaviour, which T2.5 must confront rather than tune away.
+  false-positive behaviour, which T2.4/T2.5 must confront rather than tune away.
 
 ## Conformal prediction
 

@@ -25,12 +25,21 @@ d'urgence des HUG, CASU-144, services cantonaux — et l'étude légionellose en
 en collaboration avec le groupe Data Science for Digital Health du Prof. Teodoro, sans que cela
 modifie l'hébergement.
 
-**Ce que je sollicite** est la **confirmation d'hébergement détaillée** exigée par le FNS, signée
-au niveau de l'institut. Je me permets d'être direct sur un point : le FNS évalue explicitement
-l'indépendance scientifique du requérant, et une confirmation signée par le responsable d'un
-programme qui finance actuellement mon poste se lirait mal. C'est pourquoi je m'adresse à la
-direction de l'institut. La lettre confirmerait l'environnement de travail et l'infrastructure
-mis à disposition, et le fait que je conduis et dirige moi-même le projet.
+**Ce que je sollicite** est la **confirmation d'hébergement détaillée** exigée par le FNS, selon
+son modèle officiel. Le modèle requiert **deux signatures** : la « personne de contact »
+(responsable du groupe de recherche nommée dans la candidature) et la direction de
+l'institut/département — je clarifie actuellement avec le Research Grants Office qui peut tenir
+chacun de ces rôles, et si une même personne peut cumuler les deux. Deux points du modèle méritent
+d'être signalés d'emblée : la lettre doit inclure une déclaration sur **l'autonomie du projet par
+rapport aux objectifs de recherche en cours dans l'institution**, et la personne de contact doit
+reconnaître qu'elle **ne peut soutenir qu'une seule candidature Ambizione** pour cet appel
+(art. 8 al. 6 du règlement) — d'où l'importance de vérifier qu'aucune autre candidature ISG ne
+passe par la même personne.
+
+Je me permets d'être direct sur un dernier point : le FNS évalue explicitement l'indépendance
+scientifique du requérant, et une confirmation signée par le responsable d'un programme qui
+finance actuellement mon poste se lirait mal. C'est pourquoi je m'adresse à la direction de
+l'institut.
 
 Aucune implication financière : le FNS couvre mon salaire, et le subside ne finance ni doctorant
 ni post-doctorant — les règles 2026 l'excluent — mais un collaborateur scientifique et technique.

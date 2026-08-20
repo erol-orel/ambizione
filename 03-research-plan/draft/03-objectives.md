@@ -47,7 +47,7 @@ H3b is two-sided by design: non-inferiority where the evidence is sound, superio
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 
-These hypotheses are tested through the **pre-specified model ladder** of §4 (T3.3), which runs
+These hypotheses are tested through the **pre-specified model ladder** of §2.3.2 (T3.3), which runs
 from a local baseline through the regime model under weakly informative priors, the same model
 under fixed evidence-derived priors, adaptive borrowing, and adaptive borrowing plus resilience
 indicators. It isolates each increment rather than pitting a final model against a weak baseline.

@@ -30,7 +30,7 @@ Each row is labelled **secured**, **agreed**, **requested** or **fallback**. Not
 | Operational-data ethics | `[[requested]]` | CCER submission, PI as applicant |
 | Computing | `[[requested]]` | `[[UNIGE HPC]]` |
 
-The three operational-data rows are the most important remaining feasibility items, and §4 states what their absence would cost the primary outcome claim. Nothing here is described above its actual status.
+The three operational-data rows are the most important remaining feasibility items, and §2.4 states what their absence would cost the primary outcome claim. Nothing here is described above its actual status.
 
 #### 2.3.3.3 Resources requested
 

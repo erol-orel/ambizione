@@ -27,10 +27,13 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
 
 ## Still open — applicant only
 
-1. ~~**Formal host declaration.**~~ **Settled.** Signed at institute level by the Institute's
-   Director, `[[Prof. Nicolas Ray, interim Director]]`. Prof. Calmy was deliberately not chosen:
-   she sat on the applicant's thesis jury, which is exactly the prior relationship the
-   independence argument should avoid at the signature line. Ray is the cleaner signatory.
+1. **Formal host declaration — decided, one mechanical question open.** Institute-level
+   signature by `[[Prof. Nicolas Ray, interim Director]]`; Prof. Calmy deliberately not chosen
+   (thesis jury). **But the SNSF template requires two signatures** — the contact person (head of
+   the research group named in the application) *and* the head of institute/department — and the
+   contact person can support only one applicant per call (Art. 8 §6). Ask the RGO whether one
+   person can hold both roles; if not, decide who is named contact person. See
+   `04-other-documents/host-institution-letters.md`.
 2. ~~**LiteRev-Evidence legal ownership.**~~ **Settled: UNIGE holds the IP.** §5.3 now states that
    the platform is University of Geneva intellectual property developed under the applicant's
    scientific direction, and that the project uses it as an instrument without depending on

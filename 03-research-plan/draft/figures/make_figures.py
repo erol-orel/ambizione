@@ -152,7 +152,8 @@ WPS = [
         ("T2.3 evidence-derived priors", 10, 20),
         ("T2.4 resilience indicators", 12, 20),
         ("T2.5 calibration + implementation", 20, 28)]),
-    ("WP3", "Decisive cold-start experiment", 12, 42, [
+    ("WP3", "Decisive cold-start experiment", 1, 42, [
+        ("T3.0 outcome hierarchy + eligibility (registration)", 1, 14),
         ("T3.1 retrospective information set", 12, 20),
         ("T3.2 true information set reconstruction", 18, 30),
         ("T3.3 pre-specified model ladder", 20, 34),
