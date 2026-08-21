@@ -1,11 +1,12 @@
 # Emails to send this week
 
-Four emails, three purposes. Send all four the same day — they reference each other, and people
-compare notes. Order matters: **Ray first**, since the host confirmation is the item everything
-else hangs on.
+Five emails, four purposes. Order matters: **RGO first** — its answers (who signs the host
+confirmation, internal deadline, salary rates) feed the others. Then Ray, then the rest the same
+day; they reference each other, and people compare notes.
 
 | To | Purpose | Language | File |
 | --- | --- | --- | --- |
+| **UNIGE Research Grants Office** | **Send first.** Internal deadline, signature roles, designation, salary rates, declarations | French | `00-rgo.md` |
 | Prof. Douglas Teodoro | WP1 methodological collaboration + letter of support | English `[[switch to French if that is your habit with him]]` | `01-teodoro.md` |
 | Prof. Nicolas Ray | **Host confirmation** for ISG, signed at institute level | French | `02-ray-host.md` |
 | Prof. Thibaut Desmettre | ED data + support letter + collaborator role | French | `03-desmettre.md` |
