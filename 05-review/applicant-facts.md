@@ -13,6 +13,11 @@
 | 100% of research time on Ambizione | Applicant | §5.3, closes the `[[XX%]]` placeholder |
 | Host reversed: Institute of Global Health, not DS4DH | Applicant | §5.3, §6 heading, §6.1, §6.2 |
 
+**Salary (added 19 Aug).** Applicant is at UNIGE **class 19, annuité 9**, above the indicative
+CHF 115,000. SNSF advice, received directly: **enter the maximum in mySNF**; adjustment to canton
+and individual situation follows on their side. Recorded in `04-other-documents/budget.md` and in
+the RGO email. Remaining ask to HR/RGO: the exact class-19/9 gross to type in.
+
 ## Structural change made
 
 The independence argument no longer rests on distance from collaborators — that claim became

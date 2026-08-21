@@ -9,16 +9,18 @@ day; they reference each other, and people compare notes.
 | **UNIGE Research Grants Office** | **Send first.** Internal deadline, signature roles, designation, salary rates, declarations | French | `00-rgo.md` |
 | Prof. Douglas Teodoro | WP1 methodological collaboration + letter of support | English `[[switch to French if that is your habit with him]]` | `01-teodoro.md` |
 | Prof. Nicolas Ray | **Host confirmation** for ISG, signed at institute level | French | `02-ray-host.md` |
-| Prof. Thibaut Desmettre | ED data + support letter + collaborator role | French | `03-desmettre.md` |
-| Dr Robert Larribau | 144/CASU dispatch data + support letter | French | `04-larribau.md` |
+| Prof. Thibaut Desmettre | ED data (additional channel) + **lettre de collaboration** + threshold-elicitation role | French | `03-desmettre.md` |
+| Dr Robert Larribau | **144/CASU data — the primary outcome series** + lettre de collaboration | French | `04-larribau.md` |
 
 ## Three rules these follow
 
 1. **Ask for one thing.** Each email has a single primary request, stated in the first three
    lines. Requests with three asks get answered with none.
 2. **Attach the draft.** People sign drafts and rewrite where they disagree; almost nobody writes
-   a letter from scratch. Send `03-support-letter-template.md` or the independence paragraph as an
-   editable file.
+   a letter from scratch. Send `../data-access/03-support-letter-template.md` as an editable file —
+   it is a **lettre de collaboration, not a lettre de soutien**: the SNSF discards letters that
+   praise the applicant or the project (Guidelines 2.17), and both emails now say so to the
+   signatory explicitly.
 3. **Give a date, and make it earlier than you need.** `[[12 September]]` throughout — adjust once
    the grants office confirms the UNIGE internal deadline.
 

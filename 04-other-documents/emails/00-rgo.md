@@ -52,9 +52,11 @@ l'institut/du département**.
 
 **4. Salaires et budget**
 
-- **Salaire du requérant** : les directives FNS indiquent un salaire brut moyen d'environ
-  CHF 115'000/an à 100%. Quelle est la **grille UNIGE applicable** (classe/annuités), quels taux de
-  charges patronales et d'allocations familiales dois-je saisir dans mySNF ?
+- **Salaire du requérant** : je suis actuellement en **classe 19, annuité 9**, au-dessus du
+  montant indicatif FNS de CHF 115'000. Le FNS m'a indiqué de **saisir le montant maximal** dans
+  mySNF, l'ajustement se faisant ensuite selon le canton et la situation individuelle. Pouvez-vous
+  me confirmer le montant exact à saisir selon la grille UNIGE, et les taux de charges patronales
+  et d'allocations familiales applicables ?
 - **Personnel de soutien** : le subside permet d'employer un **collaborateur
   scientifique/technique** (les doctorants et post-doctorants sont exclus par le règlement 2026).
   Quelle catégorie de personnel UNIGE correspond, et à quel coût employeur par taux d'activité,

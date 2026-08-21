@@ -28,8 +28,12 @@ enough in §6 that a referee can see the work is resourced.
 
 - **Ceiling: CHF 250,000 for four years** (Art. 10 §4), i.e. ~CHF 62,500/year. Pro-rated if shorter.
 - **Applicant salary is separate** and covered by the grant. The guidelines give an indicative
-  **~CHF 115,000/annum gross at 100%**, plus employer social security. Confirm the exact figure with
-  UNIGE HR before submission; it must be entered as a budget line in mySNF.
+  **~CHF 115,000/annum gross at 100%**; the applicant is currently at **UNIGE class 19, annuité 9 —
+  above that figure**. Per the SNSF's own advice (by phone/email to the applicant): **enter the
+  maximum in mySNF**; the SNSF then adjusts to the canton and the individual situation. Get the
+  exact class-19/9 gross from UNIGE HR for the entry, and let mySNF auto-calculate the social
+  contributions for the selected institution. The exact salary is confirmed with the institution
+  at the latest for approved grants (Guidelines 2.9).
 - **Work quota is 100%** (Art. 1 §4, Art. 6 §1c). 80% is permissible only for care duties or further
   qualification.
 - **Equipment and material of enduring value: max CHF 100,000** overall. Not a live constraint here.
