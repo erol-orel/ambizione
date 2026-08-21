@@ -26,7 +26,7 @@ confirmatory testing (respiratory primary, heat sequential).
 - [ ] **⚠ Data-access letters:** HUG emergency (Desmettre), CASU-144 (Larribau), ICU. Letters of
       collaboration only — **no praise of applicant or project, or the SNSF discards them**
       (Guidelines 2.17). Send `04-other-documents/emails/03-…`, `04-…`.
-- [ ] DS4DH collaboration letter (Teodoro) — `04-other-documents/emails/01-teodoro.md`.
+- [ ] DS4DH collaboration letter, WP1 (Teodoro) — `04-other-documents/emails/01-teodoro.md`.
 - [ ] General confirmation from the Vice-Rectorate (routed via the institute — automatic once the
       detailed confirmation exists, but chase it).
 

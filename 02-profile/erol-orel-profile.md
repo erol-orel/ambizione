@@ -112,9 +112,9 @@ This is the weakest part of the dossier and it will not fix itself. See
 - [x] **PhD defence: 18 December 2023.** Eligible with a wide margin.
 - [ ] Career interruptions to declare, if any
 - [ ] Nationality / permit
-- [x] **Host confirmed: DS4DH (Data Science for Digital Health), Department of Radiology and
-      Medical Informatics, Faculty of Medicine, UNIGE — Prof. Douglas Teodoro — with an HUG
-      emergency medicine collaboration.** A genuine change of department and scientific community
-      from the Institute of Global Health. Note that DS4DH is at Campus Biotech, 9 ch. des Mines,
-      the same address as ISG: claim the departmental and disciplinary move, which is real and
-      verifiable, and do not claim a physical one.
+- [x] **Host decided: Institute of Global Health, Faculty of Medicine, UNIGE — as an
+      independent research programme led by the applicant, alongside the Institute's groups.**
+      DS4DH (Prof. Teodoro) is the WP1 methodological collaboration; HUG emergency medicine and
+      CASU-144 the operational collaborations. No departmental move is claimed — independence is
+      argued organisationally (§2.6 of the plan) and the host confirmation is signed at institute
+      level (see `04-other-documents/host-institution-letters.md` for the two-signature question).

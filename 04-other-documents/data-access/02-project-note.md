@@ -1,8 +1,8 @@
 # One-page project note — attach to the request
 
 **COLDSTART — Prévoir les crises sanitaires quand les données locales manquent**
-Candidature Ambizione FNS · Requérant : Dr Erol Orel · Hôte : DS4DH, Département de radiologie et
-informatique médicale, Faculté de médecine, UNIGE · Durée : 4 ans
+Candidature Ambizione FNS · Requérant : Dr Erol Orel · Hôte : Institut de santé globale, Faculté
+de médecine, UNIGE (programme de recherche indépendant) · Durée : 4 ans
 
 ## Le problème
 
@@ -32,8 +32,11 @@ aide ou nuit.
 
 ## Ce que je demanderais aux HUG / à la CASU 144
 
-Un **extrait rétrospectif agrégé au jour** : date, effectifs, catégorie large. Aucun identifiant
-direct, aucun texte libre. L'accès se ferait sous approbation CCER.
+Un **extrait rétrospectif agrégé au jour** : date, effectifs par motif de recours / catégorie
+large et degré d'urgence (144), ou par catégorie de passage (urgences). Aucun identifiant direct,
+aucun texte libre. L'accès se ferait sous approbation CCER, avec moi comme requérant. Les données
+de régulation du 144 constituent la **série d'issue principale** du projet ; les passages aux
+urgences et l'occupation des soins intensifs sont des canaux d'observation complémentaires.
 
 ## Ce que vous y gagnez
 
@@ -46,4 +49,5 @@ direct, aucun texte libre. L'accès se ferait sous approbation CCER.
 
 ## Calendrier
 
-Dépôt : 3 novembre 2026. Décision : `[[~mi-2027]]`. Début : `[[fin 2027]]`.
+Dépôt : 3 novembre 2026 · Phase 1 : avril 2027 · Entretien (sciences de la vie) : 3–4 juin
+2027 · Décision : août 2027 · Début : entre le 1er septembre 2027 et le 1er septembre 2028.

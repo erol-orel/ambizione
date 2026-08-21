@@ -9,7 +9,7 @@ Working repository for an application to the Swiss National Science Foundation
 
 | Folder | Contents |
 | --- | --- |
-| `00-source-documents/` | Official call documents and the applicant's own materials |
+| `00-source-documents/` | Official call documents (Guidelines, Regulations, confirmation template — read in full) and the applicant's own materials |
 | `01-call/` | Current call requirements, evaluation criteria, documents and timeline |
 | `02-profile/` | Applicant profile and career information |
 | `03-research-plan/` | Research plan sources, drafts and generated artefacts |
@@ -29,7 +29,7 @@ Working repository for an application to the Swiss National Science Foundation
 | **Emails to send** | `04-other-documents/emails/` |
 | **Data access package** | `04-other-documents/data-access/` |
 | **Budget** | `04-other-documents/budget.md` |
-| **Pre-submission checks** | `05-review/hypothesis-audit.md`, `05-review/self-assessment.md` |
+| **Pre-submission checks** | `05-review/snsf-compliance-audit.md` (vs the call documents), `05-review/hypothesis-audit.md`, `05-review/self-assessment.md` |
 
 Working notes kept for reference — the reasoning behind decisions already taken, useful if a
 choice is revisited or at interview: `03-research-plan/why-cold-start.md`,
