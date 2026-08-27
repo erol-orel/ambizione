@@ -1,6 +1,6 @@
 # Emails to send this week
 
-Five emails, four purposes. Order matters: **RGO first** — its answers (who signs the host
+Six emails, five purposes. Order matters: **RGO first** — its answers (who signs the host
 confirmation, internal deadline, salary rates) feed the others. Then Ray, then the rest the same
 day; they reference each other, and people compare notes.
 
@@ -11,6 +11,7 @@ day; they reference each other, and people compare notes.
 | Prof. Nicolas Ray | **Host confirmation** for ISG, signed at institute level | French | `02-ray-host.md` |
 | Prof. Thibaut Desmettre | ED data (additional channel) + **lettre de collaboration** + threshold-elicitation role | French | `03-desmettre.md` |
 | Dr Robert Larribau | **144/CASU data — the primary outcome series** + lettre de collaboration | French | `04-larribau.md` |
+| Prof. Alexandra Calmy | **Courtesy note** — informs, asks nothing; send after Ray | French | `05-calmy-courtoisie.md` |
 
 ## Three rules these follow
 
