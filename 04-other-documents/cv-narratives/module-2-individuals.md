@@ -1,7 +1,7 @@
 # Module 2 — Contributions to the development of other individuals and research teams
 
 > Outputs cited here: **2** — machine-learning classification of cardiovascular disease history
-> across WHO STEPS surveys (Ng'ambi et al., under revision, **senior author**); AI in emergency
+> across WHO STEPS surveys (Ng'ambi et al., **accepted**, **senior author**); AI in emergency
 > medical services: a systematic review (Edjinedja, Larribau, **Orel** et al., submitted 2026).
 
 ---
@@ -13,7 +13,7 @@ enable other people's research.
 
 **Senior authorship.** I am last author on a machine-learning classification of self-reported
 cardiovascular disease history across harmonised multi-country WHO STEPS surveys (2014–2019), led
-by Wingston Ng'ambi and currently under revision. `[[One sentence on what the role actually
+by Wingston Ng'ambi and **accepted for publication**. `[[One sentence on what the role actually
 involved — supervising the methodology and analysis design, guiding the revision — in your own
 words; a reviewer reads a senior-author claim against its description.]]` It is the first paper in
 which my role was to direct another researcher's analysis rather than to conduct my own, and it

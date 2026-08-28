@@ -44,7 +44,7 @@ tertiary center. *CMI Communications* 2024.
 **5.** Ng'ambi W, Estill J, Keiser O, Merzouki FA, **Orel E**.
 Machine learning-based classification of self-reported cardiovascular disease history in Africa
 using harmonised multi-country WHO STEPS surveys: 2014–2019.
-`[[Venue — under revision; update status, and cite the preprint if one exists]]`
+**Accepted for publication.** `[[Venue, year, DOI once assigned]]`
 > *Contribution:* **Last (senior) author.** `[[State the actual role in one precise line — e.g.
 > supervised the machine-learning methodology and analysis design, guided the revision.]]`
 > Senior-authoring the work of the first author marks the transition from contributing to
@@ -120,9 +120,6 @@ and a list that showed everything would show no judgement at all.
   and it is the strongest available evidence that the project is feasible. But it is the entry a
   conservative reviewer is most likely to discount, and a Zenodo DOI would substantially reduce
   that risk.
-- **The Ng'ambi CVD paper (item 5) is under revision, not published.** If it is accepted, or a
-  preprint exists, it is the strongest Module 2 entry available — senior authorship. If at
-  submission time it is neither accepted nor publicly citable, check whether the portal admits
-  manuscripts under revision; if not, swap back the Botero-Mesa 2022 *BMC Public Health* paper
-  (removed to make room) and return Module 2 to one output rather than citing something a
-  reviewer cannot see.
+- **The Ng'ambi CVD paper (item 5) is accepted for publication** (status confirmed 19 Aug 2026).
+  The earlier swap-back contingency is closed — it holds its slot as the strongest Module 2 entry.
+  Update venue, year and DOI when they are assigned.

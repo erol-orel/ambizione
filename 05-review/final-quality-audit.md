@@ -12,7 +12,7 @@ do**.
 
 | Criterion | State | Honest grade |
 | --- | --- | --- |
-| (a) Research output, quality + independence vs net academic age | **Corrected 19 Aug — the earlier wording overstated the weakness.** The record holds first-author papers (CMI Communications 2024, JMIR 2023, PLoS ONE 2022, a fourth under review at *BMJ Open* (Nigerian HIV key populations, submitted July 2026)) and a **senior-author paper under revision** (Ng'ambi et al., WHO STEPS CVD classification). The precise residual weaknesses are narrower: (i) no first-author output in the proposal's *target domain* (crisis/demand forecasting), and (ii) Prof. Keiser co-authors the first-author papers and the senior-author paper, which bears on the guideline expectation of "one major research output independent from the PhD supervision framework" — answered chiefly by LiteRev-Evidence (DORA) and the independent funding | Framed as well as the record allows; the senior authorship materially improves Module 2 and the career narrative |
+| (a) Research output, quality + independence vs net academic age | **Corrected 19 Aug — the earlier wording overstated the weakness.** The record holds first-author papers (CMI Communications 2024, JMIR 2023, PLoS ONE 2022, a fourth under review at *BMJ Open* (Nigerian HIV key populations, submitted July 2026)) and a **senior-author paper accepted for publication** (Ng'ambi et al., WHO STEPS CVD classification). The precise residual weaknesses are narrower: (i) no first-author output in the proposal's *target domain* (crisis/demand forecasting), and (ii) Prof. Keiser co-authors the first-author papers and the senior-author paper, which bears on the guideline expectation of "one major research output independent from the PhD supervision framework" — answered chiefly by LiteRev-Evidence (DORA) and the independent funding | Framed as well as the record allows; the senior authorship materially improves Module 2 and the career narrative |
 | (b) Career development + retrospective/prospective mobility | Sectoral + intellectual mobility strong and real; geographic thin, stated plainly; prospective plan Art. 9 §4(c)-compliant once the form names concrete visits | Adequate, if the form is filled as planned |
 | (c) Scientific independence at the chosen institution | Organisational claim (independent programme alongside groups) + institute-level signature + full transparency on Keiser/Teodoro + delimitation table | Strong on paper; **depends entirely on the host letter saying the same thing** |
 | (d) Relevance, originality, topicality, independence of the project | Falsifiable central hypothesis, pre-registered design, honest null-value case | Strong |
@@ -98,10 +98,9 @@ In dependency order. Everything else in this repository is now waiting on one of
 2. **First-author output in the target domain** (hostile review F5.1, restated precisely) is
    unfixable by November — the record's first-author papers are in HIV prediction, evidence
    synthesis and clinical severity, not crisis forecasting. Mitigation: DORA framing,
-   contribution statements, the new senior-author line, and the interview. **If the Ng'ambi CVD
-   paper is accepted or preprinted before submission, update its status everywhere it appears
-   (§2.2.1, bibliography, output list item 5, Module 2) — an accepted senior-author paper is
-   worth more than any drafting.**
+   contribution statements, the new senior-author line, and the interview. **The Ng'ambi CVD paper is now
+   accepted for publication** (confirmed 19 Aug 2026) — status updated in §2.2.1, the
+   bibliography, output-list item 5 and Module 2; add venue and DOI when assigned.
 3. **The lot.** Equal-quality applications can be decided by drawing lots (Guidelines 2.18).
    A reason to maximise every controllable margin — and a reason not to over-read the outcome.
 4. **Episode count.** If the inventory yields materially fewer eligible respiratory episodes

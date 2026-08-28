@@ -22,7 +22,8 @@ Africa using harmonised multi-country WHO STEPS surveys: 2014–2019* — **unde
 Ng'ambi W, Nwosu K, Keiser O. *Place, pathway, and psychosocial distress among Nigerian HIV key
 populations starting ART.* **BMJ Open, under review** (bmjopen-2026-126226, submitted
 27 July 2026; UNIGE/ISG + GRAPH Network affiliations). Complete record: **3 published
-first-author + 1 under review + 1 senior-author under revision.** Note Keiser co-authors this one
+first-author + 1 first-author under review + 1 senior-author ACCEPTED for publication**
+(status confirmed 19 Aug 2026; record venue/DOI when assigned). Note Keiser co-authors this one
 too, so the independence-from-supervisor point is unchanged. An updated CV PDF for
 `00-source-documents/my-materials/` is still worth having. The senior-author paper is now in §2.2.1 of the plan, the
 bibliography, output-list item 5 and Module 2, all marked "under revision" — update the status at

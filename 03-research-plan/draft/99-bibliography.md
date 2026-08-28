@@ -170,8 +170,8 @@
   district in Cameroon. *Nat Commun* 2021;12:5851.
 - Ng'ambi W, Estill J, Keiser O, Merzouki FA, **Orel E** (senior author). Machine learning-based
   classification of self-reported cardiovascular disease history in Africa using harmonised
-  multi-country WHO STEPS surveys: 2014–2019. `[[Under revision — venue; update status before
-  submission, cite the preprint if one exists]]`
+  multi-country WHO STEPS surveys: 2014–2019. **Accepted for publication.**
+  `[[Venue, year, DOI once assigned — update on publication]]`
 
 ## Still to source — supply from your own reading
 

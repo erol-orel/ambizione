@@ -15,8 +15,8 @@ countries and where they did not. Related work on latent structure across sub-Sa
 populations (**Merzouki et al., *PeerJ* 2021**) and on treatment-interruption prediction
 (**Esra et al., *JAIDS* 2023**) developed the same theme: when an estimate obtained in one
 population is usable in another. I now **senior-author** that line (last author,
-**Ng'ambi et al., under revision**: machine-learning classification of cardiovascular disease
-history across harmonised WHO STEPS surveys). That is the transportability problem at the centre
+**Ng'ambi et al., accepted**: machine-learning classification of cardiovascular disease history
+across harmonised WHO STEPS surveys). That is the transportability problem at the centre
 of this proposal — met first in a different disease area, and moved from conducting to directing.
 
 ### 2.2.2 Automated evidence synthesis
