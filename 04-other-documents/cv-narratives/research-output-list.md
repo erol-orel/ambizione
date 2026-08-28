@@ -39,9 +39,18 @@ tertiary center. *CMI Communications* 2024.
 > *Contribution:* First author. Designed and conducted the analysis of hospital clinical data,
 > wrote the manuscript.
 
-## Module 2 — Development of other individuals and research teams (1)
+## Module 2 — Development of other individuals and research teams (2)
 
-**5.** Edjinedja KL, Larribau R, **Orel E**, Cossus J, Elfahim O, Yendouname K, Vaussenat F,
+**5.** Ng'ambi W, Estill J, Keiser O, Merzouki FA, **Orel E**.
+Machine learning-based classification of self-reported cardiovascular disease history in Africa
+using harmonised multi-country WHO STEPS surveys: 2014–2019.
+`[[Venue — under revision; update status, and cite the preprint if one exists]]`
+> *Contribution:* **Last (senior) author.** `[[State the actual role in one precise line — e.g.
+> supervised the machine-learning methodology and analysis design, guided the revision.]]`
+> Senior-authoring the work of the first author marks the transition from contributing to
+> collaborative analyses to directing them.
+
+**6.** Edjinedja KL, Larribau R, **Orel E**, Cossus J, Elfahim O, Yendouname K, Vaussenat F,
 Teodoro D, Robert-Nicoud S, Barakat O, Desmettre T.
 Artificial intelligence in emergency medical services for disasters and health emergencies:
 a systematic review. `[[Submitted 2026 — update status and venue]]`
@@ -49,20 +58,14 @@ a systematic review. `[[Submitted 2026 — update status and venue]]`
 > published methods to structure 138 retained publications) and guided its application through
 > screening and clustering, working with the doctoral researcher leading the review.
 
-## Module 3 — Contributions to the wider research and innovation community (3)
+## Module 3 — Contributions to the wider research and innovation community (2)
 
-**6.** Nwosu K, Fokam J, Wanda F, Mama L, **Orel E**, Ray N, Meke J, et al.
+**7.** Nwosu K, Fokam J, Wanda F, Mama L, **Orel E**, Ray N, Meke J, et al.
 SARS-CoV-2 antibody seroprevalence and associated risk factors in an urban district in Cameroon.
 *Nature Communications* 2021;12:5851.
 > *Contribution:* `[[State your specific role — statistical analysis? risk factor modelling?
 > One precise line is worth more than the author position, and this is your highest-visibility
 > venue.]]`
-
-**7.** Botero-Mesa S, Coelho F, Nwosu K, Wicht B, Venkatasubramanian A, Wagner O, Valera C, et al.
-Leveraging human resources for outbreak analysis: lessons from an international collaboration to
-support the sub-Saharan African COVID-19 response. *BMC Public Health* 2022;22:1073.
-> *Contribution:* `[[Specify.]]` Contributed analytical capacity to a distributed international
-> outbreak-response collaboration.
 
 **8.** Estill J, Venkova-Marchevska P, Roelens M, **Orel E**, Temerev A, Flahault A, Keiser O.
 Future scenarios for the SARS-CoV-2 epidemic in Switzerland: an age-structured model.
@@ -110,6 +113,9 @@ and a list that showed everything would show no judgement at all.
   and it is the strongest available evidence that the project is feasible. But it is the entry a
   conservative reviewer is most likely to discount, and a Zenodo DOI would substantially reduce
   that risk.
-- **Module 2 has one output.** That is honest rather than optimal. If you have co-supervised
-  anyone, a second entry there would balance the distribution — see the note in
-  `module-2-individuals.md`.
+- **The Ng'ambi CVD paper (item 5) is under revision, not published.** If it is accepted, or a
+  preprint exists, it is the strongest Module 2 entry available — senior authorship. If at
+  submission time it is neither accepted nor publicly citable, check whether the portal admits
+  manuscripts under revision; if not, swap back the Botero-Mesa 2022 *BMC Public Health* paper
+  (removed to make room) and return Module 2 to one output rather than citing something a
+  reviewer cannot see.

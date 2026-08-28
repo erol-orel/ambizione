@@ -13,6 +13,18 @@
 | 100% of research time on Ambizione | Applicant | §5.3, closes the `[[XX%]]` placeholder |
 | Host reversed: Institute of Global Health, not DS4DH | Applicant | §5.3, §6 heading, §6.1, §6.2 |
 
+**Publication record (corrected 19 Aug).** The applicant reports **four first-author papers and
+one last-author paper**. Documented so far: first author on CMI Communications 2024, JMIR 2023
+(LiteRev), PLoS ONE 2022; **last (senior) author** on Ng'ambi W, Estill J, Keiser O, Merzouki FA,
+Orel E, *Machine learning-based classification of self-reported cardiovascular disease history in
+Africa using harmonised multi-country WHO STEPS surveys: 2014–2019* — **under revision**, venue
+`[[to record]]`. **Still needed from the applicant: the fourth first-author reference** (not in
+the CV on file, whose newest entry is 2024 — an updated CV PDF would also refresh
+`00-source-documents/my-materials/`). The senior-author paper is now in §2.2.1 of the plan, the
+bibliography, output-list item 5 and Module 2, all marked "under revision" — update the status at
+submission, and note the conditional swap-back documented in the output list if it is neither
+accepted nor publicly citable by then.
+
 **Salary (added 19 Aug).** Applicant is at UNIGE **class 19, annuité 9**, above the indicative
 CHF 115,000. SNSF advice, received directly: **enter the maximum in mySNF**; adjustment to canton
 and individual situation follows on their side. Recorded in `04-other-documents/budget.md` and in

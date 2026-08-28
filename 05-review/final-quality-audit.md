@@ -12,7 +12,7 @@ do**.
 
 | Criterion | State | Honest grade |
 | --- | --- | --- |
-| (a) Research output, quality + independence vs net academic age | Record is real but co-authored throughout; mitigated by DORA framing of LiteRev-Evidence as an independent output, the CHF 60k independent funding, and explicit contribution statements | **The structural weakness.** Cannot be edited away; can only be framed, and now is |
+| (a) Research output, quality + independence vs net academic age | **Corrected 19 Aug — the earlier wording overstated the weakness.** The record holds first-author papers (CMI Communications 2024, JMIR 2023, PLoS ONE 2022, `[[a fourth per the applicant — reference still needed]]`) and a **senior-author paper under revision** (Ng'ambi et al., WHO STEPS CVD classification). The precise residual weaknesses are narrower: (i) no first-author output in the proposal's *target domain* (crisis/demand forecasting), and (ii) Prof. Keiser co-authors the first-author papers and the senior-author paper, which bears on the guideline expectation of "one major research output independent from the PhD supervision framework" — answered chiefly by LiteRev-Evidence (DORA) and the independent funding | Framed as well as the record allows; the senior authorship materially improves Module 2 and the career narrative |
 | (b) Career development + retrospective/prospective mobility | Sectoral + intellectual mobility strong and real; geographic thin, stated plainly; prospective plan Art. 9 §4(c)-compliant once the form names concrete visits | Adequate, if the form is filled as planned |
 | (c) Scientific independence at the chosen institution | Organisational claim (independent programme alongside groups) + institute-level signature + full transparency on Keiser/Teodoro + delimitation table | Strong on paper; **depends entirely on the host letter saying the same thing** |
 | (d) Relevance, originality, topicality, independence of the project | Falsifiable central hypothesis, pre-registered design, honest null-value case | Strong |
@@ -95,10 +95,13 @@ In dependency order. Everything else in this repository is now waiting on one of
    signing the organisational claim. If the institute waters it down to "hosted in the
    institute", §2.6 overpromises relative to the letter. Align the two *before* the letter is
    signed — hence the delimitation table going to Ray.
-2. **First-author output in the target domain** (hostile review F5.1) is unfixable by November.
-   The mitigation is the DORA framing + contribution statements + the interview. If anything
-   submittable exists before November (even a preprint of a methods piece), it changes this
-   criterion more than any wording.
+2. **First-author output in the target domain** (hostile review F5.1, restated precisely) is
+   unfixable by November — the record's first-author papers are in HIV prediction, evidence
+   synthesis and clinical severity, not crisis forecasting. Mitigation: DORA framing,
+   contribution statements, the new senior-author line, and the interview. **If the Ng'ambi CVD
+   paper is accepted or preprinted before submission, update its status everywhere it appears
+   (§2.2.1, bibliography, output list item 5, Module 2) — an accepted senior-author paper is
+   worth more than any drafting.**
 3. **The lot.** Equal-quality applications can be decided by drawing lots (Guidelines 2.18).
    A reason to maximise every controllable margin — and a reason not to over-read the outcome.
 4. **Episode count.** If the inventory yields materially fewer eligible respiratory episodes

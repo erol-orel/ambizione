@@ -4,7 +4,7 @@
 
 # 1. Summary
 
-When a health crisis begins, the quantity that decision-makers need to forecast — local presentations, demand or occupancy — is precisely the quantity for which almost no local outcome data yet exist. Context variables are abundant, but the outcome series is initially a handful of noisy observations, so the forecasting systems that perform well on years of local history are weakest when early decisions are most consequential.
+When a health crisis begins, the quantity decision-makers need to forecast — local presentations, demand or occupancy — is precisely the one for which almost no local outcome data yet exist. Context variables are abundant, but the outcome series is initially a handful of noisy observations, so the forecasting systems that perform well on years of local history are weakest when early decisions are most consequential.
 
 There is, however, another source of quantitative information: the accumulated published evidence from analogous events elsewhere — thousands of studies reporting transmission parameters, weather–demand associations, surge magnitudes, intervention effects and lengths of stay. It is rarely tested as formal prior information for operational forecasting, not for lack of statistical machinery but because of the two steps that matter most: **can quantitative estimates be extracted reliably enough to pool, and do they transport to the new setting?** A confidently wrong prior is worse than no prior, because it is most influential when local data cannot yet correct it.
 

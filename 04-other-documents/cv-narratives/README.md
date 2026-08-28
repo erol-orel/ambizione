@@ -20,8 +20,8 @@ left thin reads as a gap rather than as focus.
 | Module | Outputs | What the concentration says |
 | --- | --- | --- |
 | 1 — Knowledge and tools | **4** | A sustained line: I build methods and tools, and I lead that work |
-| 2 — Individuals and teams | **1** | Honest. This is the thinnest area and is treated as such |
-| 3 — Research community | **3** | Consortium and international work; breadth |
+| 2 — Individuals and teams | **2** | Senior authorship (Ng'ambi, under revision) + enabling others' research; the transition, evidenced |
+| 3 — Research community | **2** | Consortium and international work; breadth |
 | 4 — Broader society | **2** | Public health and cantonal impact, with funding secured |
 
 ## The one weakness to handle deliberately

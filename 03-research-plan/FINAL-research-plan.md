@@ -11,7 +11,7 @@
 
 # 1. Summary
 
-When a health crisis begins, the quantity that decision-makers need to forecast — local presentations, demand or occupancy — is precisely the quantity for which almost no local outcome data yet exist. Context variables are abundant, but the outcome series is initially a handful of noisy observations, so the forecasting systems that perform well on years of local history are weakest when early decisions are most consequential.
+When a health crisis begins, the quantity decision-makers need to forecast — local presentations, demand or occupancy — is precisely the one for which almost no local outcome data yet exist. Context variables are abundant, but the outcome series is initially a handful of noisy observations, so the forecasting systems that perform well on years of local history are weakest when early decisions are most consequential.
 
 There is, however, another source of quantitative information: the accumulated published evidence from analogous events elsewhere — thousands of studies reporting transmission parameters, weather–demand associations, surge magnitudes, intervention effects and lengths of stay. It is rarely tested as formal prior information for operational forecasting, not for lack of statistical machinery but because of the two steps that matter most: **can quantitative estimates be extracted reliably enough to pool, and do they transport to the new setting?** A confidently wrong prior is worse than no prior, because it is most influential when local data cannot yet correct it.
 
@@ -42,7 +42,7 @@ The decisive limitation is **history dependence**: data-adaptive models need eno
 
 At crisis onset, context variables are abundant but the outcome to be forecast is not. Surveillance variables can be distinguished as **outcomes** (presentations, incidence, occupancy), **early signals** (dispatch symptoms, wastewater, web search), **susceptibility variables** (vaccination, seroprevalence) and **covariates** (weather, contacts, calendar). The first class is scarce; the others may be abundant. This is therefore not simply small-*n*: it is a problem of forecasting a poorly observed outcome in a large covariate space.
 
-This distinction matters because abundance of candidate predictors can itself mislead. Google Flu Trends, for example, famously overestimated influenza activity by more than a factor of two [Lazer 2014]. More information is not automatically more information about the quantity that matters.
+This distinction matters because abundance of candidate predictors can itself mislead: Google Flu Trends famously overestimated influenza activity by more than a factor of two [Lazer 2014]. More information is not automatically more information about the quantity that matters.
 
 Early signals help but do not eliminate the problem. Wastewater may lead clinical presentation, but converting viral load into expected presentations needs a shedding-to-incidence relationship that itself comes from external evidence; transfer learning needs contemporaneous observations from comparable locations; mechanistic models need parameters usually set by hand from a few studies, with uncertainty asserted rather than derived. The common unresolved issue is **how to use external quantitative information without pretending it is perfectly transferable**.
 
@@ -89,14 +89,16 @@ anticipate rare, costly transitions elsewhere.
 
 ### 2.2.1 Prediction under sparse and imperfect information
 
-My doctoral work addressed prediction where individual-level data are incomplete. In
+My doctoral work addressed prediction where individual-level data are incomplete: in
 **Orel et al., *PLoS ONE* 2022** I predicted individual HIV status from socio-behavioural
 characteristics across East and Southern Africa, establishing where models transported between
 countries and where they did not. Related work on latent structure across sub-Saharan African
 populations (**Merzouki et al., *PeerJ* 2021**) and on treatment-interruption prediction
 (**Esra et al., *JAIDS* 2023**) developed the same theme: when an estimate obtained in one
-population is usable in another. That is the transportability problem at the centre of this
-proposal, met first in a different disease area.
+population is usable in another. I now **senior-author** that line (last author,
+**Ng'ambi et al., under revision**: machine-learning classification of cardiovascular disease
+history across harmonised WHO STEPS surveys). That is the transportability problem at the centre
+of this proposal — met first in a different disease area, and moved from conducting to directing.
 
 ### 2.2.2 Automated evidence synthesis
 
@@ -116,33 +118,32 @@ consortium, used it to structure 138 retained publications.
 sub-lineages in a Swiss tertiary centre, working directly with hospital clinical data.
 **Estill et al., *F1000Research* 2020** developed age-structured scenario models for the Swiss
 SARS-CoV-2 epidemic, produced for planning under time pressure — the experience from which this
-proposal's question comes. I also contributed to WHO African region epidemiological reporting and
-to seroprevalence estimation in ***Nature Communications*** (Nwosu et al., 2021).
+proposal's question comes. I also contributed to WHO African region reporting and to
+seroprevalence estimation (***Nat Commun***, Nwosu et al., 2021).
 
 ### 2.2.4 The instrument: LiteRev-Evidence
 
-Since 2024 I have developed **LiteRev-Evidence**, extending LiteRev from
-retrieval into structured quantitative extraction and modelling. It is a running production
-system, not a prototype: **81,209 documents** and **323,868 embedded passages** ingested
-continuously from PubMed, PMC, OpenAlex, CrossRef and preprint servers by a living-review
-scheduler; structured extraction with provenance, screening state and study-quality scoring;
-**quality-weighted pooling of extracted parameters into distributions**, propagated through
-ensemble simulation — the literature-to-prior mechanism this proposal interrogates, in working
-form; compartmental (SEIR with vaccination and quarantine), time-series and machine-learning
-components with uncertainty bands and calibration to observed data; and connectors to MeteoSwiss,
-Copernicus ERA5, Sentinelles and routing services. Thirty-one operational scenarios have been
-elaborated with emergency-medicine partners.
+Since 2024 I have developed **LiteRev-Evidence**, extending LiteRev from retrieval into
+structured quantitative extraction and modelling. It is a running production system, not a
+prototype: **81,209 documents** and **323,868 embedded passages** ingested continuously from
+PubMed, PMC, OpenAlex, CrossRef and preprint servers; structured extraction with provenance and
+study-quality scoring; **quality-weighted pooling of extracted parameters into distributions**,
+propagated through ensemble simulation — the literature-to-prior mechanism this proposal
+interrogates, in working form; compartmental (SEIR), time-series and machine-learning components
+with uncertainty bands and calibration; and connectors to MeteoSwiss, Copernicus ERA5 and
+Sentinelles. Thirty-one operational scenarios have been elaborated with emergency-medicine
+partners.
 
 For GESICA I built the Geneva–Vaud data foundation: a classification of **77 notifiable diseases
 into eight model classes** by transmission mode, and an inventory of **23 surveillance sources**
-documenting for each the holding institution, historical coverage, temporal resolution, publication
-latency, access route and known quality limitations. That work is why the validation domains here
-are chosen by **model class** rather than by convenience, and why this proposal rests on a mapped
-data landscape rather than an assumed one.
+documenting the holding institution, historical coverage, temporal resolution, publication
+latency, access route and known quality limitations of each. It is why the validation domains
+here are chosen by **model class** rather than convenience, and why this proposal rests on a
+mapped data landscape rather than an assumed one.
 
-**This is what makes the research feasible rather than aspirational**, and — as software with
-independent funding behind it — a research output in its own right. The proposal is not to build
-the system but to answer the question it raises.
+**This is what makes the research feasible rather than aspirational** — and, as software with
+independent funding behind it, a research output in its own right. The proposal is to answer the
+question the system raises, not to build it.
 
 ### 2.2.5 Linked data on a contrasting crisis archetype
 
@@ -155,10 +156,9 @@ across crisis types.
 
 ### 2.2.6 Position and competences
 
-Through the GESICA consortium I am embedded in the Geneva emergency and public-health system — HUG
-emergency medicine `[[Prof. Thibaut Desmettre, Dr Robert Larribau]]`, CASU-144 and the cantonal
-services. My other current commitments, and their delimitation from this project, are set out in
-§2.6.
+Through GESICA I am embedded in the Geneva emergency and public-health system — HUG emergency
+medicine `[[Prof. Thibaut Desmettre, Dr Robert Larribau]]`, CASU-144 and the cantonal services.
+My other commitments, and their delimitation from this project, are in §2.6.
 
 **Competences required for this project.** Bayesian hierarchical and regime-switching estimation,
 extreme-value modelling and stress testing under misspecification come from fifteen years of
@@ -796,6 +796,10 @@ The Institute's expertise — including my long-standing collaboration with Aziz
 - Nwosu K, Fokam J, Wanda F, `[[FULL AUTHOR LIST REQUIRED — no "et al." permitted]]`
   (incl. **Orel E**). SARS-CoV-2 antibody seroprevalence and associated risk factors in an urban
   district in Cameroon. *Nat Commun* 2021;12:5851.
+- Ng'ambi W, Estill J, Keiser O, Merzouki FA, **Orel E** (senior author). Machine learning-based
+  classification of self-reported cardiovascular disease history in Africa using harmonised
+  multi-country WHO STEPS surveys: 2014–2019. `[[Under revision — venue; update status before
+  submission, cite the preprint if one exists]]`
 
 ## Still to source — supply from your own reading
 

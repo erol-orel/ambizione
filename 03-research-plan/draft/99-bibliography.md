@@ -168,6 +168,10 @@
 - Nwosu K, Fokam J, Wanda F, `[[FULL AUTHOR LIST REQUIRED — no "et al." permitted]]`
   (incl. **Orel E**). SARS-CoV-2 antibody seroprevalence and associated risk factors in an urban
   district in Cameroon. *Nat Commun* 2021;12:5851.
+- Ng'ambi W, Estill J, Keiser O, Merzouki FA, **Orel E** (senior author). Machine learning-based
+  classification of self-reported cardiovascular disease history in Africa using harmonised
+  multi-country WHO STEPS surveys: 2014–2019. `[[Under revision — venue; update status before
+  submission, cite the preprint if one exists]]`
 
 ## Still to source — supply from your own reading
 
