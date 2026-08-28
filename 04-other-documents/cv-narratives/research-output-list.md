@@ -95,6 +95,13 @@ cantonale d'éthique de la recherche, Geneva, 2026.
 
 ## Notes on what was left out, and why
 
+Two manuscripts in the pipeline are deliberately not listed while unpublished: the
+**first-author** *BMJ Open* submission (Place, pathway, and psychosocial distress among Nigerian
+HIV key populations starting ART, under review, July 2026) and — unless accepted or preprinted by
+submission — item 5 above has its documented swap-back. If the *BMJ Open* paper is **accepted
+before the SNSF deadline**, reconsider the allocation: a fourth published first-author paper may
+then earn a slot over item 7 or 8.
+
 Roughly fifteen further peer-reviewed papers are not listed, including work on HIV in Malawi
 (*BMJ Paediatrics Open*; *Tropical Medicine & International Health*), sociobehavioural clustering
 (*PeerJ*; *Journal of the International AIDS Society*), treatment-interruption prediction

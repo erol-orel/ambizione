@@ -18,9 +18,13 @@ one last-author paper**. Documented so far: first author on CMI Communications 2
 (LiteRev), PLoS ONE 2022; **last (senior) author** on Ng'ambi W, Estill J, Keiser O, Merzouki FA,
 Orel E, *Machine learning-based classification of self-reported cardiovascular disease history in
 Africa using harmonised multi-country WHO STEPS surveys: 2014–2019* — **under revision**, venue
-`[[to record]]`. **Still needed from the applicant: the fourth first-author reference** (not in
-the CV on file, whose newest entry is 2024 — an updated CV PDF would also refresh
-`00-source-documents/my-materials/`). The senior-author paper is now in §2.2.1 of the plan, the
+`[[to record]]`. **Fourth first-author paper received (19 Aug):** Orel E, Kalaivo A `[[verify spelling]]`,
+Ng'ambi W, Nwosu K, Keiser O. *Place, pathway, and psychosocial distress among Nigerian HIV key
+populations starting ART.* **BMJ Open, under review** (bmjopen-2026-126226, submitted
+27 July 2026; UNIGE/ISG + GRAPH Network affiliations). Complete record: **3 published
+first-author + 1 under review + 1 senior-author under revision.** Note Keiser co-authors this one
+too, so the independence-from-supervisor point is unchanged. An updated CV PDF for
+`00-source-documents/my-materials/` is still worth having. The senior-author paper is now in §2.2.1 of the plan, the
 bibliography, output-list item 5 and Module 2, all marked "under revision" — update the status at
 submission, and note the conditional swap-back documented in the output list if it is neither
 accepted nor publicly citable by then.
