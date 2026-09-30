@@ -72,8 +72,8 @@ respiratory epidemic's — the hardest available test of cross-crisis generalisa
 ### 2.2.6 Position and competences
 
 Through GESICA I am embedded in the Geneva emergency and public-health system — HUG emergency
-medicine (Prof. Thibaut Desmettre, Dr Robert Larribau), CASU-144 and the cantonal services;
-my other commitments and their delimitation are in §2.6.
+medicine (Prof. Thibaut Desmettre, Dr Robert Larribau), CASU-144 and the cantonal services; my
+other commitments and their delimitation are in §2.6.
 
 **Competences required for this project.** Bayesian hierarchical and regime-switching
 estimation, extreme-value modelling and stress testing under misspecification come from fifteen
@@ -84,4 +84,4 @@ domain knowledge from the doctorate, the Swiss COVID-19 work and GESICA. I progr
 R, with version control, HPC scheduling and secure clinical environments. French and English are
 working languages.
 
-What I have not yet had is a programme of my own with the time to run it — §2.6 takes this up.
+What I have not yet had is a programme of my own with time to run it — §2.6 takes this up.

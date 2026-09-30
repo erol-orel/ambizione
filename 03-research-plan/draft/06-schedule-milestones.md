@@ -18,7 +18,7 @@ The design avoids a serial chain in which one uncertain result stops the project
 
 | Milestone | Month | Criterion |
 | --- | ---: | --- |
-| M1 | 9 | Quantitative extraction benchmark released |
+| M1 | 9 | Extraction benchmark released |
 | M2 | 12 | Regime/state representation passes identifiability criteria, or fallback selected |
 | M3 | 20 | Retrospective information set harmonised, or open-data fallback activated |
 | M4 | 34 | Primary cold-start hypothesis tested on the pre-specified ladder |

@@ -30,7 +30,7 @@ The direction is mechanistic, not asserted: omissions dominate reported extracti
 
 #### O2 — Represent escalation in a form that separates state from the point forecast
 
-> **C2 — model adequacy criterion.** The latent-state representation must yield **identifiable** parameters and **calibrated** probabilities of escalation states at matched false-alarm rates. Its role is to provide the common state representation in which borrowing strategies are compared, not a claim that regime switching generally beats thresholding a point forecast.
+> **C2 — model adequacy criterion.** The latent-state representation must yield **identifiable** parameters and **calibrated** escalation-state probabilities at matched false-alarm rates. Its role is the common state representation in which borrowing strategies are compared, not a claim that regime switching generally beats thresholding a point forecast.
 
 C2 is verified rather than discovered: T2.1's identifiability study and T3.3's calibration checks either establish adequacy or trigger the pre-specified ordinal state-space fallback; either outcome leaves H3a intact. Extreme-value modelling represents the critical state's tail; critical-slowing-down indicators are **supporting, theory-derived covariates** on transition dynamics, their incremental value tested against level and trend.
 
@@ -43,7 +43,7 @@ C2 is verified rather than discovered: T2.1's identifiability study and T3.3's c
 > Δ on the CRPS skill score, and is **superior** to fixed borrowing under deliberately
 > misspecified priors.
 
-H3b is two-sided by design: non-inferiority where the evidence is sound, superiority where it is not. The margin Δ is fixed at the second registration point, before evaluation, and justified against the rung 3 → rung 4 effect the study is powered to detect, making "no material loss" a quantity rather than a claim.
+H3b is two-sided by design: non-inferiority where the evidence is sound, superiority where it is not. The margin Δ is fixed at the second registration point, before evaluation, justified against the rung 3 → rung 4 effect the study is powered to detect — "no material loss" as a quantity, not a claim.
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 

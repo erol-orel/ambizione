@@ -1,10 +1,9 @@
 # Remaining placeholders in the research plan
 
-**Fill pass completed 30 September 2026.** All applicant facts known to the session are now in
-the text; the registration-dependent quantities (*N*, Δ, horizons, cause classes, onset rule)
-were converted to **symbolic plain text anchored to the two registration points**, which is what
-the design intended — they are not blanks, they are declared-later parameters. Character count
-after filling: **59,991 of 60,000** (mySNF counter binding — calibrate with a draft upload).
+**Fill pass completed 30 September 2026; scientific text frozen the same day.** Countable plan
+text: **0 placeholders** (none).
+Bibliography: **7 flags**, all publisher-record items for release-QA step 1. Character
+count **59,989 of 60,000** (mySNF counter binding — calibrate with a draft upload).
 
 **1 placeholder remains in the countable plan text:**
 

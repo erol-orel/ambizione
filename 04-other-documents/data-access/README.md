@@ -30,8 +30,10 @@ Be precise, because vagueness is what stalls these requests. For each dataset:
   needed for WP3. This is a much easier ask than it first appears and you should say so early.
 - **Period**: `[[from ~2015 to present — specify what exists]]`.
 - **Variables**: date; count by coarse category — for the 144, **by call reason and urgency
-  level**, since the primary outcome is constructed from both; for the ED, by presentation
-  category; for ICU, occupied and available beds. `[[Confirm what is realistically extractable.]]`
+  level** (primary outcome = respiratory-related; heat-arm outcome = heat-sensitive classes:
+  dehydration, renal, psychiatric — the category set must cover both), ideally by broad age band
+  (75+ sensitivity is pre-specified); for the ED, by presentation category; for ICU, occupied and
+  available beds. `[[Confirm what is realistically extractable.]]`
 - For the 144 also ask about **coding stability** over the period and COVID-period completeness —
   both condition episode eligibility (T3.0).
 - **No direct identifiers, no free text, no addresses.**

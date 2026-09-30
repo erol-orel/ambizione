@@ -33,10 +33,13 @@ aide ou nuit.
 ## Ce que je demanderais aux HUG / à la CASU 144
 
 Un **extrait rétrospectif agrégé au jour** : date, effectifs par motif de recours / catégorie
-large et degré d'urgence (144), ou par catégorie de passage (urgences). Aucun identifiant direct,
-aucun texte libre. L'accès se ferait sous approbation CCER, avec moi comme requérant. Les données
-de régulation du 144 constituent la **série d'issue principale** du projet ; les passages aux
-urgences et l'occupation des soins intensifs sont des canaux d'observation complémentaires.
+large et degré d'urgence (144), ou par catégorie de passage (urgences), idéalement par classe
+d'âge large. Aucun identifiant direct, aucun texte libre. L'accès se ferait sous approbation
+CCER, avec moi comme requérant. Les données de régulation du 144 constituent la **série d'issue
+principale** ; le critère principal est la demande à motif respiratoire, celui du volet canicule
+la demande à motifs sensibles à la chaleur (déshydratation, rénal, psychiatrique) — d'où
+l'importance de catégories de motifs couvrant les deux. Les passages aux urgences et l'occupation
+des soins intensifs sont des canaux d'observation complémentaires.
 
 ## Ce que vous y gagnez
 

@@ -6,7 +6,7 @@
 
 The project needs three capabilities rarely housed together — quantitative methods, evidence synthesis, and access to a working emergency and public-health system — and the arrangement below provides them without depending on one collaborator.
 
-**Institute of Global Health.** Epidemiology, infectious-disease modelling and automated evidence extraction sit in one institute, alongside the surveillance methodology the project consumes; this is where the gap became visible. Independence is organisational — a programme led by me alongside the Institute's groups, not inside one (§2.6). **DS4DH** contributes the biomedical NLP and information retrieval WP1 needs.
+**Institute of Global Health.** Epidemiology, infectious-disease modelling and automated evidence extraction sit in one institute, with the surveillance methodology the project consumes; this is where the gap became visible. Independence is organisational — a programme led by me alongside the Institute's groups, not inside one (§2.6). **DS4DH** contributes the biomedical NLP and retrieval WP1 needs.
 
 **Operational access — HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners; the AI-in-EMS review [Edjinedja 2026] evidences the functioning collaboration. No new relationship needs creating after the grant starts.
 

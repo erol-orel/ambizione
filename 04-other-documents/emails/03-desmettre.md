@@ -36,8 +36,9 @@ agrégé au jour** :
 
 - période : `[[2015 à aujourd'hui, selon disponibilité]]` ;
 - variables : date, nombre de passages, catégorie large
-  (`[[respiratoire / cardiaque / traumatologie / autre]]`), et si possible un indicateur
-  d'occupation ;
+  (`[[respiratoire / cardiaque / traumatologie / autre]]` — idéalement avec les catégories
+  **sensibles à la chaleur** : déshydratation, rénal, psychiatrique, utilisées par le volet
+  canicule), et si possible un indicateur d'occupation ;
 - **aucun identifiant direct, aucun texte libre, aucune donnée individuelle** pour les analyses
   principales.
 

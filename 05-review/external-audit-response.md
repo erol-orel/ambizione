@@ -113,3 +113,42 @@ The second audit reviewed the revised version, endorsed the earlier disputed dec
 
 Plan after round 2: **59,999 / 60,000**. Zero placeholders in the countable text; bibliography
 placeholders reduced to author-list/venue items requiring publisher records.
+
+
+---
+
+# Round 3 (30 September, third external audit) — disposition
+
+The third audit declares the science finished and reproduces our character count exactly
+(59,999 at `32b3254`; 59,989 after this round). Its remaining defect claims were checked
+mechanically against the current repository:
+
+- **"Cook 2023 cited but missing from the bibliography" — FALSE against the repo.** The entry
+  was added in `32b3254`; the auditor reviewed a stale attachment. A full text↔bibliography
+  cross-check (multi-key citations parsed) finds **zero cited keys missing**.
+- **"[EMS-ILI 2024] still in the bibliography while the text cites 2025" — FALSE against the
+  repo**, same cause: the key and year were corrected in `32b3254`.
+- The cross-check DID surface a real adjacent defect the audit missed: **five bibliography
+  entries were never cited in the text** (Angelopoulos, Barber, Hamilton, Zheng; Orel 2023 is
+  cited in prose per the own-work convention). Fixed by anchoring them: Hamilton 1989 in T2.1,
+  Angelopoulos/Barber in T2.5's conformal clause, Zheng 2015 in §2.1.5 (with the Swiss
+  acute-episode gap it documents).
+
+**Applied from the audit:**
+- §2.1.6's universal "none tests…" softened to the falsifiability-safe form: "their stated
+  objectives do not include testing whether automatically synthesised external evidence should
+  enter a forecast as formal prior information at local cold start."
+- **Scientific freeze recorded** — banner and six-step release-QA checklist now head `TODO.md`.
+- The 59,999→calibrate framing adopted verbatim: the source count is a trigger to upload to
+  mySNF, not a margin.
+
+**Unchanged by design:** the bibliography's remaining `[[…]]` flags and editorial notes are the
+working convention for exactly the publisher-record QA the audit prescribes; they are stripped
+in release-QA step 1, not before, because removing the flags before the records exist would
+hide unfinished work rather than finish it.
+
+**Downstream propagation (this round):** the Larribau and Desmettre data requests and the
+one-page project note now specify that call-reason/presentation categories must cover **both**
+outcome arms (respiratory-related and heat-sensitive: dehydration, renal, psychiatric) plus
+broad age bands for the 75+ sensitivity — without this, the extract could satisfy the letter of
+the request and still not support the heat arm.

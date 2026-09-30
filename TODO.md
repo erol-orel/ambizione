@@ -1,9 +1,24 @@
 # To do — Ambizione, deadline 3 November 2026
 
-**Updated 19 August 2026.** Target submission **30 October** to keep a buffer before the SNSF
-deadline of 3 November, 17:00 Swiss time. The call opened 3 August; the mySNF application can be
-created now. **UNIGE runs its own internal deadline for the host confirmations — ask the RGO for
-it first; it, not 3 November, is the date that binds.**
+> ## ❄ SCIENTIFIC TEXT FROZEN (30 September 2026)
+>
+> Three audit rounds (two external, one internal) now converge: the science is finished. **Do not
+> reopen the architecture** — no new methods, domains, literature or restructuring. Remaining
+> work is **release QA**, in this order:
+>
+> 1. **Bibliography records** — every author list, DOI, venue and status from the publisher
+>    record; then strip all editorial notes/flags. (`placeholders.md` lists them.)
+> 2. **Letters** — host confirmation (two SNSF-template signatures), general confirmation,
+>    three collaboration letters. Statuses in §2.3.3.2 flip to *secured* only when in hand.
+> 3. **Budget** — the RGO/HR rate into `budget.md`'s decision table; lock the CHF 250k
+>    line-items; adjust the 50%×48 duration only if the rate forces it.
+> 4. **Data** — CASU-144 agreement scope confirmed (incl. cause categories covering BOTH
+>    respiratory and heat-sensitive classes, and broad age bands).
+> 5. **Episode inventory** — run the eligibility rules; replace the provisional 13–14.
+> 6. **mySNF calibration** — upload the draft PDF **early**; the source count (59,989) is a
+>    trigger to calibrate, not a margin. Then 15-page/visual QA of the final PDF.
+>
+> Prose edits after this point only if forced by one of the six items above.
 
 Settled and no longer open: eligibility (RGO-confirmed), host (Institute of Global Health,
 independent programme), no research stay (equivalent mobility via short visits/collaborations,

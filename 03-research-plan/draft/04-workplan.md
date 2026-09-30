@@ -32,7 +32,7 @@ Represent extraction error explicitly as measurement error; compare evidence-syn
 
 ##### T1.5 — Transportability screen *(M15–M20)*
 
-Characterise effect modifiers and study-setting differences relevant to Geneva. Where transport is weak, widen or discount the prior rather than silently treating studies as exchangeable — producing the metadata WP3's conflict analysis needs.
+Characterise effect modifiers and study-setting differences relevant to Geneva. Where transport is weak, widen or discount the prior rather than treat studies as exchangeable — producing the metadata WP3's conflict analysis needs.
 
 **Deliverables.** D1.1 open benchmark; D1.2 extraction-error analysis; D1.3 evidence-to-prior library with provenance, extraction uncertainty and transportability metadata.
 
@@ -46,7 +46,7 @@ Characterise effect modifiers and study-setting differences relevant to Geneva. 
 
 ##### T2.1 — Specify and identify the state model *(M1–M9)*
 
-Develop a Bayesian hierarchical Markov regime-switching model with an ordinal latent state `S(t) ∈ {routine, elevated, strained, critical}` observed through emergency calls, ED presentations and intensive-care occupancy. Covariates include pre-specified weather, calendar and epidemic indicators. Series-specific observation models share the latent state with different levels, dispersion and reporting delays.
+Develop a Bayesian hierarchical Markov regime-switching model [Hamilton 1989] with an ordinal latent state `S(t) ∈ {routine, elevated, strained, critical}` observed through emergency calls, ED presentations and intensive-care occupancy. Covariates: pre-specified weather, calendar and epidemic indicators. Series-specific observation models share the latent state with different levels, dispersion and reporting delays.
 
 Before fitting real data, run simulation-based identifiability and recovery experiments. Ordering constraints resolve label switching; if regime separation is insufficient, the pre-specified fallback is an ordinal state-space formulation. The criterion is recovery of states and transition probabilities, not visual fit.
 
@@ -58,15 +58,15 @@ Use peaks-over-threshold/generalised Pareto modelling for rare exceedances, coup
 
 Map WP1 distributions to the parameters where published evidence is relevant: weather effects, surge magnitudes, transition/recovery characteristics. Compare three borrowing mechanisms — weakly informative, fixed evidence-derived, adaptive robust — so the evaluation distinguishes the value of evidence from the value of the regime representation.
 
-The adaptive specification uses a robust mixture of an evidence-derived and a weakly informative component, with prior–data conflict recorded explicitly — the model cannot "prove" the prior appropriate merely by generating plausible trajectories. Power-prior and commensurate-prior approaches are retained as sensitivity comparators, not additional claims.
+The adaptive specification is a robust mixture of an evidence-derived and a weakly informative component, prior–data conflict recorded explicitly — the model cannot "prove" the prior appropriate by generating plausible trajectories. Power-prior and commensurate-prior approaches are sensitivity comparators, not additional claims.
 
 ##### T2.4 — Add resilience indicators as a secondary information channel *(M12–M20)*
 
-Compute rolling variance and lag-1 autocorrelation with pre-specified sensitivity analyses, entered as optional covariates on transition dynamics. Their role is secondary: whether they add information beyond local level/trend and the evidence prior. A null result is acceptable and interpretable.
+Compute rolling variance and lag-1 autocorrelation with pre-specified sensitivity analyses, entered as optional covariates on transition dynamics. Their role is secondary: whether they add information beyond level/trend and the evidence prior. A null result is acceptable and interpretable.
 
 ##### T2.5 — Calibration and implementation *(M20–M28)*
 
-Use calibration methods appropriate to temporal dependence to assess predictive coverage. A conformal component may serve as a robustness layer if simulation confirms the chosen temporal formulation supports its assumptions — not a headline claim of universal coverage. Release a documented reference implementation integrated with LiteRev-Evidence.
+Use calibration methods suited to temporal dependence to assess predictive coverage. A conformal component [Angelopoulos 2023; Barber 2023] may serve as a robustness layer if simulation confirms the chosen temporal formulation supports its assumptions — not a headline claim of universal coverage. Release a documented reference implementation integrated with LiteRev-Evidence.
 
 **Simulation is prior information, not data.** A mechanistic model parameterised from the literature can generate arbitrarily many trajectories, but fitting to them as if independent observations would count the same prior information twice and disable the prior–data discrepancy diagnostic H3b depends on. Mechanistic simulation is used only for characterising an intractable likelihood, structural constraints, identifiability/recovery studies and prior predictive checking. Generated trajectories are never observations, and never tighten the evidence prior.
 
@@ -89,12 +89,11 @@ performance.
 CASU-144 records** — not a raw call count, which is a care-seeking signal rather than a demand
 measure. "Respiratory-related" is built by a pre-registered classification of recorded call
 reasons and urgency levels, with sensitivity to the construction reported. **The heat arm scores heat-sensitive demand**: the same
-series and construction, restricted to cause classes fixed at
-registration — dehydration, renal and psychiatric presentations, per the Swiss evidence — with
-respiratory-restricted and
-75+ analyses as its sensitivities. **The primary claim is scoped to what the series measures** —
-the operational demand signal observed by the dispatch system; claims about broader hospital
-demand are made only where validated against the ED and ICU channels. Emergency department presentations and intensive care occupancy,
+series and construction, restricted to cause classes fixed at registration — dehydration, renal
+and psychiatric presentations, per the Swiss evidence — with respiratory-restricted and 75+
+analyses as sensitivities. **The primary claim is scoped to what the series measures** —
+the operational demand signal observed by the dispatch system; broader hospital-demand claims
+are made only where validated against the ED and ICU channels. Emergency department presentations and intensive care occupancy,
 where obtained, enter as **additional observation channels on the shared latent state**;
 wastewater, sentinel consultations and weather as signals and covariates. Nothing obtained is
 discarded — the hierarchy governs only which series H3a is scored on.
@@ -104,15 +103,15 @@ discarded — the hierarchy governs only which series H3a is scored on.
 registered with the protocol. The primary outcome is selected at a pre-specified checkpoint
 (month 12), on those criteria alone.
 
-**Episode eligibility.** An episode enters the confirmatory evaluation only if all of the
-following are prospectively reconstructable across the window:
+**Episode eligibility.** An episode enters the confirmatory evaluation only if all of these
+are prospectively reconstructable across the window:
 
 1. a detectable onset under the prospective onset rule;
-2. sufficient pre-onset history to estimate the rolling baseline that rule requires;
-3. sufficient post-onset outcome observations at the primary horizon;
-4. the external evidence available **as it stood at the historical origin**;
+2. enough pre-onset history for the rolling baseline that rule requires;
+3. enough post-onset outcome observations at the primary horizon;
+4. the external evidence **as it stood at the historical origin**;
 5. no leakage of future information into any input;
-6. sufficient separation from adjacent episodes that one prolonged wave is not counted as several.
+6. separation from adjacent episodes, so one prolonged wave is not counted as several.
 
 Episodes failing any criterion remain available for descriptive and sensitivity analysis but not
 for the confirmatory comparison. **At demand level, co-circulating pathogens form one episode**:
@@ -192,7 +191,7 @@ Because operational records may encode structural differences across populations
 
 For selected historical episodes, estimate what would have changed had escalation been triggered when the model signalled it rather than when it occurred, via a simple capacity model with propagated uncertainty. These are model-based counterfactuals, not causal estimates; sensitivity to the capacity assumptions is explicit.
 
-If authorised, the framework additionally runs in **shadow mode** alongside routine operations — forecasts recorded, not used for clinical decisions — comparing prospective with retrospective calibration. If shadow mode is not authorised or no crisis occurs, the project is complete on retrospective evaluation and reports the limitation.
+If authorised, the framework also runs in **shadow mode** alongside routine operations — forecasts recorded, not used for clinical decisions — comparing prospective with retrospective calibration. If shadow mode is not authorised or no crisis occurs, the project is complete on retrospective evaluation and reports the limitation.
 
 **Deliverables.** D4.1 elicited loss structure and equity audit; D4.2 decision-analytic evaluation; D4.3 counterfactual analysis and prospective validation where feasible.
 

@@ -36,7 +36,11 @@ Concrètement, le projet utiliserait un **extrait rétrospectif agrégé au jour
 
 - période : `[[2015 à aujourd'hui, selon disponibilité]]` ;
 - variables : date, **nombre d'appels / d'interventions par motif de recours (catégories
-  larges)** et **par degré d'urgence**, sans autre détail ;
+  larges)** et **par degré d'urgence**, sans autre détail. Les catégories de motifs devraient
+  couvrir, outre le **respiratoire** (critère principal), les motifs **sensibles à la chaleur** —
+  déshydratation, rénal, psychiatrique — qui définissent le critère du volet canicule ;
+- si possible, une répartition par **classe d'âge large** (le protocole prévoit une analyse de
+  sensibilité 75+) ;
 - **aucun identifiant direct, aucune donnée individuelle, aucun enregistrement vocal ou texte
   libre** pour les analyses principales.
 
@@ -51,7 +55,9 @@ Quatre questions pratiques, dont trois conditionnent directement le protocole :
    et la période COVID est-elle complète ?
 2. **Stabilité du codage** : la nomenclature des motifs de recours et des degrés d'urgence
    a-t-elle changé sur la période ? (Un changement de codage se confond avec un changement de
-   demande — je dois le connaître pour le neutraliser.)
+   demande — je dois le connaître pour le neutraliser. Je note aussi que la définition des
+   avertissements canicule de MétéoSuisse a changé à l'été 2021 ; côté 144, tout changement
+   analogue m'intéresse.)
 3. Un extrait **agrégé au jour** permettrait-il d'éviter une procédure d'accès aux données
    individuelles ?
 4. Quel est le **bon interlocuteur institutionnel** côté CASU pour formaliser la mise à
