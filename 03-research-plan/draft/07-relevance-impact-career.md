@@ -4,7 +4,7 @@
 
 The project tests an assumption crisis forecasting currently makes informally: that accumulated evidence from elsewhere is useful when local outcome data are insufficient. The result is useful either way — a principled, auditable way to borrow if the priors help, and a stated boundary if they do not.
 
-**A null result changes identifiable practice.** Modellers advising cantonal and federal preparedness routinely seed early-crisis models with parameters lifted from a few published studies, and evidence-synthesis platforms — including my own — assume pooled estimates are reusable as priors. A calibrated null tells those groups the practice buys nothing where it is most used, that early forecasts belong with local-data-only uncertainty, and that effort belongs in acquiring local observations faster rather than pooling external ones harder. That is a change of course, not an absence of finding.
+**A null result changes identifiable practice.** Modellers advising cantonal and federal preparedness routinely seed early-crisis models with parameters lifted from a few published studies, and evidence-synthesis platforms — including my own — assume pooled estimates are reusable as priors. A calibrated null tells those groups the practice buys nothing where it is most used, and that effort belongs in acquiring local observations faster rather than pooling external ones harder. That is a change of course, not an absence of finding.
 
 **Form of publication.** Results appear as **articles in peer-reviewed journals** — methodological
 work in biostatistics and evidence-synthesis venues, applied results in infectious-disease
@@ -17,7 +17,7 @@ The project also leaves three durable resources, deliberately subordinate to the
 
 ### Practical and societal impact
 
-The practical contribution is preparedness rather than a promised clinical deployment. In the first weeks of a crisis, emergency systems must decide whether to open capacity, redistribute resources or escalate before local outcomes provide a reliable empirical base. The project quantifies whether external evidence improves those decisions and how much uncertainty should remain around the recommendation. The Geneva setting provides a realistic operational anchor, and the contrasting validation domains are designed to show what transfers and what does not.
+The practical contribution is preparedness rather than a promised clinical deployment. In the first weeks of a crisis, emergency systems must decide whether to open capacity, redistribute resources or escalate before local outcomes provide a reliable base. The project quantifies whether external evidence improves those decisions and how much uncertainty should remain around the recommendation. Geneva provides a realistic operational anchor, and the contrasting validation domains show what transfers and what does not.
 
 ## 2.6 Relevance for personal career development
 

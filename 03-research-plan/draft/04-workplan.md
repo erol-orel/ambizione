@@ -24,7 +24,7 @@ Two independent expert extractors manually extract target quantities from a stra
 
 ##### T1.3 — Characterise automated extraction error *(M7–M14)*
 
-Compare automated extraction with the benchmark on point estimates, uncertainty, omissions and between-study dispersion. The key question is not whether an LLM can find a number, but whether the distribution that emerges after extraction still represents the uncertainty needed for quantitative borrowing. Test sensitivity to the underlying model version so that the result is not tied to one implementation.
+Compare automated extraction with the benchmark on point estimates, uncertainty, omissions and between-study dispersion. The question is not whether an LLM can find a number, but whether the distribution that emerges still carries the uncertainty quantitative borrowing needs. Test sensitivity to the underlying model version so the result is not tied to one implementation.
 
 ##### T1.4 — Construct uncertainty-aware evidence distributions *(M12–M18)*
 
@@ -46,7 +46,7 @@ Characterise effect modifiers and study-setting differences relevant to Geneva. 
 
 ##### T2.1 — Specify and identify the state model *(M1–M9)*
 
-Develop a Bayesian hierarchical Markov regime-switching model with an ordinal latent state `S(t) ∈ {routine, elevated, strained, critical}` observed through emergency calls, emergency-department presentations and intensive-care occupancy. Covariates include pre-specified weather, calendar and epidemic indicators. Series-specific observation models share the latent state while allowing different levels, dispersion and reporting delays.
+Develop a Bayesian hierarchical Markov regime-switching model with an ordinal latent state `S(t) ∈ {routine, elevated, strained, critical}` observed through emergency calls, ED presentations and intensive-care occupancy. Covariates include pre-specified weather, calendar and epidemic indicators. Series-specific observation models share the latent state with different levels, dispersion and reporting delays.
 
 Before fitting real data, run simulation-based identifiability and recovery experiments. Ordering constraints resolve label switching; if regime separation is insufficient, use the pre-specified fallback of an ordinal state-space formulation. The criterion is recovery of states and transition probabilities, not visual fit.
 
@@ -89,9 +89,9 @@ observed performance.
 
 **Outcome.** The primary outcome is **daily respiratory-related emergency demand derived from
 CASU-144 records** — not a raw call count, which is a care-seeking signal rather than a demand
-measure. "Respiratory-related" is constructed from the recorded call reason and urgency level by a
-classification fixed before evaluation `[[symptom keyword set and EST levels]]`, with sensitivity
-to that construction reported. Emergency department presentations and intensive care occupancy,
+measure. "Respiratory-related" is constructed from the recorded call reason and urgency level by
+a classification fixed before evaluation `[[symptom keyword set and urgency levels]]`, with
+sensitivity to the construction reported. Emergency department presentations and intensive care occupancy,
 where obtained, enter as **additional observation channels on the shared latent state**;
 wastewater, sentinel consultations and weather as signals and covariates. Nothing obtained is
 discarded — the hierarchy governs only which series H3a is scored on.

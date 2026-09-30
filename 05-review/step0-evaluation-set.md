@@ -1,5 +1,44 @@
 # Step 0 — the evaluation set
 
+> ## Addendum, 30 September 2026 — inventory revision 5 / table revision 3
+>
+> The applicant supplied the updated GESICA report (v5, roughly doubled in length) and table (v3).
+> What changes:
+>
+> 1. **Scope is now Geneva–Vaud–Neuchâtel**, and the inventory holds **28 sources: 23 infectious
+>    (D01–D22 incl. D04b) + 5 non-infectious (D23–D27)**, with a referenced bibliography (91
+>    entries). The plan's "23 sources / Geneva–Vaud" claim was updated accordingly (§2.2.4).
+> 2. **D03 (144 calls), Geneva: "accès accordé au projet par les HUG, hors enregistrements
+>    vocaux."** Access to the HUG centrale's data is already established **within GESICA**. That
+>    is not access for COLDSTART — a separate agreement and CCER approval remain necessary — but
+>    it converts the feasibility claim from "a relationship exists" to "the data already flow to
+>    a project I work on". The commitments table now says exactly that. VD/NE run through the
+>    CHUV centrale (since 07.2024; also serves NE and the Broye) — a documented route to
+>    multi-canton extension, not claimed in the plan.
+> 3. **The v5 report dropped the call-volume figures** (>165,000 calls/yr, ~71,000 emergency).
+>    The number is retained in the commitments table but flagged for reconfirmation with HUG.
+> 4. **D24 gives the official heat-warning definitions** (MeteoSwiss degree 3: daily-mean ≥25 °C
+>    for 3 days; degree 4: ≥27 °C for 3 days; Geneva cantonal activation at 25 °C/5 d or
+>    27 °C/3 d; heat-index basis before 2021). **This is the natural pre-specified heat onset
+>    rule and the authoritative episode list** — it replaces guesswork in the heat episode
+>    inventory below. Note the definition change in summer 2021: episodes straddling it need the
+>    sensitivity flag.
+> 5. **Section 5.3 raises a real design question for the heat arm.** Swiss evidence [Schulte
+>    2024; Ragettli 2019]: heat effects on **respiratory** emergency admissions are weak and
+>    non-significant overall (cumulative RR ≈ 1.03), significant only at 75–84; heat acts
+>    strongly on mortality, dehydration, renal and psychiatric admissions instead. Pollution →
+>    asthma ED visits is documented internationally [Zheng 2015] with no recent Swiss
+>    acute-episode study (a stated contribution space). **Consequence:** a heat test scored on
+>    *respiratory-restricted* demand may be near-null by construction. The plan now cites
+>    Schulte and pre-specifies age-stratified sensitivity (75+) for the heat arm. **The open
+>    applicant decision:** keep respiratory-restricted demand for the heat arm (clean
+>    same-outcome design, accepting low signal), or pre-specify the heat arm on all-cause or
+>    heat-sensitive-cause demand (more signal, weaker "same outcome" argument). This must be
+>    fixed at the second registration point, not after looking at data.
+> 6. New sources D26 (asthma/COPD care recourse — OFS/SpiGes, Obsan, HUG/CHUV/RHNe) and D27
+>    (weekly mortality) are candidate covariates/validation series for the heat arm.
+
+
 Pre-filled from your own GESICA data inventory (`00-source-documents/my-materials/
 gesica-disease-model-source-table.xlsx`, sheet `Sources_donnees_GE_VD`). Much of questions A and B
 was already answered there. Only the cells marked `[[…]]` genuinely need someone else to tell you.

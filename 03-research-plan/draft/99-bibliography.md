@@ -173,9 +173,26 @@
   multi-country WHO STEPS surveys: 2014–2019. **Accepted for publication.**
   `[[Venue, year, DOI once assigned — update on publication]]`
 
+- **[Schulte 2024]** Schulte F, Röösli M, Ragettli MS. Risk, attributable fraction and
+  attributable number of cause-specific heat-related emergency hospital admissions in Switzerland.
+  *Int J Public Health* 2024;69:1607349. doi:10.3389/ijph.2024.1607349
+  — Swiss heat–ED evidence: weak/non-significant for respiratory causes overall; significant in
+  the 75–84 subgroup. Grounds the §2.3.1 heat-arm caveat. *Sourced from the GESICA v5 inventory's
+  reference list (ref 41); verify against the publisher record like every other entry.*
+- **[Ragettli 2019]** Ragettli MS, Vicedo-Cabrera AM, Schindler C, Röösli M. Impact of the warm
+  summer 2015 on emergency hospital admissions in Switzerland. *Environ Health* 2019;18:66.
+  doi:10.1186/s12940-019-0507-1 *(GESICA v5 ref 42)*
+- **[Zheng 2015]** Zheng XY, Ding H, Jiang LN, et al. `[[consortium size < 50 — full author list
+  required]]` Association between air pollutants and asthma emergency room visits and hospital
+  admissions in time series studies: a systematic review and meta-analysis.
+  *PLoS One* 2015;10(9):e0138146. doi:10.1371/journal.pone.0138146 *(GESICA v5 ref 44; pollution →
+  asthma ED, international; the v5 report notes no recent Swiss study of acute episodes — a
+  contribution space for this project)*
+
 ## Still to source — supply from your own reading
 
-- Heat and emergency department presentations / EMS demand in Switzerland or comparable settings
+- ~~Heat and emergency department presentations / EMS demand in Switzerland~~ **Closed** — Schulte
+  2024 and Ragettli 2019 above, from the applicant's own referenced inventory
 - Out-of-hospital cardiac arrest and temperature (your platform's scenario documentation cites
   work here — verify each citation before reuse)
 - ICU surge capacity modelling

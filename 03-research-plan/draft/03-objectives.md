@@ -76,11 +76,10 @@ Threshold elicitation, net benefit and counterfactual analysis are downstream te
 #### Validation domains
 
 The domains span **two contrasting model classes** from my GESICA classification — interhuman
-respiratory transmission, and common-source or environmentally mediated exposure — chosen for
-contrast in dynamics rather than convenience. Both are measured on **the same outcome**, daily
-respiratory-related emergency demand: non-infectious exacerbations driven by heat and pollution
-feed the same care demand as an epidemic does, so generalisation is tested across mechanisms
-rather than across incommensurable measures.
+respiratory transmission, and environmentally mediated exposure — chosen for contrast in
+dynamics, not convenience. Both are measured on **the same outcome**, daily respiratory-related
+emergency demand: heat- and pollution-driven exacerbations feed the same care demand as an
+epidemic, so generalisation is tested across mechanisms rather than incommensurable measures.
 
 | Archetype | Role in the project | Dynamics | Data |
 | --- | --- | --- | --- |
@@ -88,7 +87,7 @@ rather than across incommensurable measures.
 | **Heatwave** | Sequential generalisation test | Environmental, short and sharply peaked | Same demand outcome, driven by MeteoSwiss exposures |
 | **Waterborne outbreak** | Year-4 extension | Common-source / environmentally mediated | Geneva legionellosis linked to installations |
 
-The first domain carries the confirmatory claim and the second tests whether it generalises. The third tests whether the framework can cross a substantially different crisis mechanism; its omission does not invalidate the main cold-start result.
+The first domain carries the confirmatory claim; the second tests generalisation. Swiss evidence for heat effects on **respiratory** emergency admissions is weak overall and concentrated at older ages [Schulte 2024] — exactly what makes heat the demanding transport test, and why age-stratified sensitivity `[[75+]]` is pre-specified for that arm. The third tests a substantially different mechanism; its omission does not invalidate the main result.
 
 #### What the project does not claim
 

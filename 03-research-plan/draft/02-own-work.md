@@ -27,9 +27,9 @@ literature review tool combining natural language processing, dimensionality red
 and nearest-neighbour retrieval. I led its development with **Aziza Merzouki** (PhD, computer
 science) and secured dedicated development funding on my own initiative — **CHF 30,000**
 (University of Geneva), **CHF 10,000** (Venture Kick), **CHF 20,000** (Mimosa) — outside any group
-grant. LiteRev is used in practice: the systematic review of artificial intelligence in emergency
-medical services (**Edjinedja, Larribau, Orel et al.**, submitted 2026), within the GESICA
-consortium, used it to structure 138 retained publications.
+grant. LiteRev is used in practice: the AI-in-EMS systematic review (**Edjinedja, Larribau, Orel et
+al.**, submitted 2026), within the GESICA consortium, used it to structure 138 retained
+publications.
 
 ### 2.2.3 Outbreak and health-system modelling in Switzerland
 
@@ -53,12 +53,13 @@ with uncertainty bands and calibration; and connectors to MeteoSwiss, Copernicus
 Sentinelles. Thirty-one operational scenarios have been elaborated with emergency-medicine
 partners.
 
-For GESICA I built the Geneva–Vaud data foundation: a classification of **77 notifiable diseases
-into eight model classes** by transmission mode, and an inventory of **23 surveillance sources**
-documenting the holding institution, historical coverage, temporal resolution, publication
-latency, access route and known quality limitations of each. It is why the validation domains
-here are chosen by **model class** rather than convenience, and why this proposal rests on a
-mapped data landscape rather than an assumed one.
+For GESICA I built the Geneva–Vaud–Neuchâtel data foundation: a classification of **77
+notifiable diseases into eight model classes** by transmission mode, and a referenced inventory of
+**28 surveillance sources — 23 infectious and 5 environmental/non-infectious** — documenting the
+holding institution, historical coverage, temporal resolution, latency, access route and known
+quality limitations of each. It is why the validation domains here are chosen by
+**model class**, and why this proposal rests on a mapped data landscape rather than an assumed
+one.
 
 **This is what makes the research feasible rather than aspirational** — and, as software with
 independent funding behind it, a research output in its own right. The proposal is to answer the

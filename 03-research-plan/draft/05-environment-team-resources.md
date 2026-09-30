@@ -8,7 +8,7 @@ The project requires three capabilities rarely housed together — quantitative 
 
 **Institute of Global Health.** Epidemiology, infectious-disease modelling and automated evidence extraction sit in one institute, alongside the surveillance methodology the project consumes. This is where the gap became visible. Independence is organisational — a programme led by me alongside the Institute's groups rather than inside one (§2.6). **DS4DH** contributes the biomedical NLP and information retrieval WP1's extraction work needs.
 
-**Operational access — HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners; the AI-in-EMS systematic review [Edjinedja 2026] is concrete evidence of a functioning collaboration. No new relationship has to be created after the grant starts.
+**Operational access — HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners; the AI-in-EMS review [Edjinedja 2026] evidences a functioning collaboration. No new relationship has to be created after the grant starts.
 
 **Existing infrastructure.** LiteRev-Evidence is operational: 80,000+ publications, structured quantitative extraction with provenance and quality scoring, quality-weighted pooling into parameter distributions, and connectors to MeteoSwiss, Copernicus ERA5 and surveillance sources. Ambizione does not fund its construction; it uses it to test the question the platform raises. The Geneva legionellosis study (BASEC 2026-00324), already under way with ethics granted, supplies the contrasting crisis archetype.
 
@@ -24,7 +24,7 @@ Each row is labelled **secured**, **agreed**, **requested** or **fallback**. Not
 | Host institute (ISG) | `[[requested]]` | `[[host confirmation letter]]` |
 | DS4DH methodological collaboration | **Agreed** `[[confirm]]` | `[[letter of support]]` |
 | Institutional confirmation | `[[requested]]` | General confirmation letter, UNIGE |
-| **CASU-144 records (HUG-operated) — primary outcome** | `[[requested]]` | `[[letter of support]]`. Documented in my GESICA inventory: continuous, daily, ~71,000 emergency calls/year in Geneva |
+| **CASU-144 records (HUG-operated) — primary outcome** | `[[requested]]` | `[[letter of support]]`. Continuous, daily, near real-time; **access to the HUG centrale's data already established within GESICA** (voice recordings excluded). This project requires its own agreement and CCER approval `[[volume ~71,000 emergency calls/yr — reconfirm with HUG; figure from the 2026 inventory revision 4, dropped in revision 5]]` |
 | ED presentations — additional channel | `[[requested]]` | `[[letter of support]]`. Daily historical availability to be confirmed; OFS hospital statistics are annual |
 | ICU occupancy data | `[[requested]]` | `[[letter of support]]`; fallback in WP3 |
 | Operational-data ethics | `[[requested]]` | CCER submission, PI as applicant |

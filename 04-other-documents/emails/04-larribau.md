@@ -40,7 +40,10 @@ Concrètement, le projet utiliserait un **extrait rétrospectif agrégé au jour
 - **aucun identifiant direct, aucune donnée individuelle, aucun enregistrement vocal ou texte
   libre** pour les analyses principales.
 
-L'accès effectif interviendrait sous approbation de la **CCER**, avec moi comme requérant.
+L'accès effectif interviendrait sous approbation de la **CCER**, avec moi comme requérant. Je
+précise volontiers le cadre : l'accès aux données de la centrale est déjà établi **dans le cadre
+de GESICA** — il s'agirait ici d'une mise à disposition distincte, pour un projet distinct, avec
+sa propre base éthique.
 
 Quatre questions pratiques, dont trois conditionnent directement le protocole :
 

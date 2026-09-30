@@ -32,7 +32,7 @@ The project is enabled by an unusual combination of expertise and infrastructure
 
 ### 2.1.1 Forecasting health-system crises: strong in steady state, weak at onset
 
-Anticipating surges in emergency care demand is an established field with a mature toolkit. Syndromic surveillance detects departures from expected baselines — the Farrington quasi-Poisson framework [Farrington 1996] and its reweighted "Flexible" extension [Noufaily 2013] remain important operational approaches. For quantitative prediction, seasonal ARIMA, decomposition models and, where history allows, recurrent architectures are routinely compared, and forecast ensembles have demonstrated strong performance in data-rich settings [Cramer 2022; Sherratt 2023].
+Anticipating surges in emergency care demand is an established field with a mature toolkit. Syndromic surveillance detects departures from expected baselines — the Farrington quasi-Poisson framework [Farrington 1996] and its reweighted "Flexible" extension [Noufaily 2013] remain operational mainstays. For quantitative prediction, seasonal ARIMA, decomposition models and, where history allows, recurrent architectures are routinely compared, and forecast ensembles perform strongly in data-rich settings [Cramer 2022; Sherratt 2023].
 
 Prehospital data can provide a leading signal: dispatch and ambulance records capture care-seeking before laboratory-confirmed surveillance, a three-region European comparison identified the onset of the 2009 A(H1N1) autumn wave eight days in advance [Rosenkötter 2013], and longer emergency-call series track influenza-like illness [EMS-ILI 2024]. Our systematic review maps this literature and its limits [Edjinedja 2026].
 
@@ -50,7 +50,7 @@ Early signals help but do not eliminate the problem. Wastewater may lead clinica
 
 Thousands of studies report quantities potentially relevant at crisis onset: weather–demand associations, surge multipliers, transmission parameters, intervention effects and length-of-stay distributions. Bayesian methods for historical borrowing are well developed — power priors discount historical information [Ibrahim 2000], commensurate priors adapt borrowing to agreement between sources [Hobbs 2011], and meta-analytic-predictive priors derive a distribution for a new setting from previous studies with robust protection against prior–data conflict [Schmidli 2014].
 
-What is missing is a demonstrated bridge from that statistical machinery to **operational cold-start forecasting**. Two problems make the bridge non-trivial.
+What is missing is a demonstrated bridge from that machinery to **operational cold-start forecasting**. Two problems make the bridge non-trivial.
 
 **Extraction.** Quantitative effect measures are reported inconsistently, with different definitions, units and uncertainty representations. Automated extraction makes large-scale synthesis increasingly feasible, but our review of the emerging literature shows that numerical extraction remains less reliable than categorical extraction: reported numerical accuracy spans roughly 47–88%, compared with 74–96% for categorical items, and omissions account for a large share of errors [Shankar 2026]. The unresolved question is not whether an automated system can retrieve numbers, but whether extraction and pooling preserve the dispersion needed for a calibrated prior.
 
@@ -108,9 +108,9 @@ literature review tool combining natural language processing, dimensionality red
 and nearest-neighbour retrieval. I led its development with **Aziza Merzouki** (PhD, computer
 science) and secured dedicated development funding on my own initiative — **CHF 30,000**
 (University of Geneva), **CHF 10,000** (Venture Kick), **CHF 20,000** (Mimosa) — outside any group
-grant. LiteRev is used in practice: the systematic review of artificial intelligence in emergency
-medical services (**Edjinedja, Larribau, Orel et al.**, submitted 2026), within the GESICA
-consortium, used it to structure 138 retained publications.
+grant. LiteRev is used in practice: the AI-in-EMS systematic review (**Edjinedja, Larribau, Orel et
+al.**, submitted 2026), within the GESICA consortium, used it to structure 138 retained
+publications.
 
 ### 2.2.3 Outbreak and health-system modelling in Switzerland
 
@@ -134,12 +134,13 @@ with uncertainty bands and calibration; and connectors to MeteoSwiss, Copernicus
 Sentinelles. Thirty-one operational scenarios have been elaborated with emergency-medicine
 partners.
 
-For GESICA I built the Geneva–Vaud data foundation: a classification of **77 notifiable diseases
-into eight model classes** by transmission mode, and an inventory of **23 surveillance sources**
-documenting the holding institution, historical coverage, temporal resolution, publication
-latency, access route and known quality limitations of each. It is why the validation domains
-here are chosen by **model class** rather than convenience, and why this proposal rests on a
-mapped data landscape rather than an assumed one.
+For GESICA I built the Geneva–Vaud–Neuchâtel data foundation: a classification of **77
+notifiable diseases into eight model classes** by transmission mode, and a referenced inventory of
+**28 surveillance sources — 23 infectious and 5 environmental/non-infectious** — documenting the
+holding institution, historical coverage, temporal resolution, latency, access route and known
+quality limitations of each. It is why the validation domains here are chosen by
+**model class**, and why this proposal rests on a mapped data landscape rather than an assumed
+one.
 
 **This is what makes the research feasible rather than aspirational** — and, as software with
 independent funding behind it, a research output in its own right. The proposal is to answer the
@@ -252,11 +253,10 @@ Threshold elicitation, net benefit and counterfactual analysis are downstream te
 #### Validation domains
 
 The domains span **two contrasting model classes** from my GESICA classification — interhuman
-respiratory transmission, and common-source or environmentally mediated exposure — chosen for
-contrast in dynamics rather than convenience. Both are measured on **the same outcome**, daily
-respiratory-related emergency demand: non-infectious exacerbations driven by heat and pollution
-feed the same care demand as an epidemic does, so generalisation is tested across mechanisms
-rather than across incommensurable measures.
+respiratory transmission, and environmentally mediated exposure — chosen for contrast in
+dynamics, not convenience. Both are measured on **the same outcome**, daily respiratory-related
+emergency demand: heat- and pollution-driven exacerbations feed the same care demand as an
+epidemic, so generalisation is tested across mechanisms rather than incommensurable measures.
 
 | Archetype | Role in the project | Dynamics | Data |
 | --- | --- | --- | --- |
@@ -264,7 +264,7 @@ rather than across incommensurable measures.
 | **Heatwave** | Sequential generalisation test | Environmental, short and sharply peaked | Same demand outcome, driven by MeteoSwiss exposures |
 | **Waterborne outbreak** | Year-4 extension | Common-source / environmentally mediated | Geneva legionellosis linked to installations |
 
-The first domain carries the confirmatory claim and the second tests whether it generalises. The third tests whether the framework can cross a substantially different crisis mechanism; its omission does not invalidate the main cold-start result.
+The first domain carries the confirmatory claim; the second tests generalisation. Swiss evidence for heat effects on **respiratory** emergency admissions is weak overall and concentrated at older ages [Schulte 2024] — exactly what makes heat the demanding transport test, and why age-stratified sensitivity `[[75+]]` is pre-specified for that arm. The third tests a substantially different mechanism; its omission does not invalidate the main result.
 
 #### What the project does not claim
 
@@ -299,7 +299,7 @@ Two independent expert extractors manually extract target quantities from a stra
 
 ##### T1.3 — Characterise automated extraction error *(M7–M14)*
 
-Compare automated extraction with the benchmark on point estimates, uncertainty, omissions and between-study dispersion. The key question is not whether an LLM can find a number, but whether the distribution that emerges after extraction still represents the uncertainty needed for quantitative borrowing. Test sensitivity to the underlying model version so that the result is not tied to one implementation.
+Compare automated extraction with the benchmark on point estimates, uncertainty, omissions and between-study dispersion. The question is not whether an LLM can find a number, but whether the distribution that emerges still carries the uncertainty quantitative borrowing needs. Test sensitivity to the underlying model version so the result is not tied to one implementation.
 
 ##### T1.4 — Construct uncertainty-aware evidence distributions *(M12–M18)*
 
@@ -321,7 +321,7 @@ Characterise effect modifiers and study-setting differences relevant to Geneva. 
 
 ##### T2.1 — Specify and identify the state model *(M1–M9)*
 
-Develop a Bayesian hierarchical Markov regime-switching model with an ordinal latent state `S(t) ∈ {routine, elevated, strained, critical}` observed through emergency calls, emergency-department presentations and intensive-care occupancy. Covariates include pre-specified weather, calendar and epidemic indicators. Series-specific observation models share the latent state while allowing different levels, dispersion and reporting delays.
+Develop a Bayesian hierarchical Markov regime-switching model with an ordinal latent state `S(t) ∈ {routine, elevated, strained, critical}` observed through emergency calls, ED presentations and intensive-care occupancy. Covariates include pre-specified weather, calendar and epidemic indicators. Series-specific observation models share the latent state with different levels, dispersion and reporting delays.
 
 Before fitting real data, run simulation-based identifiability and recovery experiments. Ordering constraints resolve label switching; if regime separation is insufficient, use the pre-specified fallback of an ordinal state-space formulation. The criterion is recovery of states and transition probabilities, not visual fit.
 
@@ -364,9 +364,9 @@ observed performance.
 
 **Outcome.** The primary outcome is **daily respiratory-related emergency demand derived from
 CASU-144 records** — not a raw call count, which is a care-seeking signal rather than a demand
-measure. "Respiratory-related" is constructed from the recorded call reason and urgency level by a
-classification fixed before evaluation `[[symptom keyword set and EST levels]]`, with sensitivity
-to that construction reported. Emergency department presentations and intensive care occupancy,
+measure. "Respiratory-related" is constructed from the recorded call reason and urgency level by
+a classification fixed before evaluation `[[symptom keyword set and urgency levels]]`, with
+sensitivity to the construction reported. Emergency department presentations and intensive care occupancy,
 where obtained, enter as **additional observation channels on the shared latent state**;
 wastewater, sentinel consultations and weather as signals and covariates. Nothing obtained is
 discarded — the hierarchy governs only which series H3a is scored on.
@@ -497,7 +497,7 @@ The project requires three capabilities rarely housed together — quantitative 
 
 **Institute of Global Health.** Epidemiology, infectious-disease modelling and automated evidence extraction sit in one institute, alongside the surveillance methodology the project consumes. This is where the gap became visible. Independence is organisational — a programme led by me alongside the Institute's groups rather than inside one (§2.6). **DS4DH** contributes the biomedical NLP and information retrieval WP1's extraction work needs.
 
-**Operational access — HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners; the AI-in-EMS systematic review [Edjinedja 2026] is concrete evidence of a functioning collaboration. No new relationship has to be created after the grant starts.
+**Operational access — HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners; the AI-in-EMS review [Edjinedja 2026] evidences a functioning collaboration. No new relationship has to be created after the grant starts.
 
 **Existing infrastructure.** LiteRev-Evidence is operational: 80,000+ publications, structured quantitative extraction with provenance and quality scoring, quality-weighted pooling into parameter distributions, and connectors to MeteoSwiss, Copernicus ERA5 and surveillance sources. Ambizione does not fund its construction; it uses it to test the question the platform raises. The Geneva legionellosis study (BASEC 2026-00324), already under way with ethics granted, supplies the contrasting crisis archetype.
 
@@ -513,7 +513,7 @@ Each row is labelled **secured**, **agreed**, **requested** or **fallback**. Not
 | Host institute (ISG) | `[[requested]]` | `[[host confirmation letter]]` |
 | DS4DH methodological collaboration | **Agreed** `[[confirm]]` | `[[letter of support]]` |
 | Institutional confirmation | `[[requested]]` | General confirmation letter, UNIGE |
-| **CASU-144 records (HUG-operated) — primary outcome** | `[[requested]]` | `[[letter of support]]`. Documented in my GESICA inventory: continuous, daily, ~71,000 emergency calls/year in Geneva |
+| **CASU-144 records (HUG-operated) — primary outcome** | `[[requested]]` | `[[letter of support]]`. Continuous, daily, near real-time; **access to the HUG centrale's data already established within GESICA** (voice recordings excluded). This project requires its own agreement and CCER approval `[[volume ~71,000 emergency calls/yr — reconfirm with HUG; figure from the 2026 inventory revision 4, dropped in revision 5]]` |
 | ED presentations — additional channel | `[[requested]]` | `[[letter of support]]`. Daily historical availability to be confirmed; OFS hospital statistics are annual |
 | ICU occupancy data | `[[requested]]` | `[[letter of support]]`; fallback in WP3 |
 | Operational-data ethics | `[[requested]]` | CCER submission, PI as applicant |
@@ -582,7 +582,7 @@ The design avoids a serial chain in which one uncertain result stops the project
 
 The project tests an assumption crisis forecasting currently makes informally: that accumulated evidence from elsewhere is useful when local outcome data are insufficient. The result is useful either way — a principled, auditable way to borrow if the priors help, and a stated boundary if they do not.
 
-**A null result changes identifiable practice.** Modellers advising cantonal and federal preparedness routinely seed early-crisis models with parameters lifted from a few published studies, and evidence-synthesis platforms — including my own — assume pooled estimates are reusable as priors. A calibrated null tells those groups the practice buys nothing where it is most used, that early forecasts belong with local-data-only uncertainty, and that effort belongs in acquiring local observations faster rather than pooling external ones harder. That is a change of course, not an absence of finding.
+**A null result changes identifiable practice.** Modellers advising cantonal and federal preparedness routinely seed early-crisis models with parameters lifted from a few published studies, and evidence-synthesis platforms — including my own — assume pooled estimates are reusable as priors. A calibrated null tells those groups the practice buys nothing where it is most used, and that effort belongs in acquiring local observations faster rather than pooling external ones harder. That is a change of course, not an absence of finding.
 
 **Form of publication.** Results appear as **articles in peer-reviewed journals** — methodological
 work in biostatistics and evidence-synthesis venues, applied results in infectious-disease
@@ -595,7 +595,7 @@ The project also leaves three durable resources, deliberately subordinate to the
 
 ### Practical and societal impact
 
-The practical contribution is preparedness rather than a promised clinical deployment. In the first weeks of a crisis, emergency systems must decide whether to open capacity, redistribute resources or escalate before local outcomes provide a reliable empirical base. The project quantifies whether external evidence improves those decisions and how much uncertainty should remain around the recommendation. The Geneva setting provides a realistic operational anchor, and the contrasting validation domains are designed to show what transfers and what does not.
+The practical contribution is preparedness rather than a promised clinical deployment. In the first weeks of a crisis, emergency systems must decide whether to open capacity, redistribute resources or escalate before local outcomes provide a reliable base. The project quantifies whether external evidence improves those decisions and how much uncertainty should remain around the recommendation. Geneva provides a realistic operational anchor, and the contrasting validation domains show what transfers and what does not.
 
 ## 2.6 Relevance for personal career development
 
@@ -801,9 +801,26 @@ The Institute's expertise — including my long-standing collaboration with Aziz
   multi-country WHO STEPS surveys: 2014–2019. **Accepted for publication.**
   `[[Venue, year, DOI once assigned — update on publication]]`
 
+- **[Schulte 2024]** Schulte F, Röösli M, Ragettli MS. Risk, attributable fraction and
+  attributable number of cause-specific heat-related emergency hospital admissions in Switzerland.
+  *Int J Public Health* 2024;69:1607349. doi:10.3389/ijph.2024.1607349
+  — Swiss heat–ED evidence: weak/non-significant for respiratory causes overall; significant in
+  the 75–84 subgroup. Grounds the §2.3.1 heat-arm caveat. *Sourced from the GESICA v5 inventory's
+  reference list (ref 41); verify against the publisher record like every other entry.*
+- **[Ragettli 2019]** Ragettli MS, Vicedo-Cabrera AM, Schindler C, Röösli M. Impact of the warm
+  summer 2015 on emergency hospital admissions in Switzerland. *Environ Health* 2019;18:66.
+  doi:10.1186/s12940-019-0507-1 *(GESICA v5 ref 42)*
+- **[Zheng 2015]** Zheng XY, Ding H, Jiang LN, et al. `[[consortium size < 50 — full author list
+  required]]` Association between air pollutants and asthma emergency room visits and hospital
+  admissions in time series studies: a systematic review and meta-analysis.
+  *PLoS One* 2015;10(9):e0138146. doi:10.1371/journal.pone.0138146 *(GESICA v5 ref 44; pollution →
+  asthma ED, international; the v5 report notes no recent Swiss study of acute episodes — a
+  contribution space for this project)*
+
 ## Still to source — supply from your own reading
 
-- Heat and emergency department presentations / EMS demand in Switzerland or comparable settings
+- ~~Heat and emergency department presentations / EMS demand in Switzerland~~ **Closed** — Schulte
+  2024 and Ragettli 2019 above, from the applicant's own referenced inventory
 - Out-of-hospital cardiac arrest and temperature (your platform's scenario documentation cites
   work here — verify each citation before reuse)
 - ICU surge capacity modelling

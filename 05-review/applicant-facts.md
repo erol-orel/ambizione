@@ -13,6 +13,19 @@
 | 100% of research time on Ambizione | Applicant | §5.3, closes the `[[XX%]]` placeholder |
 | Host reversed: Institute of Global Health, not DS4DH | Applicant | §5.3, §6 heading, §6.1, §6.2 |
 
+**GESICA inventory v5/v3 (30 Sep).** New versions supplied and saved over the old in
+`00-source-documents/my-materials/`. Application updated: §2.2.4 now says 28 sources (23
+infectious + 5 non-infectious) across GE–VD–NE; the CASU-144 commitments row now records that
+access to the HUG centrale's data is already established within GESICA (voice excluded), with the
+volume figure flagged for reconfirmation (dropped in v5); §2.3.1 carries the [Schulte 2024]
+caveat with pre-specified 75+ sensitivity for the heat arm; three referenced citations (Schulte
+2024, Ragettli 2019, Zheng 2015, with DOIs from the inventory's own reference list) close the
+bibliography's heat-literature gap. **Open decision for the applicant (registration point 2):
+the heat-arm outcome — respiratory-restricted (clean design, weak Swiss signal) vs all-cause /
+heat-sensitive-cause demand (more signal, weaker same-outcome argument).** See the addendum in
+`step0-evaluation-set.md`. D24's official heat-warning thresholds are the natural heat onset rule
+and episode list; note the 2021 definition change.
+
 **Publication record (corrected 19 Aug).** The applicant reports **four first-author papers and
 one last-author paper**. Documented so far: first author on CMI Communications 2024, JMIR 2023
 (LiteRev), PLoS ONE 2022; **last (senior) author** on Ng'ambi W, Estill J, Keiser O, Merzouki FA,
