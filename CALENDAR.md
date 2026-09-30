@@ -35,7 +35,7 @@ collide with final assembly.
 | Day | Do |
 | --- | --- |
 | Mon 13 | Reply-by date for Ray/Teodoro/Desmettre/Larribau: **phone anyone silent.** Ten minutes each. |
-| Tue 14 | RGO numbers should be in: fill the **budget decision table** (`budget.md`) — keep 50%×48 or shorten to M3–M42 per the rule. |
+| Tue 14 | RGO numbers should be in: fill the **budget decision table** (`budget.md`) — keep 50%×48 or shorten to M3–M42 per the rule. If the DPO answer is in and concurs with Route A/C: **file the BASEC clarification de compétence** (text ready: `04-other-documents/ccer/05-clarification-competence-fr.md`; attach the DPO answer as annex 2). |
 | Wed 15 | Draft the full **mySNF budget line-items** (≤ CHF 250k; ORD in; no OA costs; equipment <100k). |
 | Thu 16 | **Reader replies due.** Acknowledge each same-day. If Larribau's data facts arrived: start the **episode inventory** (template in `05-review/applicant-facts.md`). |
 | Fri 17 | Triage reader feedback into: (a) prose fixes, (b) frozen-science challenges → only act if two readers agree, (c) interview material → `05-review/interview-prep` notes. |

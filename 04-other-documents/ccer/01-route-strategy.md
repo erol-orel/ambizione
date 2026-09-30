@@ -29,6 +29,8 @@ that quietly grows.
    downstream.
 2. File the **jurisdictional inquiry** on BASEC if the DPO concurs with Route A/C — it is cheap,
    fast, and its reference number is a concrete feasibility fact for the application.
+   **Drafted: `05-clarification-competence-fr.md`** — ready to paste once annex 2 (the DPO's
+   written answer) exists.
 3. Name HUG's data custodian for the 144 (Larribau's answer to question 4 in his email).
 
 ## Why the applicant is requérant

@@ -12,6 +12,7 @@ this package mirrors.
 | `02-protocol-synopsis-fr.md` | Protocol synopsis in French, BASEC-ready |
 | `03-data-specification.md` | Exact variables, granularity, period, holders — matches the data-request emails verbatim |
 | `04-basec-checklist.md` | Submission mechanics and the items only the applicant can supply |
+| `05-clarification-competence-fr.md` | The jurisdictional inquiry itself, French, BASEC-ready — file after the DPO's written answer |
 
 **Sequence:** route inquiry (or DPO advice) → synopsis + data spec finalised with HUG's named
 custodian → BASEC submission. Start the route inquiry **now**; the submission itself can follow

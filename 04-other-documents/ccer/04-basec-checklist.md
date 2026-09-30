@@ -3,7 +3,8 @@
 Mechanics learned from BASEC 2026-00324; verify against the current BASEC forms.
 
 - [ ] **Route settled** (`01-route-strategy.md`): DPO opinion in writing; jurisdictional inquiry
-      filed if Route A/C. *This is the only step needed before the Ambizione deadline.*
+      filed if Route A/C — text ready in `05-clarification-competence-fr.md`. *This is the only
+      step needed before the Ambizione deadline.*
 - [ ] BASEC account with the applicant as **requérant**; project created under the CCER (Geneva).
 - [ ] Synopsis (`02-protocol-synopsis-fr.md`) finalised with the custodians' names and periods.
 - [ ] Data specification attached; **identical wording** to the HUG agreement drafts.
