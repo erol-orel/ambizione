@@ -1,6 +1,6 @@
 ### 2.3.2 Work packages and methods
 
-Four work packages over 48 months. The workplan is deliberately built around the central experiment: **does borrowing quantitative evidence improve forecasting before local outcomes become informative?** WP1 establishes whether the evidence can be trusted; WP2 supplies the common state representation; WP3 is the decisive cold-start evaluation; WP4 translates predictive differences into operational value. No positive result from an earlier package is required for the later packages to produce a publishable answer.
+Four work packages over 48 months, built around the central experiment: **does borrowing quantitative evidence improve forecasting before local outcomes become informative?** WP1 establishes whether the evidence can be trusted; WP2 supplies the common state representation; WP3 is the decisive cold-start evaluation; WP4 translates predictive differences into operational value.
 
 ---
 
@@ -10,7 +10,7 @@ Four work packages over 48 months. The workplan is deliberately built around the
 
 ##### T1.1 — Define the evidence target and register the protocol *(M1–M4)*
 
-Pre-specify the parameter classes, split by whether they enter the primary forecasting problem.
+Pre-specify the parameter classes by whether they enter the primary forecasting problem.
 
 **Core — extracted and benchmarked in full.** The quantities the demand model actually consumes: **weather–demand associations**, **surge magnitudes** (peak-to-baseline ratios), and **length-of-stay / occupancy distributions**.
 
@@ -20,7 +20,7 @@ Define inclusion criteria, effect measures, uncertainty representation and trans
 
 ##### T1.2 — Build the quantitative extraction benchmark *(M3–M9)*
 
-Two independent expert extractors manually extract target quantities from a stratified random sample of **300** publications, with adjudication. Stratification covers parameter class, reporting quality, study design and **source type** — journal article versus timestamped situational report — so that extraction error is characterised separately for the faster external sources admitted in T3.2. The benchmark is an open methodological deliverable in its own right.
+Two independent expert extractors manually extract target quantities from a stratified random sample of **300** publications, with adjudication. Stratification covers parameter class, reporting quality, study design and **source type** — journal article versus timestamped situational report — so extraction error is characterised separately for the faster sources of T3.2's secondary prior variant. The benchmark is an open deliverable in its own right.
 
 ##### T1.3 — Characterise automated extraction error *(M7–M14)*
 
@@ -32,7 +32,7 @@ Represent extraction error explicitly as measurement error and compare pooling s
 
 ##### T1.5 — Transportability screen *(M15–M20)*
 
-Characterise effect modifiers and study-setting differences relevant to Geneva. Where transport is weak, widen or discount the prior rather than silently treating studies as exchangeable, producing the metadata WP3's prior–data conflict analysis needs.
+Characterise effect modifiers and study-setting differences relevant to Geneva. Where transport is weak, widen or discount the prior rather than silently treating studies as exchangeable — producing the metadata WP3's conflict analysis needs.
 
 **Deliverables.** D1.1 open benchmark; D1.2 extraction-error analysis; D1.3 evidence-to-prior library with provenance, extraction uncertainty and transportability metadata.
 
@@ -48,27 +48,25 @@ Characterise effect modifiers and study-setting differences relevant to Geneva. 
 
 Develop a Bayesian hierarchical Markov regime-switching model with an ordinal latent state `S(t) ∈ {routine, elevated, strained, critical}` observed through emergency calls, ED presentations and intensive-care occupancy. Covariates include pre-specified weather, calendar and epidemic indicators. Series-specific observation models share the latent state with different levels, dispersion and reporting delays.
 
-Before fitting real data, run simulation-based identifiability and recovery experiments. Ordering constraints resolve label switching; if regime separation is insufficient, use the pre-specified fallback of an ordinal state-space formulation. The criterion is recovery of states and transition probabilities, not visual fit.
+Before fitting real data, run simulation-based identifiability and recovery experiments. Ordering constraints resolve label switching; if regime separation is insufficient, the pre-specified fallback is an ordinal state-space formulation. The criterion is recovery of states and transition probabilities, not visual fit.
 
 ##### T2.2 — Represent the critical tail *(M6–M14)*
 
-Use peaks-over-threshold/generalised Pareto modelling for rare exceedances and couple it to the critical-state probability. Threshold sensitivity is reported. The tail model is a supporting representation of rare severity, not a separate project objective.
+Use peaks-over-threshold/generalised Pareto modelling for rare exceedances, coupled to the critical-state probability, with threshold sensitivity reported. The tail model is a supporting representation of rare severity, not a separate objective.
 
 ##### T2.3 — Introduce evidence-derived priors *(M10–M20)*
 
 Map WP1 distributions to the parameters where published evidence is scientifically relevant: weather effects, surge magnitudes, transition/recovery characteristics. Compare three borrowing mechanisms — weakly informative, fixed evidence-derived, adaptive robust — so the evaluation distinguishes the value of evidence from the value of the regime representation.
 
-The adaptive specification uses a robust mixture of an evidence-derived and weakly informative component. Prior–data conflict is recorded explicitly; the model is not allowed to "prove" that the prior was appropriate merely because it generated plausible trajectories.
-
-Power-prior discounting and commensurate-prior approaches are retained as sensitivity comparators rather than additional methodological claims.
+The adaptive specification uses a robust mixture of an evidence-derived and a weakly informative component, with prior–data conflict recorded explicitly — the model cannot "prove" the prior appropriate merely by generating plausible trajectories. Power-prior and commensurate-prior approaches are retained as sensitivity comparators, not additional claims.
 
 ##### T2.4 — Add resilience indicators as a secondary information channel *(M12–M20)*
 
-Compute rolling variance and lag-1 autocorrelation with pre-specified sensitivity analyses, entering them as optional covariates on transition dynamics. Their role is deliberately secondary: whether they add information beyond local level/trend and the evidence-derived prior. A null result is acceptable and interpretable.
+Compute rolling variance and lag-1 autocorrelation with pre-specified sensitivity analyses, entered as optional covariates on transition dynamics. Their role is secondary: whether they add information beyond local level/trend and the evidence prior. A null result is acceptable and interpretable.
 
 ##### T2.5 — Calibration and implementation *(M20–M28)*
 
-Use calibration methods appropriate to temporal dependence to assess predictive coverage. A conformal component may be used as a robustness layer if simulation confirms that the chosen temporal formulation supports its assumptions; it is **not** a headline claim of universal coverage under arbitrary distribution shift. Release a documented reference implementation integrated with LiteRev-Evidence.
+Use calibration methods appropriate to temporal dependence to assess predictive coverage. A conformal component may serve as a robustness layer if simulation confirms the chosen temporal formulation supports its assumptions — not a headline claim of universal coverage. Release a documented reference implementation integrated with LiteRev-Evidence.
 
 **Simulation is prior information, not data.** A mechanistic model parameterised from the literature can generate arbitrarily many trajectories, but fitting to them as if they were independent observations would count the same prior information twice and disable the prior–data discrepancy diagnostic H3b depends on. Mechanistic simulation is therefore used only for characterising an intractable likelihood, imposing structural constraints, identifiability/recovery studies and prior predictive checking. Generated trajectories are never treated as observations, and never tighten the evidence-derived prior.
 
@@ -84,8 +82,8 @@ Use calibration methods appropriate to temporal dependence to assess predictive 
 
 ##### T3.0 — Outcome hierarchy, data-access gate and episode eligibility *(M1–M14)*
 
-Three things are fixed before any evaluation is designed, and none may be revisited in response to
-observed performance.
+Three things are fixed before any evaluation is designed and may not be revisited in response to
+performance.
 
 **Outcome.** The primary outcome is **daily respiratory-related emergency demand derived from
 CASU-144 records** — not a raw call count, which is a care-seeking signal rather than a demand
@@ -94,7 +92,9 @@ a classification fixed before evaluation `[[symptom keyword set and urgency leve
 sensitivity to the construction reported. **The heat arm scores heat-sensitive demand**: the same
 series and construction, restricted to cause classes fixed at registration
 `[[dehydration, renal, psychiatric — per the Swiss evidence]]`, with respiratory-restricted and
-75+ analyses as its sensitivities. Emergency department presentations and intensive care occupancy,
+75+ analyses as its sensitivities. **The primary claim is scoped to what the series measures** —
+the operational demand signal observed by the dispatch system; claims about broader hospital
+demand are made only where validated against the ED and ICU channels. Emergency department presentations and intensive care occupancy,
 where obtained, enter as **additional observation channels on the shared latent state**;
 wastewater, sentinel consultations and weather as signals and covariates. Nothing obtained is
 discarded — the hierarchy governs only which series H3a is scored on.
@@ -133,7 +133,7 @@ Harmonise the primary CASU-144 series with the additional channels and covariate
 
 For each historical crisis onset, create successive forecast origins using **only information available at that date**. This includes only literature published and indexed before the origin date.
 
-**Admissibility as a prior is defined by referent, not by publication venue.** Prior inputs are statements about *other* populations, places or past events: literature and preprints, plus timestamped situational reporting on the ongoing event *elsewhere* (WHO Disease Outbreak News, ECDC rapid risk assessments, ReliefWeb). These faster sources let the prior be refreshed *within* a crisis, not only between crises, and pass through the same extraction and measurement-error pipeline as T1. **Text describing the local event is excluded from the prior**: it is a noisy measurement of the outcome H3a is scored against, and admitting it would collapse the distinction the hypothesis tests. Every input carries an index timestamp and the rolling cut-off is enforced on it. Forecast at pre-specified horizons (`[[7, 14, 28 days]]`). The cold-start window is defined by elapsed local outcome observations **after a pre-defined real-time onset criterion**. The onset rule may use only variables available at the forecast origin and cannot use the eventual peak, cumulative future cases or any other future information.
+**Admissibility as a prior is defined by referent, not venue** — prior inputs are statements about *other* populations, places or past events. **The confirmatory prior uses peer-reviewed literature and preprints only**, under the rolling cut-off. Timestamped situational reporting on the ongoing event *elsewhere* (WHO Disease Outbreak News, ECDC rapid risk assessments) enters as a **pre-specified secondary prior variant**: it refreshes the prior *within* a crisis and passes through the same extraction and measurement-error pipeline, but stays out of the confirmatory contrast, so that H3a tests literature borrowing rather than dynamic evidence fusion. **Text describing the local event is excluded from any prior**: it is a noisy measurement of the outcome H3a is scored against. Every input carries an index timestamp and the rolling cut-off is enforced on it. Forecast at pre-specified horizons (`[[7, 14, 28 days]]`). The cold-start window is defined by elapsed local outcome observations **after a pre-defined real-time onset criterion**. The onset rule may use only variables available at the forecast origin and cannot use the eventual peak, cumulative future cases or any other future information.
 
 ##### T3.3 — Evaluate a pre-specified model ladder *(M20–M34)*
 
@@ -156,7 +156,7 @@ Because the order is fixed in advance and the second test is conditional on the 
 
 **Rung 3 is pinned in the registration**, together with `[[a pre-declared set of vaguer and tighter alternatives]]` over which the primary result is reported as a sensitivity band. An advantage that survives only against the vaguest baseline is reported as such: the comparator cannot be tuned into a straw man after the fact.
 
-**Primary endpoint:** the CRPS skill score of rung 4 relative to rung 3 over the cold-start window. Because the number of eligible episodes is small `[[expected order of ten]]`, inference is by **paired permutation over episodes**, with a block bootstrap over episodes reported alongside it; both are pre-specified, and disagreement between them is reported rather than resolved after the fact. Secondary endpoints: log score, calibration (PIT, interval coverage), and escalation detection compared at matched false-alarm rates.
+**Primary endpoint:** the CRPS skill score of rung 4 relative to rung 3 over the cold-start window. The unit of inference is the **episode**, not the forecast origin: origins are repeated measures within episodes. Because eligible episodes are few `[[expected order of ten]]`, inference is by **paired permutation over episodes**, with a block bootstrap reported alongside; both are pre-specified and disagreement is reported. **The design is powered by simulation-based operating characteristics at episode level** — type I error, power and interval width under realistic within-episode dependence, between-episode heterogeneity and plausible CRPS effects — run before the second registration point. Secondary endpoints: log score, calibration (PIT, interval coverage), and escalation detection compared at matched false-alarm rates.
 
 **H3b non-inferiority margin `[[Δ]]` is fixed here, before any historical evaluation**, and justified against the rung 3 → rung 4 effect size the study is powered to detect. Adaptive borrowing is declared non-inferior if its CRPS skill deficit relative to fixed borrowing is no greater than `[[Δ]]`. The superiority half of H3b is tested on deliberately misspecified priors constructed in T3.4. Confirmatory contrasts are registered before the evaluation runs; exploratory searches are separated and labelled.
 
@@ -180,7 +180,7 @@ Run the sequential generalisation test on the heatwave archetype and, resources 
 
 ##### T4.1 — Elicit operational losses and thresholds *(M24–M32)*
 
-Structured elicitation per the **SHELF** protocol with emergency physicians, dispatch supervisors and capacity managers `[[n ≈ 15–20; confirm participating units]]`. Elicit the consequences of early, late and unnecessary escalation rather than asking respondents to guess probability thresholds, then derive thresholds from the loss structure.
+Structured elicitation per the **SHELF** protocol with emergency physicians, dispatch supervisors and capacity managers `[[n ≈ 15–20; confirm participating units]]`. Elicit the consequences of early, late and unnecessary escalation rather than asking respondents to guess probability thresholds, then derive thresholds from the loss structure. **The primary decision is fixed in advance**: trigger surge-capacity escalation when the forecast probability of entering the strained/critical state crosses the elicited threshold; its losses anchor T4.2's net-benefit analysis.
 
 ##### T4.2 — Decision-analytic evaluation and equity audit *(M30–M40)*
 

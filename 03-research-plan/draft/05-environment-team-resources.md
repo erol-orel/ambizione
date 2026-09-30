@@ -10,13 +10,13 @@ The project requires three capabilities rarely housed together — quantitative 
 
 **Operational access — HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners; the AI-in-EMS review [Edjinedja 2026] evidences a functioning collaboration. No new relationship has to be created after the grant starts.
 
-**Existing infrastructure.** LiteRev-Evidence is operational: 80,000+ publications, structured quantitative extraction with provenance and quality scoring, quality-weighted pooling into parameter distributions, and connectors to MeteoSwiss, Copernicus ERA5 and surveillance sources. Ambizione does not fund its construction; it uses it to test the question the platform raises. The Geneva legionellosis study (BASEC 2026-00324), already under way with ethics granted, supplies the contrasting crisis archetype.
+**Existing infrastructure.** LiteRev-Evidence is operational: 80,000+ publications, structured extraction with provenance and quality scoring, quality-weighted pooling into parameter distributions, connectors to MeteoSwiss, Copernicus ERA5 and surveillance sources. Ambizione does not fund its construction; it uses it. The legionellosis study (BASEC 2026-00324), under way with ethics granted, supplies the contrasting archetype.
 
 **Computing.** `[[UNIGE HPC (Baobab/Yggdrasil) — confirm access and secure-analysis arrangement]]`.
 
 #### 2.3.3.2 Commitments, by status
 
-Each row is labelled **secured**, **agreed**, **requested** or **fallback**. Nothing is described above its actual status.
+Each row is labelled **secured**, **agreed**, **requested** or **fallback**.
 
 | Item | Status | Evidence / action |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ Each row is labelled **secured**, **agreed**, **requested** or **fallback**. Not
 | Operational-data ethics | `[[requested]]` | CCER submission, PI as applicant |
 | Computing | `[[requested]]` | `[[UNIGE HPC]]` |
 
-The three operational-data rows are the most important remaining feasibility items, and §2.4 states what their absence would cost the primary outcome claim. Nothing here is described above its actual status.
+The three operational-data rows are the most important remaining feasibility items, and §2.4 states what their absence would cost the primary outcome claim.
 
 #### 2.3.3.3 Resources requested
 

@@ -5,12 +5,11 @@
 
 **Who does what.** I execute WP2 and WP3's confirmatory evaluation design personally, and lead
 WP1's protocol, WP3's analysis and WP4's decision work. One **scientific/technical collaborator**
-(support personnel, `[[FTE and duration]]`) is requested, justified by three fully specified,
-labour-intensive tasks the PI cannot absorb: second independent extractor for T1.2's
-300-publication benchmark, the T3.1–T3.2 harmonisation and rolling-origin pipeline, and the
-reproducibility engineering behind D1.1 and D3.1. No other personnel are requested. Collaborators
-contribute defined inputs — DS4DH the biomedical NLP for T1.3, HUG and CASU-144 the data access
-and T4.1 elicitation — and none holds scientific leadership.
+(support personnel, `[[FTE and duration]]`) is requested, justified by three labour-intensive,
+fully specified tasks the PI cannot absorb: second independent extractor for T1.2's benchmark,
+the T3.1–T3.2 harmonisation and rolling-origin pipeline, and the reproducibility engineering
+behind D1.1 and D3.1. No other personnel are requested. Collaborators contribute defined inputs —
+DS4DH the biomedical NLP for T1.3, HUG and CASU-144 the data access and T4.1 elicitation.
 
 
 The design avoids a serial chain in which one uncertain result stops the project: WP2 can fall back to weakly informative priors if WP1 finds extraction inadequate, WP3 to open surveillance data if operational access is delayed, and WP4's decision analysis is retrospective and independent of prospective deployment.

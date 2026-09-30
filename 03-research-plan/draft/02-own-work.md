@@ -62,8 +62,7 @@ quality limitations of each. It is why the validation domains here are chosen by
 one.
 
 **This is what makes the research feasible rather than aspirational** — and, as software with
-independent funding behind it, a research output in its own right. The proposal is to answer the
-question the system raises, not to build it.
+independent funding behind it, a research output in its own right.
 
 ### 2.2.5 Linked data on a contrasting crisis archetype
 
@@ -76,8 +75,8 @@ respiratory epidemic — the hardest available test of cross-crisis generalisati
 ### 2.2.6 Position and competences
 
 Through GESICA I am embedded in the Geneva emergency and public-health system — HUG emergency
-medicine `[[Prof. Thibaut Desmettre, Dr Robert Larribau]]`, CASU-144 and the cantonal services.
-My other commitments, and their delimitation from this project, are in §2.6.
+medicine `[[Prof. Thibaut Desmettre, Dr Robert Larribau]]`, CASU-144 and the cantonal services;
+my other commitments and their delimitation are in §2.6.
 
 **Competences required for this project.** Bayesian hierarchical and regime-switching estimation,
 extreme-value modelling and stress testing under misspecification come from fifteen years of

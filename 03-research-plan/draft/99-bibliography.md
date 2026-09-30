@@ -121,10 +121,10 @@
 
 - **[Angelopoulos 2023]** Angelopoulos AN, Bates S. Conformal prediction: a gentle introduction.
   *Foundations and Trends in Machine Learning* 2023;16(4):494–591. `verify volume/pages`
-- **[Xu 2023]** Barber RF, Candès EJ, Ramdas A, Tibshirani RJ. Conformal prediction beyond
-  exchangeability. *Annals of Statistics* 2023;51(2):816–845. `verify — and fix the citation key
-  to [Barber 2023] throughout §1.5 if you use this rather than a time-series-specific reference;
-  several 2025–2026 papers on conformal forecasting under temporal dependence may serve better`
+- **[Barber 2023]** Barber RF, Candès EJ, Ramdas A, Tibshirani RJ. Conformal prediction beyond
+  exchangeability. *Annals of Statistics* 2023;51(2):816–845. `key fixed (was [Xu 2023]); not
+  cited in the text — cite it in T2.5 or drop the entry; a time-series-specific conformal
+  reference may serve better`
 
 ## Regime switching and extremes
 
@@ -140,6 +140,30 @@
   Note the affiliations: **Cantoni is at the Research Center for Statistics, University of
   Geneva** (the applicant's DEA supervisor); **Chavez-Demoulin is at UNIL**. Relevant as the
   nearest prior work to §1.4, not as a mobility lead — no research stay is proposed.
+
+
+## Entries added 30 Sep — cited in the text but previously MISSING from this list
+
+> Found by an external audit and verified: [Lazer 2014], [Winters 2018], [Lee 2021],
+> [Höhle 2014] and [McGough 2020] were cited in §2.1/§2.3.2 with no bibliography entry.
+> Author lists below are supplied where I am confident of them and flagged where I am not —
+> verify all five against the publisher record like every other entry.
+
+- **[Lazer 2014]** Lazer D, Kennedy R, King G, Vespignani A. The parable of Google Flu: traps in
+  big data analysis. *Science* 2014;343(6176):1203–1205. doi:10.1126/science.1248506
+- **[Höhle 2014]** Höhle M, an der Heiden M. Bayesian nowcasting during the STEC O104:H4 outbreak
+  in Germany, 2011. *Biometrics* 2014;70(4):993–1002. doi:10.1111/biom.12194 `verify pages`
+- **[McGough 2020]** McGough SF, Johansson MA, Lipsitch M, Menzies NA. Nowcasting by Bayesian
+  smoothing: a flexible, generalizable model for real-time epidemic tracking.
+  *PLoS Comput Biol* 2020;16(4):e1007735. doi:10.1371/journal.pcbi.1007735
+- **[Winters 2018]** Winters BD, `[[FULL AUTHOR LIST REQUIRED]]`. Technological distractions
+  (part 2): a summary of approaches to manage clinical alarms with intent to reduce alarm
+  fatigue. *Crit Care Med* 2018;46(1):130–137. `[[verify venue/volume — this entry sources the
+  72–99% false/non-actionable alarm figure in §2.1.5; confirm the figure appears in the final
+  source]]`
+- **[Lee 2021]** `[[FULL REFERENCE REQUIRED — the §2.1.5 claim that heat-warning thresholds
+  calibrated to mortality diverge from morbidity/ED thresholds needs its actual source; supply
+  from your own reading or replace the citation]]`
 
 ## Evaluation
 

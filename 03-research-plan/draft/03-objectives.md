@@ -7,7 +7,7 @@
 
 #### Overall aim
 
-To determine **whether, and under what conditions, published quantitative evidence provides useful information when local outcome data are insufficient at the onset of a health-system crisis — and whether the resulting forecasts change decisions.** The claim is not that external evidence substitutes for local observation; it is that it can carry information during the window before local data become informative.
+To determine **whether, and under what conditions, published quantitative evidence provides useful information when local outcome data are insufficient at the onset of a health-system crisis — and whether the resulting forecasts change decisions.** The claim is not substitution for local observation, but information carried during the window before local data become informative.
 
 The project has **one central hypothesis, H3a**, and everything else is subordinate to testing it:
 
@@ -26,11 +26,11 @@ The project has **one central hypothesis, H3a**, and everything else is subordin
 
 > **H1.** Automated extraction will systematically **underestimate between-study heterogeneity**, producing evidence-derived priors that are too concentrated; an explicit measurement-error layer will recover enough of the missing dispersion to construct usable prior distributions.
 
-The direction follows from the difficulty of numerical extraction and the dominance of omissions among reported errors [Shankar 2026]. H1 is tested on point estimates, reported uncertainty, omissions and between-study dispersion. If the predicted overconfidence is absent, that is informative; if it occurs but cannot be corrected, the project establishes a boundary condition.
+The direction is mechanistic, not asserted: omissions dominate reported extraction errors [Shankar 2026], and omitted uncertainty statements and missed variance components shrink estimated between-study dispersion systematically rather than randomly. H1 is tested on point estimates, reported uncertainty, omissions and between-study dispersion. If the predicted overconfidence is absent, that is informative; if it occurs but cannot be corrected, the project establishes a boundary condition.
 
 #### O2 — Represent escalation in a form that separates state from the point forecast
 
-> **C2 — model adequacy criterion.** The latent-state representation must yield **identifiable** parameters and **calibrated** probabilities of escalation states at matched false-alarm rates. Its role is to provide the common state representation in which evidence-borrowing strategies are compared; it is not advanced as a claim that regime switching is generally superior to thresholding a point forecast.
+> **C2 — model adequacy criterion.** The latent-state representation must yield **identifiable** parameters and **calibrated** probabilities of escalation states at matched false-alarm rates. Its role is to provide the common state representation in which borrowing strategies are compared, not a claim that regime switching generally beats thresholding a point forecast.
 
 C2 is verified rather than discovered: T2.1's identifiability study and T3.3's calibration checks either establish adequacy or trigger the pre-specified ordinal state-space fallback, and either outcome leaves H3a intact. Extreme-value modelling represents the tail of the critical state; critical-slowing-down indicators are **supporting, theory-derived covariates** on transition dynamics, with their incremental value tested against level and trend information.
 
@@ -47,10 +47,10 @@ H3b is two-sided by design: non-inferiority where the evidence is sound, superio
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 
-These hypotheses are tested through the **pre-specified model ladder** of §2.3.2 (T3.3), which runs
-from a local baseline through the regime model under weakly informative priors, the same model
-under fixed evidence-derived priors, adaptive borrowing, and adaptive borrowing plus resilience
-indicators. It isolates each increment rather than pitting a final model against a weak baseline.
+These hypotheses are tested through the **pre-specified model ladder** of §2.3.2 (T3.3): local
+baseline, regime model under weakly informative priors, the same model under fixed
+evidence-derived priors, adaptive borrowing, and adaptive borrowing plus resilience indicators —
+isolating each increment rather than pitting a final model against a weak baseline.
 
 **Primary confirmatory comparison — one, stated once.** Rung 4 (fixed evidence-derived priors)
 against rung 3 (weakly informative priors), by **CRPS skill score**, over the pre-specified
