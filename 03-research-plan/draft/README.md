@@ -1,13 +1,13 @@
-# Research plan — draft v0.2
+# Research plan: draft v0.2
 
 Assemble in this order. The **2026 SNSF Ambizione guidelines (version 11.08.2026)** require a maximum of **15 A4 pages and 60,000 characters including spaces**; the mySNF character counter is binding. The bibliography is excluded. Minimum 10-point font and 1.5 line spacing apply, and the research plan must be one PDF without annexes. Tables, illustrations and formulae count toward the character limit.
 
-The files follow the **structure prescribed by Guidelines 4.3** — the section numbers are the
+The files follow the **structure prescribed by Guidelines 4.3** - the section numbers are the
 SNSF's, not ours:
 
 | File | SNSF section | Status |
 | --- | --- | --- |
-| `00-title-and-summary.md` | Title + **1. Summary** (max 1 page — check in the rendered PDF, the cap is a page, not a character count) | Revised |
+| `00-title-and-summary.md` | Title + **1. Summary** (max 1 page - check in the rendered PDF, the cap is a page, not a character count) | Revised |
 | `01-state-of-the-art.md` | **2.1** Current state of research in the field | Revised; citation verification still required |
 | `02-own-work.md` | **2.2** Current state of personal research and required competences | Revised |
 | `03-objectives.md` | **2.3.1** Objectives and hypotheses | Revised; H3a central |
@@ -20,7 +20,7 @@ SNSF's, not ours:
 
 ## Conventions
 
-- `[[…]]` marks something only the applicant can supply — a name, date, number, decision or confirmation.
+- `[[…]]` marks something only the applicant can supply - a name, date, number, decision or confirmation.
 - `[VERIFY]` marks a factual claim requiring final external verification.
 - Bibliographic references must be checked against the publisher record before submission.
 
@@ -39,14 +39,14 @@ The 2026 Ambizione regulations cap project funds at **CHF 250,000 over four year
 ## Remaining load-bearing decisions
 
 1. Real-time onset rule; cold-start window `[[N]]`, horizons and `[[Δ]]` follow the **episode
-   inventory** (build it first — template in `05-review/applicant-facts.md`).
+   inventory** (build it first - template in `05-review/applicant-facts.md`).
 2. H1 benchmark sample size and variance-ratio threshold.
 3. C2 recovery/calibration thresholds and H3c secondary criterion.
-4. Host confirmation (two signatures: contact person + head of institute — see
+4. Host confirmation (two signatures: contact person + head of institute - see
    `04-other-documents/host-institution-letters.md`), data-access agreements, computing.
 5. Final eligible project budget (`04-other-documents/budget.md` carries the verified rules).
 6. Novelty audit and citation verification (full author lists, DOIs).
-7. Fill the `[[…]]` placeholders — the counter excludes them, so **every fill needs an offsetting
+7. Fill the `[[…]]` placeholders - the counter excludes them, so **every fill needs an offsetting
    cut**; reserve is ~0. Cut candidates: §2.1.3, §2.3.2 T4.2, the §2.6 Institute paragraph.
 
 ## Build

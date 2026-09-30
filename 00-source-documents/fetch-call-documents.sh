@@ -9,7 +9,7 @@ mkdir -p "$DIR"
 
 fetch() {
     echo "→ $2"
-    curl -fsSL "$1" -o "$DIR/$2" && echo "  ok" || echo "  FAILED — the SNSF moves these URLs between calls; grab it from the Ambizione page by hand"
+    curl -fsSL "$1" -o "$DIR/$2" && echo "  ok" || echo "  FAILED - the SNSF moves these URLs between calls; grab it from the Ambizione page by hand"
 }
 
 fetch "https://www.snf.ch/media/en/c2myDnv9atMX0r8t/ambizione_guidelines.pdf" "ambizione_guidelines.pdf"

@@ -1,8 +1,8 @@
-# Hypothesis audit — final pre-submission specification
+# Hypothesis audit: final pre-submission specification
 
 This audit is the operational checklist for the scientific claims in the research plan. Every claim must have a predictor, comparison, outcome, analysis window, primary metric and decision rule. Fill the remaining `[[…]]` cells before the confirmatory analysis is designed.
 
-## H3a — central hypothesis
+## H3a: central hypothesis
 
 | Field | Specification |
 | --- | --- |
@@ -18,7 +18,7 @@ This audit is the operational checklist for the scientific claims in the researc
 
 **Critical onset check:** the onset rule may use only information observable at the forecast origin. It must not use the eventual peak, cumulative future cases, or any other future information.
 
-## H1 — methodological validation
+## H1: methodological validation
 
 | Field | Specification |
 | --- | --- |
@@ -26,11 +26,11 @@ This audit is the operational checklist for the scientific claims in the researc
 | Comparison | Automated extraction vs dual independent expert extraction with adjudication |
 | Outcome | (a) agreement on point estimates; (b) agreement on reported uncertainty; (c) **ratio of extracted to reference between-study variance** |
 | Sample | `[[n]]` publications, stratified by core parameter class, reporting quality and venue |
-| Primary metric | Variance ratio (c) — the directional claim lives there, not in (a) |
+| Primary metric | Variance ratio (c) - the directional claim lives there, not in (a) |
 | Decision rule | `[[ratio threshold r and confidence criterion]]` |
 | Power | `[[simulation assumptions and target τ² range]]` |
 
-## C2 — model adequacy criterion
+## C2: model adequacy criterion
 
 | Field | Specification |
 | --- | --- |
@@ -40,7 +40,7 @@ This audit is the operational checklist for the scientific claims in the researc
 | Pass rule | `[[thresholds]]` |
 | Failure consequence | Pre-specified ordinal state-space fallback; H3a remains testable |
 
-## H3b — robustness
+## H3b: robustness
 
 | Field | Specification |
 | --- | --- |
@@ -48,11 +48,11 @@ This audit is the operational checklist for the scientific claims in the researc
 | Claim 2 | Adaptive borrowing is superior under deliberately misspecified priors |
 | Comparison | Rung 5 vs rung 4 |
 | Metric | CRPS skill score |
-| Non-inferiority margin | **`[[Δ]]` — fixed before evaluation** |
-| Misspecification set | `[[different pathogen / health system / era — enumerate]]` |
+| Non-inferiority margin | **`[[Δ]]` - fixed before evaluation** |
+| Misspecification set | `[[different pathogen / health system / era - enumerate]]` |
 | Decision rule | Non-inferiority if deficit ≤ Δ under the pre-specified interval criterion; superiority if the misspecification improvement meets the pre-specified criterion |
 
-## H3c — secondary information channel
+## H3c: secondary information channel
 
 | Field | Specification |
 | --- | --- |
@@ -62,7 +62,7 @@ This audit is the operational checklist for the scientific claims in the researc
 | Window | `[[short-history definition]]` |
 | Decision rule | `[[secondary criterion]]` |
 
-## H4 — decision value
+## H4: decision value
 
 | Field | Specification |
 | --- | --- |
@@ -81,15 +81,15 @@ Resolution adopted: **fixed-order hierarchical testing.**
 | | Respiratory | Heat |
 | --- | --- | --- |
 | Role | **Primary confirmatory domain** | Sequential generalisation test |
-| Outcome | Respiratory-related demand (CASU-144, pre-specified classification) | **Heat-sensitive demand** — same series and construction, cause classes fixed at registration per the Swiss evidence [Schulte 2024]; respiratory-restricted and 75+ as sensitivities |
+| Outcome | Respiratory-related demand (CASU-144, pre-specified classification) | **Heat-sensitive demand** - same series and construction, cause classes fixed at registration per the Swiss evidence [Schulte 2024]; respiratory-restricted and 75+ as sensitivities |
 | Contrast | Rung 4 vs rung 3, CRPS skill score | Identical contrast |
-| Condition to run | None — always evaluated | Only if the respiratory test is met |
+| Condition to run | None - always evaluated | Only if the respiratory test is met |
 | Level | Full α | Full α (protected by the fixed order) |
 
 **Heat-arm outcome decision (30 Sep 2026, delegated by the applicant):** heat-sensitive demand,
 not respiratory-restricted. Rationale: Swiss evidence (cumulative RR ≈ 1.03 for respiratory,
 significant only at 75–84) would make a respiratory-restricted heat test near-null by
-construction — it would test the outcome definition, not evidence transport. Matching each arm's
+construction - it would test the outcome definition, not evidence transport. Matching each arm's
 outcome to its evidence base preserves the same-quantity-same-construction structure (both are
 CASU-144 demand under a pre-registered cause classification) while making the generalisation
 test informative either way. The cause-class list is fixed at the second registration point,
@@ -99,7 +99,7 @@ No multiplicity correction is required because the order is fixed in advance and
 is conditional on the first. A respiratory-positive, heat-negative outcome is reported as a
 **boundary condition on transportability**, not as a failure.
 
-## Open uncertainty — the onset rule (hostile review F2.3)
+## Open uncertainty: the onset rule (hostile review F2.3)
 
 The prospective onset rule determines when the cold-start window starts, and therefore which
 episodes are eligible (T3.0) and what "first N weeks" means (H3a). **It is not yet specified**,

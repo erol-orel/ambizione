@@ -5,8 +5,8 @@
 | Fact | Source | Where used |
 | --- | --- | --- |
 | Automated evidence extraction since 2019; Senior Research Associate, Institute of Global Health (Infectious Diseases and Mathematical Modelling), 2019–present | CV | §2.2, §5.3 |
-| LiteRev development funding: CHF 30,000 (UNIGE), CHF 10,000 (Venture Kick), CHF 20,000 (Mimosa), obtained on own initiative | Applicant | §2.2, §5.3 — evidence of initiative, outside any group grant |
-| Aziza Merzouki, PhD computer science; co-author on LiteRev (JMIR 2023) and PLoS ONE 2022 | CV + applicant | §2.2, §5.3 — named as collaborator, explicitly **not** load-bearing |
+| LiteRev development funding: CHF 30,000 (UNIGE), CHF 10,000 (Venture Kick), CHF 20,000 (Mimosa), obtained on own initiative | Applicant | §2.2, §5.3 - evidence of initiative, outside any group grant |
+| Aziza Merzouki, PhD computer science; co-author on LiteRev (JMIR 2023) and PLoS ONE 2022 | CV + applicant | §2.2, §5.3 - named as collaborator, explicitly **not** load-bearing |
 | GeoAI4EI, Horizon Europe Health, 2026–2030, European epidemic-intelligence toolbox, Keiser PI | Applicant | §2.6, §5.3 programme table |
 | Legionellosis study already under way (not a future commitment) | Applicant | §2.5, §6.1 |
 | MAS in Public Health teaching, 2024–present | CV | §5.3 programme table |
@@ -21,7 +21,7 @@ volume figure flagged for reconfirmation (dropped in v5); §2.3.1 carries the [S
 caveat with pre-specified 75+ sensitivity for the heat arm; three referenced citations (Schulte
 2024, Ragettli 2019, Zheng 2015, with DOIs from the inventory's own reference list) close the
 bibliography's heat-literature gap. ~~Open decision: the heat-arm outcome.~~ **Decided 30 Sep (delegated to me by the applicant):
-heat-sensitive demand** — same CASU-144 series and construction, cause classes (dehydration,
+heat-sensitive demand** - same CASU-144 series and construction, cause classes (dehydration,
 renal, psychiatric per the Swiss evidence) fixed at the second registration point;
 respiratory-restricted and 75+ as pre-specified sensitivities. Rationale in
 `hypothesis-audit.md`; applied in §2.3.1, T3.0 and Test 2 of T3.3. D24's official heat-warning thresholds are the natural heat onset rule
@@ -31,7 +31,7 @@ and episode list; note the 2021 definition change.
 one last-author paper**. Documented so far: first author on CMI Communications 2024, JMIR 2023
 (LiteRev), PLoS ONE 2022; **last (senior) author** on Ng'ambi W, Estill J, Keiser O, Merzouki FA,
 Orel E, *Machine learning-based classification of self-reported cardiovascular disease history in
-Africa using harmonised multi-country WHO STEPS surveys: 2014–2019* — **under revision**, venue
+Africa using harmonised multi-country WHO STEPS surveys: 2014–2019* - **under revision**, venue
 `[[to record]]`. **Fourth first-author paper received (19 Aug):** Orel E, Kalaivo A `[[verify spelling]]`,
 Ng'ambi W, Nwosu K, Keiser O. *Place, pathway, and psychosocial distress among Nigerian HIV key
 populations starting ART.* **BMJ Open, under review** (bmjopen-2026-126226, submitted
@@ -40,7 +40,7 @@ first-author + 1 first-author under review + 1 senior-author ACCEPTED for public
 (status confirmed 19 Aug 2026; record venue/DOI when assigned). Note Keiser co-authors this one
 too, so the independence-from-supervisor point is unchanged. An updated CV PDF for
 `00-source-documents/my-materials/` is still worth having. The senior-author paper is now in §2.2.1 of the plan, the
-bibliography, output-list item 5 and Module 2, all marked "under revision" — update the status at
+bibliography, output-list item 5 and Module 2, all marked "under revision" - update the status at
 submission, and note the conditional swap-back documented in the output list if it is neither
 accepted nor publicly citable by then.
 
@@ -51,7 +51,7 @@ the RGO email. Remaining ask to HR/RGO: the exact class-19/9 gross to type in.
 
 ## Structural change made
 
-The independence argument no longer rests on distance from collaborators — that claim became
+The independence argument no longer rests on distance from collaborators - that claim became
 untenable once GeoAI4EI, the MAS salary and the legionellosis PI role were on the table, and a
 reviewer would have found the gap. It now rests on **transparency plus dedicated time**:
 
@@ -61,12 +61,12 @@ reviewer would have found the gap. It now rests on **transparency plus dedicated
 §5.3 lists every programme, its objective, the applicant's role and the distinction from
 Ambizione, in a table, and names Keiser's four roles explicitly rather than in passing.
 
-## Still open — applicant only
+## Still open: applicant only
 
-1. **Formal host declaration — decided, one mechanical question open.** Institute-level
+1. **Formal host declaration - decided, one mechanical question open.** Institute-level
    signature by `[[Prof. Nicolas Ray, interim Director]]`; Prof. Calmy deliberately not chosen
-   (thesis jury). **But the SNSF template requires two signatures** — the contact person (head of
-   the research group named in the application) *and* the head of institute/department — and the
+   (thesis jury). **But the SNSF template requires two signatures** - the contact person (head of
+   the research group named in the application) *and* the head of institute/department - and the
    contact person can support only one applicant per call (Art. 8 §6). Ask the RGO whether one
    person can hold both roles; if not, decide who is named contact person. See
    `04-other-documents/host-institution-letters.md`.
@@ -77,15 +77,15 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
 3. ~~**Mobility host.**~~ **Settled: no research stay.** The RGO confirmed there is no mobility
    requirement, so every candidate host is withdrawn and the outgoing stay is removed from the
    plan, the budget table, the letters and both mobility documents. The institutional claim is
-   **organisational** — leading an independent programme within the Institute rather than sitting
+   **organisational** - leading an independent programme within the Institute rather than sitting
    inside an existing group.
 4. **Organisational designation.** The plan now says the applicant will lead an independent
    research programme within the Institute of Global Health, alongside its research groups rather
    than inside one. Confirm what designation the Faculty can actually make before the host letter
-   is drafted — the text must not hard-code a structure UNIGE has not agreed to.
-5. ~~**BLOCKING — eligibility.**~~ **Cleared by the RGO: eligible, no mobility requirement.**
+   is drafted - the text must not hard-code a structure UNIGE has not agreed to.
+5. ~~**BLOCKING - eligibility.**~~ **Cleared by the RGO: eligible, no mobility requirement.**
    The call documents are still worth reading directly for the secondary claims the repository
-   relies on — see `eligibility-verification.md`.
+   relies on - see `eligibility-verification.md`.
 
 ## Explicitly closed
 
@@ -94,6 +94,10 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   programme. That is the career-transition story the scheme asks for.
 - Keiser relationship → stated in §5.3 with all four roles named.
 - Scientific identity sentence → adopted verbatim (extended form), closing §5.3.
+- **Em-dash purge (applicant instruction, 30 Sep 2026, permanent).** No em-dash anywhere in
+  the repository, ever (rule stored in `CLAUDE.md`). Applied as punctuation-only edits across
+  all files including the frozen plan (colons/semicolons/commas/parentheses in the plan, spaced
+  hyphens in notes); no scientific content changed. Character count 59,989 -> 59,631.
 - **Rejoin IDMM as a member? → No (applicant decision, 30 Sep 2026).** Considered on
   epidemiological-credibility grounds; declined because the alongside structure already exists
   (§2.6 names collaboration with the Institute's groups incl. IDMM; Teodoro/144/ED are named
@@ -103,7 +107,7 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   institute environment, both already claimed. Revisit only if two external readers
   independently find the epidemiological grounding thin (freeze-break rule).
 
-## Next empirical task — the episode inventory
+## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:
 

@@ -1,4 +1,4 @@
-# SNSF narrative CV — strategy and allocation
+# SNSF narrative CV: strategy and allocation
 
 `[VERIFY]` Format assumed: **four narrative modules**, roughly **500 words / ~4,350 characters**
 each, and **a maximum of 10 research outputs in total** distributed across the modules as you
@@ -13,16 +13,16 @@ The four modules (SNSF "SciCV", following the R4RI structure):
 
 ## The allocation, and why
 
-Ten slots is a constraint that forces a claim. The distribution below concentrates on Module 1 —
-because that is where the Ambizione case is made — while populating all four, because a module
+Ten slots is a constraint that forces a claim. The distribution below concentrates on Module 1 -
+because that is where the Ambizione case is made - while populating all four, because a module
 left thin reads as a gap rather than as focus.
 
 | Module | Outputs | What the concentration says |
 | --- | --- | --- |
-| 1 — Knowledge and tools | **4** | A sustained line: I build methods and tools, and I lead that work |
-| 2 — Individuals and teams | **2** | Senior authorship (Ng'ambi, under revision) + enabling others' research; the transition, evidenced |
-| 3 — Research community | **2** | Consortium and international work; breadth |
-| 4 — Broader society | **2** | Public health and cantonal impact, with funding secured |
+| 1 - Knowledge and tools | **4** | A sustained line: I build methods and tools, and I lead that work |
+| 2 - Individuals and teams | **2** | Senior authorship (Ng'ambi, under revision) + enabling others' research; the transition, evidenced |
+| 3 - Research community | **2** | Consortium and international work; breadth |
+| 4 - Broader society | **2** | Public health and cantonal impact, with funding secured |
 
 ## The one weakness to handle deliberately
 

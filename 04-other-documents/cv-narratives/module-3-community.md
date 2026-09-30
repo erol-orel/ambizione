@@ -1,6 +1,6 @@
-# Module 3 — Contributions to the wider research and innovation community
+# Module 3: Contributions to the wider research and innovation community
 
-> Outputs cited here: **3** — SARS-CoV-2 seroprevalence, Cameroon (*Nature Communications*, 2021);
+> Outputs cited here: **3** - SARS-CoV-2 seroprevalence, Cameroon (*Nature Communications*, 2021);
 > Leveraging human resources for outbreak analysis (*BMC Public Health*, 2022); Future scenarios
 > for the SARS-CoV-2 epidemic in Switzerland (*F1000Research*, 2020).
 
@@ -18,8 +18,8 @@ Region and contributed to regional incidence analysis published in *Epidemiology
 
 Closer to home, I contributed to age-structured scenario modelling for the Swiss SARS-CoV-2
 epidemic (*F1000Research*, 2020) at a point when cantonal and federal decision-makers had little
-else to work from. That experience — producing projections known to be fragile, for people who had
-to act on them anyway — is the direct origin of the research question I now propose to answer.
+else to work from. That experience - producing projections known to be fragile, for people who had
+to act on them anyway - is the direct origin of the research question I now propose to answer.
 
 **International consortia.** I currently contribute to two: **GESICA** (Interreg VI
 France–Switzerland), where I work with HUG emergency medicine, the Université Marie et Louis
@@ -33,17 +33,17 @@ now what I want to lead, and it is not the same thing as what these consortia bu
 **Open tools and reproducibility.** I release what I build. LiteRev and the LiteRev-Evidence
 platform are available for use by other researchers, and the methodological work I propose is
 planned around open software and an openly released benchmark dataset. My view is that in fields
-where methods are the contribution, an unusable method is not really a contribution — a position
+where methods are the contribution, an unusable method is not really a contribution - a position
 that comes from working in an industry where a model nobody could run was a model nobody used.
 
 **Peer review and scientific exchange.** `[[Add specifics: journals you review for, conference
 programme committees, seminar organisation, editorial roles. This paragraph is currently the
-weakest in the module and it is easy to fix from your own records — reviewing invitations tend to
+weakest in the module and it is easy to fix from your own records - reviewing invitations tend to
 live in email rather than on the CV.]]` I have presented this work at scientific meetings
 including BioTechX Europe, the International Workshop on HIV Observational Databases, the UNIGE
 Data Science Day and a CODATA/DDI Alliance workshop.
 
 **Bridging communities.** My background places me between quantitative finance, econometrics and
-public health, and a recurring contribution has been importing methods across that boundary —
-extreme value estimation, regime models, decision-analytic evaluation — into a field where the
+public health, and a recurring contribution has been importing methods across that boundary -
+extreme value estimation, regime models, decision-analytic evaluation - into a field where the
 underlying problems are structurally similar and the tools are largely unknown.

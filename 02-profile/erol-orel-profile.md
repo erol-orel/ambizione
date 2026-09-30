@@ -1,4 +1,4 @@
-# Applicant profile — Erol Orel
+# Applicant profile: Erol Orel
 
 Compiled from `00-source-documents/my-materials/cv-orel-current.pdf`. Correct anything wrong;
 the research plan rests on this reading.
@@ -6,13 +6,13 @@ the research plan rests on this reading.
 ## Position
 
 Senior Research Associate, Infectious Diseases and Mathematical Modelling
-Institute of Global Health (ISG), Faculty of Medicine, University of Geneva — Campus Biotech
+Institute of Global Health (ISG), Faculty of Medicine, University of Geneva - Campus Biotech
 2019 – present. Lecturer in Statistics/Epidemiology, MAS Public Health, UNIGE, 2024 – present.
 
 ## Education
 
 - **PhD, Biomedical Sciences (Global Health track)**, Faculty of Medicine, UNIGE.
-  **Defended 18 December 2023** — comfortably within the four-year window (deadline 3 Nov 2026),
+  **Defended 18 December 2023** - comfortably within the four-year window (deadline 3 Nov 2026),
   with roughly 2 years 10 months of academic age at submission. This is *young* for the scheme
   and works in your favour: output is assessed relative to academic age.
   *"Enhancing HIV Prediction through Machine Learning and Streamlining Research with LiteRev"*
@@ -54,11 +54,11 @@ Three concurrent lines, which is itself relevant to how the application is frame
 | --- | --- | --- | --- | --- |
 | **Cantonal Legionella study** (BASEC 2026-00324) | Data lead | **Keiser** | May 2027 | Unique linked data; Keiser-led |
 | **GESICA** (Interreg VI France–Suisse) | Contributor; co-author on the AI-in-EMS systematic review | Desmettre (HUG) / Teodoro (UNIGE) | Feb 2027 | **The one line not led by Keiser** |
-| **Horizon EU consortium** (AI for pandemic preparedness) | Contributor, "LLM" | **Keiser** (UNIGE lead, ~EUR 1.12M task) | — | Thematic overlap with Candidate D; must be declared and delimited |
+| **Horizon EU consortium** (AI for pandemic preparedness) | Contributor, "LLM" | **Keiser** (UNIGE lead, ~EUR 1.12M task) | - | Thematic overlap with Candidate D; must be declared and delimited |
 
 Two of the three are Keiser-led. GESICA is the route to an independent scientific home.
 
-## Detail — cantonal Legionella study
+## Detail: cantonal Legionella study
 
 **BASEC 2026-00324**, CCER Geneva. Runs 01.06.2026 – 31.05.2027.
 **Project leader and sponsor: Prof. Olivia Keiser.** Erol Orel is the team member with sole
@@ -78,17 +78,17 @@ analysis. Funded ~CHF 90,000 (SIG, OCEN, Service du Médecin Cantonal) plus UNIG
 - **Secured, rare data.** Cantonal case registry linked to installation-level technical data is
   not something a competitor can assemble. Ethics already granted. Feasibility scores well on
   evidence, not promises.
-- **Stakeholder network already built** — SIG, OCEN, cantonal doctor. Three funders already
+- **Stakeholder network already built** - SIG, OCEN, cantonal doctor. Three funders already
   convinced enough to commit money.
 - **Distinctive method profile.** Econometrics + ML + spatial epidemiology + health economics
   is an unusual and defensible combination in this problem space.
 - **Academic age is favourable.** Three years post-PhD with 15 papers, assessed relative to
-  academic age, reads well — especially with a documented career change behind it.
+  academic age, reads well - especially with a documented career change behind it.
 
 ### The two structural problems
 
 **1. Independence.** Every paper on the CV is with Olivia Keiser's group, the PhD was supervised
-there, and the Legionella project is formally hers — she is project leader *and* sponsor.
+there, and the Legionella project is formally hers - she is project leader *and* sponsor.
 Ambizione is a scheme about becoming an independent PI. If the application reads as "continue
 Keiser's project with SNSF money", it fails on the criterion the scheme exists to test. This is
 solvable, but only deliberately, and it drives the project choice.
@@ -101,7 +101,7 @@ This is the weakest part of the dossier and it will not fix itself. See
 ### Softer weaknesses
 
 - Three first-author papers, none in a high-visibility venue. Reviewers in Division III will
-  notice. The narrative CV format helps here — it rewards explaining significance and
+  notice. The narrative CV format helps here - it rewards explaining significance and
   contribution over counting.
 - No senior/last-author paper yet. Worth trying to produce one before November if anything is
   close; otherwise the supervision of a master's student on the Legionella work is the nearest
@@ -112,9 +112,9 @@ This is the weakest part of the dossier and it will not fix itself. See
 - [x] **PhD defence: 18 December 2023.** Eligible with a wide margin.
 - [ ] Career interruptions to declare, if any
 - [ ] Nationality / permit
-- [x] **Host decided: Institute of Global Health, Faculty of Medicine, UNIGE — as an
+- [x] **Host decided: Institute of Global Health, Faculty of Medicine, UNIGE - as an
       independent research programme led by the applicant, alongside the Institute's groups.**
       DS4DH (Prof. Teodoro) is the WP1 methodological collaboration; HUG emergency medicine and
-      CASU-144 the operational collaborations. No departmental move is claimed — independence is
+      CASU-144 the operational collaborations. No departmental move is claimed - independence is
       argued organisationally (§2.6 of the plan) and the host confirmation is signed at institute
       level (see `04-other-documents/host-institution-letters.md` for the two-signature question).

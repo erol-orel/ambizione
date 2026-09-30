@@ -1,10 +1,10 @@
-# To Prof. Nicolas Ray — host confirmation, Institute of Global Health
+# To Prof. Nicolas Ray: host confirmation, Institute of Global Health
 
-> Objet : Candidature Ambizione FNS — hébergement à l'ISG et confirmation institutionnelle
+> Objet : Candidature Ambizione FNS - hébergement à l'ISG et confirmation institutionnelle
 > (délai FNS : 3 novembre ; délai interne RGO probablement plus tôt)
 
 `[[Vérifier le titre exact : directeur ad interim de l'Institut de santé globale. Adapter tu/vous
-selon votre relation. Envoyer APRÈS l'email au RGO — idéalement en pouvant déjà citer leur réponse
+selon votre relation. Envoyer APRÈS l'email au RGO - idéalement en pouvant déjà citer leur réponse
 sur les rôles de signature.]]`
 
 Cher Nicolas,
@@ -16,21 +16,21 @@ hôte**.
 
 Le projet part d'une question née du développement de LiteRev-Evidence : **au début d'une crise
 sanitaire, les données locales d'issue nécessaires à la prévision n'existent pas encore**, alors
-que c'est le moment où les décisions — capacité de réserve, réallocation des ambulances,
-escalade — sont les plus lourdes. La seule information quantitative disponible est la littérature
+que c'est le moment où les décisions - capacité de réserve, réallocation des ambulances,
+escalade - sont les plus lourdes. La seule information quantitative disponible est la littérature
 publiée sur des événements analogues. Le projet détermine si cette littérature, extraite
 systématiquement, améliore réellement la prévision dans ce régime, et quand elle induit en
 erreur. Une page de présentation est jointe.
 
 **Pourquoi l'ISG.** L'expertise en maladies infectieuses et en extraction automatisée de
-l'évidence s'y trouve déjà, de même que les liens opérationnels dont le projet dépend — médecine
-d'urgence des HUG, CASU-144, services cantonaux — et l'étude légionellose en cours (BASEC
+l'évidence s'y trouve déjà, de même que les liens opérationnels dont le projet dépend - médecine
+d'urgence des HUG, CASU-144, services cantonaux - et l'étude légionellose en cours (BASEC
 2026-00324). Le volet de traitement automatique du langage se fera en collaboration avec le
 groupe Data Science for Digital Health du Prof. Teodoro, sans que cela modifie l'hébergement.
 
 **La forme d'hébergement demandée.** L'esprit d'Ambizione est l'indépendance scientifique : je
 conduirais à l'ISG un **programme de recherche indépendant**, aux côtés des groupes existants de
-l'institut plutôt qu'au sein de l'un d'eux, en collaboration étroite avec eux — y compris le
+l'institut plutôt qu'au sein de l'un d'eux, en collaboration étroite avec eux - y compris le
 groupe IDMM, dans lequel j'ai développé LiteRev. Le FNS demande à l'institution hôte de garantir
 précisément cela : direction scientifique du projet par le requérant, sélection et supervision de
 ses collaborateurs, autorité sur le budget, publication en dernier auteur.
@@ -59,10 +59,10 @@ lirait mal. C'est pourquoi je m'adresse à la direction de l'institut plutôt qu
 des programmes auxquels je contribue.
 
 Aucune implication financière pour l'institut : le FNS couvre mon salaire et un budget de projet
-(qui ne peut financer ni doctorant ni post-doctorant — les règles 2026 l'excluent — mais un
+(qui ne peut financer ni doctorant ni post-doctorant - les règles 2026 l'excluent - mais un
 collaborateur scientifique/technique). Le subside représenterait le **premier poste où
 l'intégralité de mon temps de recherche est consacrée à un programme dont je suis le
-responsable** — c'est la transition de carrière que l'instrument est censé financer.
+responsable** - c'est la transition de carrière que l'instrument est censé financer.
 
 Je peux préparer un projet de lettre sur la base du modèle FNS si cela vous épargne du temps. Le
 RGO m'indiquera le délai interne UNIGE, vraisemblablement bien avant le 3 novembre ; une première
@@ -79,10 +79,10 @@ Erol
 ## Notes for the applicant (not part of the email)
 
 - **Send order:** RGO first; this email second, ideally citing the RGO's answer on whether one
-  person can hold both signature roles. If the RGO is slow, send anyway — question 1 is phrased
+  person can hold both signature roles. If the RGO is slow, send anyway - question 1 is phrased
   to work either way.
 - **Prof. Calmy** directs the institute and co-authored the LiteRev paper, but sat on the thesis
-  jury — which is why the confirmation is requested from the interim direction: the SNSF reads
+  jury - which is why the confirmation is requested from the interim direction: the SNSF reads
   prior relationships at the signature line. A separate **courtesy note** informing her of the
   candidacy remains appropriate; it must not ask for anything.
 - If Ray declines either role, the fallback is a group leader with no funding relationship to the

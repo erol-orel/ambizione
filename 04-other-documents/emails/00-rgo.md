@@ -1,13 +1,13 @@
-# To the UNIGE Research Grants Office — send FIRST
+# To the UNIGE Research Grants Office: send FIRST
 
 > À : research-grants-office@unige.ch
-> Objet : Ambizione, appel 2026 (délai FNS 3 novembre) — délai interne et questions pratiques
+> Objet : Ambizione, appel 2026 (délai FNS 3 novembre) - délai interne et questions pratiques
 
 **Why this email goes before the others:** its answers unblock the host-confirmation request
 (who signs, what wording), the budget (salary rates) and the timeline (the internal deadline is
 the one that actually binds). Everything in it is a question only the RGO can answer.
 
-`[[Adapter la formule d'appel si vous avez déjà un contact nommé au RGO — vous leur avez déjà
+`[[Adapter la formule d'appel si vous avez déjà un contact nommé au RGO - vous leur avez déjà
 écrit pour la question d'éligibilité; répondre dans ce fil conserve le contexte.]]`
 
 ---
@@ -16,7 +16,7 @@ Madame, Monsieur,
 
 Je prépare une candidature au subside **Ambizione** (dernier appel, délai FNS **3 novembre 2026,
 17h00**), avec l'**Institut de santé globale** de la Faculté de médecine comme institution hôte.
-Vous m'avez récemment confirmé mon éligibilité — merci encore. Pour finaliser le dossier, j'aurais
+Vous m'avez récemment confirmé mon éligibilité - merci encore. Pour finaliser le dossier, j'aurais
 besoin des précisions suivantes ; je les ai regroupées pour vous faciliter la réponse.
 
 **1. Délai et procédure internes**
@@ -27,7 +27,7 @@ besoin des précisions suivantes ; je les ai regroupées pour vous faciliter la 
 - Le RGO offre-t-il une **relecture pré-soumission** (contrôle formel ou de fond) des dossiers
   Ambizione, et avec quel préavis ?
 
-**2. Confirmation détaillée — signatures**
+**2. Confirmation détaillée - signatures**
 
 Le modèle FNS (version 03.08.2026) requiert deux signatures : la **« personne de contact »
 (responsable du groupe de recherche)** nommée dans la candidature, et la **direction de
@@ -62,13 +62,13 @@ l'institut/du département**.
   Quelle catégorie de personnel UNIGE correspond, et à quel coût employeur par taux d'activité,
   pour un budget plafonné à CHF 250'000 sur quatre ans ?
 - Avez-vous des consignes pour la **saisie du budget dans mySNF** (granularité des postes, coûts
-  Open Research Data — à budgéter dès la soumission —, exclusion des frais de publication en libre
+  Open Research Data - à budgéter dès la soumission -, exclusion des frais de publication en libre
   accès, plafond de CHF 100'000 pour le matériel durable) ?
 
 **5. Déclarations**
 
 - Je contribue actuellement à **GESICA** (Interreg) et, dès 2026, à **GeoAI4EI** (Horizon Europe),
-  et je participe à une étude cantonale sur la légionellose. Aucun n'est un instrument FNS —
+  et je participe à une étude cantonale sur la légionellose. Aucun n'est un instrument FNS -
   pouvez-vous confirmer qu'il n'y a pas d'incompatibilité de soumission parallèle (art. 13 du
   règlement), et m'indiquer où ces financements se déclarent dans mySNF ?
 
@@ -88,14 +88,14 @@ Senior Research Associate, Institut de santé globale, Faculté de médecine
 
 | Question | Unblocks |
 | --- | --- |
-| 1 — internal deadline | The real submission timeline; when the four letters must be signed |
-| 2 — signatures | The Ray email can be finalised; the contact-person field in mySNF |
-| 3 — designation | §2.6's `[[Confirm the designation]]` placeholder and the host-letter wording |
-| 4 — salary/rates | The `[[FTE and duration]]` placeholders, the budget table, the salary entry |
-| 5 — declarations | The mySNF relations section; closes the Art. 13 check |
+| 1 - internal deadline | The real submission timeline; when the four letters must be signed |
+| 2 - signatures | The Ray email can be finalised; the contact-person field in mySNF |
+| 3 - designation | §2.6's `[[Confirm the designation]]` placeholder and the host-letter wording |
+| 4 - salary/rates | The `[[FTE and duration]]` placeholders, the budget table, the salary entry |
+| 5 - declarations | The mySNF relations section; closes the Art. 13 check |
 
 ## Follow-up rule
 
-If no reply within a week, phone — the RGO answers Ambizione questions routinely and a call
+If no reply within a week, phone - the RGO answers Ambizione questions routinely and a call
 resolves in ten minutes what email queues for days. Log the answers in
 `05-review/applicant-facts.md` as they arrive.

@@ -1,4 +1,4 @@
-# Budget — Ambizione 2026
+# Budget: Ambizione 2026
 
 The final 2026 Ambizione regulations cap **project funds at CHF 250,000 for four years**. Doctoral students and postdocs **cannot be employed through Ambizione**. The applicant's salary is covered separately by an Ambizione grant with salary; project funds are reserved for eligible project costs.
 
@@ -13,18 +13,18 @@ enough in §6 that a referee can see the work is resourced.
 
 | Category | Detail | Years | Cost (CHF) |
 | --- | --- | --- | ---: |
-| Scientific/technical collaborator | `[[FTE and duration; institutional salary rate]]` — WP1 extraction, WP3 pipeline, reproducibility | `[[ ]]` | `[[ ]]` |
-| Second independent extractor | `[[contracted or in-kind]]` — required by the dual-extraction design in T1.2 | `[[ ]]` | `[[ ]]` |
+| Scientific/technical collaborator | `[[FTE and duration; institutional salary rate]]` - WP1 extraction, WP3 pipeline, reproducibility | `[[ ]]` | `[[ ]]` |
+| Second independent extractor | `[[contracted or in-kind]]` - required by the dual-extraction design in T1.2 | `[[ ]]` | `[[ ]]` |
 | Computing / infrastructure use | Bayesian estimation, evidence processing, rolling-origin evaluation | `[[ ]]` | `[[ ]]` |
 | Data access / procurement | Directly project-linked data costs, if applicable | `[[ ]]` | `[[ ]]` |
 | Travel / mobility | Short visits, conferences, incoming visitors (Art. 11 §1e, h) | `[[ ]]` | `[[ ]]` |
 | Workshops / cooperation | Directly linked to the project, if needed | `[[ ]]` | `[[ ]]` |
-| Open Research Data | Making research data freely available — **eligible, but must be budgeted now; cannot be added later by supplementary grant** | `[[ ]]` | `[[ ]]` |
+| Open Research Data | Making research data freely available - **eligible, but must be budgeted now; cannot be added later by supplementary grant** | `[[ ]]` | `[[ ]]` |
 | Other eligible direct costs | Only if specifically justified | `[[ ]]` | `[[ ]]` |
 | **Total project funds** | | | **≤ CHF 250,000** |
 | Applicant salary | Covered separately by Ambizione grant with salary | | **separate** |
 
-## ⚠ P0 — the 50% × 48-month line must be costed before submission
+## ⚠ P0: the 50% × 48-month line must be costed before submission
 
 The plan requests a scientific/technical collaborator at **50% over 48 months** (= 2.0
 FTE-years) plus a **contracted second extractor (M3–M9)**. The arithmetic is tight and must be
@@ -35,11 +35,11 @@ run against real UNIGE rates before that sentence survives:
 | CHF 90k/yr | 180,000 | 70,000 |
 | CHF 100k/yr | 200,000 | 50,000 |
 | CHF 110k/yr | 220,000 | 30,000 |
-| CHF 120k/yr | 240,000 | **10,000 — does not work** |
+| CHF 120k/yr | 240,000 | **10,000 - does not work** |
 
 **Decision rule once the RGO/HR rate arrives:** if the 50%×48 full cost exceeds ~CHF 190k,
 shorten the duration (50% × 36–42 months, aligned to WP1+WP3, M3–M42) rather than the
-percentage — the plan's task justification (benchmark, pipeline, reproducibility) maps to
+percentage - the plan's task justification (benchmark, pipeline, reproducibility) maps to
 M3–M42 anyway. Update §2.3.3.3 and §2.4 of the plan in the same pass. The mySNF budget is
 line-item and frozen at submission.
 
@@ -47,7 +47,7 @@ line-item and frozen at submission.
 
 - **Ceiling: CHF 250,000 for four years** (Art. 10 §4), i.e. ~CHF 62,500/year. Pro-rated if shorter.
 - **Applicant salary is separate** and covered by the grant. The guidelines give an indicative
-  **~CHF 115,000/annum gross at 100%**; the applicant is currently at **UNIGE class 19, annuité 9 —
+  **~CHF 115,000/annum gross at 100%**; the applicant is currently at **UNIGE class 19, annuité 9 -
   above that figure**. Per the SNSF's own advice (by phone/email to the applicant): **enter the
   maximum in mySNF**; the SNSF then adjusts to the canton and the individual situation. Get the
   exact class-19/9 gross from UNIGE HR for the entry, and let mySNF auto-calculate the social
@@ -57,11 +57,11 @@ line-item and frozen at submission.
   qualification.
 - **Equipment and material of enduring value: max CHF 100,000** overall. Not a live constraint here.
 - **Open-access publication costs are NOT eligible** and must be applied for separately via mySNF.
-  Do not put APCs in this budget. Open *Research Data* costs are eligible — see the table.
+  Do not put APCs in this budget. Open *Research Data* costs are eligible - see the table.
 - **The budget must be as detailed as possible**: separate entries for equipment, infrastructure
   access, consumables, travel, support personnel.
 - **Changes to the budget after submission are not possible.**
-- Personnel salary rates differ by institution — get UNIGE's standards from HR in advance.
+- Personnel salary rates differ by institution - get UNIGE's standards from HR in advance.
 - **All requested support personnel must be justified in the research plan** (Guidelines 4.3). §2.4
   does this: one collaborator, three named tasks.
 
@@ -74,8 +74,8 @@ The grants office should provide the final institutional salary rates and confir
 ## Resource implication for the research plan
 
 The workplan assumes **no doctoral or postdoctoral employee**, and a funded scientific/technical
-collaborator alongside the PI. The PI carries the scientific core — WP2 and the confirmatory
-evaluation design — while the collaborator carries the labour-intensive specified work.
+collaborator alongside the PI. The PI carries the scientific core - WP2 and the confirmatory
+evaluation design - while the collaborator carries the labour-intensive specified work.
 
 For an independence-focused scheme this division is arguably cleaner than a doctoral team: the
 hypotheses, the design and the scientific direction are unambiguously the applicant's, and the

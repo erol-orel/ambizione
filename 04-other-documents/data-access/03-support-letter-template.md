@@ -1,10 +1,10 @@
-# Draft collaboration letter — send this with the request
+# Draft collaboration letter: send this with the request
 
 **Renamed in substance: this is a *lettre de collaboration*, not a *lettre de soutien*.** The
 distinction is an SNSF rule, not a nuance (Guidelines 2.17): each collaborator provides a letter
 that *"limits itself to a statement about the collaboration and refrains from highlighting the
 qualifications of the applicant or the merits of the project"*. **Support or reference letters are
-discarded.** The earlier draft here ended with "Nous soutenons cette candidature…" — that sentence
+discarded.** The earlier draft here ended with "Nous soutenons cette candidature…" - that sentence
 would have disqualified the letter. Tell the signatory this explicitly; the natural instinct is to
 write a warm letter, and a warm letter is worse than none.
 
@@ -15,7 +15,7 @@ and that they should change anything they disagree with.
 
 1. Confirm the collaboration exists and continues.
 2. Confirm the data: name the dataset, the period, the granularity, the conditions.
-3. Name the concrete contributions (data, threshold elicitation, shadow-mode participation) —
+3. Name the concrete contributions (data, threshold elicitation, shadow-mode participation) -
    as facts, not endorsements.
 
 Uploaded in mySNF under **"Other annexes"**.
@@ -25,7 +25,7 @@ Uploaded in mySNF under **"Other annexes"**.
 `[[Papier à en-tête HUG / CASU 144]]`
 `[[Lieu, date]]`
 
-**Objet : lettre de collaboration — projet COLDSTART, candidature Ambizione FNS (Dr Erol Orel)**
+**Objet : lettre de collaboration - projet COLDSTART, candidature Ambizione FNS (Dr Erol Orel)**
 
 Madame, Monsieur,
 
@@ -42,7 +42,7 @@ et des procédures institutionnelles applicables, nous sommes disposés à mettr
 projet un extrait rétrospectif de `[[décrire précisément : nombre quotidien d'appels par motif de
 recours et degré d'urgence / de passages aux urgences par catégorie / de lits de soins intensifs
 occupés]]`, couvrant la période `[[2015–2026]]`, agrégé au jour et **sans identifiant direct ni
-donnée individuelle**. `[[Ajouter toute restriction ou condition — mieux vaut qu'elle figure ici
+donnée individuelle**. `[[Ajouter toute restriction ou condition - mieux vaut qu'elle figure ici
 que d'apparaître plus tard.]]`
 
 **Contribution à la collaboration.** Dans le cadre du projet, notre service participera au
@@ -52,15 +52,15 @@ entendu qu'elle n'implique aucune utilisation clinique des prévisions produites
 
 Nous restons à disposition pour préciser les modalités pratiques de cette collaboration.
 
-`[[Signature — fonction, service]]`
+`[[Signature - fonction, service]]`
 
 ---
 
 ## What was deliberately removed from the old draft
 
-- *"Intérêt pour notre service. La question posée … nous serait utile."* — merits of the project;
+- *"Intérêt pour notre service. La question posée … nous serait utile."* - merits of the project;
   the SNSF reads this as a support letter.
 - *"Nous soutenons cette candidature et la conduite de ce projet par le Dr Orel en tant que
-  responsable scientifique."* — endorsement of the applicant; grounds for discarding.
+  responsable scientifique."* - endorsement of the applicant; grounds for discarding.
 - Any sentence evaluating the applicant. The letter states facts about the collaboration; the
   referee draws the conclusions.

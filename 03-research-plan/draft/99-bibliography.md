@@ -3,17 +3,17 @@
 > ## Status of this list
 >
 > **Two formal requirements from the call documents (Guidelines, "Bibliography"):**
-> (1) **Do not use "et al."** — give the full author list. The only exception is a publication
+> (1) **Do not use "et al."**; give the full author list. The only exception is a publication
 > involving a large international consortium with **over 50 authors**. (2) Give the full reference
 > including **title, source and a DOI where possible**. Entries below marked
 > `[[FULL AUTHOR LIST REQUIRED]]` must be completed from the publisher record; I have not invented
-> names. Only three entries currently carry a DOI — add the rest.
+> names. Only three entries currently carry a DOI; add the rest.
 >
 > Note also: **links to websites are not permitted** anywhere in the research plan or bibliography.
 >
 > The references below were **located and cross-checked against search results during drafting**.
 > They are real works, and the attributions match what the sources report. They are **not yet
-> verified against the articles themselves** — volume, issue, page numbers and exact author lists
+> verified against the articles themselves**; volume, issue, page numbers and exact author lists
 > must be confirmed from the publisher record before submission, and three entries flagged
 > `verify authorship` below are ones where the search returned the work but not a reliable author
 > list.
@@ -26,7 +26,7 @@
 > LiteRev-Evidence repository: those are automatically generated and attribute specific
 > performance figures to named papers. Verify every one before reuse.
 >
-> LiteRev is the right instrument for completing this list — particularly for §2.1.4, where the
+> LiteRev is the right instrument for completing this list; particularly for §2.1.4, where the
 > novelty claim needs a documented systematic search you can report if challenged.
 
 ## Surveillance and outbreak detection
@@ -35,7 +35,7 @@
   for the early detection of outbreaks of infectious disease. *J R Stat Soc A* 1996;159(3):547–563.
 - **[Noufaily 2013]** Noufaily A, Enki DG, Farrington P, Garthwaite P, Andrews N, Charlett A. An
   improved algorithm for outbreak detection in multiple surveillance systems.
-  *Stat Med* 2013;32(7):1206–1222. `[online first 2012 — check the year you cite]`
+  *Stat Med* 2013;32(7):1206–1222. `[online first 2012; check the year you cite]`
 - **[Le Strat 1999]** Le Strat Y, Carrat F. Monitoring epidemiologic surveillance data using
   hidden Markov models. *Stat Med* 1999;18(24):3463–3478.
 - **[Watkins 2009]** Watkins RE, Eagleson S, Veenendaal B, Wright G, Plant AJ. Disease
@@ -50,33 +50,33 @@
   dispatch, ambulance and emergency department data from three European regions.
   *BMC Public Health* 2013;13:905. doi:10.1186/1471-2458-13-905 `auditor-verified 30 Sep;
   confirm once against the publisher record`
-- **[EMS-ILI 2025]** `[[AUTHOR LIST REQUIRED — from the publisher page; replace this citation
+- **[EMS-ILI 2025]** `[[AUTHOR LIST REQUIRED; from the publisher page; replace this citation
   key with the first author's name]]`. Telephone calls to emergency medical service as a tool to
   predict influenza-like illness: a 10-year study. *Public Health* 2025;238:239–244.
-  doi:10.1016/j.puhe.2024.12.021 `final publication is 2025 (online Dec 2024) — year corrected;
+  doi:10.1016/j.puhe.2024.12.021 `final publication is 2025 (online Dec 2024); year corrected;
   Lombardy, seasons 2014–2024 excl. 2020–2022; note R² ≈ 0.50 supports signal-not-equivalence`
 - **[Edjinedja 2026]** Edjinedja KL, Larribau R, **Orel E**, Cossus J, Elfahim O, Yendouname K,
   Vaussenat F, Teodoro D, Robert-Nicoud S, Barakat O, Desmettre T. Artificial intelligence in
   emergency medical services for disasters and health emergencies: a systematic review.
-  `[[submitted 2026 — update status and venue before submission]]`
+  `[[submitted 2026; update status and venue before submission]]`
 
 ## Collaborative forecasting and its evaluation
 
-- **[Cramer 2022]** Cramer EY, Ray EL, Lopez VK, et al. *(consortium >50 authors — shortening
+- **[Cramer 2022]** Cramer EY, Ray EL, Lopez VK, et al. *(consortium >50 authors; shortening
   permitted by the guidelines; verify the count)*. Evaluation of individual and ensemble
   probabilistic forecasts of COVID-19 mortality in the United States. *PNAS* 2022;119(15):
   e2113561119. doi:10.1073/pnas.2113561119
-- **[Sherratt 2023]** Sherratt K, Gruson H, Grah R, et al. *(consortium >50 authors — shortening
+- **[Sherratt 2023]** Sherratt K, Gruson H, Grah R, et al. *(consortium >50 authors; shortening
   permitted; verify the count)*. Predictive performance of multi-model
   ensemble forecasts of COVID-19 across European nations. *eLife* 2023. PMID 37083521.
 
 ## Evidence as prior information
 
 - **[Cook 2023]** Cook JD, `[[FULL AUTHOR LIST REQUIRED]]`. Bayesian forecasting of disease
-  spread with little or no local data. *Scientific Reports* 2023;13. `[[article number + doi —
+  spread with little or no local data. *Scientific Reports* 2023;13. `[[article number + doi;
   auditor-verified venue (s41598-023-35177-6); complete from the publisher record]]`
-  — The prior-art example §2.1.3 cites: Bayesian forecasting with informative priors under
-  sparse local data. COLDSTART's gap is downstream of it — automated construction, propagated
+  - The prior-art example §2.1.3 cites: Bayesian forecasting with informative priors under
+  sparse local data. COLDSTART's gap is downstream of it; automated construction, propagated
   extraction/transportability uncertainty, strict historical information sets, harm detection.
 - **[Ibrahim 2000]** Ibrahim JG, Chen M-H. Power prior distributions for regression models.
   *Statistical Science* 2000;15(1):46–60.
@@ -93,7 +93,7 @@
   extraction for evidence synthesis: a systematic review. *J Biomed Inform* 2026;181:105086.
   doi:10.1016/j.jbi.2026.105086 `author list and details auditor-verified 30 Sep; confirm once
   against the publisher record`
-  — Key figures for §1.3: overall accuracy 47–99.9%; numerical items 47–88% vs categorical/string
+  - Key figures for §1.3: overall accuracy 47–99.9%; numerical items 47–88% vs categorical/string
   74–96%; omissions 60–74% of errors; hallucination 0.08–6%.
 - **[Orel 2023]** **Orel E**, Ciglenecki I, Thiabaud A, Temerev A, Calmy A, Keiser O, Merzouki A.
   An automated literature review tool (LiteRev) for streamlining and accelerating research using
@@ -121,7 +121,7 @@
   Anticipating epidemic transitions with imperfect data. *PLoS Comput Biol* 2018;14(6):e1006204.
 - **[Southall 2021]** Southall E, Brett TS, Tildesley MJ, Dyson L. Early warning signals of
   infectious disease transitions: a review. *J R Soc Interface* 2021;18(182):20210555.
-  **The review to work from** — it catalogues the candidate indicators and their known
+  **The review to work from**: it catalogues the candidate indicators and their known
   false-positive behaviour, which T2.4/T2.5 must confront rather than tune away.
 
 ## Conformal prediction
@@ -130,7 +130,7 @@
   *Foundations and Trends in Machine Learning* 2023;16(4):494–591. `verify volume/pages`
 - **[Barber 2023]** Barber RF, Candès EJ, Ramdas A, Tibshirani RJ. Conformal prediction beyond
   exchangeability. *Annals of Statistics* 2023;51(2):816–845. `key fixed (was [Xu 2023]); not
-  cited in the text — cite it in T2.5 or drop the entry; a time-series-specific conformal
+  cited in the text; cite it in T2.5 or drop the entry; a time-series-specific conformal
   reference may serve better`
 
 ## Regime switching and extremes
@@ -146,14 +146,14 @@
   flu-like hospital visits, three years of daily data from a large Swiss hospital (CHUV).
   Note the affiliations: **Cantoni is at the Research Center for Statistics, University of
   Geneva** (the applicant's DEA supervisor); **Chavez-Demoulin is at UNIL**. Relevant as the
-  nearest prior work to §1.4, not as a mobility lead — no research stay is proposed.
+  nearest prior work to §1.4, not as a mobility lead; no research stay is proposed.
 
 
-## Entries added 30 Sep — cited in the text but previously MISSING from this list
+## Entries added 30 Sep: cited in the text but previously MISSING from this list
 
 > Found by an external audit and verified: [Lazer 2014], [Winters 2018], [Lee 2021],
 > [Höhle 2014] and [McGough 2020] were cited in §2.1/§2.3.2 with no bibliography entry.
-> Author lists below are supplied where I am confident of them and flagged where I am not —
+> Author lists below are supplied where I am confident of them and flagged where I am not;
 > verify all five against the publisher record like every other entry.
 
 - **[Lazer 2014]** Lazer D, Kennedy R, King G, Vespignani A. The parable of Google Flu: traps in
@@ -165,13 +165,13 @@
   *PLoS Comput Biol* 2020;16(4):e1007735. doi:10.1371/journal.pcbi.1007735
 - **[Winters 2018]** Winters BD, `[[FULL AUTHOR LIST REQUIRED]]`. Technological distractions
   (part 2): a summary of approaches to manage clinical alarms with intent to reduce alarm
-  fatigue. *Crit Care Med* 2018;46(1):130–137. `[[verify venue/volume — this entry sources the
+  fatigue. *Crit Care Med* 2018;46(1):130–137. `[[verify venue/volume; this entry sources the
   72–99% false/non-actionable alarm figure in §2.1.5; confirm the figure appears in the final
   source]]`
-- **[Lee 2021]** `[[FULL REFERENCE REQUIRED — the §2.1.5 claim that heat-warning thresholds
+- **[Lee 2021]** `[[FULL REFERENCE REQUIRED; the §2.1.5 claim that heat-warning thresholds
   calibrated to mortality diverge from morbidity/ED thresholds needs its actual source. If no
   "Lee 2021" exists in your reading, the auditor suggests Lung, Yeh & Hwang 2021 (PMC8471601)
-  as a candidate that directly discusses mortality- vs morbidity-based heat thresholds —
+  as a candidate that directly discusses mortality- vs morbidity-based heat thresholds;
   verify and rename the key accordingly]]`
 
 ## Evaluation
@@ -181,7 +181,7 @@
 - **[Vickers 2006]** Vickers AJ, Elkin EB. Decision curve analysis: a novel method for evaluating
   prediction models. *Med Decis Making* 2006;26(6):565–574.
 
-## Own work — cite from the CV, verify details
+## Own work: cite from the CV, verify details
 
 - **Orel E**, Esra R, Estill J, Thiabaud A, Marchand-Maillet S, Merzouki A, Keiser O. Prediction
   of HIV status based on socio-behavioural characteristics in East and Southern Africa.
@@ -198,36 +198,36 @@
   De Voux L, Maskew M, Sharpey-Schafer K. Validation and improvement of a machine learning model
   to predict interruptions in antiretroviral treatment in South Africa.
   *J Acquir Immune Defic Syndr* 2023;92(1):42–49.
-- Nwosu K, Fokam J, Wanda F, `[[FULL AUTHOR LIST REQUIRED — no "et al." permitted]]`
+- Nwosu K, Fokam J, Wanda F, `[[FULL AUTHOR LIST REQUIRED; no "et al." permitted]]`
   (incl. **Orel E**). SARS-CoV-2 antibody seroprevalence and associated risk factors in an urban
   district in Cameroon. *Nat Commun* 2021;12:5851.
 - Ng'ambi W, Estill J, Keiser O, Merzouki FA, **Orel E** (senior author). Machine learning-based
   classification of self-reported cardiovascular disease history in Africa using harmonised
   multi-country WHO STEPS surveys: 2014–2019. **Accepted for publication.**
-  `[[Venue, year, DOI once assigned — update on publication]]`
+  `[[Venue, year, DOI once assigned; update on publication]]`
 
 - **[Schulte 2024]** Schulte F, Röösli M, Ragettli MS. Risk, attributable fraction and
   attributable number of cause-specific heat-related emergency hospital admissions in Switzerland.
   *Int J Public Health* 2024;69:1607349. doi:10.3389/ijph.2024.1607349
-  — Swiss heat–ED evidence: weak/non-significant for respiratory causes overall; significant in
+  - Swiss heat–ED evidence: weak/non-significant for respiratory causes overall; significant in
   the 75–84 subgroup. Grounds the §2.3.1 heat-arm caveat. *Sourced from the GESICA v5 inventory's
   reference list (ref 41); verify against the publisher record like every other entry.*
 - **[Ragettli 2019]** Ragettli MS, Vicedo-Cabrera AM, Schindler C, Röösli M. Impact of the warm
   summer 2015 on emergency hospital admissions in Switzerland. *Environ Health* 2019;18:66.
   doi:10.1186/s12940-019-0507-1 *(GESICA v5 ref 42)*
-- **[Zheng 2015]** Zheng XY, Ding H, Jiang LN, et al. `[[consortium size < 50 — full author list
+- **[Zheng 2015]** Zheng XY, Ding H, Jiang LN, et al. `[[consortium size < 50; full author list
   required]]` Association between air pollutants and asthma emergency room visits and hospital
   admissions in time series studies: a systematic review and meta-analysis.
   *PLoS One* 2015;10(9):e0138146. doi:10.1371/journal.pone.0138146 *(GESICA v5 ref 44; pollution →
-  asthma ED, international; the v5 report notes no recent Swiss study of acute episodes — a
+  asthma ED, international; the v5 report notes no recent Swiss study of acute episodes; a
   contribution space for this project)*
 
-## Still to source — supply from your own reading
+## Still to source: supply from your own reading
 
-- ~~Heat and emergency department presentations / EMS demand in Switzerland~~ **Closed** — Schulte
+- ~~Heat and emergency department presentations / EMS demand in Switzerland~~ **Closed**: Schulte
   2024 and Ragettli 2019 above, from the applicant's own referenced inventory
 - Out-of-hospital cardiac arrest and temperature (your platform's scenario documentation cites
-  work here — verify each citation before reuse)
+  work here; verify each citation before reuse)
 - ICU surge capacity modelling
 - Legionellosis epidemiology and building water systems (SwissLEGIO; the CCER protocol
   bibliography is a starting point and is already checked)

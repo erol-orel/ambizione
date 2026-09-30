@@ -1,10 +1,10 @@
-# Eligibility verification — RESOLVED
+# Eligibility verification: RESOLVED
 
 **Confirmed with the UNIGE Research Office (RGO): the applicant is eligible, and there is
 no mobility requirement.**
 
-Both open questions are closed. The clause that worried me — twelve months of research at a
-higher education institution other than the doctoral one — does **not** apply to Ambizione. It
+Both open questions are closed. The clause that worried me - twelve months of research at a
+higher education institution other than the doctoral one - does **not** apply to Ambizione. It
 belongs to Postdoc.Mobility, or is a garbled rendering of the connection-to-Switzerland criterion.
 I could not verify this myself: `www.snf.ch` and every university mirror are blocked by this
 environment's network egress proxy, which runs a fixed allowlist. The RGO settled it.
@@ -12,7 +12,7 @@ environment's network egress proxy, which runs a fixed allowlist. The RGO settle
 ## Consequences
 
 1. **No research stay is proposed.** The mobility documents previously carried an outgoing stay
-   built to satisfy a requirement that does not exist. It is removed everywhere — no candidate
+   built to satisfy a requirement that does not exist. It is removed everywhere - no candidate
    hosts, no invitation letter, no budget line. `statement-of-mobility.md` now leads with the
    sectoral and intellectual arguments and states the geographic position plainly.
 2. **The institutional claim is organisational**: leading an independent research programme within

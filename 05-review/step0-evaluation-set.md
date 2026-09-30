@@ -1,6 +1,6 @@
-# Step 0 — the evaluation set
+# Step 0: the evaluation set
 
-> ## Addendum, 30 September 2026 — inventory revision 5 / table revision 3
+> ## Addendum, 30 September 2026 - inventory revision 5 / table revision 3
 >
 > The applicant supplied the updated GESICA report (v5, roughly doubled in length) and table (v3).
 > What changes:
@@ -10,17 +10,17 @@
 >    entries). The plan's "23 sources / Geneva–Vaud" claim was updated accordingly (§2.2.4).
 > 2. **D03 (144 calls), Geneva: "accès accordé au projet par les HUG, hors enregistrements
 >    vocaux."** Access to the HUG centrale's data is already established **within GESICA**. That
->    is not access for COLDSTART — a separate agreement and CCER approval remain necessary — but
+>    is not access for COLDSTART - a separate agreement and CCER approval remain necessary - but
 >    it converts the feasibility claim from "a relationship exists" to "the data already flow to
 >    a project I work on". The commitments table now says exactly that. VD/NE run through the
->    CHUV centrale (since 07.2024; also serves NE and the Broye) — a documented route to
+>    CHUV centrale (since 07.2024; also serves NE and the Broye) - a documented route to
 >    multi-canton extension, not claimed in the plan.
 > 3. **The v5 report dropped the call-volume figures** (>165,000 calls/yr, ~71,000 emergency).
 >    The number is retained in the commitments table but flagged for reconfirmation with HUG.
 > 4. **D24 gives the official heat-warning definitions** (MeteoSwiss degree 3: daily-mean ≥25 °C
 >    for 3 days; degree 4: ≥27 °C for 3 days; Geneva cantonal activation at 25 °C/5 d or
 >    27 °C/3 d; heat-index basis before 2021). **This is the natural pre-specified heat onset
->    rule and the authoritative episode list** — it replaces guesswork in the heat episode
+>    rule and the authoritative episode list** - it replaces guesswork in the heat episode
 >    inventory below. Note the definition change in summer 2021: episodes straddling it need the
 >    sensitivity flag.
 > 5. **Section 5.3 raises a real design question for the heat arm.** Swiss evidence [Schulte
@@ -31,10 +31,10 @@
 >    acute-episode study (a stated contribution space). **Consequence:** a heat test scored on
 >    *respiratory-restricted* demand may be near-null by construction. The plan now cites
 >    Schulte and pre-specifies age-stratified sensitivity (75+) for the heat arm. **Decided 30 Sep
->    (delegated):** the heat arm scores **heat-sensitive demand** — same series, same
->    construction, cause classes fixed at registration point 2 — with respiratory-restricted
+>    (delegated):** the heat arm scores **heat-sensitive demand** - same series, same
+>    construction, cause classes fixed at registration point 2 - with respiratory-restricted
 >    and 75+ as sensitivities. See `hypothesis-audit.md` for the rationale.
-> 6. New sources D26 (asthma/COPD care recourse — OFS/SpiGes, Obsan, HUG/CHUV/RHNe) and D27
+> 6. New sources D26 (asthma/COPD care recourse - OFS/SpiGes, Obsan, HUG/CHUV/RHNe) and D27
 >    (weekly mortality) are candidate covariates/validation series for the heat arm.
 
 
@@ -51,14 +51,14 @@ was already answered there. Only the cells marked `[[…]]` genuinely need someo
 | Source | Granularity | Access |
 | --- | --- | --- |
 | 144/CASU calls (D03) | **daily**, continuous, near real-time | Formal convention with HUG |
-| ED presentations | **daily** `[[confirm]]` | HUG only — hospital statistics (D06) are **annual** and lag >1 year via OFS |
+| ED presentations | **daily** `[[confirm]]` | HUG only - hospital statistics (D06) are **annual** and lag >1 year via OFS |
 | ICU occupancy | `[[daily, confirm]]` | HUG only |
 | Sentinella (D05) | **weekly** | Public |
 | Mandatory notification (D04) | **weekly** | Public dashboard; individual data on request |
 | Wastewater (D08) | weekly–daily, but **10 national stations since 2023** | Portal / request |
 | MeteoSwiss (D10, D11) | **10 min – daily**, long history | Open |
 
-This means the WP3 fallback is not merely "a narrower outcome claim" — it is **a coarser time
+This means the WP3 fallback is not merely "a narrower outcome claim" - it is **a coarser time
 resolution**, and that interacts with every other design parameter. At weekly resolution, a 4-week
 cold-start window is **four observations**, not twenty-eight, and a 14-day horizon is two steps.
 
@@ -67,7 +67,7 @@ cold-start window is **four observations**, not twenty-eight, and a 14-day horiz
 design rather than improvised if it triggers. Add this to the protocol.
 
 It also sharpens the data request: **the daily granularity is the thing to secure**, and it has no
-open substitute. Say so in the letters — it is a more precise ask than "retrospective extract".
+open substitute. Say so in the letters - it is a more precise ask than "retrospective extract".
 
 ---
 
@@ -76,23 +76,23 @@ open substitute. Say so in the letters — it is a more precise ask than "retros
 The revised report and table (RSV added; twenty respiratory diseases in five priority tiers)
 answer several open cells and change one recommendation.
 
-**144/CASU is the best-characterised candidate outcome — by some distance.**
+**144/CASU is the best-characterised candidate outcome - by some distance.**
 
 - Geneva's CASU-144 is operated by **HUG**: **>165,000 calls/year, ~71,000 of them emergency
-  calls** — roughly **195 emergency calls per day**. That is ample volume for daily count
+  calls** - roughly **195 emergency calls per day**. That is ample volume for daily count
   modelling, and it is a documented figure rather than an assumption.
 - Records carry date and time, age, sex, intervention type, unit engaged, **call reason**,
   medical history, **EST urgency level** and destination facility. The urgency scale allows
   severity stratification; the call reason carries the syndromic signal.
 - Single institutional interlocutor (HUG for Geneva), which the report notes simplifies access.
-- Your report's stated limitation — *"probablement plus adaptées à la prédiction de la demande
-  ambulancière qu'à l'incidence globale de la maladie"* — **is not a limitation for this project.**
+- Your report's stated limitation - *"probablement plus adaptées à la prédiction de la demande
+  ambulancière qu'à l'incidence globale de la maladie"* - **is not a limitation for this project.**
   The outcome here is demand, not incidence. The report is saying 144 data are well suited to
   exactly what COLDSTART forecasts.
 
 **ED presentations, by contrast, appear nowhere in the inventory as a source.** Hospital
 statistics (D06) are annual with >1 year lag via the OFS. That is not proof that daily ED data
-cannot be obtained from HUG — only that it is undocumented, while 144 is documented and
+cannot be obtained from HUG - only that it is undocumented, while 144 is documented and
 quantified.
 
 ### Recommendation changed: make 144 emergency call volume the primary outcome
@@ -105,10 +105,10 @@ I previously recommended ED presentations. The evidence in your own inventory re
 | Volume | ~195 emergency calls/day | `[[unknown]]` |
 | History | From centre commissioning `[[verify]]` | `[[unknown]]` |
 | Suited to demand forecasting | **Stated in your report** | Yes |
-| Decision relevance | Ambulance staffing and dispatch — a decision WP4 already covers | Bed capacity |
+| Decision relevance | Ambulance staffing and dispatch - a decision WP4 already covers | Bed capacity |
 | Interlocutor | HUG (single) | HUG |
 
-My earlier argument — that the primary outcome should be the one the decision layer acts on —
+My earlier argument - that the primary outcome should be the one the decision layer acts on -
 still holds, but it does not select ED over 144: **T4.1 elicits from dispatch supervisors as well
 as capacity managers**, and ambulance redistribution is explicitly among the decisions the plan
 addresses.
@@ -120,11 +120,11 @@ bed capacity.
 ### One outcome series can serve both archetypes
 
 Section 1.2 of the revised report is more useful than it looks. Non-infectious respiratory
-conditions — asthma and COPD exacerbations driven by pollution peaks and heat — do not transmit
+conditions - asthma and COPD exacerbations driven by pollution peaks and heat - do not transmit
 and fit no epidemic model, **but they contribute to the same respiratory care demand the model
 predicts**.
 
-That means a single outcome — respiratory-related emergency demand — carries **both** the
+That means a single outcome - respiratory-related emergency demand - carries **both** the
 respiratory-epidemic and the heatwave archetype, with different drivers acting on the same series.
 The generalisation test becomes cleaner: same outcome, same metric, different mechanism. Say this
 explicitly in §3; it removes the objection that the two archetypes are being compared on
@@ -137,7 +137,7 @@ weekly sentinel surveillance, wastewater monitoring and near-real-time emergency
 
 If the outcome is **all-cause respiratory demand**, co-circulating pathogens collapse into one
 episode: a winter with both influenza and RSV is one demand surge, not two. Episodes are then
-roughly *distinct demand surges*, not *pathogen-seasons* — which lowers the count relative to my
+roughly *distinct demand surges*, not *pathogen-seasons* - which lowers the count relative to my
 earlier estimate but keeps each episode genuinely independent.
 
 If the outcome were **pathogen-specific confirmed cases**, the count would rise but the outcome
@@ -151,7 +151,7 @@ counted as independent episodes when they overlap in time will not be gentle.
 | Dataset | Status | Historical coverage | Granularity | Source of truth |
 | --- | --- | --- | --- | --- |
 | HUG ED presentations | `[[requested]]` | `[[ask: from when?]]` | `[[daily?]]` | HUG |
-| **144 / CASU calls** | `[[requested]]` | From centre commissioning — *dates to verify with HUG* | **Daily; ~195 emergency calls/day** | HUG (GE) — single interlocutor |
+| **144 / CASU calls** | `[[requested]]` | From centre commissioning - *dates to verify with HUG* | **Daily; ~195 emergency calls/day** | HUG (GE) - single interlocutor |
 | ICU occupancy | `[[requested]]` | `[[ask]]` | `[[ask]]` | HUG |
 | Mandatory notification | **Public** (aggregate) | Decades | Weekly | OFSP / cantonal doctor |
 | Sentinella | **Public** | 1986; SARS-CoV-2/flu/RSV since week 40 of 2020 | Weekly | OFSP |
@@ -159,28 +159,28 @@ counted as independent episodes when they overlap in time will not be gentle.
 | MeteoSwiss | **Open** | Long | 10 min – daily | MeteoSwiss |
 | Legionellosis | **Granted** | Notifiable since 1998 | Case-level | BASEC 2026-00324 |
 
-## B–C. Candidate episodes — provisional, for you to confirm
+## B–C. Candidate episodes: provisional, for you to confirm
 
 Not a blank table: this is my estimate from the record, to be corrected rather than composed.
 
-**Respiratory — approximately 13–14 candidate episodes**
+**Respiratory - approximately 13–14 candidate episodes**
 
 | Episode | Notes |
 | --- | --- |
 | COVID waves ×5 | spring 2020; autumn–winter 2020–21; Delta autumn 2021; Omicron winter 2021–22; 2022–23 |
 | Influenza seasons ×8–9 | 2015–16 through 2019–20, then 2022–23 onward |
-| 2020–21 and 2021–22 influenza | **Suppressed by NPIs — not usable as ordinary seasons.** Potentially valuable as negative controls: does the method correctly *not* raise an alarm? |
+| 2020–21 and 2021–22 influenza | **Suppressed by NPIs - not usable as ordinary seasons.** Potentially valuable as negative controls: does the method correctly *not* raise an alarm? |
 
-**Heat — approximately 6–9 candidate episodes**
-2015, 2018, 2019 (two distinct events), 2022, 2023, plus `[[2017, 2024, 2025 — confirm against
+**Heat - approximately 6–9 candidate episodes**
+2015, 2018, 2019 (two distinct events), 2022, 2023, plus `[[2017, 2024, 2025 - confirm against
 MeteoSwiss heat-warning records]]`.
 
-**Legionellosis — extension.** Annual notified cases since 1998, plus the 2017 Geneva outbreak.
+**Legionellosis - extension.** Annual notified cases since 1998, plus the 2017 Geneva outbreak.
 
 **Provisional verdict:** respiratory clears the warning threshold comfortably; **heat is the
 marginal archetype** and may drive the power calculation. Worth knowing before the simulation.
 
-## D. Episode qualification criteria — fix these before counting
+## D. Episode qualification criteria: fix these before counting
 
 An episode qualifies only if it has:
 
@@ -194,13 +194,13 @@ An episode qualifies only if it has:
 
 ## Two statistical points for the simulation
 
-**1. Episodes are less independent than they look — and the design already partly fixes it.**
+**1. Episodes are less independent than they look - and the design already partly fixes it.**
 If the same evidence-derived prior is applied to every episode, the episodes share a common error
 source: prior misspecification. Testing across ten episodes then partly means testing one prior ten
 times, and the effective sample size for H3a is smaller than the episode count suggests.
 
 The rolling-origin rule that admits **only literature published before each origin** is not merely
-realism — it is what makes the priors genuinely differ across episodes and moves them closer to
+realism - it is what makes the priors genuinely differ across episodes and moves them closer to
 independence. Worth stating in the plan as a design property rather than only as a fidelity
 constraint, because a statistical referee will otherwise raise the correlation and not see the
 answer.
@@ -213,9 +213,9 @@ hide that heat is the weaker arm.
 
 ## What only you can supply
 
-1. The 144/CASU **commissioning date and the start of usable electronic records** — this now sets
+1. The 144/CASU **commissioning date and the start of usable electronic records** - this now sets
    the length of the primary series and therefore the episode count.
-2. Whether HUG can also provide **daily** ED presentations, and from what year — needed for the
+2. Whether HUG can also provide **daily** ED presentations, and from what year - needed for the
    substitute outcome, and to decide whether the primary should be revisited.
 3. Whether ICU occupancy exists at daily resolution and is a demand signal rather than a
    reflection of capacity policy.

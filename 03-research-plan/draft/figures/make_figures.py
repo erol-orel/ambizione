@@ -109,7 +109,7 @@ def fig1():
     # --- inset: the hypothesis ---
     ix, iy, iw, ih = 0, 320, 520, 130
     s.append(box(ix, iy, iw, ih, "white", LINE))
-    s.append(text(ix + 12, iy + 20, "H3a — the claim being tested (WP3)", 11, INK, weight="bold"))
+    s.append(text(ix + 12, iy + 20, "H3a: the claim being tested (WP3)", 11, INK, weight="bold"))
     px, py, pw, ph = ix + 48, iy + 36, 300, 74
     s.append(f'<line x1="{px}" y1="{py+ph}" x2="{px+pw}" y2="{py+ph}" stroke="{INK}" stroke-width="1.2"/>')
     s.append(f'<line x1="{px}" y1="{py}" x2="{px}" y2="{py+ph}" stroke="{INK}" stroke-width="1.2"/>')
@@ -127,8 +127,8 @@ def fig1():
     s.append(wrap(560, iy + 34,
                   ["The advantage is hypothesised to exist early and to",
                    "decay to nothing. WP3 measures the shape of that curve",
-                   "by rolling-origin refitting that uses only data — and only",
-                   "literature — available at each historical origin.",
+                   "by rolling-origin refitting that uses only data, and only",
+                   "literature, available at each historical origin.",
                    "",
                    "H3b asks the harder question: when the prior is wrong,",
                    "is the harm bounded and detectable early enough to act?"],

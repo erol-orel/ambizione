@@ -1,4 +1,4 @@
-# Full audit — repository and application quality
+# Full audit: repository and application quality
 
 **Date: 19 August 2026.** Scope: every document in the repository, read against the three call
 documents (Guidelines 11.08.2026, Regulations 25.02.2026, confirmation template 03.08.2026) and
@@ -12,11 +12,11 @@ do**.
 
 | Criterion | State | Honest grade |
 | --- | --- | --- |
-| (a) Research output, quality + independence vs net academic age | **Corrected 19 Aug — the earlier wording overstated the weakness.** The record holds first-author papers (CMI Communications 2024, JMIR 2023, PLoS ONE 2022, a fourth under review at *BMJ Open* (Nigerian HIV key populations, submitted July 2026)) and a **senior-author paper accepted for publication** (Ng'ambi et al., WHO STEPS CVD classification). The precise residual weaknesses are narrower: (i) no first-author output in the proposal's *target domain* (crisis/demand forecasting), and (ii) Prof. Keiser co-authors the first-author papers and the senior-author paper, which bears on the guideline expectation of "one major research output independent from the PhD supervision framework" — answered chiefly by LiteRev-Evidence (DORA) and the independent funding | Framed as well as the record allows; the senior authorship materially improves Module 2 and the career narrative |
+| (a) Research output, quality + independence vs net academic age | **Corrected 19 Aug - the earlier wording overstated the weakness.** The record holds first-author papers (CMI Communications 2024, JMIR 2023, PLoS ONE 2022, a fourth under review at *BMJ Open* (Nigerian HIV key populations, submitted July 2026)) and a **senior-author paper accepted for publication** (Ng'ambi et al., WHO STEPS CVD classification). The precise residual weaknesses are narrower: (i) no first-author output in the proposal's *target domain* (crisis/demand forecasting), and (ii) Prof. Keiser co-authors the first-author papers and the senior-author paper, which bears on the guideline expectation of "one major research output independent from the PhD supervision framework" - answered chiefly by LiteRev-Evidence (DORA) and the independent funding | Framed as well as the record allows; the senior authorship materially improves Module 2 and the career narrative |
 | (b) Career development + retrospective/prospective mobility | Sectoral + intellectual mobility strong and real; geographic thin, stated plainly; prospective plan Art. 9 §4(c)-compliant once the form names concrete visits | Adequate, if the form is filled as planned |
 | (c) Scientific independence at the chosen institution | Organisational claim (independent programme alongside groups) + institute-level signature + full transparency on Keiser/Teodoro + delimitation table | Strong on paper; **depends entirely on the host letter saying the same thing** |
 | (d) Relevance, originality, topicality, independence of the project | Falsifiable central hypothesis, pre-registered design, honest null-value case | Strong |
-| (e) Approach, methodology, feasibility | Fixed-sequence confirmatory testing, model ladder, episode eligibility, fallbacks at every joint | Strong — the best part of the dossier |
+| (e) Approach, methodology, feasibility | Fixed-sequence confirmatory testing, model ladder, episode eligibility, fallbacks at every joint | Strong - the best part of the dossier |
 | (f) Suitability + added value of the institution | Argued via unique data access and expertise; all four institution-choice triggers apply and are addressed head-on | Adequate; the four triggers make it the most scrutinised section |
 | (g) Broader impact (use-inspired) | Preparedness framing, decision-analytic evaluation, operational partners | Strong |
 
@@ -35,8 +35,8 @@ inflated, which is the best available defence.
   characters with the mySNF counter binding; no cover letter/career plan produced; collaboration
   letters rewritten to the no-praise rule; budget rules encoded (no OA costs, ORD in at
   submission, CHF 100k equipment cap, budget frozen).
-- **Consistency:** host = ISG everywhere (the last stale DS4DH-as-host instances — project note,
-  profile — were caught and fixed); 144 = primary outcome everywhere; no doctoral student
+- **Consistency:** host = ISG everywhere (the last stale DS4DH-as-host instances - project note,
+  profile - were caught and fixed); 144 = primary outcome everywhere; no doctoral student
   anywhere; salary position (class 19/9, enter maximum) propagated; cross-references repaired
   after the renumbering; figures match their generators; build idempotent.
 - **Working tree:** clean, everything pushed. 38 placeholders, inventoried with correct line
@@ -60,9 +60,9 @@ its offset.
    `05-review/interview-prep.md` seeded with the ten hardest questions this repo already knows
    (F5.1 output independence; onset-rule circularity; permutation-vs-bootstrap; why not a PhD
    student; GeoAI4EI overlap; null-result value; Keiser; heat-transport failure; GFT/Lazer;
-   fallback costs) — cheap now, valuable in May.
+   fallback costs) - cheap now, valuable in May.
 4. **Bibliography completion pass.** I can add DOIs *only* for entries whose DOI I can verify
-   from your own materials; the rest stay flagged. Realistically this is your item 6 in §4 —
+   from your own materials; the rest stay flagged. Realistically this is your item 6 in §4 -
    most of it needs the publisher record.
 5. **Budget skeleton with numbers.** Once the RGO answers rates, I can turn `budget.md` into the
    full four-year table in SNSF categories in one pass. Blocked on §4 item 3.
@@ -70,7 +70,7 @@ its offset.
    `STATUS.md` mapping document → state → owner, if you plan to circulate the repo to a
    colleague. Say the word.
 
-## 4. What **only you** can do — the real critical path
+## 4. What **only you** can do: the real critical path
 
 In dependency order. Everything else in this repository is now waiting on one of these.
 
@@ -89,20 +89,20 @@ In dependency order. Everything else in this repository is now waiting on one of
 | 11 | **Declare** GESICA / GeoAI4EI / legionellosis in mySNF; confirm no SNSF grant carries your name as (co-)applicant | Personal declarations | Art. 13 compliance |
 | 12 | **Decide** whether to file a reviewer-exclusion list (Guidelines 2.12) | Personal judgement | Optional |
 
-## 5. Residual risks no edit can fix — go in with eyes open
+## 5. Residual risks no edit can fix: go in with eyes open
 
 1. **The host letter is the application.** The independence argument now lives or dies on ISG
    signing the organisational claim. If the institute waters it down to "hosted in the
    institute", §2.6 overpromises relative to the letter. Align the two *before* the letter is
-   signed — hence the delimitation table going to Ray.
+   signed - hence the delimitation table going to Ray.
 2. **First-author output in the target domain** (hostile review F5.1, restated precisely) is
-   unfixable by November — the record's first-author papers are in HIV prediction, evidence
+   unfixable by November - the record's first-author papers are in HIV prediction, evidence
    synthesis and clinical severity, not crisis forecasting. Mitigation: DORA framing,
    contribution statements, the new senior-author line, and the interview. **The Ng'ambi CVD paper is now
-   accepted for publication** (confirmed 19 Aug 2026) — status updated in §2.2.1, the
+   accepted for publication** (confirmed 19 Aug 2026) - status updated in §2.2.1, the
    bibliography, output-list item 5 and Module 2; add venue and DOI when assigned.
 3. **The lot.** Equal-quality applications can be decided by drawing lots (Guidelines 2.18).
-   A reason to maximise every controllable margin — and a reason not to over-read the outcome.
+   A reason to maximise every controllable margin - and a reason not to over-read the outcome.
 4. **Episode count.** If the inventory yields materially fewer eligible respiratory episodes
    than expected, the design's inference section flexes (permutation test is exact at small n)
    but the *persuasiveness* drops. Knowing the number early is worth more than any drafting.

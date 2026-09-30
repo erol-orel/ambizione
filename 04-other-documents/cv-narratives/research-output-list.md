@@ -1,4 +1,4 @@
-# Research output list — 10 items
+# Research output list: 10 items
 
 `[VERIFY]` Assumed cap: **10 works in total** across all modules, distributed as you choose.
 Confirm against the SNSF CV guidelines. Verify every bibliographic detail against the publisher
@@ -9,7 +9,7 @@ and panels cannot infer your role. Each entry below states it explicitly, in one
 
 ---
 
-## Module 1 — Generation of new ideas, tools, methodologies or knowledge (4)
+## Module 1: Generation of new ideas, tools, methodologies or knowledge (4)
 
 **1. Orel E**, Ciglenecki I, Thiabaud A, Temerev A, Calmy A, Keiser O, Merzouki A.
 An automated literature review tool (LiteRev) for streamlining and accelerating research using
@@ -24,7 +24,7 @@ scenario modelling. Software and research resource, 2024–. literev-scenario.co
 > *Contribution:* Sole architect and developer. Production system: 81,000+ indexed publications,
 > 324,000 embedded passages, continuous ingestion, structured extraction with provenance and
 > quality weighting, and compartmental, time-series and machine-learning components.
-> `[[Consider depositing a versioned release with a DOI (Zenodo) before submission — a citable
+> `[[Consider depositing a versioned release with a DOI (Zenodo) before submission - a citable
 > identifier makes a software output count as an output rather than as a claim.]]`
 
 **3. Orel E**, Esra R, Estill J, Thiabaud A, Marchand-Maillet S, Merzouki A, Keiser O.
@@ -39,13 +39,13 @@ tertiary center. *CMI Communications* 2024.
 > *Contribution:* First author. Designed and conducted the analysis of hospital clinical data,
 > wrote the manuscript.
 
-## Module 2 — Development of other individuals and research teams (2)
+## Module 2: Development of other individuals and research teams (2)
 
 **5.** Ng'ambi W, Estill J, Keiser O, Merzouki FA, **Orel E**.
 Machine learning-based classification of self-reported cardiovascular disease history in Africa
 using harmonised multi-country WHO STEPS surveys: 2014–2019.
 **Accepted for publication.** `[[Venue, year, DOI once assigned]]`
-> *Contribution:* **Last (senior) author.** `[[State the actual role in one precise line — e.g.
+> *Contribution:* **Last (senior) author.** `[[State the actual role in one precise line - e.g.
 > supervised the machine-learning methodology and analysis design, guided the revision.]]`
 > Senior-authoring the work of the first author marks the transition from contributing to
 > collaborative analyses to directing them.
@@ -53,33 +53,33 @@ using harmonised multi-country WHO STEPS surveys: 2014–2019.
 **6.** Edjinedja KL, Larribau R, **Orel E**, Cossus J, Elfahim O, Yendouname K, Vaussenat F,
 Teodoro D, Robert-Nicoud S, Barakat O, Desmettre T.
 Artificial intelligence in emergency medical services for disasters and health emergencies:
-a systematic review. `[[Submitted 2026 — update status and venue]]`
+a systematic review. `[[Submitted 2026 - update status and venue]]`
 > *Contribution:* Third author. Provided the methodological infrastructure (LiteRev, used in the
 > published methods to structure 138 retained publications) and guided its application through
 > screening and clustering, working with the doctoral researcher leading the review.
 
-## Module 3 — Contributions to the wider research and innovation community (2)
+## Module 3: Contributions to the wider research and innovation community (2)
 
 **7.** Nwosu K, Fokam J, Wanda F, Mama L, **Orel E**, Ray N, Meke J, et al.
 SARS-CoV-2 antibody seroprevalence and associated risk factors in an urban district in Cameroon.
 *Nature Communications* 2021;12:5851.
-> *Contribution:* `[[State your specific role — statistical analysis? risk factor modelling?
+> *Contribution:* `[[State your specific role - statistical analysis? risk factor modelling?
 > One precise line is worth more than the author position, and this is your highest-visibility
 > venue.]]`
 
 **8.** Estill J, Venkova-Marchevska P, Roelens M, **Orel E**, Temerev A, Flahault A, Keiser O.
 Future scenarios for the SARS-CoV-2 epidemic in Switzerland: an age-structured model.
 *F1000Research* 2020;9.
-> *Contribution:* `[[Specify — model implementation? scenario design?]]` Contributed to
+> *Contribution:* `[[Specify - model implementation? scenario design?]]` Contributed to
 > age-structured scenario modelling produced for Swiss pandemic planning under time pressure.
 
-## Module 4 — Impact beyond the scientific community (2)
+## Module 4: Impact beyond the scientific community (2)
 
 **9. Orel E.** COVID-19 epidemiological dashboard for the WHO African Region.
 Research resource, 2020–2021.
 > *Contribution:* Designed and built the dashboard (R Markdown) used for regional situational
 > awareness across the WHO African Region during the pandemic.
-> `[[If a URL, report or archived version exists, cite it — an output a reviewer cannot see is
+> `[[If a URL, report or archived version exists, cite it - an output a reviewer cannot see is
 > hard to credit.]]`
 
 **10. Orel E** (data lead), Keiser O (project leader).
@@ -87,9 +87,9 @@ Legionellosis in Geneva: modelling of risk factors, geospatial and temporal anal
 development of a predictive tool. Study protocol and linked dataset, BASEC 2026-00324, Commission
 cantonale d'éthique de la recherche, Geneva, 2026.
 > *Contribution:* Designed and built the linkage between the cantonal legionellosis case registry
-> and individual hot water installation records — a dataset with no equivalent elsewhere — and
+> and individual hot water installation records - a dataset with no equivalent elsewhere - and
 > secured funding from Services Industriels de Genève, the Office cantonal de l'énergie and the
-> Service du Médecin Cantonal. `[[~CHF 90,000 — confirm.]]`
+> Service du Médecin Cantonal. `[[~CHF 90,000 - confirm.]]`
 
 ---
 
@@ -97,8 +97,8 @@ cantonale d'éthique de la recherche, Geneva, 2026.
 
 Two manuscripts in the pipeline are deliberately not listed while unpublished: the
 **first-author** *BMJ Open* submission (Place, pathway, and psychosocial distress among Nigerian
-HIV key populations starting ART, under review, July 2026) and — unless accepted or preprinted by
-submission — item 5 above has its documented swap-back. If the *BMJ Open* paper is **accepted
+HIV key populations starting ART, under review, July 2026) and - unless accepted or preprinted by
+submission - item 5 above has its documented swap-back. If the *BMJ Open* paper is **accepted
 before the SNSF deadline**, reconsider the allocation: a fourth published first-author paper may
 then earn a slot over item 7 or 8.
 
@@ -108,9 +108,9 @@ Roughly fifteen further peer-reviewed papers are not listed, including work on H
 (*JAIDS*), tuberculosis burden (*Lancet Regional Health – Western Pacific*) and semi-automated
 review (*JMIR*).
 
-That omission is a deliberate claim. The ten selected outputs trace one line — methods and tools
+That omission is a deliberate claim. The ten selected outputs trace one line - methods and tools
 for prediction and evidence synthesis, applied to public health problems, increasingly led by me
-— rather than sampling the record evenly. A narrative CV rewards judgement about your own work,
+- rather than sampling the record evenly. A narrative CV rewards judgement about your own work,
 and a list that showed everything would show no judgement at all.
 
 **Two decisions worth revisiting before you submit:**
@@ -121,5 +121,5 @@ and a list that showed everything would show no judgement at all.
   conservative reviewer is most likely to discount, and a Zenodo DOI would substantially reduce
   that risk.
 - **The Ng'ambi CVD paper (item 5) is accepted for publication** (status confirmed 19 Aug 2026).
-  The earlier swap-back contingency is closed — it holds its slot as the strongest Module 2 entry.
+  The earlier swap-back contingency is closed - it holds its slot as the strongest Module 2 entry.
   Update venue, year and DOI when they are assigned.

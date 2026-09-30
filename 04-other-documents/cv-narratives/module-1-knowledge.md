@@ -1,6 +1,6 @@
-# Module 1 — Contributions to the generation of new ideas, tools, methodologies or knowledge
+# Module 1: Contributions to the generation of new ideas, tools, methodologies or knowledge
 
-> Outputs cited here: **4** — LiteRev (JMIR 2023); LiteRev-Evidence platform; HIV prediction
+> Outputs cited here: **4** - LiteRev (JMIR 2023); LiteRev-Evidence platform; HIV prediction
 > (PLoS ONE 2022); Delta/Omicron severity (CMI Communications 2024).
 
 ---
@@ -15,7 +15,7 @@ where the same structure exists but the machinery does not.
 **Prediction where data are incomplete.** My doctoral work asked whether individual health status
 could be predicted from socio-behavioural information alone, in settings where clinical data are
 sparse. In *PLoS ONE* (2022) I predicted individual HIV status across East and Southern Africa
-using gradient-boosted models, and — the part I consider the real contribution — characterised
+using gradient-boosted models, and - the part I consider the real contribution - characterised
 where such models transported between countries and where they did not. That question, of when an
 estimate obtained in one population is usable in another, has stayed with me and is now the centre
 of my research programme. Related work extended it to treatment-interruption prediction and to
@@ -38,7 +38,7 @@ emergency-medicine partners.
 
 Building it produced the question I now want to answer, and I regard that as the most significant
 intellectual contribution of the work. The platform will readily pool published estimates into
-prior distributions — and I cannot establish whether it should. Published effect sizes are
+prior distributions - and I cannot establish whether it should. Published effect sizes are
 selectively reported, estimated under different health systems, and automated extraction is
 weakest precisely on numerical quantities. Whether such evidence improves forecasting when local
 data are scarce, or misleads confidently at the moment it matters most, is unresolved and

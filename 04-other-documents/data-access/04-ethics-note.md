@@ -1,4 +1,4 @@
-# Ethics — start in parallel, not after
+# Ethics: start in parallel, not after
 
 ## Why now
 
@@ -19,7 +19,7 @@ referee can check, and it says more than any sentence in §5 can.
 
 The project needs **aggregated daily counts**, not individual-level clinical data, for WP3 and
 WP4. This may place it in a lighter category than the Legionella study, which required
-address-level linkage. Establish this early — the answer changes both the timeline and the
+address-level linkage. Establish this early - the answer changes both the timeline and the
 feasibility argument in the research plan, and if a daily aggregate avoids individual-level
 approval it is worth one sentence in §6.
 
@@ -31,7 +31,7 @@ be declared in the submission rather than added later.
 
 The data-protection review will ask how the data is stored, transmitted and recovered. The
 LiteRev-Evidence platform currently `[[at time of writing]]` serves over plain HTTP, keeps secrets
-in a systemd override, and has no working migration path for its schema — and its own audit
+in a systemd override, and has no working migration path for its schema - and its own audit
 has recorded credential-handling problems.
 
 **Fix this before the ethics submission, not after it is rejected.** The work is roughly:

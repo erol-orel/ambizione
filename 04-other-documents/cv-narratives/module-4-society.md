@@ -1,6 +1,6 @@
-# Module 4 — Impact beyond the scientific community, for broader society
+# Module 4: Impact beyond the scientific community, for broader society
 
-> Outputs cited here: **2** — COVID-19 epidemiological dashboard for the WHO African Region
+> Outputs cited here: **2** - COVID-19 epidemiological dashboard for the WHO African Region
 > (research resource); Legionellosis in Geneva: linked case–installation study, BASEC 2026-00324
 > (protocol and dataset, with secured cantonal funding).
 
@@ -17,11 +17,11 @@ granted (BASEC 2026-00324), and the results and prioritisation tool go to the ca
 support surveillance and prevention planning.
 
 What I would highlight is not the analysis but the assembly. The study is funded by three
-partners I approached and convinced — **Services Industriels de Genève, the Office cantonal de
-l'énergie, and the Service du Médecin Cantonal** — spanning a utility, an energy regulator and a
+partners I approached and convinced - **Services Industriels de Genève, the Office cantonal de
+l'énergie, and the Service du Médecin Cantonal** - spanning a utility, an energy regulator and a
 public health authority, each with different reasons to care and different constraints. Bringing
 them to a common protocol, and satisfying the data-protection requirements of all three, was most
-of the work. `[[Confirm the total figure — approximately CHF 90,000.]]`
+of the work. `[[Confirm the total figure - approximately CHF 90,000.]]`
 
 **Emergency preparedness with the people who respond.** Through GESICA I work directly with HUG
 emergency medicine and the Geneva emergency response system on decision support for health

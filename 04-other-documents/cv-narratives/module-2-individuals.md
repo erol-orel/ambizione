@@ -1,6 +1,6 @@
-# Module 2 — Contributions to the development of other individuals and research teams
+# Module 2: Contributions to the development of other individuals and research teams
 
-> Outputs cited here: **2** — machine-learning classification of cardiovascular disease history
+> Outputs cited here: **2** - machine-learning classification of cardiovascular disease history
 > across WHO STEPS surveys (Ng'ambi et al., **accepted**, **senior author**); AI in emergency
 > medical services: a systematic review (Edjinedja, Larribau, **Orel** et al., submitted 2026).
 
@@ -14,7 +14,7 @@ enable other people's research.
 **Senior authorship.** I am last author on a machine-learning classification of self-reported
 cardiovascular disease history across harmonised multi-country WHO STEPS surveys (2014–2019), led
 by Wingston Ng'ambi and **accepted for publication**. `[[One sentence on what the role actually
-involved — supervising the methodology and analysis design, guiding the revision — in your own
+involved - supervising the methodology and analysis design, guiding the revision - in your own
 words; a reviewer reads a senior-author claim against its description.]]` It is the first paper in
 which my role was to direct another researcher's analysis rather than to conduct my own, and it
 marks the transition this grant would consolidate.
@@ -25,7 +25,7 @@ students are largely practising clinicians and public health professionals, many
 quantitative methods after years away from them. Teaching this group has changed how I work:
 methods that cannot be explained to the people who will act on their outputs tend, in my
 experience, to be methods that are never acted upon. That conviction is now built into my
-research — the project I am proposing evaluates forecasts on whether they change decisions rather
+research - the project I am proposing evaluates forecasts on whether they change decisions rather
 than on statistical accuracy, and that framing came from the classroom before it came from the
 literature.
 
@@ -33,19 +33,19 @@ literature.
 people's work. LiteRev was designed so that researchers without natural language processing
 expertise could conduct structured reviews at scale, and it has been used that way. The systematic
 review of artificial intelligence in emergency medical services for disasters and health
-emergencies — led by a doctoral researcher at the Université Marie et Louis Pasteur, with
-colleagues from HUG emergency medicine and the GESICA consortium — used LiteRev to structure its
+emergencies - led by a doctoral researcher at the Université Marie et Louis Pasteur, with
+colleagues from HUG emergency medicine and the GESICA consortium - used LiteRev to structure its
 corpus. My contribution was the methodological infrastructure and guidance on its application,
 working alongside the first author through the screening and clustering stages. Making a method
 usable by someone else, in their project rather than mine, is a form of contribution I value and
 intend to keep prioritising.
 
-`[[If you have co-supervised any master's students, interns or research assistants — formally or
-informally — name them and what they worked on. Even one concrete instance adds to this module,
+`[[If you have co-supervised any master's students, interns or research assistants - formally or
+informally - name them and what they worked on. Even one concrete instance adds to this module,
 and it is the kind of thing people routinely forget to count.]]`
 
 **Collaborative practice.** Within the GESICA consortium I work across an unusually
-heterogeneous team — emergency physicians, dispatch clinicians, computer scientists, engineers
+heterogeneous team - emergency physicians, dispatch clinicians, computer scientists, engineers
 and an industrial partner, across two countries and two health systems. Much of the useful work in
 such a setting consists of translation: making a modelling constraint intelligible to a clinician,
 and a clinical constraint intelligible to an engineer. I have found this to be where projects

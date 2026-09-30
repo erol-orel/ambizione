@@ -1,7 +1,7 @@
 #!/bin/sh
 # Character budget check against the 60,000-character limit CONFIRMED by Guidelines 4.3
 # (includes title, summary, footnotes, figures, tables; excludes bibliography).
-# The mySNF counter is BINDING — verify there before submission; this is an estimate.
+# The mySNF counter is BINDING: verify there before submission; this is an estimate.
 # Strips markdown syntax and [[…]] / [VERIFY] annotations for a closer estimate.
 DIR="$(dirname "$0")"
 total=0

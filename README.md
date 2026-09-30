@@ -3,13 +3,13 @@
 Working repository for an application to the Swiss National Science Foundation
 [Ambizione](https://www.snf.ch/en/N18L3oGWomTSSGkF/funding/careers/ambizione) scheme.
 
-**Target deadline: 3 November 2026, 17:00 CET** — the final Ambizione call.
+**Target deadline: 3 November 2026, 17:00 CET** - the final Ambizione call.
 
 ## How this repo is organised
 
 | Folder | Contents |
 | --- | --- |
-| `00-source-documents/` | Official call documents (Guidelines, Regulations, confirmation template — read in full) and the applicant's own materials |
+| `00-source-documents/` | Official call documents (Guidelines, Regulations, confirmation template - read in full) and the applicant's own materials |
 | `01-call/` | Current call requirements, evaluation criteria, documents and timeline |
 | `02-profile/` | Applicant profile and career information |
 | `03-research-plan/` | Research plan sources, drafts and generated artefacts |
@@ -20,7 +20,7 @@ Working repository for an application to the Swiss National Science Foundation
 
 | | |
 | --- | --- |
-| **What to do next** | `TODO.md` — ordered by dependencies and blocking decisions |
+| **What to do next** | `TODO.md` - ordered by dependencies and blocking decisions |
 | **The research plan** | `03-research-plan/FINAL-research-plan.md` (assembled; edit `draft/`, then `sh draft/assemble.sh`) |
 | **Scheme rules** | `01-call/scheme-facts.md` |
 | **Applicant profile** | `02-profile/erol-orel-profile.md` |
@@ -31,7 +31,7 @@ Working repository for an application to the Swiss National Science Foundation
 | **Budget** | `04-other-documents/budget.md` |
 | **Pre-submission checks** | `05-review/snsf-compliance-audit.md` (vs the call documents), `05-review/hypothesis-audit.md`, `05-review/self-assessment.md` |
 
-Working notes kept for reference — the reasoning behind decisions already taken, useful if a
+Working notes kept for reference - the reasoning behind decisions already taken, useful if a
 choice is revisited or at interview: `03-research-plan/why-cold-start.md`,
 `idea-provenance.md`, `literature-to-strengthen.md`, `literev-evidence-assessment.md`.
 
@@ -42,7 +42,7 @@ python3 03-research-plan/draft/figures/make_figures.py
 sh 03-research-plan/draft/assemble.sh
 ```
 
-Run both after editing any section file. `FINAL-research-plan.md` and the figures are generated —
+Run both after editing any section file. `FINAL-research-plan.md` and the figures are generated -
 never edit them directly.
 
 ## Sourcing and verification

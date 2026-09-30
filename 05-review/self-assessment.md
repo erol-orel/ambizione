@@ -1,4 +1,4 @@
-# Self-assessment — read your application as the panel will
+# Self-assessment: read your application as the panel will
 
 Run this before submission, on the finished dossier, in one sitting. Score honestly; a 3 you
 record now is a 3 you can still fix.
@@ -6,7 +6,7 @@ record now is a 3 you can still fix.
 ## Scoring lens
 
 The official criteria are **scientific relevance, topicality, originality, feasibility, and
-suitability of methods**, applied to the project — plus the applicant's qualifications, which
+suitability of methods**, applied to the project - plus the applicant's qualifications, which
 are judged partly *from the research plan itself*, plus **mobility**.
 
 Score each 1 (poor) to 5 (excellent). Anything below 4 needs a specific fix, written down.
@@ -14,7 +14,7 @@ Score each 1 (poor) to 5 (excellent). Anything below 4 needs a specific fix, wri
 | # | Question | Score | Fix |
 | --- | --- | --- | --- |
 | 1 | Can a reader outside my subfield state my research question after the summary? | | |
-| 2 | Is the gap argued, not asserted — does the state of the art *end* in my project? | | |
+| 2 | Is the gap argued, not asserted - does the state of the art *end* in my project? | | |
 | 3 | Is the originality specific and defensible, not a claim of novelty by adjective? | | |
 | 4 | Would a rival group named in my state of the art agree I have represented them fairly? | | |
 | 5 | Is every objective falsifiable or a concrete deliverable? | | |
@@ -28,7 +28,7 @@ Score each 1 (poor) to 5 (excellent). Anything below 4 needs a specific fix, wri
 | 13 | Is the mobility statement a scientific argument rather than a travel history? | | |
 | 14 | Do the CV narratives support the specific capabilities the project needs? | | |
 | 15 | Are known weaknesses framed by me rather than discovered by the reviewer? | | |
-| 16 | Is the dossier internally consistent — plan, budget, letters, mobility, CV? | | |
+| 16 | Is the dossier internally consistent - plan, budget, letters, mobility, CV? | | |
 | 17 | Formally compliant: page/character limits, font, spacing, single PDF, no annexes? | | |
 
 ## The three questions that decide it
