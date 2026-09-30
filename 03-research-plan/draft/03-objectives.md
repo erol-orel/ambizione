@@ -9,7 +9,7 @@
 
 To determine **whether, and under what conditions, published quantitative evidence provides useful information when local outcome data are insufficient at the onset of a health-system crisis — and whether the resulting forecasts change decisions.** The claim is not substitution for local observation, but information carried during the window before local data become informative.
 
-The project has **one central hypothesis, H3a**, and everything else is subordinate to testing it:
+The project has **one central hypothesis, H3a**; everything else is subordinate to testing it:
 
 | | Role | Statement |
 | --- | --- | --- |
@@ -22,17 +22,17 @@ The project has **one central hypothesis, H3a**, and everything else is subordin
 
 ---
 
-#### O1 — Make published quantitative evidence usable without hiding its uncertainty
+#### O1 — Make published evidence usable without hiding its uncertainty
 
 > **H1.** Automated extraction will systematically **underestimate between-study heterogeneity**, producing evidence-derived priors that are too concentrated; an explicit measurement-error layer will recover enough of the missing dispersion to construct usable prior distributions.
 
-The direction is mechanistic, not asserted: omissions dominate reported extraction errors [Shankar 2026], and omitted uncertainty statements and missed variance components shrink estimated between-study dispersion systematically rather than randomly. H1 is tested on point estimates, reported uncertainty, omissions and between-study dispersion. If the predicted overconfidence is absent, that is informative; if it occurs but cannot be corrected, the project establishes a boundary condition.
+The direction is mechanistic, not asserted: omissions dominate reported extraction errors [Shankar 2026], and omitted uncertainty statements and missed variance components shrink estimated dispersion systematically, not randomly. H1 is tested on point estimates, reported uncertainty, omissions and between-study dispersion. If the predicted overconfidence is absent, that is informative; if it occurs but cannot be corrected, the project establishes a boundary condition.
 
 #### O2 — Represent escalation in a form that separates state from the point forecast
 
 > **C2 — model adequacy criterion.** The latent-state representation must yield **identifiable** parameters and **calibrated** probabilities of escalation states at matched false-alarm rates. Its role is to provide the common state representation in which borrowing strategies are compared, not a claim that regime switching generally beats thresholding a point forecast.
 
-C2 is verified rather than discovered: T2.1's identifiability study and T3.3's calibration checks either establish adequacy or trigger the pre-specified ordinal state-space fallback, and either outcome leaves H3a intact. Extreme-value modelling represents the tail of the critical state; critical-slowing-down indicators are **supporting, theory-derived covariates** on transition dynamics, with their incremental value tested against level and trend information.
+C2 is verified rather than discovered: T2.1's identifiability study and T3.3's calibration checks either establish adequacy or trigger the pre-specified ordinal state-space fallback; either outcome leaves H3a intact. Extreme-value modelling represents the critical state's tail; critical-slowing-down indicators are **supporting, theory-derived covariates** on transition dynamics, their incremental value tested against level and trend.
 
 #### O3 — Test the cold-start hypothesis and map failure
 
@@ -40,10 +40,10 @@ C2 is verified rather than discovered: T2.1's identifiability study and T3.3's c
 
 > **H3b.** Adaptive borrowing that discounts the evidence when prior–data conflict emerges is
 > **non-inferior** to fixed borrowing under well-specified priors, within a pre-specified margin
-> `[[Δ]]` on the CRPS skill score, and is **superior** to fixed borrowing under deliberately
+> Δ on the CRPS skill score, and is **superior** to fixed borrowing under deliberately
 > misspecified priors.
 
-H3b is two-sided by design: non-inferiority where the evidence is sound, superiority where it is not. The margin `[[Δ]]` is fixed before evaluation and justified against the rung 3 → rung 4 effect the study is powered to detect, making "no material loss" a quantity rather than a claim.
+H3b is two-sided by design: non-inferiority where the evidence is sound, superiority where it is not. The margin Δ is fixed at the second registration point, before evaluation, and justified against the rung 3 → rung 4 effect the study is powered to detect, making "no material loss" a quantity rather than a claim.
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 
@@ -54,7 +54,7 @@ isolating each increment rather than pitting a final model against a weak baseli
 
 **Primary confirmatory comparison — one, stated once.** Rung 4 (fixed evidence-derived priors)
 against rung 3 (weakly informative priors), by **CRPS skill score**, over the pre-specified
-cold-start window `[[first N weeks after onset]]`, **on respiratory episodes only**, pooled
+cold-start window — the first *N* weeks after onset, *N* fixed at the second registration point — **on respiratory episodes only**, pooled
 across origins. Every other contrast is secondary and labelled so. The **shape of the advantage
 over elapsed local data** is also reported: it should decay to nothing; that decay curve is the
 descriptive result.
@@ -67,9 +67,9 @@ boundary condition on transportability, reported as one.
 
 #### O4 — Establish whether predictive improvement is decision-relevant
 
-> **H4.** Decision-analytic evaluation based on the losses and escalation thresholds of emergency responders can rank modelling strategies differently from generic statistical accuracy criteria, and the evidence-derived strategy is useful only when its predictive gain is large enough to cross a decision threshold.
+> **H4.** Decision-analytic evaluation under the losses and escalation thresholds of emergency responders can rank modelling strategies differently from generic accuracy criteria; the evidence-derived strategy is useful only when its gain crosses a decision threshold.
 
-Threshold elicitation, net benefit and counterfactual analysis are downstream tests of value, not additional novelty claims. Prospective shadow-mode evaluation is a validation extension, not a prerequisite for the main conclusion.
+Threshold elicitation, net benefit and counterfactuals are downstream tests of value, not novelty claims; shadow-mode evaluation is a validation extension, not a prerequisite for the main conclusion.
 
 ---
 
@@ -95,4 +95,4 @@ The first domain carries the confirmatory claim; the second tests generalisation
 
 #### What the project does not claim
 
-It does **not** aim to outperform forecast hubs in the data-rich regime, assume literature-derived priors are beneficial, claim critical slowing down as a universal early-warning signal, or promise a deployed clinical alarm system by month 48. The contribution is narrower: **whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, and a map of when it should not be trusted.**
+It does **not** aim to outperform forecast hubs in the data-rich regime, assume literature-derived priors are beneficial, claim critical slowing down as universal, or promise a deployed clinical alarm system by month 48. The contribution is narrower: **whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, and a map of when it should not be trusted.**
