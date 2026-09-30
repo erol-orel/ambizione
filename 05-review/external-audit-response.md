@@ -67,3 +67,49 @@ The plan at 59,995/60,000 with the audit's three "essential" scientific changes 
 (novelty narrowed; outcome scoped; episode-level powering stated). The submission blockers are
 unchanged and unchanged in ownership: placeholders, letters, statuses, bibliography completion,
 the mySNF count — all listed in `final-quality-audit.md` §4 and `TODO.md`.
+
+
+---
+
+# Round 2 (30 September, second external audit) — disposition
+
+The second audit reviewed the revised version, endorsed the earlier disputed decisions
+(directional H1 kept, legionellosis kept, no blind pre-cut), and raised new points.
+
+**Applied:**
+1. **Minimum-viable-episode rule** — T3.3: the OC simulation fixes the minimum eligible-episode
+   count; below it, no confirmatory claim, primary analysis reported as estimation. (The
+   auditor's most important statistical point; correct.)
+2. **Algorithmic N and Δ** — T3.3: *N* = smallest value in a pre-declared grid meeting the OC
+   criterion; Δ by pre-declared rule on the simulated effect distribution; both blind to
+   forecast performance. T3.0 cross-references.
+3. **H1 dispersion quantity** — hypothesis now targets "the dispersion of the evidence-derived
+   distribution — within-study uncertainty and between-study heterogeneity", which is the
+   mechanically defensible claim. Directional form kept.
+4. **Ongoing-projects landscape** — §2.1.6 names ECDC RespiCast, CDC FluSight, Horizon Europe /
+   GeoAI4EI and GESICA, and positions COLDSTART as the complementary inferential question.
+5. **Host-signature mechanics removed from the plan** — the plan no longer asserts who signs;
+   "the host arrangements … are documented in the required confirmation letters." The signature
+   question lives where it belongs: `host-institution-letters.md` + the RGO email. (Correct
+   catch: the SNSF template, not the applicant, defines signatories.)
+6. **Summary/T3.3 consistency** — "one primary rung-to-rung contrast … repeated once,
+   sequentially, as the heat generalisation test."
+7. **"Evidence-synthesis and borrowing strategies"** wording in T1.4.
+8. **Bibliography closures from auditor-verified records** — Shankar 2026 (Shankar R, Lim A,
+   Qian X; JBI 181:105086), Rosenkötter 2013 (7 authors + DOI), EMS-ILI year corrected to
+   **2025** (238:239–244) with the text key updated, Cook 2023 added as the §2.1.3 prior-art
+   citation (author list still flagged), Lee 2021 skeleton now carries the Lung/Yeh/Hwang 2021
+   candidate. Each carries a "confirm once against the publisher record" note — auditor
+   verification is second-hand here.
+9. **Career-section trim** (~15%) and further meta-language cuts, paying for 1–4.
+10. **Budget arithmetic** — `budget.md` now carries the full-cost table for the 50%×48 line and
+    a decision rule (shorten duration to M3–M42, not the percentage, if the rate exceeds
+    ~CHF 190k full cost). The plan keeps 50%×48 as the requested profile pending the RGO rate.
+
+**Not applied, with reasons:**
+- **"Host institute: Requested" statuses** — correct as of today; they flip when letters arrive.
+  The audit itself concedes this. The status vocabulary is the honesty mechanism, not a defect.
+- **Further stack demotion** — the audit itself concludes the hierarchy is now explicit enough.
+
+Plan after round 2: **59,999 / 60,000**. Zero placeholders in the countable text; bibliography
+placeholders reduced to author-list/venue items requiring publisher records.

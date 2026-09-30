@@ -24,7 +24,7 @@ The project has **one central hypothesis, H3a**; everything else is subordinate 
 
 #### O1 — Make published evidence usable without hiding its uncertainty
 
-> **H1.** Automated extraction will systematically **underestimate between-study heterogeneity**, producing evidence-derived priors that are too concentrated; an explicit measurement-error layer will recover enough of the missing dispersion to construct usable prior distributions.
+> **H1.** Automated extraction will systematically **understate the dispersion of the evidence-derived distribution** — reported within-study uncertainty and between-study heterogeneity — producing priors that are too concentrated; an explicit measurement-error layer will recover enough of the missing dispersion to construct usable priors.
 
 The direction is mechanistic, not asserted: omissions dominate reported extraction errors [Shankar 2026], and omitted uncertainty statements and missed variance components shrink estimated dispersion systematically, not randomly. H1 is tested on point estimates, reported uncertainty, omissions and between-study dispersion. If the predicted overconfidence is absent, that is informative; if it occurs but cannot be corrected, the project establishes a boundary condition.
 
@@ -54,16 +54,16 @@ isolating each increment rather than pitting a final model against a weak baseli
 
 **Primary confirmatory comparison — one, stated once.** Rung 4 (fixed evidence-derived priors)
 against rung 3 (weakly informative priors), by **CRPS skill score**, over the pre-specified
-cold-start window — the first *N* weeks after onset, *N* fixed at the second registration point — **on respiratory episodes only**, pooled
-across origins. Every other contrast is secondary and labelled so. The **shape of the advantage
-over elapsed local data** is also reported: it should decay to nothing; that decay curve is the
-descriptive result.
+cold-start window — the first *N* weeks after onset, *N* fixed at the second registration
+point — **on respiratory episodes only**, pooled across origins. Every other contrast is
+secondary and labelled so. The **shape of the advantage over elapsed local data** is also
+reported: it should decay to nothing; that curve is the descriptive result.
 
 **Ordering across the two core domains.** Heat carries the same contrast as a **sequential
 generalisation test**, run only if the respiratory test is met — fixed-order testing controls
 the family-wise error rate without a multiplicity penalty, and follows the science: respiratory
 evidence is richest, heat transport hardest. A respiratory-positive, heat-negative result is a
-boundary condition on transportability, reported as one.
+boundary condition on transportability.
 
 #### O4 — Establish whether predictive improvement is decision-relevant
 
@@ -78,12 +78,12 @@ Threshold elicitation, net benefit and counterfactuals are downstream tests of v
 The domains span **two contrasting model classes** from my GESICA classification — interhuman
 respiratory transmission, and environmentally mediated exposure. Both arms score **the same
 quantity, built the same way**: daily emergency demand from the CASU-144 series, restricted to
-the cause classes the archetype's evidence base concerns (T3.0). For epidemics, respiratory-related
-demand; for heat, **heat-sensitive demand** — Swiss evidence places heat effects in dehydration,
-renal and psychiatric admissions, while the respiratory effect is weak and concentrated at older
-ages [Schulte 2024; Ragettli 2019]. Scoring heat forecasts on an outcome heat barely moves would
-test nothing about evidence transport; matching each arm's outcome to its evidence base makes the
-generalisation test a test of borrowing, not of the outcome definition.
+the cause classes the archetype's evidence base concerns (T3.0). For epidemics,
+respiratory-related demand; for heat, **heat-sensitive demand** — Swiss evidence places heat
+effects in dehydration, renal and psychiatric admissions, with a weak respiratory effect
+concentrated at older ages [Schulte 2024; Ragettli 2019]. Scoring heat forecasts on an outcome
+heat barely moves would test nothing about transport; matching each arm's outcome to its
+evidence base makes the generalisation test a test of borrowing, not of the outcome definition.
 
 | Archetype | Role in the project | Dynamics | Outcome and data |
 | --- | --- | --- | --- |

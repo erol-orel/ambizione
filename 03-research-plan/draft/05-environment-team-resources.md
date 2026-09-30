@@ -1,18 +1,18 @@
 ### 2.3.3 Research environment, team and resources
 
-**Host: Institute of Global Health, Faculty of Medicine, University of Geneva** (host confirmation by the Institute's direction, Prof. Nicolas Ray, Director ad interim), with a formal methodological collaboration with **Data Science for Digital Health** (Prof. Douglas Teodoro, Department of Radiology and Medical Informatics) and a clinical collaboration with **HUG emergency medicine** (Prof. Thibaut Desmettre; Dr Robert Larribau, médecin responsable CASU-144).
+**Host: Institute of Global Health, Faculty of Medicine, University of Geneva**, with a formal methodological collaboration with **Data Science for Digital Health** (Prof. Douglas Teodoro, Department of Radiology and Medical Informatics) and a clinical collaboration with **HUG emergency medicine** (Prof. Thibaut Desmettre; Dr Robert Larribau, médecin responsable CASU-144).
 
 #### 2.3.3.1 Why this environment
 
-The project needs three capabilities rarely housed together — quantitative methods, evidence synthesis, and access to a functioning emergency and public-health system — and the arrangement below provides them without depending on any one collaborator.
+The project needs three capabilities rarely housed together — quantitative methods, evidence synthesis, and access to a working emergency and public-health system — and the arrangement below provides them without depending on one collaborator.
 
 **Institute of Global Health.** Epidemiology, infectious-disease modelling and automated evidence extraction sit in one institute, alongside the surveillance methodology the project consumes; this is where the gap became visible. Independence is organisational — a programme led by me alongside the Institute's groups, not inside one (§2.6). **DS4DH** contributes the biomedical NLP and information retrieval WP1 needs.
 
-**Operational access — HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners; the AI-in-EMS review [Edjinedja 2026] evidences a functioning collaboration. No new relationship has to be created after the grant starts.
+**Operational access — HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners; the AI-in-EMS review [Edjinedja 2026] evidences the functioning collaboration. No new relationship needs creating after the grant starts.
 
 **Existing infrastructure.** LiteRev-Evidence is operational: 80,000+ publications, structured extraction with provenance and quality scoring, quality-weighted pooling into parameter distributions, connectors to MeteoSwiss, Copernicus ERA5 and surveillance sources. Ambizione does not fund its construction; it uses it. The legionellosis study (BASEC 2026-00324), under way with ethics granted, supplies the contrasting archetype.
 
-**Computing.** UNIGE HPC (Baobab/Yggdrasil), with the University's secure environment for clinical data (access requested; see table).
+**Computing.** UNIGE HPC (Baobab/Yggdrasil) and the University's secure environment for clinical data (requested; see table).
 
 #### 2.3.3.2 Commitments, by status
 

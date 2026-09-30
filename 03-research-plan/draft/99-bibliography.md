@@ -44,16 +44,17 @@
 
 ## Prehospital data as a leading indicator
 
-- **[Rosenkötter 2013]** Rosenkötter N, Ziemann A, Riesgo LG-C,
-  `[[FULL AUTHOR LIST REQUIRED]]`. Validity and timeliness of
-  syndromic influenza surveillance during the autumn/winter wave of A(H1N1) influenza 2009:
-  results of emergency medical dispatch, ambulance and emergency department data from three
-  European regions. *BMC Public Health* 2013. PMC3852468.
-- **[EMS-ILI 2024]** Telephone calls to emergency medical service as a tool to predict
-  influenza-like illness: a 10-year study. *Public Health* 2024.
-  ScienceDirect S0033350624005171. Lombardy region, influenza seasons 2014–2024 excluding
-  2020–2022. `AUTHOR LIST STILL NEEDED — the only entry not yet resolved; get it from the
-  publisher page and replace the citation key`
+- **[Rosenkötter 2013]** Rosenkötter N, Ziemann A, Garcia-Castrillo Riesgo L, Gillet JB,
+  Vergeiner G, Krafft T, Brand H. Validity and timeliness of syndromic influenza surveillance
+  during the autumn/winter wave of A(H1N1) influenza 2009: results of emergency medical
+  dispatch, ambulance and emergency department data from three European regions.
+  *BMC Public Health* 2013;13:905. doi:10.1186/1471-2458-13-905 `auditor-verified 30 Sep;
+  confirm once against the publisher record`
+- **[EMS-ILI 2025]** `[[AUTHOR LIST REQUIRED — from the publisher page; replace this citation
+  key with the first author's name]]`. Telephone calls to emergency medical service as a tool to
+  predict influenza-like illness: a 10-year study. *Public Health* 2025;238:239–244.
+  doi:10.1016/j.puhe.2024.12.021 `final publication is 2025 (online Dec 2024) — year corrected;
+  Lombardy, seasons 2014–2024 excl. 2020–2022; note R² ≈ 0.50 supports signal-not-equivalence`
 - **[Edjinedja 2026]** Edjinedja KL, Larribau R, **Orel E**, Cossus J, Elfahim O, Yendouname K,
   Vaussenat F, Teodoro D, Robert-Nicoud S, Barakat O, Desmettre T. Artificial intelligence in
   emergency medical services for disasters and health emergencies: a systematic review.
@@ -71,6 +72,12 @@
 
 ## Evidence as prior information
 
+- **[Cook 2023]** Cook JD, `[[FULL AUTHOR LIST REQUIRED]]`. Bayesian forecasting of disease
+  spread with little or no local data. *Scientific Reports* 2023;13. `[[article number + doi —
+  auditor-verified venue (s41598-023-35177-6); complete from the publisher record]]`
+  — The prior-art example §2.1.3 cites: Bayesian forecasting with informative priors under
+  sparse local data. COLDSTART's gap is downstream of it — automated construction, propagated
+  extraction/transportability uncertainty, strict historical information sets, harm detection.
 - **[Ibrahim 2000]** Ibrahim JG, Chen M-H. Power prior distributions for regression models.
   *Statistical Science* 2000;15(1):46–60.
 - **[Hobbs 2011]** Hobbs BP, Carlin BP, Mandrekar SJ, Sargent DJ. Hierarchical commensurate and
@@ -82,10 +89,10 @@
 
 ## Automated extraction
 
-- **[Shankar 2026]** Shankar R, `[[FULL AUTHOR LIST REQUIRED]]`. Performance of large language models in data extraction
-  for evidence synthesis: a systematic review. *J Biomed Inform* 2026. PMID 42501879;
-  ScienceDirect S1532046426001103. `verified: lead author and venue confirmed; complete the
-  co-author list from the publisher record`
+- **[Shankar 2026]** Shankar R, Lim A, Qian X. Performance of large language models in data
+  extraction for evidence synthesis: a systematic review. *J Biomed Inform* 2026;181:105086.
+  doi:10.1016/j.jbi.2026.105086 `author list and details auditor-verified 30 Sep; confirm once
+  against the publisher record`
   — Key figures for §1.3: overall accuracy 47–99.9%; numerical items 47–88% vs categorical/string
   74–96%; omissions 60–74% of errors; hallucination 0.08–6%.
 - **[Orel 2023]** **Orel E**, Ciglenecki I, Thiabaud A, Temerev A, Calmy A, Keiser O, Merzouki A.
@@ -162,8 +169,10 @@
   72–99% false/non-actionable alarm figure in §2.1.5; confirm the figure appears in the final
   source]]`
 - **[Lee 2021]** `[[FULL REFERENCE REQUIRED — the §2.1.5 claim that heat-warning thresholds
-  calibrated to mortality diverge from morbidity/ED thresholds needs its actual source; supply
-  from your own reading or replace the citation]]`
+  calibrated to mortality diverge from morbidity/ED thresholds needs its actual source. If no
+  "Lee 2021" exists in your reading, the auditor suggests Lung, Yeh & Hwang 2021 (PMC8471601)
+  as a candidate that directly discusses mortality- vs morbidity-based heat thresholds —
+  verify and rename the key accordingly]]`
 
 ## Evaluation
 

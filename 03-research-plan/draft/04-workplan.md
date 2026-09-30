@@ -12,11 +12,11 @@ Four work packages over 48 months, built around the central experiment: **does b
 
 Pre-specify the parameter classes by whether they enter the primary forecasting problem.
 
-**Core — extracted and benchmarked in full.** The quantities the demand model actually consumes: **weather–demand associations**, **surge magnitudes** (peak-to-baseline ratios), and **length-of-stay / occupancy distributions**.
+**Core — extracted and benchmarked in full.** The quantities the demand model consumes: **weather–demand associations**, **surge magnitudes** (peak-to-baseline ratios), **length-of-stay / occupancy distributions**.
 
-**Secondary — extracted only if core work completes on schedule.** **Transmission parameters** and **shedding-to-incidence conversions** — the second bridges wastewater signals and expected presentations — but the primary outcome is demand, not incidence, so neither is on the critical path.
+**Secondary — only if core work completes on schedule.** **Transmission parameters** and **shedding-to-incidence conversions** — the second bridges wastewater and expected presentations — but the primary outcome is demand, not incidence, so neither is on the critical path.
 
-Inclusion criteria, effect measures, uncertainty representation and transportability variables are fixed before extraction.
+Inclusion criteria, effect measures, uncertainty representation and transportability variables are fixed first.
 
 ##### T1.2 — Build the quantitative extraction benchmark *(M3–M9)*
 
@@ -28,7 +28,7 @@ Compare automated extraction with the benchmark on point estimates, uncertainty,
 
 ##### T1.4 — Construct uncertainty-aware evidence distributions *(M12–M18)*
 
-Represent extraction error explicitly as measurement error; compare pooling strategies — inverse-variance, quality-weighted, meta-analytic-predictive, power-prior discounting. The output is a prior with provenance, extraction uncertainty and a documented borrowing weight.
+Represent extraction error explicitly as measurement error; compare evidence-synthesis and borrowing strategies — inverse-variance and quality-weighted pooling, meta-analytic-predictive priors, power-prior discounting. The output is a prior with provenance, extraction uncertainty and a documented borrowing weight.
 
 ##### T1.5 — Transportability screen *(M15–M20)*
 
@@ -68,7 +68,7 @@ Compute rolling variance and lag-1 autocorrelation with pre-specified sensitivit
 
 Use calibration methods appropriate to temporal dependence to assess predictive coverage. A conformal component may serve as a robustness layer if simulation confirms the chosen temporal formulation supports its assumptions — not a headline claim of universal coverage. Release a documented reference implementation integrated with LiteRev-Evidence.
 
-**Simulation is prior information, not data.** A mechanistic model parameterised from the literature can generate arbitrarily many trajectories, but fitting to them as if they were independent observations would count the same prior information twice and disable the prior–data discrepancy diagnostic H3b depends on. Mechanistic simulation is therefore used only for characterising an intractable likelihood, imposing structural constraints, identifiability/recovery studies and prior predictive checking. Generated trajectories are never treated as observations, and never tighten the evidence-derived prior.
+**Simulation is prior information, not data.** A mechanistic model parameterised from the literature can generate arbitrarily many trajectories, but fitting to them as if independent observations would count the same prior information twice and disable the prior–data discrepancy diagnostic H3b depends on. Mechanistic simulation is used only for characterising an intractable likelihood, structural constraints, identifiability/recovery studies and prior predictive checking. Generated trajectories are never observations, and never tighten the evidence prior.
 
 **Deliverables.** D2.1 model specification and identifiability study; D2.2 open implementation; D2.3 methodological paper on latent health-system escalation and evidence-informed borrowing.
 
@@ -100,9 +100,9 @@ wastewater, sentinel consultations and weather as signals and covariates. Nothin
 discarded — the hierarchy governs only which series H3a is scored on.
 
 **Data-access gate.** Each candidate outcome must satisfy criteria fixed in advance for
-**historical depth, temporal resolution, reporting latency and completeness**, with thresholds registered alongside the protocol.
-The primary outcome is selected at a pre-specified checkpoint (month 12), on those criteria
-alone.
+**historical depth, temporal resolution, reporting latency and completeness**, thresholds
+registered with the protocol. The primary outcome is selected at a pre-specified checkpoint
+(month 12), on those criteria alone.
 
 **Episode eligibility.** An episode enters the confirmatory evaluation only if all of the
 following are prospectively reconstructable across the window:
@@ -120,18 +120,18 @@ a winter with concurrent influenza and RSV is one demand surge, not two.
 
 **Two registration points.** The hierarchy, gate criteria and eligibility rule are registered
 now. The window *N*, the archetype-specific horizons and the margin Δ are registered after the
-checkpoint and the episode inventory — they depend on the number of eligible episodes — but
-before any evaluation runs. Earlier would be guesswork; after any look at performance,
+checkpoint and the episode inventory, but before any evaluation runs, by the pre-declared
+selection rules of T3.3. Earlier would be guesswork; after any look at performance,
 indefensible.
 
 ##### T3.1 — Assemble the retrospective information set *(M12–M20)*
 
 Harmonise the primary CASU-144 series with the additional channels and covariates, over the
-coverage and granularity the agreements provide. Quantify completeness and reporting delay; model right truncation/nowcasting where needed so incomplete recent reporting is not mistaken for falling demand [Höhle 2014; McGough 2020]. Analysis is at daily aggregate level wherever possible. Missingness and delay are characterised explicitly, because degraded reporting under strain could otherwise create a false early-warning signal.
+coverage and granularity the agreements provide. Quantify completeness and reporting delay; model right truncation/nowcasting where needed so incomplete recent reporting is not mistaken for falling demand [Höhle 2014; McGough 2020]. Analysis is at daily aggregate level wherever possible; missingness and delay are characterised explicitly, since degraded reporting under strain could itself mimic an early-warning signal.
 
 ##### T3.2 — Reconstruct the true information set *(M18–M30)*
 
-For each historical crisis onset, create successive forecast origins using **only information available at that date**. This includes only literature published and indexed before the origin date.
+For each historical crisis onset, create successive forecast origins using **only information available at that date**, including only literature published and indexed before the origin.
 
 **Admissibility as a prior is defined by referent, not venue** — prior inputs are statements about *other* populations, places or past events. **The confirmatory prior uses peer-reviewed literature and preprints only**, under the rolling cut-off. Timestamped situational reporting on the ongoing event *elsewhere* (WHO Disease Outbreak News, ECDC rapid risk assessments) enters as a **pre-specified secondary prior variant**: it refreshes the prior *within* a crisis and passes through the same extraction and measurement-error pipeline, but stays out of the confirmatory contrast, so that H3a tests literature borrowing rather than dynamic evidence fusion. **Text describing the local event is excluded from any prior**: it is a noisy measurement of the outcome H3a is scored against. Every input carries an index timestamp and the rolling cut-off is enforced on it. Forecast at pre-specified horizons of 7, 14 and 28 days, the archetype-specific primary horizon fixed at the second registration point. The cold-start window is defined by elapsed local outcome observations **after a pre-defined real-time onset criterion**. The onset rule may use only variables available at the forecast origin and cannot use the eventual peak, cumulative future cases or any other future information.
 
@@ -141,24 +141,24 @@ At each origin compare:
 
 1. seasonal/naive local baseline;
 2. established short-baseline surveillance method;
-3. regime model with weakly informative priors;
-4. the same regime model with fixed evidence-derived priors;
-5. adaptive evidence borrowing with prior–data conflict monitoring;
+3. regime model, weakly informative priors;
+4. the same regime model, fixed evidence-derived priors;
+5. adaptive borrowing with prior–data conflict monitoring;
 6. adaptive borrowing plus resilience indicators.
 
 **Confirmatory testing procedure, fixed in advance (fixed-sequence testing).**
 
-1. **Test 1 — primary.** Rung 4 vs rung 3, CRPS skill score, **respiratory** episodes, cold-start window *N*, at α = 0.05 two-sided. Passing requires a positive skill-score difference with paired-permutation p < α *and* a lower confidence bound above the pre-registered minimal relevant improvement.
-2. **Test 2 — generalisation.** The identical contrast on **heat** episodes, scored on the pre-specified heat-sensitive demand outcome (T3.0), at the same α, **conducted only if Test 1 passes**.
-3. **If Test 1 fails**, H3a is not supported, Test 2 is not conducted confirmatorily, the heat analysis is reported as exploratory, and the project's result is the failure map and the boundary condition.
+1. **Test 1 — primary.** Rung 4 vs rung 3, CRPS skill score, **respiratory** episodes, cold-start window *N*, at α = 0.05 two-sided. Passing requires a positive skill difference with paired-permutation p < α *and* a lower confidence bound above the pre-registered minimal relevant improvement.
+2. **Test 2 — generalisation.** The identical contrast on **heat** episodes, scored on the heat-sensitive demand outcome (T3.0), at the same α, **conducted only if Test 1 passes**.
+3. **If Test 1 fails**, H3a is not supported, Test 2 is not conducted confirmatorily, the heat analysis is exploratory, and the project's result is the failure map and the boundary condition.
 
-Because the order is fixed in advance and the second test is conditional on the first, the family-wise error rate is controlled at α with no adjustment. All other ladder contrasts are secondary or robustness analyses.
+The order being fixed and the second test conditional, the family-wise error rate is controlled at α with no adjustment. All other ladder contrasts are secondary or robustness analyses.
 
-**Rung 3 is pinned in the registration**, together with a pre-declared set of vaguer and tighter alternatives over which the primary result is reported as a sensitivity band. An advantage that survives only against the vaguest baseline is reported as such: the comparator cannot be tuned into a straw man after the fact.
+**Rung 3 is pinned in the registration**, with a pre-declared set of vaguer and tighter alternatives over which the primary result is reported as a sensitivity band. An advantage surviving only against the vaguest baseline is reported as such: the comparator cannot be tuned into a straw man after the fact.
 
-**Primary endpoint:** the CRPS skill score of rung 4 relative to rung 3 over the cold-start window. The unit of inference is the **episode**, not the forecast origin: origins are repeated measures within episodes. Because eligible episodes are few — the provisional inventory holds 13–14 respiratory candidates before eligibility screening — inference is by **paired permutation over episodes**, with a block bootstrap reported alongside; both are pre-specified and disagreement is reported. **The design is powered by simulation-based operating characteristics at episode level** — type I error, power and interval width under realistic within-episode dependence, between-episode heterogeneity and plausible CRPS effects — run before the second registration point. Secondary endpoints: log score, calibration (PIT, interval coverage), and escalation detection compared at matched false-alarm rates.
+**Primary endpoint:** the CRPS skill score of rung 4 relative to rung 3 over the cold-start window. The unit of inference is the **episode**, not the forecast origin: origins are repeated measures within episodes. Because eligible episodes are few — the provisional inventory holds 13–14 respiratory candidates before eligibility screening — inference is by **paired permutation over episodes**, with a block bootstrap reported alongside; both are pre-specified and disagreement is reported. **The design is powered by simulation-based operating characteristics at episode level** — type I error, power and interval width under realistic within-episode dependence, between-episode heterogeneity and plausible CRPS effects — run before the second registration point. The same simulation fixes, in advance, the **minimum number of eligible episodes** below which no confirmatory claim is made and the primary analysis becomes estimation, and the **selection rules** for *N* and Δ: *N* the smallest value in a pre-declared grid meeting the operating-characteristic criterion, Δ set by a pre-declared rule on the simulated effect distribution — registered after the inventory, chosen by algorithms blind to forecast performance. Secondary endpoints: log score, calibration (PIT, interval coverage), and escalation detection compared at matched false-alarm rates.
 
-**H3b's non-inferiority margin Δ is fixed here, before any historical evaluation**, justified against the rung 3 → rung 4 effect size the study is powered to detect. Adaptive borrowing is declared non-inferior if its CRPS skill deficit relative to fixed borrowing is no greater than Δ. The superiority half of H3b is tested on deliberately misspecified priors constructed in T3.4. Confirmatory contrasts are registered before the evaluation runs; exploratory searches are separated and labelled.
+**H3b's non-inferiority margin Δ is fixed here, before any historical evaluation**, justified against the rung 3 → rung 4 effect the study is powered to detect. Adaptive borrowing is non-inferior if its CRPS deficit relative to fixed borrowing is no greater than Δ; the superiority half is tested on the misspecified priors of T3.4. Confirmatory contrasts are registered before evaluation; exploratory searches are separated and labelled.
 
 ##### T3.4 — Map benefit and failure *(M28–M38)*
 
@@ -180,11 +180,11 @@ Run the sequential generalisation test on the heatwave archetype and, resources 
 
 ##### T4.1 — Elicit operational losses and thresholds *(M24–M32)*
 
-Structured elicitation per the **SHELF** protocol with emergency physicians, dispatch supervisors and capacity managers (n ≈ 15–20 across HUG emergency medicine, CASU-144 regulation and capacity management). Elicit the consequences of early, late and unnecessary escalation rather than asking respondents to guess probability thresholds, then derive thresholds from the loss structure. **The primary decision is fixed in advance**: trigger surge-capacity escalation when the forecast probability of entering the strained/critical state crosses the elicited threshold; its losses anchor T4.2's net-benefit analysis.
+Structured elicitation per the **SHELF** protocol (n ≈ 15–20 across HUG emergency medicine, CASU-144 regulation and capacity management). Elicit the consequences of early, late and unnecessary escalation rather than asking respondents to guess probability thresholds, then derive thresholds from the loss structure. **The primary decision is fixed in advance**: trigger surge-capacity escalation when the forecast probability of entering the strained/critical state crosses the elicited threshold; its losses anchor T4.2's net-benefit analysis.
 
 ##### T4.2 — Decision-analytic evaluation and equity audit *(M30–M40)*
 
-Re-evaluate the WP3 forecasts with net-benefit/decision-curve analysis and value-of-information, testing whether model rankings change once consequences are incorporated. A model counts as useful only if its improvement crosses a decision-relevant threshold.
+Re-evaluate the WP3 forecasts with net-benefit/decision-curve analysis and value-of-information, testing whether rankings change once consequences are incorporated. A model counts as useful only if its improvement crosses a decision-relevant threshold.
 
 Because operational records may encode structural differences across populations, assess calibration, error and threshold performance across available aggregate strata (age, sex, neighbourhood deprivation where legally and statistically appropriate). A model calibrated on average but miscalibrated for a relevant group is not operationally ready. This audits performance and thresholds, not individual-level causal fairness.
 

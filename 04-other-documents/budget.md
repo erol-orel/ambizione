@@ -24,6 +24,25 @@ enough in §6 that a referee can see the work is resourced.
 | **Total project funds** | | | **≤ CHF 250,000** |
 | Applicant salary | Covered separately by Ambizione grant with salary | | **separate** |
 
+## ⚠ P0 — the 50% × 48-month line must be costed before submission
+
+The plan requests a scientific/technical collaborator at **50% over 48 months** (= 2.0
+FTE-years) plus a **contracted second extractor (M3–M9)**. The arithmetic is tight and must be
+run against real UNIGE rates before that sentence survives:
+
+| Full-cost rate (employer, 100%) | 50% × 48 months costs | Left of CHF 250k for extractor + computing + travel + ORD |
+| ---: | ---: | ---: |
+| CHF 90k/yr | 180,000 | 70,000 |
+| CHF 100k/yr | 200,000 | 50,000 |
+| CHF 110k/yr | 220,000 | 30,000 |
+| CHF 120k/yr | 240,000 | **10,000 — does not work** |
+
+**Decision rule once the RGO/HR rate arrives:** if the 50%×48 full cost exceeds ~CHF 190k,
+shorten the duration (50% × 36–42 months, aligned to WP1+WP3, M3–M42) rather than the
+percentage — the plan's task justification (benchmark, pipeline, reproducibility) maps to
+M3–M42 anyway. Update §2.3.3.3 and §2.4 of the plan in the same pass. The mySNF budget is
+line-item and frozen at submission.
+
 ## Rules taken from the call documents
 
 - **Ceiling: CHF 250,000 for four years** (Art. 10 §4), i.e. ~CHF 62,500/year. Pro-rated if shorter.

@@ -17,9 +17,9 @@ There is, however, another source of quantitative information: the accumulated p
 
 This project asks the central question directly: **can published quantitative evidence provide useful information when local outcome data are insufficient at crisis onset, and can we detect early when it should not be trusted?** Building on LiteRev-Evidence, a literature-synthesis platform I developed that extracts and pools quantitative parameters from more than 80,000 documents, I will (1) establish the error structure of automated extraction and propagate that uncertainty into evidence-derived priors; (2) develop an uncertainty-aware latent-regime framework for health-system escalation, with those priors and a short-window resilience signal; (3) test, through strict rolling-origin experiments reconstructing the information available at each historical moment, whether the priors improve probabilistic forecast skill during the cold-start phase, how fast that value decays as local data accumulate, and when they cause harm; and (4) determine whether any gain is large enough to change operational decisions.
 
-The methodological core is deliberately simpler than the full machinery might suggest. The decisive experiment is a pre-specified ladder of models: local baselines; established short-baseline methods; a regime model with weakly informative priors; the same model with literature-derived priors; and adaptive borrowing that discounts the literature under prior–data conflict. Exactly one rung-to-rung contrast is confirmatory. Critical-slowing-down indicators, extreme-value methods and conformal calibration are supporting components, not separate claims of success.
+The methodological core is deliberately simpler than the full machinery might suggest. The decisive experiment is a pre-specified ladder of models: local baselines; established short-baseline methods; a regime model with weakly informative priors; the same model with literature-derived priors; and adaptive borrowing that discounts the literature under prior–data conflict. One primary rung-to-rung contrast is confirmatory, repeated once, sequentially, as the heat generalisation test. Critical-slowing-down indicators, extreme-value methods and conformal calibration are supporting components, not separate claims of success.
 
-Validation uses contrasting crisis archetypes: respiratory epidemics carry the confirmatory test, heatwaves a pre-specified sequential generalisation test, and Geneva legionellosis a scoped year-4 extension — generalisability is tested, not assumed. The outcome is intentionally falsifiable: if literature-derived priors improve cold-start forecasts, the project establishes when and by how much; if they do not, or their harm cannot be detected early enough, it establishes a boundary condition for automated evidence-informed forecasting. Either way, the deliverable is a validated answer and an open framework, not another untested forecasting platform.
+Validation uses contrasting crisis archetypes: respiratory epidemics carry the confirmatory test, heatwaves the sequential generalisation test, Geneva legionellosis a scoped year-4 extension — generalisability is tested, not assumed. The outcome is intentionally falsifiable: if literature-derived priors improve cold-start forecasts, the project establishes when and by how much; if not, or if their harm cannot be detected early enough, it establishes a boundary condition for automated evidence-informed forecasting. Either way, the deliverable is a validated answer and an open framework, not another untested forecasting platform.
 
 The project is enabled by an unusual combination of expertise and infrastructure: fifteen years in quantitative finance on rare-event risk, regime models and stress testing; then LiteRev and LiteRev-Evidence, and direct work with Swiss hospital and emergency data. Ambizione would turn these components into an independent research programme, led by me, at the intersection of evidence synthesis, quantitative modelling and emergency public health.
 
@@ -32,9 +32,9 @@ The project is enabled by an unusual combination of expertise and infrastructure
 
 ### 2.1.1 Forecasting health-system crises: strong in steady state, weak at onset
 
-Anticipating surges in emergency care demand is an established field with a mature toolkit. Syndromic surveillance detects departures from expected baselines — the Farrington quasi-Poisson framework [Farrington 1996] and its reweighted "Flexible" extension [Noufaily 2013] remain operational mainstays. For quantitative prediction, seasonal ARIMA, decomposition models and, where history allows, recurrent architectures are routinely compared, and forecast ensembles perform strongly in data-rich settings [Cramer 2022; Sherratt 2023].
+Anticipating surges in emergency care demand is an established field. Syndromic surveillance detects departures from expected baselines — the Farrington quasi-Poisson framework [Farrington 1996] and its reweighted "Flexible" extension [Noufaily 2013] remain operational mainstays. For quantitative prediction, seasonal ARIMA, decomposition models and recurrent architectures are routinely compared, and forecast ensembles perform strongly in data-rich settings [Cramer 2022; Sherratt 2023].
 
-Prehospital data can lead: dispatch and ambulance records capture care-seeking before laboratory-confirmed surveillance, a three-region European comparison identified the 2009 A(H1N1) autumn-wave onset eight days in advance [Rosenkötter 2013], and long emergency-call series track influenza-like illness [EMS-ILI 2024]. Our systematic review maps this literature and its limits [Edjinedja 2026].
+Prehospital data can lead: dispatch records capture care-seeking before laboratory-confirmed surveillance, a three-region European comparison identified the 2009 A(H1N1) autumn-wave onset eight days in advance [Rosenkötter 2013], and long emergency-call series track influenza-like illness [EMS-ILI 2025]. Our systematic review maps this literature and its limits [Edjinedja 2026].
 
 The decisive limitation is **history dependence**: data-adaptive models need enough local observations to learn seasonality, weekday structure, weather response and crisis dynamics, so the published evidence for operational performance is concentrated in the data-rich regime. The difficult question is what to do during the first days or weeks of a novel or displaced crisis, when the local outcome series is short and unstable.
 
@@ -42,7 +42,7 @@ The decisive limitation is **history dependence**: data-adaptive models need eno
 
 At crisis onset, context variables are abundant but the outcome to be forecast is not. Surveillance variables divide into **outcomes** (presentations, incidence, occupancy), **early signals** (dispatch symptoms, wastewater, web search), **susceptibility variables** (vaccination, seroprevalence) and **covariates** (weather, contacts, calendar). The first class is scarce; the others may abound. This is not simply small-*n*: it is forecasting a poorly observed outcome in a large covariate space.
 
-This distinction matters because abundance of candidate predictors can itself mislead: Google Flu Trends famously overestimated influenza activity by more than a factor of two [Lazer 2014]. More information is not automatically more information about the quantity that matters.
+This matters because abundance of candidate predictors can itself mislead: Google Flu Trends famously overestimated influenza activity by more than a factor of two [Lazer 2014]. More information is not automatically more information about the quantity that matters.
 
 Early signals help but do not eliminate the problem: wastewater may lead clinical presentation, but converting viral load into presentations needs a shedding-to-incidence relationship that itself comes from external evidence; transfer learning needs contemporaneous observations from comparable places; mechanistic models need parameters set by hand from a few studies, uncertainty asserted rather than derived. The common issue is **how to use external quantitative information without pretending it is perfectly transferable**.
 
@@ -50,11 +50,11 @@ Early signals help but do not eliminate the problem: wastewater may lead clinica
 
 Thousands of studies report quantities relevant at crisis onset: weather–demand associations, surge multipliers, transmission parameters and length-of-stay distributions. Bayesian borrowing is well developed — power priors discount historical information [Ibrahim 2000], commensurate priors adapt to agreement between sources [Hobbs 2011], meta-analytic-predictive priors derive a new-setting distribution with robust protection against prior–data conflict [Schmidli 2014].
 
-Informative priors have been used to forecast disease under sparse local data `[[cite 1–2 examples, e.g. the 2023 Bayesian little-local-data forecasting paper (USGS/Scientific Reports) — verify and add]]`. What has not been established is narrower and harder: whether an **automatically constructed** evidence prior — extraction error and transportability uncertainty propagated into it — improves **operational cold-start forecasts under strict historical information constraints**, and whether harmful borrowing is detected early enough to act. Two problems make that test non-trivial.
+Informative priors have been used to forecast disease under sparse local data [Cook 2023]. What has not been established is narrower and harder: whether an **automatically constructed** evidence prior — extraction error and transportability uncertainty propagated into it — improves **operational cold-start forecasts under strict historical information constraints**, and whether harmful borrowing is detected early enough to act. Two problems make that test non-trivial.
 
 **Extraction.** Effect measures are reported inconsistently, across definitions, units and uncertainty representations. Automated extraction makes large-scale synthesis feasible, but our review of the emerging literature shows numerical extraction remains less reliable than categorical: reported numerical accuracy spans roughly 47–88% versus 74–96% for categorical items, and omissions dominate errors [Shankar 2026]. The question is not whether a system can retrieve numbers, but whether extraction and pooling preserve the dispersion a calibrated prior needs.
 
-**Transportability.** Even perfectly extracted estimates may not transfer across populations, case definitions, health systems or policy regimes. Formal tools for transportability and reweighting exist [Bareinboim 2016; Dahabreh 2019; Degtiar 2023], but have not been integrated into an operational framework asking whether literature-derived information improves forecasts in a new crisis.
+**Transportability.** Even perfectly extracted estimates may not transfer across populations, case definitions, health systems or policy regimes. Formal transportability and reweighting tools exist [Bareinboim 2016; Dahabreh 2019; Degtiar 2023], but are not integrated into an operational framework asking whether literature-derived information improves forecasts in a new crisis.
 
 These are not merely engineering obstacles; they define the scientific test: **can accumulated evidence earn a formal role in cold-start forecasting, and when should it be discounted or rejected?**
 
@@ -74,6 +74,8 @@ This matters in crisis response because false alarms and missed escalations have
 
 ### 2.1.6 The specific gap addressed by this project
 
+Ongoing programmes occupy the neighbouring ground: multi-model forecasting hubs run routinely (ECDC RespiCast, US CDC FluSight), Horizon Europe funds epidemic-intelligence infrastructure — including GeoAI4EI, in which I take part — and the Franco-Swiss GESICA programme builds cross-border crisis intelligence. All build surveillance, forecasting or decision-support capability from local data; none tests whether accumulated external evidence deserves a formal role before local data become informative.
+
 The four pieces above exist separately — forecasting that needs local history, Bayesian borrowing with discounting, latent-state and resilience representations of escalation, and decision analysis. What has not been established is whether they connect around the **cold-start question**: whether systematically extracted quantitative evidence improves probabilistic forecasting before local outcome data become informative, and whether harmful borrowing is detectable early enough to discount. The supporting components are justified only insofar as they make that comparison valid.
 
 
@@ -92,13 +94,13 @@ anticipate rare, costly transitions elsewhere.
 My doctoral work addressed prediction from incomplete individual-level data: in
 **Orel et al., *PLoS ONE* 2022** I predicted individual HIV status from socio-behavioural
 characteristics across East and Southern Africa, establishing where models transported between
-countries and where they did not. Related work on latent structure across sub-Saharan African
-populations (**Merzouki et al., *PeerJ* 2021**) and on treatment-interruption prediction
-(**Esra et al., *JAIDS* 2023**) developed the same theme: when an estimate obtained in one
-population is usable in another. I now **senior-author** that line (last author,
-**Ng'ambi et al., accepted**: machine-learning classification of cardiovascular disease history
-across harmonised WHO STEPS surveys). That is the transportability problem at the centre
-of this proposal — met first in a different disease area, and moved from conducting to directing.
+countries and where they did not. Work on latent structure across sub-Saharan African populations
+(**Merzouki et al., *PeerJ* 2021**) and treatment-interruption prediction (**Esra et al., *JAIDS*
+2023**) developed the same theme: when an estimate from one population is usable in another. I
+now **senior-author** that line (last author, **Ng'ambi et al., accepted**: machine-learning
+classification of cardiovascular disease history across harmonised WHO STEPS surveys). That is
+this proposal's transportability problem — met first in another disease area, and moved from
+conducting to directing.
 
 ### 2.2.2 Automated evidence synthesis
 
@@ -114,11 +116,11 @@ to structure 138 retained publications.
 ### 2.2.3 Outbreak and health-system modelling in Switzerland
 
 **Orel et al., *CMI Communications* 2024** compared clinical severity between Delta and Omicron
-sub-lineages in a Swiss tertiary centre, working directly with hospital clinical data.
-**Estill et al., *F1000Research* 2020** developed age-structured scenario models for the Swiss
-SARS-CoV-2 epidemic, produced for planning under time pressure — the experience from which this
-proposal's question comes. I also contributed to WHO African region reporting and to
-seroprevalence estimation (***Nat Commun***, Nwosu et al., 2021).
+sub-lineages in a Swiss tertiary centre, on hospital clinical data. **Estill et al.,
+*F1000Research* 2020** built age-structured scenario models for the Swiss SARS-CoV-2 epidemic
+under planning time pressure — the experience this proposal's question comes from. I also
+contributed to WHO African Region reporting and seroprevalence estimation (***Nat Commun***,
+Nwosu et al., 2021).
 
 ### 2.2.4 The instrument: LiteRev-Evidence
 
@@ -129,8 +131,8 @@ OpenAlex, CrossRef and preprint servers; structured extraction with provenance a
 scoring; **quality-weighted pooling of extracted parameters into distributions**, propagated
 through ensemble simulation — the literature-to-prior mechanism this proposal interrogates, in
 working form; compartmental (SEIR), time-series and machine-learning components with uncertainty
-bands and calibration; connectors to MeteoSwiss, Copernicus ERA5 and Sentinelles. Thirty-one
-operational scenarios have been elaborated with emergency-medicine partners.
+bands and calibration; connectors to MeteoSwiss, Copernicus ERA5 and Sentinelles. Thirty-one operational
+scenarios exist, elaborated with emergency-medicine partners.
 
 For GESICA I built the Geneva–Vaud–Neuchâtel data foundation: **77 notifiable diseases
 classified into eight model classes** by transmission mode, and a referenced inventory of
@@ -145,10 +147,10 @@ independent funding behind it, a research output in its own right.
 ### 2.2.5 Linked data on a contrasting crisis archetype
 
 I lead the data work on a cantonal study **already under way** (BASEC 2026-00324, ethics
-granted) linking confirmed legionellosis cases in Geneva to individual domestic hot water
+granted) linking confirmed legionellosis cases in Geneva to individual domestic hot-water
 installations, with technical, meteorological and territorial covariates. The linkage is, to my
 knowledge, unique; it supplies a waterborne archetype whose dynamics differ fundamentally from a
-respiratory epidemic — the hardest available test of cross-crisis generalisation.
+respiratory epidemic's — the hardest available test of cross-crisis generalisation.
 
 ### 2.2.6 Position and competences
 
@@ -196,7 +198,7 @@ The project has **one central hypothesis, H3a**; everything else is subordinate 
 
 #### O1 — Make published evidence usable without hiding its uncertainty
 
-> **H1.** Automated extraction will systematically **underestimate between-study heterogeneity**, producing evidence-derived priors that are too concentrated; an explicit measurement-error layer will recover enough of the missing dispersion to construct usable prior distributions.
+> **H1.** Automated extraction will systematically **understate the dispersion of the evidence-derived distribution** — reported within-study uncertainty and between-study heterogeneity — producing priors that are too concentrated; an explicit measurement-error layer will recover enough of the missing dispersion to construct usable priors.
 
 The direction is mechanistic, not asserted: omissions dominate reported extraction errors [Shankar 2026], and omitted uncertainty statements and missed variance components shrink estimated dispersion systematically, not randomly. H1 is tested on point estimates, reported uncertainty, omissions and between-study dispersion. If the predicted overconfidence is absent, that is informative; if it occurs but cannot be corrected, the project establishes a boundary condition.
 
@@ -226,16 +228,16 @@ isolating each increment rather than pitting a final model against a weak baseli
 
 **Primary confirmatory comparison — one, stated once.** Rung 4 (fixed evidence-derived priors)
 against rung 3 (weakly informative priors), by **CRPS skill score**, over the pre-specified
-cold-start window — the first *N* weeks after onset, *N* fixed at the second registration point — **on respiratory episodes only**, pooled
-across origins. Every other contrast is secondary and labelled so. The **shape of the advantage
-over elapsed local data** is also reported: it should decay to nothing; that decay curve is the
-descriptive result.
+cold-start window — the first *N* weeks after onset, *N* fixed at the second registration
+point — **on respiratory episodes only**, pooled across origins. Every other contrast is
+secondary and labelled so. The **shape of the advantage over elapsed local data** is also
+reported: it should decay to nothing; that curve is the descriptive result.
 
 **Ordering across the two core domains.** Heat carries the same contrast as a **sequential
 generalisation test**, run only if the respiratory test is met — fixed-order testing controls
 the family-wise error rate without a multiplicity penalty, and follows the science: respiratory
 evidence is richest, heat transport hardest. A respiratory-positive, heat-negative result is a
-boundary condition on transportability, reported as one.
+boundary condition on transportability.
 
 #### O4 — Establish whether predictive improvement is decision-relevant
 
@@ -250,12 +252,12 @@ Threshold elicitation, net benefit and counterfactuals are downstream tests of v
 The domains span **two contrasting model classes** from my GESICA classification — interhuman
 respiratory transmission, and environmentally mediated exposure. Both arms score **the same
 quantity, built the same way**: daily emergency demand from the CASU-144 series, restricted to
-the cause classes the archetype's evidence base concerns (T3.0). For epidemics, respiratory-related
-demand; for heat, **heat-sensitive demand** — Swiss evidence places heat effects in dehydration,
-renal and psychiatric admissions, while the respiratory effect is weak and concentrated at older
-ages [Schulte 2024; Ragettli 2019]. Scoring heat forecasts on an outcome heat barely moves would
-test nothing about evidence transport; matching each arm's outcome to its evidence base makes the
-generalisation test a test of borrowing, not of the outcome definition.
+the cause classes the archetype's evidence base concerns (T3.0). For epidemics,
+respiratory-related demand; for heat, **heat-sensitive demand** — Swiss evidence places heat
+effects in dehydration, renal and psychiatric admissions, with a weak respiratory effect
+concentrated at older ages [Schulte 2024; Ragettli 2019]. Scoring heat forecasts on an outcome
+heat barely moves would test nothing about transport; matching each arm's outcome to its
+evidence base makes the generalisation test a test of borrowing, not of the outcome definition.
 
 | Archetype | Role in the project | Dynamics | Outcome and data |
 | --- | --- | --- | --- |
@@ -286,11 +288,11 @@ Four work packages over 48 months, built around the central experiment: **does b
 
 Pre-specify the parameter classes by whether they enter the primary forecasting problem.
 
-**Core — extracted and benchmarked in full.** The quantities the demand model actually consumes: **weather–demand associations**, **surge magnitudes** (peak-to-baseline ratios), and **length-of-stay / occupancy distributions**.
+**Core — extracted and benchmarked in full.** The quantities the demand model consumes: **weather–demand associations**, **surge magnitudes** (peak-to-baseline ratios), **length-of-stay / occupancy distributions**.
 
-**Secondary — extracted only if core work completes on schedule.** **Transmission parameters** and **shedding-to-incidence conversions** — the second bridges wastewater signals and expected presentations — but the primary outcome is demand, not incidence, so neither is on the critical path.
+**Secondary — only if core work completes on schedule.** **Transmission parameters** and **shedding-to-incidence conversions** — the second bridges wastewater and expected presentations — but the primary outcome is demand, not incidence, so neither is on the critical path.
 
-Inclusion criteria, effect measures, uncertainty representation and transportability variables are fixed before extraction.
+Inclusion criteria, effect measures, uncertainty representation and transportability variables are fixed first.
 
 ##### T1.2 — Build the quantitative extraction benchmark *(M3–M9)*
 
@@ -302,7 +304,7 @@ Compare automated extraction with the benchmark on point estimates, uncertainty,
 
 ##### T1.4 — Construct uncertainty-aware evidence distributions *(M12–M18)*
 
-Represent extraction error explicitly as measurement error; compare pooling strategies — inverse-variance, quality-weighted, meta-analytic-predictive, power-prior discounting. The output is a prior with provenance, extraction uncertainty and a documented borrowing weight.
+Represent extraction error explicitly as measurement error; compare evidence-synthesis and borrowing strategies — inverse-variance and quality-weighted pooling, meta-analytic-predictive priors, power-prior discounting. The output is a prior with provenance, extraction uncertainty and a documented borrowing weight.
 
 ##### T1.5 — Transportability screen *(M15–M20)*
 
@@ -342,7 +344,7 @@ Compute rolling variance and lag-1 autocorrelation with pre-specified sensitivit
 
 Use calibration methods appropriate to temporal dependence to assess predictive coverage. A conformal component may serve as a robustness layer if simulation confirms the chosen temporal formulation supports its assumptions — not a headline claim of universal coverage. Release a documented reference implementation integrated with LiteRev-Evidence.
 
-**Simulation is prior information, not data.** A mechanistic model parameterised from the literature can generate arbitrarily many trajectories, but fitting to them as if they were independent observations would count the same prior information twice and disable the prior–data discrepancy diagnostic H3b depends on. Mechanistic simulation is therefore used only for characterising an intractable likelihood, imposing structural constraints, identifiability/recovery studies and prior predictive checking. Generated trajectories are never treated as observations, and never tighten the evidence-derived prior.
+**Simulation is prior information, not data.** A mechanistic model parameterised from the literature can generate arbitrarily many trajectories, but fitting to them as if independent observations would count the same prior information twice and disable the prior–data discrepancy diagnostic H3b depends on. Mechanistic simulation is used only for characterising an intractable likelihood, structural constraints, identifiability/recovery studies and prior predictive checking. Generated trajectories are never observations, and never tighten the evidence prior.
 
 **Deliverables.** D2.1 model specification and identifiability study; D2.2 open implementation; D2.3 methodological paper on latent health-system escalation and evidence-informed borrowing.
 
@@ -374,9 +376,9 @@ wastewater, sentinel consultations and weather as signals and covariates. Nothin
 discarded — the hierarchy governs only which series H3a is scored on.
 
 **Data-access gate.** Each candidate outcome must satisfy criteria fixed in advance for
-**historical depth, temporal resolution, reporting latency and completeness**, with thresholds registered alongside the protocol.
-The primary outcome is selected at a pre-specified checkpoint (month 12), on those criteria
-alone.
+**historical depth, temporal resolution, reporting latency and completeness**, thresholds
+registered with the protocol. The primary outcome is selected at a pre-specified checkpoint
+(month 12), on those criteria alone.
 
 **Episode eligibility.** An episode enters the confirmatory evaluation only if all of the
 following are prospectively reconstructable across the window:
@@ -394,18 +396,18 @@ a winter with concurrent influenza and RSV is one demand surge, not two.
 
 **Two registration points.** The hierarchy, gate criteria and eligibility rule are registered
 now. The window *N*, the archetype-specific horizons and the margin Δ are registered after the
-checkpoint and the episode inventory — they depend on the number of eligible episodes — but
-before any evaluation runs. Earlier would be guesswork; after any look at performance,
+checkpoint and the episode inventory, but before any evaluation runs, by the pre-declared
+selection rules of T3.3. Earlier would be guesswork; after any look at performance,
 indefensible.
 
 ##### T3.1 — Assemble the retrospective information set *(M12–M20)*
 
 Harmonise the primary CASU-144 series with the additional channels and covariates, over the
-coverage and granularity the agreements provide. Quantify completeness and reporting delay; model right truncation/nowcasting where needed so incomplete recent reporting is not mistaken for falling demand [Höhle 2014; McGough 2020]. Analysis is at daily aggregate level wherever possible. Missingness and delay are characterised explicitly, because degraded reporting under strain could otherwise create a false early-warning signal.
+coverage and granularity the agreements provide. Quantify completeness and reporting delay; model right truncation/nowcasting where needed so incomplete recent reporting is not mistaken for falling demand [Höhle 2014; McGough 2020]. Analysis is at daily aggregate level wherever possible; missingness and delay are characterised explicitly, since degraded reporting under strain could itself mimic an early-warning signal.
 
 ##### T3.2 — Reconstruct the true information set *(M18–M30)*
 
-For each historical crisis onset, create successive forecast origins using **only information available at that date**. This includes only literature published and indexed before the origin date.
+For each historical crisis onset, create successive forecast origins using **only information available at that date**, including only literature published and indexed before the origin.
 
 **Admissibility as a prior is defined by referent, not venue** — prior inputs are statements about *other* populations, places or past events. **The confirmatory prior uses peer-reviewed literature and preprints only**, under the rolling cut-off. Timestamped situational reporting on the ongoing event *elsewhere* (WHO Disease Outbreak News, ECDC rapid risk assessments) enters as a **pre-specified secondary prior variant**: it refreshes the prior *within* a crisis and passes through the same extraction and measurement-error pipeline, but stays out of the confirmatory contrast, so that H3a tests literature borrowing rather than dynamic evidence fusion. **Text describing the local event is excluded from any prior**: it is a noisy measurement of the outcome H3a is scored against. Every input carries an index timestamp and the rolling cut-off is enforced on it. Forecast at pre-specified horizons of 7, 14 and 28 days, the archetype-specific primary horizon fixed at the second registration point. The cold-start window is defined by elapsed local outcome observations **after a pre-defined real-time onset criterion**. The onset rule may use only variables available at the forecast origin and cannot use the eventual peak, cumulative future cases or any other future information.
 
@@ -415,24 +417,24 @@ At each origin compare:
 
 1. seasonal/naive local baseline;
 2. established short-baseline surveillance method;
-3. regime model with weakly informative priors;
-4. the same regime model with fixed evidence-derived priors;
-5. adaptive evidence borrowing with prior–data conflict monitoring;
+3. regime model, weakly informative priors;
+4. the same regime model, fixed evidence-derived priors;
+5. adaptive borrowing with prior–data conflict monitoring;
 6. adaptive borrowing plus resilience indicators.
 
 **Confirmatory testing procedure, fixed in advance (fixed-sequence testing).**
 
-1. **Test 1 — primary.** Rung 4 vs rung 3, CRPS skill score, **respiratory** episodes, cold-start window *N*, at α = 0.05 two-sided. Passing requires a positive skill-score difference with paired-permutation p < α *and* a lower confidence bound above the pre-registered minimal relevant improvement.
-2. **Test 2 — generalisation.** The identical contrast on **heat** episodes, scored on the pre-specified heat-sensitive demand outcome (T3.0), at the same α, **conducted only if Test 1 passes**.
-3. **If Test 1 fails**, H3a is not supported, Test 2 is not conducted confirmatorily, the heat analysis is reported as exploratory, and the project's result is the failure map and the boundary condition.
+1. **Test 1 — primary.** Rung 4 vs rung 3, CRPS skill score, **respiratory** episodes, cold-start window *N*, at α = 0.05 two-sided. Passing requires a positive skill difference with paired-permutation p < α *and* a lower confidence bound above the pre-registered minimal relevant improvement.
+2. **Test 2 — generalisation.** The identical contrast on **heat** episodes, scored on the heat-sensitive demand outcome (T3.0), at the same α, **conducted only if Test 1 passes**.
+3. **If Test 1 fails**, H3a is not supported, Test 2 is not conducted confirmatorily, the heat analysis is exploratory, and the project's result is the failure map and the boundary condition.
 
-Because the order is fixed in advance and the second test is conditional on the first, the family-wise error rate is controlled at α with no adjustment. All other ladder contrasts are secondary or robustness analyses.
+The order being fixed and the second test conditional, the family-wise error rate is controlled at α with no adjustment. All other ladder contrasts are secondary or robustness analyses.
 
-**Rung 3 is pinned in the registration**, together with a pre-declared set of vaguer and tighter alternatives over which the primary result is reported as a sensitivity band. An advantage that survives only against the vaguest baseline is reported as such: the comparator cannot be tuned into a straw man after the fact.
+**Rung 3 is pinned in the registration**, with a pre-declared set of vaguer and tighter alternatives over which the primary result is reported as a sensitivity band. An advantage surviving only against the vaguest baseline is reported as such: the comparator cannot be tuned into a straw man after the fact.
 
-**Primary endpoint:** the CRPS skill score of rung 4 relative to rung 3 over the cold-start window. The unit of inference is the **episode**, not the forecast origin: origins are repeated measures within episodes. Because eligible episodes are few — the provisional inventory holds 13–14 respiratory candidates before eligibility screening — inference is by **paired permutation over episodes**, with a block bootstrap reported alongside; both are pre-specified and disagreement is reported. **The design is powered by simulation-based operating characteristics at episode level** — type I error, power and interval width under realistic within-episode dependence, between-episode heterogeneity and plausible CRPS effects — run before the second registration point. Secondary endpoints: log score, calibration (PIT, interval coverage), and escalation detection compared at matched false-alarm rates.
+**Primary endpoint:** the CRPS skill score of rung 4 relative to rung 3 over the cold-start window. The unit of inference is the **episode**, not the forecast origin: origins are repeated measures within episodes. Because eligible episodes are few — the provisional inventory holds 13–14 respiratory candidates before eligibility screening — inference is by **paired permutation over episodes**, with a block bootstrap reported alongside; both are pre-specified and disagreement is reported. **The design is powered by simulation-based operating characteristics at episode level** — type I error, power and interval width under realistic within-episode dependence, between-episode heterogeneity and plausible CRPS effects — run before the second registration point. The same simulation fixes, in advance, the **minimum number of eligible episodes** below which no confirmatory claim is made and the primary analysis becomes estimation, and the **selection rules** for *N* and Δ: *N* the smallest value in a pre-declared grid meeting the operating-characteristic criterion, Δ set by a pre-declared rule on the simulated effect distribution — registered after the inventory, chosen by algorithms blind to forecast performance. Secondary endpoints: log score, calibration (PIT, interval coverage), and escalation detection compared at matched false-alarm rates.
 
-**H3b's non-inferiority margin Δ is fixed here, before any historical evaluation**, justified against the rung 3 → rung 4 effect size the study is powered to detect. Adaptive borrowing is declared non-inferior if its CRPS skill deficit relative to fixed borrowing is no greater than Δ. The superiority half of H3b is tested on deliberately misspecified priors constructed in T3.4. Confirmatory contrasts are registered before the evaluation runs; exploratory searches are separated and labelled.
+**H3b's non-inferiority margin Δ is fixed here, before any historical evaluation**, justified against the rung 3 → rung 4 effect the study is powered to detect. Adaptive borrowing is non-inferior if its CRPS deficit relative to fixed borrowing is no greater than Δ; the superiority half is tested on the misspecified priors of T3.4. Confirmatory contrasts are registered before evaluation; exploratory searches are separated and labelled.
 
 ##### T3.4 — Map benefit and failure *(M28–M38)*
 
@@ -454,11 +456,11 @@ Run the sequential generalisation test on the heatwave archetype and, resources 
 
 ##### T4.1 — Elicit operational losses and thresholds *(M24–M32)*
 
-Structured elicitation per the **SHELF** protocol with emergency physicians, dispatch supervisors and capacity managers (n ≈ 15–20 across HUG emergency medicine, CASU-144 regulation and capacity management). Elicit the consequences of early, late and unnecessary escalation rather than asking respondents to guess probability thresholds, then derive thresholds from the loss structure. **The primary decision is fixed in advance**: trigger surge-capacity escalation when the forecast probability of entering the strained/critical state crosses the elicited threshold; its losses anchor T4.2's net-benefit analysis.
+Structured elicitation per the **SHELF** protocol (n ≈ 15–20 across HUG emergency medicine, CASU-144 regulation and capacity management). Elicit the consequences of early, late and unnecessary escalation rather than asking respondents to guess probability thresholds, then derive thresholds from the loss structure. **The primary decision is fixed in advance**: trigger surge-capacity escalation when the forecast probability of entering the strained/critical state crosses the elicited threshold; its losses anchor T4.2's net-benefit analysis.
 
 ##### T4.2 — Decision-analytic evaluation and equity audit *(M30–M40)*
 
-Re-evaluate the WP3 forecasts with net-benefit/decision-curve analysis and value-of-information, testing whether model rankings change once consequences are incorporated. A model counts as useful only if its improvement crosses a decision-relevant threshold.
+Re-evaluate the WP3 forecasts with net-benefit/decision-curve analysis and value-of-information, testing whether rankings change once consequences are incorporated. A model counts as useful only if its improvement crosses a decision-relevant threshold.
 
 Because operational records may encode structural differences across populations, assess calibration, error and threshold performance across available aggregate strata (age, sex, neighbourhood deprivation where legally and statistically appropriate). A model calibrated on average but miscalibrated for a relevant group is not operationally ready. This audits performance and thresholds, not individual-level causal fairness.
 
@@ -489,19 +491,19 @@ Approximately four to six papers and two durable open resources: the quantitativ
 
 ### 2.3.3 Research environment, team and resources
 
-**Host: Institute of Global Health, Faculty of Medicine, University of Geneva** (host confirmation by the Institute's direction, Prof. Nicolas Ray, Director ad interim), with a formal methodological collaboration with **Data Science for Digital Health** (Prof. Douglas Teodoro, Department of Radiology and Medical Informatics) and a clinical collaboration with **HUG emergency medicine** (Prof. Thibaut Desmettre; Dr Robert Larribau, médecin responsable CASU-144).
+**Host: Institute of Global Health, Faculty of Medicine, University of Geneva**, with a formal methodological collaboration with **Data Science for Digital Health** (Prof. Douglas Teodoro, Department of Radiology and Medical Informatics) and a clinical collaboration with **HUG emergency medicine** (Prof. Thibaut Desmettre; Dr Robert Larribau, médecin responsable CASU-144).
 
 #### 2.3.3.1 Why this environment
 
-The project needs three capabilities rarely housed together — quantitative methods, evidence synthesis, and access to a functioning emergency and public-health system — and the arrangement below provides them without depending on any one collaborator.
+The project needs three capabilities rarely housed together — quantitative methods, evidence synthesis, and access to a working emergency and public-health system — and the arrangement below provides them without depending on one collaborator.
 
 **Institute of Global Health.** Epidemiology, infectious-disease modelling and automated evidence extraction sit in one institute, alongside the surveillance methodology the project consumes; this is where the gap became visible. Independence is organisational — a programme led by me alongside the Institute's groups, not inside one (§2.6). **DS4DH** contributes the biomedical NLP and information retrieval WP1 needs.
 
-**Operational access — HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners; the AI-in-EMS review [Edjinedja 2026] evidences a functioning collaboration. No new relationship has to be created after the grant starts.
+**Operational access — HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners; the AI-in-EMS review [Edjinedja 2026] evidences the functioning collaboration. No new relationship needs creating after the grant starts.
 
 **Existing infrastructure.** LiteRev-Evidence is operational: 80,000+ publications, structured extraction with provenance and quality scoring, quality-weighted pooling into parameter distributions, connectors to MeteoSwiss, Copernicus ERA5 and surveillance sources. Ambizione does not fund its construction; it uses it. The legionellosis study (BASEC 2026-00324), under way with ethics granted, supplies the contrasting archetype.
 
-**Computing.** UNIGE HPC (Baobab/Yggdrasil), with the University's secure environment for clinical data (access requested; see table).
+**Computing.** UNIGE HPC (Baobab/Yggdrasil) and the University's secure environment for clinical data (requested; see table).
 
 #### 2.3.3.2 Commitments, by status
 
@@ -564,9 +566,9 @@ The design avoids a serial chain in which one uncertain result stops the project
 | Milestone | Month | Criterion |
 | --- | ---: | --- |
 | M1 | 9 | Quantitative extraction benchmark released |
-| M2 | 12 | Regime/state representation passes simulation identifiability criteria, or fallback selected |
-| M3 | 20 | Core retrospective information set harmonised, or open-data fallback activated |
-| M4 | 34 | Primary cold-start hypothesis tested against pre-specified model ladder |
+| M2 | 12 | Regime/state representation passes identifiability criteria, or fallback selected |
+| M3 | 20 | Retrospective information set harmonised, or open-data fallback activated |
+| M4 | 34 | Primary cold-start hypothesis tested on the pre-specified ladder |
 | M5 | 40 | Decision relevance established |
 | M6 | 48 | Cross-domain and prospective validation where feasible |
 
@@ -577,9 +579,9 @@ The design avoids a serial chain in which one uncertain result stops the project
 
 ### Scientific relevance
 
-The project tests an assumption crisis forecasting makes informally: that accumulated evidence from elsewhere is useful when local outcome data are insufficient. The result is useful either way — a principled, auditable way to borrow if the priors help; a stated boundary if they do not.
+The project tests an assumption crisis forecasting makes informally: that accumulated evidence from elsewhere is useful when local outcome data are insufficient. The result is useful either way — a principled, auditable way to borrow if priors help; a stated boundary if not.
 
-**A null result changes identifiable practice.** Modellers advising cantonal and federal preparedness routinely seed early-crisis models with parameters lifted from a few studies, and evidence-synthesis platforms — including my own — assume pooled estimates are reusable as priors. A calibrated null tells those groups the practice buys nothing where it is most used, and that effort belongs in acquiring local observations faster, not pooling external ones harder. A change of course, not an absence of finding.
+**A null result changes identifiable practice.** Modellers advising preparedness routinely seed early-crisis models with parameters lifted from a few studies, and evidence-synthesis platforms — including my own — assume pooled estimates are reusable as priors. A calibrated null tells those groups the practice buys nothing where it is most used, and that effort belongs in acquiring local observations faster, not pooling external ones harder. A change of course, not an absence of finding.
 
 **Form of publication.** Results appear as **articles in peer-reviewed journals** —
 methodological work in biostatistics and evidence-synthesis venues, applied results in
@@ -588,7 +590,7 @@ submission and open access throughout. The benchmark, evidence-to-prior library 
 code are released as **citable, versioned open datasets and software**. Results are presented at
 international conferences and returned to the operational partners who supplied the data.
 
-The project also leaves three durable resources, deliberately subordinate to the central question: **a quantitative extraction benchmark** testing whether automated synthesis preserves the uncertainty quantitative reuse needs; **an open reference framework** for evidence-informed latent-state forecasting with explicit borrowing, conflict detection and calibration; and **a decision-analytic evaluation framework** showing when a statistical improvement matters operationally. The project is not a new extraction system, an early-warning indicator or a forecasting competition.
+The project leaves three durable resources, subordinate to the central question: **a quantitative extraction benchmark** testing whether automated synthesis preserves the uncertainty quantitative reuse needs; **an open reference framework** for evidence-informed latent-state forecasting with explicit borrowing, conflict detection and calibration; and **a decision-analytic evaluation framework** showing when a statistical improvement matters operationally. The project is not a new extraction system, an early-warning indicator or a forecasting competition.
 
 ### Practical and societal impact
 
@@ -596,7 +598,7 @@ The practical contribution is preparedness rather than a promised clinical deplo
 
 ## 2.6 Relevance for personal career development
 
-**Why I am ready, and why now.** I have the methodological apparatus, the instrument and the domain access this project needs, and I have used all three inside other people's programmes. What I have not had is a research agenda that is mine to set, with the time to pursue it. Ambizione would mark that transition — from contributing to collaborative programmes to leading an independent one — at the point where the question is sharp enough to answer and the components are in place. My trajectory developed inside collaborative environments at UNIGE, stated here in full.
+**Why I am ready, and why now.** I have the methodological apparatus, the instrument and the domain access this project needs, and I have used all three inside other people's programmes. What I have not had is a research agenda that is mine to set, with the time to pursue it. Ambizione would mark that transition, at the point where the question is sharp enough to answer and the components are in place. My trajectory developed inside collaborative environments at UNIGE, stated here in full.
 
 Since 2019 I have worked on automated evidence extraction, led LiteRev and LiteRev-Evidence, and obtained development funding on my own initiative (CHF 30,000 UNIGE; CHF 10,000 Venture Kick; CHF 20,000 Mimosa). I have applied those capabilities in collaborative programmes; none has this project's objective.
 
@@ -608,15 +610,13 @@ Since 2019 I have worked on automated evidence extraction, led LiteRev and LiteR
 | MAS in Public Health | Teaching | Statistics and epidemiology | Not a research programme |
 | **Ambizione** | **Establish when evidence-derived priors help cold-start forecasting and when they harm it** | **PI, full-time** | — |
 
-**This project does not build another epidemic-intelligence platform.** It uses existing infrastructures to test a question that cuts across them, and which is a work package of none of them.
+**This project does not build another epidemic-intelligence platform.** It uses existing infrastructures to test a question that is a work package of none of them.
 
-**The question and the methods are mine.** It arose from a problem I met building LiteRev-Evidence: the platform could pool published estimates into priors, but nothing established whether those priors improved forecasting in a new setting. The methodological core came from fifteen years of quantitative finance, inherited from no group I have worked in. The platform is UNIGE intellectual property developed under my scientific direction; the project uses it and does not depend on owning it.
+**The question and the methods are mine.** It arose from a problem I met building LiteRev-Evidence: the platform could pool published estimates into priors, but nothing established whether those priors improved forecasting in a new setting. The methodological core came from fifteen years of quantitative finance, inherited from no group I have worked in. The platform is UNIGE intellectual property developed under my scientific direction.
 
-**On collaborators, stated plainly.** Prof. Olivia Keiser leads the group in which I developed LiteRev, directs the MAS on which I teach, and leads the legionellosis study and GeoAI4EI; she co-authors my doctoral and post-doctoral output — the expected profile at this stage — and remains an important collaborator, with no role in this project. Prof. Douglas Teodoro leads GESICA, delimited above, and provides the WP1 biomedical-NLP collaboration.
+**On collaborators, stated plainly.** Prof. Olivia Keiser leads the group in which I developed LiteRev, directs the MAS on which I teach, and leads the legionellosis study and GeoAI4EI; she co-authors my doctoral and post-doctoral output — the expected profile at this stage — and remains an important collaborator, with no role in this project. Prof. Douglas Teodoro leads GESICA and provides the WP1 biomedical-NLP collaboration.
 
-**The organisational position is the substance of the transition.** The project will be hosted by the **Institute of Global Health**, where I will lead an independent research programme rather than continue as a member of an existing group, in collaboration with the Institute's groups — including the one in which I developed LiteRev. The host confirmation will be signed at institute level, not by the leader of any group whose grants currently fund me.
-
-The Institute's expertise — including my long-standing collaboration with Aziza Merzouki — and its links to HUG, CASU-144 and the cantonal services are described in §2.3.3. The programme is executable by the PI and one budgeted technical collaborator: **no named individual is load-bearing, by design.**
+**The organisational position is the substance of the transition.** The project will be hosted by the **Institute of Global Health**, where I will lead an independent research programme rather than continue as a member of an existing group, in collaboration with the Institute's groups — including the one in which I developed LiteRev. The host arrangements, and the institutional guarantees of the PI's independence, are documented in the required confirmation letters. The programme is executable by the PI and one budgeted collaborator: **no named individual is load-bearing, by design.**
 
 **Where this leads.** This project establishes my independent research programme at the intersection of automated evidence synthesis, quantitative modelling of rare transitions and emergency public health: when published evidence can — and cannot — substitute for missing local data, how its uncertainty should propagate into forecasts, and when external evidence becomes harmful rather than informative. By month 48 I intend to hold a validated answer, two open resources the field can build on, and a first-author methodological record in my own name — the basis for a group-leadership position or professorship. The follow-on programme relaxes the boundary this project keeps deliberately clean: fusing evidence streams of different velocity — literature, situational reporting, structured feeds — in one calibrated state model, conflict monitoring deciding how much each may say. This project supplies the evidence on whether borrowing helps and where it fails: an opening move, not a single study. The grant's full-time commitment makes that possible — my research time is currently divided across four collaborative programmes; Ambizione consolidates it into one.
 
