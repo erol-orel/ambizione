@@ -94,6 +94,14 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   programme. That is the career-transition story the scheme asks for.
 - Keiser relationship → stated in §5.3 with all four roles named.
 - Scientific identity sentence → adopted verbatim (extended form), closing §5.3.
+- **Rejoin IDMM as a member? → No (applicant decision, 30 Sep 2026).** Considered on
+  epidemiological-credibility grounds; declined because the alongside structure already exists
+  (§2.6 names collaboration with the Institute's groups incl. IDMM; Teodoro/144/ED are named
+  partners), and membership would negate the load-bearing §2.6 sentence ("rather than continue
+  as a member of an existing group"), make Keiser the template's contact person, and unwind the
+  Ray/institute-level signature construction. Epi credibility rests on the applicant's record +
+  institute environment, both already claimed. Revisit only if two external readers
+  independently find the epidemiological grounding thin (freeze-break rule).
 
 ## Next empirical task — the episode inventory
 
