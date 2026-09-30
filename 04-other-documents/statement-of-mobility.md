@@ -120,8 +120,10 @@ then move on.
       invitation letter and detailed budget would be **mandatory** if one were, per Art. 9 §7.)
 - [ ] **Obtain the SNSF mobility form** from mySNF and fill it in Adobe Acrobat. The prose in this
       repository is input, not the deliverable.
-- [ ] Name 2–3 concrete short visits and the running international collaborations, to satisfy
-      Art. 9 §3 via §4(c). This is mandatory content, not optional colour.
-- [ ] Argue all four institution-choice triggers explicitly under dimension 1.
+- [x] Draft v2 (30 Sep) restructured **dimension by dimension in the form's order**, each with
+      retrospective and prospective entries; the four institution-choice triggers argued under
+      dimension 1 — see `statement-of-mobility-draft.md`.
+- [ ] **Name the 2–3 short visits in dimension 2** (groups, indicative years) — the draft's one
+      remaining blank; mandatory content under Art. 9 §3/§4(c).
 - [ ] Confirm what organisational designation the Faculty can make for an independent programme
       within the Institute, so §2.6 and this statement describe the same thing.
