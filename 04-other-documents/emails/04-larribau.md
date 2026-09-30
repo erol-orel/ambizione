@@ -67,7 +67,7 @@ J'aimerais également vous associer au **recueil des seuils d'escalade** auprès
 c'est la partie du projet qui décide si le résultat sera utile ou seulement correct, et elle ne
 peut se faire qu'avec celles et ceux qui agissent sur ces seuils.
 
-Une réponse d'ici le **`[[12 septembre]]`** me serait très utile.
+Une réponse d'ici le **`[[13 octobre]]`** me serait très utile.
 
 Avec mes remerciements et mes salutations les meilleures,
 Erol

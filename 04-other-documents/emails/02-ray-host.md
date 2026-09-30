@@ -66,7 +66,7 @@ responsable** — c'est la transition de carrière que l'instrument est censé f
 
 Je peux préparer un projet de lettre sur la base du modèle FNS si cela vous épargne du temps. Le
 RGO m'indiquera le délai interne UNIGE, vraisemblablement bien avant le 3 novembre ; une première
-réponse d'ici le **`[[12 septembre]]`** me serait précieuse, et je serais ravi d'en discuter de
+réponse d'ici le **`[[13 octobre]]`** me serait précieuse, et je serais ravi d'en discuter de
 vive voix.
 
 Avec mes meilleures salutations,

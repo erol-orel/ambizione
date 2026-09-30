@@ -41,7 +41,7 @@ Separately from the grant, I would still value your view on **the formal route t
 doctoral students** — whether directly or only as co-supervisor, and what that requires
 procedurally. It matters for how the line develops beyond this project, not for the budget.
 
-Given the deadline, a first answer by **`[[12 September]]`** would help a great deal. I would be
+Given the deadline, a first answer by **`[[13 October]]`** would help a great deal. I would be
 glad to come and talk it through whenever suits you.
 
 With best wishes,

@@ -1,5 +1,9 @@
 # Emails to send this week
 
+> **Dates refreshed 30 Sep:** reply-by dates are now 9 Oct (RGO) and 13 Oct (all others);
+> reader emails (`06-readers.md`) ping 1 Oct, plan out 3 Oct, replies due **16 Oct**.
+> Send order and daily anchors: `CALENDAR.md`.
+
 Six emails, five purposes. Order matters: **RGO first** — its answers (who signs the host
 confirmation, internal deadline, salary rates) feed the others. Then Ray, then the rest the same
 day; they reference each other, and people compare notes.
@@ -12,6 +16,7 @@ day; they reference each other, and people compare notes.
 | Prof. Thibaut Desmettre | ED data (additional channel) + **lettre de collaboration** + threshold-elicitation role | French | `03-desmettre.md` |
 | Dr Robert Larribau | **144/CASU data — the primary outcome series** + lettre de collaboration | French | `04-larribau.md` |
 | Prof. Alexandra Calmy | **Courtesy note** — informs, asks nothing; send after Ray | French | `05-calmy-courtoisie.md` |
+| 3–4 external readers | **Critical read of the plan** — ping 1 Oct, send 3 Oct, reply by 16 Oct | FR/EN | `06-readers.md` |
 
 ## Three rules these follow
 
@@ -22,7 +27,7 @@ day; they reference each other, and people compare notes.
    it is a **lettre de collaboration, not a lettre de soutien**: the SNSF discards letters that
    praise the applicant or the project (Guidelines 2.17), and both emails now say so to the
    signatory explicitly.
-3. **Give a date, and make it earlier than you need.** `[[12 September]]` throughout — adjust once
+3. **Give a date, and make it earlier than you need.** (Now 9/13 October.) `[[13 October]]` throughout — adjust once
    the grants office confirms the UNIGE internal deadline.
 
 ## What to attach

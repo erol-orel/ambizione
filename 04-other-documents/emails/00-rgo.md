@@ -72,7 +72,7 @@ l'institut/du département**.
   pouvez-vous confirmer qu'il n'y a pas d'incompatibilité de soumission parallèle (art. 13 du
   règlement), et m'indiquer où ces financements se déclarent dans mySNF ?
 
-Compte tenu du délai interne que vous m'indiquerez, une réponse d'ici le **`[[5 septembre]]`** me
+Compte tenu du délai interne que vous m'indiquerez, une réponse d'ici le **`[[9 octobre]]`** me
 permettrait de lancer les demandes de lettres dans la foulée. Je suis bien entendu disponible pour
 un court échange téléphonique si c'est plus simple.
 

@@ -56,7 +56,7 @@ structuré des seuils d'escalade (protocole SHELF, avec médecins urgentistes et
 capacités) et sur l'évaluation prospective en mode observation prévue en fin de projet
 (prévisions enregistrées, non utilisées pour décider : aucune implication clinique).
 
-Une réponse d'ici le **`[[12 septembre]]`** me serait très utile compte tenu du délai.
+Une réponse d'ici le **`[[13 octobre]]`** me serait très utile compte tenu du délai.
 
 Avec mes remerciements et mes salutations les meilleures,
 Erol

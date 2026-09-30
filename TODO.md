@@ -19,6 +19,10 @@
 >    trigger to calibrate, not a margin. Then 15-page/visual QA of the final PDF.
 >
 > Prose edits after this point only if forced by one of the six items above.
+>
+> **Day-by-day pacing for all of this: `CALENDAR.md`** (readers ping 1 Oct → replies 16 Oct;
+> submission target Fri 30 Oct). The CCER package for the operational data is drafted in
+> `04-other-documents/ccer/` — the DPO route question goes out Thu 2 Oct.
 
 Settled and no longer open: eligibility (RGO-confirmed), host (Institute of Global Health,
 independent programme), no research stay (equivalent mobility via short visits/collaborations,
