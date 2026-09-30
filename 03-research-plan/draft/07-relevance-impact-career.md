@@ -13,7 +13,7 @@ throughout. The benchmark, the evidence-to-prior library and the evaluation code
 **citable, versioned open datasets and software**. Results are also presented at international
 conferences and returned to the operational partners who supplied the data.
 
-The project also leaves three durable resources, deliberately subordinate to the central question: **a quantitative extraction benchmark** for testing whether automated synthesis preserves the uncertainty needed for quantitative reuse; **an open reference framework** for evidence-informed latent-state forecasting with explicit borrowing, conflict detection and calibration; and **a decision-analytic evaluation framework** showing when a statistical improvement is large enough to matter operationally. The project is not a new extraction system, a new early-warning indicator or a forecasting competition.
+The project also leaves three durable resources, deliberately subordinate to the central question: **a quantitative extraction benchmark** testing whether automated synthesis preserves the uncertainty quantitative reuse needs; **an open reference framework** for evidence-informed latent-state forecasting with explicit borrowing, conflict detection and calibration; and **a decision-analytic evaluation framework** showing when a statistical improvement matters operationally. The project is not a new extraction system, an early-warning indicator or a forecasting competition.
 
 ### Practical and societal impact
 
@@ -21,7 +21,7 @@ The practical contribution is preparedness rather than a promised clinical deplo
 
 ## 2.6 Relevance for personal career development
 
-**Why I am ready, and why now.** I have the methodological apparatus, the instrument and the domain access this project needs, and I have used all three inside other people's programmes. What I have not had is a research agenda that is mine to set, with the time to pursue it. Ambizione would mark that transition — from contributing to collaborative programmes to leading an independent one — at the point where the question is sharp enough to answer and the components are in place. My trajectory developed inside collaborative environments at the University of Geneva, and I state them in full rather than at a distance.
+**Why I am ready, and why now.** I have the methodological apparatus, the instrument and the domain access this project needs, and I have used all three inside other people's programmes. What I have not had is a research agenda that is mine to set, with the time to pursue it. Ambizione would mark that transition — from contributing to collaborative programmes to leading an independent one — at the point where the question is sharp enough to answer and the components are in place. My trajectory developed inside collaborative environments at UNIGE, stated here in full rather than at a distance.
 
 Since 2019 I have worked on automated evidence extraction, led the development of LiteRev and LiteRev-Evidence, and obtained development funding on my own initiative (CHF 30,000 UNIGE; CHF 10,000 Venture Kick; CHF 20,000 Mimosa). I have since applied those capabilities in collaborative programmes; none has this project's objective.
 

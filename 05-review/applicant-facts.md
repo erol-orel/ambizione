@@ -20,10 +20,11 @@ access to the HUG centrale's data is already established within GESICA (voice ex
 volume figure flagged for reconfirmation (dropped in v5); §2.3.1 carries the [Schulte 2024]
 caveat with pre-specified 75+ sensitivity for the heat arm; three referenced citations (Schulte
 2024, Ragettli 2019, Zheng 2015, with DOIs from the inventory's own reference list) close the
-bibliography's heat-literature gap. **Open decision for the applicant (registration point 2):
-the heat-arm outcome — respiratory-restricted (clean design, weak Swiss signal) vs all-cause /
-heat-sensitive-cause demand (more signal, weaker same-outcome argument).** See the addendum in
-`step0-evaluation-set.md`. D24's official heat-warning thresholds are the natural heat onset rule
+bibliography's heat-literature gap. ~~Open decision: the heat-arm outcome.~~ **Decided 30 Sep (delegated to me by the applicant):
+heat-sensitive demand** — same CASU-144 series and construction, cause classes (dehydration,
+renal, psychiatric per the Swiss evidence) fixed at the second registration point;
+respiratory-restricted and 75+ as pre-specified sensitivities. Rationale in
+`hypothesis-audit.md`; applied in §2.3.1, T3.0 and Test 2 of T3.3. D24's official heat-warning thresholds are the natural heat onset rule
 and episode list; note the 2021 definition change.
 
 **Publication record (corrected 19 Aug).** The applicant reports **four first-author papers and

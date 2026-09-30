@@ -30,11 +30,10 @@
 >    asthma ED visits is documented internationally [Zheng 2015] with no recent Swiss
 >    acute-episode study (a stated contribution space). **Consequence:** a heat test scored on
 >    *respiratory-restricted* demand may be near-null by construction. The plan now cites
->    Schulte and pre-specifies age-stratified sensitivity (75+) for the heat arm. **The open
->    applicant decision:** keep respiratory-restricted demand for the heat arm (clean
->    same-outcome design, accepting low signal), or pre-specify the heat arm on all-cause or
->    heat-sensitive-cause demand (more signal, weaker "same outcome" argument). This must be
->    fixed at the second registration point, not after looking at data.
+>    Schulte and pre-specifies age-stratified sensitivity (75+) for the heat arm. **Decided 30 Sep
+>    (delegated):** the heat arm scores **heat-sensitive demand** — same series, same
+>    construction, cause classes fixed at registration point 2 — with respiratory-restricted
+>    and 75+ as sensitivities. See `hypothesis-audit.md` for the rationale.
 > 6. New sources D26 (asthma/COPD care recourse — OFS/SpiGes, Obsan, HUG/CHUV/RHNe) and D27
 >    (weekly mortality) are candidate covariates/validation series for the heat arm.
 

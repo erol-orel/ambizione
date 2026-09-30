@@ -1,9 +1,9 @@
 ## 2.2 Current state of personal research and competences required for the project
 
 My route here is unusual and it is why the project is tractable: fifteen years in quantitative
-finance — risk modelling, extreme value estimation for non-Gaussian tails, regime and factor
+finance — risk modelling, extreme-value estimation for non-Gaussian tails, regime and factor
 models, stress testing — then a doctorate in biomedical sciences at Geneva (defended 18 December
-2023). The instruments this proposal brings to health-system surge are the ones I used daily to
+2023). The instruments this proposal brings to health-system surge are those I used daily to
 anticipate rare, costly transitions elsewhere.
 
 ### 2.2.1 Prediction under sparse and imperfect information
@@ -67,12 +67,11 @@ question the system raises, not to build it.
 
 ### 2.2.5 Linked data on a contrasting crisis archetype
 
-I lead the data work on a cantonal study **already under way** (BASEC 2026-00324, ethics granted)
-linking confirmed legionellosis cases in Geneva to individual domestic hot water installations,
-with technical, meteorological and territorial covariates. The linkage is, to my knowledge,
-unique, and it supplies a waterborne outbreak archetype whose dynamics differ fundamentally from a
-respiratory epidemic — the hardest available test of whether a forecasting framework generalises
-across crisis types.
+I lead the data work on a cantonal study **already under way** (BASEC 2026-00324, ethics
+granted) linking confirmed legionellosis cases in Geneva to individual domestic hot water
+installations, with technical, meteorological and territorial covariates. The linkage is, to my
+knowledge, unique; it supplies a waterborne archetype whose dynamics differ fundamentally from a
+respiratory epidemic — the hardest available test of cross-crisis generalisation.
 
 ### 2.2.6 Position and competences
 

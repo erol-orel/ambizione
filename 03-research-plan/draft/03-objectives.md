@@ -54,16 +54,16 @@ indicators. It isolates each increment rather than pitting a final model against
 
 **Primary confirmatory comparison — one, stated once.** Rung 4 (fixed evidence-derived priors)
 against rung 3 (weakly informative priors), by **CRPS skill score**, over the pre-specified
-cold-start window `[[first N weeks after onset]]`, **on respiratory episodes only**, pooled across
-origins. Every other contrast is secondary and labelled so. The **shape of the advantage over
-elapsed local data** is also reported: it should decay to nothing, and that decay curve is the
+cold-start window `[[first N weeks after onset]]`, **on respiratory episodes only**, pooled
+across origins. Every other contrast is secondary and labelled so. The **shape of the advantage
+over elapsed local data** is also reported: it should decay to nothing; that decay curve is the
 descriptive result.
 
 **Ordering across the two core domains.** Heat carries the same contrast as a **sequential
-generalisation test**, run only if the respiratory test is met — fixed-order testing controls the
-family-wise error rate without a multiplicity penalty, and follows the science: respiratory
+generalisation test**, run only if the respiratory test is met — fixed-order testing controls
+the family-wise error rate without a multiplicity penalty, and follows the science: respiratory
 evidence is richest, heat transport hardest. A respiratory-positive, heat-negative result is a
-boundary condition on transportability, and is reported as one.
+boundary condition on transportability, reported as one.
 
 #### O4 — Establish whether predictive improvement is decision-relevant
 
@@ -76,18 +76,22 @@ Threshold elicitation, net benefit and counterfactual analysis are downstream te
 #### Validation domains
 
 The domains span **two contrasting model classes** from my GESICA classification — interhuman
-respiratory transmission, and environmentally mediated exposure — chosen for contrast in
-dynamics, not convenience. Both are measured on **the same outcome**, daily respiratory-related
-emergency demand: heat- and pollution-driven exacerbations feed the same care demand as an
-epidemic, so generalisation is tested across mechanisms rather than incommensurable measures.
+respiratory transmission, and environmentally mediated exposure. Both arms score **the same
+quantity, built the same way**: daily emergency demand from the CASU-144 series, restricted to
+the cause classes the archetype's evidence base concerns (T3.0). For epidemics, respiratory-related
+demand; for heat, **heat-sensitive demand** — Swiss evidence places heat effects in dehydration,
+renal and psychiatric admissions, while the respiratory effect is weak and concentrated at older
+ages [Schulte 2024; Ragettli 2019]. Scoring heat forecasts on an outcome heat barely moves would
+test nothing about evidence transport; matching each arm's outcome to its evidence base makes the
+generalisation test a test of borrowing, not of the outcome definition.
 
-| Archetype | Role in the project | Dynamics | Data |
+| Archetype | Role in the project | Dynamics | Outcome and data |
 | --- | --- | --- | --- |
-| **Respiratory epidemic** | Primary confirmatory domain | Transmissible, multi-wave, seasonal | COVID-19 and influenza as principal validation episodes; RSV supporting |
-| **Heatwave** | Sequential generalisation test | Environmental, short and sharply peaked | Same demand outcome, driven by MeteoSwiss exposures |
+| **Respiratory epidemic** | Primary confirmatory domain | Transmissible, multi-wave, seasonal | Respiratory-related demand; COVID-19 and influenza principal, RSV supporting |
+| **Heatwave** | Sequential generalisation test | Environmental, short and sharply peaked | Heat-sensitive demand, same series and construction; MeteoSwiss exposures |
 | **Waterborne outbreak** | Year-4 extension | Common-source / environmentally mediated | Geneva legionellosis linked to installations |
 
-The first domain carries the confirmatory claim; the second tests generalisation. Swiss evidence for heat effects on **respiratory** emergency admissions is weak overall and concentrated at older ages [Schulte 2024] — exactly what makes heat the demanding transport test, and why age-stratified sensitivity `[[75+]]` is pre-specified for that arm. The third tests a substantially different mechanism; its omission does not invalidate the main result.
+The first domain carries the confirmatory claim; the second tests generalisation across mechanism, evidence base and outcome window at once — the demanding transport test. The third tests a substantially different mechanism; its omission does not invalidate the main result.
 
 #### What the project does not claim
 

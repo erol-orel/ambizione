@@ -81,9 +81,19 @@ Resolution adopted: **fixed-order hierarchical testing.**
 | | Respiratory | Heat |
 | --- | --- | --- |
 | Role | **Primary confirmatory domain** | Sequential generalisation test |
+| Outcome | Respiratory-related demand (CASU-144, pre-specified classification) | **Heat-sensitive demand** — same series and construction, cause classes fixed at registration per the Swiss evidence [Schulte 2024]; respiratory-restricted and 75+ as sensitivities |
 | Contrast | Rung 4 vs rung 3, CRPS skill score | Identical contrast |
 | Condition to run | None — always evaluated | Only if the respiratory test is met |
 | Level | Full α | Full α (protected by the fixed order) |
+
+**Heat-arm outcome decision (30 Sep 2026, delegated by the applicant):** heat-sensitive demand,
+not respiratory-restricted. Rationale: Swiss evidence (cumulative RR ≈ 1.03 for respiratory,
+significant only at 75–84) would make a respiratory-restricted heat test near-null by
+construction — it would test the outcome definition, not evidence transport. Matching each arm's
+outcome to its evidence base preserves the same-quantity-same-construction structure (both are
+CASU-144 demand under a pre-registered cause classification) while making the generalisation
+test informative either way. The cause-class list is fixed at the second registration point,
+before any evaluation.
 
 No multiplicity correction is required because the order is fixed in advance and the second test
 is conditional on the first. A respiratory-positive, heat-negative outcome is reported as a

@@ -49,6 +49,4 @@ stated concretely enough that a referee can see the work is resourced.]]`
 
 #### 2.3.3.4 Preparatory work before the grant starts
 
-Advanced before month 1, as preparatory conditions rather than grant-funded work: **data agreements** with HUG, 144/CASU and intensive care; **CCER preparation with myself as applicant**; and **infrastructure hardening** of LiteRev-Evidence before clinical data are connected.
-
-Feasibility rests on one structural property — **the instrument already exists** — and on the fallbacks set out above, each of which leaves the central question answerable with the claim narrowed and the narrowing stated.
+Advanced before month 1, as preparatory conditions rather than grant-funded work: **data agreements** with HUG and 144/CASU; **CCER preparation with myself as applicant**; and **infrastructure hardening** of LiteRev-Evidence before clinical data connect. Feasibility rests on one structural property — **the instrument already exists** — and on the fallbacks above, each leaving the central question answerable with the claim narrowed and the narrowing stated.
