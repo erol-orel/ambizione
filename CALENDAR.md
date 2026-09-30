@@ -17,7 +17,7 @@ collide with final assembly.
 | Day | Do |
 | --- | --- |
 | **Wed 1** | **Send the RGO email** (`emails/00-rgo.md`; reply-by 9 Oct). **Create/verify the mySNF account** ("grant applicant" role — takes days, so today). Pick your **3–4 external readers** (see profiles below) and send the availability ping (`emails/06-readers.md`, part 1). |
-| **Thu 2** | **Send the Ray email** (`02-ray-host.md`, SNSF template attached; reply-by 13 Oct). Update your **ORCID** public profile (goes to reviewers). Email the **DPO** with the CCER route question (`ccer/01` + `ccer/03` attached). |
+| **Thu 2** | **Send the Ray email** (`02-ray-host.md`, SNSF template attached; reply-by 13 Oct). Update your **ORCID** public profile (goes to reviewers). Email the **DPO** with the CCER route question (**drafted: `04-other-documents/emails/07-dpo.md`**; attach `ccer/01` + `ccer/03` as PDF; reply-by 13 Oct). |
 | **Fri 3** | **Send the plan to the readers who said yes** (assembled PDF + the 5 focused questions; **reply-by Friday 16 October**). **Send Teodoro, Desmettre, Larribau** (`01/03/04`, project note + collaboration-letter draft attached; reply-by 13 Oct). |
 
 ## Week 2 — Mon 6 to Fri 10 October: portal mechanics, nothing blocking others

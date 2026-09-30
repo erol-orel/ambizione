@@ -4,7 +4,7 @@
 > reader emails (`06-readers.md`) ping 1 Oct, plan out 3 Oct, replies due **16 Oct**.
 > Send order and daily anchors: `CALENDAR.md`.
 
-Six emails, five purposes. Order matters: **RGO first** — its answers (who signs the host
+Eight emails. Order matters: **RGO first** — its answers (who signs the host
 confirmation, internal deadline, salary rates) feed the others. Then Ray, then the rest the same
 day; they reference each other, and people compare notes.
 
@@ -17,6 +17,7 @@ day; they reference each other, and people compare notes.
 | Dr Robert Larribau | **144/CASU data — the primary outcome series** + lettre de collaboration | French | `04-larribau.md` |
 | Prof. Alexandra Calmy | **Courtesy note** — informs, asks nothing; send after Ray | French | `05-calmy-courtoisie.md` |
 | 3–4 external readers | **Critical read of the plan** — ping 1 Oct, send 3 Oct, reply by 16 Oct | FR/EN | `06-readers.md` |
+| UNIGE DPO (cc HUG DPO) | **CCER route qualification** — anonymous aggregates vs Art. 34 LRH; send Thu 2 Oct with `ccer/01` + `ccer/03` | French | `07-dpo.md` |
 
 ## Three rules these follow
 

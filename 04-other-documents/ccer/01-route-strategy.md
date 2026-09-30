@@ -23,8 +23,10 @@ that quietly grows.
 
 ## Immediate actions (before the Ambizione deadline)
 
-1. `[[Ask the UNIGE/HUG data protection officer]]` which route they read this as — one email,
-   attach `03-data-specification.md`. Their answer determines everything downstream.
+1. Ask the data protection officer which route they read this as — **drafted:
+   `../emails/07-dpo.md`** (to the UNIGE DPO, cc HUG DPO once the 144 custodian is named), with
+   this file and `03-data-specification.md` attached. Their answer determines everything
+   downstream.
 2. File the **jurisdictional inquiry** on BASEC if the DPO concurs with Route A/C — it is cheap,
    fast, and its reference number is a concrete feasibility fact for the application.
 3. Name HUG's data custodian for the 144 (Larribau's answer to question 4 in his email).
