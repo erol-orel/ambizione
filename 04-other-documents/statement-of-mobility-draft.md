@@ -42,7 +42,7 @@ emergency medicine and the CASU-144 on operational data and a joint systematic r
 the cantonal public-health services on the legionellosis study, for which I hold the data lead
 under an ethics approval already granted (BASEC 2026-00324).
 
-**The choice of host, stated plainly.** I have been at my present institution for more than a
+**The choice of host.** I have been at my present institution for more than a
 year, I did my doctorate there, and it is the institution of my doctoral advisor - every reason
 the guidelines give for motivating the choice carefully applies to me. The motivation is
 concrete: the project's primary outcome series (CASU-144), the emergency-medicine partnerships,

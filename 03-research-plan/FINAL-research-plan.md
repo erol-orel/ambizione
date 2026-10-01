@@ -560,7 +560,7 @@ the biomedical NLP for T1.3; HUG and CASU-144 the data access and T4.1 elicitati
 
 The design avoids a serial chain in which one uncertain result stops the project: WP2 falls back to weakly informative priors if WP1 finds extraction inadequate, WP3 to open surveillance data if operational access is delayed, and WP4's decision analysis is retrospective, independent of prospective deployment.
 
-**What the data fallback costs, stated plainly.** Open surveillance series are not the same outcome as emergency-system demand. Falling back **preserves the methodological test but narrows the outcome claim**, from operational demand to routinely observed crisis indicators, and turns most of WP4's decision analysis illustrative. Hence the agreements are a pre-award action, not a risk to manage later.
+**What the data fallback costs.** Open surveillance series are not the same outcome as emergency-system demand. Falling back **preserves the methodological test but narrows the outcome claim**, from operational demand to routinely observed crisis indicators, and turns most of WP4's decision analysis illustrative. Hence the agreements are a pre-award action, not a risk to manage later.
 
 | Milestone | Month | Criterion |
 | --- | ---: | --- |
@@ -613,7 +613,7 @@ Since 2019 I have worked on automated evidence extraction, led LiteRev and LiteR
 
 **The question and the methods are mine.** It arose from a problem I met building LiteRev-Evidence: the platform could pool published estimates into priors, but nothing established whether those priors improved forecasting in a new setting. The methodological core came from fifteen years of quantitative finance, inherited from no group I have worked in. The platform is UNIGE intellectual property developed under my scientific direction.
 
-**On collaborators, stated plainly.** Prof. Olivia Keiser leads the group in which I developed LiteRev, directs the MAS on which I teach, and leads the legionellosis study and GeoAI4EI; she co-authors my doctoral and post-doctoral output (the expected profile at this stage) and remains an important collaborator, with no role here. Prof. Douglas Teodoro leads GESICA and provides the WP1 biomedical-NLP collaboration.
+**Collaborators and their roles.** Prof. Olivia Keiser leads the group in which I developed LiteRev, directs the MAS on which I teach, and leads the legionellosis study and GeoAI4EI; she co-authors my doctoral and post-doctoral output (the expected profile at this stage) and remains an important collaborator, with no role here. Prof. Douglas Teodoro leads GESICA and provides the WP1 biomedical-NLP collaboration.
 
 **The organisational position is the substance of the transition.** The project will be hosted by the **Institute of Global Health**, where I will lead an independent research programme rather than continue as a member of an existing group, in collaboration with the Institute's groups, including the one in which I developed LiteRev. The host arrangements, and the institutional guarantees of the PI's independence, are documented in the required confirmation letters. The programme is executable by the PI and one budgeted collaborator: **no named individual is load-bearing, by design.**
 

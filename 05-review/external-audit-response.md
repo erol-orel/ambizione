@@ -152,3 +152,55 @@ one-page project note now specify that call-reason/presentation categories must 
 outcome arms (respiratory-related and heat-sensitive: dehydration, renal, psychiatric) plus
 broad age bands for the 75+ sensitivity - without this, the extract could satisfy the letter of
 the request and still not support the heat arm.
+
+---
+
+## Round 4 (1 October 2026): "defensive to visionary" tone audit
+
+A fourth external audit argued the proposal's tone is too defensive and supplied full rewrites
+of the Summary and §2.6. Disposition below. The freeze rule applied throughout: tone is a
+reader-round question, and one opinion does not break the freeze - if two of the four external
+readers (replies due 16 Oct) independently converge on "too defensive", that is the trigger to
+revisit.
+
+**Applied (label-level only, no science, no claims changed):**
+- The "stated plainly" tic appeared three times across documents the panel reads side by side.
+  Fixed: §2.4 "What the data fallback costs." / §2.6 "Collaborators and their roles." /
+  mobility statement "The choice of host." Content unchanged; 19 characters recovered
+  (now 59,612/60,000).
+
+**Rejected, with reasons:**
+- *Summary rewrite.* Drops the falsifiability sentence ("The outcome is intentionally
+  falsifiable... either way, the deliverable is a validated answer"), which is among the
+  strongest Ambizione signals in the document; adds puffery ("vast, largely untapped resource",
+  "critical paradox", "positions me optimally"); and closes on "establish my independent
+  research group", which overclaims against the 2026 rules (no doctoral students or postdocs
+  can be employed - "independent research programme" was chosen deliberately). It is also
+  written throughout with em-dashes, which this repository bans.
+- *§2.6 rewrite.* Contains factual errors: it asserts "the intellectual property... under my
+  sole scientific direction" when the IP is UNIGE's (the plan states this correctly); "my role
+  has been to build the infrastructure for broader consortium goals" contradicts the record
+  (led LiteRev, data/scientific lead on the legionellosis study, senior-author paper) and would
+  *weaken* the independence case; "my doctoral and postdoctoral supervisors (e.g., Prof. Olivia
+  Keiser)" implies an undisclosed plurality of supervisors; "To be absolutely clear on
+  organizational independence" tells what the current text shows; naming "SNSF Starting Grant"
+  commits to a specific follow-on instrument gratuitously.
+- *"A confidently wrong prior is worse than no prior."* Not tone - a scientific claim that
+  motivates H3b and the harm-detection arm. Removing it removes the reason half the design
+  exists.
+- *"Not another untested forecasting platform" / "does not build another epidemic-intelligence
+  platform."* These carry the distinctness argument against GESICA/GeoAI4EI overlap (Art. 13
+  and §2.5's distinction table). Softening them reopens the overlap question three audit
+  rounds closed.
+- *"Earlier would be guesswork; after any look at performance, indefensible."* The suggested
+  replacement ("to prevent data leakage and ensure unbiased evaluation...") restates the
+  paragraph's content in boilerplate and loses the justification for *where* the second
+  registration point sits.
+- *Simulation sentence.* The proposed passive rewrite drops the double-counting argument, which
+  is the substantive reason simulation is not data.
+- *Renaming "What the project does not claim" to "Scope and Boundaries".* The explicit
+  non-claims list is a strength reviewers reward; the generic heading hides it.
+- *Wholesale tone shift.* The candor was engineered across three hostile-review rounds; SNSF
+  evaluation rewards feasibility and honesty over vision rhetoric. The audit itself rates the
+  hypothesis matrix, the fallback logic and the work packages "already excellent" - all written
+  in the voice it asks to replace.
