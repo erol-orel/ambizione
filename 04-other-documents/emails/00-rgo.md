@@ -1,88 +1,58 @@
-# To the UNIGE Research Grants Office: send FIRST
+# To the UNIGE Research Grants Office: remaining questions only
 
 > À : research-grants-office@unige.ch
-> Objet : Ambizione, appel 2026 (délai FNS 3 novembre) - délai interne et questions pratiques
+> Objet : Ambizione 2026: questions budget, statut et déclarations (dossier via le formulaire
+> RGO d'ici le 19 octobre)
 
-**Why this email goes before the others:** its answers unblock the host-confirmation request
-(who signs, what wording), the budget (salary rates) and the timeline (the internal deadline is
-the one that actually binds). Everything in it is a question only the RGO can answer.
-
-`[[Adapter la formule d'appel si vous avez déjà un contact nommé au RGO - vous leur avez déjà
-écrit pour la question d'éligibilité; répondre dans ce fil conserve le contexte.]]`
+**What changed on 6 Oct:** the RGO page and form answered the old questions 1 and 2 (internal
+deadline = **form by Monday 19 October**; procedure = Formulaire RGO with signed letter + FNS
+CV + ethics statement; the contact person is "the supervisor", so the signature plan is
+settled). **The letter request itself goes through the form, not this email.** What remains are
+the questions below; read the page's FAQ panels first (salary, budget tool, overheads) and
+delete anything a panel already answers.
 
 ---
 
 Madame, Monsieur,
 
-**Question urgente d'abord :** pour l'appel Ambizione 2025, le délai interne pour le dépôt de
-l'attestation détaillée signée était le 6 octobre. **Quel est le délai interne pour l'appel
-2026**, et si la date est déjà passée ou imminente, quelle est la date limite effective à
-laquelle je peux encore déposer le dossier complet (attestation signée, CV au format FNS,
-résumé du projet) ? La signature de l'institut est en cours cette semaine.
+Je prépare une candidature **Ambizione** (dépôt FNS le 3 novembre) avec l'Institut de santé
+globale comme institution hôte ; je déposerai le dossier de confirmation via votre formulaire
+d'ici le 19 octobre. Vous m'avez déjà confirmé mon éligibilité, merci encore. Il me reste les
+questions suivantes :
 
-Je prépare une candidature au subside **Ambizione** (dernier appel, délai FNS **3 novembre 2026,
-17h00**), avec l'**Institut de santé globale** de la Faculté de médecine comme institution hôte.
-Vous m'avez récemment confirmé mon éligibilité - merci encore. Pour finaliser le dossier, j'aurais
-besoin des précisions suivantes ; je les ai regroupées pour vous faciliter la réponse.
+**1. Salaires et budget**
 
-**1. Délai et procédure internes**
+- **Salaire du requérant** : je suis en **classe 19, annuité 9**, au-dessus du montant indicatif
+  FNS de CHF 115'000. Le FNS m'a indiqué de saisir le montant maximal dans mySNF, l'ajustement
+  se faisant ensuite. Pouvez-vous me confirmer le montant exact à saisir selon la grille UNIGE,
+  et les taux de charges patronales applicables ?
+- **Personnel de soutien** : quelle catégorie UNIGE correspond à un collaborateur
+  scientifique/technique (doctorants et post-doctorants exclus par le règlement 2026), et à
+  quel coût employeur par taux d'activité, dans un budget plafonné à CHF 250'000 sur 4 ans ?
+- Consignes pour la **saisie du budget dans mySNF** (granularité, coûts Open Research Data,
+  exclusion des frais open access, plafond matériel CHF 100'000) ?
 
-- Quel est le **délai interne UNIGE** pour la demande des confirmations d'hébergement (confirmation
-  détaillée de l'institut, puis confirmation générale du Vice-rectorat à la recherche), et par quel
-  circuit passe la transmission institut → Vice-rectorat ?
-- Le RGO offre-t-il une **relecture pré-soumission** (contrôle formel ou de fond) des dossiers
-  Ambizione, et avec quel préavis ?
+**2. Statut institutionnel**
 
-**2. Confirmation détaillée - signatures**
+- L'UNIGE dispose-t-elle d'une désignation ou d'un statut interne pour un bénéficiaire
+  Ambizione conduisant un **programme de recherche indépendant au sein d'un institut** (avec
+  les garanties du modèle FNS) ? Lequel ?
 
-Le modèle FNS (version 03.08.2026) requiert deux signatures : la **« personne de contact »
-(responsable du groupe de recherche)** nommée dans la candidature, et la **direction de
-l'institut/du département**.
+**3. Déclarations**
 
-- Mon projet étant conçu comme un **programme indépendant que je dirige au sein de l'Institut**,
-  et non comme un projet au sein d'un groupe existant : qui peut être nommé « personne de
-  contact » dans ce cas de figure ? **Une même personne (par ex. la direction de l'institut)
-  peut-elle cumuler les deux rôles ?**
-- Le règlement (art. 8 al. 6, en vigueur depuis le 1er août 2026) limite chaque personne de
-  contact à **une seule candidature Ambizione par appel**, avec reconnaissance explicite dans la
-  lettre. L'UNIGE recense-t-elle les candidatures pour éviter les collisions ? Pouvez-vous me dire
-  si une autre candidature passe déjà par l'Institut de santé globale ?
+- Je contribue à **GESICA** (Interreg), à **GeoAI4EI** (Horizon Europe) dès 2026, et à une
+  étude cantonale sur la légionellose. Aucun n'est un instrument FNS : pouvez-vous confirmer
+  l'absence d'incompatibilité (art. 13 du règlement), et où ces financements se déclarent dans
+  mySNF ?
 
-**3. Position institutionnelle**
+**4. Deux services mentionnés sur votre page**
 
-- L'UNIGE peut-elle formaliser, dans la confirmation d'hébergement, l'hébergement d'un bénéficiaire
-  Ambizione comme **responsable d'un programme de recherche indépendant au sein d'un institut**
-  (avec les garanties du modèle FNS : direction scientifique du projet, sélection et supervision
-  des collaborateurs, autorité sur le budget, publication en dernier auteur) ? Existe-t-il une
-  désignation ou un statut interne correspondant, et lequel ?
+- Vous proposez des **exemples de projets Ambizione acceptés** : pourrais-je y avoir accès ?
+- Vous offrez un **service de relecture** : est-il encore possible de réserver un créneau pour
+  un dossier déposé autour du 29 octobre ?
 
-**4. Salaires et budget**
-
-- **Salaire du requérant** : je suis actuellement en **classe 19, annuité 9**, au-dessus du
-  montant indicatif FNS de CHF 115'000. Le FNS m'a indiqué de **saisir le montant maximal** dans
-  mySNF, l'ajustement se faisant ensuite selon le canton et la situation individuelle. Pouvez-vous
-  me confirmer le montant exact à saisir selon la grille UNIGE, et les taux de charges patronales
-  et d'allocations familiales applicables ?
-- **Personnel de soutien** : le subside permet d'employer un **collaborateur
-  scientifique/technique** (les doctorants et post-doctorants sont exclus par le règlement 2026).
-  Quelle catégorie de personnel UNIGE correspond, et à quel coût employeur par taux d'activité,
-  pour un budget plafonné à CHF 250'000 sur quatre ans ?
-- Avez-vous des consignes pour la **saisie du budget dans mySNF** (granularité des postes, coûts
-  Open Research Data - à budgéter dès la soumission -, exclusion des frais de publication en libre
-  accès, plafond de CHF 100'000 pour le matériel durable) ?
-
-**5. Déclarations**
-
-- Je contribue actuellement à **GESICA** (Interreg) et, dès 2026, à **GeoAI4EI** (Horizon Europe),
-  et je participe à une étude cantonale sur la légionellose. Aucun n'est un instrument FNS -
-  pouvez-vous confirmer qu'il n'y a pas d'incompatibilité de soumission parallèle (art. 13 du
-  règlement), et m'indiquer où ces financements se déclarent dans mySNF ?
-
-Compte tenu du délai interne que vous m'indiquerez, une réponse d'ici le **`[[9 octobre]]`** me
-permettrait de lancer les demandes de lettres dans la foulée. Je suis bien entendu disponible pour
-un court échange téléphonique si c'est plus simple.
-
-Avec mes remerciements et mes meilleures salutations,
+Une réponse d'ici le **lundi 13 octobre** me permettrait de boucler le budget avant le dépôt du
+formulaire. Merci d'avance et meilleures salutations,
 
 Erol Orel
 Senior Research Associate, Institut de santé globale, Faculté de médecine
@@ -94,14 +64,11 @@ Senior Research Associate, Institut de santé globale, Faculté de médecine
 
 | Question | Unblocks |
 | --- | --- |
-| 1 - internal deadline | The real submission timeline; when the four letters must be signed |
-| 2 - signatures | The Ray email can be finalised; the contact-person field in mySNF |
-| 3 - designation | §2.6's `[[Confirm the designation]]` placeholder and the host-letter wording |
-| 4 - salary/rates | The `[[FTE and duration]]` placeholders, the budget table, the salary entry |
-| 5 - declarations | The mySNF relations section; closes the Art. 13 check |
+| 1 salary/rates | The budget table, the mySNF salary entry, the collaborator FTE decision |
+| 2 designation | The host-letter wording and the §2.6 claim's institutional label |
+| 3 declarations | The mySNF relations section; closes the Art. 13 check |
+| 4 examples/relecture | Free quality checks nobody else gets to use for him |
 
 ## Follow-up rule
 
-If no reply within a week, phone - the RGO answers Ambizione questions routinely and a call
-resolves in ten minutes what email queues for days. Log the answers in
-`05-review/applicant-facts.md` as they arrive.
+No reply within 3 working days: phone. Log answers in `05-review/applicant-facts.md`.

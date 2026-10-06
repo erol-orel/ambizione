@@ -94,7 +94,16 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   programme. That is the career-transition story the scheme asks for.
 - Keiser relationship → stated in §5.3 with all four roles named.
 - Scientific identity sentence → adopted verbatim (extended form), closing §5.3.
-- **Signature roles (applicant decision, 6 Oct 2026).** Head-of-institute signature: Prof.
+- **PLAN B ACTIVATED + UNIGE facts verified (6 Oct 2026, evening).** Contact person =
+  Prof. Olivia Keiser; Director = Prof. Nicolas Ray. UNIGE internal deadline: **Formulaire RGO
+  by Monday 19 October** (attachments: signed letter, CV in SNSF format, UNIGE ethics
+  statement from declaration-ethique.unige.ch). Working targets: signatures Tue 14 Oct, form
+  Thu 15 Oct. The form calls the contact person "your supervisor". Par. 2.6 consistency fix
+  applied ("no scientific role in the project"). All form answers pre-filled in
+  `04-other-documents/rgo-form-inputs.md`; one gap: Dean of the Faculty of Medicine's name.
+  RGO page also offers examples of accepted Ambizione projects and a relecture service: both
+  requested in `emails/00-rgo.md`.
+- **Signature roles (superseded by the line above; original decision 6 Oct 2026).** Head-of-institute signature: Prof.
   Nicolas Ray, Director of the Institute of Global Health. Contact person: Plan A = Ray
   cumulating both roles if the RGO allows; Plan B = Prof. Olivia Keiser (head of the employing
   group; permitted by the template), under three conditions recorded in

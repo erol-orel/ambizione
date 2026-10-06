@@ -17,7 +17,8 @@ day; they reference each other, and people compare notes.
 | Dr Robert Larribau | **144/CASU data - the primary outcome series** + lettre de collaboration | French | `04-larribau.md` |
 | Prof. Alexandra Calmy | **Courtesy note** - informs, asks nothing; send after Ray | French | `05-calmy-courtoisie.md` |
 | 3–4 external readers | **Critical read of the plan** - ping 1 Oct, send 3 Oct, reply by 16 Oct | FR/EN | `06-readers.md` |
-| UNIGE DPO (cc HUG DPO) | **CCER route qualification** - anonymous aggregates vs Art. 34 LRH; send Thu 2 Oct with `ccer/01` + `ccer/03` | French | `07-dpo.md` |
+| UNIGE DPO (cc HUG DPO) | **CCER route qualification** - anonymous aggregates vs Art. 34 LRH; attach `ccer/01` + `ccer/03` | French | `07-dpo.md` |
+| Prof. Olivia Keiser | **Contact-person ask (Plan B)** + Art. 8 al. 6 slot question; signature by 14 Oct | French | `08-keiser.md` |
 
 ## Three rules these follow
 

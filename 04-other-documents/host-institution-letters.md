@@ -38,13 +38,14 @@ person. So:
   Institute is applying under the same person**, and note that the letter must contain an explicit
   acknowledgement of this restriction.
 
-**Signature plan (decided 6 October 2026):**
+**Signature plan: PLAN B ACTIVE (applicant decision, 6 October 2026, evening).**
+**Prof. Olivia Keiser signs as contact person; Prof. Nicolas Ray signs as Director of the
+Institute of Global Health.** The UNIGE Formulaire RGO itself describes the contact person as
+"your supervisor", confirming this is the house pattern. Plan A (Ray cumulating both roles) is
+retired. Signatures needed by **Tuesday 14 October**; the signed letter is attachment 1 of the
+Formulaire RGO (deadline Monday 19 October).
 
-- **Plan A (preferred): Prof. Nicolas Ray, Director of the Institute of Global Health, in both
-  roles** (contact person and head of institute), if the RGO confirms one person may cumulate.
-  Cleanest independence signal: no prior supervisory relationship at the signature line.
-- **Plan B (sanctioned fallback): Prof. Olivia Keiser as contact person, Prof. Ray as head of
-  institute.** Permitted: the template defines the contact person as "head of the research
+- **Plan B rationale: Keiser as contact person, Ray as head of institute.** Permitted: the template defines the contact person as "head of the research
   group", and she heads the group employing the applicant. The letter's force lies in the
   mandatory guarantee list (scientific direction, selection and supervision of team members,
   budget authority, senior authorship): the former supervisor formally signing those guarantees

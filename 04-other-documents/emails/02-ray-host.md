@@ -1,92 +1,81 @@
-# To Prof. Nicolas Ray: host confirmation, Institute of Global Health
+# To Prof. Nicolas Ray: host confirmation, signature as Director (Plan B active)
 
-> Objet : Candidature Ambizione FNS - hébergement à l'ISG et confirmation institutionnelle
-> (délai FNS : 3 novembre ; délai interne RGO probablement plus tôt)
+> Objet : Candidature Ambizione FNS: hébergement à l'ISG et signature de la confirmation
+> (délai interne RGO : lettre signée pour le 14 octobre)
 
-`[[Vérifier le titre exact : directeur ad interim de l'Institut de santé globale. Adapter tu/vous
-selon votre relation. Envoyer APRÈS l'email au RGO - idéalement en pouvant déjà citer leur réponse
-sur les rôles de signature.]]`
+`[[Vérifier le titre exact (directeur de l'Institut de santé globale). Adapter tu/vous selon
+votre relation. Peut partir le même jour que l'email à Olivia Keiser (08-keiser.md): les deux
+signent la même lettre.]]`
 
 Cher Nicolas,
 
 Je prépare une candidature au **subside Ambizione du FNS** (dernier appel, dépôt le
-**3 novembre 2026**) : un projet de quatre ans que je dirigerais en tant que requérant principal.
-Je souhaiterais vous demander si l'**Institut de santé globale pourrait en être l'institution
-hôte**.
+**3 novembre 2026**) : un projet de quatre ans que je dirigerais en tant que requérant
+principal. Je souhaiterais que l'**Institut de santé globale en soit l'institution hôte**, et je
+viens vous demander la **signature de la confirmation d'hébergement au titre de la direction de
+l'institut**.
 
 Le projet part d'une question née du développement de LiteRev-Evidence : **au début d'une crise
 sanitaire, les données locales d'issue nécessaires à la prévision n'existent pas encore**, alors
-que c'est le moment où les décisions - capacité de réserve, réallocation des ambulances,
-escalade - sont les plus lourdes. La seule information quantitative disponible est la littérature
+que c'est le moment où les décisions (capacité de réserve, réallocation des ambulances,
+escalade) sont les plus lourdes. La seule information quantitative disponible est la littérature
 publiée sur des événements analogues. Le projet détermine si cette littérature, extraite
 systématiquement, améliore réellement la prévision dans ce régime, et quand elle induit en
 erreur. Une page de présentation est jointe.
 
 **Pourquoi l'ISG.** L'expertise en maladies infectieuses et en extraction automatisée de
-l'évidence s'y trouve déjà, de même que les liens opérationnels dont le projet dépend - médecine
-d'urgence des HUG, CASU-144, services cantonaux - et l'étude légionellose en cours (BASEC
+l'évidence s'y trouve déjà, de même que les liens opérationnels dont le projet dépend (médecine
+d'urgence des HUG, CASU-144, services cantonaux) et l'étude légionellose en cours (BASEC
 2026-00324). Le volet de traitement automatique du langage se fera en collaboration avec le
-groupe Data Science for Digital Health du Prof. Teodoro, sans que cela modifie l'hébergement.
+groupe du Prof. Teodoro, sans que cela modifie l'hébergement.
 
-**La forme d'hébergement demandée.** L'esprit d'Ambizione est l'indépendance scientifique : je
+**La forme d'hébergement.** L'esprit d'Ambizione est l'indépendance scientifique : je
 conduirais à l'ISG un **programme de recherche indépendant**, aux côtés des groupes existants de
-l'institut plutôt qu'au sein de l'un d'eux, en collaboration étroite avec eux - y compris le
-groupe IDMM, dans lequel j'ai développé LiteRev. Le FNS demande à l'institution hôte de garantir
-précisément cela : direction scientifique du projet par le requérant, sélection et supervision de
-ses collaborateurs, autorité sur le budget, publication en dernier auteur.
+l'institut, en collaboration étroite avec eux, y compris le groupe IDMM dans lequel je suis
+employé. Le FNS demande à l'institution hôte de garantir précisément cela : direction
+scientifique du projet par le requérant, sélection et supervision de ses collaborateurs,
+autorité sur le budget, publication en dernier auteur.
 
-**Ce que je sollicite concrètement** est la **confirmation d'hébergement détaillée** exigée par le
-FNS, selon son modèle officiel (joint). Trois points appellent une décision de votre côté :
+**Concrètement.** Le modèle FNS (joint) exige deux signatures : la **personne de contact**
+(responsable du groupe de recherche) et la **direction de l'institut**. Olivia Keiser a été
+sollicitée comme personne de contact ; je vous demande la **signature au titre de directeur**.
+Trois précisions :
 
-1. **Signatures.** Le modèle requiert deux signatures : la « **personne de contact** »
-   (responsable du groupe de recherche nommée dans la candidature) et la **direction de
-   l'institut/du département**. Mon projet n'étant rattaché à aucun groupe existant, je clarifie
-   avec le Research Grants Office si la direction de l'institut peut tenir les deux rôles.
-   **Accepteriez-vous, sous réserve de leur réponse, d'être la personne de contact et/ou le
-   signataire au titre de la direction ?**
-2. **Une candidature par personne de contact.** Depuis le 1er août 2026, chaque personne de
-   contact ne peut soutenir qu'**une seule candidature Ambizione par appel** (art. 8 al. 6 du
-   règlement), et la lettre doit le reconnaître explicitement. **Une autre candidature Ambizione
-   est-elle prévue à l'ISG pour cet appel ?** Mieux vaut le découvrir maintenant.
-3. **Autonomie du projet.** Le modèle exige une déclaration sur **l'autonomie du projet par
-   rapport aux objectifs de recherche en cours dans l'institution**. Je vous fournirai un tableau
-   de délimitation précis vis-à-vis de GESICA, GeoAI4EI et l'étude légionellose, pour que la
-   lettre et le dossier disent exactement la même chose.
+1. **Délai.** Le RGO exige le dossier complet (lettre signée comprise) via son formulaire au
+   plus tard le **lundi 19 octobre**. Pour garder une marge, j'aimerais réunir les deux
+   signatures **d'ici le mardi 14 octobre**. Je prépare le projet de lettre sur le modèle FNS,
+   il n'y a rien à rédiger de votre côté.
+2. **Autonomie du projet.** Le modèle exige une déclaration sur l'autonomie du projet par
+   rapport aux recherches en cours dans l'institution. Je vous fournirai un tableau de
+   délimitation précis vis-à-vis de GESICA, GeoAI4EI et l'étude légionellose, pour que la lettre
+   et le dossier disent exactement la même chose.
+3. **Aucune implication financière pour l'institut** : le FNS couvre mon salaire et un budget de
+   projet (collaborateur scientifique/technique possible ; doctorants et post-doctorants exclus
+   par les règles 2026). Le subside représenterait le premier poste où l'intégralité de mon
+   temps de recherche est consacrée à un programme dont je suis le responsable : la transition
+   de carrière que l'instrument est censé financer.
 
-Je me permets d'être transparent sur un dernier point : le FNS évalue l'indépendance du requérant,
-et une confirmation signée par la direction d'un programme qui finance actuellement mon poste se
-lirait mal. C'est pourquoi je m'adresse à la direction de l'institut plutôt qu'aux responsables
-des programmes auxquels je contribue.
-
-Aucune implication financière pour l'institut : le FNS couvre mon salaire et un budget de projet
-(qui ne peut financer ni doctorant ni post-doctorant - les règles 2026 l'excluent - mais un
-collaborateur scientifique/technique). Le subside représenterait le **premier poste où
-l'intégralité de mon temps de recherche est consacrée à un programme dont je suis le
-responsable** - c'est la transition de carrière que l'instrument est censé financer.
-
-Je peux préparer un projet de lettre sur la base du modèle FNS si cela vous épargne du temps. Le
-RGO m'indiquera le délai interne UNIGE, vraisemblablement bien avant le 3 novembre ; une première
-réponse d'ici le **`[[13 octobre]]`** me serait précieuse, et je serais ravi d'en discuter de
-vive voix.
+Je passe volontiers vous en parler de vive voix cette semaine ; une réponse de principe d'ici le
+**jeudi 9 octobre** me permettrait de caler la signature la semaine prochaine.
 
 Avec mes meilleures salutations,
 Erol
 
-*Pièces jointes : présentation du projet (1 page) ; modèle FNS de confirmation d'hébergement.*
+*Pièces jointes : présentation du projet (1 page) ; modèle FNS de confirmation d'hébergement ;
+projet de lettre.*
 
 ---
 
 ## Notes for the applicant (not part of the email)
 
-- **Send order:** RGO first; this email second, ideally citing the RGO's answer on whether one
-  person can hold both signature roles. If the RGO is slow, send anyway - question 1 is phrased
-  to work either way.
-- **Prof. Calmy** directs the institute and co-authored the LiteRev paper, but sat on the thesis
-  jury - which is why the confirmation is requested from the interim direction: the SNSF reads
-  prior relationships at the signature line. A separate **courtesy note** informing her of the
-  candidacy remains appropriate; it must not ask for anything.
-- If Ray declines either role, the fallback is a group leader with no funding relationship to the
-  applicant, with the letter stating explicitly that the applicant leads and conducts the project.
-  Discuss with the RGO before improvising.
-- Attach the SNSF template (`00-source-documents/call-documents/ambizione_confirmation_institution_e.pdf`)
-  so the institute sees the exact required text from the start.
+- **Plan B is active** (decided 6 Oct): Keiser = contact person, Ray = director. This email and
+  `08-keiser.md` can go the same day; each mentions the other's role, so neither is surprised.
+- The UNIGE form itself calls the contact person "your supervisor": the configuration is the
+  house pattern, no need to justify it to the RGO.
+- **Prof. Calmy**: courtesy note (`05-calmy-courtoisie.md`) after Ray and Keiser have agreed;
+  it informs, asks nothing.
+- If Ray declines, discuss with the RGO before improvising; do not swap in a programme PI who
+  funds the applicant's current post.
+- Attach the SNSF template
+  (`00-source-documents/call-documents/ambizione_confirmation_institution_e.pdf`) and the
+  letter draft so the institute sees the exact required text from the start.
