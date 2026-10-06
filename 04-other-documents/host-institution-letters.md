@@ -61,6 +61,9 @@ Formulaire RGO (deadline Monday 19 October).
 - **Not Prof. Calmy** in either plan: she sat on the thesis jury, and the SNSF reads prior
   relationships at the signature line.
 
+**Ready-to-sign draft: `lettre-confirmation-isg-draft.md` (+ .docx), names filled, created
+6 Oct.** The requirements below are what it implements.
+
 ## What the detailed confirmation must contain
 
 Verbatim from the template. The institution commits to host the PI and to:

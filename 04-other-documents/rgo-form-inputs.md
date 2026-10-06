@@ -18,7 +18,7 @@ Target: submit **Thursday 15 October**, leaving the weekend and Monday as buffer
 
 | Field | Answer |
 | --- | --- |
-| Dean of the Host Faculty | `[[Professor + name: verify the current Dean of the Faculty of Medicine on unige.ch/medecine before submitting]]` |
+| Dean of the Host Faculty | Professor Antoine Geissbühler |
 | Director of the Host Department | Professor Nicolas Ray |
 | Contact person at the Host Department | Professor Olivia Keiser |
 | Project Title | COLDSTART: Anticipating health-system crises before the outcome is observable |
