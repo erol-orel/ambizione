@@ -1,93 +1,80 @@
-# Working calendar: 1 October → 3 November 2026
+# Working calendar v2: Tuesday 6 October to 3 November 2026
 
-**Rule of the calendar:** every working day has at most ~30–60 minutes of application work, so
-nothing piles up. Items in **bold** are the day's must-do; the rest slides if life happens.
-Target submission **Friday 30 October**; the SNSF deadline (Tue 3 Nov, 17:00) is buffer, not plan.
-The science is frozen - nothing here reopens it.
+> Rebuilt 6 Oct. Nothing from v1 was executed; the reader round is postponed until Erol has
+> revised the whole text in his own words (this week). Two tracks run in parallel:
+> **Track A (signatures/admin)** cannot wait and never requires sharing the draft;
+> **Track B (your revision)** is yours alone this week.
 
-**External readers: start NOW.** The plan froze on 30 September, which is exactly when external
-reading becomes useful rather than churn. With a two-week reply window, the only send date that
-leaves time to incorporate feedback is **this week**. Later than ~6 October and the replies
-collide with final assembly.
+## THE RED-ALERT FACT
 
----
+For Ambizione 2025 (FNS deadline 4 Nov 2025), the UNIGE internal deadline to deliver the
+**signed detailed host attestation + CV in FNS format + project summary** to the Research
+Grants Office was **Monday 6 October 2025**, four weeks ahead. The 2026 equivalent is therefore
+**on or around today**. Until the RGO states the real 2026 date, treat every signature step as
+overdue. Contact: research-grants-office@unige.ch; named contact on the 2025 page:
+Christiane Bezuchet, +41 22 379 10 23 (verify on unige.ch/recherche before calling).
 
-## Week 1: Wed 1 to Fri 3 October: everything leaves your desk
+What the RGO package must contain (2025 list, verify for 2026):
+1. Attestation détaillée of the host institute, dated, **signed by the contact person named in
+   the application AND the institute director** (the Ray letter: template in
+   `04-other-documents/host-institution-letters.md`).
+2. Your **CV in SNSF format**.
+3. A **summary of the research project** (Basic Data II) + 2 sentences max + a few words on
+   integration into the host institute.
 
-| Day | Do |
+## Week 1: Tue 6 to Sun 11 October
+
+| Day | Track A (admin/signatures, send without the draft) | Track B (your revision, alone) |
+| --- | --- | --- |
+| **Tue 6 (TODAY)** | **(1) PHONE the RGO, then email** (`emails/00-rgo.md`): lead with "what is the 2026 internal deadline for the attestation; 2025 was 6 Oct"; if it has passed, ask for the real drop-dead date, these offices usually hold a margin. **(2) Email Ray TODAY** (`emails/02-ray-host.md` + letter template + one-page note): say the internal deadline forces a signature this week; propose to come by in person. **(3) Create your mySNF account** if none (validation can take days). | Revise **Title + Summary (§1)** in your words: it is also the text the RGO package needs. |
+| **Wed 7** | **(4) DPO email** (`emails/07-dpo.md`, attach ccer/01+03 as PDF). **(5) Prepare the RGO package parts you control**: CV in FNS format, the 2-sentence summary, integration sentence. | Revise **§2.1 (state of the art)**. Mark every sentence you cannot defend aloud. |
+| **Thu 8** | **(6) Desmettre + Larribau emails** (`emails/03`, `04`: data access + lettre de collaboration; they get the one-page note, not the plan). **(7) Teodoro email** (`emails/01`). | Revise **§2.2 (own work)**: this one must sound like you more than any other. |
+| **Fri 9** | **(8) If Ray has signed: deliver the RGO package.** If not: phone Ray's office. **(9) Calmy courtesy note** (`emails/05`) once Ray has confirmed. | Revise **§2.3.1 (objectives/hypotheses)**. Do not change H-claims; wording only. If a claim feels wrong, note it for me instead. |
+| Sat 10 | Rest or catch up Track A stragglers. | Revise **§2.3.2 (work plan)**, the longest section: 2 sittings. |
+| Sun 11 | - | Revise **§2.3.3 + §2.4**, then **§2.5 + §2.6** and the **mobility statement**. |
+
+**Revision rules (so your edits survive the compliance checks):** no em-dash anywhere; no
+"et al." except the two >50-author consortia; no web links; stay under 60,000 characters
+(you have 388 in reserve); do not touch the numbers, hypotheses, or registration logic without
+flagging it. Edit the .docx files and hand them back, or edit the draft/*.md files directly.
+
+## Week 2: Mon 12 to Fri 17 October
+
+| Day | Action |
 | --- | --- |
-| **Wed 1** | **Send the RGO email** (`emails/00-rgo.md`; reply-by 9 Oct). **Create/verify the mySNF account** ("grant applicant" role - takes days, so today). Pick your **3–4 external readers** (see profiles below) and send the availability ping (`emails/06-readers.md`, part 1). |
-| **Thu 2** | **Send the Ray email** (`02-ray-host.md`, SNSF template attached; reply-by 13 Oct). Update your **ORCID** public profile (goes to reviewers). Email the **DPO** with the CCER route question (**drafted: `04-other-documents/emails/07-dpo.md`**; attach `ccer/01` + `ccer/03` as PDF; reply-by 13 Oct). |
-| **Fri 3** | **Send the plan to the readers who said yes** (assembled PDF + the 5 focused questions; **reply-by Friday 16 October**). **Send Teodoro, Desmettre, Larribau** (`01/03/04`, project note + collaboration-letter draft attached; reply-by 13 Oct). |
+| **Mon 12** | **Hand me your revised files.** I reconcile them into the repo, recount characters, re-check compliance, rebuild the FINAL docs. Chase any unanswered Track A email (silence = phone). |
+| **Tue 13** | **Reader round opens (postponed from v1):** send the revised plan to the 3 to 4 readers (`emails/06-readers.md`), **reply-by Friday 23 October**. That is 10 days, shorter than the 2 weeks of v1: the cost of this week's postponement, say it plainly in the email. |
+| Wed 14 | mySNF: start the application container, fill Basic Data, CV, ORCID link. |
+| Thu 15 | mySNF: mobility form (name the 2 to 3 short visits, the one block still missing), declarations (GESICA, GeoAI4EI, legionellosis). |
+| Fri 16 | **First mySNF character-count calibration** (the portal counter is the binding one). Budget table with the RGO's salary numbers (`budget.md` decision rule). |
 
-## Week 2: Mon 6 to Fri 10 October: portal mechanics, nothing blocking others
+## Week 3: Mon 19 to Fri 23 October
 
-| Day | Do |
+| Day | Action |
 | --- | --- |
-| Mon 6 | Start the **portal CV** (portal.snf.ch): paste Module 1 + output list; 30 min only. |
-| Tue 7 | Portal CV: Modules 2–4. Write your one-line **senior-author contribution** (output list item 5). |
-| Wed 8 | Download the **mobility form** from mySNF; paste dimensions 1 + 3 from `statement-of-mobility-draft.md`. |
-| Thu 9 | Mobility form: dimensions 2, 4, 5. **Decide the 2–3 named short visits** - the last blank that is purely yours. |
-| Fri 10 | **Upload the draft plan PDF to mySNF and read its character counter.** (Source count 59,989 is a trigger, not a margin.) Log the delta in `05-review/applicant-facts.md`. Send the **Calmy courtesy note** if Ray has replied. |
+| Mon 19 | Episode inventory from Larribau's data facts (template in `05-review/applicant-facts.md`). |
+| Tue 20 | Bibliography publisher-record pass: resolve the 7 flagged entries against the journals' pages. |
+| Wed 21 | Letters status check: Ray (should be done), Teodoro, Desmettre, Larribau. Phone the missing. |
+| Thu 22 | CCER: if the DPO answered, file the BASEC clarification (`ccer/05`, DPO answer = annex 2). |
+| **Fri 23** | **Reader replies due.** Acknowledge same day. |
 
-## Week 3: Mon 13 to Fri 17 October: chase, numbers, inventory
+## Week 4: Mon 26 to Fri 30 October
 
-| Day | Do |
+| Day | Action |
 | --- | --- |
-| Mon 13 | Reply-by date for Ray/Teodoro/Desmettre/Larribau: **phone anyone silent.** Ten minutes each. |
-| Tue 14 | RGO numbers should be in: fill the **budget decision table** (`budget.md`) - keep 50%×48 or shorten to M3–M42 per the rule. If the DPO answer is in and concurs with Route A/C: **file the BASEC clarification de compétence** (text ready: `04-other-documents/ccer/05-clarification-competence-fr.md`; attach the DPO answer as annex 2). |
-| Wed 15 | Draft the full **mySNF budget line-items** (≤ CHF 250k; ORD in; no OA costs; equipment <100k). |
-| Thu 16 | **Reader replies due.** Acknowledge each same-day. If Larribau's data facts arrived: start the **episode inventory** (template in `05-review/applicant-facts.md`). |
-| Fri 17 | Triage reader feedback into: (a) prose fixes, (b) frozen-science challenges → only act if two readers agree, (c) interview material → `05-review/interview-prep` notes. |
+| Mon 26 | Triage reader feedback: (a) wording, apply; (b) science, only if two readers converge; (c) interview material, archive. |
+| Tue 27 | Apply the retained changes; recount; rebuild. |
+| Wed 28 | Final mySNF calibration; upload final text; release-QA checklist in `TODO.md` top to bottom. |
+| **Thu 29** | **SUBMIT.** Target date. Do not plan to use the buffer. |
+| Fri 30 | Buffer day 1: only if Thursday failed. |
 
-## Week 4: Mon 20 to Fri 24 October: incorporate and close
+## 2 to 3 November: emergency buffer only. FNS hard deadline: Tue 3 Nov, 17:00 Swiss time.
 
-| Day | Do |
-| --- | --- |
-| Mon 20 | Apply reader prose fixes (character-neutral; re-run `wordcount.sh` after each). |
-| Tue 21 | Finish the **episode inventory**; replace "13–14 candidates" with the real count if it differs. |
-| Wed 22 | **Bibliography release-QA**: every author list/DOI/venue from publisher records; then strip ALL editorial notes and flags (release step 1). |
-| Thu 23 | Letters status check: host confirmation routing at the Vice-Rectorate? Collaboration letters signed? Flip §2.3.3.2 statuses **only for letters in hand**. |
-| Fri 24 | Second **mySNF counter check** with the near-final PDF. Fix any overage now, not next week. |
+## Standing rules
 
-## Week 5: Mon 27 to Fri 30 October: release
-
-| Day | Do |
-| --- | --- |
-| Mon 27 | Assemble the final PDF: figures render, tables unbroken, **≤15 pages**, no `[[…]]` anywhere, bibliography clean. |
-| Tue 28 | Upload everything to mySNF: plan, CV PDF, mobility form, confirmations, collaboration letters, budget. Full-form walkthrough for empty fields. |
-| Wed 29 | One full read of the submitted-state PDF, printed. Fix only typos. |
-| **Fri 30** | **SUBMIT.** Confirmation email archived; tag the repo (`git tag submitted-2026`). |
-
-## Buffer: Mon 2 to Tue 3 November
-
-Only for disasters: a letter arriving late, an upload failure. **Do not touch content.**
-Deadline: **Tuesday 3 November, 17:00 Swiss time.**
-
----
-
-## External readers: who and how
-
-**Profiles to cover (3–4 people, each reads once):**
-1. **A statistician** - sends them to §2.3.1/T3.3 (fixed-sequence test, permutation, OC
-   simulation). *Natural candidate: Prof. Eva Cantoni - knows you, no Keiser overlap.*
-2. **An infectious-disease epidemiologist / forecaster** - §2.1 + validation domains. Ideally
-   someone outside Geneva `[[GeoAI4EI or GESICA-adjacent contact you trust]]`.
-3. **An emergency clinician** - WP4 and the operational claims `[[Desmettre or Larribau read it
-   anyway for their letters; a third clinician avoids double-hatting]]`.
-4. **A grant-seasoned senior** who has sat on SNSF-type panels - reads it as a juror, 30 minutes
-   `[[name]]`.
-
-**Mechanics:** availability ping first (Wed 1), PDF to those who accept (Fri 3), **reply by
-Fri 16 October** - exactly two weeks, stated in the email, with the 5 questions so feedback
-arrives structured. Request email: `04-other-documents/emails/06-readers.md`.
-
-**Freeze discipline:** reader feedback lands in week 4 as prose fixes and interview prep.
-A science change happens only if two readers independently hit the same load-bearing problem -
-then it is a real defect, not an opinion.
-
-## Standing items (weekly, Friday, 10 minutes)
-
-- Chase any outstanding letter or number. Silence is the enemy, not refusal.
-- Re-run `sh 03-research-plan/draft/assemble.sh && sh 03-research-plan/draft/wordcount.sh`.
-- Commit and push, so the repo always reflects reality.
+- A daily reminder fires into this session each morning with the day's actions; answer it or
+  ignore it, it costs nothing.
+- Silence from anyone for 3 working days = phone, not a second email.
+- Log every answer (RGO numbers, Ray confirmation, DPO ruling, data facts) in
+  `05-review/applicant-facts.md` the day it arrives.
+- The reader round asks for opinions on the revised plan; nothing goes to readers before Mon 12.

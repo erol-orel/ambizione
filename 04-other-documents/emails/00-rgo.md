@@ -14,6 +14,12 @@ the one that actually binds). Everything in it is a question only the RGO can an
 
 Madame, Monsieur,
 
+**Question urgente d'abord :** pour l'appel Ambizione 2025, le délai interne pour le dépôt de
+l'attestation détaillée signée était le 6 octobre. **Quel est le délai interne pour l'appel
+2026**, et si la date est déjà passée ou imminente, quelle est la date limite effective à
+laquelle je peux encore déposer le dossier complet (attestation signée, CV au format FNS,
+résumé du projet) ? La signature de l'institut est en cours cette semaine.
+
 Je prépare une candidature au subside **Ambizione** (dernier appel, délai FNS **3 novembre 2026,
 17h00**), avec l'**Institut de santé globale** de la Faculté de médecine comme institution hôte.
 Vous m'avez récemment confirmé mon éligibilité - merci encore. Pour finaliser le dossier, j'aurais
