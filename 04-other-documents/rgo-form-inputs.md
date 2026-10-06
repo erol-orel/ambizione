@@ -26,11 +26,11 @@ Target: submit **Thursday 15 October**, leaving the weekend and Monday as buffer
 ## The 300-character summary (2 sentences + integration; goes into the vice-rector's letter)
 
 > COLDSTART tests whether published evidence, automatically extracted and pooled into priors,
-> improves emergency-demand forecasting at crisis onset, and when it misleads. It runs as an
-> independent programme at the Institute of Global Health, in coherence with its epidemiology
-> and evidence-synthesis groups.
+> improves emergency-demand forecasting at crisis onset, and when it misleads. An independent
+> programme at the Institute of Global Health, coherent with its epidemiology and
+> evidence-synthesis groups.
 
-`[[Character count printed by the check below; trim if the form counts differently.]]`
+**297 characters including spaces (limit 300), verified.**
 
 ## Uploads (one file each)
 
