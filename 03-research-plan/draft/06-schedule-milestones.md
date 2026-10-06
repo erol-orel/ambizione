@@ -1,6 +1,7 @@
 ## 2.4 Schedule and milestones
 
 ![Work plan](figures/fig2-gantt.svg)
+
 *Figure 2: work packages, tasks and milestones over 48 months.*
 
 **Who does what.** I execute WP2 and WP3's confirmatory design personally, and lead WP1's

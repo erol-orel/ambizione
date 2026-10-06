@@ -56,14 +56,15 @@ Teodoro D, Robert-Nicoud S, Barakat O, Desmettre T.
 Artificial intelligence in emergency medical services for disasters and health emergencies:
 a systematic review. `[[Submitted 2026 - update status and venue]]`
 > *Contribution:* Third author. Provided the methodological infrastructure (LiteRev, used in the
-> published methods to structure 138 retained publications) and guided its application through
+> published methods to structure the review corpus) and guided its application through
 > screening and clustering, working with the doctoral researcher leading the review.
 
 ## Module 3: Contributions to the wider research and innovation community (2)
 
-**7.** Nwosu K, Fokam J, Wanda F, Mama L, **Orel E**, Ray N, Meke J, et al.
+**7.** Nwosu KD, Fokam J, Wanda F, Mama L, **Orel E**, Ray N, Meke J, Tassegning A, Takou D,
+Mimbe E, Stoll B, Guillebert J, Comte E, Keiser O, Ciaffi L.
 SARS-CoV-2 antibody seroprevalence and associated risk factors in an urban district in Cameroon.
-*Nature Communications* 2021;12:5851.
+*Nature Communications* 2021;12:5851. doi:10.1038/s41467-021-25946-0
 > *Contribution:* `[[State your specific role - statistical analysis? risk factor modelling?
 > One precise line is worth more than the author position, and this is your highest-visibility
 > venue.]]`

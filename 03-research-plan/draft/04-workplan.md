@@ -6,7 +6,7 @@ WP1 establishes whether the evidence can be trusted; WP2 supplies the common sta
 
 ##### T1.1: Define the evidence target and register the protocol *(M1–M4)*
 
-**Core (benchmarked in full):** the quantities the demand model consumes: **weather–demand associations**, **surge magnitudes** (peak-to-baseline ratios), **length-of-stay / occupancy distributions**. **Secondary (only if core completes on schedule):** transmission parameters and shedding-to-incidence conversions; neither is on the critical path. Inclusion criteria, effect measures, uncertainty representation and transportability variables are fixed first.
+**Core (benchmarked in full), the quantities the demand model consumes:** lag-structured **weather–demand coefficients** (daily mean temperature, heat-day exceedance, ozone, PM10); **surge magnitude and timing** (peak-to-baseline ratio, time to peak, onset growth rate); **length-of-stay and occupancy distributions** (ward and ICU); **admission fractions** (presentation to admission, admission to ICU). **Secondary (only if core completes on schedule):** transmission parameters (R0/Rt, serial interval) and shedding-to-incidence conversions; neither is on the critical path. Inclusion criteria, effect measures, uncertainty representation and transportability variables are fixed first.
 
 ##### T1.2: Build the quantitative extraction benchmark *(M3–M9)*
 
@@ -32,7 +32,7 @@ Characterise effect modifiers and study-setting differences relevant to Geneva; 
 
 ##### T2.1: Specify and identify the state model *(M1–M9)*
 
-A Bayesian hierarchical Markov regime-switching model [Hamilton 1989] with an ordinal latent state `S(t) ∈ {routine, elevated, strained, critical}` observed through emergency calls, ED presentations and ICU occupancy; pre-specified weather, calendar and epidemic covariates; series-specific observation models sharing the state. Before real-data fitting: simulation-based identifiability and recovery; ordering constraints resolve label switching; if separation is insufficient, the fallback is an ordinal state-space formulation; the criterion is recovery of states and transitions, not visual fit.
+A Bayesian hierarchical Markov regime-switching model [Hamilton 1989] with an ordinal latent state `S(t) ∈ {routine, elevated, strained, critical}` observed through emergency calls, ED presentations and ICU occupancy; pre-specified weather, calendar and epidemic covariates; series-specific observation models sharing the state. Before real-data fitting: simulation-based identifiability and recovery; ordering constraints resolve label switching; if separation is insufficient, the fallback is an ordinal state-space formulation; the criterion is recovery of states and transitions, not visual fit. **Provisional state anchors**, fixed at registration and refined (not replaced) by T4.1's elicitation: **routine** below the 75th percentile of the seasonal baseline demand distribution; **elevated** 75th to 90th; **strained** above the 90th, or sustained capacity pressure (ICU occupancy above 85%, ED boarding above its seasonal 90th percentile); **critical** above the 97.5th percentile, or capacity saturation. Anchors are percentile-based per event type, so one definition serves epidemic and heat episodes; in estimation they enter as priors on state-dependent levels, not hard cutoffs.
 
 ##### T2.2: Represent the critical tail *(M6–M14)*
 
@@ -64,6 +64,8 @@ Fixed before any evaluation is designed, never revisited in response to performa
 
 **Outcome.** The primary outcome is **daily respiratory-related emergency demand derived from CASU-144 records**, not a raw call count: "respiratory-related" is a pre-registered classification of recorded call reasons and urgency levels, with sensitivity to the construction reported. **The heat arm scores heat-sensitive demand**: the same series and construction, restricted to cause classes fixed at registration (dehydration, renal, psychiatric, per the Swiss evidence), with respiratory-restricted and 75+ sensitivities. **The primary claim is scoped to what the series measures**: the operational demand signal observed by the dispatch system. ED presentations and ICU occupancy enter as **additional observation channels on the shared latent state**; wastewater, sentinel consultations and weather as covariates; the hierarchy governs only which series H3a is scored on.
 
+**Candidate outcome set and geography.** The pre-registered candidates, in hierarchy order: (1) cause-filtered CASU-144 call volume (primary); (2) ED presentations by category; (3) ICU occupancy; (4) all-cause 144 engagements and hospital admissions as sensitivity series; open surveillance (Sentinella, wastewater) as fallback outcomes only. The unit is the **canton of Geneva at daily resolution** (the coverage area of the HUG-operated centrale); extension to Vaud and Neuchâtel via the CHUV-operated 144 is a pre-specified external validation if access is granted.
+
 **Data-access gate.** Criteria fixed in advance for **historical depth, temporal resolution, reporting latency and completeness**; the primary outcome is selected at a pre-specified checkpoint (month 12), on those criteria alone.
 
 **Episode eligibility.** An episode enters the confirmatory evaluation only if all of these are prospectively reconstructable: (1) a detectable onset under the prospective onset rule; (2) enough pre-onset history for its rolling baseline; (3) enough post-onset observations at the primary horizon; (4) the external evidence **as it stood at the historical origin**; (5) no leakage of future information; (6) separation from adjacent episodes. Failing episodes remain available for sensitivity analysis only. **At demand level, co-circulating pathogens form one episode**: a winter with concurrent influenza and RSV is one surge, not two.
@@ -80,7 +82,7 @@ For each historical onset, create successive forecast origins using **only infor
 
 ##### T3.3: Evaluate a pre-specified model ladder *(M20–M34)*
 
-At each origin compare: (1) seasonal/naive local baseline; (2) established short-baseline surveillance method; (3) regime model, weakly informative priors; (4) the same model, fixed evidence-derived priors; (5) adaptive borrowing with conflict monitoring; (6) adaptive borrowing plus resilience indicators.
+At each origin compare: (1) seasonal/naive local baseline (seasonal GLM with weekday and holiday terms; persistence); (2) established short-baseline surveillance method (Farrington/Noufaily exceedance; Bayesian nowcasting); (3) regime model, weakly informative priors; (4) the same model, fixed evidence-derived priors; (5) adaptive borrowing with conflict monitoring; (6) adaptive borrowing plus resilience indicators.
 
 **Confirmatory testing procedure (fixed-sequence).**
 
@@ -126,4 +128,4 @@ Estimate, for selected episodes, what would have changed had escalation followed
 
 The two central risks are scientific, and each yields a result rather than a stall: **evidence may be unusable** (WP1 establishes that boundary, WP3 quantifies the cost of ignoring it: a publishable negative result); **the state model may be weakly identifiable** (simulation first, ordinal fallback, the identifiability boundary reported as a result). None of the explicit fallbacks above converts an inconclusive analysis into a success claim.
 
-**Expected outputs.** Approximately four to six papers and two durable open resources: the quantitative extraction benchmark and the evidence-to-prior reference framework. **I lead the methodological, benchmark and integrative outputs.**
+**Expected outputs.** Four to six papers and two durable open resources (the extraction benchmark, the evidence-to-prior framework); **I lead the methodological, benchmark and integrative outputs.**

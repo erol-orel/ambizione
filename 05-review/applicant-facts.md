@@ -153,6 +153,28 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   institute environment, both already claimed. Revisit only if two external readers
   independently find the epidemiological grounding thin (freeze-break rule).
 
+- **Completion round (applicant instruction, 7 Oct 2026, evening): specifics added, figures
+  redesigned, references verified.** (1) The plan now names the T1.1 extraction variables
+  (lag-structured weather-demand coefficients, surge magnitude and timing, LOS/occupancy,
+  admission fractions; secondary transmission parameters), the T2.1 provisional state
+  threshold anchors (routine below P75, elevated P75 to P90, strained above P90 or ICU above
+  85 percent, critical above P97.5 or saturation; percentile-based priors, refined by T4.1
+  elicitation, not hard cutoffs), the T3.0 candidate outcome set (cause-filtered CASU-144
+  primary; ED, ICU occupancy, all-cause/admissions as alternatives and sensitivities) with
+  geography (canton of Geneva daily; GE-VD-NE via CHUV-144 as pre-specified external
+  validation) and the T3.3 named baselines (seasonal GLM with persistence,
+  Farrington/Noufaily, Bayesian nowcasting). 44,325 chars, still exactly 15 pages.
+  (2) Both figures rewritten for print legibility (the old fig1 still carried "80k+
+  documents": removed; state anchors now shown in fig1; full-width Gantt). (3) Reference
+  verification campaign executed: EMS-ILI 2025 identified as Bonora 2025, Lee 2021 as
+  Lung 2021, Dahabreh updated to the published Epidemiology 2020 version; full author lists
+  completed for Cook, Winters, Nwosu, Zheng; Sherratt and Ranjbar completed; all internal
+  tracking moved to `05-review/bibliography-notes.md` so the submitted bibliography is clean;
+  own-work entries keyed and §2.2 switched to bracketed citations ("et al." now appears only
+  in the two permitted consortium entries). Citation-bibliography sync exact (43 keys).
+  Remaining bibliography work is the 20 Oct publisher-record pass plus the three status
+  updates listed in bibliography-notes.md (Edjinedja, Ng'ambi, Shankar).
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

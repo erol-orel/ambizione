@@ -48,7 +48,7 @@ no "et al."; no links. Run `draft/pagecheck.sh` after each section you touch.
 | Day | Action |
 | --- | --- |
 | Mon 19 | mySNF: mobility form (name the 2 to 3 short visits), declarations (GESICA, GeoAI4EI, legionellosis). |
-| Tue 20 | Budget with the RGO's numbers (`budget.md` decision rule); bibliography publisher-record pass (7 flags). |
+| Tue 20 | Budget with the RGO's numbers (`budget.md` decision rule); bibliography publisher-record pass (checklist in `05-review/bibliography-notes.md`). |
 | Wed 21 | Episode inventory from Larribau's data facts (template in `05-review/applicant-facts.md`). |
 | Thu 22 | CCER: if the DPO answered, file the BASEC clarification (`ccer/05`, DPO answer = annex 2). Letters status check: Teodoro, Desmettre, Larribau; phone the silent. |
 | **Fri 23** | **Reader replies due.** Acknowledge same day. Vice-rector confirmation should be back by now: chase the RGO if not. |

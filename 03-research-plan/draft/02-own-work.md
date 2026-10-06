@@ -1,36 +1,34 @@
 ## 2.2 Current state of personal research and competences required for the project
 
 My route is unusual and is why the project is tractable: fifteen years in quantitative
-finance (risk modelling, extreme-value estimation for non-Gaussian tails, regime and factor
-models, stress testing), then a doctorate in biomedical sciences at Geneva (defended
+finance (risk modelling, extreme-value estimation, regime models, stress testing), then a
+doctorate in biomedical sciences at Geneva (defended
 18 December 2023).
 
 ### 2.2.1 Prediction under sparse and imperfect information
 
-In **Orel et al., *PLoS ONE* 2022** I predicted individual HIV status from socio-behavioural
+In [Orel 2022] I predicted individual HIV status from socio-behavioural
 characteristics across East and Southern Africa, establishing where models transported between
-countries. **Merzouki et al., *PeerJ* 2021** and **Esra et al., *JAIDS* 2023** developed the same theme. I now **senior-author** that line (last author,
-**Ng'ambi et al., accepted**: machine-learning classification of cardiovascular disease history
-across harmonised WHO STEPS surveys). That is this proposal's transportability problem, met first
+countries. [Merzouki 2021] and [Esra 2023] developed the same theme. I now **senior-author**
+that line (last author, [Ng'ambi 2026], accepted: machine-learning classification of
+cardiovascular disease history across harmonised WHO STEPS surveys). That is this proposal's transportability problem, met first
 elsewhere and moved from conducting to directing.
 
 ### 2.2.2 Automated evidence synthesis
 
-**Orel et al., *J Med Internet Res* 2023** introduced **LiteRev**, an automated
-literature-review tool: natural-language or Boolean query across the open-access databases,
+In [Orel 2023] I introduced **LiteRev**, an automated literature-review tool: natural-language or Boolean query across the open-access databases,
 deduplication, corpus mapping, iterative relevance suggestion. I led its development with **Aziza Merzouki** (PhD, computer science) and secured
 development funding on my own initiative: **CHF 30,000** (UNIGE), **CHF 10,000** (Venture Kick),
 **CHF 20,000** (Mimosa), outside any group grant. The AI-in-EMS systematic review
-(**Edjinedja, Larribau, Orel et al.**, submitted 2026), within GESICA, used it to structure
-138 retained publications.
+[Edjinedja 2026], within GESICA, used it in its published methods.
 
 ### 2.2.3 Outbreak and health-system modelling in Switzerland
 
-**Orel et al., *CMI Communications* 2024** compared clinical severity between Delta and Omicron
-sub-lineages in a Swiss tertiary centre. **Estill et al., *F1000Research* 2020** built
+In [Orel 2024] I compared clinical severity between Delta and Omicron
+sub-lineages in a Swiss tertiary centre. [Estill 2020] built
 age-structured scenario models for the Swiss SARS-CoV-2 epidemic under planning time pressure:
 the experience this proposal's question comes from. I contributed to WHO African Region
-reporting and seroprevalence estimation (***Nat Commun***, Nwosu et al., 2021).
+reporting and seroprevalence estimation [Nwosu 2021].
 
 ### 2.2.4 The prototype and test bed: LiteRev-Evidence
 
@@ -60,11 +58,10 @@ granted) linking confirmed legionellosis cases in Geneva to individual domestic 
 installations: a linkage to my knowledge unique, supplying a waterborne archetype whose
 dynamics differ fundamentally from a respiratory epidemic's.
 
-**Competences.** Bayesian hierarchical and regime-switching estimation, extreme-value modelling, stress testing
-under misspecification, forecast evaluation and decision analysis come from fifteen years of
-quantitative risk work and form the core of WP2–WP3; extraction, retrieval and
-quality-weighted pooling from LiteRev-Evidence, which I built; domain knowledge from the
-doctorate, the Swiss COVID-19 work and GESICA.
+**Competences.** Bayesian hierarchical and regime-switching estimation, extreme-value modelling, stress
+testing under misspecification, forecast evaluation and decision analysis come from the risk
+work and form the core of WP2–WP3; extraction and pooling from LiteRev-Evidence; domain
+knowledge from the doctorate, the Swiss COVID-19 work and GESICA.
 
 My other commitments and their delimitation are in §2.6; what I have not yet had is a
 programme of my own with time to run it.

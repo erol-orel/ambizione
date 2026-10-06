@@ -26,7 +26,7 @@ bottleneck, so I built the instrument. **LiteRev** (*Journal of Medical Internet
 first author) combines natural language processing, dimensionality reduction, clustering and
 nearest-neighbour retrieval to accelerate the identification and structuring of relevant research.
 It is used beyond my own work: a recent systematic review of artificial intelligence in emergency
-medical services used LiteRev in its methods to structure 138 retained publications.
+medical services used LiteRev in its published methods.
 
 Since 2024 I have developed **LiteRev-Evidence**, which extends this from retrieval into
 structured quantitative extraction: the full review pipeline in working form, from a

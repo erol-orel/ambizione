@@ -28,17 +28,19 @@ def fix_tbl(m):
                 txt = re.sub(r'<[^>]+>', '', c)
                 loads[i] = max(loads[i], min(len(txt), 220))
         wsum = sum(l**0.75 for l in loads)
-        widths = [max(int(TEXTW*(l**0.75)/wsum), 900) for l in loads]
+        widths = [max(int(TEXTW*(l**0.75)/wsum), 1300) for l in loads]
         widths[-1] += TEXTW - sum(widths)
         it = iter(widths)
         tbl = re.sub(r'<w:gridCol[^>]*/>', lambda mm: '<w:gridCol w:w="%d"/>' % next(it), tbl)
     return tbl
 x = re.sub(r'<w:tbl>.*?</w:tbl>', fix_tbl, x, flags=re.S)
-MAXCX = 3060000
+SIZES = [4608000, 5940000]  # fig1 = 12.8 cm, fig2 = 16.5 cm (EMU)
+counter = {"i": -1}
 def fix_ext(m):
     cx, cy = int(m.group(1)), int(m.group(2))
-    if cx > MAXCX:
-        cy = int(cy * MAXCX / cx); cx = MAXCX
+    counter["i"] += 1
+    target = SIZES[min(counter["i"] // 2, len(SIZES) - 1)]
+    cy = int(cy * target / cx); cx = target
     return '<wp:extent cx="%d" cy="%d"/>' % (cx, cy)
 x = re.sub(r'<wp:extent cx="(\d+)" cy="(\d+)"/>', fix_ext, x)
 x = re.sub(r'<a:ext cx="(\d+)" cy="(\d+)"/>', lambda m: fix_ext(m).replace('wp:extent','a:ext'), x)
