@@ -38,10 +38,27 @@ person. So:
   Institute is applying under the same person**, and note that the letter must contain an explicit
   acknowledgement of this restriction.
 
-Current intent: signature at institute level by `[[Prof. Nicolas Ray, interim Director]]`.
-Deliberately **not** the PI of a programme currently funding the applicant (Prof. Keiser: GeoAI4EI,
-legionellosis, MAS; Prof. Teodoro: GESICA), and **not** Prof. Calmy, who sat on the applicant's
-thesis jury - the SNSF reads prior relationships at the signature line.
+**Signature plan (decided 6 October 2026):**
+
+- **Plan A (preferred): Prof. Nicolas Ray, Director of the Institute of Global Health, in both
+  roles** (contact person and head of institute), if the RGO confirms one person may cumulate.
+  Cleanest independence signal: no prior supervisory relationship at the signature line.
+- **Plan B (sanctioned fallback): Prof. Olivia Keiser as contact person, Prof. Ray as head of
+  institute.** Permitted: the template defines the contact person as "head of the research
+  group", and she heads the group employing the applicant. The letter's force lies in the
+  mandatory guarantee list (scientific direction, selection and supervision of team members,
+  budget authority, senior authorship): the former supervisor formally signing those guarantees
+  over is a checkable commitment, not a weakness. Three conditions:
+  1. **Art. 8 §6 slot check first**: she can support only one applicant this call and the letter
+     must say so explicitly. Ask her immediately whether anyone else wants her as contact person.
+  2. **"[Further comments]" sentence**: she confirms hosting as contact person of an
+     *independent programme led by the applicant alongside the Institute's groups*, so the
+     letter cannot be read as integration into IDMM. The 30 Sep decision (no IDMM membership)
+     is unchanged: contact person is a signature role, not an affiliation.
+  3. **§2.6 consistency fix if Plan B activates**: "with no role here" becomes "with no
+     scientific role in the project" (the signature is an administrative hosting role).
+- **Not Prof. Calmy** in either plan: she sat on the thesis jury, and the SNSF reads prior
+  relationships at the signature line.
 
 ## What the detailed confirmation must contain
 

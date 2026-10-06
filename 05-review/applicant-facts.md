@@ -94,6 +94,14 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   programme. That is the career-transition story the scheme asks for.
 - Keiser relationship → stated in §5.3 with all four roles named.
 - Scientific identity sentence → adopted verbatim (extended form), closing §5.3.
+- **Signature roles (applicant decision, 6 Oct 2026).** Head-of-institute signature: Prof.
+  Nicolas Ray, Director of the Institute of Global Health. Contact person: Plan A = Ray
+  cumulating both roles if the RGO allows; Plan B = Prof. Olivia Keiser (head of the employing
+  group; permitted by the template), under three conditions recorded in
+  `04-other-documents/host-institution-letters.md` (Art. 8 par. 6 slot check with her now; a
+  further-comments sentence naming the independent-programme construction; the par. 2.6 wording
+  fix "no scientific role in the project" if she signs). The 30 Sep no-IDMM-membership decision
+  is unchanged either way.
 - **Em-dash purge (applicant instruction, 30 Sep 2026, permanent).** No em-dash anywhere in
   the repository, ever (rule stored in `CLAUDE.md`). Applied as punctuation-only edits across
   all files including the frozen plan (colons/semicolons/commas/parentheses in the plan, spaced
