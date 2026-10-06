@@ -10,7 +10,7 @@ The project needs three capabilities rarely housed together (quantitative method
 
 **Operational access: HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners; the AI-in-EMS review [Edjinedja 2026] evidences the functioning collaboration. No new relationship needs creating after the grant starts.
 
-**Existing infrastructure.** LiteRev-Evidence is operational: retrieval over an indexed corpus plus live open-API search, screening, living reviews, structured extraction with provenance and quality scoring, quality-weighted pooling into parameter distributions, connectors to MeteoSwiss, Copernicus ERA5 and surveillance sources. Ambizione does not fund its construction; it uses it. The legionellosis study (BASEC 2026-00324), under way with ethics granted, supplies the contrasting archetype.
+**Existing infrastructure.** LiteRev-Evidence is a prototype: retrieval over an indexed corpus plus live open-API search, screening, living reviews, structured extraction with provenance and quality scoring, quality-weighted pooling into parameter distributions, connectors to MeteoSwiss, Copernicus ERA5 and surveillance sources. WP1 and WP2 turn it into a validated instrument and test it. The legionellosis study (BASEC 2026-00324), under way with ethics granted, supplies the contrasting archetype.
 
 **Computing.** UNIGE HPC (Baobab/Yggdrasil) and the University's secure environment for clinical data (requested; see table).
 
@@ -49,4 +49,4 @@ alongside computing, data, travel and Open Research Data costs.
 
 #### 2.3.3.4 Preparatory work before the grant starts
 
-Advanced before month 1, as preparatory conditions rather than grant-funded work: **data agreements** with HUG and 144/CASU; **CCER preparation with myself as applicant**; and **infrastructure hardening** of LiteRev-Evidence before clinical data connect. Feasibility rests on one structural property (**the instrument already exists**) and on the fallbacks above, each leaving the central question answerable with the claim narrowed and the narrowing stated.
+Advanced before month 1, as preparatory conditions rather than grant-funded work: **data agreements** with HUG and 144/CASU; **CCER preparation with myself as applicant**; and **infrastructure hardening** of LiteRev-Evidence before clinical data connect. Feasibility rests on one structural property (**the prototype already exists**) and on the fallbacks above, each leaving the central question answerable with the claim narrowed and the narrowing stated.

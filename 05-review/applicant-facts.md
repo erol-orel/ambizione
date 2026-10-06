@@ -94,6 +94,16 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   programme. That is the career-transition story the scheme asks for.
 - Keiser relationship → stated in §5.3 with all four roles named.
 - Scientific identity sentence → adopted verbatim (extended form), closing §5.3.
+- **LiteRev-Evidence status framing settled (applicant instruction, 6 Oct 2026, late).**
+  It is presented as **prototype, feasibility proof and test bed**, never as a finished
+  instrument: the summary says the project "turns the prototype into a validated instrument
+  and tests it"; 2.2.4 is retitled "The prototype and test bed"; 2.3.3 says WP1 and WP2 turn
+  it into a validated instrument; the validated instrument is named as a deliverable. The
+  question remains the headline (a tool-building proposal would be scored as development,
+  not research); the WPs already were the build-and-test plan, so the architecture did not
+  change, only the status claims. This supersedes the absolutist "never a deliverable" line
+  in literev-evidence-assessment.md: the validated instrument IS a deliverable; the
+  *prototype* is preliminary work.
 - **LiteRev-Evidence description corrected and verified (6 Oct 2026).** Reframed everywhere:
   review engine first (natural-language or Boolean query, sub-queries, live search of thirteen
   open bibliographic APIs per the product UI, dedup, corpus mapping, topic identification,
