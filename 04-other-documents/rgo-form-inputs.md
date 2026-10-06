@@ -30,7 +30,7 @@ Target: submit **Thursday 15 October**, leaving the weekend and Monday as buffer
 > programme at the Institute of Global Health, coherent with its epidemiology and
 > evidence-synthesis groups.
 
-**297 characters including spaces (limit 300), verified.**
+**290 characters including spaces (limit 300), verified.**
 
 ## Uploads (one file each)
 
