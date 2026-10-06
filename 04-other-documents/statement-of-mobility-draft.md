@@ -46,7 +46,7 @@ under an ethics approval already granted (BASEC 2026-00324).
 year, I did my doctorate there, and it is the institution of my doctoral advisor - every reason
 the guidelines give for motivating the choice carefully applies to me. The motivation is
 concrete: the project's primary outcome series (CASU-144), the emergency-medicine partnerships,
-the cantonal linkage under BASEC 2026-00324 and the evidence-extraction platform all live in
+the cantonal linkage under BASEC 2026-00324 and the evidence-extraction prototype all live in
 Geneva, and no other institution reproduces that combination. What changes is my **position**:
 Ambizione would establish an independent research programme that I lead, alongside the
 Institute's existing groups rather than inside one, with my own ethics approvals, my own budget
@@ -91,7 +91,7 @@ and factor models, stress testing, scenario analysis. In 2019 I left that career
 research. This is a complete change of sector and of field, and it is the source of the
 project's methodological core: the regime-switching representation, the tail modelling and the
 decision-analytic evaluation were carried across that boundary, not acquired in any research
-group I have belonged to. I have since obtained innovation-sector funding for my own instrument
+group I have belonged to. I have since obtained innovation-sector funding for my own prototype
 (Venture Kick CHF 10,000; Mimosa CHF 20,000; UNIGE CHF 30,000) - a sectoral bridge run in the
 other direction.
 

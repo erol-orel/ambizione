@@ -1,6 +1,6 @@
 # Project rules
 
-- **Never use an em-dash (—) in any file in this repository, in any language.** This is a
+- **Never use an em-dash (the U+2014 character) in any file in this repository, in any language.** This is a
   permanent instruction from the applicant. In the research plan use real punctuation instead
   (colon, semicolon, comma, or parentheses); in notes and emails a spaced hyphen ( - ) is fine.
   En-dashes in numeric ranges (2015–2026, M3–M9) are allowed.

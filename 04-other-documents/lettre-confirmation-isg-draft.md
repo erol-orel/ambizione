@@ -43,7 +43,7 @@ duration of the Ambizione grant and to:
 portfolio spans epidemiology, infectious-disease modelling and digital approaches to global
 health. Dr Orel's project addresses a question of direct relevance to this portfolio: whether
 systematically extracted published evidence can inform operational forecasting at the onset of
-health crises, before local outcome data accumulate. The project builds on instruments
+health crises, before local outcome data accumulate. The project builds on a prototype platform
 developed at the Institute, draws on the Geneva operational partnerships the Institute
 maintains, and creates synergies with its surveillance and evidence-synthesis activities,
 while its deliverables (an open extraction benchmark, an evidence-to-prior library and an

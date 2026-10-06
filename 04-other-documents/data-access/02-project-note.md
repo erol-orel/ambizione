@@ -19,7 +19,8 @@ aide ou nuit.
 
 1. **Extraction** - mesurer la fiabilité de l'extraction automatique de paramètres quantitatifs
    depuis la littérature, et corriger le biais identifié. Le projet s'appuie sur LiteRev-Evidence,
-   plateforme que j'ai développée (>80 000 publications indexées).
+   le prototype que j'ai développé (recherche fédérée dans la littérature ouverte, criblage,
+   extraction avec provenance), que le projet transforme en instrument validé.
 2. **Modélisation** - représenter l'état du système de soins comme un **processus à régimes
    latents** (habituel / tendu / sous tension / critique) plutôt que comme un seuil appliqué à une
    prévision ponctuelle, avec une modélisation de la queue de distribution pour l'état critique.

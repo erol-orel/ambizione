@@ -1,10 +1,13 @@
 # To do: Ambizione, deadline 3 November 2026
 
-> ## ❄ SCIENTIFIC TEXT FROZEN (30 September 2026)
+> ## ❄ SCIENCE SETTLED (30 Sep) · APPLICANT'S OWN-WORDS REVISION WEEK (6 to 12 Oct)
 >
-> Three audit rounds (two external, one internal) now converge: the science is finished. **Do not
-> reopen the architecture** - no new methods, domains, literature or restructuring. Remaining
-> work is **release QA**, in this order:
+> Four audit rounds converge: the architecture is finished. **Do not reopen it** - no new
+> methods, domains or restructuring. Since the freeze, only applicant-ordered reframes landed
+> (no em-dash; LiteRev-Evidence as prototype and test bed, validated instrument as deliverable;
+> Keiser "no scientific role in the project"). The applicant is now rewriting the prose in his
+> own words; science challenges still need two external readers converging. Remaining work is
+> **release QA**, in this order:
 >
 > 1. **Bibliography records** - every author list, DOI, venue and status from the publisher
 >    record; then strip all editorial notes/flags. (`placeholders.md` lists them.)
@@ -15,14 +18,15 @@
 > 4. **Data** - CASU-144 agreement scope confirmed (incl. cause categories covering BOTH
 >    respiratory and heat-sensitive classes, and broad age bands).
 > 5. **Episode inventory** - run the eligibility rules; replace the provisional 13–14.
-> 6. **mySNF calibration** - upload the draft PDF **early**; the source count (59,989) is a
+> 6. **mySNF calibration** - upload the draft PDF **early**; the source count (59,994) is a
 >    trigger to calibrate, not a margin. Then 15-page/visual QA of the final PDF.
 >
 > Prose edits after this point only if forced by one of the six items above.
 >
-> **Day-by-day pacing for all of this: `CALENDAR.md`** (readers ping 1 Oct → replies 16 Oct;
-> submission target Fri 30 Oct). The CCER package for the operational data is drafted in
-> `04-other-documents/ccer/` - the DPO route question goes out Thu 2 Oct.
+> **Day-by-day pacing: `CALENDAR.md` v3** (signatures by Tue 14 Oct; **Formulaire RGO by
+> Mon 19 Oct, hard**; readers 13 → 23 Oct; submission target **Thu 29 Oct**). CCER package in
+> `04-other-documents/ccer/`; every RGO form answer pre-filled in
+> `04-other-documents/rgo-form-inputs.md`.
 
 Settled and no longer open: eligibility (RGO-confirmed), host (Institute of Global Health,
 independent programme), no research stay (equivalent mobility via short visits/collaborations,
@@ -34,14 +38,14 @@ confirmatory testing (respiratory primary, heat sequential).
 
 ## Blocked on other people: start all of these now
 
-- [ ] **⚠ RGO, one email:** internal deadline; salary standards for the applicant (~CHF 115k
-      indicative) and for support personnel; whether one person can sign the detailed host
-      confirmation as both contact person and head of institute; budget-entry guidance.
-- [ ] **⚠ Host confirmation, two signatures** (contact person + head of institute, SNSF template
-      verbatim, institute letterhead): resolve who signs as contact person; confirm **nobody else
-      at ISG applies under the same person** (Art. 8 §6 - one applicant per contact person);
-      confirm the "independent programme within ISG" wording the Faculty can actually sign.
-      Send `04-other-documents/emails/02-ray-host.md`.
+- [ ] **⚠ Formulaire RGO by Mon 19 Oct (hard):** signed letter + FNS-format CV + UNIGE ethics
+      statement; answers pre-filled in `rgo-form-inputs.md`. Remaining RGO questions (salary
+      class 19/9, support-personnel rates, declarations, accepted-project examples, relecture
+      slot): `emails/00-rgo.md`.
+- [ ] **⚠ Host confirmation, two signatures by Tue 14 Oct:** **Keiser (contact person) + Ray
+      (director)**, ready-to-sign draft in `lettre-confirmation-isg-draft.md` (letterhead!).
+      Ask Keiser the Art. 8 §6 slot question first (`emails/08-keiser.md`); Ray ask in
+      `emails/02-ray-host.md`.
 - [ ] **⚠ Data-access letters:** HUG emergency (Desmettre), CASU-144 (Larribau), ICU. Letters of
       collaboration only - **no praise of applicant or project, or the SNSF discards them**
       (Guidelines 2.17). Send `04-other-documents/emails/03-…`, `04-…`.
@@ -69,8 +73,9 @@ confirmatory testing (respiratory primary, heat sequential).
 
 ## Writing that remains (all under your control)
 
-- [ ] Fill the ~30 `[[…]]` placeholders. **Reserve is ~0 and the counter excludes placeholder
-      text - every fill needs an offsetting cut.** Cut list in `03-research-plan/draft/README.md`.
+- [ ] Plan placeholders: **0 remain**. Bibliography still carries **12 flag lines** (author
+      lists, DOIs, statuses) - release-QA step 1. **Reserve is 6 characters: every addition
+      needs an offsetting cut.**
 - [ ] Bibliography: full author lists (no "et al." except >50-author consortia), DOIs everywhere
       possible, verify against publisher records. Flags are in `draft/99-bibliography.md`.
 - [ ] Novelty audit via LiteRev (documented search for prior evidence-priors + cold-start work).
@@ -87,8 +92,8 @@ confirmatory testing (respiratory primary, heat sequential).
 
 | When | What |
 | --- | --- |
-| ~Oct (RGO) | UNIGE internal deadline for confirmations |
-| 30 Oct | Target submission |
+| **Mon 19 Oct** | **Formulaire RGO hard deadline** (signed letter + FNS CV + ethics statement) |
+| Thu 29 Oct | Target submission (30 Oct buffer) |
 | 3 Nov 2026, 17:00 | SNSF deadline |
 | Early Apr 2027 | Phase 1 outcome |
 | **3–4 Jun 2027** | **Life Sciences panel interview** (project presentation + Q&A - the confirmatory design and failure map must survive a live panel) |
@@ -106,5 +111,9 @@ confirmatory testing (respiratory primary, heat sequential).
 | Host letters guidance | `04-other-documents/host-institution-letters.md` |
 | Budget rules + table | `04-other-documents/budget.md` |
 | Mobility content plan | `04-other-documents/statement-of-mobility.md` |
-| Emails ready to adapt | `04-other-documents/emails/` |
+| Emails ready to adapt | `04-other-documents/emails/` (00 to 08) |
+| RGO form answers, pre-filled | `04-other-documents/rgo-form-inputs.md` |
+| Host letter, ready to sign | `04-other-documents/lettre-confirmation-isg-draft.md` (+ .docx) |
+| CCER package | `04-other-documents/ccer/` (route, synopsis, data spec, checklist, inquiry) |
+| Working calendar | `CALENDAR.md` (v3, 6 Oct to 3 Nov) |
 | Call documents (primary sources) | `00-source-documents/call-documents/` |
