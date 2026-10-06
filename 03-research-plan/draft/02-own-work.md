@@ -23,8 +23,9 @@ conducting to directing.
 
 I have worked on automated evidence extraction since joining the Institute of Global Health in
 **2019**. **Orel et al., *J Med Internet Res* 2023** introduced **LiteRev**, an automated
-literature-review tool combining NLP, dimensionality reduction, clustering and nearest-neighbour
-retrieval. I led its development with **Aziza Merzouki** (PhD, computer science) and secured
+literature-review tool: from a natural-language or Boolean query it searches eight open-access
+databases, deduplicates, maps the corpus, identifies topics and iteratively suggests the
+relevant papers by similarity. I led its development with **Aziza Merzouki** (PhD, computer science) and secured
 development funding on my own initiative: **CHF 30,000** (UNIGE), **CHF 10,000** (Venture Kick),
 **CHF 20,000** (Mimosa), outside any group grant. LiteRev is used in practice: the AI-in-EMS
 systematic review (**Edjinedja, Larribau, Orel et al.**, submitted 2026), within GESICA, used it
@@ -41,10 +42,11 @@ Nwosu et al., 2021).
 
 ### 2.2.4 The instrument: LiteRev-Evidence
 
-Since 2024 I have developed **LiteRev-Evidence**, extending LiteRev from retrieval into
-structured quantitative extraction and modelling. It is a running production system:
-**81,209 documents** and **323,868 embedded passages** ingested continuously from PubMed, PMC,
-OpenAlex, CrossRef and preprint servers; structured extraction with provenance and quality
+Since 2024 I have developed **LiteRev-Evidence**, extending LiteRev from retrieval and
+screening into structured quantitative extraction and modelling. A running production
+system: **81,209 documents** and **323,868 embedded passages** ingested continuously from
+PubMed, PMC, OpenAlex, CrossRef and preprint servers, with per-scenario **living reviews
+re-run daily**; screening and PICO extraction; structured extraction with provenance and quality
 scoring; **quality-weighted pooling of extracted parameters into distributions**, propagated
 through ensemble simulation, the literature-to-prior mechanism this proposal interrogates, in
 working form; compartmental (SEIR), time-series and machine-learning components with uncertainty
