@@ -1,20 +1,15 @@
 ## 2.4 Schedule and milestones
 
 ![Work plan](figures/fig2-gantt.svg)
-*Figure 2: work packages, tasks and milestones over 48 months. See `figures/`.*
+*Figure 2: work packages, tasks and milestones over 48 months.*
 
-**Who does what.** I execute WP2 and WP3's confirmatory evaluation design personally, and lead
-WP1's protocol, WP3's analysis and WP4's decision work. One **scientific/technical collaborator**
-(support personnel, 50% over 48 months) is requested, justified by three labour-intensive, fully
-specified tasks the PI cannot absorb: second independent extractor for T1.2's benchmark, the
-T3.1–T3.2 harmonisation and rolling-origin pipeline, and the reproducibility engineering behind
-D1.1 and D3.1. No other personnel are requested. Collaborators contribute defined inputs: DS4DH
-the biomedical NLP for T1.3; HUG and CASU-144 the data access and T4.1 elicitation.
+**Who does what.** I execute WP2 and WP3's confirmatory design personally, and lead WP1's
+protocol, WP3's analysis and WP4's decision work. One **scientific/technical collaborator**
+(support personnel, 50% over 48 months) carries three fully specified tasks:
+T1.2's second independent extractor, the T3.1–T3.2 harmonisation and rolling-origin pipeline,
+and the reproducibility engineering behind D1.1 and D3.1. No other personnel are requested.
 
-
-The design avoids a serial chain in which one uncertain result stops the project: WP2 falls back to weakly informative priors if WP1 finds extraction inadequate, WP3 to open surveillance data if operational access is delayed, and WP4's decision analysis is retrospective, independent of prospective deployment.
-
-**What the data fallback costs.** Open surveillance series are not the same outcome as emergency-system demand. Falling back **preserves the methodological test but narrows the outcome claim**, from operational demand to routinely observed crisis indicators, and turns most of WP4's decision analysis illustrative. Hence the agreements are a pre-award action, not a risk to manage later.
+The design avoids a serial chain: WP2 falls back to weakly informative priors if WP1 finds extraction inadequate, WP3 to open surveillance data if operational access is delayed, and WP4's decision analysis is retrospective. **What the data fallback costs:** Open surveillance series are not emergency-system demand. Falling back **preserves the methodological test but narrows the outcome claim** to routinely observed crisis indicators, and turns most of WP4 illustrative. Hence the agreements are a pre-award action, not a risk to manage later.
 
 | Milestone | Month | Criterion |
 | --- | ---: | --- |

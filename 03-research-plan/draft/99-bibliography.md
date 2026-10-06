@@ -26,7 +26,7 @@
 > LiteRev-Evidence repository: those are automatically generated and attribute specific
 > performance figures to named papers. Verify every one before reuse.
 >
-> LiteRev is the right instrument for completing this list; particularly for §2.1.4, where the
+> LiteRev is the right instrument for completing this list; particularly for the novelty claim, where the
 > novelty claim needs a documented systematic search you can report if challenged.
 
 ## Surveillance and outbreak detection
@@ -75,7 +75,7 @@
 - **[Cook 2023]** Cook JD, `[[FULL AUTHOR LIST REQUIRED]]`. Bayesian forecasting of disease
   spread with little or no local data. *Scientific Reports* 2023;13. `[[article number + doi;
   auditor-verified venue (s41598-023-35177-6); complete from the publisher record]]`
-  - The prior-art example §2.1.3 cites: Bayesian forecasting with informative priors under
+  - The prior-art example §2.1.2 cites: Bayesian forecasting with informative priors under
   sparse local data. COLDSTART's gap is downstream of it; automated construction, propagated
   extraction/transportability uncertainty, strict historical information sets, harm detection.
 - **[Ibrahim 2000]** Ibrahim JG, Chen M-H. Power prior distributions for regression models.
@@ -93,7 +93,7 @@
   extraction for evidence synthesis: a systematic review. *J Biomed Inform* 2026;181:105086.
   doi:10.1016/j.jbi.2026.105086 `author list and details auditor-verified 30 Sep; confirm once
   against the publisher record`
-  - Key figures for §1.3: overall accuracy 47–99.9%; numerical items 47–88% vs categorical/string
+  - Key figures for §2.1.2: overall accuracy 47–99.9%; numerical items 47–88% vs categorical/string
   74–96%; omissions 60–74% of errors; hallucination 0.08–6%.
 - **[Orel 2023]** **Orel E**, Ciglenecki I, Thiabaud A, Temerev A, Calmy A, Keiser O, Merzouki A.
   An automated literature review tool (LiteRev) for streamlining and accelerating research using
@@ -129,9 +129,7 @@
 - **[Angelopoulos 2023]** Angelopoulos AN, Bates S. Conformal prediction: a gentle introduction.
   *Foundations and Trends in Machine Learning* 2023;16(4):494–591. `verify volume/pages`
 - **[Barber 2023]** Barber RF, Candès EJ, Ramdas A, Tibshirani RJ. Conformal prediction beyond
-  exchangeability. *Annals of Statistics* 2023;51(2):816–845. `key fixed (was [Xu 2023]); not
-  cited in the text; cite it in T2.5 or drop the entry; a time-series-specific conformal
-  reference may serve better`
+  exchangeability. *Annals of Statistics* 2023;51(2):816–845. `key fixed (was [Xu 2023]); cited in T2.5`
 
 ## Regime switching and extremes
 
@@ -146,7 +144,7 @@
   flu-like hospital visits, three years of daily data from a large Swiss hospital (CHUV).
   Note the affiliations: **Cantoni is at the Research Center for Statistics, University of
   Geneva** (the applicant's DEA supervisor); **Chavez-Demoulin is at UNIL**. Relevant as the
-  nearest prior work to §1.4, not as a mobility lead; no research stay is proposed.
+  nearest prior work to §2.1.3, not as a mobility lead; no research stay is proposed.
 
 
 ## Entries added 30 Sep: cited in the text but previously MISSING from this list
@@ -166,9 +164,9 @@
 - **[Winters 2018]** Winters BD, `[[FULL AUTHOR LIST REQUIRED]]`. Technological distractions
   (part 2): a summary of approaches to manage clinical alarms with intent to reduce alarm
   fatigue. *Crit Care Med* 2018;46(1):130–137. `[[verify venue/volume; this entry sources the
-  72–99% false/non-actionable alarm figure in §2.1.5; confirm the figure appears in the final
+  72–99% false/non-actionable alarm figure in §2.1.4; confirm the figure appears in the final
   source]]`
-- **[Lee 2021]** `[[FULL REFERENCE REQUIRED; the §2.1.5 claim that heat-warning thresholds
+- **[Lee 2021]** `[[FULL REFERENCE REQUIRED; the §2.1.4 claim that heat-warning thresholds
   calibrated to mortality diverge from morbidity/ED thresholds needs its actual source. If no
   "Lee 2021" exists in your reading, the auditor suggests Lung, Yeh & Hwang 2021 (PMC8471601)
   as a candidate that directly discusses mortality- vs morbidity-based heat thresholds;

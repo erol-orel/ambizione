@@ -3,36 +3,32 @@
 ### 2.3.1 Objectives and hypotheses
 
 ![Framework](figures/fig1-framework.svg)
-*Figure 1: the cold-start problem, the evidence-borrowing hypothesis and the evaluation ladder. See `figures/`.*
+*Figure 1: cold-start problem, evidence-borrowing hypothesis, evaluation ladder.*
 
-#### Overall aim
+To determine **whether, and under what conditions, published quantitative evidence provides useful information when local outcome data are insufficient at the onset of a health-system crisis, and whether the resulting forecasts change decisions.**
 
-To determine **whether, and under what conditions, published quantitative evidence provides useful information when local outcome data are insufficient at the onset of a health-system crisis, and whether the resulting forecasts change decisions.** The claim is not substitution for local observation, but information carried during the window before local data become informative.
-
-The project has **one central hypothesis, H3a**; everything else is subordinate to testing it:
+**One central hypothesis, H3a**; everything else is subordinate to it:
 
 | | Role | Statement |
 | --- | --- | --- |
-| **H1** | Methodological validation | Can the evidence be trusted enough to use? |
-| **C2** | Model adequacy criterion | Is the state representation fit to compare borrowing strategies in? |
+| **H1** | Validation | Can the evidence be trusted enough to use? |
+| **C2** | Adequacy criterion | Is the state representation fit to compare borrowing in? |
 | **H3a** | **Central hypothesis** | **Do evidence-derived priors improve cold-start forecast skill?** |
 | **H3b** | Robustness | Is adaptive borrowing safe when the prior is wrong? |
 | **H3c** | Secondary channel | Do resilience indicators add information beyond the prior? |
-| **H4** | Decision value | Is any predictive gain large enough to change an operational choice? |
-
----
+| **H4** | Decision value | Is the gain large enough to change an operational choice? |
 
 #### O1: Make published evidence usable without hiding its uncertainty
 
 > **H1.** Automated extraction will systematically **understate the dispersion of the evidence-derived distribution** (reported within-study uncertainty and between-study heterogeneity), producing priors that are too concentrated; an explicit measurement-error layer will recover enough of the missing dispersion to construct usable priors.
 
-The direction is mechanistic, not asserted: omissions dominate reported extraction errors [Shankar 2026], and omitted uncertainty statements and missed variance components shrink estimated dispersion systematically, not randomly. H1 is tested on point estimates, reported uncertainty, omissions and between-study dispersion. If the predicted overconfidence is absent, that is informative; if it occurs but cannot be corrected, the project establishes a boundary condition.
+The direction is mechanistic: omissions dominate extraction errors [Shankar 2026] and shrink estimated dispersion systematically; if the overconfidence cannot be corrected, the project establishes a boundary condition.
 
 #### O2: Represent escalation in a form that separates state from the point forecast
 
 > **C2, model adequacy criterion.** The latent-state representation must yield **identifiable** parameters and **calibrated** escalation-state probabilities at matched false-alarm rates. Its role is the common state representation in which borrowing strategies are compared, not a claim that regime switching generally beats thresholding a point forecast.
 
-C2 is verified rather than discovered: T2.1's identifiability study and T3.3's calibration checks either establish adequacy or trigger the pre-specified ordinal state-space fallback; either outcome leaves H3a intact. Extreme-value modelling represents the critical state's tail; critical-slowing-down indicators are **supporting, theory-derived covariates** on transition dynamics, their incremental value tested against level and trend.
+C2 is verified rather than discovered: T2.1's identifiability study and T3.3's calibration checks either establish adequacy or trigger the pre-specified ordinal fallback; either outcome leaves H3a intact. Extreme-value modelling represents the critical tail; critical-slowing-down indicators are **supporting covariates** tested against level and trend.
 
 #### O3: Test the cold-start hypothesis and map failure
 
@@ -43,55 +39,34 @@ C2 is verified rather than discovered: T2.1's identifiability study and T3.3's c
 > Δ on the CRPS skill score, and is **superior** to fixed borrowing under deliberately
 > misspecified priors.
 
-H3b is two-sided by design: non-inferiority where the evidence is sound, superiority where it is not. The margin Δ is fixed at the second registration point, before evaluation, justified against the rung 3 → rung 4 effect the study is powered to detect: "no material loss" as a quantity, not a claim.
+H3b is two-sided: non-inferiority where the evidence is sound, superiority where it is not; Δ is fixed at the second registration point, justified against the rung 3 → rung 4 effect the study is powered to detect.
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 
-These hypotheses are tested through the **pre-specified model ladder** of §2.3.2 (T3.3): local
-baseline, regime model under weakly informative priors, the same model under fixed
-evidence-derived priors, adaptive borrowing, and adaptive borrowing plus resilience indicators,
-isolating each increment rather than pitting a final model against a weak baseline.
-
-**Primary confirmatory comparison (one, stated once).** Rung 4 (fixed evidence-derived priors)
-against rung 3 (weakly informative priors), by **CRPS skill score**, over the pre-specified
-cold-start window (the first *N* weeks after onset, *N* fixed at the second registration
-point), **on respiratory episodes only**, pooled across origins. Every other contrast is
-secondary and labelled so. The **shape of the advantage over elapsed local data** is also
-reported: it should decay to nothing; that curve is the descriptive result.
-
-**Ordering across the two core domains.** Heat carries the same contrast as a **sequential
-generalisation test**, run only if the respiratory test is met; fixed-order testing controls
-the family-wise error rate without a multiplicity penalty, and follows the science: respiratory
-evidence is richest, heat transport hardest. A respiratory-positive, heat-negative result is a
-boundary condition on transportability.
+**Primary confirmatory comparison (one, stated once):** rung 4 (fixed evidence-derived priors) against rung 3 (weakly informative priors), by **CRPS skill score**, over the pre-specified cold-start window, **on respiratory episodes only** (procedure and registration: T3.3). Heat repeats the identical contrast as a **sequential generalisation test**, run only if the respiratory test is met; the fixed order controls the family-wise error rate and follows the science: respiratory evidence is richest, heat transport hardest. A respiratory-positive, heat-negative result is a boundary condition on transportability. The **shape of the advantage over elapsed local data** is reported: it should decay to nothing.
 
 #### O4: Establish whether predictive improvement is decision-relevant
 
 > **H4.** Decision-analytic evaluation under the losses and escalation thresholds of emergency responders can rank modelling strategies differently from generic accuracy criteria; the evidence-derived strategy is useful only when its gain crosses a decision threshold.
 
-Threshold elicitation, net benefit and counterfactuals are downstream tests of value, not novelty claims; shadow-mode evaluation is a validation extension, not a prerequisite for the main conclusion.
-
----
+These are downstream tests of value; shadow mode is an extension, not a prerequisite.
 
 #### Validation domains
 
-The domains span **two contrasting model classes** from my GESICA classification: interhuman
-respiratory transmission, and environmentally mediated exposure. Both arms score **the same
-quantity, built the same way**: daily emergency demand from the CASU-144 series, restricted to
-the cause classes the archetype's evidence base concerns (T3.0). For epidemics,
-respiratory-related demand; for heat, **heat-sensitive demand**; Swiss evidence places heat
-effects in dehydration, renal and psychiatric admissions, with a weak respiratory effect
-concentrated at older ages [Schulte 2024; Ragettli 2019]. Scoring heat forecasts on an outcome
-heat barely moves would test nothing about transport; matching each arm's outcome to its
-evidence base makes the generalisation test a test of borrowing, not of the outcome definition.
+The domains span **two contrasting model classes** from my GESICA classification. Both arms
+score **the same quantity, built the same way**: daily emergency demand from the CASU-144
+series, restricted to the cause classes the archetype's evidence base concerns (T3.0):
+respiratory-related demand for epidemics; **heat-sensitive demand** for heat, since Swiss
+evidence places heat effects in dehydration, renal and psychiatric admissions, with a weak
+respiratory effect at older ages [Schulte 2024; Ragettli 2019]. Matching each arm's outcome to
+its evidence base makes the generalisation test a test of borrowing, not of the outcome
+definition.
 
-| Archetype | Role in the project | Dynamics | Outcome and data |
+| Archetype | Role | Dynamics | Outcome and data |
 | --- | --- | --- | --- |
-| **Respiratory epidemic** | Primary confirmatory domain | Transmissible, multi-wave, seasonal | Respiratory-related demand; COVID-19 and influenza principal, RSV supporting |
-| **Heatwave** | Sequential generalisation test | Environmental, short and sharply peaked | Heat-sensitive demand, same series and construction; MeteoSwiss exposures |
-| **Waterborne outbreak** | Year-4 extension | Common-source / environmentally mediated | Geneva legionellosis linked to installations |
-
-The first domain carries the confirmatory claim; the second tests generalisation across mechanism, evidence base and outcome window at once, the demanding transport test. The third tests a substantially different mechanism; its omission does not invalidate the main result.
+| **Respiratory epidemic** | Primary confirmatory | Transmissible, multi-wave, seasonal | Respiratory-related demand; COVID-19, influenza, RSV |
+| **Heatwave** | Sequential generalisation | Environmental, short, sharply peaked | Heat-sensitive demand, same construction; MeteoSwiss exposures |
+| **Waterborne outbreak** | Year-4 extension | Common-source, environmental | Geneva legionellosis linked to installations |
 
 #### What the project does not claim
 

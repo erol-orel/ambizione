@@ -21,9 +21,10 @@ natural language processing and machine learning.
 
 **2. Orel E.** LiteRev-Evidence: a platform for structured quantitative evidence extraction and
 scenario modelling. Software and research resource, 2024–. literev-scenario.com
-> *Contribution:* Sole architect and developer. Production system: 81,000+ indexed publications,
-> 324,000 embedded passages, continuous ingestion, structured extraction with provenance and
-> quality weighting, and compartmental, time-series and machine-learning components.
+> *Contribution:* Sole architect and developer. The full review pipeline in working form:
+> live federated search of the open literature from natural-language or Boolean queries,
+> screening, living reviews, provenance-tracked and quality-weighted extraction pooled into
+> parameter distributions, and the modelling components that consume them.
 > `[[Consider depositing a versioned release with a DOI (Zenodo) before submission - a citable
 > identifier makes a software output count as an output rather than as a claim.]]`
 

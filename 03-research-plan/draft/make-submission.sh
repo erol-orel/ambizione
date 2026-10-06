@@ -1,20 +1,17 @@
 #!/bin/bash
-# Render the plan (without bibliography) at SNSF-compliant specs and count pages.
-# Specs per Guidelines 4.3: A4, min 10pt, 1.5 line spacing; bibliography excluded.
-# Layout: 1.5 cm margins (margins are not prescribed), compact headings.
+# Build the submission-formatted docx + PDF (FULL document incl. bibliography)
+# using the same layout as pagecheck.sh (A4, 10pt, 1.5 spacing, 1.4 cm margins).
 cd "$(dirname "$0")"
+OUT="$(cd .. && pwd)"
+bash assemble.sh >/dev/null
 T=$(mktemp -d)
-cat 00-title-and-summary.md 01-state-of-the-art.md 02-own-work.md 03-objectives.md \
-    04-workplan.md 05-environment-team-resources.md 06-schedule-milestones.md \
-    07-relevance-impact-career.md > "$T/plan.md"
-pandoc "$T/plan.md" -o "$T/plan.docx" --from gfm --reference-doc=pagecheck-reference.docx --resource-path=.:figures
+pandoc ../FINAL-research-plan.md -o "$T/plan.docx" --from gfm --reference-doc=pagecheck-reference.docx --resource-path=.:figures
 cd "$T" && mkdir u && cd u && unzip -oq ../plan.docx
 python3 - <<'PY'
 import pathlib, re
 d = pathlib.Path("word/document.xml"); x = d.read_text()
 sect = '<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="794" w:right="794" w:bottom="794" w:left="794" w:header="567" w:footer="567" w:gutter="0"/></w:sectPr>'
 x = x.replace('<w:sectPr />', sect)
-# Tables: fixed layout, full text width, content-proportional columns
 TEXTW = 11906 - 2*794
 def fix_tbl(m):
     tbl = m.group(0)
@@ -37,7 +34,6 @@ def fix_tbl(m):
         tbl = re.sub(r'<w:gridCol[^>]*/>', lambda mm: '<w:gridCol w:w="%d"/>' % next(it), tbl)
     return tbl
 x = re.sub(r'<w:tbl>.*?</w:tbl>', fix_tbl, x, flags=re.S)
-# Figures: cap width at 12 cm, keep aspect
 MAXCX = 3060000
 def fix_ext(m):
     cx, cy = int(m.group(1)), int(m.group(2))
@@ -46,10 +42,17 @@ def fix_ext(m):
     return '<wp:extent cx="%d" cy="%d"/>' % (cx, cy)
 x = re.sub(r'<wp:extent cx="(\d+)" cy="(\d+)"/>', fix_ext, x)
 x = re.sub(r'<a:ext cx="(\d+)" cy="(\d+)"/>', lambda m: fix_ext(m).replace('wp:extent','a:ext'), x)
+m = re.search(r'<w:style [^>]*w:styleId="BlockText".*?</w:style>', pathlib.Path("word/styles.xml").read_text(), re.S)
+if m:
+    sfile = pathlib.Path("word/styles.xml"); s = sfile.read_text()
+    old = m.group(0)
+    new = re.sub(r'<w:ind [^/]*/>', '<w:ind w:left="170" w:right="0"/>', old)
+    new = re.sub(r'<w:spacing[^/]*/>', '<w:spacing w:before="20" w:after="20" w:line="360" w:lineRule="auto"/>', new)
+    s = s.replace(old, new); sfile.write_text(s)
 d.write_text(x)
 PY
 zip -Xqr ../plan2.docx . && cd .. && soffice --headless --convert-to pdf --outdir . plan2.docx >/dev/null 2>&1
-echo "=== PAGE CHECK (limit 15, bibliography excluded) ==="
-pdfinfo plan2.pdf | grep Pages
-cp plan2.pdf /tmp/pagecheck-latest.pdf && echo "PDF: /tmp/pagecheck-latest.pdf"
+cp plan2.docx "$OUT/FINAL-research-plan.docx"
+cp plan2.pdf "$OUT/FINAL-research-plan-submission.pdf"
+echo "Total pages incl. bibliography: $(pdfinfo plan2.pdf | grep Pages)"
 rm -rf "$T"

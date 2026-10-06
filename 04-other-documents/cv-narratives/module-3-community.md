@@ -1,8 +1,8 @@
 # Module 3: Contributions to the wider research and innovation community
 
-> Outputs cited here: **3** - SARS-CoV-2 seroprevalence, Cameroon (*Nature Communications*, 2021);
-> Leveraging human resources for outbreak analysis (*BMC Public Health*, 2022); Future scenarios
-> for the SARS-CoV-2 epidemic in Switzerland (*F1000Research*, 2020).
+> Outputs cited here: **2** - SARS-CoV-2 seroprevalence, Cameroon (*Nature Communications*,
+> 2021); Future scenarios for the SARS-CoV-2 epidemic in Switzerland (*F1000Research*, 2020).
+> (*BMC Public Health* 2022 and *Epidemiology & Infection* appear as narrative context only.)
 
 ---
 

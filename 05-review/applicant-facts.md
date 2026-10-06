@@ -94,6 +94,14 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   programme. That is the career-transition story the scheme asks for.
 - Keiser relationship → stated in §5.3 with all four roles named.
 - Scientific identity sentence → adopted verbatim (extended form), closing §5.3.
+- **Compression executed + tool metrics purged (applicant instructions, 7 Oct 2026).**
+  Plan compressed 59,974 -> 44,208 chars / 24 -> 15 pages at compliant specs (min 10pt, 1.5
+  spacing, 1.4 cm margins); science, rules, numbers and citations preserved; sync verified.
+  ALL corpus-size and tool metrics (81k documents, embedded passages, scenario counts, API
+  counts, "production system") removed from plan, CV narratives, output list and notes:
+  LiteRev-Evidence is described by capability (live federated search of the open literature,
+  screening, living reviews, provenance-tracked extraction, pooling) and as the working
+  prototype of the instrument the grant builds. Never reintroduce corpus counts.
 - **LiteRev-Evidence status framing settled (applicant instruction, 6 Oct 2026, late).**
   It is presented as **prototype, feasibility proof and test bed**, never as a finished
   instrument: the summary says the project "turns the prototype into a validated instrument

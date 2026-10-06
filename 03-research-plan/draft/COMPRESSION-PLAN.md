@@ -1,4 +1,16 @@
-# Compression plan: 24 pages must become 15 (7 October 2026)
+# Compression plan: EXECUTED 7 October 2026
+
+> **Status: DONE.** Five passes took the plan from 59,974 characters / 24 pages to
+> **44,208 characters / 15 pages** (20 pages with the bibliography, which is excluded from
+> both caps). Every hypothesis, rule, number, safeguard and citation was preserved;
+> citation-bibliography sync verified exact; zero em-dashes; zero placeholders in the plan.
+> What was cut: restatements across sections, motivation sentences for accepted choices,
+> the WP "Question" lines, one duplicated funding list, the MAS table row, corpus-size
+> metrics (applicant instruction), and layout overhead (margins 1.4 cm, compact headings,
+> content-proportional table widths, 10.5 to 8.5 cm figures).
+> `draft/make-submission.sh` builds the formatted FINAL docx + submission PDF.
+
+# The original plan (for reference)
 
 ## The finding
 

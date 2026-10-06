@@ -29,12 +29,13 @@ It is used beyond my own work: a recent systematic review of artificial intellig
 medical services used LiteRev in its methods to structure 138 retained publications.
 
 Since 2024 I have developed **LiteRev-Evidence**, which extends this from retrieval into
-structured quantitative extraction. It is a production system rather than a prototype: a
-continuously updated corpus of over 81,000 publications with 324,000 embedded passages,
-structured extraction with provenance and study-quality scoring, quality-weighted pooling of
-extracted parameters into distributions, and compartmental, time-series and machine-learning
-components that consume them. Thirty-one operational scenarios have been elaborated with
-emergency-medicine partners.
+structured quantitative extraction: the full review pipeline in working form, from a
+natural-language or Boolean query searched live across the open literature, through
+deduplication, screening and PICO extraction, to provenance-tracked, study-quality-scored
+extraction pooled into parameter distributions, with per-scenario living reviews and the
+modelling components that consume the result. Operational scenarios are elaborated with
+emergency-medicine partners. It is the working prototype of the validated instrument my
+research programme proposes to build.
 
 Building it produced the question I now want to answer, and I regard that as the most significant
 intellectual contribution of the work. The platform will readily pool published estimates into

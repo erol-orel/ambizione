@@ -27,11 +27,10 @@ FNS hard deadline: Tuesday 3 November, 17:00.
 | Sat 10 | Catch up any Track A stragglers. | Revise **§2.3.2** (longest; 2 sittings). |
 | Sun 11 | - | Revise **§2.3.3 + §2.4**, then **§2.5 + §2.6** + mobility statement. |
 
-**Revision rules (UPDATED 7 Oct):** the revision is now a **compression pass: cut ~30% while
-rewording** - the 15-page cap binds before the 60k cap (24 pages rendered at compliant specs).
-Per-section quotas and cut rules: `03-research-plan/draft/COMPRESSION-PLAN.md`. Keep every
-hypothesis, number, rule and citation; no em-dash; no "et al."; no links. Check with
-`draft/pagecheck.sh` after each section.
+**Revision rules (UPDATED 7 Oct, evening):** the compression is DONE (44,208 chars / 15
+pages). Your pass is now purely **own words within the 15-page envelope**: reword freely,
+keep every hypothesis, number, rule and citation; any net addition needs a cut; no em-dash;
+no "et al."; no links. Run `draft/pagecheck.sh` after each section you touch.
 
 ## Week 2: Mon 12 to Fri 17 October. The signature-and-form week
 
