@@ -10,7 +10,7 @@ The project needs three capabilities rarely housed together (quantitative method
 
 **Operational access: HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners; the AI-in-EMS review [Edjinedja 2026] evidences the functioning collaboration. No new relationship needs creating after the grant starts.
 
-**Existing infrastructure.** LiteRev-Evidence is operational: 80,000+ publications retrieved and screened by query, living-review updates, structured extraction with provenance and quality scoring, quality-weighted pooling into parameter distributions, connectors to MeteoSwiss, Copernicus ERA5 and surveillance sources. Ambizione does not fund its construction; it uses it. The legionellosis study (BASEC 2026-00324), under way with ethics granted, supplies the contrasting archetype.
+**Existing infrastructure.** LiteRev-Evidence is operational: retrieval over an indexed corpus plus live open-API search, screening, living reviews, structured extraction with provenance and quality scoring, quality-weighted pooling into parameter distributions, connectors to MeteoSwiss, Copernicus ERA5 and surveillance sources. Ambizione does not fund its construction; it uses it. The legionellosis study (BASEC 2026-00324), under way with ethics granted, supplies the contrasting archetype.
 
 **Computing.** UNIGE HPC (Baobab/Yggdrasil) and the University's secure environment for clinical data (requested; see table).
 

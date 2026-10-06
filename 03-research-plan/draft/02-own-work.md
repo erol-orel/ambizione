@@ -24,8 +24,8 @@ conducting to directing.
 I have worked on automated evidence extraction since joining the Institute of Global Health in
 **2019**. **Orel et al., *J Med Internet Res* 2023** introduced **LiteRev**, an automated
 literature-review tool: from a natural-language or Boolean query it searches eight open-access
-databases, deduplicates, maps the corpus, identifies topics and iteratively suggests the
-relevant papers by similarity. I led its development with **Aziza Merzouki** (PhD, computer science) and secured
+databases, deduplicates, maps the corpus, identifies topics and suggests the relevant
+papers iteratively. I led its development with **Aziza Merzouki** (PhD, computer science) and secured
 development funding on my own initiative: **CHF 30,000** (UNIGE), **CHF 10,000** (Venture Kick),
 **CHF 20,000** (Mimosa), outside any group grant. LiteRev is used in practice: the AI-in-EMS
 systematic review (**Edjinedja, Larribau, Orel et al.**, submitted 2026), within GESICA, used it
@@ -43,15 +43,16 @@ Nwosu et al., 2021).
 ### 2.2.4 The instrument: LiteRev-Evidence
 
 Since 2024 I have developed **LiteRev-Evidence**, extending LiteRev from retrieval and
-screening into structured quantitative extraction and modelling. A running production
-system: **81,209 documents** and **323,868 embedded passages** ingested continuously from
-PubMed, PMC, OpenAlex, CrossRef and preprint servers, with per-scenario **living reviews
-re-run daily**; screening and PICO extraction; structured extraction with provenance and quality
+screening into structured quantitative extraction and modelling. A production
+system: an indexed corpus (**81,209 documents**, **323,868 embedded passages**) plus
+**live search of thirteen open bibliographic APIs**, from PubMed, OpenAlex and Europe PMC to
+ClinicalTrials.gov and the preprint servers; per-scenario **living reviews re-run
+daily**; PRISMA-accounted screening and PICO extraction; structured extraction with provenance and quality
 scoring; **quality-weighted pooling of extracted parameters into distributions**, propagated
 through ensemble simulation, the literature-to-prior mechanism this proposal interrogates, in
 working form; compartmental (SEIR), time-series and machine-learning components with uncertainty
 bands and calibration; connectors to MeteoSwiss, Copernicus ERA5 and Sentinelles. Thirty-one operational
-scenarios exist, elaborated with emergency-medicine partners.
+scenarios, elaborated with emergency-medicine partners.
 
 For GESICA I built the Geneva–Vaud–Neuchâtel data foundation: **77 notifiable diseases
 classified into eight model classes** by transmission mode, and a referenced inventory of
@@ -60,8 +61,8 @@ source's holding institution, coverage, resolution, latency, access route and qu
 is why the validation domains are chosen by **model class**, and why this proposal rests on a
 mapped data landscape rather than an assumed one.
 
-**This is what makes the research feasible rather than aspirational**, and, as software with
-independent funding behind it, a research output in its own right.
+**This makes the research feasible rather than aspirational**, and, with independent funding
+behind it, a research output in its own right.
 
 ### 2.2.5 Linked data on a contrasting crisis archetype
 

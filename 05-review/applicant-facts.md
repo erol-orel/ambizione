@@ -94,6 +94,17 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   programme. That is the career-transition story the scheme asks for.
 - Keiser relationship → stated in §5.3 with all four roles named.
 - Scientific identity sentence → adopted verbatim (extended form), closing §5.3.
+- **LiteRev-Evidence description corrected and verified (6 Oct 2026).** Reframed everywhere:
+  review engine first (natural-language or Boolean query, sub-queries, live search of thirteen
+  open bibliographic APIs per the product UI, dedup, corpus mapping, topic identification,
+  iterative relevance suggestion, PRISMA-accounted screening, PICO extraction, per-scenario
+  living reviews), then provenance-tracked extraction and pooling; the indexed corpus (81,209
+  docs) is the cache, coverage is the open literature. Verified against the dev session's own
+  28 Sep capability note, which also records the honest boundary FOR THE INTERVIEW: today's
+  numeric extraction covers a fixed epidemiological vocabulary (R0, incubation, CFR, etc.) and
+  the assistant is a finding aid, not an exhaustive extraction pipeline; WP1's job is exactly
+  to extend the target vocabulary to demand-relevant quantities and characterise extraction
+  error. The plan claims the mechanism, not the finished coverage: that is the right claim.
 - **PLAN B ACTIVATED + UNIGE facts verified (6 Oct 2026, evening).** Contact person =
   Prof. Olivia Keiser; Director = Prof. Nicolas Ray. UNIGE internal deadline: **Formulaire RGO
   by Monday 19 October** (attachments: signed letter, CV in SNSF format, UNIGE ethics

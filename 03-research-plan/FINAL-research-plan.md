@@ -13,9 +13,9 @@
 
 When a health crisis begins, the quantity decision-makers need to forecast (local presentations, demand, occupancy) is precisely the one for which almost no local outcome data yet exist. Context variables abound, but the outcome series is initially a handful of noisy observations, so systems that perform well on years of local history are weakest when early decisions matter most.
 
-There is, however, another source of quantitative information: accumulated published evidence from analogous events elsewhere, with thousands of studies reporting transmission parameters, weather–demand associations, surge magnitudes and lengths of stay. It is rarely tested as formal prior information for operational forecasting, not for lack of statistical machinery but because of the two steps that matter most: **reliable extraction of quantitative estimates, and their transport to the new setting.** A confidently wrong prior is worse than no prior, because it is most influential when local data cannot yet correct it.
+There is, however, another source of quantitative information: accumulated published evidence from analogous events elsewhere, with thousands of studies reporting transmission parameters, weather–demand associations, surge magnitudes and lengths of stay. It is rarely tested as formal prior information for operational forecasting, because of the two steps that matter most: **reliable extraction of quantitative estimates, and their transport to the new setting.** A confidently wrong prior is worse than no prior, because it is most influential when local data cannot yet correct it.
 
-This project asks the central question directly: **can published quantitative evidence provide useful information when local outcome data are insufficient at crisis onset, and can we detect early when it should not be trusted?** The instrument exists: **LiteRev-Evidence**, which I built, runs the full review pipeline: from a natural-language or Boolean query through relevance screening to structured extraction with provenance and quality scores across 80,000+ documents, and pools them into parameter distributions. With it I will (1) establish the error structure of automated extraction and propagate that uncertainty into evidence-derived priors; (2) develop an uncertainty-aware latent-regime framework for health-system escalation, with those priors and a short-window resilience signal; (3) test, through strict rolling-origin experiments reconstructing the information available at each historical moment, whether the priors improve probabilistic forecast skill during the cold-start phase, how fast that value decays as local data accumulate, and when they cause harm; and (4) determine whether any gain is large enough to change operational decisions.
+This project asks the central question directly: **can published quantitative evidence provide useful information when local outcome data are insufficient at crisis onset, and can we detect early when it should not be trusted?** The instrument exists: **LiteRev-Evidence**, which I built, runs the full review pipeline, from a natural-language or Boolean query across the open literature to relevance screening, structured extraction with provenance and quality scores, and pooling into parameter distributions. With it I will (1) establish the error structure of automated extraction and propagate that uncertainty into evidence-derived priors; (2) develop an uncertainty-aware latent-regime framework for health-system escalation, with those priors and a short-window resilience signal; (3) test, through strict rolling-origin experiments reconstructing the information available at each historical moment, whether the priors improve probabilistic forecast skill during the cold-start phase, how fast that value decays as local data accumulate, and when they cause harm; and (4) determine whether any gain is large enough to change operational decisions.
 
 The methodological core is simpler than the full machinery might suggest. The decisive experiment is a pre-specified ladder of models: local baselines; established short-baseline methods; a regime model with weakly informative priors; the same model with literature-derived priors; and adaptive borrowing that discounts the literature under prior–data conflict. One primary rung-to-rung contrast is confirmatory, repeated once, sequentially, as the heat generalisation test. Critical-slowing-down indicators, extreme-value methods and conformal calibration are supporting components, not separate claims of success.
 
@@ -107,8 +107,8 @@ conducting to directing.
 I have worked on automated evidence extraction since joining the Institute of Global Health in
 **2019**. **Orel et al., *J Med Internet Res* 2023** introduced **LiteRev**, an automated
 literature-review tool: from a natural-language or Boolean query it searches eight open-access
-databases, deduplicates, maps the corpus, identifies topics and iteratively suggests the
-relevant papers by similarity. I led its development with **Aziza Merzouki** (PhD, computer science) and secured
+databases, deduplicates, maps the corpus, identifies topics and suggests the relevant
+papers iteratively. I led its development with **Aziza Merzouki** (PhD, computer science) and secured
 development funding on my own initiative: **CHF 30,000** (UNIGE), **CHF 10,000** (Venture Kick),
 **CHF 20,000** (Mimosa), outside any group grant. LiteRev is used in practice: the AI-in-EMS
 systematic review (**Edjinedja, Larribau, Orel et al.**, submitted 2026), within GESICA, used it
@@ -126,15 +126,16 @@ Nwosu et al., 2021).
 ### 2.2.4 The instrument: LiteRev-Evidence
 
 Since 2024 I have developed **LiteRev-Evidence**, extending LiteRev from retrieval and
-screening into structured quantitative extraction and modelling. A running production
-system: **81,209 documents** and **323,868 embedded passages** ingested continuously from
-PubMed, PMC, OpenAlex, CrossRef and preprint servers, with per-scenario **living reviews
-re-run daily**; screening and PICO extraction; structured extraction with provenance and quality
+screening into structured quantitative extraction and modelling. A production
+system: an indexed corpus (**81,209 documents**, **323,868 embedded passages**) plus
+**live search of thirteen open bibliographic APIs**, from PubMed, OpenAlex and Europe PMC to
+ClinicalTrials.gov and the preprint servers; per-scenario **living reviews re-run
+daily**; PRISMA-accounted screening and PICO extraction; structured extraction with provenance and quality
 scoring; **quality-weighted pooling of extracted parameters into distributions**, propagated
 through ensemble simulation, the literature-to-prior mechanism this proposal interrogates, in
 working form; compartmental (SEIR), time-series and machine-learning components with uncertainty
 bands and calibration; connectors to MeteoSwiss, Copernicus ERA5 and Sentinelles. Thirty-one operational
-scenarios exist, elaborated with emergency-medicine partners.
+scenarios, elaborated with emergency-medicine partners.
 
 For GESICA I built the Geneva–Vaud–Neuchâtel data foundation: **77 notifiable diseases
 classified into eight model classes** by transmission mode, and a referenced inventory of
@@ -143,8 +144,8 @@ source's holding institution, coverage, resolution, latency, access route and qu
 is why the validation domains are chosen by **model class**, and why this proposal rests on a
 mapped data landscape rather than an assumed one.
 
-**This is what makes the research feasible rather than aspirational**, and, as software with
-independent funding behind it, a research output in its own right.
+**This makes the research feasible rather than aspirational**, and, with independent funding
+behind it, a research output in its own right.
 
 ### 2.2.5 Linked data on a contrasting crisis archetype
 
@@ -502,7 +503,7 @@ The project needs three capabilities rarely housed together (quantitative method
 
 **Operational access: HUG and Geneva emergency services.** Through GESICA I already work with emergency-medicine and public-health partners; the AI-in-EMS review [Edjinedja 2026] evidences the functioning collaboration. No new relationship needs creating after the grant starts.
 
-**Existing infrastructure.** LiteRev-Evidence is operational: 80,000+ publications retrieved and screened by query, living-review updates, structured extraction with provenance and quality scoring, quality-weighted pooling into parameter distributions, connectors to MeteoSwiss, Copernicus ERA5 and surveillance sources. Ambizione does not fund its construction; it uses it. The legionellosis study (BASEC 2026-00324), under way with ethics granted, supplies the contrasting archetype.
+**Existing infrastructure.** LiteRev-Evidence is operational: retrieval over an indexed corpus plus live open-API search, screening, living reviews, structured extraction with provenance and quality scoring, quality-weighted pooling into parameter distributions, connectors to MeteoSwiss, Copernicus ERA5 and surveillance sources. Ambizione does not fund its construction; it uses it. The legionellosis study (BASEC 2026-00324), under way with ethics granted, supplies the contrasting archetype.
 
 **Computing.** UNIGE HPC (Baobab/Yggdrasil) and the University's secure environment for clinical data (requested; see table).
 
