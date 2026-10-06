@@ -24,7 +24,7 @@ Each row is labelled **secured**, **agreed**, **requested** or **fallback**.
 | Host institute (ISG) | Requested | Host confirmation, SNSF template |
 | DS4DH methodological collaboration | **Agreed** | Letter of collaboration requested |
 | Institutional confirmation | Requested | General confirmation, UNIGE Vice-Rectorate |
-| **CASU-144 records (HUG-operated), primary outcome** | Requested | Letter of collaboration requested. Continuous, daily, near real-time, ~71,000 emergency calls/yr (documented 2026); **access to the HUG centrale's data already established within GESICA** (voice recordings excluded); this project requires its own agreement and CCER approval |
+| **CASU-144 records (HUG-operated), primary outcome** | Requested | Letter of collaboration requested. Continuous, daily, near real-time, archive depth to confirm; **access to the HUG centrale's data already established within GESICA** (voice recordings excluded); this project requires its own agreement and CCER approval |
 | ED presentations, additional channel | Requested | Letter of collaboration requested; daily historical availability to confirm (OFS hospital statistics are annual) |
 | ICU occupancy data | Requested | Letter of collaboration requested; fallback in WP3 |
 | Operational-data ethics | Requested | CCER submission, PI as applicant |

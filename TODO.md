@@ -18,8 +18,9 @@
 > 4. **Data** - CASU-144 agreement scope confirmed (incl. cause categories covering BOTH
 >    respiratory and heat-sensitive classes, and broad age bands).
 > 5. **Episode inventory** - run the eligibility rules; replace the provisional 13–14.
-> 6. **mySNF calibration** - upload the draft PDF **early**; the source count (59,994) is a
->    trigger to calibrate, not a margin. Then 15-page/visual QA of the final PDF.
+> 6. **PAGE CAP (binding): compress to ~42,000 chars / 15 pages** per
+>    `draft/COMPRESSION-PLAN.md`; then mySNF calibration (upload the draft PDF early; the
+>    counter and the page render are both binding).
 >
 > Prose edits after this point only if forced by one of the six items above.
 >

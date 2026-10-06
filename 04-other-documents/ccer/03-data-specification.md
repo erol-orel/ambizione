@@ -13,7 +13,7 @@ plan. Any change here must propagate to both.
 | Category coverage | Must span **respiratory** motifs (primary outcome) AND **heat-sensitive** motifs - dehydration, renal, psychiatric (heat-arm outcome) |
 | Excluded | Direct identifiers, names, addresses, free text, voice recordings, individual records (unless Route C validation subsample) |
 | Holder / custodian | HUG (CASU-144); custodian `[[name from Larribau]]` |
-| Known facts | Continuous, daily, near real-time; ~71,000 emergency calls/yr (2026 GESICA inventory, to reconfirm); access established for GESICA (voice excluded) - this project needs its own agreement |
+| Known facts | Continuous, daily, near real-time; volume and archive depth to request from the custodian (the Sept 2026 GESICA report cites no figure); access established for GESICA (voice excluded; structured fields and free text exist) - this project needs its own agreement |
 | Quality questions | Coding stability of motifs/urgency across the period; COVID-period completeness; archive depth |
 
 ## Series 2: ED presentations (additional observation channel)
