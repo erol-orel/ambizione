@@ -512,6 +512,20 @@ confirming round 14's freeze; the auditor's remaining-gains verdict stands: the 
 the application (CV, achievements, letters, budget, narrative) is where improvement now
 lives.
 
+## 7 Oct, external audit round 16 (9.6/10): final consistency micro-edits, freeze holds
+
+All three applied: (1) summary now "For demand-based event types whose models validate,
+and where authorised..."; (2) fig1 DECISIONS box label now "demand-based daily
+dashboard" (fits() check passed); (3) Zheng citation made citation-safe:
+"pollution-asthma emergency associations are heterogeneous across settings [Zheng 2015]"
+(Zheng is a meta-analysis and cannot source the Swiss-absence claim; the gap observation
+stays recorded in bibliography-notes for interview use). Auditor's contact-person
+reminder matches what is already logged (two ISG applicants fine; contact persons must
+be distinct; Keiser exclusivity to confirm). End state: **50,271 chars / exactly 15
+pages**, sync 47/47, battery green. Freeze holds: rounds 14, 15 and 16 each closed with
+"stop iterating"; dashboard scoping is now identical in summary, figure, H4, T4.3, 2.5
+and M6 - the full consistency chain is closed end to end.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

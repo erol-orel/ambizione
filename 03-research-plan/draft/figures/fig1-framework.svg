@@ -51,7 +51,7 @@
 <text x="1190.0" y="252" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">DECISIONS (WP4)</text>
 <text x="1190.0" y="277" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">elicited thresholds;</text>
 <text x="1190.0" y="298" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">net benefit, not accuracy alone</text>
-<text x="1190.0" y="322" font-family="Helvetica, Arial, sans-serif" font-size="17.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">daily dashboard,</text>
+<text x="1190.0" y="322" font-family="Helvetica, Arial, sans-serif" font-size="17.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">demand-based daily dashboard,</text>
 <text x="1190.0" y="343" font-family="Helvetica, Arial, sans-serif" font-size="17.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">observation mode</text>
 <line x1="774" y1="300" x2="1036" y2="300" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
 <rect x="1040" y="386" width="300" height="130" rx="6" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>

@@ -116,7 +116,7 @@ def fig1():
     dec = [("DECISIONS (WP4)", 19, ACCENT, "bold", 252),
            ("elicited thresholds;", 17, MUTE, "normal", 277),
            ("net benefit, not accuracy alone", 17, MUTE, "normal", 298),
-           ("daily dashboard,", 17.5, INK, "bold", 322),
+           ("demand-based daily dashboard,", 17.5, INK, "bold", 322),
            ("observation mode", 17.5, INK, "bold", 343)]
     for txt, size, col, w8, yy in dec:
         fits(txt, size, lw - 10, bold=(w8 == "bold"))
