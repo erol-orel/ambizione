@@ -436,6 +436,36 @@ authoritative pagination differs from the auditor's render; the table sits clean
 End state: **49,994 chars / exactly 15 pages**, sync 47/47, battery green. The auditor's
 instruction, which I share: STOP changing the research plan.
 
+## 7 Oct, second ISG Ambizione applicant: no conflict
+
+Erol reports a second Ambizione applicant inside ISG, in **Nicolas Ray's group** (not
+Keiser's). Rule check (2026 guidelines, verified by search 7 Oct): the only exclusivity
+is **one applicant per contact person per call**; there is no institute-level quota, and
+a director may sign any number of host letters. Erol's contact person is Keiser; the
+other applicant's is presumably Ray: no collision. Still confirm with Keiser that nobody
+else claimed HER slot this call (question already in emails/08-keiser.md). Practical
+note: Ray's office handles two Ambizione flows the same week - mention it when chasing
+the Tue 14 signature. If the other project is epidemic-intelligence-adjacent, 2.1.5's
+stated-objectives distinction already separates COLDSTART; no text change needed.
+
+## 7 Oct, external audit round 12 (9.5/10): legionellosis coherence, both fixes applied
+
+The tension was introduced by round 9's T3.5 clarification: the scope still said "Both
+arms score the same quantity... CASU-144" while T3.5 says case incidence. Fixed:
+(1) scope now reads "For respiratory and heat, both arms score the same quantity...";
+"Legionellosis instead forecasts case incidence (T3.5), outside this demand comparison."
+(2) T4.3 adds "The legionellosis extension is methodological and retrospective: it need
+not enter the capacity decision or the dashboard." Architecture now explicit:
+respiratory demand (confirmatory) / heat demand (sequential) / legionellosis case
+incidence (contrasting methodological extension, no dashboard obligation).
+Optional items: career-table page move declined again (our pagination differs);
+N operating-characteristic numbers belong in the registered protocol (noted for the
+registration, not the plan). Paid for with: M2/M4 milestone criteria shortened to one
+rendered line each, "Geneva anchors it; the archetypes show what transfers" cut (2.3.1
+and T3.0 carry it), small T4.1/T4.2/T2.5 trims. End state: **50,061 chars / exactly 15
+pages**, sync 47/47, battery green. Auditor: stop iterating; submission-ready once this
+coherence point is fixed - it now is.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

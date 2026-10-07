@@ -190,12 +190,13 @@ pollution (ozone, PM10) as co-exposure and effect modifier**, not a separate dom
 (3) **Waterborne outbreaks**: Geneva legionellosis, the year-4 contrasting extension (T3.5).
 The domains are fixed for the project; further data serve benchmarking and sensitivity
 analyses only; no fourth operational domain is required.
-Both arms score **the same quantity, built the same way**: daily emergency demand from the
-CASU-144 series, restricted to the archetype's cause classes (T3.0): respiratory-related
+For respiratory and heat, both arms score **the same quantity, built the same way**: daily
+emergency demand from the CASU-144 series, restricted to the archetype's cause classes (T3.0): respiratory-related
 demand for epidemics; **heat-sensitive demand** for heat, Swiss evidence placing heat
 effects in dehydration, renal and psychiatric admissions, with a weak respiratory effect at
-older ages [Schulte 2024; Ragettli 2019]. If the month-12 gate activates the registered fallback,
-both arms score it, built the same way, and the claim narrows.
+older ages [Schulte 2024; Ragettli 2019]. Legionellosis instead forecasts case incidence
+(T3.5), outside this demand comparison. If the month-12 gate activates the registered
+fallback, both arms score it, built the same way, and the claim narrows.
 
 #### What the project does not claim
 
@@ -250,7 +251,7 @@ Rolling variance and lag-1 autocorrelation, entered as optional covariates on tr
 
 ##### T2.5: Calibration, automation and validity monitoring *(M20–M28)*
 
-Calibration methods suited to temporal dependence; a conformal component [Angelopoulos 2023; Barber 2023] as a robustness layer if simulation confirms its assumptions. This task also builds the **automation layer**: public streams (weather, surveillance, wastewater) ingested automatically as they become available; models re-estimated at each input's native cadence with versioned re-fitting; and **assumption and validity diagnostics** on every fit (residual structure, dispersion, calibration): a model failing its checks is excluded by pre-registered rules. Release a documented reference implementation in LiteRev-Evidence.
+Calibration methods suited to temporal dependence; a conformal component [Angelopoulos 2023; Barber 2023] as a robustness layer if simulation confirms its assumptions. This task also builds the **automation layer**: public streams (weather, surveillance, wastewater) ingested automatically as they become available; models re-estimated at each input's native cadence with versioned re-fitting; and **assumption and validity diagnostics** on every fit (residual structure, dispersion, calibration): a model failing its checks is excluded by pre-registered rules. Release a reference implementation in LiteRev-Evidence.
 
 **Simulation is prior information, not data.** Fitting literature-parameterised trajectories as if data would count the same information twice and disable the conflict diagnostic H3b depends on; simulation serves identifiability, structural constraints and prior predictive checks, and never tightens the evidence prior.
 
@@ -306,7 +307,7 @@ Identify episodes where borrowing improves or worsens forecasts; characterise fa
 
 ##### T3.5: Test generalisation *(M34–M42)*
 
-The sequential heat test and, resources permitting, the legionellosis extension (year 4): the borrowing framework transferred to forecasting case incidence at outbreak onset (low-count, case-based, on the linked case-environment series), not demand volume.
+The sequential heat test and, resources permitting, the legionellosis extension (year 4): the borrowing framework transferred to forecasting case incidence at outbreak onset (low-count, case-based, on the linked case-environment series).
 
 **Deliverables.** D3.1 reproducible cold-start evaluation pipeline; D3.2 primary result; D3.3 failure/stress-test map; D3.4 cross-archetype analysis.
 
@@ -316,15 +317,15 @@ The sequential heat test and, resources permitting, the legionellosis extension 
 
 ##### T4.1: Elicit operational losses and thresholds *(M24–M32)*
 
-Structured **SHELF** elicitation (n ≈ 15–20 across HUG emergency medicine, CASU-144 regulation and capacity management): elicit the consequences of early, late and unnecessary escalation, then derive thresholds from the losses. **The primary decision is fixed in advance**: trigger surge-capacity escalation when the forecast probability of the strained/critical state crosses the elicited threshold. Non-state candidates map their forecast distributions to escalation-state probabilities via T2.1's registered anchors, so every library member yields the same decision quantity.
+Structured **SHELF** elicitation (n ≈ 15–20 across HUG emergency medicine, CASU-144 regulation and capacity management): elicit the consequences of early, late and unnecessary escalation, then derive thresholds from the losses. **The primary decision is fixed in advance**: trigger surge-capacity escalation when the forecast probability of the strained/critical state crosses the elicited threshold. Non-state candidates map forecasts to escalation-state probabilities via T2.1's registered anchors, so every library member yields the same decision quantity.
 
 ##### T4.2: Decision-analytic evaluation and equity audit *(M30–M40)*
 
-Re-evaluate the WP3 forecasts with net-benefit/decision-curve analysis and value-of-information: do rankings change once consequences are incorporated? Because operational records may encode structural differences, assess calibration and threshold performance across aggregate strata (age, sex, neighbourhood deprivation where appropriate): calibrated on average but miscalibrated for a relevant group is not operationally ready.
+Re-evaluate the WP3 forecasts with net-benefit/decision-curve analysis and value-of-information: do rankings change once consequences are incorporated? Because operational records may encode structural differences, assess calibration and threshold performance across aggregate strata (age, sex, neighbourhood deprivation): calibrated on average but miscalibrated for a relevant group is not operationally ready.
 
 ##### T4.3: Counterfactuals, observation-mode dashboard and living updating *(M34–M48)*
 
-Estimate, for selected episodes, what would have changed had escalation followed the model's signal (a simple capacity model, propagated uncertainty: counterfactuals, not causal estimates). For each archetype that passes T3.3 validation and T4.2's decision-value check, and subject to authorisation, the framework runs as a **daily observation-mode dashboard** with the partner services (144 regulation, ED, ICU capacity management): state probabilities, forecasts and validity checks refreshed automatically, **recorded, never used clinically**. A **living-evidence monitor** checks the literature daily and re-runs the per-scenario syntheses on a registered schedule [Elliott 2014], flagging new publications that would change a parameter value, a variable set, an outcome threshold or the recommended model; changes apply only through version-controlled, pre-registered update rules, never silently. If authorisation is not granted, the project is complete on retrospective evaluation and says so.
+Estimate, for selected episodes, what would have changed had escalation followed the model's signal (a simple capacity model, propagated uncertainty: counterfactuals, not causal estimates). For each archetype that passes T3.3 validation and T4.2's decision-value check, and subject to authorisation, the framework runs as a **daily observation-mode dashboard** with the partner services (144 regulation, ED, ICU): state probabilities, forecasts and validity checks refreshed automatically, **recorded, never used clinically**. The legionellosis extension is methodological and retrospective: it need not enter the capacity decision or the dashboard. A **living-evidence monitor** checks the literature daily and re-runs the per-scenario syntheses on a registered schedule [Elliott 2014], flagging new publications that would change a parameter value, a variable set, an outcome threshold or the recommended model; changes apply only through version-controlled, pre-registered update rules, never silently. If authorisation is not granted, the project is complete on retrospective evaluation and says so.
 
 **Deliverables.** D4.1 elicited loss structure and equity audit; D4.2 decision-analytic evaluation; D4.3 counterfactual analysis, with the observation-mode dashboard and living-update protocol where authorised.
 
@@ -389,9 +390,9 @@ No serial chain: WP2 falls back to weakly informative priors if WP1 finds extrac
 | Milestone | Month | Criterion |
 | --- | ---: | --- |
 | M1 | 9 | Extraction benchmark released |
-| M2 | 12 | Regime/state representation passes identifiability criteria, or fallback selected |
+| M2 | 12 | State model passes identifiability criteria, or fallback selected |
 | M3 | 20 | Open-data benchmark running; operational series harmonised, or fallback activated |
-| M4 | 34 | Primary cold-start hypothesis tested by the registered champion contrast |
+| M4 | 34 | Primary cold-start hypothesis tested by the champion contrast |
 | M5 | 40 | Decision relevance established |
 | M6 | 48 | Cross-archetype analysis complete; dashboard running for validated archetypes where authorised |
 
@@ -402,7 +403,7 @@ No serial chain: WP2 falls back to weakly informative priors if WP1 finds extrac
 
 **Form of publication.** Peer-reviewed articles, preprints on submission, open access throughout; benchmarks, prior library and code as **citable, versioned open resources**; results returned to the partners. Durable resources, subordinate to the central question: **the extraction and replication benchmark**, **the public cold-start benchmark**, an **open reference framework** and a **decision-analytic evaluation framework**.
 
-**Practical and societal impact.** In a crisis's first weeks, emergency systems decide whether to open capacity, redistribute resources or escalate before local outcomes are informative; the project quantifies whether external evidence improves those decisions, and with what residual uncertainty. Geneva anchors it; the archetypes show what transfers.
+**Practical and societal impact.** In a crisis's first weeks, emergency systems decide whether to open capacity, redistribute resources or escalate before local outcomes are informative; the project quantifies whether external evidence improves those decisions, and with what residual uncertainty.
 
 **Where this points operationally.** Each validated archetype leaves a registered, automatically re-validated configuration and, where authorised, a daily observation-mode dashboard in the hands of the services that would use it. Extending that nucleus into a multi-crisis surveillance platform is the explicit post-grant pathway; this project supplies the validated core and the update rules.
 

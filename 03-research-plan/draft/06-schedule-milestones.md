@@ -16,8 +16,8 @@ No serial chain: WP2 falls back to weakly informative priors if WP1 finds extrac
 | Milestone | Month | Criterion |
 | --- | ---: | --- |
 | M1 | 9 | Extraction benchmark released |
-| M2 | 12 | Regime/state representation passes identifiability criteria, or fallback selected |
+| M2 | 12 | State model passes identifiability criteria, or fallback selected |
 | M3 | 20 | Open-data benchmark running; operational series harmonised, or fallback activated |
-| M4 | 34 | Primary cold-start hypothesis tested by the registered champion contrast |
+| M4 | 34 | Primary cold-start hypothesis tested by the champion contrast |
 | M5 | 40 | Decision relevance established |
 | M6 | 48 | Cross-archetype analysis complete; dashboard running for validated archetypes where authorised |

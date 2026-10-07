@@ -4,7 +4,7 @@
 
 **Form of publication.** Peer-reviewed articles, preprints on submission, open access throughout; benchmarks, prior library and code as **citable, versioned open resources**; results returned to the partners. Durable resources, subordinate to the central question: **the extraction and replication benchmark**, **the public cold-start benchmark**, an **open reference framework** and a **decision-analytic evaluation framework**.
 
-**Practical and societal impact.** In a crisis's first weeks, emergency systems decide whether to open capacity, redistribute resources or escalate before local outcomes are informative; the project quantifies whether external evidence improves those decisions, and with what residual uncertainty. Geneva anchors it; the archetypes show what transfers.
+**Practical and societal impact.** In a crisis's first weeks, emergency systems decide whether to open capacity, redistribute resources or escalate before local outcomes are informative; the project quantifies whether external evidence improves those decisions, and with what residual uncertainty.
 
 **Where this points operationally.** Each validated archetype leaves a registered, automatically re-validated configuration and, where authorised, a daily observation-mode dashboard in the hands of the services that would use it. Extending that nucleus into a multi-crisis surveillance platform is the explicit post-grant pathway; this project supplies the validated core and the update rules.
 

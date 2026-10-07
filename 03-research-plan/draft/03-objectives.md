@@ -60,12 +60,13 @@ pollution (ozone, PM10) as co-exposure and effect modifier**, not a separate dom
 (3) **Waterborne outbreaks**: Geneva legionellosis, the year-4 contrasting extension (T3.5).
 The domains are fixed for the project; further data serve benchmarking and sensitivity
 analyses only; no fourth operational domain is required.
-Both arms score **the same quantity, built the same way**: daily emergency demand from the
-CASU-144 series, restricted to the archetype's cause classes (T3.0): respiratory-related
+For respiratory and heat, both arms score **the same quantity, built the same way**: daily
+emergency demand from the CASU-144 series, restricted to the archetype's cause classes (T3.0): respiratory-related
 demand for epidemics; **heat-sensitive demand** for heat, Swiss evidence placing heat
 effects in dehydration, renal and psychiatric admissions, with a weak respiratory effect at
-older ages [Schulte 2024; Ragettli 2019]. If the month-12 gate activates the registered fallback,
-both arms score it, built the same way, and the claim narrows.
+older ages [Schulte 2024; Ragettli 2019]. Legionellosis instead forecasts case incidence
+(T3.5), outside this demand comparison. If the month-12 gate activates the registered
+fallback, both arms score it, built the same way, and the claim narrows.
 
 #### What the project does not claim
 
