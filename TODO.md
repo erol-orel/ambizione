@@ -9,8 +9,10 @@
 > own words; science challenges still need two external readers converging. Remaining work is
 > **release QA**, in this order:
 >
-> 1. **Bibliography records** - every author list, DOI, venue and status from the publisher
->    record; then strip all editorial notes/flags. (`placeholders.md` lists them.)
+> 1. **Bibliography records - DONE 7 Oct** (all author lists/venues verified, keys fixed,
+>    editorial notes moved to `05-review/bibliography-notes.md`). Remains: the 20 Oct
+>    publisher-record spot-check of memory-derived DOIs + three status updates
+>    (Edjinedja, Ng'ambi, Shankar) listed there.
 > 2. **Letters** - host confirmation (two SNSF-template signatures), general confirmation,
 >    three collaboration letters. Statuses in §2.3.3.2 flip to *secured* only when in hand.
 > 3. **Budget** - the RGO/HR rate into `budget.md`'s decision table; lock the CHF 250k
