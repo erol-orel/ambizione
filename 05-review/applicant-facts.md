@@ -483,6 +483,21 @@ the auditor's own instruction, which I share and have been applying: STOP. The p
 changes now only on two-reader convergence from the 13-23 Oct reader round or a factual
 correction from Erol.
 
+## 7 Oct, external audit round 14 (9.6/10, "submission-ready"): one edit, then freeze
+
+Applied the single requested fix (their Option B): T3.2 now reads "primary horizon per
+archetype fixed at the second registration point **by a pre-specified operational
+criterion, never by forecast performance or episode-specific results**". Declined the
+optional "pre-specified emergency-demand quantity" insertion (redundant; T3.0 already
+fixes the outcome construction). The auditor confirms: citation sync 47/47 (their parser
+artefact on combined citations acknowledged as such), zero em-dashes, accessibility
+clean, career table whole on one page, ~49.7k chars by their extraction. End state:
+**50,208 chars / exactly 15 pages**, battery green. THE RESEARCH PLAN IS NOW FROZEN:
+fourteen audit rounds, final verdict 9.6/10, auditor and I agree further edits are
+outside the plan. Reopen only on two-reader convergence (13-23 Oct round) or a factual
+correction from Erol (open: legionellosis target confirmation, UNIGE IP position,
+extractor arm 1 = PI).
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:
