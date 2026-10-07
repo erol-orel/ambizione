@@ -68,6 +68,8 @@ no "et al."; no links. Run `draft/pagecheck.sh` after each section you touch.
 ## Standing rules
 
 - A daily reminder fires into this session each morning (07:54) with the day's actions.
+- Mondays, the same reminder also checks the SNSF Ambizione call page for updates (via
+  web search) and reports any change that affects our documents.
 - Silence for 3 working days = phone, not a second email.
 - Log every answer (RGO numbers, signatures, DPO ruling, data facts, Keiser's Art. 8 slot) in
   `05-review/applicant-facts.md` the day it arrives.
