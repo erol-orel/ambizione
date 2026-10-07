@@ -64,7 +64,7 @@ What has not been established is whether these pieces connect around the **cold-
 ## 2.2 Current state of personal research and competences required for the project
 
 My route is unusual and is why the project is tractable: fifteen years in quantitative
-finance (risk modelling, extreme-value estimation, regime models, stress testing), then a
+finance (risk, extreme values, regime models, stress testing), then a
 doctorate in biomedical sciences at Geneva (defended
 18 December 2023).
 
@@ -73,8 +73,8 @@ doctorate in biomedical sciences at Geneva (defended
 In [Orel 2022] I predicted individual HIV status from socio-behavioural
 characteristics across East and Southern Africa, establishing where models transported between
 countries; [Merzouki 2021] and [Esra 2023] developed the theme. I now **senior-author**
-that line (last author, [Ng'ambi 2026], accepted: machine-learning classification of
-cardiovascular disease history across harmonised WHO STEPS surveys): this proposal's transportability problem, met
+that line (last author, [Ng'ambi 2026], accepted: cardiovascular-disease
+classification across harmonised WHO STEPS surveys): this proposal's transportability problem, met
 first elsewhere, moved from conducting to directing.
 
 ### 2.2.2 Automated evidence synthesis
@@ -138,10 +138,6 @@ knowledge from the doctorate, the Swiss COVID-19 work and GESICA.
 
 ### 2.3.1 Objectives and hypotheses
 
-![Framework](figures/fig1-framework.svg)
-
-*Figure 1: cold-start problem, evidence pipeline, model library with automated selection, living update loop.*
-
 To determine **whether, and under what conditions, published quantitative evidence provides useful information when local outcome data are insufficient at the onset of a health-system crisis, and whether the resulting forecasts change decisions.**
 
 **One central hypothesis, H3a**; everything else is subordinate to it:
@@ -154,6 +150,10 @@ To determine **whether, and under what conditions, published quantitative eviden
 | **H3b** | Robustness | Is adaptive borrowing safe when the prior is wrong? |
 | **H3c** | Secondary channel | Do resilience indicators add information beyond the evidence? |
 | **H4** | Decision value | Is the gain large enough to change an operational choice? |
+
+![Framework](figures/fig1-framework.svg)
+
+*Figure 1: cold-start problem, evidence pipeline, model library with automated selection, living update loop.*
 
 #### O1: Make published evidence usable without hiding its uncertainty
 
@@ -195,11 +195,7 @@ respiratory-related demand for epidemics; **heat-sensitive demand** for heat, Sw
 evidence placing heat effects in dehydration, renal and psychiatric admissions, with a weak
 respiratory effect at older ages [Schulte 2024; Ragettli 2019].
 
-| Archetype | Role | Dynamics | Outcome and data |
-| --- | --- | --- | --- |
-| **Respiratory epidemic** | Primary confirmatory | Transmissible, multi-wave, seasonal | Respiratory-related demand; COVID-19, influenza, RSV |
-| **Heatwave** | Sequential generalisation | Environmental, short, sharply peaked | Heat-sensitive demand, same construction; MeteoSwiss exposures |
-| **Waterborne outbreak** | Year-4 extension | Common-source, environmental | Geneva legionellosis linked to installations |
+**Respiratory epidemics** (transmissible, multi-wave; COVID-19, influenza, RSV) carry the confirmatory test; **heatwaves** (environmental, sharply peaked; MeteoSwiss exposures) the sequential generalisation; **Geneva legionellosis** the year-4 waterborne extension (T3.5).
 
 #### What the project does not claim
 
@@ -272,7 +268,7 @@ Fixed before any evaluation is designed, never revisited in response to performa
 
 **Outcome.** The primary outcome is **daily respiratory-related emergency demand derived from CASU-144 records**, not a raw call count: "respiratory-related" is a pre-registered classification of recorded call reasons and urgency levels. **The heat arm scores heat-sensitive demand**: the same series and construction, restricted to cause classes fixed at registration (dehydration, renal, psychiatric), with respiratory-restricted and 75+ sensitivities. ED presentations and ICU occupancy enter as **additional observation channels on the shared latent state**; wastewater, sentinel consultations and weather as covariates; the hierarchy only fixes which series H3a is scored on.
 
-**Candidate outcome set and geography.** The pre-registered candidates, in hierarchy order: (1) cause-filtered CASU-144 call volume (primary); (2) ED presentations by category; (3) ICU occupancy; (4) all-cause 144 engagements and hospital admissions as sensitivity series; open surveillance (Sentinella, wastewater) as fallback outcomes only. The unit is the **canton of Geneva at daily resolution** (the HUG centrale's coverage area); extension to Vaud and Neuchâtel via the CHUV-operated 144 is a pre-specified external validation if access is granted.
+**Candidate outcome set and geography.** The pre-registered candidates, in hierarchy order: (1) cause-filtered CASU-144 call volume (primary); (2) ED presentations by category; (3) ICU occupancy; (4) all-cause 144 engagements and hospital admissions as sensitivity series; open surveillance (Sentinella, wastewater) as fallback outcomes only. The unit is the **canton of Geneva at daily resolution** (the HUG centrale's coverage area): a deliberate single-canton design in a canton whose data ecosystem I already work in; generalisation is carried by the contrasting archetypes and the open national series.
 
 **Data-access gate.** Criteria for **historical depth, resolution, latency and completeness** are fixed in advance; the primary outcome is selected at a pre-specified checkpoint (month 12) on those criteria alone.
 
@@ -280,11 +276,11 @@ Fixed before any evaluation is designed, never revisited in response to performa
 
 **Two registration points.** The hierarchy, gate criteria and eligibility rule are registered now. The window *N*, the archetype-specific horizons and the margin Δ are registered after the checkpoint and the episode inventory, before any evaluation runs, by T3.3's pre-declared selection rules.
 
-**Open-data validation track (M12–M24, pre-specified secondary).** Before any clinical series connects, the complete rolling-origin machinery runs on open series: Swiss federal respiratory surveillance and wastewater, weekly all-cause deaths for the heat arm, and France's open daily emergency indicators (OSCOUR ED attendances, SOS Médecins consultations), matching GESICA's Franco-Swiss frame. Archived multi-model hub forecasts give contemporaneous comparators for early, genuinely cold-start rounds [Cramer 2022; Sherratt 2023]. The track ships as a **public, re-runnable benchmark**, validates every component before operational data arrive, and makes the central test robust to access outcomes; operational series then sharpen the claim to emergency-system demand.
+**Open-data validation track (M12–M24, pre-specified secondary).** Before any clinical series connects, the complete rolling-origin machinery runs on open Swiss series, freely accessible and requiring no agreement: federal respiratory surveillance, the national wastewater programme, weekly all-cause deaths for the heat arm, MeteoSwiss exposures. Archived multi-model hub forecasts give contemporaneous comparators for early, genuinely cold-start rounds [Cramer 2022; Sherratt 2023]. The track ships as a **public, re-runnable benchmark**, validates every component before operational data arrive, and makes the central test robust to access outcomes; operational series sharpen the claim to emergency-system demand.
 
 ##### T3.1: Assemble the retrospective information set *(M12–M20)*
 
-Harmonise the CASU-144 series with the additional channels and covariates; quantify completeness and delay; model right truncation and nowcasting [Höhle 2014; McGough 2020]; degraded reporting under strain could itself mimic an early-warning signal.
+Harmonise the CASU-144 series with the additional channels and covariates; quantify completeness and delay; model right truncation and nowcasting [Höhle 2014; McGough 2020]; degraded reporting under strain could itself mimic an early-warning signal. Two Geneva channels extend the set: the previously analysed HUG COVID-19 hospitalisation series [Orel 2024], re-requested as a respiratory calibration series, and pharmacy sales with wastewater measurements via the pharmacien cantonal as syndromic covariates.
 
 ##### T3.2: Reconstruct the true information set *(M18–M30)*
 
@@ -334,7 +330,7 @@ Estimate, for selected episodes, what would have changed had escalation followed
 
 **Deliverables.** D4.1 elicited loss structure and equity audit; D4.2 decision-analytic evaluation; D4.3 counterfactual analysis, with the observation-mode dashboard and living-update protocol where authorised.
 
-**Methods, data protection and reproducibility.** Version-controlled R/Python and a registered analysis plan; clinical data processed in the UNIGE secure environment under a new CCER approval with me as applicant; benchmark and software released openly, synthetic equivalents where possible.
+**Methods, data protection and reproducibility.** Version-controlled R/Python and a registered analysis plan; clinical data processed in the UNIGE secure environment under the registered regulatory pathway (CCER approval with me as applicant where required); benchmark and software released openly, synthetic equivalents where possible.
 
 **Expected outputs.** Four to six papers and the durable open resources of §2.5; **I lead the methodological, benchmark and integrative outputs.** None of the explicit fallbacks above converts an inconclusive analysis into a success claim.
 
@@ -343,9 +339,9 @@ Estimate, for selected episodes, what would have changed had escalation followed
 
 ### 2.3.3 Research environment, team and resources
 
-**Host: Institute of Global Health, Faculty of Medicine, University of Geneva**, with a methodological collaboration with **Data Science for Digital Health** (Prof. Douglas Teodoro) and a clinical collaboration with **HUG emergency medicine** (Prof. Thibaut Desmettre; Dr Robert Larribau, CASU-144).
+**Host: Institute of Global Health, Faculty of Medicine, University of Geneva**, with a methodological collaboration with **Data Science for Digital Health** (Prof. Douglas Teodoro) and a clinical one with **HUG emergency medicine** (Prof. Thibaut Desmettre; Dr Robert Larribau, CASU-144).
 
-**Institute of Global Health:** epidemiology, infectious-disease modelling and automated evidence extraction in one institute: where the gap became visible. Independence is organisational: a programme led by me alongside the Institute's groups, not inside one (§2.6). **DS4DH** contributes the biomedical NLP WP1 needs; through GESICA I already work with the emergency-medicine partners; the AI-in-EMS review [Edjinedja 2026] evidences the collaboration.
+**Institute of Global Health:** epidemiology, infectious-disease modelling and automated evidence extraction in one institute: where the gap became visible. Independence is organisational: an independent programme alongside the Institute's groups (§2.6). **DS4DH** contributes the biomedical NLP WP1 needs; through GESICA I already work with the emergency-medicine partners; the AI-in-EMS review [Edjinedja 2026] evidences the collaboration.
 
 **Existing infrastructure.** LiteRev-Evidence is a prototype (live federated search of the open literature, screening, living reviews, certainty-graded extraction with provenance, pooling into parameter distributions, candidate variables, typed outcome templates, multi-family model fitting with automated tuning, weather and surveillance connectors); WP1 and WP2 turn it into a validated instrument and test it. The legionellosis study (BASEC 2026-00324, ethics granted) supplies the contrasting archetype. **Computing:** UNIGE HPC (Baobab/Yggdrasil) and the University's secure environment for clinical data.
 
@@ -353,16 +349,18 @@ Estimate, for selected episodes, what would have changed had escalation followed
 
 | Item | Status | Evidence / action |
 | --- | --- | --- |
-| Legionellosis linked data | **Secured** | Ethics approval BASEC 2026-00324 |
-| Host institute (ISG) | Requested | Host confirmation, SNSF template |
+| Legionellosis linked data | **Secured** | BASEC 2026-00324; data via the médecin cantonal, SIG technical data |
+| Host institute (ISG) | **Agreed** | Hosting accepted; SNSF-template signatures in preparation |
+| Computing | **Secured** | UNIGE HPC and secure-environment access in place |
 | DS4DH methodological collaboration | **Agreed** | Letter requested |
 | Institutional confirmation | Requested | General confirmation, UNIGE Vice-Rectorate |
-| **CASU-144 records (HUG-operated), primary outcome** | Requested | Letter requested; continuous, daily, near real-time; archive depth to confirm; **HUG access established within GESICA**; own agreement + CCER required |
-| ED presentations + ICU occupancy, additional channels | Requested | Letters requested; daily depth to confirm; ICU fallback in WP3 |
-| Operational-data ethics | Requested | CCER submission, PI as applicant |
-| Computing | Requested | UNIGE HPC access |
+| **CASU-144 records, primary outcome** | **Access held (GESICA)** | Continuous, daily, near real-time; project agreement and letter in preparation |
+| ED presentations + ICU occupancy | In progress | Extraction in discussion with HUG; letters requested |
+| COVID-19 hospitalisations (HUG) | Re-request planned | Previously analysed [Orel 2024]; calibration series |
+| Pharmacien cantonal: wastewater, pharmacy sales | Contacts established | Extracts to formalise, partly within GESICA |
+| Open public series (surveillance, wastewater, deaths, weather) | **Public** | Freely accessible; no agreement needed |
 
-The three operational-data rows are the key remaining feasibility items.
+Remaining feasibility items: the ED/ICU extraction and the project 144 agreement; every row rests on an existing relationship.
 
 **Resources requested.** Project funds are capped at **CHF 250,000 over four years**; the applicant's salary is covered separately. Doctoral students and postdocs cannot be employed (2026 rules); support personnel can.
 
@@ -371,10 +369,10 @@ The three operational-data rows are the key remaining feasibility items.
 | Scientific/technical collaborator, **50% over 48 months** | WP1 benchmark extraction, WP3 harmonisation and evaluation pipeline, reproducibility |
 | Second independent extractor | Contracted M3–M9; required for T1.2's dual-extraction design |
 | Computing and data access | Evidence processing, Bayesian estimation, rolling-origin evaluation |
-| Travel, conferences and incoming visits | Results presentation and sustained international collaboration |
+| Travel, conferences, incoming visits | Results presentation; international collaboration |
 | Other eligible direct costs | As justified in the final SNSF budget |
 
-**Preparatory work before the grant starts.** Advanced before month 1, outside grant funding: **data agreements** with HUG and 144/CASU; **CCER preparation with myself as applicant**; **infrastructure hardening** of LiteRev-Evidence before clinical data connect. Feasibility rests on one structural property (**the prototype already exists**) and on the fallbacks, each leaving the central question answerable.
+**Preparatory work before the grant starts.** Advanced before month 1, outside grant funding: **project-specific data agreements** with HUG and 144/CASU (re-scoping access already held); **the regulatory clarification** (BASEC clarification of competence: do aggregated, non-identifying extracts require CCER approval? If so, submission with me as applicant); **infrastructure hardening** of LiteRev-Evidence before clinical data connect. Feasibility rests on **the prototype already existing** and on the fallbacks, each leaving the central question answerable.
 
 
 ---
@@ -387,7 +385,11 @@ protocol and WP4's decision work. One **scientific/technical collaborator**
 T1.2's second independent extractor, the T3.1–T3.2 harmonisation and automated rolling-origin pipeline,
 and the reproducibility engineering behind D1.1 and D3.1. No other personnel are requested.
 
-The design avoids a serial chain: WP2 falls back to weakly informative priors if WP1 finds extraction inadequate, WP3's open-data track runs regardless of operational access, and WP4's decision analysis is retrospective. **What falling back to open data alone costs:** open series are not emergency-system demand, so the outcome claim narrows and most of WP4 turns illustrative; hence the agreements are a pre-award action.
+The design avoids a serial chain: WP2 falls back to weakly informative priors if WP1 finds extraction inadequate, WP3's open-data track runs regardless of operational access, and WP4's decision analysis is retrospective. **What open data alone costs:** open series are not emergency-system demand, so the claim narrows and most of WP4 turns illustrative; hence the agreements are a pre-award action.
+
+![Work plan](figures/fig2-gantt.svg)
+
+*Figure 2: work packages, tasks and milestones over 48 months.*
 
 | Milestone | Month | Criterion |
 | --- | ---: | --- |
@@ -398,26 +400,20 @@ The design avoids a serial chain: WP2 falls back to weakly informative priors if
 | M5 | 40 | Decision relevance established |
 | M6 | 48 | Cross-domain validation; observation-mode dashboard running where authorised |
 
-![Work plan](figures/fig2-gantt.svg)
-
-*Figure 2: work packages, tasks and milestones over 48 months.*
-
 
 ---
 
 ## 2.5 Relevance and impact
 
-The result is useful either way: a principled, auditable way to borrow if evidence helps; a stated boundary if not.
-
-**A null result changes identifiable practice.** Modellers routinely seed early-crisis models with parameters lifted from a few studies, and evidence-synthesis platforms (including my own) assume pooled estimates are reusable as priors; a calibrated null tells both that the practice buys nothing where it is most used.
+**A null result changes identifiable practice.** Modellers routinely seed early-crisis models with parameters lifted from a few studies, and evidence-synthesis platforms (mine included) assume pooled estimates are reusable as priors; a calibrated null tells both that the practice buys nothing where it is most used.
 
 **Form of publication.** Peer-reviewed articles, preprints on submission, open access throughout; benchmarks, prior library and code as **citable, versioned open resources**; results returned to the partners.
 
-Durable resources remain, subordinate to the central question: **the extraction and replication benchmark**, **the public cold-start benchmark on open series**, an **open reference framework** for evidence-informed latent-state forecasting, and a **decision-analytic evaluation framework**.
+Durable resources remain, subordinate to the central question: **the extraction and replication benchmark**, **the public cold-start benchmark**, an **open reference framework** for evidence-informed latent-state forecasting, and a **decision-analytic evaluation framework**.
 
-**Practical and societal impact.** In a crisis's first weeks, emergency systems decide whether to open capacity, redistribute resources or escalate before local outcomes provide a reliable base; the project quantifies whether external evidence improves those decisions, and with how much residual uncertainty. Geneva anchors it; the contrasting domains show what transfers.
+**Practical and societal impact.** In a crisis's first weeks, emergency systems decide whether to open capacity, redistribute resources or escalate before local outcomes provide a reliable base; the project quantifies whether external evidence improves those decisions, and with how much residual uncertainty. Geneva anchors it; the archetypes show what transfers.
 
-**Where this points operationally.** Each validated event type leaves a registered, automatically re-validated configuration and a daily observation-mode dashboard in the hands of the services that would use it. Extending that nucleus into a multi-crisis surveillance platform for clinicians and regulators, event type by event type as models validate, is the explicit post-grant pathway; this project supplies the validated core and update rules that make it trustworthy.
+**Where this points operationally.** Each validated event type leaves a registered, automatically re-validated configuration and a daily observation-mode dashboard in the hands of the services that would use it. Extending that nucleus into a multi-crisis surveillance platform, event type by event type as models validate, is the explicit post-grant pathway; this project supplies the validated core and update rules that make it trustworthy.
 
 ## 2.6 Relevance for personal career development
 
@@ -426,19 +422,19 @@ Durable resources remain, subordinate to the central question: **the extraction 
 | Programme | Objective | My role | Distinction from Ambizione |
 | --- | --- | --- | --- |
 | GESICA | Franco-Swiss crisis intelligence | Contributor | Decision support; no test of evidence-derived priors |
-| GeoAI4EI (Horizon Europe, 2026–2030) | European epidemic-intelligence toolbox | Contributor | Infrastructure; no test of borrowed evidence's inferential value |
+| GeoAI4EI (Horizon Europe) | European epidemic-intelligence toolbox | Contributor | Infrastructure; no test of borrowed evidence |
 | Legionellosis study (ongoing) | Geneva waterborne outbreak determinants | Data/scientific lead | Supplies a contrasting validation extension |
 | **Ambizione** | **When evidence-informed forecasting helps at cold start, and when it harms** | **PI, full-time** | - |
 
-**This project does not build another epidemic-intelligence platform.** It uses existing infrastructures to test a question that is a work package of none of them.
+**This project does not build another epidemic-intelligence platform**: it uses existing infrastructures to test a question that is a work package of none of them.
 
 **The question and the methods are mine.** It arose building LiteRev-Evidence: the platform could pool published estimates into priors, but nothing established whether those priors improved forecasting in a new setting. The methodological core came from fifteen years of quantitative finance, from no group I have worked in; the platform is UNIGE intellectual property under my scientific direction.
 
-**Collaborators and their roles.** Prof. Olivia Keiser leads the group in which I developed LiteRev, the MAS on which I teach, the legionellosis study and GeoAI4EI; she co-authors my doctoral and post-doctoral output (expected at this stage) and has **no scientific role in this project**. Prof. Douglas Teodoro leads GESICA and provides the WP1 biomedical-NLP collaboration.
+**Collaborators and their roles.** Prof. Olivia Keiser leads the group in which I developed LiteRev, the MAS on which I teach, the legionellosis study and GeoAI4EI; she co-authors my output (expected at this stage) and has **no scientific role in this project**. Prof. Douglas Teodoro leads GESICA and provides the WP1 biomedical-NLP collaboration.
 
-**The organisational position is the substance of the transition.** Hosted by the **Institute of Global Health**, I will lead an independent programme alongside the Institute's groups rather than inside one; the PI's independence guarantees are documented in the confirmation letters. The programme is executable by the PI and one budgeted collaborator: **no named individual is load-bearing, by design.**
+**The organisational position is the substance of the transition.** Hosted by the **Institute of Global Health**, I will lead an independent programme alongside its groups rather than inside one; the independence guarantees are documented in the confirmation letters. The programme is executable by the PI and one budgeted collaborator: **no named individual is load-bearing, by design.**
 
-**Where this leads.** By month 48 I intend to hold a validated answer, open resources the field can build on, and a first-author methodological record in my own name: the basis for a group-leadership position or professorship. My research time is currently divided across four collaborative programmes; Ambizione consolidates it into one.
+**Where this leads.** By month 48 I intend to hold a validated answer, open resources the field can build on, and a first-author methodological record in my own name: the basis for group leadership or a professorship. My research time is currently divided across four collaborative programmes; Ambizione consolidates it into one.
 
 
 ---

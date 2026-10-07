@@ -1,7 +1,7 @@
 ## 2.2 Current state of personal research and competences required for the project
 
 My route is unusual and is why the project is tractable: fifteen years in quantitative
-finance (risk modelling, extreme-value estimation, regime models, stress testing), then a
+finance (risk, extreme values, regime models, stress testing), then a
 doctorate in biomedical sciences at Geneva (defended
 18 December 2023).
 
@@ -10,8 +10,8 @@ doctorate in biomedical sciences at Geneva (defended
 In [Orel 2022] I predicted individual HIV status from socio-behavioural
 characteristics across East and Southern Africa, establishing where models transported between
 countries; [Merzouki 2021] and [Esra 2023] developed the theme. I now **senior-author**
-that line (last author, [Ng'ambi 2026], accepted: machine-learning classification of
-cardiovascular disease history across harmonised WHO STEPS surveys): this proposal's transportability problem, met
+that line (last author, [Ng'ambi 2026], accepted: cardiovascular-disease
+classification across harmonised WHO STEPS surveys): this proposal's transportability problem, met
 first elsewhere, moved from conducting to directing.
 
 ### 2.2.2 Automated evidence synthesis

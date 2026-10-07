@@ -259,6 +259,26 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   pages, figures on pages 4/12), so its page observations were stale but its P0s were real.
   Plan now 48,510 chars / exactly 15 pages; margins 1.09/1.27 cm.
 
+- **DATA-ACCESS FACTS + GENEVA-ONLY DECISION (applicant, 7 Oct 2026, night).** Facts recorded
+  and now reflected in the commitments table: host institute hosting ACCEPTED (SNSF-template
+  signatures in preparation); computing SECURED (UNIGE HPC + secure environment, CMU, support
+  of the computer-science faculty); CASU-144 ACCESS HELD within GESICA (open question: the
+  project-specific reuse route; exactly what the DPO email and BASEC clarification de
+  competence address; never write "no CCER needed" until the clarification answers); ED/ICU
+  extraction IN PROGRESS with HUG; NEW ASSETS: HUG COVID-19 hospitalisation series previously
+  held and analysed [Orel 2024], to be re-requested as respiratory calibration/validation
+  series; pharmacien cantonal (Geneva): wastewater + pharmacy medication sales, good contact,
+  partly via GESICA (Erol will ask); medecin cantonal: direct working relationship (supplied
+  the legionellosis data; possible reuse to check); SIG technical data. DECISIONS: project
+  scope = CANTON OF GENEVA ONLY (GE-VD-NE external validation via CHUV-144 removed: no links
+  to VD/NE); EVERYTHING FRANCE REMOVED incl. OSCOUR/SOS Medecins benchmarking (open track is
+  now Swiss-only: federal surveillance, national wastewater programme, FSO weekly deaths,
+  MeteoSwiss; hub-archive comparators kept, they are not French); public data stated as
+  public, not conditional. Archetype table in 2.3.1 replaced by one sentence (content lived
+  in four other places). Plan: 48,732 chars / exactly 15 pages; margins now 1.06/1.27 cm.
+  TO DO (Erol): emails to pharmacien cantonal and medecin cantonal (data + possible letters);
+  confirm with HUG the COVID-hospitalisation re-request route.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

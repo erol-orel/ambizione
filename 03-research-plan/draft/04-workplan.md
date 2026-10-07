@@ -62,7 +62,7 @@ Fixed before any evaluation is designed, never revisited in response to performa
 
 **Outcome.** The primary outcome is **daily respiratory-related emergency demand derived from CASU-144 records**, not a raw call count: "respiratory-related" is a pre-registered classification of recorded call reasons and urgency levels. **The heat arm scores heat-sensitive demand**: the same series and construction, restricted to cause classes fixed at registration (dehydration, renal, psychiatric), with respiratory-restricted and 75+ sensitivities. ED presentations and ICU occupancy enter as **additional observation channels on the shared latent state**; wastewater, sentinel consultations and weather as covariates; the hierarchy only fixes which series H3a is scored on.
 
-**Candidate outcome set and geography.** The pre-registered candidates, in hierarchy order: (1) cause-filtered CASU-144 call volume (primary); (2) ED presentations by category; (3) ICU occupancy; (4) all-cause 144 engagements and hospital admissions as sensitivity series; open surveillance (Sentinella, wastewater) as fallback outcomes only. The unit is the **canton of Geneva at daily resolution** (the HUG centrale's coverage area); extension to Vaud and Neuchâtel via the CHUV-operated 144 is a pre-specified external validation if access is granted.
+**Candidate outcome set and geography.** The pre-registered candidates, in hierarchy order: (1) cause-filtered CASU-144 call volume (primary); (2) ED presentations by category; (3) ICU occupancy; (4) all-cause 144 engagements and hospital admissions as sensitivity series; open surveillance (Sentinella, wastewater) as fallback outcomes only. The unit is the **canton of Geneva at daily resolution** (the HUG centrale's coverage area): a deliberate single-canton design in a canton whose data ecosystem I already work in; generalisation is carried by the contrasting archetypes and the open national series.
 
 **Data-access gate.** Criteria for **historical depth, resolution, latency and completeness** are fixed in advance; the primary outcome is selected at a pre-specified checkpoint (month 12) on those criteria alone.
 
@@ -70,11 +70,11 @@ Fixed before any evaluation is designed, never revisited in response to performa
 
 **Two registration points.** The hierarchy, gate criteria and eligibility rule are registered now. The window *N*, the archetype-specific horizons and the margin Δ are registered after the checkpoint and the episode inventory, before any evaluation runs, by T3.3's pre-declared selection rules.
 
-**Open-data validation track (M12–M24, pre-specified secondary).** Before any clinical series connects, the complete rolling-origin machinery runs on open series: Swiss federal respiratory surveillance and wastewater, weekly all-cause deaths for the heat arm, and France's open daily emergency indicators (OSCOUR ED attendances, SOS Médecins consultations), matching GESICA's Franco-Swiss frame. Archived multi-model hub forecasts give contemporaneous comparators for early, genuinely cold-start rounds [Cramer 2022; Sherratt 2023]. The track ships as a **public, re-runnable benchmark**, validates every component before operational data arrive, and makes the central test robust to access outcomes; operational series then sharpen the claim to emergency-system demand.
+**Open-data validation track (M12–M24, pre-specified secondary).** Before any clinical series connects, the complete rolling-origin machinery runs on open Swiss series, freely accessible and requiring no agreement: federal respiratory surveillance, the national wastewater programme, weekly all-cause deaths for the heat arm, MeteoSwiss exposures. Archived multi-model hub forecasts give contemporaneous comparators for early, genuinely cold-start rounds [Cramer 2022; Sherratt 2023]. The track ships as a **public, re-runnable benchmark**, validates every component before operational data arrive, and makes the central test robust to access outcomes; operational series sharpen the claim to emergency-system demand.
 
 ##### T3.1: Assemble the retrospective information set *(M12–M20)*
 
-Harmonise the CASU-144 series with the additional channels and covariates; quantify completeness and delay; model right truncation and nowcasting [Höhle 2014; McGough 2020]; degraded reporting under strain could itself mimic an early-warning signal.
+Harmonise the CASU-144 series with the additional channels and covariates; quantify completeness and delay; model right truncation and nowcasting [Höhle 2014; McGough 2020]; degraded reporting under strain could itself mimic an early-warning signal. Two Geneva channels extend the set: the previously analysed HUG COVID-19 hospitalisation series [Orel 2024], re-requested as a respiratory calibration series, and pharmacy sales with wastewater measurements via the pharmacien cantonal as syndromic covariates.
 
 ##### T3.2: Reconstruct the true information set *(M18–M30)*
 
@@ -124,6 +124,6 @@ Estimate, for selected episodes, what would have changed had escalation followed
 
 **Deliverables.** D4.1 elicited loss structure and equity audit; D4.2 decision-analytic evaluation; D4.3 counterfactual analysis, with the observation-mode dashboard and living-update protocol where authorised.
 
-**Methods, data protection and reproducibility.** Version-controlled R/Python and a registered analysis plan; clinical data processed in the UNIGE secure environment under a new CCER approval with me as applicant; benchmark and software released openly, synthetic equivalents where possible.
+**Methods, data protection and reproducibility.** Version-controlled R/Python and a registered analysis plan; clinical data processed in the UNIGE secure environment under the registered regulatory pathway (CCER approval with me as applicant where required); benchmark and software released openly, synthetic equivalents where possible.
 
 **Expected outputs.** Four to six papers and the durable open resources of §2.5; **I lead the methodological, benchmark and integrative outputs.** None of the explicit fallbacks above converts an inconclusive analysis into a success claim.

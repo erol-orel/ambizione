@@ -12,7 +12,7 @@ cd "$T" && mkdir u && cd u && unzip -oq ../plan.docx
 python3 - <<'PY'
 import pathlib, re
 d = pathlib.Path("word/document.xml"); x = d.read_text()
-sect = '<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="620" w:right="720" w:bottom="620" w:left="720" w:header="567" w:footer="567" w:gutter="0"/></w:sectPr>'
+sect = '<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="600" w:right="720" w:bottom="600" w:left="720" w:header="567" w:footer="567" w:gutter="0"/></w:sectPr>'
 x = x.replace('<w:sectPr />', sect)
 # Tables: fixed layout, full text width, content-proportional columns
 TEXTW = 11906 - 2*720

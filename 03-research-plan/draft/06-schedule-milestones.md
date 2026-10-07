@@ -6,7 +6,11 @@ protocol and WP4's decision work. One **scientific/technical collaborator**
 T1.2's second independent extractor, the T3.1–T3.2 harmonisation and automated rolling-origin pipeline,
 and the reproducibility engineering behind D1.1 and D3.1. No other personnel are requested.
 
-The design avoids a serial chain: WP2 falls back to weakly informative priors if WP1 finds extraction inadequate, WP3's open-data track runs regardless of operational access, and WP4's decision analysis is retrospective. **What falling back to open data alone costs:** open series are not emergency-system demand, so the outcome claim narrows and most of WP4 turns illustrative; hence the agreements are a pre-award action.
+The design avoids a serial chain: WP2 falls back to weakly informative priors if WP1 finds extraction inadequate, WP3's open-data track runs regardless of operational access, and WP4's decision analysis is retrospective. **What open data alone costs:** open series are not emergency-system demand, so the claim narrows and most of WP4 turns illustrative; hence the agreements are a pre-award action.
+
+![Work plan](figures/fig2-gantt.svg)
+
+*Figure 2: work packages, tasks and milestones over 48 months.*
 
 | Milestone | Month | Criterion |
 | --- | ---: | --- |
@@ -16,7 +20,3 @@ The design avoids a serial chain: WP2 falls back to weakly informative priors if
 | M4 | 34 | Primary cold-start hypothesis tested by the registered champion contrast |
 | M5 | 40 | Decision relevance established |
 | M6 | 48 | Cross-domain validation; observation-mode dashboard running where authorised |
-
-![Work plan](figures/fig2-gantt.svg)
-
-*Figure 2: work packages, tasks and milestones over 48 months.*

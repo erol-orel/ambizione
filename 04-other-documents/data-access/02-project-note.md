@@ -66,15 +66,14 @@ Le projet dérive en partie de notre travail commun dans GESICA, tout en s'en di
 ## Les données : ce qui serait demandé, et par quelle voie
 
 **Ce qui serait demandé.** Un **extrait rétrospectif agrégé au jour** : date, effectifs par
-motif de recours / catégorie large et degré d'urgence (144), ou par catégorie de passage
-(urgences), idéalement par classe d'âge large. **Aucun identifiant direct, aucune donnée
+motif de recours et degré d'urgence (144), ou par catégorie de passage (urgences),
+idéalement par classe d'âge large. **Aucun identifiant direct, aucune donnée
 individuelle, aucun enregistrement vocal, aucun texte libre.** Les données de régulation du
 144 constituent la **série d'issue principale** ; le critère principal est la demande à motif
 respiratoire, celui du volet canicule la demande à motifs sensibles à la chaleur
 (déshydratation, rénal, psychiatrique) - d'où l'importance de catégories de motifs couvrant
-les deux. Les passages aux urgences et l'occupation des soins intensifs sont des canaux
-d'observation complémentaires. Le périmètre est le canton de Genève au jour ; une validation
-externe pré-spécifiée est prévue sur GE–VD–NE.
+les deux. Les passages aux urgences et l'occupation des soins intensifs sont des canaux complémentaires. Le périmètre est le canton de Genève au jour : un choix délibéré, appuyé sur l'écosystème
+de données genevois (144, urgences, soins intensifs, médecin et pharmacien cantonaux).
 
 **Par quelle voie.** Rien n'est demandé aujourd'hui en matière de données. Si le projet est
 financé, l'accès passerait par la **voie officielle : une soumission à la CCER, avec moi comme
@@ -88,14 +87,12 @@ un résultat méthodologique en résultat opérationnel.
 
 ## Ce que vous y gagnez
 
-- Une évaluation indépendante et pré-enregistrée de ce que valent réellement les prévisions
-  précoces pour la planification des ressources.
+- Une évaluation indépendante et pré-enregistrée de la valeur réelle des prévisions précoces.
 - Des seuils d'escalade explicités et documentés, construits avec vos équipes.
 - Pour les types d'événements dont les modèles auront été validés, un **tableau de bord
   quotidien en mode observation** pour vos équipes (régulation 144, urgences, soins
-  intensifs) : états et prévisions rafraîchis automatiquement, enregistrés, jamais
-  décisionnels pendant le projet. Le noyau d'une future plateforme de surveillance, étendue
-  au rythme des validations.
+  intensifs) : états et prévisions rafraîchis automatiquement, enregistrés, jamais décisionnels
+  pendant le projet ; le noyau d'une future plateforme de surveillance.
 - Publications communes, dans la continuité de GESICA.
 
 **Calendrier.** Dépôt : 3 novembre 2026 · Décision : août 2027 · Début : entre septembre

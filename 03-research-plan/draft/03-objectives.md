@@ -2,10 +2,6 @@
 
 ### 2.3.1 Objectives and hypotheses
 
-![Framework](figures/fig1-framework.svg)
-
-*Figure 1: cold-start problem, evidence pipeline, model library with automated selection, living update loop.*
-
 To determine **whether, and under what conditions, published quantitative evidence provides useful information when local outcome data are insufficient at the onset of a health-system crisis, and whether the resulting forecasts change decisions.**
 
 **One central hypothesis, H3a**; everything else is subordinate to it:
@@ -18,6 +14,10 @@ To determine **whether, and under what conditions, published quantitative eviden
 | **H3b** | Robustness | Is adaptive borrowing safe when the prior is wrong? |
 | **H3c** | Secondary channel | Do resilience indicators add information beyond the evidence? |
 | **H4** | Decision value | Is the gain large enough to change an operational choice? |
+
+![Framework](figures/fig1-framework.svg)
+
+*Figure 1: cold-start problem, evidence pipeline, model library with automated selection, living update loop.*
 
 #### O1: Make published evidence usable without hiding its uncertainty
 
@@ -59,11 +59,7 @@ respiratory-related demand for epidemics; **heat-sensitive demand** for heat, Sw
 evidence placing heat effects in dehydration, renal and psychiatric admissions, with a weak
 respiratory effect at older ages [Schulte 2024; Ragettli 2019].
 
-| Archetype | Role | Dynamics | Outcome and data |
-| --- | --- | --- | --- |
-| **Respiratory epidemic** | Primary confirmatory | Transmissible, multi-wave, seasonal | Respiratory-related demand; COVID-19, influenza, RSV |
-| **Heatwave** | Sequential generalisation | Environmental, short, sharply peaked | Heat-sensitive demand, same construction; MeteoSwiss exposures |
-| **Waterborne outbreak** | Year-4 extension | Common-source, environmental | Geneva legionellosis linked to installations |
+**Respiratory epidemics** (transmissible, multi-wave; COVID-19, influenza, RSV) carry the confirmatory test; **heatwaves** (environmental, sharply peaked; MeteoSwiss exposures) the sequential generalisation; **Geneva legionellosis** the year-4 waterborne extension (T3.5).
 
 #### What the project does not claim
 
