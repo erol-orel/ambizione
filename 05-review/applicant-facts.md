@@ -198,6 +198,23 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   note (automation volet 5 + dashboard gain), Desmettre/Larribau emails (dashboard
   sentence), readers email, hypothesis-audit banner, applicant-decisions.
 
+- **LiteRev-Evidence deck v2 (32 slides, received 7 Oct 2026).** New demonstrated
+  capabilities folded into §2.2.4, §2.3.3 and T3.3's library line: typed outcome templates
+  (ED overload, bed occupancy, call volume/surge; task types, metrics, variable schemas);
+  model fitting across families (boosting, forests, quantile RF for surge tails with
+  pinball loss, regularised linear, SVM, MLP, kNN, Cox, Prophet, SARIMAX) with Optuna
+  Bayesian search, CV incl. time-series splits, metric-matched scoring, runs kept with
+  parameters/metrics/importances; SEIR compartments usable as predictors ("seir" feature
+  source); living review with dry-run previews; clustering + knowledge graph; answers
+  kept/dated/exportable, and answer-proposed parameter changes accepted or rejected by the
+  reviewer (provenance kept). Framing kept: prototype mechanics exist, the grant adds the
+  registered two-arm science. INTERVIEW NOTES: the deck's own honest-limits slide matches
+  our claims (abstract-first, English asymmetry, auto selection labelled, "a model needs
+  real data: an operational extract nobody else can supply" = our data-access emphasis);
+  the deck's dashboard slide is titled "Where this is heading", confirming
+  dashboard-as-direction, consistent with observation-mode-deliverable + platform-as-
+  pathway. Never cite the deck's example counts (449/228/221/52 etc.) in any document.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

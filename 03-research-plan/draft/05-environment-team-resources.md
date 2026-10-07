@@ -4,7 +4,7 @@
 
 **Institute of Global Health:** epidemiology, infectious-disease modelling and automated evidence extraction in one institute; this is where the gap became visible. Independence is organisational: a programme led by me alongside the Institute's groups, not inside one (§2.6). **DS4DH** contributes the biomedical NLP WP1 needs; through GESICA I already work with the emergency-medicine partners, and the AI-in-EMS review [Edjinedja 2026] evidences the functioning collaboration.
 
-**Existing infrastructure.** LiteRev-Evidence is a prototype (live federated search of the open literature, screening, living reviews, certainty-graded extraction with provenance, pooling into parameter distributions, candidate variables and model specifications, weather and surveillance connectors); WP1 and WP2 turn it into a validated instrument and test it. The legionellosis study (BASEC 2026-00324, ethics granted) supplies the contrasting archetype. **Computing:** UNIGE HPC (Baobab/Yggdrasil) and the University's secure environment for clinical data.
+**Existing infrastructure.** LiteRev-Evidence is a prototype (live federated search of the open literature, screening, living reviews, certainty-graded extraction with provenance, pooling into parameter distributions, candidate variables, typed outcome templates, multi-family model fitting with automated tuning, weather and surveillance connectors); WP1 and WP2 turn it into a validated instrument and test it. The legionellosis study (BASEC 2026-00324, ethics granted) supplies the contrasting archetype. **Computing:** UNIGE HPC (Baobab/Yggdrasil) and the University's secure environment for clinical data.
 
 **Commitments, by status.**
 

@@ -37,11 +37,14 @@ quantitative extraction and modelling: the full review pipeline in
 working form, from a query searched live across the open literature, through deduplication,
 PRISMA-accounted screening and PICO extraction, to **provenance-tracked extraction graded for
 study-design certainty and pooled into parameter distributions**, and onward to the model
-step: candidate predictor variables, a model specification (outcome, predictors,
-lags, functional form) and compartmental components parameterised from extracted ranges,
-each with the articles behind it. Per-scenario **living reviews re-run on schedule**, with
-what changed made visible: the evidence-to-model mechanism this proposal interrogates, in
-prototype form.
+step: candidate predictor variables with their supporting articles; typed outcome
+definitions with ready-made emergency-demand targets (ED overload, bed occupancy, call
+surge); **model fitting across algorithm families with automated hyperparameter search,
+leakage-safe time-series validation and ranking on a stated metric**; and compartmental
+components, parameterised from extracted ranges, that can re-enter the statistical model as
+predictors. Per-scenario **living reviews re-run on schedule**, every update previewed
+before it is applied: the evidence-to-model loop this proposal interrogates, in prototype
+form.
 
 For GESICA I built the Geneva–Vaud–Neuchâtel data foundation: **77 notifiable diseases in
 eight model classes**, and a referenced inventory of **28 surveillance
@@ -49,8 +52,10 @@ sources (23 infectious, 5 environmental/non-infectious)** each documented for in
 resolution, latency, access and quality. It is why validation domains are chosen by **model class**, and why the proposal
 rests on a mapped, not assumed, data landscape.
 
-**The prototype makes the research feasible rather than aspirational**; the validated
-instrument it becomes is itself a deliverable.
+**The prototype makes the research feasible rather than aspirational**: the fit-tune-rank
+mechanics T3.3's selection engine registers already run in embryonic form, so the grant
+adds the science (the two arms, the registered rules, episode-level inference), not the
+plumbing; the validated instrument it becomes is itself a deliverable.
 
 ### 2.2.5 Linked data on a contrasting crisis archetype
 

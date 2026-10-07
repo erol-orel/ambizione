@@ -100,11 +100,14 @@ quantitative extraction and modelling: the full review pipeline in
 working form, from a query searched live across the open literature, through deduplication,
 PRISMA-accounted screening and PICO extraction, to **provenance-tracked extraction graded for
 study-design certainty and pooled into parameter distributions**, and onward to the model
-step: candidate predictor variables, a model specification (outcome, predictors,
-lags, functional form) and compartmental components parameterised from extracted ranges,
-each with the articles behind it. Per-scenario **living reviews re-run on schedule**, with
-what changed made visible: the evidence-to-model mechanism this proposal interrogates, in
-prototype form.
+step: candidate predictor variables with their supporting articles; typed outcome
+definitions with ready-made emergency-demand targets (ED overload, bed occupancy, call
+surge); **model fitting across algorithm families with automated hyperparameter search,
+leakage-safe time-series validation and ranking on a stated metric**; and compartmental
+components, parameterised from extracted ranges, that can re-enter the statistical model as
+predictors. Per-scenario **living reviews re-run on schedule**, every update previewed
+before it is applied: the evidence-to-model loop this proposal interrogates, in prototype
+form.
 
 For GESICA I built the Geneva–Vaud–Neuchâtel data foundation: **77 notifiable diseases in
 eight model classes**, and a referenced inventory of **28 surveillance
@@ -112,8 +115,10 @@ sources (23 infectious, 5 environmental/non-infectious)** each documented for in
 resolution, latency, access and quality. It is why validation domains are chosen by **model class**, and why the proposal
 rests on a mapped, not assumed, data landscape.
 
-**The prototype makes the research feasible rather than aspirational**; the validated
-instrument it becomes is itself a deliverable.
+**The prototype makes the research feasible rather than aspirational**: the fit-tune-rank
+mechanics T3.3's selection engine registers already run in embryonic form, so the grant
+adds the science (the two arms, the registered rules, episode-level inference), not the
+plumbing; the validated instrument it becomes is itself a deliverable.
 
 ### 2.2.5 Linked data on a contrasting crisis archetype
 
@@ -289,7 +294,7 @@ For each historical onset, create successive forecast origins using **only infor
 
 ##### T3.3: The model library and the automated selection engine *(M20–M34)*
 
-**The library, registered before any evaluation, in two arms.** **Local-only:** seasonal GLM with weekday and holiday terms; persistence; established surveillance exceedance and nowcasting (Farrington/Noufaily, Bayesian nowcasting; operational implementations [Salmon 2016]); penalised and gradient-boosted learners on the pre-specified covariates; the WP2 regime model with weakly informative priors. **Evidence-informed:** the same candidates equipped with WP1 priors and design inputs, in three registered variants: fixed evidence-derived priors; adaptive borrowing with conflict monitoring; adaptive borrowing plus resilience indicators (H3c). **Mechanistic transmission components [Keeling 2008] are admissible only for epidemiological archetypes**; environmental archetypes use exposure–response structures; admissibility per archetype is registered.
+**The library, registered before any evaluation, in two arms.** **Local-only:** seasonal GLM with weekday and holiday terms; persistence; established surveillance exceedance and nowcasting (Farrington/Noufaily, Bayesian nowcasting; operational implementations [Salmon 2016]); penalised, gradient-boosted and upper-tail quantile learners on the pre-specified covariates; the WP2 regime model with weakly informative priors. **Evidence-informed:** the same candidates equipped with WP1 priors and design inputs, in three registered variants: fixed evidence-derived priors; adaptive borrowing with conflict monitoring; adaptive borrowing plus resilience indicators (H3c). **Mechanistic transmission components [Keeling 2008] are admissible only for epidemiological archetypes**; environmental archetypes use exposure–response structures; admissibility per archetype is registered.
 
 **Automated champion selection.** At each origin every admissible candidate runs automatically, passes the T2.5 assumption and validity checks, and is scored on pre-specified metrics (CRPS, log score, calibration); each arm's **champion** is selected by a registered rule, blind to the other arm. Identical machinery in both arms means the contrast isolates the evidence, not the selector; which family wins, where and when, is itself a result.
 
@@ -344,7 +349,7 @@ Estimate, for selected episodes, what would have changed had escalation followed
 
 **Institute of Global Health:** epidemiology, infectious-disease modelling and automated evidence extraction in one institute; this is where the gap became visible. Independence is organisational: a programme led by me alongside the Institute's groups, not inside one (§2.6). **DS4DH** contributes the biomedical NLP WP1 needs; through GESICA I already work with the emergency-medicine partners, and the AI-in-EMS review [Edjinedja 2026] evidences the functioning collaboration.
 
-**Existing infrastructure.** LiteRev-Evidence is a prototype (live federated search of the open literature, screening, living reviews, certainty-graded extraction with provenance, pooling into parameter distributions, candidate variables and model specifications, weather and surveillance connectors); WP1 and WP2 turn it into a validated instrument and test it. The legionellosis study (BASEC 2026-00324, ethics granted) supplies the contrasting archetype. **Computing:** UNIGE HPC (Baobab/Yggdrasil) and the University's secure environment for clinical data.
+**Existing infrastructure.** LiteRev-Evidence is a prototype (live federated search of the open literature, screening, living reviews, certainty-graded extraction with provenance, pooling into parameter distributions, candidate variables, typed outcome templates, multi-family model fitting with automated tuning, weather and surveillance connectors); WP1 and WP2 turn it into a validated instrument and test it. The legionellosis study (BASEC 2026-00324, ethics granted) supplies the contrasting archetype. **Computing:** UNIGE HPC (Baobab/Yggdrasil) and the University's secure environment for clinical data.
 
 **Commitments, by status.**
 
