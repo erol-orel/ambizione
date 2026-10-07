@@ -6,7 +6,7 @@
 
 **Practical and societal impact.** In a crisis's first weeks, emergency systems decide whether to open capacity, redistribute resources or escalate before local outcomes are informative; the project quantifies whether external evidence improves those decisions, and with what residual uncertainty.
 
-**Where this points operationally.** Each validated archetype leaves a registered, automatically re-validated configuration and, where authorised, a daily observation-mode dashboard in the hands of the services that would use it. Extending that nucleus into a multi-crisis surveillance platform is the explicit post-grant pathway; this project supplies the validated core and the update rules.
+**Where this points operationally.** Each validated demand-based archetype leaves a registered, automatically re-validated configuration and, where authorised, a daily observation-mode dashboard in the hands of the services that would use it. Extending that nucleus into a multi-crisis surveillance platform is the explicit post-grant pathway; this project supplies the validated core and the update rules.
 
 ## 2.6 Relevance for personal career development
 

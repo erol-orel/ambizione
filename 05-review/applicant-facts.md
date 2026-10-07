@@ -498,6 +498,20 @@ outside the plan. Reopen only on two-reader convergence (13-23 Oct round) or a f
 correction from Erol (open: legionellosis target confirmation, UNIGE IP position,
 extractor arm 1 = PI).
 
+## 7 Oct, external audit round 15 (9.6/10): dashboard scope consistency, then freeze
+
+Applied the P2 and the optional item: (1) 2.5 impact "Each validated **demand-based**
+archetype leaves... dashboard"; (2) M6 "dashboard running for validated **demand-based**
+archetypes where authorised"; (3) H4 now opens "For the demand-based archetypes,
+decision-analytic evaluation...". The dashboard/decision pathway is now demand-based
+everywhere (summary's generic "event types whose models validate" stays: not flagged,
+already conditional). Horizon fix from round 14 confirmed good by the auditor. Their
+structural count: ~50,082 chars before bibliography, consistent with ours. End state:
+**50,264 chars / exactly 15 pages**, sync 47/47, battery green. FROZEN, round 15
+confirming round 14's freeze; the auditor's remaining-gains verdict stands: the rest of
+the application (CV, achievements, letters, budget, narrative) is where improvement now
+lives.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:
