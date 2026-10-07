@@ -466,6 +466,23 @@ and T3.0 carry it), small T4.1/T4.2/T2.5 trims. End state: **50,061 chars / exac
 pages**, sync 47/47, battery green. Auditor: stop iterating; submission-ready once this
 coherence point is fixed - it now is.
 
+## 7 Oct, external audit round 13 (9.5/10, "submission-ready with two final refinements")
+
+Both applied. (1) **H3a decay clause demoted**: the central hypothesis no longer embeds
+the untested decline claim; it now ends "; the persistence and decay of the advantage as
+local observations accumulate are assessed secondarily." Primary claim = evidence helps
+at cold start; decay = registered secondary/descriptive question (the 2.3.1 shape
+sentence already matches). (2) **Summary absolutism fixed**: "Every component is
+validated first on open Swiss series..." -> "The forecasting machinery is validated
+first...", consistent with legionellosis being a linked-data extension. Career-table
+page move declined a third time (cosmetic, our pagination differs); the auditor's note
+that the N operating-characteristic numbers belong in the registration is already
+logged. End state: **50,110 chars / exactly 15 pages**, sync 47/47, battery green,
+summary complete on page 1, submission page 1 banner-free. Thirteen audit rounds done;
+the auditor's own instruction, which I share and have been applying: STOP. The plan
+changes now only on two-reader convergence from the 13-23 Oct reader round or a factual
+correction from Erol.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

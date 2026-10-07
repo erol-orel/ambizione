@@ -33,7 +33,7 @@ T2.1's identifiability study and T3.3's calibration checks either establish adeq
 
 #### O3: Test the cold-start hypothesis and map failure
 
-> **H3a.** An evidence-informed forecasting configuration (evidence-derived priors, variable sets and model forms) improves probabilistic forecast skill during the early phase of a crisis, with the advantage declining as local observations accumulate.
+> **H3a.** An evidence-informed forecasting configuration (evidence-derived priors, variable sets and model forms) improves probabilistic forecast skill during the early phase of a crisis; the persistence and decay of the advantage as local observations accumulate are assessed secondarily.
 
 > **H3b.** Adaptive borrowing that discounts the evidence when prior–data conflict emerges is
 > **non-inferior** to fixed borrowing under well-specified priors, within a pre-specified margin
