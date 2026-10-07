@@ -67,14 +67,24 @@ F1000Research 2020, JAIDS 2023): add during the same pass.
   CP, Hu X, Konkani A, O'Connor MF, Rothschild JM, Selby NM, Pelter MM, McLean B,
   Kane-Gill SL. Technological distractions (part 2). Crit Care Med 2018;46(1):130-137.
 
+## Audit round 10 (7 Oct)
+
+- **Collins 2015 (TRIPOD) REMOVED** from T2.5 and the submission bibliography: the auditor
+  pressed twice that a reporting guideline is a poor citation for residual/dispersion
+  diagnostics and automated exclusion rules; the sentence stands uncited and is cleaner.
+  Record for possible reuse elsewhere: Collins GS, Reitsma JB, Altman DG, Moons KGM.
+  Transparent reporting of a multivariable prediction model for individual prognosis or
+  diagnosis (TRIPOD). BMJ 2015;350:g7594. doi:10.1136/bmj.g7594 (DOI memory-derived,
+  was on the 20 Oct spot-check list; moot unless re-cited).
+
 ## Must update before submission
 
 - **[Edjinedja 2026]**: status and venue at submission time (currently "Submitted, 2026").
 - **Ng'ambi (senior-author paper)**: venue, year and DOI once assigned; currently "Accepted
   for publication". Conditional swap-back rule documented in the research output list.
 - **[Shankar 2026]**: post-2025 publication; confirm once against the publisher page.
-- Citation-bibliography sync must stay exact: 48 keys cited, 48 keyed entries (verified
-  7 Oct, audit round 8), plus the uncited "Own work" list (allowed; they support §2.2 prose).
+- Citation-bibliography sync must stay exact: 47 keys cited, 47 keyed entries (verified
+  7 Oct, audit round 10), plus the uncited "Own work" list (allowed; they support §2.2 prose).
 
 ## Content notes removed from the entries (interview/drafting value)
 

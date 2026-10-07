@@ -398,6 +398,25 @@ group gap 8->6px, fonts untouched). Auditor's render (12+4 pages, ~53.7k) again 
 tooling; ours authoritative. End state: **50,066 chars / exactly 15 pages**, sync 48/48,
 battery green, submission page 1 banner-free, fig1 anchors consistent with T2.1.
 
+## 7 Oct, external audit round 10 (9.4/10): final precision pass, all four items applied
+
+(1) P1 Delta wording: "the conventional preserved-fraction margin" replaced by "a
+pre-specified 50% preservation fraction" (the auditor rightly objected to "conventional";
+the rationale parenthesis stays). (2) Personnel coherence in 2.6: "executable by the PI
+and budgeted support personnel: no named individual other than the PI is scientifically
+load-bearing" (the old "PI and one collaborator" ignored the contracted extractor).
+(3) Collins/TRIPOD citation removed from T2.5 (see bibliography-notes; sync now 47/47).
+(4) "daily" dropped from the T3.1 HUG COVID sentence on the third ask: zero information
+loss, the commitments table still records the series as daily (Erol-confirmed fact).
+Also applied: H1 "across held-out adjudicated studies". Declined/no-ops: the two-sided
+clarifying phrase (already justified in text; auditor says fine as is); numeric
+capacity-saturation definition stays at registration level (auditor agrees).
+Paid for in 2.6 ("by design" dropped from the reworded personnel line; "open resources"
+deduplicated out of the closing paragraph, 2.5 owns that claim; "independence guarantees"
+-> "guarantees"). End state: **49,945 chars / exactly 15 pages**, sync 47/47, battery
+green, submission page 1 banner-free. Auditor's verdict: everything else is optional
+polishing; remaining determinants are CV, achievements, letters, budget, narrative.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

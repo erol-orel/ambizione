@@ -46,7 +46,7 @@ Rolling variance and lag-1 autocorrelation, entered as optional covariates on tr
 
 ##### T2.5: Calibration, automation and validity monitoring *(M20–M28)*
 
-Calibration methods suited to temporal dependence; a conformal component [Angelopoulos 2023; Barber 2023] as a robustness layer if simulation confirms its assumptions. This task also builds the **automation layer**: public streams (weather, surveillance, wastewater) ingested automatically as they become available; models re-estimated at each input's native cadence with versioned re-fitting; and **assumption and validity diagnostics** on every fit (residual structure, dispersion, calibration) documented to prediction-model reporting standards [Collins 2015]: a model failing its checks is excluded by pre-registered rules. Release a documented reference implementation in LiteRev-Evidence.
+Calibration methods suited to temporal dependence; a conformal component [Angelopoulos 2023; Barber 2023] as a robustness layer if simulation confirms its assumptions. This task also builds the **automation layer**: public streams (weather, surveillance, wastewater) ingested automatically as they become available; models re-estimated at each input's native cadence with versioned re-fitting; and **assumption and validity diagnostics** on every fit (residual structure, dispersion, calibration): a model failing its checks is excluded by pre-registered rules. Release a documented reference implementation in LiteRev-Evidence.
 
 **Simulation is prior information, not data.** Fitting literature-parameterised trajectories as if data would count the same information twice and disable the conflict diagnostic H3b depends on; simulation serves identifiability, structural constraints and prior predictive checks, and never tightens the evidence prior.
 
@@ -74,7 +74,7 @@ Fixed before any evaluation is designed, never revisited on performance:
 
 ##### T3.1: Assemble the retrospective information set *(M12–M20)*
 
-Harmonise the CASU-144 series with the additional channels and covariates; quantify completeness and delay; model right truncation and nowcasting [Höhle 2014; McGough 2020]; degraded reporting under strain could itself mimic an early-warning signal. Two Geneva channels extend the set: a daily series reconstructed from the HUG COVID-19 hospitalisation data I previously analysed [Orel 2024], re-requested as a secondary respiratory validation and calibration channel, and pharmacy sales with wastewater measurements via the pharmacien cantonal as syndromic covariates.
+Harmonise the CASU-144 series with the additional channels and covariates; quantify completeness and delay; model right truncation and nowcasting [Höhle 2014; McGough 2020]; degraded reporting under strain could itself mimic an early-warning signal. Two Geneva channels extend the set: the HUG COVID-19 hospitalisation data I previously analysed [Orel 2024], re-requested as a secondary respiratory validation and calibration channel, and pharmacy sales with wastewater measurements via the pharmacien cantonal as syndromic covariates.
 
 ##### T3.2: Reconstruct the true information set *(M18–M30)*
 

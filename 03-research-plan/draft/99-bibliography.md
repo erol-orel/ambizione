@@ -148,9 +148,6 @@
 
 ## Evaluation and decision value
 
-- **[Collins 2015]** Collins GS, Reitsma JB, Altman DG, Moons KGM. Transparent reporting of a
-  multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD
-  statement. *BMJ* 2015;350:g7594. doi:10.1136/bmj.g7594
 - **[Gneiting 2007]** Gneiting T, Raftery AE. Strictly proper scoring rules, prediction, and
   estimation. *Journal of the American Statistical Association* 2007;102(477):359–378.
 - **[Vickers 2006]** Vickers AJ, Elkin EB. Decision curve analysis: a novel method for evaluating

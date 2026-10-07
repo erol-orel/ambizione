@@ -157,7 +157,7 @@ To determine **whether, and under what conditions, published quantitative eviden
 
 #### O1: Make published evidence usable without hiding its uncertainty
 
-> **H1.** Automated extraction will systematically **understate the dispersion of the evidence-derived distribution** (reported within-study uncertainty and between-study heterogeneity), producing priors that are too concentrated; an explicit measurement-error layer will correct this under-dispersion, success assessed by a pre-specified criterion: coverage and calibration of intervals from the corrected distribution against held-out adjudicated values.
+> **H1.** Automated extraction will systematically **understate the dispersion of the evidence-derived distribution** (reported within-study uncertainty and between-study heterogeneity), producing priors that are too concentrated; an explicit measurement-error layer will correct this under-dispersion, success assessed by a pre-specified criterion: coverage and calibration of intervals from the corrected distribution across held-out adjudicated studies.
 
 Omissions dominate reported extraction errors [Shankar 2026]; whether they systematically shrink dispersion is what H1 tests; if the loss is uncorrectable, the project establishes a boundary condition. The evidence target spans four object classes (T1.1); H1 is tested on the quantitative core, and classes 2 to 4 are validated externally against published syntheses (T1.2).
 
@@ -176,7 +176,7 @@ T2.1's identifiability study and T3.3's calibration checks either establish adeq
 > Δ on the CRPS skill score, and is **superior** to fixed borrowing under deliberately
 > misspecified priors.
 
-Δ is fixed at one half of the minimal relevant H3a improvement, the conventional preserved-fraction margin (adaptive borrowing must retain at least half the gain that justifies borrowing at all): a maximum acceptable loss, not a simulation convenience.
+Δ is fixed at one half of the minimal relevant H3a improvement, a pre-specified 50% preservation fraction (adaptive borrowing must retain at least half the gain that justifies borrowing at all): a maximum acceptable loss, not a simulation convenience.
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 
@@ -258,7 +258,7 @@ Rolling variance and lag-1 autocorrelation, entered as optional covariates on tr
 
 ##### T2.5: Calibration, automation and validity monitoring *(M20–M28)*
 
-Calibration methods suited to temporal dependence; a conformal component [Angelopoulos 2023; Barber 2023] as a robustness layer if simulation confirms its assumptions. This task also builds the **automation layer**: public streams (weather, surveillance, wastewater) ingested automatically as they become available; models re-estimated at each input's native cadence with versioned re-fitting; and **assumption and validity diagnostics** on every fit (residual structure, dispersion, calibration) documented to prediction-model reporting standards [Collins 2015]: a model failing its checks is excluded by pre-registered rules. Release a documented reference implementation in LiteRev-Evidence.
+Calibration methods suited to temporal dependence; a conformal component [Angelopoulos 2023; Barber 2023] as a robustness layer if simulation confirms its assumptions. This task also builds the **automation layer**: public streams (weather, surveillance, wastewater) ingested automatically as they become available; models re-estimated at each input's native cadence with versioned re-fitting; and **assumption and validity diagnostics** on every fit (residual structure, dispersion, calibration): a model failing its checks is excluded by pre-registered rules. Release a documented reference implementation in LiteRev-Evidence.
 
 **Simulation is prior information, not data.** Fitting literature-parameterised trajectories as if data would count the same information twice and disable the conflict diagnostic H3b depends on; simulation serves identifiability, structural constraints and prior predictive checks, and never tightens the evidence prior.
 
@@ -286,7 +286,7 @@ Fixed before any evaluation is designed, never revisited on performance:
 
 ##### T3.1: Assemble the retrospective information set *(M12–M20)*
 
-Harmonise the CASU-144 series with the additional channels and covariates; quantify completeness and delay; model right truncation and nowcasting [Höhle 2014; McGough 2020]; degraded reporting under strain could itself mimic an early-warning signal. Two Geneva channels extend the set: a daily series reconstructed from the HUG COVID-19 hospitalisation data I previously analysed [Orel 2024], re-requested as a secondary respiratory validation and calibration channel, and pharmacy sales with wastewater measurements via the pharmacien cantonal as syndromic covariates.
+Harmonise the CASU-144 series with the additional channels and covariates; quantify completeness and delay; model right truncation and nowcasting [Höhle 2014; McGough 2020]; degraded reporting under strain could itself mimic an early-warning signal. Two Geneva channels extend the set: the HUG COVID-19 hospitalisation data I previously analysed [Orel 2024], re-requested as a secondary respiratory validation and calibration channel, and pharmacy sales with wastewater measurements via the pharmacien cantonal as syndromic covariates.
 
 ##### T3.2: Reconstruct the true information set *(M18–M30)*
 
@@ -437,9 +437,9 @@ No serial chain: WP2 falls back to weakly informative priors if WP1 finds extrac
 
 **Collaborators and their roles.** Prof. Olivia Keiser leads the group in which I developed LiteRev; she also leads the legionellosis study, GeoAI4EI and the MAS on which I teach; she co-authors my output (expected at this stage) and has **no scientific role in this project**. Prof. Douglas Teodoro leads GESICA and provides the WP1 biomedical-NLP collaboration.
 
-**The organisational position is the transition.** Hosted by the **Institute of Global Health**, I will lead an independent programme alongside its groups rather than inside one; the independence guarantees are documented in the confirmation letters. The programme is executable by the PI and one collaborator: **no named individual is load-bearing, by design.**
+**The organisational position is the transition.** Hosted by the **Institute of Global Health**, I will lead an independent programme alongside its groups rather than inside one; the guarantees are documented in the confirmation letters. The programme is executable by the PI and budgeted support personnel: **no named individual other than the PI is scientifically load-bearing.**
 
-**Where this leads.** By month 48: a validated answer, open resources the field can build on, and a first-author methodological record: the basis for group leadership or a professorship. Ambizione consolidates my research time into one programme.
+**Where this leads.** By month 48: a validated answer and a first-author methodological record: the basis for group leadership or a professorship. Ambizione consolidates my research time into one programme.
 
 
 ---
@@ -594,9 +594,6 @@ No serial chain: WP2 falls back to weakly informative priors if WP1 finds extrac
 
 ## Evaluation and decision value
 
-- **[Collins 2015]** Collins GS, Reitsma JB, Altman DG, Moons KGM. Transparent reporting of a
-  multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD
-  statement. *BMJ* 2015;350:g7594. doi:10.1136/bmj.g7594
 - **[Gneiting 2007]** Gneiting T, Raftery AE. Strictly proper scoring rules, prediction, and
   estimation. *Journal of the American Statistical Association* 2007;102(477):359–378.
 - **[Vickers 2006]** Vickers AJ, Elkin EB. Decision curve analysis: a novel method for evaluating
