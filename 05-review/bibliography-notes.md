@@ -57,14 +57,24 @@ F1000Research 2020, JAIDS 2023): add during the same pass.
   prefix is not medRxiv's (10.1101) and could not be trusted without verification. DO NOT
   cite until Erol confirms with the co-authors that a public preprint exists and matches.
 
+## Audit round 8 (7 Oct)
+
+- **Winters 2018 REMOVED** from the plan text (§2.1.4) and the submission bibliography:
+  the external auditor argued twice that clinical bedside alarm fatigue is a different
+  problem from health-system forecasting and the 72-99% figure was attack surface. The
+  full verified record stays in this file in case it returns (interview material: alarm
+  fatigue motivates decision-anchored thresholds). Entry: Winters BD, Cvach MM, Bonafide
+  CP, Hu X, Konkani A, O'Connor MF, Rothschild JM, Selby NM, Pelter MM, McLean B,
+  Kane-Gill SL. Technological distractions (part 2). Crit Care Med 2018;46(1):130-137.
+
 ## Must update before submission
 
 - **[Edjinedja 2026]**: status and venue at submission time (currently "Submitted, 2026").
 - **Ng'ambi (senior-author paper)**: venue, year and DOI once assigned; currently "Accepted
   for publication". Conditional swap-back rule documented in the research output list.
 - **[Shankar 2026]**: post-2025 publication; confirm once against the publisher page.
-- Citation-bibliography sync must stay exact: 36 keys cited, 36 keyed entries, plus the
-  uncited "Own work" list (allowed; they support §2.2 prose).
+- Citation-bibliography sync must stay exact: 48 keys cited, 48 keyed entries (verified
+  7 Oct, audit round 8), plus the uncited "Own work" list (allowed; they support §2.2 prose).
 
 ## Content notes removed from the entries (interview/drafting value)
 

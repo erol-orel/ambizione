@@ -21,7 +21,7 @@ To determine **whether, and under what conditions, published quantitative eviden
 
 #### O1: Make published evidence usable without hiding its uncertainty
 
-> **H1.** Automated extraction will systematically **understate the dispersion of the evidence-derived distribution** (reported within-study uncertainty and between-study heterogeneity), producing priors that are too concentrated; an explicit measurement-error layer will recover enough of the missing dispersion to construct usable priors.
+> **H1.** Automated extraction will systematically **understate the dispersion of the evidence-derived distribution** (reported within-study uncertainty and between-study heterogeneity), producing priors that are too concentrated; an explicit measurement-error layer will correct this under-dispersion, success assessed by a pre-specified criterion: coverage and calibration of the corrected distribution against the adjudicated benchmark.
 
 Omissions dominate reported extraction errors [Shankar 2026]; whether they systematically shrink dispersion is what H1 tests, and if the loss is uncorrectable, the project establishes a boundary condition. The evidence target spans four object classes (parameter values; predictor variables and lags; model forms; outcome and threshold definitions: T1.1); H1 is tested on the quantitative core, and classes 2 to 4 are validated externally against published syntheses (T1.2).
 
@@ -40,7 +40,7 @@ T2.1's identifiability study and T3.3's calibration checks either establish adeq
 > Δ on the CRPS skill score, and is **superior** to fixed borrowing under deliberately
 > misspecified priors.
 
-Δ is fixed at the second registration point as a registered fraction of the minimal relevant H3a improvement: a maximum acceptable loss, not a simulation convenience.
+Δ is fixed at the second registration point as a registered fraction of the minimal relevant H3a improvement, the numerical fraction and its operational rationale part of that registration: a maximum acceptable loss, not a simulation convenience.
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 

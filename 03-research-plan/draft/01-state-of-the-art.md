@@ -26,7 +26,7 @@ Emergency operations often need an interpretable escalation state (routine, elev
 
 ### 2.1.4 From forecast accuracy to decision value
 
-Proper scoring rules reward calibration [Gneiting 2007], but a calibrated forecast is irrelevant if it changes no decision; decision-analytic methods evaluate predictions under explicit consequences [Vickers 2006]. alert systems fail operationally when alarms are overwhelmingly non-actionable (72–99% in clinical monitoring [Winters 2018]); mortality-calibrated heat thresholds need not match demand thresholds [Lung 2021]; pollution–asthma emergency associations lack recent Swiss acute-episode studies [Zheng 2015]. Methods are therefore evaluated first statistically, then under an elicited operational loss structure.
+Proper scoring rules reward calibration [Gneiting 2007], but a calibrated forecast is irrelevant if it changes no decision; decision-analytic methods evaluate predictions under explicit consequences [Vickers 2006]: a forecast is operationally useful only when its probabilistic gain changes a defensible decision. Mortality-calibrated heat thresholds need not match demand thresholds [Lung 2021]; pollution–asthma emergency associations lack recent Swiss acute-episode studies [Zheng 2015]. Methods are therefore evaluated first statistically, then under an elicited operational loss structure.
 
 ### 2.1.5 The specific gap addressed by this project
 

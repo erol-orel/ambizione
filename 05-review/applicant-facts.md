@@ -337,6 +337,30 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   consortium notes. Their page figures again from an older render. Plan now 49,622 chars /
   exactly 15 pages; margins 1.0/1.2 cm (floor reached; future additions need equal cuts).
 
+## 7 Oct, external audit round 8 (ChatGPT, rating 9.3/10): final precision edits
+
+Six asks; five applied, one applied in part. (1) H1 mitigation operationalised: the
+measurement-error layer "will correct this under-dispersion, success assessed by a
+pre-specified criterion: coverage and calibration of the corrected distribution against
+the adjudicated benchmark". (2) Delta fraction: rationale made explicit ("the numerical
+fraction and its operational rationale part of that registration") but NO number invented;
+if Erol wants to commit to a figure (e.g. one half) in the plan text, he says so and it
+goes in; otherwise the number lives in the registered protocol. (3) T2.1 anchors
+chronology: "fixed at registration for WP2-WP3 (T4.1's later elicitation refines their
+decision interpretation, never the confirmatory state definition)". (4) T1.2 extractors
+explicit: "I and a separately contracted independent extractor (2.4) independently
+extract..." - PI as first arm is the only allocation consistent with round 6's personnel
+fix (collaborator is pipeline, no other personnel requested); Erol to confirm in his pass.
+(5) Bootstrap level: "episode-level block bootstrap (episodes are the resampling unit,
+each kept intact, so within-episode temporal dependence is preserved)". (6) Winters 72-99%
+REMOVED this time (auditor pressed twice, domain-mismatch argument accepted; also fixed a
+lowercase-sentence artifact); replaced by a Vickers-anchored decision-usefulness clause;
+Winters entry removed from the bibliography (sync now 48/48), record kept in
+bibliography-notes.md. Auditor's own render: 16 pages, ~49.2k chars - their tooling, not
+ours; ours stays authoritative (pagecheck + mySNF binding). Both audits now say: stop
+changing the research plan. Post-edit state: 50,001 chars / exactly 15 pages, battery
+green, submission page 1 banner-free.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

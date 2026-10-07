@@ -50,7 +50,7 @@ Emergency operations often need an interpretable escalation state (routine, elev
 
 ### 2.1.4 From forecast accuracy to decision value
 
-Proper scoring rules reward calibration [Gneiting 2007], but a calibrated forecast is irrelevant if it changes no decision; decision-analytic methods evaluate predictions under explicit consequences [Vickers 2006]. alert systems fail operationally when alarms are overwhelmingly non-actionable (72–99% in clinical monitoring [Winters 2018]); mortality-calibrated heat thresholds need not match demand thresholds [Lung 2021]; pollution–asthma emergency associations lack recent Swiss acute-episode studies [Zheng 2015]. Methods are therefore evaluated first statistically, then under an elicited operational loss structure.
+Proper scoring rules reward calibration [Gneiting 2007], but a calibrated forecast is irrelevant if it changes no decision; decision-analytic methods evaluate predictions under explicit consequences [Vickers 2006]: a forecast is operationally useful only when its probabilistic gain changes a defensible decision. Mortality-calibrated heat thresholds need not match demand thresholds [Lung 2021]; pollution–asthma emergency associations lack recent Swiss acute-episode studies [Zheng 2015]. Methods are therefore evaluated first statistically, then under an elicited operational loss structure.
 
 ### 2.1.5 The specific gap addressed by this project
 
@@ -157,7 +157,7 @@ To determine **whether, and under what conditions, published quantitative eviden
 
 #### O1: Make published evidence usable without hiding its uncertainty
 
-> **H1.** Automated extraction will systematically **understate the dispersion of the evidence-derived distribution** (reported within-study uncertainty and between-study heterogeneity), producing priors that are too concentrated; an explicit measurement-error layer will recover enough of the missing dispersion to construct usable priors.
+> **H1.** Automated extraction will systematically **understate the dispersion of the evidence-derived distribution** (reported within-study uncertainty and between-study heterogeneity), producing priors that are too concentrated; an explicit measurement-error layer will correct this under-dispersion, success assessed by a pre-specified criterion: coverage and calibration of the corrected distribution against the adjudicated benchmark.
 
 Omissions dominate reported extraction errors [Shankar 2026]; whether they systematically shrink dispersion is what H1 tests, and if the loss is uncorrectable, the project establishes a boundary condition. The evidence target spans four object classes (parameter values; predictor variables and lags; model forms; outcome and threshold definitions: T1.1); H1 is tested on the quantitative core, and classes 2 to 4 are validated externally against published syntheses (T1.2).
 
@@ -176,7 +176,7 @@ T2.1's identifiability study and T3.3's calibration checks either establish adeq
 > Δ on the CRPS skill score, and is **superior** to fixed borrowing under deliberately
 > misspecified priors.
 
-Δ is fixed at the second registration point as a registered fraction of the minimal relevant H3a improvement: a maximum acceptable loss, not a simulation convenience.
+Δ is fixed at the second registration point as a registered fraction of the minimal relevant H3a improvement, the numerical fraction and its operational rationale part of that registration: a maximum acceptable loss, not a simulation convenience.
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 
@@ -219,7 +219,7 @@ It does **not** aim to outperform forecast hubs in the data-rich regime, assume 
 
 ##### T1.2: Build the quantitative extraction benchmark *(M3–M9)*
 
-Two independent expert extractors extract target quantities from a stratified random sample of **300** publications, with adjudication; stratification covers parameter class, reporting quality, study design and **source type** (journal versus timestamped situational report), so error is characterised separately for T3.2's faster secondary sources. An **open external layer** scores retrieval against the reported inclusion sets of published systematic reviews in the target classes, and extraction and pooling against their published summary estimates. The benchmark is an open deliverable.
+I and a separately contracted independent extractor (§2.4) independently extract target quantities from a stratified random sample of **300** publications, with adjudication; stratification covers parameter class, reporting quality, study design and **source type** (journal versus timestamped situational report), so error is characterised separately for T3.2's faster secondary sources. An **open external layer** scores retrieval against the reported inclusion sets of published systematic reviews in the target classes, and extraction and pooling against their published summary estimates. The benchmark is an open deliverable.
 
 ##### T1.3: Characterise automated extraction error *(M7–M14)*
 
@@ -241,7 +241,7 @@ Characterise effect modifiers and study-setting differences relevant to Geneva; 
 
 ##### T2.1: Specify and identify the state model *(M1–M9)*
 
-A Bayesian hierarchical Markov regime-switching model [Hamilton 1989] with an ordinal latent state (routine, elevated, strained, critical) observed through emergency calls, ED presentations and ICU occupancy; pre-specified weather, calendar and epidemic covariates; series-specific observation models sharing the state. Before real-data fitting: simulation-based identifiability and recovery; ordering constraints resolve label switching; if separation is insufficient, the fallback is an ordinal state-space formulation; the criterion is state and transition recovery, not visual fit. **Provisional state anchors**, fixed at registration and refined (not replaced) by T4.1's elicitation: **routine** below the 75th percentile of the seasonal baseline; **elevated** 75th to 90th; **strained** above the 90th, or sustained capacity pressure (ICU occupancy above 85%, ED boarding above its seasonal 90th percentile); **critical** above the 97.5th percentile, or capacity saturation. Anchors are percentile-based per event type; in estimation they enter as priors on state-dependent levels, not hard cutoffs.
+A Bayesian hierarchical Markov regime-switching model [Hamilton 1989] with an ordinal latent state (routine, elevated, strained, critical) observed through emergency calls, ED presentations and ICU occupancy; pre-specified weather, calendar and epidemic covariates; series-specific observation models sharing the state. Before real-data fitting: simulation-based identifiability and recovery; ordering constraints resolve label switching; if separation is insufficient, the fallback is an ordinal state-space formulation; the criterion is state and transition recovery, not visual fit. **Provisional state anchors**, fixed at registration for WP2–WP3 (T4.1's later elicitation refines their decision interpretation, never the confirmatory state definition): **routine** below the 75th percentile of the seasonal baseline; **elevated** 75th to 90th; **strained** above the 90th, or sustained capacity pressure (ICU occupancy above 85%, ED boarding above its seasonal 90th percentile); **critical** above the 97.5th percentile, or capacity saturation. Anchors are percentile-based per event type; in estimation they enter as priors on state-dependent levels, not hard cutoffs.
 
 ##### T2.2: Represent the critical tail *(M6–M14)*
 
@@ -305,7 +305,7 @@ For each historical onset, create successive forecast origins using **only infor
 
 All other contrasts are secondary. **The local-only arm is pinned in the registration**, its regime-model priors carrying a pre-declared band of vaguer and tighter alternatives reported as a sensitivity analysis: the comparator cannot become a straw man after the fact.
 
-**Primary endpoint:** the CRPS skill score of the evidence-informed champion versus the local-only champion over the cold-start window. Aggregation is registered: per episode and arm, CRPS is averaged over eligible origins in the window at the primary horizon; the episode skill score is one minus the CRPS ratio (evidence-informed over local-only); the confirmatory statistic is its equally weighted mean over episodes. The unit of inference is the **episode**; eligible episodes are few (13–14 respiratory candidates before screening), so inference is by **paired permutation over episodes**, block bootstrap alongside, both pre-specified, disagreement reported. **The design is powered by simulation-based operating characteristics at episode level** (type I error, power, interval width under realistic dependence), run before the second registration point. The same simulation fixes, in advance, the **minimum number of eligible episodes** below which no confirmatory claim is made and the primary analysis becomes estimation, and the **selection rule** for *N*: the smallest grid value meeting the operating-characteristic criterion, chosen blind to forecast performance. The **minimal relevant improvement** is a registered value of the episode-level CRPS skill score, fixed before the second registration point by a pre-specified operational-relevance criterion defined before any outcome evaluation; T4.1's later elicitation translates observed improvements into operational consequences, it does not set the threshold. **Δ is a registered fraction of this fixed value**; the same simulation evaluates power for these targets and the stability of the ratio-based score under heterogeneous baseline CRPS. Secondary endpoints: log score, calibration (PIT, coverage), escalation detection at matched false-alarm rates. **H3b's Δ is fixed here, before any evaluation**: non-inferiority is a CRPS deficit no greater than Δ; superiority is tested on T3.4's misspecified priors.
+**Primary endpoint:** the CRPS skill score of the evidence-informed champion versus the local-only champion over the cold-start window. Aggregation is registered: per episode and arm, CRPS is averaged over eligible origins in the window at the primary horizon; the episode skill score is one minus the CRPS ratio (evidence-informed over local-only); the confirmatory statistic is its equally weighted mean over episodes. The unit of inference is the **episode**; eligible episodes are few (13–14 respiratory candidates before screening), so inference is by **paired permutation over episodes**, an **episode-level block bootstrap** alongside (episodes are the resampling unit, each kept intact, so within-episode temporal dependence is preserved), both pre-specified, disagreement reported. **The design is powered by simulation-based operating characteristics at episode level** (type I error, power, interval width under realistic dependence), run before the second registration point. The same simulation fixes, in advance, the **minimum number of eligible episodes** below which no confirmatory claim is made and the primary analysis becomes estimation, and the **selection rule** for *N*: the smallest grid value meeting the operating-characteristic criterion, chosen blind to forecast performance. The **minimal relevant improvement** is a registered value of the episode-level CRPS skill score, fixed before the second registration point by a pre-specified operational-relevance criterion defined before any outcome evaluation; T4.1's later elicitation translates observed improvements into operational consequences, it does not set the threshold. **Δ is a registered fraction of this fixed value**; the same simulation evaluates power for these targets and the stability of the ratio-based score under heterogeneous baseline CRPS. Secondary endpoints: log score, calibration (PIT, coverage), escalation detection at matched false-alarm rates. **H3b's Δ is fixed here, before any evaluation**: non-inferiority is a CRPS deficit no greater than Δ; superiority is tested on T3.4's misspecified priors.
 
 ##### T3.4: Map benefit and failure *(M28–M38)*
 
@@ -602,10 +602,6 @@ Durable resources remain, subordinate to the central question: **the extraction 
   estimation. *Journal of the American Statistical Association* 2007;102(477):359–378.
 - **[Vickers 2006]** Vickers AJ, Elkin EB. Decision curve analysis: a novel method for evaluating
   prediction models. *Medical Decision Making* 2006;26(6):565–574.
-- **[Winters 2018]** Winters BD, Cvach MM, Bonafide CP, Hu X, Konkani A, O'Connor MF,
-  Rothschild JM, Selby NM, Pelter MM, McLean B, Kane-Gill SL. Technological distractions
-  (part 2): a summary of approaches to manage clinical alarms with intent to reduce alarm
-  fatigue. *Critical Care Medicine* 2018;46(1):130–137.
 
 ## Own work cited in the plan
 

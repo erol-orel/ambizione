@@ -155,10 +155,6 @@
   estimation. *Journal of the American Statistical Association* 2007;102(477):359–378.
 - **[Vickers 2006]** Vickers AJ, Elkin EB. Decision curve analysis: a novel method for evaluating
   prediction models. *Medical Decision Making* 2006;26(6):565–574.
-- **[Winters 2018]** Winters BD, Cvach MM, Bonafide CP, Hu X, Konkani A, O'Connor MF,
-  Rothschild JM, Selby NM, Pelter MM, McLean B, Kane-Gill SL. Technological distractions
-  (part 2): a summary of approaches to manage clinical alarms with intent to reduce alarm
-  fatigue. *Critical Care Medicine* 2018;46(1):130–137.
 
 ## Own work cited in the plan
 
