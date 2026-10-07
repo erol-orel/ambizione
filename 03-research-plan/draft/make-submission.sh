@@ -34,16 +34,18 @@ def fix_tbl(m):
         tbl = re.sub(r'<w:gridCol[^>]*/>', lambda mm: '<w:gridCol w:w="%d"/>' % next(it), tbl)
     return tbl
 x = re.sub(r'<w:tbl>.*?</w:tbl>', fix_tbl, x, flags=re.S)
-SIZES = [4212000, 5868000]  # fig1 = 11.7 cm, fig2 = 16.3 cm (EMU)
-counter = {"i": -1}
-def fix_ext(m):
-    cx, cy = int(m.group(1)), int(m.group(2))
-    counter["i"] += 1
-    target = SIZES[min(counter["i"] // 2, len(SIZES) - 1)]
-    cy = int(cy * target / cx); cx = target
-    return '<wp:extent cx="%d" cy="%d"/>' % (cx, cy)
-x = re.sub(r'<wp:extent cx="(\d+)" cy="(\d+)"/>', fix_ext, x)
-x = re.sub(r'<a:ext cx="(\d+)" cy="(\d+)"/>', lambda m: fix_ext(m).replace('wp:extent','a:ext'), x)
+SIZES = [5580000, 6640000]  # fig1 = 15.5 cm, fig2 = 18.44 cm = full text width (EMU)
+def make_fixer(tag):
+    state = {"i": -1}
+    def fix(m):
+        cx, cy = int(m.group(1)), int(m.group(2))
+        state["i"] += 1
+        target = SIZES[min(state["i"], len(SIZES) - 1)]
+        cy = int(cy * target / cx); cx = target
+        return '<%s cx="%d" cy="%d"/>' % (tag, cx, cy)
+    return fix
+x = re.sub(r'<wp:extent cx="(\d+)" cy="(\d+)"\s*/>', make_fixer("wp:extent"), x)
+x = re.sub(r'<a:ext cx="(\d+)" cy="(\d+)"\s*/>', make_fixer("a:ext"), x)
 m = re.search(r'<w:style [^>]*w:styleId="BlockText".*?</w:style>', pathlib.Path("word/styles.xml").read_text(), re.S)
 if m:
     sfile = pathlib.Path("word/styles.xml"); s = sfile.read_text()
@@ -51,6 +53,22 @@ if m:
     new = re.sub(r'<w:ind [^/]*/>', '<w:ind w:left="170" w:right="0"/>', old)
     new = re.sub(r'<w:spacing[^/]*/>', '<w:spacing w:before="20" w:after="20" w:line="360" w:lineRule="auto"/>', new)
     s = s.replace(old, new); sfile.write_text(s)
+
+# Justify body text: add jc=both to body paragraph styles
+sfile = pathlib.Path("word/styles.xml"); s = sfile.read_text()
+for sid in ["Normal", "BodyText", "FirstParagraph", "Compact", "BlockText"]:
+    m2 = re.search(r'<w:style [^>]*w:styleId="%s".*?</w:style>' % sid, s, re.S)
+    if not m2: continue
+    blk = m2.group(0)
+    if '<w:jc ' in blk: continue
+    if '<w:pPr>' in blk:
+        new = blk.replace('</w:pPr>', '<w:jc w:val="both"/></w:pPr>', 1)
+    elif '<w:rPr>' in blk:
+        new = blk.replace('<w:rPr>', '<w:pPr><w:jc w:val="both"/></w:pPr><w:rPr>', 1)
+    else:
+        new = blk.replace('</w:style>', '<w:pPr><w:jc w:val="both"/></w:pPr></w:style>', 1)
+    s = s.replace(blk, new, 1)
+sfile.write_text(s)
 d.write_text(x)
 PY
 zip -Xqr ../plan2.docx . && cd .. && soffice --headless --convert-to pdf --outdir . plan2.docx >/dev/null 2>&1
