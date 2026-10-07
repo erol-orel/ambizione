@@ -4,7 +4,7 @@
     python3 make_figures.py
 
 Writes fig1-framework.svg and fig2-gantt.svg alongside this script.
-Print targets: fig1 placed at ~12.8 cm width, fig2 at ~16.5 cm width.
+Print targets: both figures placed at the full 18.44 cm text width.
 Font sizes are chosen so body text renders at >= 7 pt at those sizes.
 Greyscale-safe: one accent hue; identity carried by weight and position.
 """
@@ -45,93 +45,94 @@ DEFS = ('<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" '
 
 # ---------------------------------------------------------------- Figure 1
 def fig1():
-    W, H = 1064, 540
+    W, H = 1400, 560
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
          f'viewBox="0 0 {W} {H}">', DEFS, f'<rect width="{W}" height="{H}" fill="white"/>']
 
     # --- evidence path (top row) ---
-    s.append(text(0, 24, "EVIDENCE PATH (WP1)", 19, ACCENT, weight="bold"))
+    s.append(text(0, 26, "EVIDENCE PATH (WP1)", 21, ACCENT, weight="bold"))
     ev = [(0, "Open literature", "searched live"),
-          (235, "Extraction", "provenance + quality"),
-          (470, "Evidence priors", "values, variables, forms, thresholds")]
+          (250, "Extraction", "provenance + quality"),
+          (500, "Evidence priors", "values, variables, forms, thresholds")]
     for x, title, sub in ev:
-        s.append(box(x, 36, 200, 72, ACCENT_BG, ACCENT))
-        s.append(text(x + 100, 65, title, 21, INK, "middle", "bold"))
-        s.append(text(x + 100, 92, sub, 17 if len(sub) < 24 else 12.5, MUTE, "middle"))
-    s.append(arrow(202, 72, 232, 72, ACCENT))
-    s.append(arrow(437, 72, 467, 72, ACCENT))
+        s.append(box(x, 38, 215, 76, ACCENT_BG, ACCENT))
+        s.append(text(x + 107, 69, title, 22, INK, "middle", "bold"))
+        s.append(text(x + 107, 98, sub, 18 if len(sub) < 24 else 14.5, MUTE, "middle"))
+    s.append(arrow(217, 76, 247, 76, ACCENT))
+    s.append(arrow(467, 76, 497, 76, ACCENT))
 
-    # --- local data path (bottom left) ---
-    s.append(text(0, 168, "LOCAL DATA (short at onset)", 19, MUTE, weight="bold"))
-    s.append(box(0, 180, 300, 120))
+    # --- local data path (left) ---
+    s.append(text(0, 176, "LOCAL DATA (short at onset)", 21, MUTE, weight="bold"))
+    s.append(box(0, 190, 320, 128))
     for i, l in enumerate(["CASU-144 demand (primary)", "ED presentations", "ICU occupancy",
                            "weather + surveillance"]):
-        s.append(text(16, 208 + i * 25, l, 17, INK if i == 0 else MUTE,
+        s.append(text(16, 220 + i * 27, l, 18.5, INK if i == 0 else MUTE,
                       weight="bold" if i == 0 else "normal"))
 
     # --- state model (centre) with threshold anchors ---
-    mx0, my0, mw = 360, 150, 340
-    s.append(box(mx0, my0, mw, 230, "white", INK, 6, 1.8))
-    s.append(text(mx0 + mw / 2, my0 + 26, "LATENT STATE MODEL (WP2)", 19, ACCENT, "middle", "bold"))
+    mx0, my0, mw = 390, 156, 380
+    s.append(box(mx0, my0, mw, 240, "white", INK, 6, 1.8))
+    s.append(text(mx0 + mw / 2, my0 + 30, "LATENT STATE MODEL (WP2)", 21, ACCENT, "middle", "bold"))
     states = [("routine", "below P75", 0), ("elevated", "P75 to P90", 1),
               ("strained", "above P90 or ICU > 85%", 2), ("critical", "above P97.5 / saturation", 3)]
     for nm, anchor, i in states:
-        y = my0 + 42 + i * 45
+        y = my0 + 46 + i * 47
         f = ACCENT_BG if i == 3 else FILL
         st = ACCENT if i == 3 else LINE
-        s.append(box(mx0 + 16, y, 120, 34, f, st, 4))
-        s.append(text(mx0 + 76, y + 23, nm, 17, INK, "middle", "bold" if i == 3 else "normal"))
-        s.append(text(mx0 + 150, y + 23, anchor, 15, MUTE))
-    s.append(arrow(540, 112, 540, 146, ACCENT))      # priors into model
-    s.append(arrow(304, 240, 356, 240, MUTE))        # local data into model
+        s.append(box(mx0 + 16, y, 132, 36, f, st, 4))
+        s.append(text(mx0 + 82, y + 25, nm, 18.5, INK, "middle", "bold" if i == 3 else "normal"))
+        s.append(text(mx0 + 166, y + 25, anchor, 17, MUTE))
+    s.append(arrow(607, 118, 607, 152, ACCENT))      # priors into model
+    s.append(arrow(324, 254, 386, 254, MUTE))        # local data into model
 
     # --- model library + automated selection (top right) ---
-    s.append(box(760, 36, 240, 118, "white", INK, 6, 1.8))
-    s.append(text(880, 58, "MODEL LIBRARY (WP3)", 17, ACCENT, "middle", "bold"))
-    s.append(text(880, 80, "baselines, surveillance, ML,", 15, MUTE, "middle"))
-    s.append(text(880, 98, "regime; mechanistic: epidemic only", 15, MUTE, "middle"))
-    s.append(text(880, 122, "assumption + validity checks", 15, INK, "middle"))
-    s.append(text(880, 140, "automated champion per arm", 15, INK, "middle", "bold"))
-    s.append(arrow(674, 72, 756, 72, ACCENT))         # priors into library
-    s.append(arrow(880, 158, 880, 186, MUTE))         # library champion into decisions
-    s.append(arrow(704, 200, 756, 128, MUTE))         # state model into library
+    lx, lw = 1050, 290
+    s.append(box(lx, 38, lw, 134, "white", INK, 6, 1.8))
+    s.append(text(lx + lw/2, 64, "MODEL LIBRARY (WP3)", 20, ACCENT, "middle", "bold"))
+    s.append(text(lx + lw/2, 89, "baselines, surveillance, ML, regime;", 16.5, MUTE, "middle"))
+    s.append(text(lx + lw/2, 109, "mechanistic: epidemic crises only", 16.5, MUTE, "middle"))
+    s.append(text(lx + lw/2, 131, "assumption + validity checks", 16.5, INK, "middle"))
+    s.append(text(lx + lw/2, 152, "automated champion per arm", 16.5, INK, "middle", "bold"))
+    s.append(arrow(719, 76, lx - 4, 76, ACCENT))      # priors into library
+    s.append(arrow(774, 186, lx - 4, 134, MUTE))      # state model into library
+    s.append(arrow(lx + lw/2, 176, lx + lw/2, 206, MUTE))  # champion into decisions
 
     # --- decision layer (right) ---
-    s.append(box(760, 190, 240, 150, ACCENT_BG, ACCENT))
-    s.append(text(880, 216, "DECISIONS (WP4)", 19, ACCENT, "middle", "bold"))
-    s.append(text(880, 242, "elicited thresholds;", 15, MUTE, "middle"))
-    s.append(text(880, 262, "net benefit, not accuracy alone", 15, MUTE, "middle"))
-    s.append(text(880, 290, "daily dashboard,", 15.5, INK, "middle", "bold"))
-    s.append(text(880, 310, "observation mode", 15.5, INK, "middle", "bold"))
-    s.append(arrow(704, 260, 756, 260, MUTE))
+    s.append(box(lx, 210, lw, 140, ACCENT_BG, ACCENT))
+    s.append(text(lx + lw/2, 237, "DECISIONS (WP4)", 20, ACCENT, "middle", "bold"))
+    s.append(text(lx + lw/2, 262, "elicited thresholds;", 16.5, MUTE, "middle"))
+    s.append(text(lx + lw/2, 282, "net benefit, not accuracy alone", 16.5, MUTE, "middle"))
+    s.append(text(lx + lw/2, 307, "daily dashboard,", 17.5, INK, "middle", "bold"))
+    s.append(text(lx + lw/2, 328, "observation mode", 17.5, INK, "middle", "bold"))
+    s.append(arrow(774, 280, lx - 4, 280, MUTE))
 
-    # --- living update loop (bottom right) ---
-    s.append(box(760, 380, 240, 120, FILL, LINE, 6))
-    s.append(text(880, 404, "LIVING EVIDENCE MONITOR", 16, INK, "middle", "bold"))
-    s.append(text(880, 426, "reviews re-run daily; new evidence", 15, MUTE, "middle"))
-    s.append(text(880, 444, "revises priors, variables,", 15, MUTE, "middle"))
-    s.append(text(880, 462, "thresholds, models:", 15, MUTE, "middle"))
-    s.append(text(880, 482, "registered update rules only", 15, INK, "middle"))
-    s.append(arrow(880, 344, 880, 376, MUTE, "6,5"))  # dashboard feeds monitor
-    s.append(f'<path d="M 1004 440 L 1038 440 L 1038 16 L 672 16 L 672 30" fill="none" '
+    # --- living evidence monitor (bottom right) ---
+    s.append(box(lx, 386, lw, 130, FILL, LINE, 6))
+    s.append(text(lx + lw/2, 413, "LIVING EVIDENCE MONITOR", 18, INK, "middle", "bold"))
+    s.append(text(lx + lw/2, 436, "reviews re-run daily; new evidence", 16.5, MUTE, "middle"))
+    s.append(text(lx + lw/2, 456, "revises priors, variables,", 16.5, MUTE, "middle"))
+    s.append(text(lx + lw/2, 476, "thresholds, models:", 16.5, MUTE, "middle"))
+    s.append(text(lx + lw/2, 498, "registered update rules only", 16.5, INK, "middle"))
+    s.append(arrow(lx + lw/2, 354, lx + lw/2, 382, MUTE, "6,5"))  # dashboard feeds monitor
+    s.append(f'<path d="M 1344 451 L 1372 451 L 1372 16 L 715 16 L 715 32" fill="none" '
              f'stroke="{MUTE}" stroke-width="2.2" stroke-dasharray="6,5" marker-end="url(#a)"/>')
 
-    # --- H3a sketch (bottom) ---
-    iy = 410
+    # --- H3a sketch (bottom left, below the state model) ---
+    iy = 428
     s.append(text(0, iy, "H3a, THE TEST (WP3):  skill advantage of evidence priors, by elapsed local data",
-                  18, INK, weight="bold"))
-    px, py, pw, ph = 70, iy + 18, 460, 86
+                  19, INK, weight="bold"))
+    px, py, pw, ph = 64, iy + 16, 600, 76
     s.append(f'<line x1="{px}" y1="{py+ph}" x2="{px+pw}" y2="{py+ph}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<line x1="{px}" y1="{py}" x2="{px}" y2="{py+ph}" stroke="{INK}" stroke-width="1.6"/>')
-    s.append(f'<path d="M {px} {py+18} C {px+140} {py+22} {px+280} {py+42} {px+pw} {py+52}" '
+    s.append(f'<path d="M {px} {py+16} C {px+160} {py+20} {px+320} {py+38} {px+pw} {py+46}" '
              f'fill="none" stroke="{ACCENT}" stroke-width="3.4"/>')
-    s.append(f'<path d="M {px} {py+74} C {px+120} {py+68} {px+260} {py+56} {px+pw} {py+52}" '
+    s.append(f'<path d="M {px} {py+64} C {px+140} {py+59} {px+300} {py+49} {px+pw} {py+46}" '
              f'fill="none" stroke="{MUTE}" stroke-width="3" stroke-dasharray="7,5"/>')
-    s.append(text(px + pw + 12, py + 50, "with evidence priors", 16, ACCENT))
-    s.append(text(px + pw + 12, py + 78, "without", 16, MUTE))
-    s.append(text(px - 10, py + 10, "skill", 15, MUTE, "end"))
-    s.append(text(px, py + ph + 24, "crisis onset", 15, MUTE))
-    s.append(text(px + pw, py + ph + 24, "local data accumulate", 15, MUTE, "end"))
+    s.append(text(px + pw + 12, py + 44, "with evidence priors", 17, ACCENT))
+    s.append(text(px + pw + 12, py + 70, "without", 17, MUTE))
+    s.append(text(px - 10, py + 10, "skill", 16.5, MUTE, "end"))
+    s.append(text(px, py + ph + 24, "crisis onset", 16.5, MUTE))
+    s.append(text(px + pw, py + ph + 24, "local data accumulate", 16.5, MUTE, "end"))
     s.append("</svg>")
     (OUT / "fig1-framework.svg").write_text("\n".join(s))
 

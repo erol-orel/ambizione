@@ -19,6 +19,7 @@ TEXTW = 11906 - 2*720
 def fix_tbl(m):
     tbl = m.group(0)
     tbl = re.sub(r'<w:tblW[^>]*/>', '<w:tblW w:w="%d" w:type="dxa"/>' % TEXTW, tbl)
+    tbl = tbl.replace('<w:tr>', '<w:tr><w:trPr><w:cantSplit/></w:trPr>') if '<w:trPr>' not in tbl else tbl
     if '<w:tblLayout' not in tbl:
         tbl = tbl.replace('</w:tblPr>', '<w:tblLayout w:type="fixed"/></w:tblPr>', 1)
     ncols = len(re.findall(r'<w:gridCol[^>]*/>', tbl))
@@ -38,7 +39,7 @@ def fix_tbl(m):
     return tbl
 x = re.sub(r'<w:tbl>.*?</w:tbl>', fix_tbl, x, flags=re.S)
 # Figures: cap width at 12 cm, keep aspect
-SIZES = [5580000, 6640000]  # fig1 = 15.5 cm, fig2 = 18.44 cm = full text width (EMU)
+SIZES = [6640000, 6640000]  # both figures at the full 18.44 cm text width (EMU)
 def make_fixer(tag):
     state = {"i": -1}
     def fix(m):
