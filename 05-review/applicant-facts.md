@@ -301,8 +301,9 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   registered fallback (the fixed-vs-selected contradiction is gone); personnel architecture
   disambiguated (50% collaborator = pipeline/reproducibility; separately contracted
   independent extractor M3-M9 = T1.2's second arm); Orel 2024 asset reworded to
-  "hospitalisation data / validation and calibration dataset" (it was a severity cohort,
-  not necessarily a demand time series: ASK ERol what the dataset actually contains);
+  "hospitalisation data" pending confirmation; CONFIRMED by Erol 8 Oct: the HUG COVID
+  dataset yields a DAILY series, so the stronger "daily hospitalisation series" wording is
+  restored in T3.1 and the commitments table;
   minimal relevant improvement now sourced (operational-relevance criterion informed by
   T4.1 losses, fixed before registration; Delta a registered fraction; simulation checks
   power AND ratio-score stability under heterogeneous baseline CRPS); H1 dispersion = SD

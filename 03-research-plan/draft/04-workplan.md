@@ -74,7 +74,7 @@ Fixed before any evaluation is designed, never revisited on performance:
 
 ##### T3.1: Assemble the retrospective information set *(M12–M20)*
 
-Harmonise the CASU-144 series with the additional channels and covariates; quantify completeness and delay; model right truncation and nowcasting [Höhle 2014; McGough 2020]; degraded reporting under strain could itself mimic an early-warning signal. Two Geneva channels extend the set: previously analysed HUG COVID-19 hospitalisation data [Orel 2024], re-requested as a secondary respiratory validation and calibration dataset, and pharmacy sales with wastewater measurements via the pharmacien cantonal as syndromic covariates.
+Harmonise the CASU-144 series with the additional channels and covariates; quantify completeness and delay; model right truncation and nowcasting [Höhle 2014; McGough 2020]; degraded reporting under strain could itself mimic an early-warning signal. Two Geneva channels extend the set: the previously analysed daily HUG COVID-19 hospitalisation series [Orel 2024], re-requested as a secondary respiratory validation and calibration series, and pharmacy sales with wastewater measurements via the pharmacien cantonal as syndromic covariates.
 
 ##### T3.2: Reconstruct the true information set *(M18–M30)*
 

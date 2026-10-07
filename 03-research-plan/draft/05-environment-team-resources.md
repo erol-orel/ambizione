@@ -17,7 +17,7 @@
 | SNSF institutional confirmation letter | Requested | UNIGE Vice-Rectorate, standard administrative step |
 | **CASU-144 records, primary outcome** | **Access held (GESICA)** | Continuous, daily, near real-time; project agreement and letter in preparation |
 | ED presentations + ICU occupancy | In progress | Extraction in discussion with HUG; letters requested |
-| COVID-19 hospitalisation data (HUG) | Re-request planned | Previously analysed [Orel 2024]; validation and calibration dataset |
+| COVID-19 hospitalisation series (HUG, daily) | Re-request planned | Previously analysed [Orel 2024]; validation and calibration series |
 | Pharmacien cantonal: wastewater, pharmacy sales | Contacts established | Extracts to formalise, partly within GESICA |
 | Open public series (surveillance, wastewater, deaths, weather) | **Public** | Freely accessible; no agreement needed |
 
