@@ -361,6 +361,43 @@ ours; ours stays authoritative (pagecheck + mySNF binding). Both audits now say:
 changing the research plan. Post-edit state: 50,001 chars / exactly 15 pages, battery
 green, submission page 1 banner-free.
 
+## 7 Oct, external audit round 9 (fresh full audit, 9.3-9.4/10) + Erol fixes Delta at 50%
+
+Erol's decision: **Delta = one half of the minimal relevant H3a improvement** - now in the
+plan text (2.3.1 with the preserved-fraction rationale; T3.3 cross-references it).
+All five P1s applied: (1) **data vintages**: T3.2 now states revised sources enter as the
+release vintage available at the origin, never the final revised value, observation and
+release times both retained; (2) **CASU-144 fallback coherence**: the scope section adds
+"If the month-12 gate activates the registered fallback, both arms score it, built the
+same way, and the claim narrows"; (3) **champion-selection rule**: CRPS primary selection
+criterion, log score and calibration registered admissibility constraints, not ranking
+criteria; (4) **H3b well-specified**: defined in registered simulations whose evidence-
+and data-generating distributions match within a set tolerance, real episodes
+complementary; (5) **transportability discipline**: T1.5 criteria and the
+score-to-widening/discount mapping fixed before confirmatory evaluation.
+Recommended items applied: H1 held-out wording; anchors made non-overlapping
+(strained P90-97.5; capacity criteria take precedence) in text AND fig1; T2.1 CASU-144
+primary channel, ED/ICU where available, reduced-channel identifiability; "episode-level
+bootstrap" (block dropped, auditor right there is no within-episode block length);
+"where authorised" added to summary and impact dashboard claims; collaborator's T1.2 role
+= protocol/logistics/adjudication support; legionellosis role specified (case incidence
+at outbreak onset, not demand volume - Erol to confirm in his pass); fig1 label now
+"daily literature check" + T4.3 "checks the literature daily, re-runs syntheses on a
+registered schedule"; "unique linkage" -> "distinctive linkage"; Collins kept but as
+"documented to prediction-model reporting standards" (TRIPOD is a reporting guideline);
+"to my knowledge" added to the no-framework claim; Keiser sentence de-ambiguated (she
+leads group, legionellosis study, GeoAI4EI and the MAS - attribution unchanged); IP claim
+softened to "developed at UNIGE under my scientific direction" (Erol: verify the formal
+IP position if he wants the stronger claim back). DECLINED: removing "daily" from the
+Orel 2024 series (Erol confirmed the daily series on 7 Oct; the sentence attributes
+daily to the reconstructed series, not to the paper).
+Paid for with ~1.3k of compensating cuts (notably: §2.3.1 object-class list deduplicated
+to T1.1; §2.3.3 prototype parenthetical deduplicated to §2.2.4; champion double-statement;
+RespiCast-paragraph redundancy; §2.5/2.6 line-level trims; Gantt row pitch 20->19px,
+group gap 8->6px, fonts untouched). Auditor's render (12+4 pages, ~53.7k) again their
+tooling; ours authoritative. End state: **50,066 chars / exactly 15 pages**, sync 48/48,
+battery green, submission page 1 banner-free, fig1 anchors consistent with T2.1.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

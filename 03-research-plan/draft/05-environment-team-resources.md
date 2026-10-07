@@ -4,7 +4,7 @@
 
 **Institute of Global Health:** epidemiology, infectious-disease modelling and automated evidence extraction in one institute: where the gap became visible. Independence is organisational: an independent programme alongside the Institute's groups (§2.6). **DS4DH** contributes the biomedical NLP WP1 needs; through GESICA I already work with the emergency-medicine partners; the AI-in-EMS review [Edjinedja 2026] evidences the collaboration.
 
-**Existing infrastructure.** LiteRev-Evidence is a prototype (live federated search of the open literature, screening, living reviews, certainty-graded extraction with provenance, pooling into parameter distributions, candidate variables, typed outcome templates, multi-family model fitting with automated tuning, weather and surveillance connectors); WP1 and WP2 turn it into a validated instrument and test it. The legionellosis study (BASEC 2026-00324, ethics granted) supplies the contrasting archetype. **Computing:** UNIGE HPC and the University's secure environment for clinical data.
+**Existing infrastructure.** LiteRev-Evidence is a working prototype of the full evidence-to-model pipeline (§2.2.4); WP1 and WP2 turn it into a validated instrument and test it. The legionellosis study (BASEC 2026-00324, ethics granted) supplies the contrasting archetype. **Computing:** UNIGE HPC and the University's secure environment for clinical data.
 
 **Commitments, by status.**
 
@@ -27,7 +27,7 @@ Remaining feasibility items: the ED/ICU extraction and the project 144 agreement
 
 | Item | Rationale |
 | --- | --- |
-| Scientific/technical collaborator, **50% over 48 months** | WP1 benchmark extraction, WP3 harmonisation and evaluation pipeline, reproducibility |
+| Scientific/technical collaborator, **50% over 48 months** | T1.2 protocol, logistics and adjudication support; WP3 harmonisation and evaluation pipeline; reproducibility |
 | Second independent extractor | Contracted M3–M9; required for T1.2's dual-extraction design |
 | Data access, secure storage and processing | Project-specific extractions, secure-environment allocations and runs beyond existing infrastructure |
 | Travel, conferences, incoming visits | Results presentation; international collaboration |

@@ -49,8 +49,8 @@ form.
 For GESICA I built the data foundation of the Geneva–Vaud–Neuchâtel network, whose Geneva
 core COLDSTART uses: **77 notifiable diseases in eight model classes**, and a referenced inventory of **28 surveillance
 sources (23 infectious, 5 environmental/non-infectious)** each documented for institution, coverage,
-resolution, latency, access and quality: a mapped, not assumed, data landscape, and why
-validation domains are chosen by **model class**.
+resolution, latency, access and quality: a mapped, not assumed, data landscape; validation
+domains are chosen by **model class**.
 
 **The prototype makes the research feasible rather than aspirational**: the fit-tune-rank
 mechanics T3.3's selection engine registers already run in embryonic form; the grant adds
@@ -61,7 +61,7 @@ the validated instrument is itself a deliverable.
 
 I lead the data work on a cantonal study **already under way** (BASEC 2026-00324, ethics
 granted) linking confirmed legionellosis cases in Geneva to individual domestic hot-water
-installations: a linkage to my knowledge unique, supplying a contrasting waterborne archetype.
+installations: a distinctive linkage, supplying a contrasting waterborne archetype.
 
 **Competences.** Bayesian hierarchical and regime-switching estimation, extreme-value modelling, stress
 testing under misspecification, forecast evaluation and decision analysis come from the risk

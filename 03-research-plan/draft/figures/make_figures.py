@@ -82,7 +82,7 @@ def fig1():
     s.append(box(mx0, my0, mw, 240, "white", INK, 6, 1.8))
     s.append(text(mx0 + mw / 2, my0 + 30, "LATENT STATE MODEL (WP2)", 21, ACCENT, "middle", "bold"))
     states = [("routine", "below P75", 0), ("elevated", "P75 to P90", 1),
-              ("strained", "above P90 or ICU > 85%", 2), ("critical", "above P97.5 / saturation", 3)]
+              ("strained", "P90–P97.5 or ICU > 85%", 2), ("critical", "above P97.5 / saturation", 3)]
     for nm, anchor, i in states:
         y = my0 + 46 + i * 47
         f = ACCENT_BG if i == 3 else FILL
@@ -126,7 +126,7 @@ def fig1():
     # --- living evidence monitor (bottom right) ---
     s.append(box(lx, 386, lw, 130, FILL, LINE, 6))
     mon = [("LIVING EVIDENCE MONITOR", 18, INK, "bold", 412),
-           ("reviews re-run daily;", 17, MUTE, "normal", 436),
+           ("daily literature check;", 17, MUTE, "normal", 436),
            ("new evidence revises priors,", 17, MUTE, "normal", 457),
            ("variables, thresholds, models:", 17, MUTE, "normal", 478),
            ("registered update rules only", 17, INK, "normal", 499)]
@@ -188,10 +188,10 @@ MILESTONES = [(9, "M1"), (12, "M2"), (20, "M3"), (34, "M4"), (40, "M5"), (48, "M
 
 
 def fig2():
-    L, R, TOP, ROW, GAP = 392, 24, 44, 20, 8
+    L, R, TOP, ROW, GAP = 392, 24, 44, 19, 6
     W = 1150
     nrows = sum(len(w[3]) for w in WPS)
-    H = TOP + nrows * ROW + GAP * len(WPS) + 50
+    H = TOP + nrows * ROW + GAP * len(WPS) + 46
     span = W - L - R
 
     def mx(m):

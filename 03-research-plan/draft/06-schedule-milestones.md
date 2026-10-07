@@ -2,7 +2,7 @@
 
 **Who does what.** I execute WP2 and WP3's confirmatory design personally and lead WP1's
 protocol and WP4's decision work. One **scientific/technical collaborator**
-(support personnel, 50% over 48 months) carries the T3.1–T3.2 harmonisation and automated
+(support personnel, 50% over 48 months) carries the T3.1–T3.2 harmonisation and
 rolling-origin pipeline and the reproducibility engineering behind D1.1 and D3.1; a
 separately contracted **independent extractor** (M3–M9) provides T1.2's second extraction
 arm. No other personnel are requested.
