@@ -539,6 +539,16 @@ two-reader convergence (13-23 Oct) or a factual correction from Erol (open: legi
 target, UNIGE IP position, extractor arm 1 = PI). All application-level gains now sit in
 CV, achievements, letters, contact-person arrangements, budget and the mySNF counter.
 
+## 7 Oct, external audit FINAL SIGN-OFF (round 18): zero changes, 9.6/10
+
+The auditor's closing statement: "I do not see another scientific, statistical,
+coherence, or wording change that is worth making... This is the version I would
+submit, subject only to administrative and final portal checks." All tracked items
+re-verified against the actual file, including the round-17 emergency-demand fix.
+The audit cycle (rounds 5-18, 6-7 Oct) is CLOSED. The frozen version is commit 06b7e11
+(50,276 chars / 15 pages). Remaining work is submission QA only: own-voice pass,
+signatures, letters, CV, budget, mySNF count and upload.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:
