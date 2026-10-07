@@ -294,6 +294,26 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   Terminology: "syndromically overlapping", never "non-differentiable". 48,974 chars /
   exactly 15 pages.
 
+- **ChatGPT audit round 6 processed (8 Oct 2026).** Overall ratification (their score ~9.0);
+  applied: BASEC question removed from the plan (neutral governance wording; the question
+  itself lives only in the internal CCER package); CASU-144 now FIXED as the pre-specified
+  primary outcome with the month-12 checkpoint recast as a pass/fail data-quality gate plus
+  registered fallback (the fixed-vs-selected contradiction is gone); personnel architecture
+  disambiguated (50% collaborator = pipeline/reproducibility; separately contracted
+  independent extractor M3-M9 = T1.2's second arm); Orel 2024 asset reworded to
+  "hospitalisation data / validation and calibration dataset" (it was a severity cohort,
+  not necessarily a demand time series: ASK ERol what the dataset actually contains);
+  minimal relevant improvement now sourced (operational-relevance criterion informed by
+  T4.1 losses, fixed before registration; Delta a registered fraction; simulation checks
+  power AND ratio-score stability under heterogeneous baseline CRPS); H1 dispersion = SD
+  (median log-ratio), heterogeneity in parallel; claim-vs-hypothesis split in O1; budget
+  row renamed "Data access, secure storage and processing"; "SNSF institutional
+  confirmation letter" row; GESICA sentence Geneva-centred; "methodological test" wording;
+  T4.3 "each archetype that passes"; "future living surveillance platform"; library-breadth
+  sentence; programmes sentence avoids universal "none". DECLINED: stripping the
+  Cramer/Sherratt consortium notes (SNSF's own no-et-al rule justifies them). STALE in the
+  audit: page counts (they reviewed an older file). Plan: 49,487 chars / exactly 15 pages.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

@@ -8,7 +8,7 @@ Syndromic surveillance detects departures from expected baselines [Farrington 19
 
 The decisive limitation is **history dependence**: data-adaptive models need enough local observations to learn seasonality, weather response and crisis dynamics; reviews of emergency-demand forecasting catalogue which model families perform for which outcome and horizon [Wargon 2009], but every recommended model is trained on years of local history.
 
-**The cold-start problem is specifically a labelled-outcome problem.** At crisis onset, context variables abound but the outcome to be forecast does not, and abundance itself can mislead: Google Flu Trends overestimated influenza by more than a factor of two [Lazer 2014]. Early signals do not close the gap: wastewater needs a shedding-to-incidence relationship that itself comes from external evidence; transfer learning needs comparable contemporaneous observations. The common issue is **how to use external quantitative information without pretending it is perfectly transferable**.
+**The cold-start problem is a labelled-outcome problem.** At crisis onset, context variables abound but the outcome to be forecast does not, and abundance itself can mislead: Google Flu Trends overestimated influenza by more than a factor of two [Lazer 2014]. Early signals do not close the gap: wastewater needs a shedding-to-incidence relationship that itself comes from external evidence; transfer learning needs comparable contemporaneous observations. The common issue is **how to use external quantitative information without pretending it is perfectly transferable**.
 
 ### 2.1.2 The unused resource: published evidence as quantitative prior information
 
@@ -30,6 +30,6 @@ Proper scoring rules reward calibration [Gneiting 2007], but a calibrated foreca
 
 ### 2.1.5 The specific gap addressed by this project
 
-Ongoing programmes occupy the neighbouring ground: multi-model forecasting hubs run routinely (ECDC RespiCast, US CDC FluSight), Horizon Europe funds epidemic-intelligence infrastructure (including GeoAI4EI, in which I take part), and the Franco-Swiss GESICA programme builds cross-border crisis intelligence. All build surveillance, epidemic-intelligence, forecasting or decision-support capability; none has as a stated objective testing whether automatically synthesised external quantitative evidence should enter a forecast as formal prior information at local cold start.
+Ongoing programmes occupy the neighbouring ground: multi-model forecasting hubs run routinely (ECDC RespiCast, US CDC FluSight), Horizon Europe funds epidemic-intelligence infrastructure (including GeoAI4EI, in which I take part), and the Franco-Swiss GESICA programme builds cross-border crisis intelligence. All build surveillance, epidemic-intelligence, forecasting or decision-support capability; their stated objectives do not address whether automatically synthesised external quantitative evidence should enter a forecast as formal prior information at local cold start.
 
 What has not been established is whether these pieces connect around the **cold-start question**, and whether the loop from living evidence synthesis to variable choice, model choice, thresholds and automatically re-validated forecasts can be closed under pre-registered rules.

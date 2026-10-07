@@ -14,10 +14,10 @@
 | Host institute (ISG) | **Agreed** | Hosting accepted; SNSF-template signatures in preparation |
 | Computing | **Secured** | UNIGE HPC and secure-environment access in place |
 | DS4DH methodological collaboration | **Agreed** | Letter requested |
-| Institutional confirmation | Requested | General confirmation, UNIGE Vice-Rectorate |
+| SNSF institutional confirmation letter | Requested | UNIGE Vice-Rectorate, standard administrative step |
 | **CASU-144 records, primary outcome** | **Access held (GESICA)** | Continuous, daily, near real-time; project agreement and letter in preparation |
 | ED presentations + ICU occupancy | In progress | Extraction in discussion with HUG; letters requested |
-| COVID-19 hospitalisations (HUG) | Re-request planned | Previously analysed [Orel 2024]; calibration series |
+| COVID-19 hospitalisation data (HUG) | Re-request planned | Previously analysed [Orel 2024]; validation and calibration dataset |
 | Pharmacien cantonal: wastewater, pharmacy sales | Contacts established | Extracts to formalise, partly within GESICA |
 | Open public series (surveillance, wastewater, deaths, weather) | **Public** | Freely accessible; no agreement needed |
 
@@ -29,8 +29,8 @@ Remaining feasibility items: the ED/ICU extraction and the project 144 agreement
 | --- | --- |
 | Scientific/technical collaborator, **50% over 48 months** | WP1 benchmark extraction, WP3 harmonisation and evaluation pipeline, reproducibility |
 | Second independent extractor | Contracted M3–M9; required for T1.2's dual-extraction design |
-| Computing and data access | Evidence processing, Bayesian estimation, rolling-origin evaluation |
+| Data access, secure storage and processing | Project-specific extractions, secure-environment storage, evaluation runs |
 | Travel, conferences, incoming visits | Results presentation; international collaboration |
 | Other eligible direct costs | As justified in the final SNSF budget |
 
-**Preparatory work, before month 1 and outside grant funding:** **project-specific data agreements** with HUG and 144/CASU (re-scoping access already held); **the regulatory clarification** (BASEC clarification of competence: do aggregated, non-identifying extracts require CCER approval? If so, submission with me as applicant); **infrastructure hardening** of LiteRev-Evidence before clinical data connect. Feasibility rests on **the prototype already existing** and on the fallbacks, each leaving the central question answerable.
+**Preparatory work, before month 1 and outside grant funding:** **project-specific data agreements** with HUG and 144/CASU (re-scoping access already held); **project-specific data governance and reuse**, confirmed under the applicable institutional and regulatory framework before any analysis; **infrastructure hardening** of LiteRev-Evidence before clinical data connect. Feasibility rests on **the prototype already existing** and on the fallbacks, each leaving the central question answerable.

@@ -2,9 +2,10 @@
 
 **Who does what.** I execute WP2 and WP3's confirmatory design personally and lead WP1's
 protocol and WP4's decision work. One **scientific/technical collaborator**
-(support personnel, 50% over 48 months) carries three fully specified tasks:
-T1.2's second independent extractor, the T3.1–T3.2 harmonisation and automated rolling-origin pipeline,
-and the reproducibility engineering behind D1.1 and D3.1. No other personnel are requested.
+(support personnel, 50% over 48 months) carries the T3.1–T3.2 harmonisation and automated
+rolling-origin pipeline and the reproducibility engineering behind D1.1 and D3.1; a
+separately contracted **independent extractor** (M3–M9) provides T1.2's second extraction
+arm. No other personnel are requested.
 
 The design avoids a serial chain: WP2 falls back to weakly informative priors if WP1 finds extraction inadequate, WP3's open-data track runs regardless of operational access, and WP4's decision analysis is retrospective. **What open data alone costs:** open series are not emergency-system demand, so the claim narrows and most of WP4 turns illustrative; hence the agreements are a pre-award action.
 

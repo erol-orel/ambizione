@@ -46,8 +46,8 @@ predictors. Per-scenario **living reviews re-run on schedule**, every update pre
 before application: the evidence-to-model loop this proposal interrogates, in prototype
 form.
 
-For GESICA I built the Geneva–Vaud–Neuchâtel data foundation: **77 notifiable diseases in
-eight model classes**, and a referenced inventory of **28 surveillance
+For GESICA I built the data foundation of the Geneva–Vaud–Neuchâtel network, whose Geneva
+core COLDSTART uses: **77 notifiable diseases in eight model classes**, and a referenced inventory of **28 surveillance
 sources (23 infectious, 5 environmental/non-infectious)** each documented for institution, coverage,
 resolution, latency, access and quality: a mapped, not assumed, data landscape, and why
 validation domains are chosen by **model class**.

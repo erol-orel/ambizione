@@ -23,7 +23,7 @@ To determine **whether, and under what conditions, published quantitative eviden
 
 > **H1.** Automated extraction will systematically **understate the dispersion of the evidence-derived distribution** (reported within-study uncertainty and between-study heterogeneity), producing priors that are too concentrated; an explicit measurement-error layer will recover enough of the missing dispersion to construct usable priors.
 
-Omissions dominate extraction errors [Shankar 2026] and shrink dispersion systematically; if uncorrectable, the project establishes a boundary condition. The evidence target spans four object classes (parameter values; predictor variables and lags; model forms; outcome and threshold definitions: T1.1); H1 is tested on the quantitative core, and classes 2 to 4 are validated externally against published syntheses (T1.2).
+Omissions dominate reported extraction errors [Shankar 2026]; whether they systematically shrink dispersion is what H1 tests, and if the loss is uncorrectable, the project establishes a boundary condition. The evidence target spans four object classes (parameter values; predictor variables and lags; model forms; outcome and threshold definitions: T1.1); H1 is tested on the quantitative core, and classes 2 to 4 are validated externally against published syntheses (T1.2).
 
 #### O2: Represent escalation in a form that separates state from the point forecast
 
@@ -59,7 +59,7 @@ surveilled together in Switzerland, carry the primary confirmatory test.
 pollution (ozone, PM10) as co-exposure and effect modifier**, not a separate crisis domain.
 (3) **Waterborne outbreaks**: Geneva legionellosis, the year-4 contrasting extension (T3.5).
 The domains are fixed for the project; further data serve benchmarking and sensitivity
-analyses only, and no fourth operational domain is required for the central conclusion.
+analyses only; no fourth operational domain is required.
 Both arms score **the same quantity, built the same way**: daily emergency demand from the
 CASU-144 series, restricted to the archetype's cause classes (T3.0): respiratory-related
 demand for epidemics; **heat-sensitive demand** for heat, Swiss evidence placing heat
