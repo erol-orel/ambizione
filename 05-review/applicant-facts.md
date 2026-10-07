@@ -526,6 +526,19 @@ pages**, sync 47/47, battery green. Freeze holds: rounds 14, 15 and 16 each clos
 "stop iterating"; dashboard scoping is now identical in summary, figure, H4, T4.3, 2.5
 and M6 - the full consistency chain is closed end to end.
 
+## 7 Oct, external audit round 17 (9.6/10): FREEZE CONFIRMED, one last terminology fix
+
+The auditor requests nothing and declares the file final; their independent counts match
+ours (~50.3k chars, 47/47 sync). One flagged-as-optional item applied because it met the
+inconsistency standard (T3.0 said "not a raw call count" then named candidate 1 "call
+volume"): now "(1) cause-filtered CASU-144 emergency demand (primary)". End state:
+**50,276 chars / exactly 15 pages**, battery green. THE FREEZE IS NOW ABSOLUTE: no
+further audit rounds will be applied to the research plan; rounds 14-17 all closed with
+freeze instructions and round 17 requested zero changes. Reopen conditions unchanged:
+two-reader convergence (13-23 Oct) or a factual correction from Erol (open: legionellosis
+target, UNIGE IP position, extractor arm 1 = PI). All application-level gains now sit in
+CV, achievements, letters, contact-person arrangements, budget and the mySNF counter.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:
