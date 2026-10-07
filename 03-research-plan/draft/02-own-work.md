@@ -9,7 +9,7 @@ doctorate in biomedical sciences at Geneva (defended
 
 In [Orel 2022] I predicted individual HIV status from socio-behavioural
 characteristics across East and Southern Africa, establishing where models transported between
-countries. [Merzouki 2021] and [Esra 2023] developed the same theme. I now **senior-author**
+countries; [Merzouki 2021] and [Esra 2023] developed the theme. I now **senior-author**
 that line (last author, [Ng'ambi 2026], accepted: machine-learning classification of
 cardiovascular disease history across harmonised WHO STEPS surveys): this proposal's transportability problem, met
 first elsewhere, moved from conducting to directing.
@@ -17,10 +17,10 @@ first elsewhere, moved from conducting to directing.
 ### 2.2.2 Automated evidence synthesis
 
 In [Orel 2023] I introduced **LiteRev**, an automated literature-review tool: natural-language or Boolean query across the open-access databases,
-deduplication, corpus mapping, iterative relevance suggestion. I led its development with **Aziza Merzouki** (PhD, computer science) and secured
-development funding on my own initiative: **CHF 30,000** (UNIGE), **CHF 10,000** (Venture Kick),
+deduplication, corpus mapping, iterative relevance suggestion. I led its development with **Aziza Merzouki** (PhD, computer science) and raised its
+funding on my own initiative: **CHF 30,000** (UNIGE), **CHF 10,000** (Venture Kick),
 **CHF 20,000** (Mimosa), outside any group grant. The AI-in-EMS systematic review
-[Edjinedja 2026], within GESICA, used it in its published methods.
+[Edjinedja 2026], within GESICA, uses it in its methods.
 
 ### 2.2.3 Outbreak and health-system modelling in Switzerland
 
@@ -49,8 +49,8 @@ form.
 For GESICA I built the Geneva–Vaud–Neuchâtel data foundation: **77 notifiable diseases in
 eight model classes**, and a referenced inventory of **28 surveillance
 sources (23 infectious, 5 environmental/non-infectious)** each documented for institution, coverage,
-resolution, latency, access and quality. It is why validation domains are chosen by **model class**, and why the proposal
-rests on a mapped, not assumed, data landscape.
+resolution, latency, access and quality: a mapped, not assumed, data landscape, and why
+validation domains are chosen by **model class**.
 
 **The prototype makes the research feasible rather than aspirational**: the fit-tune-rank
 mechanics T3.3's selection engine registers already run in embryonic form, so the grant

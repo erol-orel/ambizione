@@ -22,9 +22,10 @@ Je dois vous le dire sans détour : **les données de régulation du 144 sont la
 principale du projet.** Les appels d'urgence constituent, dans la littérature, un signal
 syndromique précoce - jusqu'à plusieurs jours d'avance sur la surveillance confirmée - et le
 critère principal serait la **demande d'urgence à motif respiratoire, quotidienne, construite à
-partir du motif de recours et du degré d'urgence enregistrés en régulation**. Sans cette série, le
-projet se replierait sur des indicateurs de surveillance ouverts, en perdant sa portée
-opérationnelle : votre collaboration est donc celle qui compte le plus.
+partir du motif de recours et du degré d'urgence enregistrés en régulation**. Le dispositif est d'abord validé de bout
+en bout sur des données publiques ouvertes, la faisabilité ne repose donc pas sur un seul
+accord ; mais sans votre série, le résultat resterait méthodologique au lieu de devenir
+opérationnel : votre collaboration est donc celle qui compte le plus.
 
 **Ce que je sollicite à ce stade est une lettre de collaboration**, et non les données. Une
 précision propre au FNS : la lettre doit **se limiter à confirmer la collaboration et sa

@@ -5,12 +5,13 @@ cd "$(dirname "$0")"
 OUT="$(cd .. && pwd)"
 bash assemble.sh >/dev/null
 T=$(mktemp -d)
-pandoc ../FINAL-research-plan.md -o "$T/plan.docx" --from gfm --reference-doc=pagecheck-reference.docx --resource-path=.:figures
+sed '0,/^---$/d' ../FINAL-research-plan.md > "$T/plan-clean.md"
+pandoc "$T/plan-clean.md" -o "$T/plan.docx" --from gfm --reference-doc=pagecheck-reference.docx --resource-path=.:figures
 cd "$T" && mkdir u && cd u && unzip -oq ../plan.docx
 python3 - <<'PY'
 import pathlib, re
 d = pathlib.Path("word/document.xml"); x = d.read_text()
-sect = '<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="650" w:right="720" w:bottom="650" w:left="720" w:header="567" w:footer="567" w:gutter="0"/></w:sectPr>'
+sect = '<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="620" w:right="720" w:bottom="620" w:left="720" w:header="567" w:footer="567" w:gutter="0"/></w:sectPr>'
 x = x.replace('<w:sectPr />', sect)
 TEXTW = 11906 - 2*720
 def fix_tbl(m):

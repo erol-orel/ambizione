@@ -1,6 +1,6 @@
 ### 2.3.3 Research environment, team and resources
 
-**Host: Institute of Global Health, Faculty of Medicine, University of Geneva**, with a methodological collaboration with **Data Science for Digital Health** (Prof. Douglas Teodoro) and a clinical collaboration with **HUG emergency medicine** (Prof. Thibaut Desmettre; Dr Robert Larribau, médecin responsable CASU-144).
+**Host: Institute of Global Health, Faculty of Medicine, University of Geneva**, with a methodological collaboration with **Data Science for Digital Health** (Prof. Douglas Teodoro) and a clinical collaboration with **HUG emergency medicine** (Prof. Thibaut Desmettre; Dr Robert Larribau, CASU-144).
 
 **Institute of Global Health:** epidemiology, infectious-disease modelling and automated evidence extraction in one institute: where the gap became visible. Independence is organisational: a programme led by me alongside the Institute's groups, not inside one (§2.6). **DS4DH** contributes the biomedical NLP WP1 needs; through GESICA I already work with the emergency-medicine partners; the AI-in-EMS review [Edjinedja 2026] evidences the collaboration.
 
@@ -31,4 +31,4 @@ The three operational-data rows are the key remaining feasibility items.
 | Travel, conferences and incoming visits | Results presentation and sustained international collaboration |
 | Other eligible direct costs | As justified in the final SNSF budget |
 
-**Preparatory work before the grant starts.** Advanced before month 1, outside grant funding: **data agreements** with HUG and 144/CASU; **CCER preparation with myself as applicant**; **infrastructure hardening** of LiteRev-Evidence before clinical data connect. Feasibility rests on one structural property (**the prototype already exists**) and on the fallbacks, each leaving the central question answerable with the narrowing stated.
+**Preparatory work before the grant starts.** Advanced before month 1, outside grant funding: **data agreements** with HUG and 144/CASU; **CCER preparation with myself as applicant**; **infrastructure hardening** of LiteRev-Evidence before clinical data connect. Feasibility rests on one structural property (**the prototype already exists**) and on the fallbacks, each leaving the central question answerable.

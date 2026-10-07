@@ -17,17 +17,15 @@ Il existe pourtant une information quantitative disponible dès le premier jour 
 publiée sur des événements analogues - associations météo–demande, amplitudes et délais de
 surcharge, durées de séjour et occupation, paramètres de transmission. Elle n'est presque
 jamais utilisée comme information a priori formelle, parce que personne n'a établi si le faire
-aide ou nuit. C'est la question centrale du projet, posée de façon falsifiable : un résultat
-négatif, s'il est négatif, serait établi aussi - et utile.
+aide ou nuit. C'est la question centrale du projet, posée de façon falsifiable.
 
 ## D'où vient le projet : la continuité avec GESICA
 
 Le projet dérive en partie de notre travail commun dans GESICA, tout en s'en distinguant.
 
 - **La revue systématique que nous avons co-signée** (intelligence artificielle en médecine
-  préhospitalière pour les catastrophes et urgences sanitaires, soumise en 2026) montre que la
-  prévision est la tâche la plus fréquemment abordée, et que l'incertitude, la transparence et
-  l'explicabilité y sont rarement traitées explicitement. COLDSTART attaque précisément ces
+  préhospitalière pour les catastrophes et urgences sanitaires, soumise en 2026) montre que la prévision est la tâche la plus abordée et que l'incertitude, la transparence
+  et l'explicabilité y sont rarement traitées. COLDSTART attaque précisément ces
   manques.
 - **L'inventaire GESICA des sources de données** (28 sources, infectieuses et non
   infectieuses, sur GE–VD–NE) fournit la cartographie sur laquelle le protocole de données du
@@ -41,7 +39,7 @@ Le projet dérive en partie de notre travail commun dans GESICA, tout en s'en di
 1. **Extraction** - mesurer la fiabilité de l'extraction automatique de paramètres
    quantitatifs depuis la littérature (contre un étalon en double extraction humaine), et
    corriger les biais identifiés. Le projet s'appuie sur LiteRev-Evidence, le prototype que
-   j'ai développé (recherche fédérée en direct dans la littérature ouverte, criblage,
+   j'ai développé (recherche fédérée dans la littérature ouverte, criblage,
    extraction avec provenance), que le projet transforme en instrument validé. La littérature
    fournit aussi les variables pertinentes, les familles de modèles recommandées et les
    définitions d'issues et de seuils, transposées au contexte local.
@@ -50,8 +48,7 @@ Le projet dérive en partie de notre travail commun dans GESICA, tout en s'en di
    une prévision ponctuelle, avec une modélisation explicite de la queue de distribution pour
    l'état critique. Les ancrages provisoires des états sont des percentiles de la demande
    saisonnière et des indicateurs de capacité, affinés avec les équipes de terrain. Les
-   modèles épidémiologiques (type SEIR) n'interviennent que lorsque la crise est
-   épidémiologique ; les crises environnementales relèvent de structures exposition–réponse.
+   modèles épidémiologiques (type SEIR) n'interviennent que pour les crises épidémiologiques ; les crises environnementales relèvent de structures exposition–réponse.
 3. **Évaluation** - tester, épisode historique par épisode historique, si les a priori issus
    de la littérature améliorent la prévision en début de crise, en n'utilisant à chaque
    instant que les données *et la littérature* disponibles à cette date, contre des
@@ -85,6 +82,9 @@ requérant**, précédée des accords de données institutionnels nécessaires. 
 votre part à ce stade est double : une **lettre de collaboration** pour le dossier FNS
 (confirmant la collaboration et sa contribution concrète - le FNS écarte les lettres de
 recommandation), et un **accord de principe** sur cette voie officielle le moment venu.
+Le dispositif est d'abord validé de bout en bout sur des **données publiques ouvertes** ;
+la faisabilité ne repose donc pas sur un seul accord, et ce sont vos séries qui transforment
+un résultat méthodologique en résultat opérationnel.
 
 ## Ce que vous y gagnez
 

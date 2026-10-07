@@ -45,7 +45,7 @@ DEFS = ('<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" '
 
 # ---------------------------------------------------------------- Figure 1
 def fig1():
-    W, H = 1400, 575
+    W, H = 1400, 566
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
          f'viewBox="0 0 {W} {H}">', DEFS, f'<rect width="{W}" height="{H}" fill="white"/>']
 

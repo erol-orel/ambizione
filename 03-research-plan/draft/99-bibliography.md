@@ -39,12 +39,10 @@
 
 ## Collaborative forecasting and its evaluation
 
-- **[Cramer 2022]** Cramer EY, Ray EL, Lopez VK, et al. (consortium of more than 50 authors;
-  shortening permitted by the guidelines). Evaluation of individual and ensemble
+- **[Cramer 2022]** Cramer EY, Ray EL, Lopez VK, et al. (consortium, more than 50 authors). Evaluation of individual and ensemble
   probabilistic forecasts of COVID-19 mortality in the United States. *Proceedings of the
   National Academy of Sciences* 2022;119(15):e2113561119. doi:10.1073/pnas.2113561119
-- **[Sherratt 2023]** Sherratt K, Gruson H, Grah R, et al. (consortium of more than 50 authors;
-  shortening permitted by the guidelines). Predictive performance of multi-model ensemble
+- **[Sherratt 2023]** Sherratt K, Gruson H, Grah R, et al. (consortium, more than 50 authors). Predictive performance of multi-model ensemble
   forecasts of COVID-19 across European nations. *eLife* 2023;12:e81916.
   doi:10.7554/eLife.81916
 
@@ -167,9 +165,10 @@
 - **[Orel 2022]** Orel E, Esra R, Estill J, Thiabaud A, Marchand-Maillet S, Merzouki A,
   Keiser O. Prediction of HIV status based on socio-behavioural characteristics in East and
   Southern Africa. *PLoS ONE* 2022;17(3):e0264429. doi:10.1371/journal.pone.0264429
-- **[Orel 2024]** Orel E, Sobel J, Zanella MC, Iten A, Kaiser L, Keiser O, Vetter P. Difference
-  in clinical severity between Delta variant and Omicron sub-lineages in a Swiss tertiary
-  center. *CMI Communications* 2024.
+- **[Orel 2024]** Orel E, Sobel J, Zanella MC, Iten A, Kaiser L, Keiser O, Vetter P. Clinical
+  severity of Delta and 3 different Omicron sublineages in patients hospitalized because of
+  COVID-19 in a Swiss tertiary center. *CMI Communications* 2024;1(2):100005.
+  doi:10.1016/j.cmicom.2024.100005
 - **[Estill 2020]** Estill J, Venkova-Marchevska P, Roelens M, Orel E, Temerev A, Flahault A,
   Keiser O. Future scenarios for the SARS-CoV-2 epidemic in Switzerland: an age-structured
   model. *F1000Research* 2020;9.

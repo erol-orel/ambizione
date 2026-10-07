@@ -40,25 +40,23 @@ T2.1's identifiability study and T3.3's calibration checks either establish adeq
 > Δ on the CRPS skill score, and is **superior** to fixed borrowing under deliberately
 > misspecified priors.
 
-Δ is fixed at the second registration point, justified against the evidence-informed versus local-only effect the study is powered to detect.
+Δ is fixed at the second registration point as a registered fraction of the minimal relevant H3a improvement: a maximum acceptable loss, not a simulation convenience.
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 
-**Primary confirmatory comparison (one, stated once):** the **evidence-informed champion** against the **local-only champion**, both produced by the identical pre-registered automated procedure (library, validity checks, selection rule: T3.3), by **CRPS skill score**, over the pre-specified cold-start window, **on respiratory episodes only**. Heat repeats the identical contrast as a **sequential generalisation test**, run only if the respiratory test is met; the fixed order controls the family-wise error rate. The **shape of the advantage over elapsed local data** is reported: it should decay to nothing.
+**Primary confirmatory comparison (one, stated once):** the **evidence-informed champion** against the **local-only champion**, both produced by the identical pre-registered automated procedure (T3.3), by **CRPS skill score**, over the pre-specified cold-start window, **on respiratory episodes only**. Heat repeats the identical contrast as a **sequential generalisation test**, run only if the respiratory test is met; the fixed order controls the family-wise error rate. The **shape of the advantage over elapsed local data** is reported: it should decay to nothing. The primary test values the whole evidence-informed configuration; the prior component's own contribution is isolated by registered secondary contrasts within the same model family.
 
 #### O4: Establish whether predictive improvement is decision-relevant
 
 > **H4.** Decision-analytic evaluation under the losses and escalation thresholds of emergency responders can rank modelling strategies differently from generic accuracy criteria; the evidence-derived strategy is useful only when its gain crosses a decision threshold.
 
-These are downstream tests of value; observation mode is an extension, not a prerequisite.
-
 #### Validation domains
 
 The domains span **two contrasting model classes** (GESICA classification). Both arms
 score **the same quantity, built the same way**: daily emergency demand from the CASU-144
-series, restricted to the cause classes the archetype's evidence base concerns (T3.0):
-respiratory-related demand for epidemics; **heat-sensitive demand** for heat, since Swiss
-evidence places heat effects in dehydration, renal and psychiatric admissions, with a weak
+series, restricted to the archetype's cause classes (T3.0):
+respiratory-related demand for epidemics; **heat-sensitive demand** for heat, Swiss
+evidence placing heat effects in dehydration, renal and psychiatric admissions, with a weak
 respiratory effect at older ages [Schulte 2024; Ragettli 2019].
 
 | Archetype | Role | Dynamics | Outcome and data |
@@ -69,4 +67,4 @@ respiratory effect at older ages [Schulte 2024; Ragettli 2019].
 
 #### What the project does not claim
 
-It does **not** aim to outperform forecast hubs in the data-rich regime, assume literature-derived priors are beneficial, claim critical slowing down as universal, or promise a clinically steering alarm system by month 48: the dashboard runs strictly in observation mode. The contribution is narrower: **whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, and a map of when it should not be trusted.**
+It does **not** aim to outperform forecast hubs in the data-rich regime, assume literature-derived priors are beneficial, claim critical slowing down as universal, or promise a clinically steering alarm by month 48: the dashboard runs strictly in observation mode. The contribution is narrower: **whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, and a map of when it should not be trusted.**

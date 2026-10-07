@@ -47,6 +47,16 @@ F1000Research 2020, JAIDS 2023): add during the same pass.
   references from training knowledge; DOIs on Salmon/Collins are memory-derived, spot-check
   in the 20 Oct publisher-record pass. Wargon's DOI is also memory-derived.
 
+## Audit round 5 additions (7 Oct)
+
+- **Orel 2024 verified in full**: Clinical severity of Delta and 3 different Omicron
+  sublineages in patients hospitalized because of COVID-19 in a Swiss tertiary center.
+  CMI Communications 2024;1(2):100005. doi:10.1016/j.cmicom.2024.100005 (title corrected;
+  search-verified).
+- **Ng'ambi**: the external auditor proposed preprint DOI 10.64898/2026.02.23.26346870; the
+  prefix is not medRxiv's (10.1101) and could not be trusted without verification. DO NOT
+  cite until Erol confirms with the co-authors that a public preprint exists and matches.
+
 ## Must update before submission
 
 - **[Edjinedja 2026]**: status and venue at submission time (currently "Submitted, 2026").

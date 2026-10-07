@@ -233,6 +233,32 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   table before the Gantt) to kill the page-13 hole. 47,900 chars / exactly 15 pages; all
   checks green (sync, em-dash, placeholders, doubled words, et al).
 
+- **ChatGPT audit round 5 processed (7 Oct 2026, late).** ACCEPTED and applied: (P0) the
+  build banner WAS in the submitted docx/PDF page 1 (my QA had only ever rendered page 1 of
+  the pagecheck build; make-submission now strips everything through the first ---, verified
+  on the rebuilt PDF); (P0/P1) champion selection now explicitly NESTED against leakage
+  (inner rolling validation on pre-origin outcomes only; outer forecast scored on later
+  outcomes; "selection never sees the outcomes it is scored on"); CRPS aggregation registered
+  (per-episode mean over origins at the primary horizon; episode skill = 1 - CRPS ratio;
+  confirmatory statistic = mean episode skill, equal weights); Delta re-grounded as a
+  registered fraction of the minimal relevant H3a improvement (maximum acceptable loss, not
+  a simulation convenience); H1 operational metric (median log-ratio of automated to
+  adjudicated dispersion, pre-specified interval); configuration-vs-prior disentangling
+  sentence in 2.3.1; conflict statistic + discount function fixed pre-evaluation (T2.3);
+  registered misspecification shifts (T3.4); non-state models map to escalation-state
+  probabilities via T2.1 anchors (T4.1); WP1 scope guard (classes 2-4 only as H3a inputs);
+  programmes sentence no longer says "from local data"; Edjinedja "published methods" fixed
+  to "uses it in its methods"; Orel 2024 completed and title corrected per the publisher
+  record (CMI Communications 2024;1(2):100005, doi:10.1016/j.cmicom.2024.100005, verified by
+  search); Cramer/Sherratt consortium notes reduced to "(consortium, more than 50 authors)".
+  REJECTED: adding the auditor's Ng'ambi "preprint DOI" (10.64898/..., prefix does not match
+  medRxiv; likely confabulated; ASK ERol to confirm whether a public preprint of the Ng'ambi
+  manuscript exists before citing anything). NOTED, no plan change: budget arithmetic must
+  close in the separate budget document (RGO numbers, Tue 20 Oct); data-access remains
+  honestly conditional until letters arrive. The auditor reviewed a pre-revamp docx (16
+  pages, figures on pages 4/12), so its page observations were stale but its P0s were real.
+  Plan now 48,510 chars / exactly 15 pages; margins 1.09/1.27 cm.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

@@ -42,7 +42,9 @@ agrégé au jour** :
 - **aucun identifiant direct, aucun texte libre, aucune donnée individuelle** pour les analyses
   principales.
 
-L'accès effectif interviendrait sous approbation de la **CCER**, avec moi comme requérant.
+L'accès effectif interviendrait sous approbation de la **CCER**, avec moi comme requérant. Je
+précise que le projet est d'abord validé de bout en bout sur des données publiques ouvertes :
+vos données n'en conditionnent pas la faisabilité, elles lui donnent sa portée opérationnelle.
 
 Trois questions pratiques, si tu as un avis :
 
