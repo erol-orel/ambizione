@@ -279,6 +279,21 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   TO DO (Erol): emails to pharmacien cantonal and medecin cantonal (data + possible letters);
   confirm with HUG the COVID-hospitalisation re-request route.
 
+- **THREE-ARCHETYPE SCOPE FIXED (applicant decision, 8 Oct 2026, early).** The real-world
+  scope is now stated explicitly as three Geneva crisis archetypes AND NO MORE, fixed for
+  the grant: (1) respiratory epidemics (SARS-CoV-2, influenza, RSV: syndromically
+  overlapping, surveilled together in Switzerland; = GESICA's P1), primary confirmatory;
+  (2) environmental heat events, sequential generalisation, with AIR POLLUTION (ozone,
+  PM10) AS CO-EXPOSURE AND EFFECT MODIFIER, deliberately NOT a separate crisis domain
+  (pollution lacks the clean episodic onset the episode machinery needs); (3) Geneva
+  legionellosis, year-4 contrasting extension. Order unchanged (heat stays second: the
+  registered fixed-sequence test depends on it; legionellosis third). Dashboard promise
+  stays conditional per archetype ("for each of the three archetypes whose models pass
+  T3.3 validation and T4.2's decision-value check"). New 2.3.1 section "Scope: three
+  Geneva crisis archetypes, fixed for the grant"; summary carries the same sentence.
+  Terminology: "syndromically overlapping", never "non-differentiable". 48,974 chars /
+  exactly 15 pages.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

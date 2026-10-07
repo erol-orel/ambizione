@@ -1,6 +1,6 @@
 ## 2.5 Relevance and impact
 
-**A null result changes identifiable practice.** Modellers routinely seed early-crisis models with parameters lifted from a few studies, and evidence-synthesis platforms (mine included) assume pooled estimates are reusable as priors; a calibrated null tells both that the practice buys nothing where it is most used.
+**A null result changes identifiable practice.** Modellers seed early-crisis models with parameters lifted from a few studies, and evidence-synthesis platforms (mine included) assume pooled estimates are reusable as priors; a calibrated null tells both that the practice buys nothing where it is most used.
 
 **Form of publication.** Peer-reviewed articles, preprints on submission, open access throughout; benchmarks, prior library and code as **citable, versioned open resources**; results returned to the partners.
 
@@ -8,11 +8,11 @@ Durable resources remain, subordinate to the central question: **the extraction 
 
 **Practical and societal impact.** In a crisis's first weeks, emergency systems decide whether to open capacity, redistribute resources or escalate before local outcomes provide a reliable base; the project quantifies whether external evidence improves those decisions, and with how much residual uncertainty. Geneva anchors it; the archetypes show what transfers.
 
-**Where this points operationally.** Each validated event type leaves a registered, automatically re-validated configuration and a daily observation-mode dashboard in the hands of the services that would use it. Extending that nucleus into a multi-crisis surveillance platform, event type by event type as models validate, is the explicit post-grant pathway; this project supplies the validated core and update rules that make it trustworthy.
+**Where this points operationally.** Each validated archetype leaves a registered, automatically re-validated configuration and a daily observation-mode dashboard in the hands of the services that would use it. Extending that nucleus into a multi-crisis surveillance platform, archetype by archetype as models validate, is the explicit post-grant pathway; this project supplies the validated core and update rules that make it trustworthy.
 
 ## 2.6 Relevance for personal career development
 
-**Why I am ready, and why now.** I have the methods, the prototype and the domain access, used so far inside other people's programmes; what I have not had is a research agenda that is mine to set; none of the programmes below has this project's objective.
+**Why I am ready, and why now.** I have the methods, the prototype and the domain access, used so far inside other people's programmes; what I lacked is a research agenda that is mine to set; none of the programmes below has this project's objective.
 
 | Programme | Objective | My role | Distinction from Ambizione |
 | --- | --- | --- | --- |

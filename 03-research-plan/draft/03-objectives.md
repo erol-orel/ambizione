@@ -4,7 +4,7 @@
 
 To determine **whether, and under what conditions, published quantitative evidence provides useful information when local outcome data are insufficient at the onset of a health-system crisis, and whether the resulting forecasts change decisions.**
 
-**One central hypothesis, H3a**; everything else is subordinate to it:
+**One central hypothesis, H3a**; all else is subordinate:
 
 | | Role | Statement |
 | --- | --- | --- |
@@ -50,17 +50,22 @@ T2.1's identifiability study and T3.3's calibration checks either establish adeq
 
 > **H4.** Decision-analytic evaluation under the losses and escalation thresholds of emergency responders can rank modelling strategies differently from generic accuracy criteria; the evidence-derived strategy is useful only when its gain crosses a decision threshold.
 
-#### Validation domains
+#### Scope: three Geneva crisis archetypes, fixed for the grant
 
-The domains span **two contrasting model classes** (GESICA classification). Both arms
-score **the same quantity, built the same way**: daily emergency demand from the CASU-144
-series, restricted to the archetype's cause classes (T3.0):
-respiratory-related demand for epidemics; **heat-sensitive demand** for heat, Swiss
-evidence placing heat effects in dehydration, renal and psychiatric admissions, with a weak
-respiratory effect at older ages [Schulte 2024; Ragettli 2019].
-
-**Respiratory epidemics** (transmissible, multi-wave; COVID-19, influenza, RSV) carry the confirmatory test; **heatwaves** (environmental, sharply peaked; MeteoSwiss exposures) the sequential generalisation; **Geneva legionellosis** the year-4 waterborne extension (T3.5).
+**COLDSTART's real-world scope is three health-system crisis archetypes, and no more.**
+(1) **Respiratory epidemics**: SARS-CoV-2, influenza and RSV, syndromically overlapping and
+surveilled together in Switzerland, carry the primary confirmatory test.
+(2) **Environmental heat events** carry the sequential generalisation test, with **air
+pollution (ozone, PM10) as co-exposure and effect modifier**, not a separate crisis domain.
+(3) **Waterborne outbreaks**: Geneva legionellosis, the year-4 contrasting extension (T3.5).
+The domains are fixed for the project; further data serve benchmarking and sensitivity
+analyses only, and no fourth operational domain is required for the central conclusion.
+Both arms score **the same quantity, built the same way**: daily emergency demand from the
+CASU-144 series, restricted to the archetype's cause classes (T3.0): respiratory-related
+demand for epidemics; **heat-sensitive demand** for heat, Swiss evidence placing heat
+effects in dehydration, renal and psychiatric admissions, with a weak respiratory effect at
+older ages [Schulte 2024; Ragettli 2019].
 
 #### What the project does not claim
 
-It does **not** aim to outperform forecast hubs in the data-rich regime, assume literature-derived priors are beneficial, claim critical slowing down as universal, or promise a clinically steering alarm by month 48: the dashboard runs strictly in observation mode. The contribution is narrower: **whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, and a map of when it should not be trusted.**
+It does **not** aim to outperform forecast hubs in the data-rich regime, assume literature-derived priors are beneficial, claim critical slowing down as universal, or promise a clinically steering alarm by month 48: the dashboard runs strictly in observation mode. The contribution: **whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, and a map of when it should not be trusted.**

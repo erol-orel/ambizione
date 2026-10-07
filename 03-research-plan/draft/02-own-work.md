@@ -43,7 +43,7 @@ surge); **model fitting across algorithm families with automated hyperparameter 
 leakage-safe time-series validation and ranking on a stated metric**; and compartmental
 components, parameterised from extracted ranges, that can re-enter the statistical model as
 predictors. Per-scenario **living reviews re-run on schedule**, every update previewed
-before it is applied: the evidence-to-model loop this proposal interrogates, in prototype
+before application: the evidence-to-model loop this proposal interrogates, in prototype
 form.
 
 For GESICA I built the Geneva–Vaud–Neuchâtel data foundation: **77 notifiable diseases in
