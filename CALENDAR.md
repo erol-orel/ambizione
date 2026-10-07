@@ -27,10 +27,12 @@ FNS hard deadline: Tuesday 3 November, 17:00.
 | Sat 10 | Catch up any Track A stragglers. | Revise **§2.3.2** (longest; 2 sittings). |
 | Sun 11 | - | Revise **§2.3.3 + §2.4**, then **§2.5 + §2.6** + mobility statement. |
 
-**Revision rules (UPDATED 7 Oct, evening):** the compression is DONE (44,208 chars / 15
-pages). Your pass is now purely **own words within the 15-page envelope**: reword freely,
-keep every hypothesis, number, rule and citation; any net addition needs a cut; no em-dash;
-no "et al."; no links. Run `draft/pagecheck.sh` after each section you touch.
+**Revision rules (UPDATED 7 Oct, night - plan frozen at commit 06b7e11):** the audit cycle
+is closed (18 rounds, final 9.6/10) and the plan sits at **50,276 chars / exactly 15 pages
+with margins at the floor**. Your pass is purely **own words within the 15-page envelope**:
+reword freely, keep every hypothesis, number, rule and citation; any net addition needs an
+equal cut; no em-dash; no "et al."; no links. Run `draft/pagecheck.sh` after each section
+you touch.
 
 ## Week 2: Mon 12 to Fri 17 October. The signature-and-form week
 

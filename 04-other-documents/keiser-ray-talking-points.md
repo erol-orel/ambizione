@@ -53,6 +53,10 @@ consistent with the dossier.
 **If he hesitates on wording:** he edits, we keep the mandatory points; the template is the
 constraint, not my draft.
 
+**One practical point (7 Oct):** a second Ambizione applicant sits in his own group, so his
+office handles two signature flows the same week. No rule conflict (one applicant per contact
+person; a director signs any number of letters) - just say it, so this letter does not queue.
+
 ---
 
 **After both yes:** letterhead version printed, signatures collected, PDF scanned → upload 1

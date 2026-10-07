@@ -47,7 +47,7 @@ Le projet dérive en partie de notre travail commun dans GESICA, tout en s'en di
    latents** (habituel / tendu / sous tension / critique) plutôt que comme un seuil appliqué à
    une prévision ponctuelle, avec une modélisation explicite de la queue de distribution pour
    l'état critique. Les ancrages provisoires des états sont des percentiles de la demande
-   saisonnière et des indicateurs de capacité, affinés avec les équipes de terrain. Les
+   saisonnière et des indicateurs de capacité ; leur interprétation décisionnelle est précisée avec les équipes de terrain. Les
    modèles épidémiologiques (type SEIR) n'interviennent que pour les crises épidémiologiques ; les crises environnementales relèvent de structures exposition–réponse.
 3. **Évaluation** - tester, épisode historique par épisode historique, si les a priori issus
    de la littérature améliorent la prévision en début de crise, en n'utilisant à chaque

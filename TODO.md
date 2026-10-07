@@ -1,16 +1,16 @@
 # To do: Ambizione, deadline 3 November 2026
 
-> ## ❄ SCIENCE SETTLED (30 Sep, amended 7 Oct by applicant order) · OWN-WORDS REVISION WEEK
+> ## ❄ PLAN FROZEN (7 Oct evening, commit 06b7e11, external sign-off 9.6/10) · OWN-WORDS WEEK
 >
-> Four audit rounds converge: the architecture is finished. **Do not reopen it** - no new
-> methods, domains or restructuring. Since the freeze, only applicant-ordered changes landed
-> (no em-dash; LiteRev-Evidence as prototype and test bed, validated instrument as deliverable;
-> Keiser "no scientific role in the project"; **7 Oct revamp**: four evidence-object classes,
-> model library with automated champion selection replacing the hand-walked ladder, automation
-> layer, living-evidence monitor, year-4 observation-mode dashboard, platform as post-grant
-> pathway). The applicant is now rewriting the prose in his
-> own words; science challenges still need two external readers converging. Remaining work is
-> **release QA**, in this order:
+> Eighteen external audit rounds closed with "this is the version I would submit". **Do not
+> reopen the plan** - no new methods, domains or restructuring; reopen only on two-reader
+> convergence (13-23 Oct round) or an applicant factual correction (open: legionellosis target,
+> UNIGE IP position, extractor arm 1 = PI). The frozen architecture: four evidence-object
+> classes; model library with leakage-nested automated champion selection (CRPS primary,
+> log score/calibration admissibility); release-vintage reconstruction; Δ = 50% preservation
+> fraction; demand-based dashboard only (legionellosis = case-incidence extension). The
+> applicant is rewriting the prose in his own words within the 15-page envelope. Remaining
+> work is **release QA**, in this order:
 >
 > 1. **Bibliography records - DONE 7 Oct** (all author lists/venues verified, keys fixed,
 >    editorial notes moved to `05-review/bibliography-notes.md`). Remains: the 20 Oct
@@ -23,9 +23,10 @@
 > 4. **Data** - CASU-144 agreement scope confirmed (incl. cause categories covering BOTH
 >    respiratory and heat-sensitive classes, and broad age bands).
 > 5. **Episode inventory** - run the eligibility rules; replace the provisional 13–14.
-> 6. **PAGE CAP: holds after the 7 Oct revamp** (46,913 chars / 15 pages at min 10pt, 1.5
->    spacing, 1.2/1.27 cm margins; verify any edit with `draft/pagecheck.sh`). mySNF calibration remains: upload the draft PDF early; the
->    counter and the page render are both binding.
+> 6. **PAGE CAP: at the wall** (50,276 chars / exactly 15 pages at min 10pt, 1.5 spacing,
+>    margins at the declared floor ~1.0/1.2 cm; ANY addition needs an equal cut; verify every
+>    edit with `draft/pagecheck.sh`). mySNF calibration remains: upload the draft PDF early;
+>    the counter and the page render are both binding.
 >
 > Prose edits after this point only if forced by one of the six items above.
 >

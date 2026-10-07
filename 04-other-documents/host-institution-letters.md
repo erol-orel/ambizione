@@ -116,6 +116,9 @@ than useless here. Uploaded under "Other annexes".
 - [ ] Ask the RGO: can one person sign as both contact person and head of institute? What is the
       internal UNIGE deadline?
 - [ ] Confirm no one else at the Institute is applying under the same contact person (Art. 8 §6).
+      **Update 7 Oct:** a second ISG applicant exists, in **Prof. Ray's group**, so no collision
+      with Keiser's slot is expected (the rule binds the contact person, not the institute, and
+      a director may sign several letters). Still get Keiser's explicit confirmation.
 - [ ] Establish what organisational designation the Faculty can make, before drafting.
 - [ ] Supply the infrastructure list for the `[please specify]` field.
 - [ ] Hand the §2.6 delimitation table to the letter's drafter for mandatory point 2.

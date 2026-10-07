@@ -549,6 +549,23 @@ The audit cycle (rounds 5-18, 6-7 Oct) is CLOSED. The frozen version is commit 0
 (50,276 chars / 15 pages). Remaining work is submission QA only: own-voice pass,
 signatures, letters, CV, budget, mySNF count and upload.
 
+## 7 Oct, night: ancillary-document alignment pass against the frozen plan
+
+Swept every downstream document against commit 06b7e11. CHANGED: (1) emails/06-readers.md -
+dates aligned to CALENDAR (ping Wed 8/Thu 9, plan out Tue 13, reply-by Fri 23 Oct, chase
+Mon 20), the false "60,000/60,000 signes" honesty line corrected to "15 pages sur 15,
+~50 000 signes sur 60 000", statistician question now states the final design (N by
+pre-registered simulation blind to performance, Δ = half the minimal relevant improvement);
+(2) data-access/02-project-note.md - anchors sentence aligned ("leur interprétation
+décisionnelle est précisée avec les équipes de terrain"), docx/pdf REBUILT via the old docx
+as pandoc reference-doc + 760/880 margins, verified exactly 2 pages, justified, no em-dash;
+(3) host-institution-letters.md + keiser-ray-talking-points.md - second-ISG-applicant fact
+added (Ray's group, no slot collision, mention to Ray so signature flows don't queue);
+(4) TODO.md banner, CALENDAR.md revision rules, CLAUDE.md - frozen state and true counts
+(50,276 chars / 15 pages / margins at floor / 18 audit rounds). VERIFIED CURRENT, no change
+needed: emails 01/02/03/04/08, rgo-form-inputs.md (290-char summary still matches the final
+plan), lettre-confirmation-isg-draft, 03-support-letter-template, budget.md, ccer package.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:
