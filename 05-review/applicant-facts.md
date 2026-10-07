@@ -417,6 +417,25 @@ deduplicated out of the closing paragraph, 2.5 owns that claim; "independence gu
 green, submission page 1 banner-free. Auditor's verdict: everything else is optional
 polishing; remaining determinants are CV, achievements, letters, budget, narrative.
 
+## 7 Oct, external audit round 11 (9.5/10, "essentially submission-ready"): two must-fixes
+
+(1) **State-anchor precedence** (real catch: "capacity criteria take precedence" could be
+read as capacity DOWNGRADING a P97.5 observation to strained). T2.1 now ends:
+"the highest applicable state prevails, capacity saturation alone defining critical."
+Figure 1's chips were already consistent. (2) **Stray apostrophe below the milestone
+table**: not visible in our LibreOffice render, but diagnosed as the inter-section "---"
+separators assemble.sh wrote into FINAL-research-plan.md - pandoc turns each into a
+horizontal rule that some docx/PDF renderers draw as a stray mark. assemble.sh no longer
+emits them (comment in the script explains why); the banner's own "---" stays because
+make-submission.sh strips the banner up to the first "---". Verified: exactly one "---"
+left in the assembled file, submission junction renders clean.
+DECLINED: the "more neutral" Delta parenthesis ("must retain at least half of the
+pre-specified minimally relevant H3a benefit" merely restates the definition already in
+the main clause; ours carries the rationale); the career-table page-break move (our
+authoritative pagination differs from the auditor's render; the table sits cleanly).
+End state: **49,994 chars / exactly 15 pages**, sync 47/47, battery green. The auditor's
+instruction, which I share: STOP changing the research plan.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

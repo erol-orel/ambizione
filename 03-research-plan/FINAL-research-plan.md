@@ -20,8 +20,6 @@ Every component is validated first on open Swiss series (a public benchmark), th
 The project rests on an unusual combination: fifteen years of quantitative-finance work on rare-event risk and regime models, LiteRev-Evidence, and Swiss emergency data. Ambizione turns these into an independent research programme, led by me, at the intersection of evidence synthesis, quantitative modelling and emergency public health.
 
 
----
-
 # 2. Proposed research
 
 ## 2.1 Current state of research in the field
@@ -58,8 +56,6 @@ Ongoing programmes occupy the neighbouring ground: multi-model forecasting hubs 
 
 What has not been established is whether these pieces connect around the **cold-start question**, and whether the loop from living evidence synthesis to variable choice, model choice, thresholds and automatically re-validated forecasts can be closed under pre-registered rules.
 
-
----
 
 ## 2.2 Current state of personal research and competences required for the project
 
@@ -131,8 +127,6 @@ testing under misspecification, forecast evaluation and decision analysis come f
 work and form the core of WP2–WP3; extraction and pooling from LiteRev-Evidence; domain
 knowledge from the doctorate, the Swiss COVID-19 work and GESICA.
 
-
----
 
 ## 2.3 Detailed research plan
 
@@ -208,8 +202,6 @@ both arms score it, built the same way, and the claim narrows.
 It does **not** aim to outperform forecast hubs in the data-rich regime, assume literature-derived priors are beneficial, or promise a clinically steering alarm by month 48: the dashboard runs strictly in observation mode. The contribution: **whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, and a map of when it should not be trusted.**
 
 
----
-
 ### 2.3.2 Work packages and methods
 
 #### WP1: From published evidence to usable priors *(M1–M20)*
@@ -242,7 +234,7 @@ Characterise effect modifiers and study-setting differences relevant to Geneva; 
 
 ##### T2.1: Specify and identify the state model *(M1–M9)*
 
-A Bayesian hierarchical Markov regime-switching model [Hamilton 1989] with an ordinal latent state (routine, elevated, strained, critical) observed through emergency calls (the primary channel), with ED presentations and ICU occupancy added where available; pre-specified weather, calendar and epidemic covariates; series-specific observation models sharing the state. Before real-data fitting: simulation-based identifiability and recovery, including the reduced-channel case; ordering constraints resolve label switching; if separation is insufficient, the fallback is an ordinal state-space formulation; the criterion is state and transition recovery, not visual fit. **Provisional state anchors**, fixed at registration for WP2–WP3 (T4.1's later elicitation refines their decision interpretation, never the confirmatory state definition): **routine** below the 75th percentile of the seasonal baseline; **elevated** 75th to 90th; **strained** 90th to 97.5th, or sustained capacity pressure (ICU occupancy above 85%, ED boarding above its seasonal 90th percentile); **critical** above the 97.5th, or capacity saturation; capacity criteria take precedence. Anchors are percentile-based per event type; in estimation they enter as priors on state-dependent levels, not hard cutoffs.
+A Bayesian hierarchical Markov regime-switching model [Hamilton 1989] with an ordinal latent state (routine, elevated, strained, critical) observed through emergency calls (the primary channel), with ED presentations and ICU occupancy added where available; pre-specified weather, calendar and epidemic covariates; series-specific observation models sharing the state. Before real-data fitting: simulation-based identifiability and recovery, including the reduced-channel case; ordering constraints resolve label switching; if separation is insufficient, the fallback is an ordinal state-space formulation; the criterion is state and transition recovery, not visual fit. **Provisional state anchors**, fixed at registration for WP2–WP3 (T4.1's later elicitation refines their decision interpretation, never the confirmatory state definition): **routine** below the 75th percentile of the seasonal baseline; **elevated** 75th to 90th; **strained** 90th to 97.5th, or sustained capacity pressure (ICU occupancy above 85%, ED boarding above its seasonal 90th percentile); **critical** above the 97.5th, or capacity saturation; the highest applicable state prevails, capacity saturation alone defining critical. Anchors are percentile-based per event type; in estimation they enter as priors on state-dependent levels, not hard cutoffs.
 
 ##### T2.2: Represent the critical tail *(M6–M14)*
 
@@ -341,8 +333,6 @@ Estimate, for selected episodes, what would have changed had escalation followed
 **Expected outputs.** Four to six papers and the durable open resources of §2.5; **I lead the methodological, benchmark and integrative outputs.** None of the explicit fallbacks above converts an inconclusive analysis into a success claim.
 
 
----
-
 ### 2.3.3 Research environment, team and resources
 
 **Host: Institute of Global Health, Faculty of Medicine, University of Geneva**, with a methodological collaboration with **Data Science for Digital Health** (Prof. Douglas Teodoro) and a clinical one with **HUG emergency medicine** (Prof. Thibaut Desmettre; Dr Robert Larribau, CASU-144).
@@ -381,8 +371,6 @@ Remaining feasibility items: the ED/ICU extraction and the project 144 agreement
 **Preparatory work, before month 1 and outside grant funding:** **project-specific data agreements** with HUG and 144/CASU (re-scoping access already held); **project-specific data governance and reuse**, confirmed under the applicable institutional and regulatory framework before any analysis; **infrastructure hardening** of LiteRev-Evidence before clinical data connect. Feasibility rests on **the prototype already existing** and on the fallbacks, each leaving the central question answerable.
 
 
----
-
 ## 2.4 Schedule and milestones
 
 **Who does what.** I execute WP2 and WP3's confirmatory design personally and lead WP1's
@@ -407,8 +395,6 @@ No serial chain: WP2 falls back to weakly informative priors if WP1 finds extrac
 | M5 | 40 | Decision relevance established |
 | M6 | 48 | Cross-archetype analysis complete; dashboard running for validated archetypes where authorised |
 
-
----
 
 ## 2.5 Relevance and impact
 
@@ -441,8 +427,6 @@ No serial chain: WP2 falls back to weakly informative priors if WP1 finds extrac
 
 **Where this leads.** By month 48: a validated answer and a first-author methodological record: the basis for group leadership or a professorship. Ambizione consolidates my research time into one programme.
 
-
----
 
 # Bibliography
 

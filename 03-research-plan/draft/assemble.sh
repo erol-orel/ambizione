@@ -14,8 +14,11 @@ OUT="$DIR/../FINAL-research-plan.md"
 ---
 
 HDR
+  # No "---" between sections: pandoc turns them into horizontal rules that some
+  # docx/PDF renderers draw as stray marks (caught by an external reader, 7 Oct).
+  # The banner's "---" above must stay: make-submission.sh strips up to the first one.
   for f in "$DIR"/0[0-7]-*.md; do
-      cat "$f"; printf '\n\n---\n\n'
+      cat "$f"; printf '\n\n'
   done
   cat "$DIR/99-bibliography.md"
 } > "$OUT"
