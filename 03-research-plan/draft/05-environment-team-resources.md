@@ -2,7 +2,7 @@
 
 **Host: Institute of Global Health, Faculty of Medicine, University of Geneva**, with a methodological collaboration with **Data Science for Digital Health** (Prof. Douglas Teodoro) and a clinical collaboration with **HUG emergency medicine** (Prof. Thibaut Desmettre; Dr Robert Larribau, médecin responsable CASU-144).
 
-**Institute of Global Health:** epidemiology, infectious-disease modelling and automated evidence extraction in one institute; this is where the gap became visible. Independence is organisational: a programme led by me alongside the Institute's groups, not inside one (§2.6). **DS4DH** contributes the biomedical NLP WP1 needs; through GESICA I already work with the emergency-medicine partners, and the AI-in-EMS review [Edjinedja 2026] evidences the functioning collaboration.
+**Institute of Global Health:** epidemiology, infectious-disease modelling and automated evidence extraction in one institute: where the gap became visible. Independence is organisational: a programme led by me alongside the Institute's groups, not inside one (§2.6). **DS4DH** contributes the biomedical NLP WP1 needs; through GESICA I already work with the emergency-medicine partners; the AI-in-EMS review [Edjinedja 2026] evidences the collaboration.
 
 **Existing infrastructure.** LiteRev-Evidence is a prototype (live federated search of the open literature, screening, living reviews, certainty-graded extraction with provenance, pooling into parameter distributions, candidate variables, typed outcome templates, multi-family model fitting with automated tuning, weather and surveillance connectors); WP1 and WP2 turn it into a validated instrument and test it. The legionellosis study (BASEC 2026-00324, ethics granted) supplies the contrasting archetype. **Computing:** UNIGE HPC (Baobab/Yggdrasil) and the University's secure environment for clinical data.
 
@@ -14,7 +14,7 @@
 | Host institute (ISG) | Requested | Host confirmation, SNSF template |
 | DS4DH methodological collaboration | **Agreed** | Letter requested |
 | Institutional confirmation | Requested | General confirmation, UNIGE Vice-Rectorate |
-| **CASU-144 records (HUG-operated), primary outcome** | Requested | Letter requested. Continuous, daily, near real-time; archive depth to confirm; **HUG access established within GESICA** (voice excluded); own agreement + CCER required |
+| **CASU-144 records (HUG-operated), primary outcome** | Requested | Letter requested; continuous, daily, near real-time; archive depth to confirm; **HUG access established within GESICA**; own agreement + CCER required |
 | ED presentations + ICU occupancy, additional channels | Requested | Letters requested; daily depth to confirm; ICU fallback in WP3 |
 | Operational-data ethics | Requested | CCER submission, PI as applicant |
 | Computing | Requested | UNIGE HPC access |

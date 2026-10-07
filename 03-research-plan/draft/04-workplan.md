@@ -8,7 +8,7 @@
 
 ##### T1.2: Build the quantitative extraction benchmark *(M3–M9)*
 
-Two independent expert extractors extract target quantities from a stratified random sample of **300** publications, with adjudication; stratification covers parameter class, reporting quality, study design and **source type** (journal article versus timestamped situational report), so error is characterised separately for T3.2's faster secondary sources. The benchmark is an open deliverable.
+Two independent expert extractors extract target quantities from a stratified random sample of **300** publications, with adjudication; stratification covers parameter class, reporting quality, study design and **source type** (journal article versus timestamped situational report), so error is characterised separately for T3.2's faster secondary sources. An **open external layer** scores retrieval against the reported inclusion sets of published systematic reviews in the target classes, and extraction and pooling against their published summary estimates. The benchmark is an open deliverable.
 
 ##### T1.3: Characterise automated extraction error *(M7–M14)*
 
@@ -24,21 +24,21 @@ Characterise effect modifiers and study-setting differences relevant to Geneva; 
 
 **Deliverables.** D1.1 open benchmark; D1.2 error analysis; D1.3 evidence-to-prior library.
 
-**Risk.** Manual extraction is expensive; if expert time binds, the benchmark narrows to the core parameter classes.
+**Risk.** If expert time binds, the benchmark narrows to the core parameter classes.
 
 #### WP2: A parsimonious model of health-system escalation *(M1–M28)*
 
 ##### T2.1: Specify and identify the state model *(M1–M9)*
 
-A Bayesian hierarchical Markov regime-switching model [Hamilton 1989] with an ordinal latent state `S(t) ∈ {routine, elevated, strained, critical}` observed through emergency calls, ED presentations and ICU occupancy; pre-specified weather, calendar and epidemic covariates; series-specific observation models sharing the state. Before real-data fitting: simulation-based identifiability and recovery; ordering constraints resolve label switching; if separation is insufficient, the fallback is an ordinal state-space formulation; the criterion is recovery of states and transitions, not visual fit. **Provisional state anchors**, fixed at registration and refined (not replaced) by T4.1's elicitation: **routine** below the 75th percentile of the seasonal baseline demand distribution; **elevated** 75th to 90th; **strained** above the 90th, or sustained capacity pressure (ICU occupancy above 85%, ED boarding above its seasonal 90th percentile); **critical** above the 97.5th percentile, or capacity saturation. Anchors are percentile-based per event type; in estimation they enter as priors on state-dependent levels, not hard cutoffs.
+A Bayesian hierarchical Markov regime-switching model [Hamilton 1989] with an ordinal latent state (routine, elevated, strained, critical) observed through emergency calls, ED presentations and ICU occupancy; pre-specified weather, calendar and epidemic covariates; series-specific observation models sharing the state. Before real-data fitting: simulation-based identifiability and recovery; ordering constraints resolve label switching; if separation is insufficient, the fallback is an ordinal state-space formulation; the criterion is recovery of states and transitions, not visual fit. **Provisional state anchors**, fixed at registration and refined (not replaced) by T4.1's elicitation: **routine** below the 75th percentile of the seasonal baseline; **elevated** 75th to 90th; **strained** above the 90th, or sustained capacity pressure (ICU occupancy above 85%, ED boarding above its seasonal 90th percentile); **critical** above the 97.5th percentile, or capacity saturation. Anchors are percentile-based per event type; in estimation they enter as priors on state-dependent levels, not hard cutoffs.
 
 ##### T2.2: Represent the critical tail *(M6–M14)*
 
-Peaks-over-threshold/generalised Pareto modelling for rare exceedances, coupled to the critical-state probability, threshold sensitivity reported: a supporting representation, not a separate objective.
+Peaks-over-threshold/generalised Pareto modelling for rare exceedances, coupled to the critical-state probability, threshold sensitivity reported: supporting, not a separate objective.
 
 ##### T2.3: Introduce evidence-derived priors *(M10–M20)*
 
-Map WP1 distributions to the parameters where published evidence is relevant (weather effects, surge magnitudes, transition/recovery characteristics); compare weakly informative, fixed evidence-derived and adaptive robust borrowing. The adaptive specification is a robust mixture of an evidence-derived and a weakly informative component, prior–data conflict recorded explicitly. Power-prior and commensurate-prior approaches are sensitivity comparators.
+Map WP1 distributions to the parameters where published evidence is relevant (weather effects, surge magnitudes, transition characteristics); compare weakly informative, fixed evidence-derived and adaptive robust borrowing. The adaptive specification is a robust mixture of an evidence-derived and a weakly informative component, prior–data conflict recorded explicitly. Power-prior and commensurate-prior approaches are sensitivity comparators.
 
 ##### T2.4: Add resilience indicators as a secondary information channel *(M12–M20)*
 
@@ -64,19 +64,21 @@ Fixed before any evaluation is designed, never revisited in response to performa
 
 **Candidate outcome set and geography.** The pre-registered candidates, in hierarchy order: (1) cause-filtered CASU-144 call volume (primary); (2) ED presentations by category; (3) ICU occupancy; (4) all-cause 144 engagements and hospital admissions as sensitivity series; open surveillance (Sentinella, wastewater) as fallback outcomes only. The unit is the **canton of Geneva at daily resolution** (the HUG centrale's coverage area); extension to Vaud and Neuchâtel via the CHUV-operated 144 is a pre-specified external validation if access is granted.
 
-**Data-access gate.** Criteria fixed in advance for **historical depth, temporal resolution, reporting latency and completeness**; the primary outcome is selected at a pre-specified checkpoint (month 12), on those criteria alone.
+**Data-access gate.** Criteria for **historical depth, resolution, latency and completeness** are fixed in advance; the primary outcome is selected at a pre-specified checkpoint (month 12) on those criteria alone.
 
-**Episode eligibility.** An episode enters the confirmatory evaluation only if all of these are prospectively reconstructable: (1) a detectable onset under the prospective onset rule; (2) enough pre-onset history for its rolling baseline; (3) enough post-onset observations at the primary horizon; (4) the external evidence **as it stood at the historical origin**; (5) no leakage of future information; (6) separation from adjacent episodes. Failing episodes remain available for sensitivity analysis only. **At demand level, co-circulating pathogens form one episode**: a winter with concurrent influenza and RSV is one surge, not two.
+**Episode eligibility.** An episode enters the confirmatory evaluation only if all of these are prospectively reconstructable: (1) a detectable onset under the prospective onset rule; (2) enough pre-onset history for its rolling baseline; (3) enough post-onset observations at the primary horizon; (4) the external evidence **as it stood at the historical origin**; (5) no leakage of future information; (6) separation from adjacent episodes. Failing episodes remain available for sensitivity analysis only. **At demand level, co-circulating pathogens form one episode** (concurrent influenza and RSV is one surge).
 
-**Two registration points.** The hierarchy, gate criteria and eligibility rule are registered now. The window *N*, the archetype-specific horizons and the margin Δ are registered after the checkpoint and the episode inventory, but before any evaluation runs, by the pre-declared selection rules of T3.3.
+**Two registration points.** The hierarchy, gate criteria and eligibility rule are registered now. The window *N*, the archetype-specific horizons and the margin Δ are registered after the checkpoint and the episode inventory, before any evaluation runs, by T3.3's pre-declared selection rules.
+
+**Open-data validation track (M12–M24, pre-specified secondary analyses).** Before any clinical series connects, the complete rolling-origin machinery runs on open series: Swiss federal respiratory surveillance and wastewater, weekly all-cause deaths for the heat arm, and France's openly published daily emergency-activity indicators (OSCOUR ED attendances, SOS Médecins consultations), matching GESICA's Franco-Swiss frame. Archived multi-model hub forecasts provide contemporaneous external comparators for early, genuinely cold-start rounds [Cramer 2022; Sherratt 2023]. The track ships as a **public, re-runnable benchmark**, validates every component before operational data arrive, and makes the central test robust to access outcomes; operational series then sharpen the claim to emergency-system demand.
 
 ##### T3.1: Assemble the retrospective information set *(M12–M20)*
 
-Harmonise the CASU-144 series with the additional channels and covariates; quantify completeness and delay; model right truncation/nowcasting so incomplete recent reporting is not mistaken for falling demand [Höhle 2014; McGough 2020]; degraded reporting under strain could itself mimic an early-warning signal.
+Harmonise the CASU-144 series with the additional channels and covariates; quantify completeness and delay; model right truncation and nowcasting [Höhle 2014; McGough 2020]; degraded reporting under strain could itself mimic an early-warning signal.
 
 ##### T3.2: Reconstruct the true information set *(M18–M30)*
 
-For each historical onset, create successive forecast origins using **only information available at that date**. **Admissibility as a prior is defined by referent, not venue**: prior inputs are statements about *other* populations, places or past events. **The confirmatory prior uses peer-reviewed literature and preprints only**, under the rolling cut-off. Timestamped situational reporting on the ongoing event *elsewhere* (WHO Disease Outbreak News, ECDC rapid risk assessments) enters as a **pre-specified secondary prior variant**, through the same extraction and error pipeline, outside the confirmatory contrast: H3a tests literature borrowing, not dynamic evidence fusion. **Text describing the local event is excluded from any prior**: it is a noisy measurement of the outcome H3a is scored against. Every input carries an index timestamp enforcing the rolling cut-off; origins re-run automatically through the T2.5 layer, each input at its native cadence. Forecast horizons 7, 14 and 28 days, the archetype-specific primary horizon fixed at the second registration point. The cold-start window is defined by elapsed local outcome observations **after a pre-defined real-time onset criterion**; the onset rule may use only variables available at the origin.
+For each historical onset, create successive forecast origins using **only information available at that date**. **Admissibility as a prior is defined by referent, not venue**: prior inputs are statements about *other* populations, places or past events. **The confirmatory prior uses peer-reviewed literature and preprints only**, under the rolling cut-off. Timestamped situational reporting on the ongoing event *elsewhere* (WHO and ECDC situational reports) enters as a **pre-specified secondary prior variant**, through the same extraction and error pipeline, outside the confirmatory contrast: H3a tests literature borrowing, not dynamic evidence fusion. **Text describing the local event is excluded from any prior**: it is a noisy measurement of the outcome itself. Every input carries an index timestamp; origins re-run automatically through the T2.5 layer at each input's native cadence. Forecast horizons 7, 14 and 28 days (primary horizon per archetype fixed at the second registration point); the cold-start window counts local outcome observations **after a pre-defined real-time onset rule** that uses only variables available at the origin.
 
 ##### T3.3: The model library and the automated selection engine *(M20–M34)*
 
@@ -104,7 +106,7 @@ The sequential heat test and, resources permitting, the legionellosis extension 
 
 **Deliverables.** D3.1 reproducible cold-start evaluation pipeline; D3.2 primary result; D3.3 failure/stress-test map; D3.4 cross-archetype analysis.
 
-**Risk: operational data access.** *Mitigation:* agreements initiated pre-award, letters accompany the application. If clinical data are delayed, H3a remains testable on open federal/cantonal and European surveillance series under the same rolling-origin restriction; §2.4 states the cost.
+**Risk: operational data access.** *Mitigation:* agreements initiated pre-award, letters accompany the application; and the open-data track already carries the methodological test under the same rolling-origin restriction, so delayed access narrows the claim (§2.4), it does not stall the project.
 
 #### WP4: From predictive skill to operational value *(M24–M48)*
 
@@ -124,4 +126,4 @@ Estimate, for selected episodes, what would have changed had escalation followed
 
 **Methods, data protection and reproducibility.** Version-controlled R/Python and a registered analysis plan; clinical data processed in the UNIGE secure environment under a new CCER approval with me as applicant; benchmark and software released openly, synthetic equivalents where possible.
 
-**Expected outputs.** None of the explicit fallbacks above converts an inconclusive analysis into a success claim. Four to six papers and two durable open resources; **I lead the methodological, benchmark and integrative outputs.**
+**Expected outputs.** Four to six papers and the durable open resources of §2.5; **I lead the methodological, benchmark and integrative outputs.** None of the explicit fallbacks above converts an inconclusive analysis into a success claim.

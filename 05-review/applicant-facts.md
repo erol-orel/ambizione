@@ -215,6 +215,24 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   dashboard-as-direction, consistent with observation-mode-deliverable + platform-as-
   pathway. Never cite the deck's example counts (449/228/221/52 etc.) in any document.
 
+- **Open-data track + globalised hypotheses + figure/typography pass (applicant order, 7 Oct
+  2026, evening).** (1) Open-source validation integrated: T1.2 gains an external layer
+  replicating published systematic reviews (retrieval recall vs reported inclusion sets,
+  pooling vs published summary estimates); T3.0 gains a pre-specified open-data validation
+  track M12-M24 (Swiss federal surveillance + wastewater, FSO weekly deaths for heat, French
+  OSCOUR / SOS Médecins open daily emergency indicators, archived hub forecasts as cold-start
+  comparators), shipped as a public re-runnable benchmark; WP3 risk + 2.4 fallback + M3
+  reframed: the central test is robust to access outcomes, operational series sharpen the
+  claim. DECISION on vagueness about 144/HUG: stay specific (feasibility is scored; named
+  series + letters are strengths); de-risking comes from the open track, not from vagueness.
+  (2) Hypotheses globalised without losing registration: H3a = evidence-informed
+  configuration (priors, variables, model forms) vs local-only; H3c "beyond the evidence";
+  H-table, O-blocks, 2.6 table, summary and figure labels aligned (evidence-informed /
+  local-only). (3) Figures rebuilt with fit assertions: all text inside boxes, fonts up
+  (fig1 17px+ body, fig2 16px+ labels), both full text width; 2.4 reordered (text + milestone
+  table before the Gantt) to kill the page-13 hole. 47,900 chars / exactly 15 pages; all
+  checks green (sync, em-dash, placeholders, doubled words, et al).
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

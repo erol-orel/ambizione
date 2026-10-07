@@ -4,6 +4,12 @@
 > vs local-only champion"; rung 5/6 variants are now the registered evidence-informed
 > variants (adaptive borrowing; + resilience indicators). The contrasts, metrics, inference
 > and registration discipline are unchanged.
+>
+> **Further update, 7 Oct evening:** H3a is restated more globally (applicant order): the
+> evidence-informed configuration (priors, variable sets, model forms) vs the local-only
+> configuration; the registered contrast, metric, inference and fixed sequence are unchanged.
+> A pre-specified open-data validation track (T3.0) and an external replication layer against
+> published syntheses (T1.2) were added as secondary analyses; no new confirmatory tests.
 
 # Hypothesis audit: final pre-submission specification
 
