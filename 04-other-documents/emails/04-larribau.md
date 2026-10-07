@@ -16,7 +16,7 @@ données locales permettant de prévoir n'existent pas encore.** La seule inform
 disponible est la littérature publiée sur des événements analogues. Le projet détermine si cette
 littérature améliore réellement la prévision dans ce régime, en représentant l'état du système de
 soins comme une succession de **régimes** (habituel / tendu / sous tension / critique) plutôt que
-comme un seuil appliqué à une prévision ponctuelle. Une page de présentation est jointe.
+comme un seuil appliqué à une prévision ponctuelle. Une présentation de deux pages est jointe.
 
 Je dois vous le dire sans détour : **les données de régulation du 144 sont la série d'issue
 principale du projet.** Les appels d'urgence constituent, dans la littérature, un signal
@@ -34,7 +34,7 @@ projet de lettre joint respecte ce format et reste librement modifiable.
 
 Concrètement, le projet utiliserait un **extrait rétrospectif agrégé au jour** :
 
-- période : `[[2015 à aujourd'hui, selon disponibilité]]` ;
+- période : 2015 à aujourd'hui, selon disponibilité ;
 - variables : date, **nombre d'appels / d'interventions par motif de recours (catégories
   larges)** et **par degré d'urgence**, sans autre détail. Les catégories de motifs devraient
   couvrir, outre le **respiratoire** (critère principal), les motifs **sensibles à la chaleur** -
@@ -67,9 +67,9 @@ J'aimerais également vous associer au **recueil des seuils d'escalade** auprès
 c'est la partie du projet qui décide si le résultat sera utile ou seulement correct, et elle ne
 peut se faire qu'avec celles et ceux qui agissent sur ces seuils.
 
-Une réponse d'ici le **`[[13 octobre]]`** me serait très utile.
+Une réponse d'ici le **lundi 13 octobre** me serait très utile.
 
 Avec mes remerciements et mes salutations les meilleures,
 Erol
 
-*Pièces jointes : présentation du projet (1 page) ; projet de lettre de collaboration.*
+*Pièces jointes : présentation du projet (2 pages) ; projet de lettre de collaboration.*

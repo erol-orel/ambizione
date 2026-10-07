@@ -18,7 +18,7 @@ réallocation des moyens, escalade - sont les plus lourdes et les moins réversi
 déterminer si la littérature publiée, extraite systématiquement, améliore réellement la prévision
 dans ce régime, et d'évaluer le résultat **sur le bénéfice décisionnel** plutôt que sur la seule
 précision statistique - ce qui suppose de recueillir avec vos équipes les seuils d'escalade
-réellement actionnables. Une page de présentation est jointe.
+réellement actionnables. Une présentation de deux pages est jointe.
 
 **Ce que je sollicite à ce stade est une lettre de collaboration**, et non les données
 elles-mêmes. Une précision importante, propre au FNS : la lettre doit **se limiter à confirmer la
@@ -34,9 +34,9 @@ complémentaire** sur le même état latent du système de soins - ce qui renfor
 faire porter au service une exigence de série principale. Concrètement, un **extrait rétrospectif
 agrégé au jour** :
 
-- période : `[[2015 à aujourd'hui, selon disponibilité]]` ;
+- période : 2015 à aujourd'hui, selon disponibilité ;
 - variables : date, nombre de passages, catégorie large
-  (`[[respiratoire / cardiaque / traumatologie / autre]]` - idéalement avec les catégories
+  (respiratoire / cardiaque / traumatologie / autre - idéalement avec les catégories
   **sensibles à la chaleur** : déshydratation, rénal, psychiatrique, utilisées par le volet
   canicule), et si possible un indicateur d'occupation ;
 - **aucun identifiant direct, aucun texte libre, aucune donnée individuelle** pour les analyses
@@ -56,9 +56,9 @@ structuré des seuils d'escalade (protocole SHELF, avec médecins urgentistes et
 capacités) et sur l'évaluation prospective en mode observation prévue en fin de projet
 (prévisions enregistrées, non utilisées pour décider : aucune implication clinique).
 
-Une réponse d'ici le **`[[13 octobre]]`** me serait très utile compte tenu du délai.
+Une réponse d'ici le **lundi 13 octobre** me serait très utile compte tenu du délai.
 
 Avec mes remerciements et mes salutations les meilleures,
 Erol
 
-*Pièces jointes : présentation du projet (1 page) ; projet de lettre de collaboration.*
+*Pièces jointes : présentation du projet (2 pages) ; projet de lettre de collaboration.*
