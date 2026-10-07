@@ -7,7 +7,7 @@ rolling-origin pipeline and the reproducibility engineering behind D1.1 and D3.1
 separately contracted **independent extractor** (M3–M9) provides T1.2's second extraction
 arm. No other personnel are requested.
 
-The design avoids a serial chain: WP2 falls back to weakly informative priors if WP1 finds extraction inadequate, WP3's open-data track runs regardless of operational access, and WP4's decision analysis is retrospective. **What open data alone costs:** open series are not emergency-system demand, so the claim narrows and most of WP4 turns illustrative; hence the agreements are a pre-award action.
+No serial chain: WP2 falls back to weakly informative priors if WP1 finds extraction inadequate; WP3's open-data track runs regardless of access; WP4's decision analysis is retrospective. **What open data alone costs:** open series are not emergency-system demand, so the claim narrows and most of WP4 turns illustrative; hence the agreements are a pre-award action.
 
 ![Work plan](figures/fig2-gantt.svg)
 
@@ -20,4 +20,4 @@ The design avoids a serial chain: WP2 falls back to weakly informative priors if
 | M3 | 20 | Open-data benchmark running; operational series harmonised, or fallback activated |
 | M4 | 34 | Primary cold-start hypothesis tested by the registered champion contrast |
 | M5 | 40 | Decision relevance established |
-| M6 | 48 | Cross-domain validation; observation-mode dashboard running where authorised |
+| M6 | 48 | Cross-archetype analysis complete; dashboard running for validated archetypes where authorised |

@@ -45,7 +45,7 @@ DEFS = ('<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" '
 
 # ---------------------------------------------------------------- Figure 1
 def fig1():
-    W, H = 1400, 566
+    W, H = 1400, 556
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
          f'viewBox="0 0 {W} {H}">', DEFS, f'<rect width="{W}" height="{H}" fill="white"/>']
 
@@ -138,7 +138,7 @@ def fig1():
              f'stroke="{MUTE}" stroke-width="2.2" stroke-dasharray="6,5" marker-end="url(#a)"/>')
 
     # --- H3a sketch (bottom left, below the state model) ---
-    iy = 452
+    iy = 446
     s.append(text(0, iy, "H3a, THE TEST (WP3):  skill advantage of evidence use, by elapsed local data",
                   19, INK, weight="bold"))
     px, py, pw, ph = 64, iy + 14, 560, 74

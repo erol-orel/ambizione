@@ -23,13 +23,13 @@
 
 Remaining feasibility items: the ED/ICU extraction and the project 144 agreement; every row rests on an existing relationship.
 
-**Resources requested.** Project funds are capped at **CHF 250,000 over four years**; the applicant's salary is covered separately. Doctoral students and postdocs cannot be employed (2026 rules); support personnel can.
+**Resources requested.** Project funds are capped at **CHF 250,000 over four years**; the applicant's salary is covered separately. Doctoral students and postdocs cannot be employed under the 2026 rules; support personnel can.
 
 | Item | Rationale |
 | --- | --- |
 | Scientific/technical collaborator, **50% over 48 months** | WP1 benchmark extraction, WP3 harmonisation and evaluation pipeline, reproducibility |
 | Second independent extractor | Contracted M3–M9; required for T1.2's dual-extraction design |
-| Data access, secure storage and processing | Project-specific extractions, secure-environment storage, evaluation runs |
+| Data access, secure storage and processing | Project-specific extractions, secure-environment allocations and runs beyond existing infrastructure |
 | Travel, conferences, incoming visits | Results presentation; international collaboration |
 | Other eligible direct costs | As justified in the final SNSF budget |
 

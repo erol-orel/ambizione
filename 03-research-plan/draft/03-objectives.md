@@ -29,7 +29,7 @@ Omissions dominate reported extraction errors [Shankar 2026]; whether they syste
 
 > **C2, model adequacy criterion.** The latent-state representation must yield **identifiable** parameters and **calibrated** escalation-state probabilities at matched false-alarm rates. Its role is the common state representation in which borrowing strategies are compared, not a claim that regime switching generally beats thresholding a point forecast.
 
-T2.1's identifiability study and T3.3's calibration checks either establish adequacy or trigger the ordinal fallback; either outcome leaves H3a intact. Extreme-value modelling covers the critical tail; critical-slowing-down indicators are **supporting covariates**.
+T2.1's identifiability study and T3.3's calibration checks either establish adequacy or trigger the ordinal fallback; either outcome leaves H3a intact. Extreme-value modelling covers the critical tail; resilience indicators are **supporting covariates**.
 
 #### O3: Test the cold-start hypothesis and map failure
 
@@ -44,7 +44,7 @@ T2.1's identifiability study and T3.3's calibration checks either establish adeq
 
 > **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level/trend signal when the outcome history is short.
 
-**Primary confirmatory comparison (one, stated once):** the **evidence-informed champion** against the **local-only champion**, both produced by the identical pre-registered automated procedure (T3.3), by **CRPS skill score**, over the pre-specified cold-start window, **on respiratory episodes only**. Heat repeats the identical contrast as a **sequential generalisation test**, run only if the respiratory test is met; the fixed order controls the family-wise error rate. The **shape of the advantage over elapsed local data** is reported: it should decay to nothing. The primary test values the whole evidence-informed configuration; the prior component's own contribution is isolated by registered secondary contrasts within the same model family.
+**Primary confirmatory comparison (one, stated once):** the **evidence-informed champion** against the **local-only champion**, both produced by the identical pre-registered automated procedure (T3.3), by **CRPS skill score**, over the pre-specified cold-start window, **on respiratory episodes only**. Heat repeats the identical contrast as a **sequential generalisation test**, run only if the respiratory test is met; the fixed order controls the family-wise error rate. The **shape of the advantage over elapsed local data** is reported: it should decay to nothing.
 
 #### O4: Establish whether predictive improvement is decision-relevant
 
@@ -56,7 +56,7 @@ T2.1's identifiability study and T3.3's calibration checks either establish adeq
 (1) **Respiratory epidemics**: SARS-CoV-2, influenza and RSV, syndromically overlapping and
 surveilled together in Switzerland, carry the primary confirmatory test.
 (2) **Environmental heat events** carry the sequential generalisation test, with **air
-pollution (ozone, PM10) as co-exposure and effect modifier**, not a separate crisis domain.
+pollution (ozone, PM10) as co-exposure and effect modifier**, not a separate domain.
 (3) **Waterborne outbreaks**: Geneva legionellosis, the year-4 contrasting extension (T3.5).
 The domains are fixed for the project; further data serve benchmarking and sensitivity
 analyses only; no fourth operational domain is required.
@@ -68,4 +68,4 @@ older ages [Schulte 2024; Ragettli 2019].
 
 #### What the project does not claim
 
-It does **not** aim to outperform forecast hubs in the data-rich regime, assume literature-derived priors are beneficial, claim critical slowing down as universal, or promise a clinically steering alarm by month 48: the dashboard runs strictly in observation mode. The contribution: **whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, and a map of when it should not be trusted.**
+It does **not** aim to outperform forecast hubs in the data-rich regime, assume literature-derived priors are beneficial, or promise a clinically steering alarm by month 48: the dashboard runs strictly in observation mode. The contribution: **whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, and a map of when it should not be trusted.**

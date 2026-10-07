@@ -315,6 +315,28 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   Cramer/Sherratt consortium notes (SNSF's own no-et-al rule justifies them). STALE in the
   audit: page counts (they reviewed an older file). Plan: 49,487 chars / exactly 15 pages.
 
+- **ChatGPT audit round 7 processed (8 Oct 2026).** Their verdict ~9.1, no conceptual holes;
+  applied all four must-fixes and most recommendations: (1) the Delta chronology
+  contradiction (introduced in round 6's fix) resolved: the minimal relevant improvement is
+  now a registered value of the episode-level CRPS skill score, fixed BEFORE the second
+  registration by a criterion defined before any evaluation; T4.1 translates improvements
+  into consequences, it does not set the threshold; (2) the champion-contrast claim is now
+  configuration-level ("tests the full evidence-informed configuration, not a particular
+  model family") with secondary contrasts isolating prior/variable/model-form components
+  (the over-strong "isolates the evidence" line removed, the duplicate 2.3.1 sentence cut);
+  (3) H1's SD now names its object (evidence-derived distribution per parameter class,
+  common scale, registered pooling model, within/between components propagated); (4) Orel
+  2024 wording is now exactly true given Erol's confirmation: "a daily series reconstructed
+  from the HUG COVID-19 hospitalisation data I previously analysed [Orel 2024]"; also:
+  two-sided test justified in text (harm is as decision-relevant as benefit; deliberately
+  NOT switched to one-sided), Coles/Ranjbar citation split, M6 reworded ("cross-archetype
+  analysis complete; dashboard for validated archetypes"), budget row says "beyond existing
+  infrastructure", softer state-of-the-art sentences, summary confirmatory-family phrasing.
+  ADAPTED rather than adopted: Winters 72-99% kept but re-anchored as the alarm-fatigue
+  failure mode (relevant to T4.1 thresholds), not removed. DECLINED again: stripping
+  consortium notes. Their page figures again from an older render. Plan now 49,622 chars /
+  exactly 15 pages; margins 1.0/1.2 cm (floor reached; future additions need equal cuts).
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

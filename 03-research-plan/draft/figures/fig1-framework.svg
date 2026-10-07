@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="566" viewBox="0 0 1400 566">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="556" viewBox="0 0 1400 556">
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4e4e4e"/></marker></defs>
-<rect width="1400" height="566" fill="white"/>
+<rect width="1400" height="556" fill="white"/>
 <text x="0" y="26" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">EVIDENCE PATH (WP1)</text>
 <rect x="0" y="38" width="215" height="92" rx="5" fill="#e3edf4" stroke="#1f5f8b" stroke-width="1.4"/>
 <text x="107" y="68" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Open literature</text>
@@ -62,14 +62,14 @@
 <text x="1190.0" y="499" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">registered update rules only</text>
 <line x1="1190.0" y1="362" x2="1190.0" y2="382" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)" stroke-dasharray="6,5"/>
 <path d="M 1344 451 L 1372 451 L 1372 16 L 715 16 L 715 32" fill="none" stroke="#4e4e4e" stroke-width="2.2" stroke-dasharray="6,5" marker-end="url(#a)"/>
-<text x="0" y="452" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">H3a, THE TEST (WP3):  skill advantage of evidence use, by elapsed local data</text>
-<line x1="64" y1="540" x2="624" y2="540" stroke="#1a1a1a" stroke-width="1.6"/>
-<line x1="64" y1="466" x2="64" y2="540" stroke="#1a1a1a" stroke-width="1.6"/>
-<path d="M 64 482 C 214 486 364 504 624 514" fill="none" stroke="#1f5f8b" stroke-width="3.4"/>
-<path d="M 64 530 C 194 525 364 517 624 514" fill="none" stroke="#4e4e4e" stroke-width="3" stroke-dasharray="7,5"/>
-<text x="636" y="512" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f5f8b" text-anchor="start" font-weight="normal" font-style="normal">evidence-informed</text>
-<text x="636" y="538" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">local-only</text>
-<text x="54" y="476" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">skill</text>
-<text x="64" y="563" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">crisis onset</text>
-<text x="624" y="563" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">local data accumulate</text>
+<text x="0" y="446" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">H3a, THE TEST (WP3):  skill advantage of evidence use, by elapsed local data</text>
+<line x1="64" y1="534" x2="624" y2="534" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="64" y1="460" x2="64" y2="534" stroke="#1a1a1a" stroke-width="1.6"/>
+<path d="M 64 476 C 214 480 364 498 624 508" fill="none" stroke="#1f5f8b" stroke-width="3.4"/>
+<path d="M 64 524 C 194 519 364 511 624 508" fill="none" stroke="#4e4e4e" stroke-width="3" stroke-dasharray="7,5"/>
+<text x="636" y="506" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f5f8b" text-anchor="start" font-weight="normal" font-style="normal">evidence-informed</text>
+<text x="636" y="532" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">local-only</text>
+<text x="54" y="470" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">skill</text>
+<text x="64" y="557" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">crisis onset</text>
+<text x="624" y="557" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">local data accumulate</text>
 </svg>
