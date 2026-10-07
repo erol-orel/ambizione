@@ -10,8 +10,8 @@
   by hand. TWO limits bind, per Guidelines 4.3: 60,000 characters (mySNF counter binding,
   check `draft/wordcount.sh`) AND **15 A4 pages at minimum 10pt with 1.5 line spacing**,
   bibliography excluded from both (check `draft/pagecheck.sh`). The page cap is the tighter
-  one; the plan sits at ~44,000 characters / 15 pages (7 Oct compression). Any addition
-  must re-verify pages. `draft/make-submission.sh` builds the formatted docx/PDF.
+  one; the plan sits at ~47,000 characters / 15 pages (7 Oct revamp: automated-selection
+  design, dashboard, 1.2/1.27 cm margins). Any addition must re-verify pages. `draft/make-submission.sh` builds the formatted docx/PDF.
 - Never invent citations or author lists; flag what cannot be verified.
 - No model identifiers in committed artifacts. Commit messages end with the attribution footer
   given in the session instructions.

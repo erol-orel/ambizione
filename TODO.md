@@ -1,11 +1,14 @@
 # To do: Ambizione, deadline 3 November 2026
 
-> ## ❄ SCIENCE SETTLED (30 Sep) · APPLICANT'S OWN-WORDS REVISION WEEK (6 to 12 Oct)
+> ## ❄ SCIENCE SETTLED (30 Sep, amended 7 Oct by applicant order) · OWN-WORDS REVISION WEEK
 >
 > Four audit rounds converge: the architecture is finished. **Do not reopen it** - no new
-> methods, domains or restructuring. Since the freeze, only applicant-ordered reframes landed
+> methods, domains or restructuring. Since the freeze, only applicant-ordered changes landed
 > (no em-dash; LiteRev-Evidence as prototype and test bed, validated instrument as deliverable;
-> Keiser "no scientific role in the project"). The applicant is now rewriting the prose in his
+> Keiser "no scientific role in the project"; **7 Oct revamp**: four evidence-object classes,
+> model library with automated champion selection replacing the hand-walked ladder, automation
+> layer, living-evidence monitor, year-4 observation-mode dashboard, platform as post-grant
+> pathway). The applicant is now rewriting the prose in his
 > own words; science challenges still need two external readers converging. Remaining work is
 > **release QA**, in this order:
 >
@@ -20,8 +23,8 @@
 > 4. **Data** - CASU-144 agreement scope confirmed (incl. cause categories covering BOTH
 >    respiratory and heat-sensitive classes, and broad age bands).
 > 5. **Episode inventory** - run the eligibility rules; replace the provisional 13–14.
-> 6. **PAGE CAP: DONE 7 Oct** (44,208 chars / 15 pages at compliant specs; verify any edit
->    with `draft/pagecheck.sh`). mySNF calibration remains: upload the draft PDF early; the
+> 6. **PAGE CAP: holds after the 7 Oct revamp** (46,913 chars / 15 pages at min 10pt, 1.5
+>    spacing, 1.2/1.27 cm margins; verify any edit with `draft/pagecheck.sh`). mySNF calibration remains: upload the draft PDF early; the
 >    counter and the page render are both binding.
 >
 > Prose edits after this point only if forced by one of the six items above.

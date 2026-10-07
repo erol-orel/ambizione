@@ -48,6 +48,15 @@
   forecasts of COVID-19 across European nations. *eLife* 2023;12:e81916.
   doi:10.7554/eLife.81916
 
+## Demand forecasting and operational surveillance tooling
+
+- **[Wargon 2009]** Wargon M, Guidet B, Hoang TD, Hejblum G. A systematic review of models for
+  forecasting the number of emergency department visits. *Emergency Medicine Journal*
+  2009;26(6):395–399. doi:10.1136/emj.2008.062380
+- **[Salmon 2016]** Salmon M, Schumacher D, Höhle M. Monitoring count time series in R:
+  aberration detection in public health surveillance. *Journal of Statistical Software*
+  2016;70(10):1–35. doi:10.18637/jss.v070.i10
+
 ## Evidence as prior information
 
 - **[Cook 2023]** Cook JD, Williams DM, Walsh DP, Hefley TJ. Bayesian forecasting of disease
@@ -62,8 +71,11 @@
   Neuenschwander B. Robust meta-analytic-predictive priors in clinical trials with historical
   control information. *Biometrics* 2014;70(4):1023–1032. doi:10.1111/biom.12242
 
-## Automated extraction
+## Automated extraction and living reviews
 
+- **[Elliott 2014]** Elliott JH, Turner T, Clavisi O, Thomas J, Higgins JPT, Mavergames C,
+  Gruen RL. Living systematic reviews: an emerging opportunity to narrow the
+  evidence-practice gap. *PLoS Medicine* 2014;11(2):e1001603. doi:10.1371/journal.pmed.1001603
 - **[Shankar 2026]** Shankar R, Lim A, Qian X. Performance of large language models in data
   extraction for evidence synthesis: a systematic review. *Journal of Biomedical Informatics*
   2026;181:105086. doi:10.1016/j.jbi.2026.105086
@@ -105,8 +117,10 @@
 - **[Barber 2023]** Barber RF, Candès EJ, Ramdas A, Tibshirani RJ. Conformal prediction beyond
   exchangeability. *Annals of Statistics* 2023;51(2):816–845.
 
-## Regime switching and extremes
+## Model components: regimes, extremes and transmission
 
+- **[Keeling 2008]** Keeling MJ, Rohani P. *Modeling Infectious Diseases in Humans and
+  Animals.* Princeton University Press, 2008.
 - **[Hamilton 1989]** Hamilton JD. A new approach to the economic analysis of nonstationary time
   series and the business cycle. *Econometrica* 1989;57(2):357–384.
 - **[Coles 2001]** Coles S. *An Introduction to Statistical Modeling of Extreme Values.*
@@ -136,6 +150,9 @@
 
 ## Evaluation and decision value
 
+- **[Collins 2015]** Collins GS, Reitsma JB, Altman DG, Moons KGM. Transparent reporting of a
+  multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD
+  statement. *BMJ* 2015;350:g7594. doi:10.1136/bmj.g7594
 - **[Gneiting 2007]** Gneiting T, Raftery AE. Strictly proper scoring rules, prediction, and
   estimation. *Journal of the American Statistical Association* 2007;102(477):359–378.
 - **[Vickers 2006]** Vickers AJ, Elkin EB. Decision curve analysis: a novel method for evaluating

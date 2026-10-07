@@ -45,7 +45,7 @@ DEFS = ('<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" '
 
 # ---------------------------------------------------------------- Figure 1
 def fig1():
-    W, H = 1000, 540
+    W, H = 1064, 540
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
          f'viewBox="0 0 {W} {H}">', DEFS, f'<rect width="{W}" height="{H}" fill="white"/>']
 
@@ -53,11 +53,11 @@ def fig1():
     s.append(text(0, 24, "EVIDENCE PATH (WP1)", 19, ACCENT, weight="bold"))
     ev = [(0, "Open literature", "searched live"),
           (235, "Extraction", "provenance + quality"),
-          (470, "Evidence priors", "robust, discounted")]
+          (470, "Evidence priors", "values, variables, forms, thresholds")]
     for x, title, sub in ev:
         s.append(box(x, 36, 200, 72, ACCENT_BG, ACCENT))
         s.append(text(x + 100, 65, title, 21, INK, "middle", "bold"))
-        s.append(text(x + 100, 92, sub, 17, MUTE, "middle"))
+        s.append(text(x + 100, 92, sub, 17 if len(sub) < 24 else 12.5, MUTE, "middle"))
     s.append(arrow(202, 72, 232, 72, ACCENT))
     s.append(arrow(437, 72, 467, 72, ACCENT))
 
@@ -85,19 +85,42 @@ def fig1():
     s.append(arrow(540, 112, 540, 146, ACCENT))      # priors into model
     s.append(arrow(304, 240, 356, 240, MUTE))        # local data into model
 
+    # --- model library + automated selection (top right) ---
+    s.append(box(760, 36, 240, 118, "white", INK, 6, 1.8))
+    s.append(text(880, 58, "MODEL LIBRARY (WP3)", 17, ACCENT, "middle", "bold"))
+    s.append(text(880, 80, "baselines, surveillance, ML,", 15, MUTE, "middle"))
+    s.append(text(880, 98, "regime; mechanistic: epidemic only", 15, MUTE, "middle"))
+    s.append(text(880, 122, "assumption + validity checks", 15, INK, "middle"))
+    s.append(text(880, 140, "automated champion per arm", 15, INK, "middle", "bold"))
+    s.append(arrow(674, 72, 756, 72, ACCENT))         # priors into library
+    s.append(arrow(880, 158, 880, 186, MUTE))         # library champion into decisions
+    s.append(arrow(704, 200, 756, 128, MUTE))         # state model into library
+
     # --- decision layer (right) ---
-    s.append(box(760, 190, 240, 130, ACCENT_BG, ACCENT))
-    s.append(text(880, 220, "DECISIONS (WP4)", 19, ACCENT, "middle", "bold"))
-    s.append(text(880, 250, "elicited thresholds", 16, MUTE, "middle"))
-    s.append(text(880, 274, "net benefit,", 16, MUTE, "middle"))
-    s.append(text(880, 296, "not accuracy alone", 16, MUTE, "middle"))
-    s.append(arrow(704, 255, 756, 255, MUTE))
+    s.append(box(760, 190, 240, 150, ACCENT_BG, ACCENT))
+    s.append(text(880, 216, "DECISIONS (WP4)", 19, ACCENT, "middle", "bold"))
+    s.append(text(880, 242, "elicited thresholds;", 15, MUTE, "middle"))
+    s.append(text(880, 262, "net benefit, not accuracy alone", 15, MUTE, "middle"))
+    s.append(text(880, 290, "daily dashboard,", 15.5, INK, "middle", "bold"))
+    s.append(text(880, 310, "observation mode", 15.5, INK, "middle", "bold"))
+    s.append(arrow(704, 260, 756, 260, MUTE))
+
+    # --- living update loop (bottom right) ---
+    s.append(box(760, 380, 240, 120, FILL, LINE, 6))
+    s.append(text(880, 404, "LIVING EVIDENCE MONITOR", 16, INK, "middle", "bold"))
+    s.append(text(880, 426, "reviews re-run daily; new evidence", 15, MUTE, "middle"))
+    s.append(text(880, 444, "revises priors, variables,", 15, MUTE, "middle"))
+    s.append(text(880, 462, "thresholds, models:", 15, MUTE, "middle"))
+    s.append(text(880, 482, "registered update rules only", 15, INK, "middle"))
+    s.append(arrow(880, 344, 880, 376, MUTE, "6,5"))  # dashboard feeds monitor
+    s.append(f'<path d="M 1004 440 L 1038 440 L 1038 16 L 672 16 L 672 30" fill="none" '
+             f'stroke="{MUTE}" stroke-width="2.2" stroke-dasharray="6,5" marker-end="url(#a)"/>')
 
     # --- H3a sketch (bottom) ---
     iy = 410
     s.append(text(0, iy, "H3a, THE TEST (WP3):  skill advantage of evidence priors, by elapsed local data",
                   18, INK, weight="bold"))
-    px, py, pw, ph = 70, iy + 18, 520, 86
+    px, py, pw, ph = 70, iy + 18, 460, 86
     s.append(f'<line x1="{px}" y1="{py+ph}" x2="{px+pw}" y2="{py+ph}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<line x1="{px}" y1="{py}" x2="{px}" y2="{py+ph}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<path d="M {px} {py+18} C {px+140} {py+22} {px+280} {py+42} {px+pw} {py+52}" '
@@ -127,27 +150,27 @@ WPS = [
         ("T2.2 critical tail", 6, 14),
         ("T2.3 evidence-derived priors", 10, 20),
         ("T2.4 resilience indicators", 12, 20),
-        ("T2.5 calibration + implementation", 20, 28)]),
+        ("T2.5 calibration, automation, validity", 20, 28)]),
     ("WP3", 1, 42, [
         ("T3.0 outcome hierarchy + registration", 1, 14),
         ("T3.1 retrospective information set", 12, 20),
         ("T3.2 information-set reconstruction", 18, 30),
-        ("T3.3 pre-specified model ladder", 20, 34),
+        ("T3.3 model library + automated selection", 20, 34),
         ("T3.4 benefit + failure map", 28, 38),
         ("T3.5 cross-archetype generalisation", 34, 42)]),
     ("WP4", 24, 48, [
         ("T4.1 losses + thresholds (SHELF)", 24, 32),
         ("T4.2 decision analysis + equity audit", 30, 40),
-        ("T4.3 counterfactuals + shadow mode", 34, 48)]),
+        ("T4.3 counterfactuals, observation dashboard", 34, 48)]),
 ]
 MILESTONES = [(9, "M1"), (12, "M2"), (20, "M3"), (34, "M4"), (40, "M5"), (48, "M6")]
 
 
 def fig2():
-    L, R, TOP, ROW, GAP = 330, 24, 46, 24, 10
+    L, R, TOP, ROW, GAP = 348, 24, 44, 22, 8
     W = 1000
     nrows = sum(len(w[3]) for w in WPS)
-    H = TOP + nrows * ROW + GAP * len(WPS) + 56
+    H = TOP + nrows * ROW + GAP * len(WPS) + 50
     span = W - L - R
 
     def mx(m):
@@ -169,7 +192,7 @@ def fig2():
         s.append(text(0, y + 17, code, 16, ACCENT, weight="bold"))
         s.append(box(mx(a), y + 16, mx(b) - mx(a), 5, ACCENT, ACCENT, 2, 0))
         for tname, ta, tb in tasks:
-            s.append(text(44, y + 17, tname, 14.5, INK))
+            s.append(text(44, y + 17, tname, 14, INK))
             s.append(box(mx(ta), y + 5, max(mx(tb) - mx(ta), 4), 15, FILL, LINE, 3))
             y += ROW
         y += GAP

@@ -4,7 +4,7 @@
 
 **Institute of Global Health:** epidemiology, infectious-disease modelling and automated evidence extraction in one institute; this is where the gap became visible. Independence is organisational: a programme led by me alongside the Institute's groups, not inside one (§2.6). **DS4DH** contributes the biomedical NLP WP1 needs; through GESICA I already work with the emergency-medicine partners, and the AI-in-EMS review [Edjinedja 2026] evidences the functioning collaboration.
 
-**Existing infrastructure.** LiteRev-Evidence is a prototype (live federated search of the open literature, screening, living reviews, provenance-tracked extraction with quality scoring, pooling into parameter distributions, weather and surveillance connectors); WP1 and WP2 turn it into a validated instrument and test it. The legionellosis study (BASEC 2026-00324, ethics granted) supplies the contrasting archetype. **Computing:** UNIGE HPC (Baobab/Yggdrasil) and the University's secure environment for clinical data.
+**Existing infrastructure.** LiteRev-Evidence is a prototype (live federated search of the open literature, screening, living reviews, certainty-graded extraction with provenance, pooling into parameter distributions, candidate variables and model specifications, weather and surveillance connectors); WP1 and WP2 turn it into a validated instrument and test it. The legionellosis study (BASEC 2026-00324, ethics granted) supplies the contrasting archetype. **Computing:** UNIGE HPC (Baobab/Yggdrasil) and the University's secure environment for clinical data.
 
 **Commitments, by status.**
 
@@ -12,15 +12,14 @@
 | --- | --- | --- |
 | Legionellosis linked data | **Secured** | Ethics approval BASEC 2026-00324 |
 | Host institute (ISG) | Requested | Host confirmation, SNSF template |
-| DS4DH methodological collaboration | **Agreed** | Collaboration letter requested |
+| DS4DH methodological collaboration | **Agreed** | Letter requested |
 | Institutional confirmation | Requested | General confirmation, UNIGE Vice-Rectorate |
-| **CASU-144 records (HUG-operated), primary outcome** | Requested | Collaboration letter requested. Continuous, daily, near real-time, archive depth to confirm; **HUG centrale access already established within GESICA** (voice excluded); own agreement and CCER approval required |
-| ED presentations, additional channel | Requested | Collaboration letter requested; daily historical availability to confirm |
-| ICU occupancy data | Requested | Collaboration letter requested; fallback in WP3 |
+| **CASU-144 records (HUG-operated), primary outcome** | Requested | Letter requested. Continuous, daily, near real-time; archive depth to confirm; **HUG access established within GESICA** (voice excluded); own agreement + CCER required |
+| ED presentations + ICU occupancy, additional channels | Requested | Letters requested; daily depth to confirm; ICU fallback in WP3 |
 | Operational-data ethics | Requested | CCER submission, PI as applicant |
 | Computing | Requested | UNIGE HPC access |
 
-The three operational-data rows are the key remaining feasibility items; §2.4 states their cost.
+The three operational-data rows are the key remaining feasibility items.
 
 **Resources requested.** Project funds are capped at **CHF 250,000 over four years**; the applicant's salary is covered separately. Doctoral students and postdocs cannot be employed (2026 rules); support personnel can.
 
@@ -32,4 +31,4 @@ The three operational-data rows are the key remaining feasibility items; §2.4 s
 | Travel, conferences and incoming visits | Results presentation and sustained international collaboration |
 | Other eligible direct costs | As justified in the final SNSF budget |
 
-**Preparatory work before the grant starts.** Advanced before month 1, outside grant funding: **data agreements** with HUG and 144/CASU; **CCER preparation with myself as applicant**; **infrastructure hardening** of LiteRev-Evidence before clinical data connect. Feasibility rests on one structural property (**the prototype already exists**) and on the fallbacks above, each leaving the central question answerable with the claim narrowed and the narrowing stated.
+**Preparatory work before the grant starts.** Advanced before month 1, outside grant funding: **data agreements** with HUG and 144/CASU; **CCER preparation with myself as applicant**; **infrastructure hardening** of LiteRev-Evidence before clinical data connect. Feasibility rests on one structural property (**the prototype already exists**) and on the fallbacks, each leaving the central question answerable with the narrowing stated.

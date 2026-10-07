@@ -11,8 +11,8 @@ In [Orel 2022] I predicted individual HIV status from socio-behavioural
 characteristics across East and Southern Africa, establishing where models transported between
 countries. [Merzouki 2021] and [Esra 2023] developed the same theme. I now **senior-author**
 that line (last author, [Ng'ambi 2026], accepted: machine-learning classification of
-cardiovascular disease history across harmonised WHO STEPS surveys). That is this proposal's transportability problem, met first
-elsewhere and moved from conducting to directing.
+cardiovascular disease history across harmonised WHO STEPS surveys): this proposal's transportability problem, met
+first elsewhere, moved from conducting to directing.
 
 ### 2.2.2 Automated evidence synthesis
 
@@ -32,21 +32,22 @@ reporting and seroprevalence estimation [Nwosu 2021].
 
 ### 2.2.4 The prototype and test bed: LiteRev-Evidence
 
-Since 2024 I have developed **LiteRev-Evidence**, extending LiteRev from retrieval and
-screening into structured quantitative extraction and modelling: the full review pipeline in
+Since 2024 I have developed **LiteRev-Evidence**, extending LiteRev into structured
+quantitative extraction and modelling: the full review pipeline in
 working form, from a query searched live across the open literature, through deduplication,
-PRISMA-accounted screening and PICO extraction, to **provenance-tracked, quality-scored
-extraction pooled into parameter distributions** and propagated through ensemble simulation,
-with per-scenario **living reviews re-run daily**: the literature-to-prior mechanism this
-proposal interrogates, in prototype form. Operational scenarios are elaborated with
-emergency-medicine partners.
+PRISMA-accounted screening and PICO extraction, to **provenance-tracked extraction graded for
+study-design certainty and pooled into parameter distributions**, and onward to the model
+step: candidate predictor variables, a model specification (outcome, predictors,
+lags, functional form) and compartmental components parameterised from extracted ranges,
+each with the articles behind it. Per-scenario **living reviews re-run on schedule**, with
+what changed made visible: the evidence-to-model mechanism this proposal interrogates, in
+prototype form.
 
 For GESICA I built the Geneva–Vaud–Neuchâtel data foundation: **77 notifiable diseases in
-eight model classes** by transmission mode, and a referenced inventory of **28 surveillance
+eight model classes**, and a referenced inventory of **28 surveillance
 sources (23 infectious, 5 environmental/non-infectious)** each documented for institution, coverage,
-resolution, latency, access and quality. It is why the
-validation domains are chosen by **model class**, and why this proposal rests on a mapped data
-landscape rather than an assumed one.
+resolution, latency, access and quality. It is why validation domains are chosen by **model class**, and why the proposal
+rests on a mapped, not assumed, data landscape.
 
 **The prototype makes the research feasible rather than aspirational**; the validated
 instrument it becomes is itself a deliverable.
@@ -55,13 +56,9 @@ instrument it becomes is itself a deliverable.
 
 I lead the data work on a cantonal study **already under way** (BASEC 2026-00324, ethics
 granted) linking confirmed legionellosis cases in Geneva to individual domestic hot-water
-installations: a linkage to my knowledge unique, supplying a waterborne archetype whose
-dynamics differ fundamentally from a respiratory epidemic's.
+installations: a linkage to my knowledge unique, supplying a contrasting waterborne archetype.
 
 **Competences.** Bayesian hierarchical and regime-switching estimation, extreme-value modelling, stress
 testing under misspecification, forecast evaluation and decision analysis come from the risk
 work and form the core of WP2–WP3; extraction and pooling from LiteRev-Evidence; domain
 knowledge from the doctorate, the Swiss COVID-19 work and GESICA.
-
-My other commitments and their delimitation are in §2.6; what I have not yet had is a
-programme of my own with time to run it.

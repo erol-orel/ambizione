@@ -45,7 +45,8 @@ annotations PDF ou trois lignes d'email me servent autant qu'un rapport.
 Les questions où ton avis m'importe le plus :
 
 **Pour la/le statisticien·ne :**
-1. Le test confirmatoire (rung 4 vs rung 3, CRPS, permutation appariée par épisode, test
+1. Le test confirmatoire (champion avec a priori d'évidence vs champion sans, sélection
+   automatisée identique et pré-enregistrée dans les deux bras, CRPS, permutation appariée par épisode, test
    séquentiel canicule, règle de minimum d'épisodes, sélection algorithmique de N et Δ -
    §2.3.1 et T3.3) tient-il face à un rapporteur hostile ? Où est la faille ?
 2. La justification directionnelle de H1 (sous-dispersion mécanique par omissions) te

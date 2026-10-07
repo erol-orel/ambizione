@@ -39,6 +39,14 @@ Entries still without a DOI (Farrington, Le Strat, Ibrahim, Hobbs, Degtiar, O'Re
 Angelopoulos, Barber, Hamilton, Gneiting, Vickers, Winters, CMI Communications 2024,
 F1000Research 2020, JAIDS 2023): add during the same pass.
 
+## Added 7 October (revamp round), verified
+
+- **[Wargon 2009]** and **[Elliott 2014]**: full author lists, venue, volume/pages and DOI
+  verified by search this round.
+- **[Salmon 2016]**, **[Collins 2015]** (TRIPOD), **[Keeling 2008]** (book): standard
+  references from training knowledge; DOIs on Salmon/Collins are memory-derived, spot-check
+  in the 20 Oct publisher-record pass. Wargon's DOI is also memory-derived.
+
 ## Must update before submission
 
 - **[Edjinedja 2026]**: status and venue at submission time (currently "Submitted, 2026").

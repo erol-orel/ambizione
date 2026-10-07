@@ -53,8 +53,9 @@ Trois questions pratiques, si tu as un avis :
 
 J'aimerais aussi te proposer d'être **collaborateur du projet**, en particulier sur le recueil
 structuré des seuils d'escalade (protocole SHELF, avec médecins urgentistes et gestion des
-capacités) et sur l'évaluation prospective en mode observation prévue en fin de projet
-(prévisions enregistrées, non utilisées pour décider : aucune implication clinique).
+capacités) et sur l'évaluation prospective prévue en fin de projet : pour les types
+d'événements validés, un **tableau de bord quotidien en mode observation** à disposition de
+tes équipes (prévisions enregistrées, jamais décisionnelles : aucune implication clinique).
 
 Une réponse d'ici le **lundi 13 octobre** me serait très utile compte tenu du délai.
 

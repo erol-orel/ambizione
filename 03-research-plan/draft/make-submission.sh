@@ -10,9 +10,9 @@ cd "$T" && mkdir u && cd u && unzip -oq ../plan.docx
 python3 - <<'PY'
 import pathlib, re
 d = pathlib.Path("word/document.xml"); x = d.read_text()
-sect = '<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="794" w:right="794" w:bottom="794" w:left="794" w:header="567" w:footer="567" w:gutter="0"/></w:sectPr>'
+sect = '<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="680" w:right="720" w:bottom="680" w:left="720" w:header="567" w:footer="567" w:gutter="0"/></w:sectPr>'
 x = x.replace('<w:sectPr />', sect)
-TEXTW = 11906 - 2*794
+TEXTW = 11906 - 2*720
 def fix_tbl(m):
     tbl = m.group(0)
     tbl = re.sub(r'<w:tblW[^>]*/>', '<w:tblW w:w="%d" w:type="dxa"/>' % TEXTW, tbl)
@@ -28,13 +28,13 @@ def fix_tbl(m):
                 txt = re.sub(r'<[^>]+>', '', c)
                 loads[i] = max(loads[i], min(len(txt), 220))
         wsum = sum(l**0.75 for l in loads)
-        widths = [max(int(TEXTW*(l**0.75)/wsum), 1300) for l in loads]
+        widths = [max(int(TEXTW*(l**0.75)/wsum), 1560) for l in loads]
         widths[-1] += TEXTW - sum(widths)
         it = iter(widths)
         tbl = re.sub(r'<w:gridCol[^>]*/>', lambda mm: '<w:gridCol w:w="%d"/>' % next(it), tbl)
     return tbl
 x = re.sub(r'<w:tbl>.*?</w:tbl>', fix_tbl, x, flags=re.S)
-SIZES = [4608000, 5940000]  # fig1 = 12.8 cm, fig2 = 16.5 cm (EMU)
+SIZES = [4212000, 5868000]  # fig1 = 11.7 cm, fig2 = 16.3 cm (EMU)
 counter = {"i": -1}
 def fix_ext(m):
     cx, cy = int(m.group(1)), int(m.group(2))

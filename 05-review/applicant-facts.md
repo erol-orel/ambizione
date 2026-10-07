@@ -175,6 +175,29 @@ Ambizione, in a table, and names Keiser's four roles explicitly rather than in p
   Remaining bibliography work is the 20 Oct publisher-record pass plus the three status
   updates listed in bibliography-notes.md (Edjinedja, Ng'ambi, Shankar).
 
+- **REVAMP ROUND (applicant order, 7 Oct 2026, morning).** Instruction: integrate into the
+  whole dossier (1) evidence objects beyond parameter values (variables, best algorithms,
+  outcomes, threshold levels, adapted to local specificity), (2) SEIR-class models as
+  components only for epidemiological crises, (3) full automation (auto data plug-in,
+  cadence-matched re-running, auto fine-tuning, assumption/validity checks, automated
+  algorithm comparison on established metrics, daily living review that can change
+  parameters/variables/outcomes/thresholds/algorithms), (4) the surveillance-platform /
+  daily-dashboard vision for 144/ED/ICU. Applicant choices via structured questions:
+  observation-mode dashboard as year-4 deliverable + platform as post-grant pathway;
+  **automated selection replaces the hand-walked ladder** (implemented as a pre-registered
+  model library + automated champion selection, identical machinery in both arms, so H3a
+  stays falsifiable: evidence-informed champion vs local-only champion; all registration
+  discipline, N/Δ/minimum-episode rules, permutation inference unchanged); automation folded
+  into existing tasks (T2.5, T3.2, T4.3). New verified references: Wargon 2009, Elliott 2014,
+  Salmon 2016, Collins 2015 (TRIPOD), Keeling 2008. Both figures updated (library +
+  selection box, living-loop return arrow, dashboard in WP4 box; Gantt task renames). Plan
+  now **46,913 chars / exactly 15 pages** at min 10pt, 1.5 spacing, margins 1.2 cm
+  top/bottom, 1.27 cm sides (margins are not prescribed by SNSF). Prototype description
+  aligned with the applicant's own LiteRev-Evidence deck (GRADE-graded claims, gap matrix,
+  model step: variables, model spec, SEIR parameterisation). Derived docs updated: 2-page
+  note (automation volet 5 + dashboard gain), Desmettre/Larribau emails (dashboard
+  sentence), readers email, hypothesis-audit banner, applicant-decisions.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

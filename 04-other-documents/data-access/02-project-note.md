@@ -17,10 +17,8 @@ Il existe pourtant une information quantitative disponible dès le premier jour 
 publiée sur des événements analogues - associations météo–demande, amplitudes et délais de
 surcharge, durées de séjour et occupation, paramètres de transmission. Elle n'est presque
 jamais utilisée comme information a priori formelle, parce que personne n'a établi si le faire
-aide ou nuit. C'est la question centrale du projet, posée de façon falsifiable : si les a
-priori issus de la littérature n'améliorent pas la prévision, ou si leurs effets nuisibles ne
-peuvent pas être détectés à temps, le projet l'établira aussi - et ce résultat-là serait
-également utile.
+aide ou nuit. C'est la question centrale du projet, posée de façon falsifiable : un résultat
+négatif, s'il est négatif, serait établi aussi - et utile.
 
 ## D'où vient le projet : la continuité avec GESICA
 
@@ -30,8 +28,7 @@ Le projet dérive en partie de notre travail commun dans GESICA, tout en s'en di
   préhospitalière pour les catastrophes et urgences sanitaires, soumise en 2026) montre que la
   prévision est la tâche la plus fréquemment abordée, et que l'incertitude, la transparence et
   l'explicabilité y sont rarement traitées explicitement. COLDSTART attaque précisément ces
-  manques : incertitude propagée de bout en bout, règles d'évaluation pré-enregistrées,
-  bénéfice décisionnel comme critère final.
+  manques.
 - **L'inventaire GESICA des sources de données** (28 sources, infectieuses et non
   infectieuses, sur GE–VD–NE) fournit la cartographie sur laquelle le protocole de données du
   projet est construit.
@@ -39,28 +36,35 @@ Le projet dérive en partie de notre travail commun dans GESICA, tout en s'en di
   dans le cadre de GESICA. COLDSTART est un projet distinct, avec sa propre question, son
   propre requérant et sa propre base éthique ; il ne réutilise pas l'accès GESICA.
 
-## Ce que le projet fait (quatre volets, 48 mois)
+## Ce que le projet fait (cinq volets, 48 mois)
 
 1. **Extraction** - mesurer la fiabilité de l'extraction automatique de paramètres
    quantitatifs depuis la littérature (contre un étalon en double extraction humaine), et
    corriger les biais identifiés. Le projet s'appuie sur LiteRev-Evidence, le prototype que
    j'ai développé (recherche fédérée en direct dans la littérature ouverte, criblage,
-   extraction avec provenance), que le projet transforme en instrument validé.
+   extraction avec provenance), que le projet transforme en instrument validé. La littérature
+   fournit aussi les variables pertinentes, les familles de modèles recommandées et les
+   définitions d'issues et de seuils, transposées au contexte local.
 2. **Modélisation** - représenter l'état du système de soins comme un **processus à régimes
    latents** (habituel / tendu / sous tension / critique) plutôt que comme un seuil appliqué à
    une prévision ponctuelle, avec une modélisation explicite de la queue de distribution pour
    l'état critique. Les ancrages provisoires des états sont des percentiles de la demande
-   saisonnière et des indicateurs de capacité (occupation des soins intensifs, attente aux
-   urgences) ; ils sont affinés avec les équipes de terrain, pas imposés. Ces outils viennent
-   de l'économétrie financière, où j'ai travaillé quinze ans.
+   saisonnière et des indicateurs de capacité, affinés avec les équipes de terrain. Les
+   modèles épidémiologiques (type SEIR) n'interviennent que lorsque la crise est
+   épidémiologique ; les crises environnementales relèvent de structures exposition–réponse.
 3. **Évaluation** - tester, épisode historique par épisode historique, si les a priori issus
    de la littérature améliorent la prévision en début de crise, en n'utilisant à chaque
-   instant que les données *et la littérature* disponibles à cette date (reconstruction
-   stricte de l'information), contre des références établies (modèles saisonniers,
-   algorithmes de surveillance, nowcasting bayésien).
+   instant que les données *et la littérature* disponibles à cette date, contre des
+   références établies, avec sélection automatisée du meilleur modèle selon des règles
+   pré-enregistrées.
 4. **Décision** - évaluer non pas la précision statistique mais **le bénéfice décisionnel**,
    à partir de seuils d'escalade recueillis de façon structurée (protocole SHELF) auprès de
    celles et ceux qui agissent dessus : régulateurs, urgentistes, gestion des capacités.
+5. **Automatisation et veille** - données publiques connectées automatiquement ; modèles
+   relancés à la cadence de chaque variable ; hypothèses statistiques vérifiées ; algorithmes
+   comparés sur des métriques établies ; veille quotidienne de la littérature signalant toute
+   évidence qui modifierait un paramètre, une variable, un seuil ou le modèle recommandé
+   (mises à jour selon des règles pré-enregistrées seulement).
 
 ## Les données : ce qui serait demandé, et par quelle voie
 
@@ -85,15 +89,14 @@ recommandation), et un **accord de principe** sur cette voie officielle le momen
 ## Ce que vous y gagnez
 
 - Une évaluation indépendante et pré-enregistrée de ce que valent réellement les prévisions
-  précoces pour la planification des ressources - y compris un résultat négatif, s'il est
-  négatif.
+  précoces pour la planification des ressources.
 - Des seuils d'escalade explicités et documentés, construits avec vos équipes.
-- Un déploiement en **mode observation** en fin de projet : les prévisions sont enregistrées,
-  non utilisées pour décider - aucun impact clinique, aucune charge opérationnelle.
-- Publications communes, dans la continuité de la revue systématique GESICA.
+- Pour les types d'événements dont les modèles auront été validés, un **tableau de bord
+  quotidien en mode observation** pour vos équipes (régulation 144, urgences, soins
+  intensifs) : états et prévisions rafraîchis automatiquement, enregistrés, jamais
+  décisionnels pendant le projet. Le noyau d'une future plateforme de surveillance, étendue
+  au rythme des validations.
+- Publications communes, dans la continuité de GESICA.
 
-## Calendrier
-
-Dépôt : 3 novembre 2026 · Phase 1 : avril 2027 · Entretien (sciences de la vie) : 3–4 juin
-2027 · Décision : août 2027 · Début : entre le 1er septembre 2027 et le 1er septembre 2028.
-Pour le dossier : lettre de collaboration souhaitée d'ici la mi-octobre 2026.
+**Calendrier.** Dépôt : 3 novembre 2026 · Décision : août 2027 · Début : entre septembre
+2027 et septembre 2028. Lettre de collaboration souhaitée d'ici la mi-octobre 2026.

@@ -1,3 +1,10 @@
+> **UPDATE 7 Oct 2026 (applicant decision):** the hand-walked 6-rung ladder is replaced by a
+> pre-registered model library with automated champion selection (identical machinery in
+> both arms). Wherever this file says "rung 4 vs rung 3", read "evidence-informed champion
+> vs local-only champion"; rung 5/6 variants are now the registered evidence-informed
+> variants (adaptive borrowing; + resilience indicators). The contrasts, metrics, inference
+> and registration discipline are unchanged.
+
 # Hypothesis audit: final pre-submission specification
 
 This audit is the operational checklist for the scientific claims in the research plan. Every claim must have a predictor, comparison, outcome, analysis window, primary metric and decision rule. Fill the remaining `[[…]]` cells before the confirmatory analysis is designed.

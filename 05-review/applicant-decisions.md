@@ -12,7 +12,7 @@ Both reviews converged. Nothing here is open.
 | Element | Decision |
 | --- | --- |
 | Central hypothesis | H3a - evidence-derived priors improve cold-start probabilistic forecast skill |
-| Primary confirmatory comparison | Rung 4 vs rung 3, CRPS skill score |
+| Primary confirmatory comparison | Evidence-informed champion vs local-only champion (identical automated selection, both arms), CRPS skill score |
 | **Primary outcome** | **Daily respiratory-related emergency demand derived from CASU-144 records** |
 | ED presentations | Additional observation channel if accessible - not a competing outcome |
 | ICU / occupancy | Additional observation channel if accessible |

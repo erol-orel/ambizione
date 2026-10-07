@@ -65,7 +65,10 @@ Quatre questions pratiques, dont trois conditionnent directement le protocole :
 
 J'aimerais également vous associer au **recueil des seuils d'escalade** auprès des régulateurs :
 c'est la partie du projet qui décide si le résultat sera utile ou seulement correct, et elle ne
-peut se faire qu'avec celles et ceux qui agissent sur ces seuils.
+peut se faire qu'avec celles et ceux qui agissent sur ces seuils. En fin de projet, pour les
+types d'événements validés, le cadre fonctionnerait comme un **tableau de bord quotidien en
+mode observation** à disposition de la régulation (prévisions enregistrées, jamais
+décisionnelles).
 
 Une réponse d'ici le **lundi 13 octobre** me serait très utile.
 

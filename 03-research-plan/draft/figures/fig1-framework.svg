@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540">
+<svg xmlns="http://www.w3.org/2000/svg" width="1064" height="540" viewBox="0 0 1064 540">
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4e4e4e"/></marker></defs>
-<rect width="1000" height="540" fill="white"/>
+<rect width="1064" height="540" fill="white"/>
 <text x="0" y="24" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">EVIDENCE PATH (WP1)</text>
 <rect x="0" y="36" width="200" height="72" rx="5" fill="#e3edf4" stroke="#1f5f8b" stroke-width="1.4"/>
 <text x="100" y="65" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Open literature</text>
@@ -10,7 +10,7 @@
 <text x="335" y="92" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">provenance + quality</text>
 <rect x="470" y="36" width="200" height="72" rx="5" fill="#e3edf4" stroke="#1f5f8b" stroke-width="1.4"/>
 <text x="570" y="65" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">Evidence priors</text>
-<text x="570" y="92" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">robust, discounted</text>
+<text x="570" y="92" font-family="Helvetica, Arial, sans-serif" font-size="12.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">values, variables, forms, thresholds</text>
 <line x1="202" y1="72" x2="232" y2="72" stroke="#1f5f8b" stroke-width="2.2" marker-end="url(#a)"/>
 <line x1="437" y1="72" x2="467" y2="72" stroke="#1f5f8b" stroke-width="2.2" marker-end="url(#a)"/>
 <text x="0" y="168" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#4e4e4e" text-anchor="start" font-weight="bold" font-style="normal">LOCAL DATA (short at onset)</text>
@@ -35,20 +35,38 @@
 <text x="510" y="350" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">above P97.5 / saturation</text>
 <line x1="540" y1="112" x2="540" y2="146" stroke="#1f5f8b" stroke-width="2.2" marker-end="url(#a)"/>
 <line x1="304" y1="240" x2="356" y2="240" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
-<rect x="760" y="190" width="240" height="130" rx="5" fill="#e3edf4" stroke="#1f5f8b" stroke-width="1.4"/>
-<text x="880" y="220" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">DECISIONS (WP4)</text>
-<text x="880" y="250" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">elicited thresholds</text>
-<text x="880" y="274" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">net benefit,</text>
-<text x="880" y="296" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">not accuracy alone</text>
-<line x1="704" y1="255" x2="756" y2="255" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="760" y="36" width="240" height="118" rx="6" fill="white" stroke="#1a1a1a" stroke-width="1.8"/>
+<text x="880" y="58" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">MODEL LIBRARY (WP3)</text>
+<text x="880" y="80" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">baselines, surveillance, ML,</text>
+<text x="880" y="98" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">regime; mechanistic: epidemic only</text>
+<text x="880" y="122" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">assumption + validity checks</text>
+<text x="880" y="140" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">automated champion per arm</text>
+<line x1="674" y1="72" x2="756" y2="72" stroke="#1f5f8b" stroke-width="2.2" marker-end="url(#a)"/>
+<line x1="880" y1="158" x2="880" y2="186" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
+<line x1="704" y1="200" x2="756" y2="128" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="760" y="190" width="240" height="150" rx="5" fill="#e3edf4" stroke="#1f5f8b" stroke-width="1.4"/>
+<text x="880" y="216" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">DECISIONS (WP4)</text>
+<text x="880" y="242" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">elicited thresholds;</text>
+<text x="880" y="262" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">net benefit, not accuracy alone</text>
+<text x="880" y="290" font-family="Helvetica, Arial, sans-serif" font-size="15.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">daily dashboard,</text>
+<text x="880" y="310" font-family="Helvetica, Arial, sans-serif" font-size="15.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">observation mode</text>
+<line x1="704" y1="260" x2="756" y2="260" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="760" y="380" width="240" height="120" rx="6" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="880" y="404" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">LIVING EVIDENCE MONITOR</text>
+<text x="880" y="426" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">reviews re-run daily; new evidence</text>
+<text x="880" y="444" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">revises priors, variables,</text>
+<text x="880" y="462" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">thresholds, models:</text>
+<text x="880" y="482" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">registered update rules only</text>
+<line x1="880" y1="344" x2="880" y2="376" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)" stroke-dasharray="6,5"/>
+<path d="M 1004 440 L 1038 440 L 1038 16 L 672 16 L 672 30" fill="none" stroke="#4e4e4e" stroke-width="2.2" stroke-dasharray="6,5" marker-end="url(#a)"/>
 <text x="0" y="410" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">H3a, THE TEST (WP3):  skill advantage of evidence priors, by elapsed local data</text>
-<line x1="70" y1="514" x2="590" y2="514" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="70" y1="514" x2="530" y2="514" stroke="#1a1a1a" stroke-width="1.6"/>
 <line x1="70" y1="428" x2="70" y2="514" stroke="#1a1a1a" stroke-width="1.6"/>
-<path d="M 70 446 C 210 450 350 470 590 480" fill="none" stroke="#1f5f8b" stroke-width="3.4"/>
-<path d="M 70 502 C 190 496 330 484 590 480" fill="none" stroke="#4e4e4e" stroke-width="3" stroke-dasharray="7,5"/>
-<text x="602" y="478" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f5f8b" text-anchor="start" font-weight="normal" font-style="normal">with evidence priors</text>
-<text x="602" y="506" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">without</text>
+<path d="M 70 446 C 210 450 350 470 530 480" fill="none" stroke="#1f5f8b" stroke-width="3.4"/>
+<path d="M 70 502 C 190 496 330 484 530 480" fill="none" stroke="#4e4e4e" stroke-width="3" stroke-dasharray="7,5"/>
+<text x="542" y="478" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f5f8b" text-anchor="start" font-weight="normal" font-style="normal">with evidence priors</text>
+<text x="542" y="506" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">without</text>
 <text x="60" y="438" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">skill</text>
 <text x="70" y="538" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">crisis onset</text>
-<text x="590" y="538" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">local data accumulate</text>
+<text x="530" y="538" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">local data accumulate</text>
 </svg>
