@@ -1,6 +1,6 @@
 ## 2.2 Current state of personal research and competences required for the project
 
-My route is unusual and is why the project is tractable: fifteen years in quantitative
+My route is unusual, and it is why this project is tractable: fifteen years in quantitative
 finance (risk, extreme values, regime models, stress testing), then a
 doctorate in biomedical sciences at Geneva (defended
 18 December 2023).
@@ -11,8 +11,8 @@ In [Orel 2022] I predicted individual HIV status from socio-behavioural
 characteristics across East and Southern Africa, establishing where models transported between
 countries; [Merzouki 2021] and [Esra 2023] developed the theme. I now **senior-author**
 that line (last author, [Ng'ambi 2026], accepted: cardiovascular-disease
-classification across harmonised WHO STEPS surveys): this proposal's transportability problem, met
-first elsewhere, moved from conducting to directing.
+classification across harmonised WHO STEPS surveys): I met this proposal's transportability
+problem first elsewhere, and my role on it has moved from conducting to directing.
 
 ### 2.2.2 Automated evidence synthesis
 
@@ -37,7 +37,7 @@ quantitative extraction and modelling: the full review pipeline in
 working form, from a query searched live across the open literature, through deduplication,
 PRISMA-accounted screening and PICO extraction, to **provenance-tracked extraction graded for
 study-design certainty and pooled into parameter distributions**, and onward to the model
-step: candidate predictor variables with their supporting articles; typed outcome
+step: candidate explanatory variables with their supporting articles; typed outcome
 definitions with ready-made emergency-demand targets (ED overload, bed occupancy, call
 surge); **model fitting across algorithm families with automated hyperparameter search,
 leakage-safe time-series validation and ranking on a stated metric**; and compartmental

@@ -1,6 +1,6 @@
 # Two-page project note: attach to the Desmettre and Larribau emails
 
-**COLDSTART - Prévoir les crises sanitaires quand les données locales manquent**
+**COLDSTART - Prévoir et quantifier les crises sanitaires quand les données locales manquent**
 
 Candidature Ambizione FNS (dépôt : 3 novembre 2026) · Requérant : Dr Erol Orel · Hôte :
 Institut de santé globale, Faculté de médecine, UNIGE (programme de recherche indépendant) ·

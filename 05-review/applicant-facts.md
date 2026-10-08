@@ -566,6 +566,30 @@ added (Ray's group, no slot collision, mention to Ray so signature flows don't q
 needed: emails 01/02/03/04/08, rgo-form-inputs.md (290-char summary still matches the final
 plan), lettre-confirmation-isg-draft, 03-support-letter-template, budget.md, ccer package.
 
+## 8 Oct: Erol's own-words pass, round 1 (applicant-ordered; the freeze permits this)
+
+Erol is rewriting in his own English (C2) and sent a photo of his annotated summary page
+plus the order: rewrite the whole proposal in that direction, with the "option 2" wordings
+from our phrase discussions, losing nothing. APPLIED, from his handwriting: (1) **TITLE
+CHANGED by applicant: "COLDSTART: Anticipating and quantifying health-system crises before
+the outcome is observable"** - propagated to rgo-form-inputs.md (Project Title field),
+lettre-confirmation-isg-draft.md+docx (rebuilt), and the FR note gloss ("Prevoir et
+quantifier...", note rebuilt, still 2 pages); (2) forecast list now "(calls, presentations,
+demand, occupancy, severity)"; (3) "because of the lack of reliable extraction and the
+difficulty of transporting it to the new setting"; (4) central question recast as "asks
+whether ... can provide ... and whether we can detect early ..."; (5) "predictor variables"
+-> "explanatory variables" globally (summary, 2.1.2, 2.2.4, T1.1, H3a). Option-2 wordings:
+summary item (2) is now "represent the state of the care system as an unobserved regime
+process whose escalation probabilities carry every input's uncertainty, fed by those priors
+and a critical-slowing-down indicator read from the short local history". Voice pass
+(direct sentences, fewer colon-appositions) across 2.1, 2.2, 2.3.1 prose, 2.6; registered
+machinery (hypothesis blockquotes except the H3a variable rename, T3.0-T3.3 rules, tables,
+anchors, endpoints) deliberately NOT reworded. TWO ILLEGIBLE ANNOTATIONS flagged to Erol
+(near "LiteRev-Evidence ... walks this pipeline" and near item (1): possibly "the
+predictive model be good enough" and "variables explanatory and ..."): awaiting his
+transcription. State: 50,498 chars / 15 pages, summary ends page 1, sync 47/47, battery
+green. The longer title now wraps to two lines on page 1 (absorbed by summary trims).
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

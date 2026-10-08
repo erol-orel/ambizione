@@ -10,7 +10,7 @@
 
 ## 2.6 Relevance for personal career development
 
-**Why I am ready, and why now.** I have the methods, the prototype and the domain access, used so far inside other people's programmes; what I lacked is a research agenda of my own.
+**Why I am ready, and why now.** I have the methods, the prototype and the domain access, all used so far inside other people's programmes; what I lacked until now is a research agenda of my own.
 
 | Programme | Objective | My role | Distinction from Ambizione |
 | --- | --- | --- | --- |
@@ -21,7 +21,7 @@
 
 **This project does not build another epidemic-intelligence platform**: it uses existing infrastructures to test a question that is a work package of none of them.
 
-**The question and the methods are mine.** It arose building LiteRev-Evidence: the platform could pool published estimates into priors; nothing established whether they improved forecasting in a new setting. The methodological core came from fifteen years of quantitative finance, from no group I have worked in; the platform was developed at UNIGE under my scientific direction.
+**The question and the methods are mine.** The question arose while I was building LiteRev-Evidence: the platform could pool published estimates into priors, and nothing established whether they improved forecasting in a new setting. The methodological core came from fifteen years of quantitative finance, from no group I have worked in; the platform was developed at UNIGE under my scientific direction.
 
 **Collaborators and their roles.** Prof. Olivia Keiser leads the group in which I developed LiteRev; she also leads the legionellosis study, GeoAI4EI and the MAS on which I teach; she co-authors my output (expected at this stage) and has **no scientific role in this project**. Prof. Douglas Teodoro leads GESICA and provides the WP1 biomedical-NLP collaboration.
 

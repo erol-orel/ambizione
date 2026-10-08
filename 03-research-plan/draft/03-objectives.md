@@ -23,7 +23,7 @@ To determine **whether, and under what conditions, published quantitative eviden
 
 > **H1.** Automated extraction will systematically **understate the dispersion of the evidence-derived distribution** (reported within-study uncertainty and between-study heterogeneity), producing priors that are too concentrated; an explicit measurement-error layer will correct this under-dispersion, success assessed by a pre-specified criterion: coverage and calibration of intervals from the corrected distribution across held-out adjudicated studies.
 
-Omissions dominate reported extraction errors [Shankar 2026]; whether they systematically shrink dispersion is what H1 tests; if the loss is uncorrectable, the project establishes a boundary condition. The evidence target spans four object classes (T1.1); H1 is tested on the quantitative core, and classes 2 to 4 are validated externally against published syntheses (T1.2).
+Omissions dominate reported extraction errors [Shankar 2026], and whether they systematically shrink dispersion is exactly what H1 tests; if the loss cannot be corrected, the project establishes a boundary condition. The evidence target spans four object classes (T1.1); H1 is tested on the quantitative core, and classes 2 to 4 are validated externally against published syntheses (T1.2).
 
 #### O2: Represent escalation in a form that separates state from the point forecast
 
@@ -33,7 +33,7 @@ T2.1's identifiability study and T3.3's calibration checks either establish adeq
 
 #### O3: Test the cold-start hypothesis and map failure
 
-> **H3a.** An evidence-informed forecasting configuration (evidence-derived priors, variable sets and model forms) improves probabilistic forecast skill during the early phase of a crisis; the persistence and decay of the advantage as local observations accumulate are assessed secondarily.
+> **H3a.** An evidence-informed forecasting configuration (evidence-derived priors, explanatory-variable sets and model forms) improves probabilistic forecast skill during the early phase of a crisis; the persistence and decay of the advantage as local observations accumulate are assessed secondarily.
 
 > **H3b.** Adaptive borrowing that discounts the evidence when prior–data conflict emerges is
 > **non-inferior** to fixed borrowing under well-specified priors, within a pre-specified margin
@@ -70,4 +70,4 @@ fallback, both arms score it, built the same way, and the claim narrows.
 
 #### What the project does not claim
 
-It does **not** aim to outperform forecast hubs in the data-rich regime, assume literature-derived priors are beneficial, or promise a clinically steering alarm by month 48: the dashboard runs strictly in observation mode. The contribution: **whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, and a map of when it should not be trusted.**
+The project does **not** aim to outperform forecast hubs in the data-rich regime, does not assume literature-derived priors are beneficial, and does not promise a clinically steering alarm by month 48: the dashboard runs strictly in observation mode. The contribution: **whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, and a map of when it should not be trusted.**

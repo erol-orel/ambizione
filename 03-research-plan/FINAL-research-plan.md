@@ -5,15 +5,15 @@
 
 ---
 
-**COLDSTART: Anticipating health-system crises before the outcome is observable**
+**COLDSTART: Anticipating and quantifying health-system crises before the outcome is observable**
 
 # 1. Summary
 
-When a health crisis begins, the quantity decision-makers need to forecast (presentations, demand, occupancy) is precisely the one for which almost no local outcome data yet exist: the outcome series is a handful of noisy observations, so systems that perform well on years of local history are weakest when early decisions matter most.
+When a health crisis begins, the quantities decision-makers need to forecast (calls, presentations, demand, occupancy, severity) are precisely the ones for which almost no local outcome data yet exist: the outcome series is a handful of noisy observations, and systems that perform well on years of local history are weakest when early decisions matter most.
 
-There is another source of quantitative information: published evidence from analogous events elsewhere. It is rarely tested as formal prior information, because of the two steps that matter most: **reliable extraction, and transport to the new setting.** A confidently wrong prior is worse than none: it is most influential exactly when local data cannot correct it.
+There is another source of quantitative information: published evidence from analogous events elsewhere. It is rarely tested as formal prior information, because of the lack of reliable extraction and the difficulty of transporting it to the new setting. A confidently wrong prior is worse than none: it is most influential exactly when local data cannot correct it.
 
-This project asks the central question directly: **can published quantitative evidence provide useful information when local outcome data are insufficient at crisis onset, and can we detect early when it should not be trusted?** **LiteRev-Evidence**, the prototype I built, already walks this pipeline from a plain-language question to certainty-graded extraction, pooled parameter distributions and tuned candidate models. The project turns the prototype into a validated instrument and tests it: I will (1) establish the error structure of automated extraction and propagate it into evidence-derived priors, for parameter values and for the rest of what the literature carries (predictor variables and lags, model forms, outcomes and their thresholds), each transported to the local setting; (2) develop an uncertainty-aware latent-regime framework for health-system escalation, with those priors and a short-window resilience signal; (3) test, by strict rolling-origin reconstruction of each historical moment's information, whether the evidence improves cold-start forecast skill, how fast that value decays, and when it causes harm; and (4) determine whether any gain is large enough to change operational decisions. The decisive experiment runs a pre-registered library of candidate models (local baselines, surveillance algorithms, machine-learning and latent-regime models; mechanistic transmission components only for epidemiological crises) through an automated engine that checks each model's assumptions, scores it on established metrics, and selects each arm's champion under rules fixed in advance. One contrast defines the confirmatory family: the evidence-informed against the local-only champion, tested on respiratory episodes and, only if that test passes, repeated on heat as the sequential generalisation test.
+This project asks whether **published quantitative evidence can provide useful information when local outcome data are insufficient at crisis onset, and whether we can detect early when it should not be trusted.** **LiteRev-Evidence**, the prototype I built, already walks this pipeline from a plain-language question to certainty-graded extraction, pooled parameter distributions and tuned candidate models. The project turns the prototype into a validated instrument and tests it. I will (1) establish the error structure of automated extraction and propagate it into evidence-derived priors, for parameter values and the rest of what the literature carries (explanatory variables and lags, model forms, outcomes and thresholds), each transported to the local setting; (2) represent the state of the care system as an unobserved regime process whose escalation probabilities carry every input's uncertainty, fed by those priors and a critical-slowing-down indicator read from the short local history; (3) test, by strict rolling-origin reconstruction of each historical moment's information, whether the evidence improves cold-start forecast skill, how fast that value decays, and when it causes harm; and (4) determine whether any gain is large enough to change operational decisions. The decisive experiment runs a pre-registered library of candidate models (local baselines, surveillance algorithms, machine-learning and regime models; mechanistic transmission components only for epidemiological crises) through an automated engine that checks assumptions, scores on established metrics and selects each arm's champion under rules fixed in advance. One contrast defines the confirmatory family: the evidence-informed against the local-only champion, tested on respiratory episodes and, only if that test passes, repeated on heat as the sequential generalisation test.
 
 The forecasting machinery is validated first on open Swiss series (a public benchmark), then on Geneva's operational series. Three Geneva crisis archetypes, and no more, carry the real-world tests: respiratory epidemics the confirmatory test, heatwaves the sequential generalisation, legionellosis a scoped year-4 extension. The outcome is intentionally falsifiable: if literature-derived evidence improves cold-start forecasts, the project establishes when and by how much; if not, or if harm cannot be detected early enough, a boundary condition for automated evidence-informed forecasting. Either way: a validated answer and an open framework. For demand-based event types whose models validate, and where authorised, the framework runs by month 48 as a **daily observation-mode dashboard** with Geneva's emergency services, forecasts and validity checks refreshed automatically, recorded, never yet steering care: the nucleus of a future living surveillance platform.
 
@@ -28,23 +28,23 @@ The project rests on an unusual combination: fifteen years of quantitative-finan
 
 Syndromic surveillance detects departures from expected baselines [Farrington 1996; Noufaily 2013], and forecast ensembles perform strongly in data-rich settings [Cramer 2022; Sherratt 2023]. Dispatch records lead confirmed surveillance: the 2009 A(H1N1) autumn onset was identified eight days early in three European regions [Rosenkötter 2013], long call series track influenza-like illness [Bonora 2025], and our systematic review maps the field [Edjinedja 2026].
 
-The decisive limitation is **history dependence**: data-adaptive models need enough local observations to learn seasonality, weather response and crisis dynamics; reviews of emergency-demand forecasting catalogue which model families perform for which outcome and horizon [Wargon 2009]; every recommended model is trained on years of local history.
+The decisive limitation is **history dependence**: data-adaptive models need enough local observations to learn seasonality, weather response and crisis dynamics. Reviews of emergency-demand forecasting catalogue which model families perform for which outcome and horizon [Wargon 2009], and every recommended model is trained on years of local history.
 
-**The cold-start problem is a labelled-outcome problem.** At crisis onset, context variables abound but the outcome to be forecast does not, and abundance itself can mislead: Google Flu Trends overestimated influenza by more than a factor of two [Lazer 2014]. Early signals do not close the gap: wastewater needs a shedding-to-incidence relationship that itself comes from external evidence; transfer learning needs comparable contemporaneous observations. The common issue is **how to use external quantitative information without pretending it is perfectly transferable**.
+**The cold-start problem is a labelled-outcome problem.** At crisis onset, context variables abound but the outcome to be forecast does not, and abundance itself can mislead: Google Flu Trends overestimated influenza by more than a factor of two [Lazer 2014]. Early signals do not close the gap: wastewater needs a shedding-to-incidence relationship that itself comes from external evidence, and transfer learning needs comparable contemporaneous observations. The common issue is **how to use external quantitative information without pretending it is perfectly transferable**.
 
 ### 2.1.2 The unused resource: published evidence as quantitative prior information
 
-Bayesian borrowing is well developed: power priors [Ibrahim 2000], commensurate priors [Hobbs 2011], meta-analytic-predictive priors with robust conflict protection [Schmidli 2014]. Informative priors have been used to forecast disease under sparse local data [Cook 2023]. What has not been established is narrower and harder: whether an **automatically constructed** evidence prior, with extraction error and transportability uncertainty propagated into it, improves **operational cold-start forecasts under strict historical information constraints**, and whether harmful borrowing is detected in time to act.
+Bayesian borrowing is well developed: power priors [Ibrahim 2000], commensurate priors [Hobbs 2011], meta-analytic-predictive priors with robust conflict protection [Schmidli 2014]. Informative priors have been used to forecast disease under sparse local data [Cook 2023]. What has not been established is narrower and harder: whether an **automatically constructed** evidence prior, carrying its extraction error and its transportability uncertainty, improves **operational cold-start forecasts under strict historical information constraints**, and whether harmful borrowing is detected in time to act.
 
-**Parameter values are not the only transferable object.** The literature also carries **predictor variables and lag structures**, **model-form evidence** (which algorithm families work for which crisis type and horizon) and **outcome and threshold definitions**. Living systematic reviews keep syntheses current [Elliott 2014], yet to my knowledge no operational forecasting framework consumes these objects systematically.
+**Parameter values are not the only transferable object.** The literature also carries **explanatory variables and lag structures**, **model-form evidence** (which algorithm families work for which crisis type and horizon) and **outcome and threshold definitions**. Living systematic reviews keep syntheses current [Elliott 2014], yet to my knowledge no operational forecasting framework consumes these objects systematically.
 
-**Extraction.** Automated extraction makes large-scale synthesis feasible, but numerical extraction remains less reliable than categorical (reported accuracy roughly 47–88% versus 74–96%), and omissions dominate errors [Shankar 2026]. The question is whether extraction and pooling preserve the dispersion a calibrated prior needs.
+**Extraction.** Automated extraction makes large-scale synthesis feasible, but numerical extraction remains less reliable than categorical (reported accuracy roughly 47–88% versus 74–96%), and omissions dominate the errors [Shankar 2026]. The open question is whether extraction and pooling preserve the dispersion a calibrated prior needs.
 
 **Transportability.** Even perfectly extracted estimates may not transfer across populations, case definitions, health systems or policy regimes. Formal transportability tools exist [Bareinboim 2016; Dahabreh 2020; Degtiar 2023] but are not integrated into any operational cold-start framework.
 
 ### 2.1.3 Representing escalation as a state, not only a point forecast
 
-Emergency operations often need an interpretable escalation state (routine, elevated, strained, critical), not only tomorrow's count. Latent-state representations are established in surveillance: Poisson hidden Markov models distinguish epidemic from non-epidemic periods [Le Strat 1999; Watkins 2009]; extreme-value methods frame rare critical exceedances [Coles 2001], applied to Swiss hospital congestion [Ranjbar 2022]. Here they serve one purpose: a latent ordinal state as the **common representation for testing evidence borrowing at crisis onset**. Mechanistic transmission models [Keeling 2008] enter as components only where the crisis is epidemiological; environmental crises such as heat are driven by exposure–response, not transmission. Critical-slowing-down theory (rising variance and lag-1 autocorrelation before some transitions [Scheffer 2009]; epidemic applications [O'Regan 2013; Brett 2018; Southall 2021]) reads the shape of a short recent series: a **secondary information channel**, tested empirically.
+Emergency operations often need an interpretable escalation state (routine, elevated, strained, critical) more than tomorrow's count. Latent-state representations are established in surveillance: Poisson hidden Markov models distinguish epidemic from non-epidemic periods [Le Strat 1999; Watkins 2009]; extreme-value methods frame rare critical exceedances [Coles 2001], applied to Swiss hospital congestion [Ranjbar 2022]. Here they serve one purpose: a latent ordinal state as the **common representation for testing evidence borrowing at crisis onset**. Mechanistic transmission models [Keeling 2008] enter as components only where the crisis is epidemiological; environmental crises such as heat are driven by exposure–response, not transmission. Critical-slowing-down theory (rising variance and lag-1 autocorrelation before some transitions [Scheffer 2009]; epidemic applications [O'Regan 2013; Brett 2018; Southall 2021]) reads the shape of a short recent series: a **secondary information channel**, tested empirically.
 
 ### 2.1.4 From forecast accuracy to decision value
 
@@ -54,12 +54,12 @@ Proper scoring rules reward calibration [Gneiting 2007], but decision-analytic m
 
 Ongoing programmes occupy the neighbouring ground: multi-model forecasting hubs run routinely (ECDC RespiCast, US CDC FluSight), Horizon Europe funds epidemic-intelligence infrastructure (including GeoAI4EI, in which I take part), and the Franco-Swiss GESICA programme builds cross-border crisis intelligence. Their stated objectives do not address whether automatically synthesised external quantitative evidence should enter a forecast as formal prior information at local cold start.
 
-What has not been established is whether these pieces connect around the **cold-start question**, and whether the loop from living evidence synthesis to variable choice, model choice, thresholds and automatically re-validated forecasts can be closed under pre-registered rules.
+What nobody has established is whether these pieces connect around the **cold-start question**, and whether the loop from living evidence synthesis to variable choice, model choice, thresholds and automatically re-validated forecasts can be closed under pre-registered rules.
 
 
 ## 2.2 Current state of personal research and competences required for the project
 
-My route is unusual and is why the project is tractable: fifteen years in quantitative
+My route is unusual, and it is why this project is tractable: fifteen years in quantitative
 finance (risk, extreme values, regime models, stress testing), then a
 doctorate in biomedical sciences at Geneva (defended
 18 December 2023).
@@ -70,8 +70,8 @@ In [Orel 2022] I predicted individual HIV status from socio-behavioural
 characteristics across East and Southern Africa, establishing where models transported between
 countries; [Merzouki 2021] and [Esra 2023] developed the theme. I now **senior-author**
 that line (last author, [Ng'ambi 2026], accepted: cardiovascular-disease
-classification across harmonised WHO STEPS surveys): this proposal's transportability problem, met
-first elsewhere, moved from conducting to directing.
+classification across harmonised WHO STEPS surveys): I met this proposal's transportability
+problem first elsewhere, and my role on it has moved from conducting to directing.
 
 ### 2.2.2 Automated evidence synthesis
 
@@ -96,7 +96,7 @@ quantitative extraction and modelling: the full review pipeline in
 working form, from a query searched live across the open literature, through deduplication,
 PRISMA-accounted screening and PICO extraction, to **provenance-tracked extraction graded for
 study-design certainty and pooled into parameter distributions**, and onward to the model
-step: candidate predictor variables with their supporting articles; typed outcome
+step: candidate explanatory variables with their supporting articles; typed outcome
 definitions with ready-made emergency-demand targets (ED overload, bed occupancy, call
 surge); **model fitting across algorithm families with automated hyperparameter search,
 leakage-safe time-series validation and ranking on a stated metric**; and compartmental
@@ -153,7 +153,7 @@ To determine **whether, and under what conditions, published quantitative eviden
 
 > **H1.** Automated extraction will systematically **understate the dispersion of the evidence-derived distribution** (reported within-study uncertainty and between-study heterogeneity), producing priors that are too concentrated; an explicit measurement-error layer will correct this under-dispersion, success assessed by a pre-specified criterion: coverage and calibration of intervals from the corrected distribution across held-out adjudicated studies.
 
-Omissions dominate reported extraction errors [Shankar 2026]; whether they systematically shrink dispersion is what H1 tests; if the loss is uncorrectable, the project establishes a boundary condition. The evidence target spans four object classes (T1.1); H1 is tested on the quantitative core, and classes 2 to 4 are validated externally against published syntheses (T1.2).
+Omissions dominate reported extraction errors [Shankar 2026], and whether they systematically shrink dispersion is exactly what H1 tests; if the loss cannot be corrected, the project establishes a boundary condition. The evidence target spans four object classes (T1.1); H1 is tested on the quantitative core, and classes 2 to 4 are validated externally against published syntheses (T1.2).
 
 #### O2: Represent escalation in a form that separates state from the point forecast
 
@@ -163,7 +163,7 @@ T2.1's identifiability study and T3.3's calibration checks either establish adeq
 
 #### O3: Test the cold-start hypothesis and map failure
 
-> **H3a.** An evidence-informed forecasting configuration (evidence-derived priors, variable sets and model forms) improves probabilistic forecast skill during the early phase of a crisis; the persistence and decay of the advantage as local observations accumulate are assessed secondarily.
+> **H3a.** An evidence-informed forecasting configuration (evidence-derived priors, explanatory-variable sets and model forms) improves probabilistic forecast skill during the early phase of a crisis; the persistence and decay of the advantage as local observations accumulate are assessed secondarily.
 
 > **H3b.** Adaptive borrowing that discounts the evidence when prior–data conflict emerges is
 > **non-inferior** to fixed borrowing under well-specified priors, within a pre-specified margin
@@ -200,7 +200,7 @@ fallback, both arms score it, built the same way, and the claim narrows.
 
 #### What the project does not claim
 
-It does **not** aim to outperform forecast hubs in the data-rich regime, assume literature-derived priors are beneficial, or promise a clinically steering alarm by month 48: the dashboard runs strictly in observation mode. The contribution: **whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, and a map of when it should not be trusted.**
+The project does **not** aim to outperform forecast hubs in the data-rich regime, does not assume literature-derived priors are beneficial, and does not promise a clinically steering alarm by month 48: the dashboard runs strictly in observation mode. The contribution: **whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, and a map of when it should not be trusted.**
 
 
 ### 2.3.2 Work packages and methods
@@ -209,7 +209,7 @@ It does **not** aim to outperform forecast hubs in the data-rich regime, assume 
 
 ##### T1.1: Define the evidence target and register the protocol *(M1–M4)*
 
-**The evidence target spans four object classes**; inclusion criteria, effect measures, uncertainty representation and transportability variables are fixed before extraction begins. **(1) Parameter values, the quantitative core (benchmarked in full):** lag-structured **weather–demand coefficients** (daily mean temperature, heat-day exceedance, ozone, PM10); **surge magnitude and timing** (peak-to-baseline ratio, time to peak, onset growth rate); **length-of-stay and occupancy distributions** (ward and ICU); **admission fractions**; transmission parameters (R0/Rt, serial interval) and shedding-to-incidence conversions secondary, off the critical path. **(2) Predictor variables and lag structures** reported as informative per crisis type. **(3) Model-form evidence:** which algorithm families the forecasting literature finds effective for which outcome, horizon and crisis type [Wargon 2009], feeding T3.3. **(4) Outcome and threshold definitions:** which series are used operationally and at what levels warnings fire [Lung 2021], entering T2.1's anchors and T4.1's elicitation as evidence-based starting points. Classes 2 to 4 carry provenance and certainty grades and are pursued only as inputs to the registered H3a configuration; H1's benchmark applies to class 1.
+**The evidence target spans four object classes**; inclusion criteria, effect measures, uncertainty representation and transportability variables are fixed before extraction begins. **(1) Parameter values, the quantitative core (benchmarked in full):** lag-structured **weather–demand coefficients** (daily mean temperature, heat-day exceedance, ozone, PM10); **surge magnitude and timing** (peak-to-baseline ratio, time to peak, onset growth rate); **length-of-stay and occupancy distributions** (ward and ICU); **admission fractions**; transmission parameters (R0/Rt, serial interval) and shedding-to-incidence conversions secondary, off the critical path. **(2) Explanatory variables and lag structures** reported as informative per crisis type. **(3) Model-form evidence:** which algorithm families the forecasting literature finds effective for which outcome, horizon and crisis type [Wargon 2009], feeding T3.3. **(4) Outcome and threshold definitions:** which series are used operationally and at what levels warnings fire [Lung 2021], entering T2.1's anchors and T4.1's elicitation as evidence-based starting points. Classes 2 to 4 carry provenance and certainty grades and are pursued only as inputs to the registered H3a configuration; H1's benchmark applies to class 1.
 
 ##### T1.2: Build the quantitative extraction benchmark *(M3–M9)*
 
@@ -409,7 +409,7 @@ No serial chain: WP2 falls back to weakly informative priors if WP1 finds extrac
 
 ## 2.6 Relevance for personal career development
 
-**Why I am ready, and why now.** I have the methods, the prototype and the domain access, used so far inside other people's programmes; what I lacked is a research agenda of my own.
+**Why I am ready, and why now.** I have the methods, the prototype and the domain access, all used so far inside other people's programmes; what I lacked until now is a research agenda of my own.
 
 | Programme | Objective | My role | Distinction from Ambizione |
 | --- | --- | --- | --- |
@@ -420,7 +420,7 @@ No serial chain: WP2 falls back to weakly informative priors if WP1 finds extrac
 
 **This project does not build another epidemic-intelligence platform**: it uses existing infrastructures to test a question that is a work package of none of them.
 
-**The question and the methods are mine.** It arose building LiteRev-Evidence: the platform could pool published estimates into priors; nothing established whether they improved forecasting in a new setting. The methodological core came from fifteen years of quantitative finance, from no group I have worked in; the platform was developed at UNIGE under my scientific direction.
+**The question and the methods are mine.** The question arose while I was building LiteRev-Evidence: the platform could pool published estimates into priors, and nothing established whether they improved forecasting in a new setting. The methodological core came from fifteen years of quantitative finance, from no group I have worked in; the platform was developed at UNIGE under my scientific direction.
 
 **Collaborators and their roles.** Prof. Olivia Keiser leads the group in which I developed LiteRev; she also leads the legionellosis study, GeoAI4EI and the MAS on which I teach; she co-authors my output (expected at this stage) and has **no scientific role in this project**. Prof. Douglas Teodoro leads GESICA and provides the WP1 biomedical-NLP collaboration.
 
