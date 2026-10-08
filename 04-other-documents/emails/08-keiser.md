@@ -38,7 +38,7 @@ Merci, et bien sûr disponible pour en parler quand tu veux.
 
 Erol
 
-*Pièces jointes : présentation du projet (1 page) ; modèle FNS ; projet de lettre.*
+*Pièces jointes : présentation du projet (2 pages) ; modèle FNS ; projet de lettre prêt à signer.*
 
 ---
 

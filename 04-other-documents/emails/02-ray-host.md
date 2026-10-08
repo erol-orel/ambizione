@@ -5,7 +5,9 @@
 
 `[[Vérifier le titre exact (directeur de l'Institut de santé globale). Adapter tu/vous selon
 votre relation. Peut partir le même jour que l'email à Olivia Keiser (08-keiser.md): les deux
-signent la même lettre.]]`
+signent la même lettre. SI VOUS VOUS ÊTES DÉJÀ PARLÉ DE VIVE VOIX (7 oct au soir): remplacer
+le premier paragraphe par un remerciement pour l'échange et présenter cet email comme la
+confirmation écrite avec les documents.]]`
 
 Cher Nicolas,
 
@@ -55,14 +57,19 @@ Trois précisions :
    temps de recherche est consacrée à un programme dont je suis le responsable : la transition
    de carrière que l'instrument est censé financer.
 
+Comme tu me l'as suggéré, je tiens également **Alexandra Calmy informée** du projet, avec les
+mêmes documents, pour que la transition à la direction de l'Institut se fasse en pleine
+connaissance de cause ; l'engagement d'hébergement est institutionnel et courrait sous son
+mandat.
+
 Je passe volontiers vous en parler de vive voix cette semaine ; une réponse de principe d'ici le
 **jeudi 9 octobre** me permettrait de caler la signature la semaine prochaine.
 
 Avec mes meilleures salutations,
 Erol
 
-*Pièces jointes : présentation du projet (1 page) ; modèle FNS de confirmation d'hébergement ;
-projet de lettre.*
+*Pièces jointes : présentation du projet (2 pages) ; modèle FNS de confirmation d'hébergement ;
+projet de lettre prêt à signer.*
 
 ---
 

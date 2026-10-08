@@ -1,48 +1,59 @@
-# To Prof. Alexandra Calmy: courtesy note (informs, asks nothing)
+# To Prof. Alexandra Calmy: future ISG director, in the loop (asks nothing, signs nothing)
 
-> Objet : Candidature Ambizione FNS - pour information
+> Objet : Candidature Ambizione FNS à l'Institut de santé globale - pour information
 
-`[[Adapter tu/vous - vous êtes co-auteurs de l'article LiteRev (JMIR 2023). Envoyer APRÈS
-l'échange avec Nicolas Ray, pour qu'elle l'apprenne par vous et non par lui - mais sans attendre
-la lettre signée.]]`
+`[[REWRITTEN 8 Oct: Nicolas Ray announced to Erol that Alexandra Calmy will take over the
+direction of the Institute, and suggested keeping her informed. This replaces the old
+post-signature courtesy note: it goes NOW, with the same attachments as Keiser/Ray
+(2-page institutional note + draft confirmation letter), per the applicant's decision.
+Adapter tu/vous - vous êtes co-auteurs de l'article LiteRev (JMIR 2023). She sat on the
+thesis jury: the email must ask for NOTHING (no signature, no opinion, no letter) - the
+signature line stays with Keiser (contact person) and Ray (current director).]]`
 
 Chère Alexandra,
 
-Toutes mes félicitations, d'abord, pour la direction de l'Institut de santé globale.
+Toutes mes félicitations, d'abord, pour la direction de l'Institut de santé globale. Nicolas
+m'a suggéré de te tenir informée de ce qui suit, et je tenais de toute façon à ce que tu
+l'apprennes directement de moi.
 
-Je voulais simplement t'informer que je dépose cette année une candidature au **subside Ambizione
-du FNS** - le dernier appel de l'instrument, avec un dépôt au 3 novembre. Le projet, COLDSTART,
-part d'une question née du développement de LiteRev, que tu connais bien : au début d'une crise
-sanitaire, les données locales nécessaires à la prévision n'existent pas encore, et la seule
-information quantitative disponible est la littérature publiée sur des événements analogues. Le
-projet détermine si cette littérature, extraite et agrégée systématiquement, améliore réellement
-la prévision dans ce régime - et quand elle induit en erreur.
+Je dépose le **3 novembre** une candidature au **subside Ambizione du FNS** (dernier appel de
+l'instrument) : COLDSTART, un projet de quatre ans que je conduirais comme requérant principal,
+hébergé par l'Institut. Le projet part d'une question née du développement de LiteRev, que tu
+connais bien : au début d'une crise sanitaire, les données locales nécessaires à la prévision
+n'existent pas encore, et la seule information quantitative disponible est la littérature
+publiée sur des événements analogues. Le projet détermine si cette littérature, extraite et
+agrégée automatiquement, améliore réellement la prévision de la demande d'urgence dans ce
+régime, quand elle induit en erreur, et si la chaîne complète peut tourner automatiquement,
+vérifiée sur les issues observées. Une présentation de deux pages est jointe.
 
-L'institution hôte proposée est l'**Institut de santé globale**, où je conduirais ce programme en
-tant que requérant principal, en collaboration avec les groupes de l'institut, la médecine
-d'urgence des HUG et la CASU-144. Pour les aspects formels de la confirmation d'hébergement, je
-suis en contact avec Nicolas Ray et le Research Grants Office, qui m'ont indiqué la marche à
-suivre - je ne t'en charge donc pas.
+Côté formel, tout est en route avec la configuration actuelle : la confirmation d'hébergement
+suit le modèle FNS et sera signée par **Olivia Keiser (personne de contact)** et **Nicolas Ray
+(directeur)** d'ici le 14 octobre, pour le dossier interne du Research Grants Office (délai du
+19 octobre). Je joins le projet de lettre pour ta complète information : l'engagement est
+institutionnel, et si le subside est accordé, le projet (septembre 2027 à 2031) courrait sous
+ton mandat ; il me semblait donc normal que tu en aies les termes exacts dès maintenant.
 
-Rien n'est attendu de toi avec ce message : je tenais simplement à ce que tu l'apprennes
-directement de moi, et je serais bien sûr heureux de te présenter le projet de vive voix si cela
-t'intéresse.
+**Rien n'est attendu de toi avec ce message** : la voie formelle est celle de Nicolas et du
+RGO, et je ne t'en charge d'aucune manière. Je serais en revanche très heureux de te présenter
+le projet de vive voix, quand cela t'arrange.
 
 Avec mes meilleures salutations,
 Erol
+
+*Pièces jointes : présentation du projet (2 pages, variante institutionnelle) ; projet de
+lettre de confirmation (pour information).*
 
 ---
 
 ## Notes for the applicant (not part of the email)
 
-- **Purpose:** she directs the institute and will learn of the application regardless - through
-  the confirmation routing if nothing else. Hearing it from you first is basic courtesy and
-  removes any impression of going around her; the note simultaneously makes clear, gently, that
-  the formal channel is Ray + RGO, so she is not being asked to sign anything.
-- **Why it asks nothing:** she sat on your thesis jury; the whole signature arrangement exists to
-  keep prior relationships away from the signature line. A note that asked for support would
-  undo that design.
-- **Do not attach the project summary** unless she asks - an attachment turns information into an
-  implicit request for an opinion. The offer to present it in person does the same work better.
-- Timing: after Ray has replied or at least received his email; before the confirmation paperwork
-  reaches the institute's administration.
+- **What changed on 7-8 Oct:** Ray told Erol that Calmy becomes the Institute's director and
+  suggested keeping her in the loop. The email therefore goes now (not after signatures), with
+  attachments, and explicitly frames the hosting commitment as institutional and continuing
+  under her mandate: continuity is the message.
+- **It still asks nothing.** She sat on the thesis jury; the signature design exists to keep
+  prior relationships away from the signature line. No signature, no support, no opinion is
+  requested; the letter is attached "pour information" only.
+- **Timing:** same day as, or just after, the Ray email/conversation confirmation, so the
+  information visibly flows from Erol with Ray's blessing, not around either of them.
+- Log her reply (if any) in `05-review/applicant-facts.md`.
