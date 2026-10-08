@@ -1,5 +1,7 @@
 # To Dr Robert Larribau: 144/CASU data-access + lettre de collaboration
 
+> **SUPERSEDED for sending (8 Oct): use `03-04-desmettre-larribau-commun.md` (one short joint email). This file stays as interview prep: its technical questions feed the meeting.**
+
 > Objet : Candidature Ambizione FNS - lettre de collaboration et accès aux données de régulation
 > 144 (délai : 3 novembre)
 

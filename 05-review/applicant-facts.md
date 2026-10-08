@@ -658,6 +658,18 @@ languages, for everyone: Keiser, Ray, Calmy, Teodoro EN, Desmettre, Larribau, re
 Both rebuilt and verified at exactly 2 pages, zero em-dash. The specific asks (letters,
 data) stay where they belong: in the email bodies.
 
+## 8 Oct: FACT - Erol spoke with Desmettre AND Larribau today; joint short email ordered
+
+Discussed with them the same day: GESICA++ perspective and a real UNIGE/HUG decision-support
+tool potentially useful to other hospitals/institutions. Consequence: ONE short joint email
+replaces the two long separate drafts (new file emails/03-04-desmettre-larribau-commun.md;
+03 and 04 banner-marked as superseded, kept as interview prep for the technical questions).
+Attachments per Erol: 2-page note, GESICA report, GESICA Excel inventory, link to the new
+LiteRev-Evidence with admin key (note to Erol in the file: send the key via a second
+channel, or better create named guest accounts). The email keeps: collaboration-letter ask
+with the FNS no-praise rule + draft letter attached, CCER route, no data ask now, reply-by
+Mon 13 Oct, and proposes a meeting slot (placeholder Tue 14 / Wed 15).
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:
