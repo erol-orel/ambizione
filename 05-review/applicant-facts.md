@@ -629,6 +629,22 @@ circularity, H2 trap; model-form evidence already competes via T1.1 class 3 -> T
 library -> registered model-form secondary contrast). State: 50,701 chars / exactly 15
 pages, summary page 1, sync 47/47, battery green.
 
+## 8 Oct evening: FACT from Ray conversation - Alexandra Calmy is the incoming ISG director
+
+Ray told Erol (7-8 Oct) that Prof. Alexandra Calmy will take over the direction of the
+Institute, and suggested keeping her in the loop. Consequences applied: (1) Calmy email
+rewritten (emails/05): goes NOW with attachments (institutional 2-page note + draft
+confirmation letter "pour information"), frames the hosting commitment as institutional
+and continuing under her mandate (project would run Sept 2027-2031), still asks NOTHING
+(thesis-jury rule: she stays away from the signature line; Keiser + Ray sign, unchanged);
+(2) Ray email gains the "je tiens Alexandra Calmy informée, comme suggéré" line and a
+placeholder to convert it into a written confirmation of the evening conversation;
+(3) NEW ATTACHMENT built: 02-project-note-institut.md/.docx/.pdf (2 pages, verified) -
+the partner note's data-ask sections replaced by "Les données et la voie réglementaire"
+and "L'hébergement à l'ISG" (independence guarantees, no cost, what stays at ISG);
+includes the end-to-end question framing and the verified-loop end state. Signature plan
+UNCHANGED: Keiser contact person + Ray current director, target Tue 14 Oct.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:
