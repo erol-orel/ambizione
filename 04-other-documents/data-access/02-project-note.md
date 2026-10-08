@@ -17,7 +17,8 @@ Il existe pourtant une information quantitative disponible dès le premier jour 
 publiée sur des événements analogues - associations météo–demande, amplitudes et délais de
 surcharge, durées de séjour et occupation, paramètres de transmission. Elle n'est presque
 jamais utilisée comme information a priori formelle, parce que personne n'a établi si le faire
-aide ou nuit. C'est la question centrale du projet, posée de façon falsifiable.
+aide ou nuit. C'est la question centrale du projet, posée de façon falsifiable, de
+l'extraction jusqu'au système qui tourne et se vérifie.
 
 ## D'où vient le projet : la continuité avec GESICA
 
@@ -40,8 +41,8 @@ Le projet dérive en partie de notre travail commun dans GESICA, tout en s'en di
    quantitatifs depuis la littérature (contre un étalon en double extraction humaine), et
    corriger les biais identifiés. Le projet s'appuie sur LiteRev-Evidence, le prototype que
    j'ai développé (recherche fédérée dans la littérature ouverte, criblage,
-   extraction avec provenance), que le projet transforme en instrument validé. La littérature
-   fournit aussi les variables pertinentes, les familles de modèles recommandées et les
+   extraction avec provenance), transformé en instrument validé. La littérature
+   fournit aussi les variables explicatives, les familles de modèles recommandées et les
    définitions d'issues et de seuils, transposées au contexte local.
 2. **Modélisation** - représenter l'état du système de soins comme un **processus à régimes
    latents** (habituel / tendu / sous tension / critique) plutôt que comme un seuil appliqué à
@@ -73,14 +74,14 @@ individuelle, aucun enregistrement vocal, aucun texte libre.** Les données de r
 respiratoire, celui du volet canicule la demande à motifs sensibles à la chaleur
 (déshydratation, rénal, psychiatrique) - d'où l'importance de catégories de motifs couvrant
 les deux. Les passages aux urgences et l'occupation des soins intensifs sont des canaux complémentaires. Le périmètre est le canton de Genève au jour : un choix délibéré, appuyé sur l'écosystème
-de données genevois (144, urgences, soins intensifs, médecin et pharmacien cantonaux).
+de données genevois.
 
 **Par quelle voie.** Rien n'est demandé aujourd'hui en matière de données. Si le projet est
 financé, l'accès passerait par la **voie officielle : une soumission à la CCER, avec moi comme
 requérant**, précédée des accords de données institutionnels nécessaires. Ce que j'espère de
 votre part à ce stade est double : une **lettre de collaboration** pour le dossier FNS
-(confirmant la collaboration et sa contribution concrète - le FNS écarte les lettres de
-recommandation), et un **accord de principe** sur cette voie officielle le moment venu.
+(le FNS écarte les lettres de recommandation), et un **accord de principe** sur cette voie
+officielle le moment venu.
 Le dispositif est d'abord validé de bout en bout sur des **données publiques ouvertes** ;
 la faisabilité ne repose donc pas sur un seul accord, et ce sont vos séries qui transforment
 un résultat méthodologique en résultat opérationnel.
@@ -91,9 +92,10 @@ un résultat méthodologique en résultat opérationnel.
 - Des seuils d'escalade explicités et documentés, construits avec vos équipes.
 - Pour les types d'événements dont les modèles auront été validés, un **tableau de bord
   quotidien en mode observation** pour vos équipes (régulation 144, urgences, soins
-  intensifs) : états et prévisions rafraîchis automatiquement, enregistrés, jamais décisionnels
-  pendant le projet ; le noyau d'une future plateforme de surveillance.
+  intensifs) : états et prévisions rafraîchis automatiquement, enregistrés et évalués
+  prospectivement, jamais décisionnels pendant le projet ; le noyau d'une future plateforme
+  de surveillance.
 - Publications communes, dans la continuité de GESICA.
 
-**Calendrier.** Dépôt : 3 novembre 2026 · Décision : août 2027 · Début : entre septembre
-2027 et septembre 2028. Lettre de collaboration souhaitée d'ici la mi-octobre 2026.
+**Calendrier.** Dépôt : 3 novembre 2026 · Décision : août 2027 · Début : 2027-2028 ·
+Lettre de collaboration souhaitée d'ici la mi-octobre 2026.

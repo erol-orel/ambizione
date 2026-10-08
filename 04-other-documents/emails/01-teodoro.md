@@ -13,8 +13,9 @@ at the onset of a health crisis, the local outcome data needed to forecast it do
 and the only quantitative information available is the published record of analogous events. My
 platform will happily pool published estimates into prior distributions, and I cannot establish
 whether it should. The project tests that, with a regime-switching representation of health-system
-state, and evaluates the result on whether it changes decisions rather than on statistical
-accuracy. A one-page summary is attached.
+state, evaluates the result on whether it changes decisions rather than on statistical
+accuracy, and ends with the whole loop running automatically and verified prospectively
+against observed outcomes. A two-page summary is attached.
 
 **What the collaboration would cover.** WP1 builds a manually adjudicated benchmark of quantitative
 extraction from 300 publications and characterises where automated extraction loses the dispersion
@@ -47,4 +48,4 @@ glad to come and talk it through whenever suits you.
 With best wishes,
 Erol
 
-*Attached: one-page project summary.*
+*Attached: two-page project summary (English).*
