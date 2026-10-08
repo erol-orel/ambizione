@@ -680,6 +680,16 @@ in-principle replies; chase per standing rule (3 working days of silence = phone
 chase by Tue 14 if nothing). Letters, once signed, flip no table status (they are
 "Other annexes" uploads in mySNF, due by 3 Nov, not RGO attachments).
 
+## 8 Oct: FACT - Keiser's Art. 8 slot is CONFIRMED free; signature flow simplified
+
+Erol (who talks to Olivia daily): "Olivia n'a que moi" - no other applicant asked her as
+contact person this call, and she accepts. The week's one blocking question is answered.
+Flow change: NO separate Keiser email; she goes in CC of the Nicolas Ray email, which now
+carries the Art. 8 confirmation line and asks her directly to sign by Tue 14 (02-ray-host.md
+updated; 08-keiser.md marked superseded, kept for the record). Remaining signature path:
+ONE email (Ray, CC Keiser, attachments: Erol's 2-page note + SNSF template + ready-to-sign
+letter), then Calmy info email.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

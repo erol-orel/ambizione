@@ -1,4 +1,8 @@
-# To Prof. Olivia Keiser: accept the contact-person role and sign (Plan B)
+# To Prof. Olivia Keiser: SUPERSEDED 8 Oct (no separate email)
+
+> **8 Oct: Erol talks to Olivia daily; she confirmed NOBODY else asked her for this call
+> (Art. 8 slot is Erol's) and she accepts. No separate email: she goes in CC of the
+> Nicolas Ray email with a line asking her to sign too. Kept below for the record.**
 
 > Objet : Candidature Ambizione FNS: accepterais-tu d'être ma personne de contact ?
 

@@ -1,7 +1,8 @@
 # To Prof. Nicolas Ray: host confirmation, signature as Director (Plan B active)
 
-> Objet : Candidature Ambizione FNS: hébergement à l'ISG et signature de la confirmation
+> Objet : Candidature Ambizione FNS: hébergement à l'ISG et signatures de la confirmation
 > (délai interne RGO : lettre signée pour le 14 octobre)
+> **CC : Olivia Keiser** (personne de contact; elle signe la même lettre)
 
 `[[Vérifier le titre exact (directeur de l'Institut de santé globale). Adapter tu/vous selon
 votre relation. Peut partir le même jour que l'email à Olivia Keiser (08-keiser.md): les deux
@@ -56,6 +57,11 @@ Trois précisions :
    par les règles 2026). Le subside représenterait le premier poste où l'intégralité de mon
    temps de recherche est consacrée à un programme dont je suis le responsable : la transition
    de carrière que l'instrument est censé financer.
+
+Olivia, en copie, a accepté d'être la **personne de contact** et m'a confirmé qu'aucune autre
+candidature ne la sollicite pour cet appel (exigence du règlement, art. 8 al. 6) : le projet
+de lettre joint porte donc vos deux signatures. Olivia, peux-tu également le signer d'ici
+mardi 14 ?
 
 Comme tu me l'as suggéré, je tiens également **Alexandra Calmy informée** du projet, avec les
 mêmes documents, pour que la transition à la direction de l'Institut se fasse en pleine
