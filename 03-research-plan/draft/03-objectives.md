@@ -2,9 +2,9 @@
 
 ### 2.3.1 Objectives and hypotheses
 
-To determine **whether, and under what conditions, published quantitative evidence provides useful information when local outcome data are insufficient at the onset of a health-system crisis, and whether the resulting forecasts change decisions.**
+To determine **whether, and under what conditions, the chain from published quantitative evidence to operational forecasting closes at the onset of a health-system crisis: reliable extraction, transport to the local setting, improved probabilistic forecasts of escalation, early detection of harmful borrowing, decision-relevant gains, and an automated, prospectively verified loop.**
 
-**One central hypothesis, H3a**; all else is subordinate:
+This end-to-end question decomposes into **one central hypothesis, H3a**; all else is subordinate, each row validating one link of the chain:
 
 | | Role | Statement |
 | --- | --- | --- |

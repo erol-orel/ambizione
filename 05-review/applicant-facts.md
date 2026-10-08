@@ -607,6 +607,28 @@ eligibility/SHELF/WHO-ECDC micro-trims, 2.6 trims, Gantt pitch 19->18.5, gap 6->
 top 44->40 (fonts untouched, visually verified). State: 50,527 chars / exactly 15 pages,
 summary page 1, sync 47/47, battery green.
 
+## 8 Oct: applicant order - the research question made end-to-end
+
+Erol: the question was "too focused on only a part of the entire project; must be way more
+complete and global including all the steps". Applied, WITH the protective decomposition
+kept (a global question alone is the classic four-projects-in-one weakness; ours
+immediately decomposes into one confirmatory hypothesis): SUMMARY question now "can
+published quantitative evidence be reliably extracted, transported and used to forecast
+health-system escalation when local outcome data are insufficient at crisis onset; can we
+detect early when it should not be trusted; does any gain change operational decisions;
+and can the whole loop run automatically, prospectively verified, under pre-registered
+rules?". 2.3.1 opening now names the chain (reliable extraction, transport, improved
+escalation forecasts, early harm detection, decision-relevant gains, automated verified
+loop) and the H-table lead-in reads "This end-to-end question decomposes into one central
+hypothesis, H3a; all else is subordinate, each row validating one link of the chain".
+H-table, hypotheses, scope, machinery untouched; 2.1.5's loop sentence now deliberately
+echoes the question. Paid for in-summary (transport clause deduplicated into the question,
+"intersection" closing clause, micro-trims). Also answered (no text change): why the state
+model is C2 not an evidence-extracted claim (control-arm contamination, instrument
+circularity, H2 trap; model-form evidence already competes via T1.1 class 3 -> T3.3
+library -> registered model-form secondary contrast). State: 50,701 chars / exactly 15
+pages, summary page 1, sync 47/47, battery green.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:
