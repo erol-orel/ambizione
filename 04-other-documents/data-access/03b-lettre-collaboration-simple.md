@@ -1,4 +1,4 @@
-# Lettre de collaboration SIMPLE (version allégée, 8 oct, ordre du requérant)
+# Lettre de collaboration SIMPLE - CANONICAL TEXT = Erol's own edit of 8 Oct (docx is master)
 
 > Version générale, faible engagement: pas de dataset nommé, pas de période, pas de
 > granularité, pas d'engagement d'équipes. Toujours conforme FNS (Guidelines 2.17): elle
@@ -20,9 +20,8 @@ Par la présente, nous confirmons la collaboration de `[[service / département]
 Dr Erol Orel dans le cadre du projet **COLDSTART**, soumis à l'appel Ambizione 2026 du Fonds
 national suisse.
 
-Notre service collabore avec le Dr Orel depuis `[[année]]` dans le cadre du projet Interreg
-GESICA, notamment au travers d'une revue systématique commune sur l'intelligence
-artificielle en médecine d'urgence préhospitalière.
+Notre service collabore avec le Dr Orel depuis 2025 dans le cadre du projet Interreg
+GESICA.
 
 Dans le cadre du projet COLDSTART, nous confirmons notre intention de poursuivre cette
 collaboration : par des échanges scientifiques réguliers et, sous réserve de l'approbation

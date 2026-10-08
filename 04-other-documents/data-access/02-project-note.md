@@ -1,10 +1,12 @@
-# Two-page project note (single neutral version, FR): for all recipients
+# Two-page project note (FR) - CANONICAL TEXT = Erol's own edit of 8 Oct (docx is master)
+
+> The .docx in this folder is Erol's edited version and is the file actually sent; this .md
+> mirrors its text for tracking. If the text changes again, update BOTH.
 
 **COLDSTART - Prévoir et quantifier les crises sanitaires quand les données locales manquent**
 
-Candidature Ambizione FNS (dépôt : 3 novembre 2026) · Requérant : Dr Erol Orel · Hôte proposé :
-Institut de santé globale, Faculté de médecine, UNIGE (programme de recherche indépendant) ·
-Durée : 4 ans
+Candidature Ambizione FNS (dépôt : 3 novembre 2026) · Requérant : Dr Erol Orel · Hôte :
+Institut de santé globale, Faculté de médecine, UNIGE · Durée : 4 ans
 
 ## Le problème
 
@@ -28,10 +30,10 @@ change-t-il des décisions opérationnelles ; et la chaîne complète peut-elle 
 automatiquement, vérifiée sur les issues observées, selon des règles pré-enregistrées ?
 
 Le projet s'appuie sur un existant : LiteRev-Evidence, le prototype d'extraction et de
-modélisation que j'ai développé ; la cartographie des données constituée pour GESICA ; et
-l'étude légionellose genevoise en cours (BASEC 2026-00324), dont je dirige le volet données.
+modélisation en cours de développement ; la cartographie des données constituée pour GESICA ;
+et l'étude légionellose genevoise en cours (BASEC 2026-00324).
 
-## Ce que je ferai (cinq volets, 48 mois)
+## Cinq volets
 
 1. **Extraction** - mesurer la fiabilité de l'extraction automatique de paramètres
    quantitatifs depuis la littérature, contre un étalon en double extraction humaine, et
@@ -70,17 +72,7 @@ opérationnelles genevoises.
 
 Uniquement des **extraits rétrospectifs agrégés au jour** : aucun identifiant, aucune donnée
 individuelle, aucun enregistrement vocal, aucun texte libre. Le périmètre est le canton de
-Genève : données de régulation du 144 comme série d'issue principale ; passages aux urgences
-et occupation des soins intensifs comme canaux complémentaires ; médecin et pharmacien
-cantonaux et SIG pour les volets environnementaux. L'accès opérationnel passerait par la
-**voie officielle : une soumission à la CCER, avec moi comme requérant**, précédée des
-accords de données institutionnels, préparés avant le mois 1.
-
-## Équipe et calendrier
-
-Programme indépendant hébergé à l'Institut de santé globale, selon les garanties du modèle
-FNS (direction scientifique du requérant, supervision de l'équipe, budget, dernier auteur).
-Équipe : le requérant, un collaborateur scientifique/technique (50 %) et un extracteur
-indépendant contracté ; budget de projet FNS de CHF 250 000 sur 4 ans, salaire du requérant
-couvert séparément. **Calendrier** : dépôt 3 novembre 2026 · décision août 2027 · début
-entre septembre 2027 et septembre 2028.
+Genève : données de régulation du 144 ; passages aux urgences et occupation des soins
+intensifs ; médecin et pharmacien cantonaux et SIG pour les volets environnementaux. Ainsi
+que toutes les autres données en accès libre (climatique, démographique, etc…). L'accès
+opérationnel passerait par la voie officielle : une soumission à la CCER.
