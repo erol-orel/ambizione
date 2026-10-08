@@ -670,6 +670,16 @@ channel, or better create named guest accounts). The email keeps: collaboration-
 with the FNS no-praise rule + draft letter attached, CCER route, no data ask now, reply-by
 Mon 13 Oct, and proposes a meeting slot (placeholder Tue 14 / Wed 15).
 
+## 8 Oct: EMAIL SENT to Desmettre + Larribau (joint, Erol's own version)
+
+Sent 8 Oct evening with: 2-page note (Erol's edited version), simple collaboration letter
+draft (docx), GESICA report, GESICA Excel inventory, LiteRev-Evidence link (admin key
+separately). Asks: one collaboration letter each, "idéalement d'ici la mi-octobre", FNS
+no-praise rule stated; no data request at this stage (CCER route). AWAITING: their
+in-principle replies; chase per standing rule (3 working days of silence = phone, so
+chase by Tue 14 if nothing). Letters, once signed, flip no table status (they are
+"Other annexes" uploads in mySNF, due by 3 Nov, not RGO attachments).
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:
