@@ -1,77 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="475" viewBox="0 0 1150 475">
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="455.5" viewBox="0 0 1150 455.5">
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4e4e4e"/></marker></defs>
-<rect width="1150" height="475" fill="white"/>
-<line x1="392.0" y1="38" x2="392.0" y2="429" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
-<text x="483.75" y="30" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 1</text>
-<line x1="575.5" y1="38" x2="575.5" y2="429" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
-<text x="667.25" y="30" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 2</text>
-<line x1="759.0" y1="38" x2="759.0" y2="429" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
-<text x="850.75" y="30" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 3</text>
-<line x1="942.5" y1="38" x2="942.5" y2="429" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
-<text x="1034.25" y="30" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 4</text>
-<line x1="1126.0" y1="38" x2="1126.0" y2="429" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
-<text x="0" y="61" font-family="Helvetica, Arial, sans-serif" font-size="17.5" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP1</text>
-<rect x="407.2916666666667" y="60" width="290.5416666666667" height="5" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
-<text x="44" y="61" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.1 evidence target + protocol</text>
-<rect x="407.2916666666667" y="49" width="45.875" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="80" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.2 extraction benchmark</text>
-<rect x="437.875" y="68" width="91.75" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="99" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.3 automated extraction error</text>
-<rect x="499.0416666666667" y="87" width="107.04166666666669" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="118" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.4 evidence distributions</text>
-<rect x="575.5" y="106" width="91.75" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="137" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.5 transportability screen</text>
-<rect x="621.375" y="125" width="76.45833333333337" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="0" y="162" font-family="Helvetica, Arial, sans-serif" font-size="17.5" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP2</text>
-<rect x="407.2916666666667" y="161" width="412.87500000000006" height="5" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
-<text x="44" y="162" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.1 state model + identifiability</text>
-<rect x="407.2916666666667" y="150" width="122.33333333333331" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="181" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.2 critical tail</text>
-<rect x="483.75" y="169" width="122.33333333333337" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="200" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.3 evidence-derived priors</text>
-<rect x="544.9166666666667" y="188" width="152.91666666666663" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="219" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.4 resilience indicators</text>
-<rect x="575.5" y="207" width="122.33333333333337" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="238" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.5 calibration, automation, validity</text>
-<rect x="697.8333333333334" y="226" width="122.33333333333337" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="0" y="263" font-family="Helvetica, Arial, sans-serif" font-size="17.5" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP3</text>
-<rect x="407.2916666666667" y="262" width="626.9583333333333" height="5" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
-<text x="44" y="263" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.0 outcome hierarchy + registration</text>
-<rect x="407.2916666666667" y="251" width="198.79166666666669" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="282" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.1 retrospective information set</text>
-<rect x="575.5" y="270" width="122.33333333333337" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="301" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.2 information-set reconstruction</text>
-<rect x="667.25" y="289" width="183.5" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="320" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.3 model library + automated selection</text>
-<rect x="697.8333333333334" y="308" width="214.08333333333337" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="339" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.4 benefit + failure map</text>
-<rect x="820.1666666666667" y="327" width="152.91666666666652" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="358" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.5 cross-archetype generalisation</text>
-<rect x="911.9166666666667" y="346" width="122.33333333333326" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="0" y="383" font-family="Helvetica, Arial, sans-serif" font-size="17.5" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP4</text>
-<rect x="759.0" y="382" width="367.0" height="5" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
-<text x="44" y="383" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T4.1 losses + thresholds (SHELF)</text>
-<rect x="759.0" y="371" width="122.33333333333326" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="402" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T4.2 decision analysis + equity audit</text>
-<rect x="850.75" y="390" width="152.91666666666674" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="421" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T4.3 counterfactuals, observation dashboard</text>
-<rect x="911.9166666666667" y="409" width="214.08333333333326" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<line x1="529.625" y1="38" x2="529.625" y2="429" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
-<polygon points="529.625,433 536.625,442 529.625,451 522.625,442" fill="#1f5f8b"/>
-<text x="529.625" y="469" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M1</text>
-<line x1="575.5" y1="38" x2="575.5" y2="429" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
-<polygon points="575.5,433 582.5,442 575.5,451 568.5,442" fill="#1f5f8b"/>
-<text x="575.5" y="469" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M2</text>
-<line x1="697.8333333333334" y1="38" x2="697.8333333333334" y2="429" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
-<polygon points="697.8333333333334,433 704.8333333333334,442 697.8333333333334,451 690.8333333333334,442" fill="#1f5f8b"/>
-<text x="697.8333333333334" y="469" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M3</text>
-<line x1="911.9166666666667" y1="38" x2="911.9166666666667" y2="429" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
-<polygon points="911.9166666666667,433 918.9166666666667,442 911.9166666666667,451 904.9166666666667,442" fill="#1f5f8b"/>
-<text x="911.9166666666667" y="469" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M4</text>
-<line x1="1003.6666666666667" y1="38" x2="1003.6666666666667" y2="429" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
-<polygon points="1003.6666666666667,433 1010.6666666666667,442 1003.6666666666667,451 996.6666666666667,442" fill="#1f5f8b"/>
-<text x="1003.6666666666667" y="469" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M5</text>
-<line x1="1126.0" y1="38" x2="1126.0" y2="429" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
-<polygon points="1126.0,433 1133.0,442 1126.0,451 1119.0,442" fill="#1f5f8b"/>
-<text x="1126.0" y="469" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M6</text>
+<rect width="1150" height="455.5" fill="white"/>
+<line x1="392.0" y1="34" x2="392.0" y2="411.5" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
+<text x="483.75" y="26" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 1</text>
+<line x1="575.5" y1="34" x2="575.5" y2="411.5" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
+<text x="667.25" y="26" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 2</text>
+<line x1="759.0" y1="34" x2="759.0" y2="411.5" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
+<text x="850.75" y="26" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 3</text>
+<line x1="942.5" y1="34" x2="942.5" y2="411.5" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
+<text x="1034.25" y="26" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 4</text>
+<line x1="1126.0" y1="34" x2="1126.0" y2="411.5" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
+<text x="0" y="57" font-family="Helvetica, Arial, sans-serif" font-size="17.5" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP1</text>
+<rect x="407.2916666666667" y="56" width="290.5416666666667" height="5" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
+<text x="44" y="57" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.1 evidence target + protocol</text>
+<rect x="407.2916666666667" y="45" width="45.875" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="44" y="75.5" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.2 extraction benchmark</text>
+<rect x="437.875" y="63.5" width="91.75" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="44" y="94.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.3 automated extraction error</text>
+<rect x="499.0416666666667" y="82.0" width="107.04166666666669" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="44" y="112.5" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.4 evidence distributions</text>
+<rect x="575.5" y="100.5" width="91.75" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="44" y="131.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.5 transportability screen</text>
+<rect x="621.375" y="119.0" width="76.45833333333337" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="0" y="154.5" font-family="Helvetica, Arial, sans-serif" font-size="17.5" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP2</text>
+<rect x="407.2916666666667" y="153.5" width="412.87500000000006" height="5" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
+<text x="44" y="154.5" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.1 state model + identifiability</text>
+<rect x="407.2916666666667" y="142.5" width="122.33333333333331" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="44" y="173.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.2 critical tail</text>
+<rect x="483.75" y="161.0" width="122.33333333333337" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="44" y="191.5" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.3 evidence-derived priors</text>
+<rect x="544.9166666666667" y="179.5" width="152.91666666666663" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="44" y="210.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.4 resilience indicators</text>
+<rect x="575.5" y="198.0" width="122.33333333333337" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="44" y="228.5" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.5 calibration, automation, validity</text>
+<rect x="697.8333333333334" y="216.5" width="122.33333333333337" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="0" y="252.0" font-family="Helvetica, Arial, sans-serif" font-size="17.5" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP3</text>
+<rect x="407.2916666666667" y="251.0" width="626.9583333333333" height="5" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
+<text x="44" y="252.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.0 outcome hierarchy + registration</text>
+<rect x="407.2916666666667" y="240.0" width="198.79166666666669" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="44" y="270.5" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.1 retrospective information set</text>
+<rect x="575.5" y="258.5" width="122.33333333333337" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="44" y="289.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.2 information-set reconstruction</text>
+<rect x="667.25" y="277.0" width="183.5" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="44" y="307.5" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.3 model library + automated selection</text>
+<rect x="697.8333333333334" y="295.5" width="214.08333333333337" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="44" y="326.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.4 benefit + failure map</text>
+<rect x="820.1666666666667" y="314.0" width="152.91666666666652" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="44" y="344.5" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.5 cross-archetype generalisation</text>
+<rect x="911.9166666666667" y="332.5" width="122.33333333333326" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="0" y="368.0" font-family="Helvetica, Arial, sans-serif" font-size="17.5" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP4</text>
+<rect x="759.0" y="367.0" width="367.0" height="5" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
+<text x="44" y="368.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T4.1 losses + thresholds (SHELF)</text>
+<rect x="759.0" y="356.0" width="122.33333333333326" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="44" y="386.5" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T4.2 decision analysis + equity audit</text>
+<rect x="850.75" y="374.5" width="152.91666666666674" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="44" y="405.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T4.3 counterfactuals, observation dashboard</text>
+<rect x="911.9166666666667" y="393.0" width="214.08333333333326" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<line x1="529.625" y1="34" x2="529.625" y2="411.5" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
+<polygon points="529.625,415.5 536.625,424.5 529.625,433.5 522.625,424.5" fill="#1f5f8b"/>
+<text x="529.625" y="451.5" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M1</text>
+<line x1="575.5" y1="34" x2="575.5" y2="411.5" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
+<polygon points="575.5,415.5 582.5,424.5 575.5,433.5 568.5,424.5" fill="#1f5f8b"/>
+<text x="575.5" y="451.5" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M2</text>
+<line x1="697.8333333333334" y1="34" x2="697.8333333333334" y2="411.5" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
+<polygon points="697.8333333333334,415.5 704.8333333333334,424.5 697.8333333333334,433.5 690.8333333333334,424.5" fill="#1f5f8b"/>
+<text x="697.8333333333334" y="451.5" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M3</text>
+<line x1="911.9166666666667" y1="34" x2="911.9166666666667" y2="411.5" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
+<polygon points="911.9166666666667,415.5 918.9166666666667,424.5 911.9166666666667,433.5 904.9166666666667,424.5" fill="#1f5f8b"/>
+<text x="911.9166666666667" y="451.5" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M4</text>
+<line x1="1003.6666666666667" y1="34" x2="1003.6666666666667" y2="411.5" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
+<polygon points="1003.6666666666667,415.5 1010.6666666666667,424.5 1003.6666666666667,433.5 996.6666666666667,424.5" fill="#1f5f8b"/>
+<text x="1003.6666666666667" y="451.5" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M5</text>
+<line x1="1126.0" y1="34" x2="1126.0" y2="411.5" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
+<polygon points="1126.0,415.5 1133.0,424.5 1126.0,433.5 1119.0,424.5" fill="#1f5f8b"/>
+<text x="1126.0" y="451.5" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M6</text>
 </svg>

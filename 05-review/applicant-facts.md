@@ -590,6 +590,23 @@ predictive model be good enough" and "variables explanatory and ..."): awaiting 
 transcription. State: 50,498 chars / 15 pages, summary ends page 1, sync 47/47, battery
 green. The longer title now wraps to two lines on page 1 (absorbed by summary trims).
 
+## 8 Oct: applicant order - the running, verified system as the explicit end state
+
+Erol: "the models running as a last step and quantifying correctly the desired outcomes -
+one step further than what we have now". Diagnosis: running was already the architecture
+(T2.5 automation, T4.3 dashboard, M6); the missing half-step was explicit PROSPECTIVE
+VERIFICATION. Applied in four places: T4.3 "recorded and scored prospectively against the
+outcomes as they are observed, never used clinically: the project ends with the system
+running and its quantification verified"; summary "recorded and scored prospectively
+against observed outcomes"; 2.5 "a daily observation-mode dashboard, running and
+prospectively verified"; M6 "dashboard running and prospectively scored...". Boundary
+held and explained to Erol: observation-mode stays (never steering care); decisional use
+remains the post-grant platform, per "What the project does not claim" and the ethics
+posture. Paid for with: summary "Either way: a validated answer..." line cut, gate/
+eligibility/SHELF/WHO-ECDC micro-trims, 2.6 trims, Gantt pitch 19->18.5, gap 6->5,
+top 44->40 (fonts untouched, visually verified). State: 50,527 chars / exactly 15 pages,
+summary page 1, sync 47/47, battery green.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

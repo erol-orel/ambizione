@@ -6,11 +6,11 @@
 
 **Practical and societal impact.** In a crisis's first weeks, emergency systems decide whether to open capacity, redistribute resources or escalate before local outcomes are informative; the project quantifies whether external evidence improves those decisions, and with what residual uncertainty.
 
-**Where this points operationally.** Each validated demand-based archetype leaves a registered, automatically re-validated configuration and, where authorised, a daily observation-mode dashboard in the hands of the services that would use it. Extending that nucleus into a multi-crisis surveillance platform is the explicit post-grant pathway; this project supplies the validated core and the update rules.
+**Where this points operationally.** Each validated demand-based archetype leaves a registered, automatically re-validated configuration and, where authorised, a daily observation-mode dashboard, running and prospectively verified, in the hands of the services that would use it. Extending that nucleus into a multi-crisis surveillance platform is the explicit post-grant pathway; this project supplies the validated core and the update rules.
 
 ## 2.6 Relevance for personal career development
 
-**Why I am ready, and why now.** I have the methods, the prototype and the domain access, all used so far inside other people's programmes; what I lacked until now is a research agenda of my own.
+**Why I am ready, and why now.** I have the methods, the prototype and the domain access, used so far inside other people's programmes; what I lacked is a research agenda of my own.
 
 | Programme | Objective | My role | Distinction from Ambizione |
 | --- | --- | --- | --- |
@@ -25,6 +25,6 @@
 
 **Collaborators and their roles.** Prof. Olivia Keiser leads the group in which I developed LiteRev; she also leads the legionellosis study, GeoAI4EI and the MAS on which I teach; she co-authors my output (expected at this stage) and has **no scientific role in this project**. Prof. Douglas Teodoro leads GESICA and provides the WP1 biomedical-NLP collaboration.
 
-**The organisational position is the transition.** Hosted by the **Institute of Global Health**, I will lead an independent programme alongside its groups rather than inside one; the guarantees are documented in the confirmation letters. The programme is executable by the PI and budgeted support personnel: **no named individual other than the PI is scientifically load-bearing.**
+**The organisational position is the transition.** Hosted by the **Institute of Global Health**, I will lead an independent programme alongside its groups rather than inside one; the guarantees are in the confirmation letters. The programme is executable by the PI and budgeted support personnel: **no named individual other than the PI is scientifically load-bearing.**
 
-**Where this leads.** By month 48: a validated answer and a first-author methodological record: the basis for group leadership or a professorship. Ambizione consolidates my research time into one programme.
+**Where this leads.** By month 48: a validated answer and a first-author record: the basis for group leadership or a professorship. Ambizione consolidates my research time into one programme.

@@ -188,10 +188,10 @@ MILESTONES = [(9, "M1"), (12, "M2"), (20, "M3"), (34, "M4"), (40, "M5"), (48, "M
 
 
 def fig2():
-    L, R, TOP, ROW, GAP = 392, 24, 44, 19, 6
+    L, R, TOP, ROW, GAP = 392, 24, 40, 18.5, 5
     W = 1150
     nrows = sum(len(w[3]) for w in WPS)
-    H = TOP + nrows * ROW + GAP * len(WPS) + 46
+    H = TOP + nrows * ROW + GAP * len(WPS) + 44
     span = W - L - R
 
     def mx(m):

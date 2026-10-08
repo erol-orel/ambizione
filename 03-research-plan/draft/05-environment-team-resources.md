@@ -2,7 +2,7 @@
 
 **Host: Institute of Global Health, Faculty of Medicine, University of Geneva**, with a methodological collaboration with **Data Science for Digital Health** (Prof. Douglas Teodoro) and a clinical one with **HUG emergency medicine** (Prof. Thibaut Desmettre; Dr Robert Larribau, CASU-144).
 
-**Institute of Global Health:** epidemiology, infectious-disease modelling and automated evidence extraction in one institute: where the gap became visible. Independence is organisational: an independent programme alongside the Institute's groups (§2.6). **DS4DH** contributes the biomedical NLP WP1 needs; through GESICA I already work with the emergency-medicine partners; the AI-in-EMS review [Edjinedja 2026] evidences the collaboration.
+**Institute of Global Health:** epidemiology, infectious-disease modelling and automated evidence extraction in one institute: where the gap became visible. Independence is organisational: an independent programme alongside the Institute's groups (§2.6). **DS4DH** contributes the biomedical NLP WP1 needs; through GESICA I already work with the emergency-medicine partners; the AI-in-EMS review [Edjinedja 2026] evidences it.
 
 **Existing infrastructure.** LiteRev-Evidence is a working prototype of the full evidence-to-model pipeline (§2.2.4); WP1 and WP2 turn it into a validated instrument and test it. The legionellosis study (BASEC 2026-00324, ethics granted) supplies the contrasting archetype. **Computing:** UNIGE HPC and the University's secure environment for clinical data.
 
