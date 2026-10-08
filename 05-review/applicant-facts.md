@@ -645,6 +645,19 @@ and "L'hébergement à l'ISG" (independence guarantees, no cost, what stays at I
 includes the end-to-end question framing and the verified-loop end state. Signature plan
 UNCHANGED: Keiser contact person + Ray current director, target Tue 14 Oct.
 
+## 8 Oct, late: ONE simple neutral 2-page note replaces the variants (applicant order)
+
+Erol: the 2-pager must be simple, explain the project to professors and professionals, no
+sales pitch ("Ce que vous y gagnez" rejected, rightly). Done: 02-project-note.md (FR) and
+02-project-note-en.md (EN mirror) fully rewritten as the single neutral version: Le
+probleme / La question (end-to-end, one sentence, + one factual line on LiteRev-Evidence,
+GESICA cartography, legionellosis study) / Ce que je ferai (5 volets) / Comment ce sera
+teste (3 archetypes, two arms, open-data-first) / Les donnees (daily aggregates, CCER
+route, no ask) / Equipe et calendrier. The "institut" variant DELETED (one doc, two
+languages, for everyone: Keiser, Ray, Calmy, Teodoro EN, Desmettre, Larribau, readers).
+Both rebuilt and verified at exactly 2 pages, zero em-dash. The specific asks (letters,
+data) stay where they belong: in the email bodies.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:

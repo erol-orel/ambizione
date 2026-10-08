@@ -40,7 +40,7 @@ le projet de vive voix, quand cela t'arrange.
 Avec mes meilleures salutations,
 Erol
 
-*Pièces jointes : présentation du projet (2 pages, variante institutionnelle) ; projet de
+*Pièces jointes : présentation du projet (2 pages) ; projet de
 lettre de confirmation (pour information).*
 
 ---
