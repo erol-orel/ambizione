@@ -9,39 +9,39 @@ des créneaux réels à la place des placeholders.]]`
 
 Cher Thibaut, cher Robert,
 
-Merci pour la discussion d'aujourd'hui. Comme évoqué, je dépose le **3 novembre** une
-candidature **Ambizione** au FNS : COLDSTART, quatre ans, que je dirigerais comme requérant
-principal à l'Institut de santé globale. En deux mots : au début d'une crise, les données
-locales pour prévoir n'existent pas encore ; le projet teste si la littérature publiée,
-extraite et agrégée automatiquement, améliore réellement la prévision de la demande
-d'urgence - **144 en série d'issue principale**, urgences et soins intensifs en canaux
-complémentaires - et va jusqu'au système qui tourne automatiquement et se vérifie sur les
-issues observées. La présentation de deux pages jointe dit l'essentiel.
+J'espère que vous allez bien.
 
-C'est la suite directe de notre travail GESICA et, dans la perspective de **GESICA++**,
-l'occasion de construire un véritable **outil d'aide à la décision issu de l'UNIGE et des
-HUG** qui pourrait, comme discuté aujourd'hui, servir ensuite à d'autres hôpitaux et
-institutions. Je joins le rapport GESICA et l'inventaire des sources (Excel), et voici
-l'accès au nouveau **LiteRev-Evidence** pour vous faire une idée concrète de l'outil :
-`[[lien]]` (clé admin : `[[clé, ou envoyée séparément par SMS]]`).
+Comme évoqué lors du call, je dépose le 3 novembre une candidature Ambizione au FNS. En deux
+mots : au début d'une crise, les données locales pour prévoir n'existent pas encore ; le
+projet teste si la littérature publiée, extraite et agrégée automatiquement, améliore
+réellement la prévision de la demande d'urgence (appels 144, passages aux urgences,
+occupation des lits aux soins intensifs) et va jusqu'au système qui tourne automatiquement et
+se vérifie sur les issues observées. La présentation de deux pages jointe dit l'essentiel.
+C'est la suite directe du travail sur GESICA et, dans la perspective de GESICA++, l'occasion
+de construire un véritable outil d'aide à la décision issu de l'UNIGE et des HUG qui
+pourrait, comme discuté aujourd'hui, servir ensuite à d'autres hôpitaux et institutions. Je
+joins le rapport GESICA que j'ai fait dans le cadre de notre partie épidémiologique, avec
+l'inventaire des sources (Excel). Ce serait le point de départ du premier focus du projet :
+Influenza, Covid et RSV, puis les vagues de chaleur, puis la légionellose (sur laquelle je
+travaille en ce moment pour le médecin cantonal et les SIG). Voici aussi l'accès à la
+nouvelle plateforme LiteRev-Evidence, que je vous conseille de tester et de recommander
+autour de vous, car le prototype peut déjà être très utile dans de nombreux aspects d'un
+projet de recherche : [[lien]] (clé admin envoyée séparément).
 
-Ce dont j'ai besoin d'ici la **mi-octobre** : une **lettre de collaboration** chacun pour le
-dossier FNS. Le projet de lettre est joint et librement modifiable ; une précision propre au
-FNS : la lettre doit **se limiter à confirmer la collaboration et sa contribution concrète**,
-le FNS écartant les lettres qui soulignent les qualités du candidat ou les mérites du projet.
-Rien n'est demandé côté données à ce stade : si le projet est financé, l'accès passerait par
-la **voie officielle (CCER, moi comme requérant)**, précédée des accords institutionnels.
+De votre part, j'aurais simplement besoin d'une lettre de collaboration chacun pour le
+dossier FNS, idéalement d'ici la mi-octobre (draft ci-joint, modifiable si besoin ; seule
+contrainte du FNS : la lettre doit se limiter à confirmer la collaboration, sans éloge du
+candidat ni du projet, sinon elle est écartée). Rien n'est demandé côté données à ce stade :
+si le projet est financé, l'accès passerait par la voie officielle (CCER, moi comme
+requérant). Si vous voulez qu'on en discute plus en détail, je suis disponible à votre
+convenance.
 
-Si vous voulez qu'on en discute plus en détail (périmètre des extraits, catégories de motifs,
-profondeur historique, calendrier), je passe volontiers : `[[mardi 14 ou mercredi 15, à votre
-convenance]]` - dites-moi ce qui vous arrange. Un retour de principe d'ici le **lundi 13
-octobre** m'aiderait beaucoup, compte tenu du délai.
+Merci d'avance à vous deux,
 
-Merci à vous deux,
 Erol
 
 *PJ : présentation du projet (2 pages) ; projet de lettre de collaboration ; rapport GESICA ;
-inventaire des sources GESICA (Excel).*
+inventaire des sources GESICA (Excel)*
 
 ---
 
