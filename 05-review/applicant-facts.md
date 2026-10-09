@@ -698,6 +698,17 @@ mid-October, already drafted. Also offered a group-meeting presentation of the p
 AWAITING: his reply; chase Tue 14 if silent. Collaborator front: Desmettre/Larribau sent
 8 Oct, Teodoro sent 9 Oct; remaining sends = Ray (CC Keiser, signature path) and Calmy.
 
+## 9 Oct: ALL FIVE OUTREACH EMAILS SENT - the outreach front is closed
+
+Sent: (1) Desmettre + Larribau joint (8 Oct: note, simple letter draft, GESICA report +
+Excel, LiteRev link); (2) Teodoro (9 Oct: EN note, DS4DH letter draft, GESICA files,
+LiteRev link); (3) Ray, CC Keiser (9 Oct: note, SNSF template, SIGNABLE letter; signatures
+asked by Thu 16); (4) Calmy (9 Oct: note + letter PDF for info; LiteRev colloque offer).
+AWAITING, with chase dates (3 working days of silence = phone): Desmettre/Larribau
+in-principle replies (chase Tue 14); Teodoro reply (chase Tue 14); Ray + Keiser signatures
+(TARGET THU 16; if silent Tue 14, corridor conversation - Erol sees Olivia daily);
+Calmy: nothing expected. RGO form target: Fri 17 (hard Mon 19).
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:
