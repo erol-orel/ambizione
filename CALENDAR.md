@@ -11,7 +11,7 @@
 1. the detailed letter **signed by Keiser (contact person) and Ray (director)**;
 2. the **CV in SNSF format**;
 3. the **Statement of ethical risks** from declaration-ethique.unige.ch (UNIGE login).
-Working target: **form in by Thursday 15 October**, signatures by **Tuesday 14 October**.
+Working target (UPDATED 9 Oct, per the signature email): signatures by **Thursday 16 October**, **form in by Friday 17 October** (hard deadline Monday 19 is the last net, no slack).
 Every field pre-filled in `04-other-documents/rgo-form-inputs.md`; one gap: the **Dean of the
 Faculty of Medicine's name** (look it up on unige.ch/medecine).
 FNS hard deadline: Tuesday 3 November, 17:00.

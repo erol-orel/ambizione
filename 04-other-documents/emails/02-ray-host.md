@@ -12,70 +12,42 @@ confirmation écrite avec les documents.]]`
 
 Cher Nicolas,
 
-Je prépare une candidature au **subside Ambizione du FNS** (dernier appel, dépôt le
-**3 novembre 2026**) : un projet de quatre ans que je dirigerais en tant que requérant
-principal. Je souhaiterais que l'**Institut de santé globale en soit l'institution hôte**, et je
-viens vous demander la **signature de la confirmation d'hébergement au titre de la direction de
-l'institut**.
+Merci pour notre échange de cette semaine. Comme convenu, voici la confirmation écrite avec
+les documents : je dépose le 3 novembre une candidature au subside Ambizione du FNS (dernier
+appel), un projet de quatre ans que je dirigerais en tant que requérant principal, avec
+l'Institut de santé globale comme institution hôte, et je te demande la signature de la
+confirmation d'hébergement au titre de la direction de l'institut.
 
-Le projet part d'une question née du développement de LiteRev-Evidence : **au début d'une crise
-sanitaire, les données locales d'issue nécessaires à la prévision n'existent pas encore**, alors
-que c'est le moment où les décisions (capacité de réserve, réallocation des ambulances,
-escalade) sont les plus lourdes. La seule information quantitative disponible est la littérature
-publiée sur des événements analogues. Le projet détermine si cette littérature, extraite
-systématiquement, améliore réellement la prévision dans ce régime, et quand elle induit en
-erreur. Une page de présentation est jointe.
+En deux mots, pour mémoire : au début d'une crise sanitaire, les données locales nécessaires
+à la prévision n'existent pas encore ; le projet détermine si la littérature publiée,
+extraite et agrégée automatiquement, améliore réellement la prévision de la demande
+d'urgence, et va jusqu'au système qui tourne automatiquement et se vérifie sur les issues
+observées. Un résumé de deux pages est joint à cet email.
 
-**Pourquoi l'ISG.** L'expertise en maladies infectieuses et en extraction automatisée de
-l'évidence s'y trouve déjà, de même que les liens opérationnels dont le projet dépend (médecine
-d'urgence des HUG, CASU-144, services cantonaux) et l'étude légionellose en cours (BASEC
-2026-00324). Le volet de traitement automatique du langage se fera en collaboration avec le
-groupe du Prof. Teodoro, sans que cela modifie l'hébergement.
+Le FNS exige deux signatures : la personne de contact et le directeur de l'institut. Olivia,
+en copie, a accepté d'être la personne de contact - le draft de la lettre joint porte donc
+vos deux signatures (Olivia, peux-tu aussi le signer d'ici jeudi ?). J'ai par ailleurs
+vérifié : seule la personne de contact est limitée à une candidature par appel, pas
+l'institut qui héberge. Le service de soutien à la recherche de l'université exige le
+dossier complet (lettre signée comprise) au plus tard le lundi 19 octobre ; pour garder une
+marge, j'aimerais réunir les deux signatures si possible d'ici le jeudi 16 octobre. Le FNS
+exige aussi une déclaration sur l'autonomie du projet par rapport aux recherches en cours ;
+la lettre jointe délimite précisément COLDSTART (le nom de mon projet) de GESICA, GeoAI4EI
+et l'étude légionellose, les trois études dont je t'ai brièvement parlé. Comme discuté, il
+n'y a aucune implication financière pour l'institut : le FNS couvrirait mon salaire et un
+budget de projet (doctorants et post-doctorants exclus par les règles 2026).
 
-**La forme d'hébergement.** L'esprit d'Ambizione est l'indépendance scientifique : je
-conduirais à l'ISG un **programme de recherche indépendant**, aux côtés des groupes existants de
-l'institut, en collaboration étroite avec eux, y compris le groupe IDMM dans lequel je suis
-employé. Le FNS demande à l'institution hôte de garantir précisément cela : direction
-scientifique du projet par le requérant, sélection et supervision de ses collaborateurs,
-autorité sur le budget, publication en dernier auteur.
+Comme tu me l'as suggéré, je tiens également Alexandra Calmy informée du projet, qui
+courrait sous son mandat.
 
-**Concrètement.** Le modèle FNS (joint) exige deux signatures : la **personne de contact**
-(responsable du groupe de recherche) et la **direction de l'institut**. Olivia Keiser a été
-sollicitée comme personne de contact ; je vous demande la **signature au titre de directeur**.
-Trois précisions :
-
-1. **Délai.** Le RGO exige le dossier complet (lettre signée comprise) via son formulaire au
-   plus tard le **lundi 19 octobre**. Pour garder une marge, j'aimerais réunir les deux
-   signatures **d'ici le mardi 14 octobre**. Je prépare le projet de lettre sur le modèle FNS,
-   il n'y a rien à rédiger de votre côté.
-2. **Autonomie du projet.** Le modèle exige une déclaration sur l'autonomie du projet par
-   rapport aux recherches en cours dans l'institution. Je vous fournirai un tableau de
-   délimitation précis vis-à-vis de GESICA, GeoAI4EI et l'étude légionellose, pour que la lettre
-   et le dossier disent exactement la même chose.
-3. **Aucune implication financière pour l'institut** : le FNS couvre mon salaire et un budget de
-   projet (collaborateur scientifique/technique possible ; doctorants et post-doctorants exclus
-   par les règles 2026). Le subside représenterait le premier poste où l'intégralité de mon
-   temps de recherche est consacrée à un programme dont je suis le responsable : la transition
-   de carrière que l'instrument est censé financer.
-
-Olivia, en copie, a accepté d'être la **personne de contact** et m'a confirmé qu'aucune autre
-candidature ne la sollicite pour cet appel (exigence du règlement, art. 8 al. 6) : le projet
-de lettre joint porte donc vos deux signatures. Olivia, peux-tu également le signer d'ici
-mardi 14 ?
-
-Comme tu me l'as suggéré, je tiens également **Alexandra Calmy informée** du projet, avec les
-mêmes documents, pour que la transition à la direction de l'Institut se fasse en pleine
-connaissance de cause ; l'engagement d'hébergement est institutionnel et courrait sous son
-mandat.
-
-Je passe volontiers vous en parler de vive voix cette semaine ; une réponse de principe d'ici le
-**jeudi 9 octobre** me permettrait de caler la signature la semaine prochaine.
+On en reparle volontiers la semaine prochaine si besoin.
 
 Avec mes meilleures salutations,
+
 Erol
 
-*Pièces jointes : présentation du projet (2 pages) ; modèle FNS de confirmation d'hébergement ;
-projet de lettre prêt à signer.*
+*PJ : résumé du projet (2 pages) ; modèle FNS de confirmation d'hébergement ; draft de la
+lettre.*
 
 ---
 
