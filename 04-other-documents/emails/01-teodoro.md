@@ -10,38 +10,42 @@ Dear Douglas,
 
 I hope you are doing well.
 
-I am submitting an **SNSF Ambizione** application on **3 November**: COLDSTART, a four-year
-project I would lead as principal investigator at the Institute of Global Health. In short:
+As you already know, I am submitting an SNSF Ambizione application on 3 November. In short:
 at the onset of a crisis, the local data needed to forecast do not yet exist; the project
 tests whether the published literature, automatically extracted and pooled, actually improves
 emergency-demand forecasting (144 calls, ED presentations, ICU bed occupancy), all the way to
 a system that runs automatically and verifies itself against observed outcomes. The attached
-two-page summary says the essentials. It is the direct continuation of our GESICA work and,
-in the GESICA++ perspective, a step towards a real decision-support tool from UNIGE and the
-HUG that could later serve other hospitals and institutions. I attach the GESICA report I
-prepared for our epidemiological part, with the source inventory (Excel). Here is also access
-to the new **LiteRev-Evidence** platform, which I encourage you to test and recommend around
-you, as the prototype can already be useful in many aspects of a research project:
-`[[link]]` (admin key sent separately).
+two-page summary says the essentials. It is the direct continuation of the GESICA work and,
+as discussed yesterday, in the GESICA++ perspective, a step towards a real decision-support
+tool from UNIGE and the HUG that could later serve other hospitals and institutions. I also
+attach the latest GESICA report I prepared for our epidemiological part, with the source
+inventory (Excel). Finally, we haven't found the time to discuss the new LiteRev-Evidence
+platform, and I would be happy to come to one of your group meetings to present it to the
+people interested and discuss synergies: https://literev-scenario.com/ (admin key sent
+separately).
 
-**The DS4DH-specific part.** WP1 builds a manually adjudicated benchmark of quantitative
-extraction from 300 publications and characterises where automated extraction loses the
-dispersion a calibrated prior needs: biomedical NLP and information retrieval, exactly where
-your group's expertise matters. Nothing beyond scientific exchange is required. And to be
-transparent, as we discussed earlier: the host will be the **Institute of Global Health**,
-where the emergency-system partnerships and the legionellosis linkage are anchored; the
-application states clearly that GESICA and COLDSTART are distinct undertakings.
-
-From your side, I would simply need a **letter of support confirming the WP1 collaboration**,
-ideally by mid-October (I can draft it if that saves you time; the SNSF's only constraint:
-the letter must confirm the collaboration, without praising the applicant or the project,
-otherwise it is set aside). Separately from the grant, I would still value your view on the
-formal route to supervising doctoral students. Happy to discuss any of this whenever suits
-you.
+To come back to the Ambizione application, WP1 builds a manually adjudicated benchmark of
+quantitative extraction from hundreds of publications and characterises where automated
+extraction loses the dispersion a calibrated prior needs, and I think your group's expertise
+matters here. Nothing beyond scientific exchange is required. The host will be the Institute
+of Global Health. From your side, I would simply need a letter of support confirming the WP1
+collaboration, ideally by mid-October; I have already drafted and enclosed it (the SNSF
+requires it to stay factual, no praise). Happy to discuss any of this whenever suits you.
 
 Many thanks,
 
 Erol
 
-*Attachments: two-page project summary (English); GESICA report; GESICA source inventory
-(Excel).*
+*Attachments: two-page project summary; GESICA report; GESICA source inventory (Excel);
+draft letter of support.*
+
+---
+
+## Notes for the applicant (not part of the email)
+
+- This is Erol's own version (9 Oct), corrected: admin key moved out of the body ("sent
+  separately"; Erol may reinstate it inline at his own choice - if so, rotate the key after
+  the campaign, since the email will be forwarded for the group-meeting invitation); the FNS
+  no-praise parenthesis restored; the DS4DH letter draft (03c) is attached already filled.
+- The admin key was shared in the working chat on 9 Oct: consider rotating it after
+  submission regardless of channel.
