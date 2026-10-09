@@ -690,6 +690,14 @@ updated; 08-keiser.md marked superseded, kept for the record). Remaining signatu
 ONE email (Ray, CC Keiser, attachments: Erol's 2-page note + SNSF template + ready-to-sign
 letter), then Calmy info email.
 
+## 9 Oct: EMAIL SENT to Teodoro (Erol's version, EN)
+
+Sent with: EN 2-page note, GESICA report + Excel, DS4DH draft letter (Erol's edit, tense
+fixed), LiteRev-Evidence link (key handling per his choice). Ask: WP1 letter of support by
+mid-October, already drafted. Also offered a group-meeting presentation of the platform.
+AWAITING: his reply; chase Tue 14 if silent. Collaborator front: Desmettre/Larribau sent
+8 Oct, Teodoro sent 9 Oct; remaining sends = Ray (CC Keiser, signature path) and Calmy.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:
