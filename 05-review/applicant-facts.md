@@ -709,6 +709,23 @@ in-principle replies (chase Tue 14); Teodoro reply (chase Tue 14); Ray + Keiser 
 (TARGET THU 16; if silent Tue 14, corridor conversation - Erol sees Olivia daily);
 Calmy: nothing expected. RGO form target: Fri 17 (hard Mon 19).
 
+## 9 Oct: UNIGE ethics declaration DONE (Declaration no 721, 09.10.2026, archived)
+
+RGO attachment 3 is in hand (04-other-documents/declaration-ethique-unige-721.pdf).
+Content: Coldstart, Medecine, 01.09.2027-31.08.2031; "Integrite scientifique" = OUI;
+all other domains NON, including BOTH LRH questions. Erol chose the defensible-minimal
+path (design uses only anonymised daily aggregates, no individual data -> outside LRH),
+NOT the pre-drafted "yes + risk outline" path. Two coherence points flagged to Erol:
+(1) the plan's CCER submission is precisely the instrument that will settle LRH
+applicability - if the CCER later concludes Art. 34 LRH applies, update this declaration
+then (declarations reflect design intent and can be amended); keep the "aucune donnee
+individuelle" language consistent everywhere meanwhile. (2) The year-4 legionellosis
+extension touches the LINKED case-environment data governed by BASEC 2026-00324 (an
+LRH-approved study): that work must formally run under that study's approval (or its
+amendment), with COLDSTART contributing methods - worth one sentence of clarity in the
+CCER package, not in the plan. RGO-form status: attachment 1 = signed letter (awaiting
+Keiser+Ray, target Thu 16); attachment 2 = SNSF CV (to build); attachment 3 = DONE.
+
 ## Next empirical task: the episode inventory
 
 Not writable from here; it needs the data. Build, for each candidate episode:
