@@ -12,36 +12,36 @@ signature line stays with Keiser (contact person) and Ray (current director).]]`
 
 Chère Alexandra,
 
-Toutes mes félicitations, d'abord, pour la direction de l'Institut de santé globale. Nicolas
-m'a suggéré de te tenir informée de ce qui suit, et je tenais de toute façon à ce que tu
-l'apprennes directement de moi.
+J'espère que tu vas bien.
 
-Je dépose le **3 novembre** une candidature au **subside Ambizione du FNS** (dernier appel de
-l'instrument) : COLDSTART, un projet de quatre ans que je conduirais comme requérant principal,
-hébergé par l'Institut. Le projet part d'une question née du développement de LiteRev, que tu
-connais bien : au début d'une crise sanitaire, les données locales nécessaires à la prévision
-n'existent pas encore, et la seule information quantitative disponible est la littérature
-publiée sur des événements analogues. Le projet détermine si cette littérature, extraite et
-agrégée automatiquement, améliore réellement la prévision de la demande d'urgence dans ce
-régime, quand elle induit en erreur, et si la chaîne complète peut tourner automatiquement,
-vérifiée sur les issues observées. Une présentation de deux pages est jointe.
+Nicolas m'a suggéré de te tenir informée de ce qui suit, et je tenais de toute façon à ce
+que tu l'apprennes directement de moi.
 
-Côté formel, tout est en route avec la configuration actuelle : la confirmation d'hébergement
-suit le modèle FNS et sera signée par **Olivia Keiser (personne de contact)** et **Nicolas Ray
-(directeur)** d'ici le 14 octobre, pour le dossier interne du Research Grants Office (délai du
-19 octobre). Je joins le projet de lettre pour ta complète information : l'engagement est
-institutionnel, et si le subside est accordé, le projet (septembre 2027 à 2031) courrait sous
-ton mandat ; il me semblait donc normal que tu en aies les termes exacts dès maintenant.
+Je dépose le 3 novembre une candidature au subside Ambizione du FNS : un projet de quatre
+ans que je conduirais au sein de l'Institut. Le projet part d'une question née du
+développement de LiteRev, que tu connais bien : au début d'une crise sanitaire, les données
+locales nécessaires à la prévision n'existent pas encore, et la seule information
+quantitative disponible est la littérature publiée sur des événements analogues. Le projet
+détermine si cette littérature, extraite et agrégée automatiquement, améliore réellement la
+prévision de la demande d'urgence dans ce régime, quand elle induit en erreur, et si la
+chaîne complète peut tourner automatiquement, vérifiée sur les issues observées. Un résumé
+de 2 pages est joint à cet email.
 
-**Rien n'est attendu de toi avec ce message** : la voie formelle est celle de Nicolas et du
-RGO, et je ne t'en charge d'aucune manière. Je serais en revanche très heureux de te présenter
-le projet de vive voix, quand cela t'arrange.
+Côté administratif, j'ai préparé la confirmation d'hébergement suivant le modèle FNS et
+celle-ci sera signée par Olivia (personne de contact) et Nicolas (directeur) pour le dossier
+interne du Research Grants Office (délai au 19 octobre). Je te joins la lettre pour info. Si
+le subside est accordé, le projet (septembre 2027 à 2031) courrait sous ton mandat ; il me
+semblait donc normal que tu en aies les termes exacts dès maintenant.
+
+Rien n'est attendu de toi avec ce message. Je serais en revanche très heureux de te
+présenter le projet de vive voix, quand cela t'arrange, ou encore mieux, de venir présenter
+la nouvelle version de LiteRev à un de tes colloques prochainement.
 
 Avec mes meilleures salutations,
+
 Erol
 
-*Pièces jointes : présentation du projet (2 pages) ; projet de
-lettre de confirmation (pour information).*
+*PJ : résumé du projet (2 pages, PDF) ; lettre de confirmation (PDF, pour information).*
 
 ---
 
