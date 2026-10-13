@@ -3,7 +3,7 @@
 > The .docx in this folder is Erol's edited version and is the file actually sent; this .md
 > mirrors its text for tracking. If the text changes again, update BOTH.
 
-**COLDSTART - Prévoir et quantifier les crises sanitaires quand les données locales manquent**
+**COLDSTART - Prévoir les crises sanitaires grâce aux données publiées, avant que les données locales n'existent**
 
 Candidature Ambizione FNS (dépôt : 3 novembre 2026) · Requérant : Dr Erol Orel · Hôte :
 Institut de santé globale, Faculté de médecine, UNIGE · Durée : 4 ans

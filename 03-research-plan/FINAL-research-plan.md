@@ -5,7 +5,7 @@
 
 ---
 
-**COLDSTART: Anticipating and quantifying health-system crises before the outcome is observable**
+**COLDSTART: Using published evidence to forecast health-system crises before local data exist**
 
 # 1. Summary
 
