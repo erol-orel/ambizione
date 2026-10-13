@@ -762,5 +762,7 @@ morning at the latest.
   asked, nothing owed. Good basis for the offered LiteRev colloquium presentation.
 - **Prof. Douglas Teodoro replied** positively and **SIGNED the DS4DH letter of support** (WP1).
   Plan table (§2.4 commitments) flipped: DS4DH = **Secured**, "Letter of support signed"
-  (15 pages / 50,710 chars re-verified). TODO: archive the signed PDF in
-  `04-other-documents/data-access/signed/`; upload in mySNF under "Other annexes".
+  (15 pages / 50,710 chars re-verified). Signed PDF ARCHIVED 13 Oct: `04-other-documents/data-access/signed/2026-10-12-ds4dh-teodoro-letter-of-support-SIGNED.pdf`
+  (UNIGE letterhead, dated Geneva 12 Oct 2026, 1 page, handwritten signature; text identical to
+  the agreed draft, no praise of applicant or project: Guidelines 2.17 compliant). Signatory
+  title on the letter: Assistant Professor. Upload in mySNF under "Other annexes" (by 3 Nov).
