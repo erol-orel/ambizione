@@ -766,3 +766,15 @@ morning at the latest.
   (UNIGE letterhead, dated Geneva 12 Oct 2026, 1 page, handwritten signature; text identical to
   the agreed draft, no praise of applicant or project: Guidelines 2.17 compliant). Signatory
   title on the letter: Assistant Professor. Upload in mySNF under "Other annexes" (by 3 Nov).
+
+## 13 Oct: FACT - RGO answers (Dr Roxana Vicovanu Bota)
+
+Applicant salary per year: 19/12 131,330; 19/13 132,379; 19/14 133,428; 19/15 134,477; RGO
+advises entering the average, **CHF 132,903.50** (HR validates after award). Social charges
+23%, auto-calculated in mySNF. Ambizione grantees employed as **collaborateur/trice
+scientifique II, class 19**. Budget: justify each line in "remarques" with plan-section
+references; eligible lines include 2–3 conferences/year, mobility, workshops, ARE (≤40%),
+IT services. No accepted-project examples from the RGO (ask in the host department).
+Relecture: first come, first served, finished versions. NOT ANSWERED: support-personnel
+rate (absent from the sent email) - follow-up drafted in `emails/00b-rgo-followup.md`, which
+also sends the plan for relecture. All recorded in `budget.md`.

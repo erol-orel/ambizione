@@ -43,6 +43,47 @@ percentage - the plan's task justification (benchmark, pipeline, reproducibility
 M3–M42 anyway. Update §2.3.3.3 and §2.4 of the plan in the same pass. The mySNF budget is
 line-item and frozen at submission.
 
+## RGO answers (Dr Roxana Vicovanu Bota, Research and Grants Office, 13 Oct 2026)
+
+**Applicant salary (UNIGE scale, Etat de Genève; to be validated by HR):**
+
+| Project year | Class/annuité | Gross at 100% (CHF) |
+| --- | --- | ---: |
+| Year 1 (Sep 2027–Aug 2028) | 19/12 | 131,330 |
+| Year 2 | 19/13 | 132,379 |
+| Year 3 | 19/14 | 133,428 |
+| Year 4 | 19/15 | 134,477 |
+| **Average (RGO advice: enter the average)** | | **132,903.50** |
+
+- **Enter in mySNF: CHF 132,904/year** (the RGO-advised average; it is the applicant's own scale
+  figure, above the indicative 115k, so it also satisfies the SNSF's "enter the maximum"
+  advice). If mySNF asks year by year, enter the four exact figures instead.
+- **Social charges: 23% in Geneva, calculated automatically by mySNF** (do not add them by
+  hand). For reference: ~CHF 163,471/year all-in, ~CHF 653,885 over four years.
+- If funded, HR confirms the exact salary to the SNSF before funds are released.
+- **Status at UNIGE:** Ambizione grantees are employed as **collaborateur/trice scientifique II,
+  class 19**.
+- (Her text says "19/11 in 2027-2028" but her table starts at 19/12; the table is what she
+  computed per project year and is used here. HR settles it after award.)
+
+**Budget-entry guidance (RGO):** anticipate expenses as far as possible; in each category's
+**"remarques" box, justify the amount and point to the plan sections** that motivate it (e.g.
+§2.3.3 workplan, §2.4 resources, §2.5 schedule). Typical eligible lines: travel for research
+outside Geneva; mobility stays (transport, accommodation); **2–3 conferences per year**;
+workshop organisation; **ARE (auxiliaires de recherche et d'enseignement, master's students,
+max 40%)**; IT services (database, developer). Precise lines (salaries) precise; conference
+travel may be estimated.
+
+**Still missing: the support-personnel rate** (the question was not in the sent email). The
+50%×48 decision rule below cannot run without it. Follow-up drafted:
+`emails/00b-rgo-followup.md`. Idea from the RGO list: the **second independent extractor
+(M3–M9) as an ARE** (master's student, ≤40%) fits T1.2 exactly and is cheap; the plan's wording
+("separately contracted independent extractor") already covers it, no plan change needed.
+
+**Relecture:** first come, first served, finished versions only (Dr Vicovanu Bota and
+Christiane Bezuchet). The plan is frozen and complete: send it now, not after the reader round.
+**Accepted-project examples:** not provided by the RGO; ask in the host department.
+
 ## Rules taken from the call documents
 
 - **Ceiling: CHF 250,000 for four years** (Art. 10 §4), i.e. ~CHF 62,500/year. Pro-rated if shorter.
