@@ -1,6 +1,6 @@
 # Two-page project note (EN) - mirror of Erol's final French version (8 Oct)
 
-**COLDSTART: Using published evidence to forecast health-system crises before local data exist**
+**COLDSTART: Using published evidence to forecast health-system crises when local outcome data are still too scarce**
 
 SNSF Ambizione application (submission: 3 November 2026) · Applicant: Dr Erol Orel · Host:
 Institute of Global Health, Faculty of Medicine, University of Geneva · Duration: 4 years

@@ -804,3 +804,28 @@ letter draft md/docx + SIGNABLE docx/pdf (2 pages), rgo-form-inputs.md, both 2-p
 md/docx/pdf (2 pages each). Unaffected: signed DS4DH letter and HUG/144 letter (they say
 "projet COLDSTART" only). RESOLVED 13 Oct: Erol will have the NEW-title letter
 (lettre-confirmation-isg-SIGNABLE, regenerated) signed; no revert needed.
+
+## 13 Oct: WHOLE PLAN RESTYLED in the applicant's style (applicant order)
+
+Erol supplied his own title + summary opening and asked for the entire application in the same
+style: plain words, no colons or semicolons inside sentences, short sentences, verbs over noun
+chains. NEW TITLE: "COLDSTART: Using published evidence to forecast health-system crises when
+local outcome data are still too scarce" (propagated: plan, confirmation letter draft +
+SIGNABLE docx/pdf, rgo-form-inputs, both 2-page notes; FR note: "...quand les données locales
+manquent encore"). His summary text kept verbatim except one grammar fix ("worse than none,
+and it is most influential..."). All sections 00-07 rewritten; science unchanged: every
+hypothesis, number, rule, threshold, task, deliverable and all 47 citations identical (diffed).
+Terminology: "archetype" -> "crisis type", "latent" -> "hidden", "rolling-origin" -> "replay day
+by day", "CRPS" explained once. Figures relabelled to match (HIDDEN STATE MODEL, no semicolons,
+T3.2 "rebuilding past information", T3.5 "generalisation across crisis types").
+To stay within the SNSF 15-page rule (Guidelines: 15 A4 pages AND 60,000 chars; verified at
+15 pages / 51,320 chars), repetitions were removed, nothing unique to one place:
+(1) "What the project does not claim" section removed (no-steering covered in summary and T4.3,
+falsifiability in summary; the "does not compete with hubs where data are plentiful" point moved
+into 2.1.5); (2) 2.3.1 aim paragraph merged with the H3a lead-in; (3) 2.5 "Where this points
+operationally" merged into "Practical and societal impact"; (4) duplicate legionellosis
+sentence in 2.3.3 dropped (kept in 2.2.5 and the table); (5) primary-endpoint opening sentence
+dropped (stated in 2.3.1 and Test 1); (6) "no fourth operational domain" line dropped ("and no
+more" kept); (7) "Ambizione consolidates my research time" dropped; (8) table cells shortened;
+(9) methods/data-protection paragraph compressed to one sentence. Pre-restyle originals kept in
+git (commit before this one) for any rollback.

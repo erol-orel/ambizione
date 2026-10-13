@@ -21,7 +21,7 @@ Target: submit **Thursday 15 October**, leaving the weekend and Monday as buffer
 | Dean of the Host Faculty | Professor Antoine Geissbühler |
 | Director of the Host Department | Professor Nicolas Ray |
 | Contact person at the Host Department | Professor Olivia Keiser |
-| Project Title | COLDSTART: Using published evidence to forecast health-system crises before local data exist |
+| Project Title | COLDSTART: Using published evidence to forecast health-system crises when local outcome data are still too scarce |
 
 ## The 300-character summary (2 sentences + integration; goes into the vice-rector's letter)
 

@@ -40,13 +40,13 @@
 <rect x="407.2916666666667" y="240.0" width="198.79166666666669" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
 <text x="44" y="270.5" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.1 retrospective information set</text>
 <rect x="575.5" y="258.5" width="122.33333333333337" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="289.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.2 information-set reconstruction</text>
+<text x="44" y="289.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.2 rebuilding past information</text>
 <rect x="667.25" y="277.0" width="183.5" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
 <text x="44" y="307.5" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.3 model library + automated selection</text>
 <rect x="697.8333333333334" y="295.5" width="214.08333333333337" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
 <text x="44" y="326.0" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.4 benefit + failure map</text>
 <rect x="820.1666666666667" y="314.0" width="152.91666666666652" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="44" y="344.5" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.5 cross-archetype generalisation</text>
+<text x="44" y="344.5" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.5 generalisation across crisis types</text>
 <rect x="911.9166666666667" y="332.5" width="122.33333333333326" height="15" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
 <text x="0" y="368.0" font-family="Helvetica, Arial, sans-serif" font-size="17.5" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP4</text>
 <rect x="759.0" y="367.0" width="367.0" height="5" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>

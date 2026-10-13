@@ -11,7 +11,8 @@
   check `draft/wordcount.sh`) AND **15 A4 pages at minimum 10pt with 1.5 line spacing**,
   bibliography excluded from both (check `draft/pagecheck.sh`). The page cap is the tighter
   one; the plan is FROZEN at 50,276 characters / exactly 15 pages (7 Oct, commit 06b7e11, after 18
-  external audit rounds; margins at the declared floor, ~1.0 cm top/bottom, 1.2 cm sides). Any addition must re-verify pages. `draft/make-submission.sh` builds the formatted docx/PDF.
+  external audit rounds; restyled in plain language on 13 Oct at the applicant's request, 51,320
+  characters / exactly 15 pages, science unchanged; margins at the declared floor, ~1.0 cm top/bottom, 1.2 cm sides). Any addition must re-verify pages. `draft/make-submission.sh` builds the formatted docx/PDF.
 - Never invent citations or author lists; flag what cannot be verified.
 - No model identifiers in committed artifacts. Commit messages end with the attribution footer
   given in the session instructions.

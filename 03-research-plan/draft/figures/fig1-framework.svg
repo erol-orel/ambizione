@@ -21,7 +21,7 @@
 <text x="16" y="288" font-family="Helvetica, Arial, sans-serif" font-size="18.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">ICU occupancy</text>
 <text x="16" y="315" font-family="Helvetica, Arial, sans-serif" font-size="18.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">weather + surveillance</text>
 <rect x="390" y="176" width="380" height="240" rx="6" fill="white" stroke="#1a1a1a" stroke-width="1.8"/>
-<text x="580.0" y="206" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">LATENT STATE MODEL (WP2)</text>
+<text x="580.0" y="206" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">HIDDEN STATE MODEL (WP2)</text>
 <rect x="406" y="222" width="132" height="36" rx="4" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
 <text x="472" y="247" font-family="Helvetica, Arial, sans-serif" font-size="18.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">routine</text>
 <text x="548" y="247" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">below P75</text>
@@ -40,29 +40,29 @@
 <rect x="1040" y="38" width="300" height="152" rx="6" fill="white" stroke="#1a1a1a" stroke-width="1.8"/>
 <text x="1190.0" y="64" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">MODEL LIBRARY (WP3)</text>
 <text x="1190.0" y="89" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">baselines, surveillance, ML,</text>
-<text x="1190.0" y="110" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">regime; mechanistic models</text>
+<text x="1190.0" y="110" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">regime, transmission models</text>
 <text x="1190.0" y="131" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">for epidemic crises only</text>
-<text x="1190.0" y="152" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">assumption + validity checks;</text>
+<text x="1190.0" y="152" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">assumption + validity checks,</text>
 <text x="1190.0" y="173" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">automated champion per arm</text>
 <line x1="719" y1="84" x2="1036" y2="84" stroke="#1f5f8b" stroke-width="2.2" marker-end="url(#a)"/>
 <line x1="774" y1="230" x2="1036" y2="160" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
 <line x1="1190.0" y1="194" x2="1190.0" y2="222" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
 <rect x="1040" y="226" width="300" height="132" rx="5" fill="#e3edf4" stroke="#1f5f8b" stroke-width="1.4"/>
 <text x="1190.0" y="252" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">DECISIONS (WP4)</text>
-<text x="1190.0" y="277" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">elicited thresholds;</text>
+<text x="1190.0" y="277" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">elicited thresholds,</text>
 <text x="1190.0" y="298" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">net benefit, not accuracy alone</text>
-<text x="1190.0" y="322" font-family="Helvetica, Arial, sans-serif" font-size="17.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">demand-based daily dashboard,</text>
+<text x="1190.0" y="322" font-family="Helvetica, Arial, sans-serif" font-size="17.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">daily demand dashboard,</text>
 <text x="1190.0" y="343" font-family="Helvetica, Arial, sans-serif" font-size="17.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">observation mode</text>
 <line x1="774" y1="300" x2="1036" y2="300" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
 <rect x="1040" y="386" width="300" height="130" rx="6" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
 <text x="1190.0" y="412" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">LIVING EVIDENCE MONITOR</text>
-<text x="1190.0" y="436" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">daily literature check;</text>
+<text x="1190.0" y="436" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">daily literature check,</text>
 <text x="1190.0" y="457" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">new evidence revises priors,</text>
-<text x="1190.0" y="478" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">variables, thresholds, models:</text>
-<text x="1190.0" y="499" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">registered update rules only</text>
+<text x="1190.0" y="478" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">variables, thresholds, models</text>
+<text x="1190.0" y="499" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">by registered rules only</text>
 <line x1="1190.0" y1="362" x2="1190.0" y2="382" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)" stroke-dasharray="6,5"/>
 <path d="M 1344 451 L 1372 451 L 1372 16 L 715 16 L 715 32" fill="none" stroke="#4e4e4e" stroke-width="2.2" stroke-dasharray="6,5" marker-end="url(#a)"/>
-<text x="0" y="446" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">H3a, THE TEST (WP3):  skill advantage of evidence use, by elapsed local data</text>
+<text x="0" y="446" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">H3a, THE TEST (WP3), skill advantage of evidence use as local data accumulate</text>
 <line x1="64" y1="534" x2="624" y2="534" stroke="#1a1a1a" stroke-width="1.6"/>
 <line x1="64" y1="460" x2="64" y2="534" stroke="#1a1a1a" stroke-width="1.6"/>
 <path d="M 64 476 C 214 480 364 498 624 508" fill="none" stroke="#1f5f8b" stroke-width="3.4"/>

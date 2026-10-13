@@ -80,7 +80,7 @@ def fig1():
     # --- state model (centre) with threshold anchors ---
     mx0, my0, mw = 390, 176, 380
     s.append(box(mx0, my0, mw, 240, "white", INK, 6, 1.8))
-    s.append(text(mx0 + mw / 2, my0 + 30, "LATENT STATE MODEL (WP2)", 21, ACCENT, "middle", "bold"))
+    s.append(text(mx0 + mw / 2, my0 + 30, "HIDDEN STATE MODEL (WP2)", 21, ACCENT, "middle", "bold"))
     states = [("routine", "below P75", 0), ("elevated", "P75 to P90", 1),
               ("strained", "P90–P97.5 or ICU > 85%", 2), ("critical", "above P97.5 / saturation", 3)]
     for nm, anchor, i in states:
@@ -99,9 +99,9 @@ def fig1():
     s.append(box(lx, 38, lw, 152, "white", INK, 6, 1.8))
     lib = [("MODEL LIBRARY (WP3)", 19, ACCENT, "bold", 64),
            ("baselines, surveillance, ML,", 17, MUTE, "normal", 89),
-           ("regime; mechanistic models", 17, MUTE, "normal", 110),
+           ("regime, transmission models", 17, MUTE, "normal", 110),
            ("for epidemic crises only", 17, MUTE, "normal", 131),
-           ("assumption + validity checks;", 17, INK, "normal", 152),
+           ("assumption + validity checks,", 17, INK, "normal", 152),
            ("automated champion per arm", 17, INK, "bold", 173)]
     s.append(box(lx, 38, lw, 152, "white", INK, 6, 1.8))
     for txt, size, col, w8, yy in lib:
@@ -114,9 +114,9 @@ def fig1():
     # --- decision layer (right) ---
     s.append(box(lx, 226, lw, 132, ACCENT_BG, ACCENT))
     dec = [("DECISIONS (WP4)", 19, ACCENT, "bold", 252),
-           ("elicited thresholds;", 17, MUTE, "normal", 277),
+           ("elicited thresholds,", 17, MUTE, "normal", 277),
            ("net benefit, not accuracy alone", 17, MUTE, "normal", 298),
-           ("demand-based daily dashboard,", 17.5, INK, "bold", 322),
+           ("daily demand dashboard,", 17.5, INK, "bold", 322),
            ("observation mode", 17.5, INK, "bold", 343)]
     for txt, size, col, w8, yy in dec:
         fits(txt, size, lw - 10, bold=(w8 == "bold"))
@@ -126,10 +126,10 @@ def fig1():
     # --- living evidence monitor (bottom right) ---
     s.append(box(lx, 386, lw, 130, FILL, LINE, 6))
     mon = [("LIVING EVIDENCE MONITOR", 18, INK, "bold", 412),
-           ("daily literature check;", 17, MUTE, "normal", 436),
+           ("daily literature check,", 17, MUTE, "normal", 436),
            ("new evidence revises priors,", 17, MUTE, "normal", 457),
-           ("variables, thresholds, models:", 17, MUTE, "normal", 478),
-           ("registered update rules only", 17, INK, "normal", 499)]
+           ("variables, thresholds, models", 17, MUTE, "normal", 478),
+           ("by registered rules only", 17, INK, "normal", 499)]
     for txt, size, col, w8, yy in mon:
         fits(txt, size, lw - 14, bold=(w8 == "bold"))
         s.append(text(lx + lw/2, yy, txt, size, col, "middle", w8))
@@ -139,7 +139,7 @@ def fig1():
 
     # --- H3a sketch (bottom left, below the state model) ---
     iy = 446
-    s.append(text(0, iy, "H3a, THE TEST (WP3):  skill advantage of evidence use, by elapsed local data",
+    s.append(text(0, iy, "H3a, THE TEST (WP3), skill advantage of evidence use as local data accumulate",
                   19, INK, weight="bold"))
     px, py, pw, ph = 64, iy + 14, 560, 74
     s.append(f'<line x1="{px}" y1="{py+ph}" x2="{px+pw}" y2="{py+ph}" stroke="{INK}" stroke-width="1.6"/>')
@@ -175,10 +175,10 @@ WPS = [
     ("WP3", 1, 42, [
         ("T3.0 outcome hierarchy + registration", 1, 14),
         ("T3.1 retrospective information set", 12, 20),
-        ("T3.2 information-set reconstruction", 18, 30),
+        ("T3.2 rebuilding past information", 18, 30),
         ("T3.3 model library + automated selection", 20, 34),
         ("T3.4 benefit + failure map", 28, 38),
-        ("T3.5 cross-archetype generalisation", 34, 42)]),
+        ("T3.5 generalisation across crisis types", 34, 42)]),
     ("WP4", 24, 48, [
         ("T4.1 losses + thresholds (SHELF)", 24, 32),
         ("T4.2 decision analysis + equity audit", 30, 40),
