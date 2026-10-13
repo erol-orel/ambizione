@@ -15,3 +15,8 @@
 - Never invent citations or author lists; flag what cannot be verified.
 - No model identifiers in committed artifacts. Commit messages end with the attribution footer
   given in the session instructions.
+- **Applicant's style preference (13 Oct): simple, plain terms.** When proposing rewordings for
+  the own-words pass, prefer everyday words that are easy to grasp over technical shorthand
+  (e.g. "checked against what then happens" rather than "prospectively verified against observed
+  outcomes"), while keeping the exact meaning. Keep a technical term only where it is the
+  field's precise word and no plain equivalent exists; then explain it once.
