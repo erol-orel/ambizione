@@ -30,7 +30,7 @@
 >
 > Prose edits after this point only if forced by one of the six items above.
 >
-> **Day-by-day pacing: `CALENDAR.md` v3** (signatures by Tue 14 Oct; **Formulaire RGO by
+> **Day-by-day pacing: `CALENDAR.md` v3** (signatures by Thu 15 Oct, Fri 16 at the latest; **Formulaire RGO by
 > Mon 19 Oct, hard**; readers 13 → 23 Oct; submission target **Thu 29 Oct**). CCER package in
 > `04-other-documents/ccer/`; every RGO form answer pre-filled in
 > `04-other-documents/rgo-form-inputs.md`.
@@ -49,7 +49,7 @@ confirmatory testing (respiratory primary, heat sequential).
       statement; answers pre-filled in `rgo-form-inputs.md`. Remaining RGO questions (salary
       class 19/9, support-personnel rates, declarations, accepted-project examples, relecture
       slot): `emails/00-rgo.md`.
-- [ ] **⚠ Host confirmation, two signatures by Tue 14 Oct:** **Keiser (contact person) + Ray
+- [ ] **⚠ Host confirmation, two signatures by Thu 15 Oct (Fri 16 latest):** **Keiser (contact person) + Ray
       (director)**, ready-to-sign draft in `lettre-confirmation-isg-draft.md` (letterhead!).
       Ask Keiser the Art. 8 §6 slot question first (`emails/08-keiser.md`); Ray ask in
       `emails/02-ray-host.md`.

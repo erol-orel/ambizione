@@ -11,7 +11,7 @@
 1. the detailed letter **signed by Keiser (contact person) and Ray (director)**;
 2. the **CV in SNSF format**;
 3. the **Statement of ethical risks** from declaration-ethique.unige.ch (UNIGE login).
-Working target (UPDATED 9 Oct, per the signature email): signatures by **Thursday 16 October**, **form in by Friday 17 October** (hard deadline Monday 19 is the last net, no slack).
+Working target (CORRECTED 13 Oct: the signature email said "jeudi 16 octobre", but 16 Oct is a FRIDAY and 17 Oct a Saturday): signatures by **Thursday 15 / Friday 16 October at the latest**, **form in by Friday 16 October** (hard deadline Monday 19 is the last net, no slack).
 Every field pre-filled in `04-other-documents/rgo-form-inputs.md`; one gap: the **Dean of the
 Faculty of Medicine's name** (look it up on unige.ch/medecine).
 FNS hard deadline: Tuesday 3 November, 17:00.
@@ -34,16 +34,16 @@ reword freely, keep every hypothesis, number, rule and citation; any net additio
 equal cut; no em-dash; no "et al."; no links. Run `draft/pagecheck.sh` after each section
 you touch.
 
-## Week 2: Mon 12 to Fri 17 October. The signature-and-form week
+## Week 2: Mon 12 to Fri 16 October. The signature-and-form week (dates corrected 13 Oct)
 
 | Day | Action |
 | --- | --- |
-| **Mon 12** | **Hand me your revised files**: I reconcile, recount, re-check compliance, rebuild. Print the letter for signature (draft in `host-institution-letters.md`, both signatories' names in). Chase Keiser/Ray if either is silent: phone. |
-| **Tue 13** | **Collect both signatures on the letter** (hard target). **Reader round opens**: send the revised plan to the 3 to 4 readers (`emails/06-readers.md`), reply-by **Friday 23 October**. **Calmy courtesy note** (`05`) once both signatures exist. |
-| **Wed 14** | Buffer for signatures if Tuesday slipped. Final check of the three attachments. |
-| **Thu 15** | **SUBMIT THE FORMULAIRE RGO** (everything pre-filled in `rgo-form-inputs.md`; 300-char summary ready). |
-| Fri 16 | mySNF: start the application container, Basic Data, CV, ORCID. First **mySNF character calibration**. |
-| **Mon 19** | **RGO hard deadline** (only relevant if Thursday failed). |
+| Mon 12 | Hand me your revised files: I reconcile, recount, re-check compliance, rebuild. Print the signable letter on letterhead. Send `emails/00-rgo.md` and `emails/07-dpo.md` if not yet sent. |
+| **Tue 13** | **Reader round opens**: send the plan to the 3 to 4 readers (`emails/06-readers.md`), reply-by **Friday 23 October**. CV answers to me. |
+| **Wed 14** | **Phone the silent**: Desmettre/Larribau (emailed 8 Oct), Teodoro (9 Oct). Gently confirm with Nicolas that "jeudi 16" in the email means Thursday 15 or Friday 16 at the latest. |
+| **Thu 15** | **Collect both signatures** (Keiser + Ray). Final check of the three RGO attachments. |
+| **Fri 16** | **SUBMIT THE FORMULAIRE RGO** (pre-filled in `rgo-form-inputs.md`). mySNF: start the application container, Basic Data, CV, ORCID; first mySNF character calibration. |
+| **Mon 19** | **RGO hard deadline** (only relevant if Friday failed). |
 
 ## Week 3: Mon 19 to Fri 23 October
 

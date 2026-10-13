@@ -735,3 +735,12 @@ Not writable from here; it needs the data. Build, for each candidate episode:
 separately for respiratory and heat, applying the six T3.0 eligibility criteria. Only then fix
 **N**, the archetype horizons and **Δ**, and run the design simulation. Until that count exists,
 `[[expected order of ten]]` in T3.3 stays a placeholder and must not be written as a fact.
+
+## 13 Oct: DATE CORRECTION - weekday mismatch in the signature target
+
+The Ray email (sent, CC Keiser) asks for signatures "d'ici le jeudi 16 octobre", but in 2026
+16 Oct is a FRIDAY (Thu = 15, Sat = 17). The earlier "Tue 14" targets were also off (14 Oct is
+a Wednesday). CALENDAR.md week 2 and TODO.md corrected to real dates: signatures Thu 15
+(Fri 16 latest), Formulaire RGO submitted Fri 16, hard deadline Mon 19 unchanged. Suggested:
+when Erol next speaks with Nicolas/Olivia, confirm the target as Thursday 15 or Friday 16
+morning at the latest.
