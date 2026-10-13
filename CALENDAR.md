@@ -38,7 +38,7 @@ you touch.
 
 | Day | Action |
 | --- | --- |
-| Mon 12 | Hand me your revised files: I reconcile, recount, re-check compliance, rebuild. Print the signable letter on letterhead. Send `emails/00-rgo.md` and `emails/07-dpo.md` if not yet sent. |
+| Mon 12 | Hand me your revised files: I reconcile, recount, re-check compliance, rebuild. Print the signable letter on letterhead. Send `emails/00-rgo.md` (SENT, confirmed 13 Oct). DPO email dropped. |
 | **Tue 13** | **Reader round opens**: send the plan to the 3 to 4 readers (`emails/06-readers.md`), reply-by **Friday 23 October**. CV answers to me. |
 | **Wed 14** | **Phone the silent**: Desmettre/Larribau (emailed 8 Oct), Teodoro (9 Oct). Gently confirm with Nicolas that "jeudi 16" in the email means Thursday 15 or Friday 16 at the latest. |
 | **Thu 15** | **Collect both signatures** (Keiser + Ray). Final check of the three RGO attachments. |
@@ -52,7 +52,7 @@ you touch.
 | Mon 19 | mySNF: mobility form (name the 2 to 3 short visits), declarations (GESICA, GeoAI4EI, legionellosis). |
 | Tue 20 | Budget with the RGO's numbers (`budget.md` decision rule); bibliography publisher-record pass (checklist in `05-review/bibliography-notes.md`). |
 | Wed 21 | Episode inventory from Larribau's data facts (template in `05-review/applicant-facts.md`). |
-| Thu 22 | CCER: if the DPO answered, file the BASEC clarification (`ccer/05`, DPO answer = annex 2). Letters status check: Teodoro, Desmettre, Larribau; phone the silent. |
+| Thu 22 | CCER: file the BASEC clarification (`ccer/05`) once the data specification is agreed with the HUG (no DPO step: dropped 13 Oct). Letters status check: Desmettre, Larribau (Teodoro signed 13 Oct); phone the silent. |
 | **Fri 23** | **Reader replies due.** Acknowledge same day. Vice-rector confirmation should be back by now: chase the RGO if not. |
 
 ## Week 4: Mon 26 to Fri 30 October

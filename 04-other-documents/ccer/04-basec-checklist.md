@@ -2,7 +2,7 @@
 
 Mechanics learned from BASEC 2026-00324; verify against the current BASEC forms.
 
-- [ ] **Route settled** (`01-route-strategy.md`): DPO opinion in writing; jurisdictional inquiry
+- [ ] **Route settled** (`01-route-strategy.md`): DPO opinion in writing (DROPPED 13 Oct, applicant decision; the CCER inquiry itself settles the route); jurisdictional inquiry
       filed if Route A/C - text ready in `05-clarification-competence-fr.md`. *This is the only
       step needed before the Ambizione deadline.*
 - [ ] BASEC account with the applicant as **requérant**; project created under the CCER (Geneva).

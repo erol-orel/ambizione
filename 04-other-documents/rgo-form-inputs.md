@@ -45,9 +45,9 @@ Target: submit **Thursday 15 October**, leaving the weekend and Monday as buffer
 > The project reuses routinely collected operational health data exclusively as daily aggregate
 > counts, with no identifiers, no free text and no voice recordings. Aggregation is performed by
 > the data holder (HUG) before any transfer and small cells are grouped. The regulatory pathway
-> (CCER jurisdictional inquiry, or Art. 34 LRH authorisation if required) has been mapped with
-> the data protection officer, and no data will be processed before the competent commission's
-> decision and a data agreement with the holders. No dual-use, environmental, scientific
+> (CCER jurisdictional inquiry, or Art. 34 LRH authorisation if required) has been mapped, and
+> no data will be processed before the competent commission's decision and a data agreement
+> with the holders. No dual-use, environmental, scientific
 > integrity or human-rights risks have been identified.
 
 Likely "yes" answers in the declaration: reuse of health-related personal data / research

@@ -15,7 +15,7 @@ referee can check, and it says more than any sentence in §5 can.
 
 ## Scope
 
-`[[Confirm with the CCER and the UNIGE data protection officer.]]`
+`[[Confirm with the CCER (jurisdictional inquiry).]]`
 
 The project needs **aggregated daily counts**, not individual-level clinical data, for WP3 and
 WP4. This may place it in a lighter category than the Legionella study, which required
@@ -49,7 +49,7 @@ operational data.
 
 | When | What |
 | --- | --- |
-| Now | Confirm scope and category with CCER / DPO; begin hardening |
+| Now | Confirm scope and category with the CCER; begin hardening |
 | Sept | Support letters in hand; hardening complete |
 | Oct | Security description written into §6; CCER submission drafted |
 | After the decision | Submit CCER with yourself as applicant |

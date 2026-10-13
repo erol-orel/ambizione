@@ -744,3 +744,23 @@ a Wednesday). CALENDAR.md week 2 and TODO.md corrected to real dates: signatures
 (Fri 16 latest), Formulaire RGO submitted Fri 16, hard deadline Mon 19 unchanged. Suggested:
 when Erol next speaks with Nicolas/Olivia, confirm the target as Thursday 15 or Friday 16
 morning at the latest.
+
+## 13 Oct: FACTS - RGO email sent; DPO email dropped; Calmy positive; Teodoro letter SIGNED
+
+- **RGO questions email (`emails/00-rgo.md`): SENT** (Erol, 13 Oct). AWAITING: salary class,
+  support-personnel rates, declarations, examples, relecture slot. Answers feed `budget.md`
+  (Tue 20). Log the numbers here the day they arrive.
+- **DPO email (`emails/07-dpo.md`): NOT SENT, applicant decision.** Checked: not blocking. The
+  SNSF needs no ethics approval or DPO opinion at submission; the plan claims none (it says
+  governance is "confirmed under the applicable institutional and regulatory framework before
+  any analysis"); the filed UNIGE declaration (no. 721) has no free text. One sentence in
+  `rgo-form-inputs.md` ("mapped with the data protection officer") would have become untrue
+  and was reworded. CCER package updated: the jurisdictional inquiry (`ccer/05`) is filed
+  directly, without annex 2. Residual: the HUG may itself involve its DPO before signing the
+  transfer agreement; that is their step, post-submission.
+- **Prof. Alexandra Calmy replied** positively; finds the project very interesting. Nothing
+  asked, nothing owed. Good basis for the offered LiteRev colloquium presentation.
+- **Prof. Douglas Teodoro replied** positively and **SIGNED the DS4DH letter of support** (WP1).
+  Plan table (§2.4 commitments) flipped: DS4DH = **Secured**, "Letter of support signed"
+  (15 pages / 50,710 chars re-verified). TODO: archive the signed PDF in
+  `04-other-documents/data-access/signed/`; upload in mySNF under "Other annexes".

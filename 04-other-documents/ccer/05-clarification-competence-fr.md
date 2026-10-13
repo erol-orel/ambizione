@@ -7,7 +7,9 @@
 > commission agrees the data are anonymous, it issues a **déclaration de non-soumission** whose
 > reference number is a citable feasibility fact.
 >
-> **When to file:** only **after** the DPO's written answer (`../emails/07-dpo.md` - the
+> **UPDATE 13 Oct:** the DPO email will not be sent (applicant decision). File directly once the
+> data specification is agreed with the HUG; drop annex 2 and renumber.
+> **When to file (original plan):** only **after** the DPO's written answer (`../emails/07-dpo.md` - the
 > "what not to do" rule). If the DPO already concurs with Route A/C, file the same week.
 > **How:** BASEC account with the applicant as requérant → new project → submission type
 > "clarification de compétence" → paste the text below into the description fields → attach the

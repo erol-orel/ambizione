@@ -1,5 +1,10 @@
 # To the data protection officer: the CCER route question
 
+> **NOT SENT - applicant decision, 13 Oct 2026.** Not needed for the SNSF submission (no
+> document claims a DPO opinion). The CCER jurisdictional inquiry (`../ccer/05`) can be filed
+> directly; the CCER rules on its own competence. Kept for the record and in case the HUG
+> data holder later asks for a DPO view before signing the transfer agreement.
+
 > À : `[[DPO UNIGE - vérifier l'adresse sur unige.ch (Bureau de la protection des données);
 > mettre en copie le DPO des HUG une fois le custodian 144 nommé par Larribau]]`
 > Objet : Qualification LRH d'une réutilisation de données opérationnelles agrégées (CASU-144,

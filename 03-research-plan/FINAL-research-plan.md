@@ -349,7 +349,7 @@ Estimate, for selected episodes, what would have changed had escalation followed
 | Legionellosis linked data | **Secured** | BASEC 2026-00324; data via the médecin cantonal, SIG technical data |
 | Host institute (ISG) | **Agreed** | Hosting accepted; SNSF-template signatures in preparation |
 | Computing | **Secured** | UNIGE HPC and secure-environment access in place |
-| DS4DH methodological collaboration | **Agreed** | Letter requested |
+| DS4DH methodological collaboration | **Secured** | Letter of support signed |
 | SNSF institutional confirmation letter | Requested | UNIGE Vice-Rectorate, standard administrative step |
 | **CASU-144 records, primary outcome** | **Access held (GESICA)** | Continuous, daily, near real-time; project agreement and letter in preparation |
 | ED presentations + ICU occupancy | In progress | Extraction in discussion with HUG; letters requested |
