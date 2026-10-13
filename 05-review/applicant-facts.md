@@ -778,3 +778,17 @@ IT services. No accepted-project examples from the RGO (ask in the host departme
 Relecture: first come, first served, finished versions. NOT ANSWERED: support-personnel
 rate (absent from the sent email) - follow-up drafted in `emails/00b-rgo-followup.md`, which
 also sends the plan for relecture. All recorded in `budget.md`.
+
+## 13 Oct: WORKFLOW - applicant rewrites the plan sentence by sentence, alone
+
+Erol rewrites the research plan himself, sentence by sentence, then hands over ONE complete new
+version. Claude then checks it in a single pass: coherence (summary vs H-table vs workplan vs
+schedule vs figures), English, revamping hypotheses or charts only if the new text requires it,
+em-dash rule, 60,000-char and 15-page caps, summary on page 1, citation sync, and downstream
+documents (2-page notes, letters, RGO form, title). No edits to the plan text by Claude until
+then. Pending applicant decisions folded into his version: the summary's question paragraph
+(options discussed 13 Oct: one question + "Answering it means showing..." + "Finally, the whole
+system runs on its own, following rules fixed in advance, and its forecasts are checked against
+outcomes as they appear.") and the title ("quantifying" possibly removed). TITLE CAVEAT: the
+host confirmation letter (Keiser + Ray, being signed this week) quotes the full title; decide
+the title before it is signed, or keep the current one.
