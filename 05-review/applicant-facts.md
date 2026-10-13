@@ -802,5 +802,5 @@ sanitaires grâce aux données publiées, avant que les données locales n'exist
 plan title line (15 pages, summary on p1 re-verified; submission PDF rebuilt), confirmation
 letter draft md/docx + SIGNABLE docx/pdf (2 pages), rgo-form-inputs.md, both 2-page notes
 md/docx/pdf (2 pages each). Unaffected: signed DS4DH letter and HUG/144 letter (they say
-"projet COLDSTART" only). OPEN: confirm Keiser + Ray have NOT yet signed the old-title letter;
-if they have, revert the letter to the old title or have them sign the new one.
+"projet COLDSTART" only). RESOLVED 13 Oct: Erol will have the NEW-title letter
+(lettre-confirmation-isg-SIGNABLE, regenerated) signed; no revert needed.
