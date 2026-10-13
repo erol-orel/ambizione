@@ -20,3 +20,8 @@
   (e.g. "checked against what then happens" rather than "prospectively verified against observed
   outcomes"), while keeping the exact meaning. Keep a technical term only where it is the
   field's precise word and no plain equivalent exists; then explain it once.
+- **Applicant's style preference (13 Oct): avoid colons and semicolons inside sentences.** Prefer
+  commas, "and", or two short sentences. This applies to rewordings proposed for the own-words
+  pass and to new text; existing colons/semicolons in the plan are flagged in the review pass of
+  the applicant's version, not rewritten silently. (Overrides the older advice above to use a
+  colon or semicolon in place of an em-dash: use a comma, parentheses or a new sentence instead.)
