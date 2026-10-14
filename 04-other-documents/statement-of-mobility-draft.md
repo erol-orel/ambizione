@@ -92,7 +92,7 @@ research. This is a complete change of sector and of field, and it is the source
 project's methodological core: the regime-switching representation, the tail modelling and the
 decision-analytic evaluation were carried across that boundary, not acquired in any research
 group I have belonged to. I have since obtained innovation-sector funding for my own prototype
-(Venture Kick CHF 10,000; Mimosa CHF 20,000; UNIGE CHF 30,000) - a sectoral bridge run in the
+(UNIGE CHF 30,000, Fondation Ernst et Lucie Schmidheiny CHF 10,000, Venture Kick CHF 10,000, Mimosa CHF 20,000) - a sectoral bridge run in the
 other direction.
 
 **Prospective.** WP4 is built with practice: escalation thresholds elicited from emergency

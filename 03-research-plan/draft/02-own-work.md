@@ -8,7 +8,7 @@ In [Orel 2022] I predicted individual HIV status from socio-behavioural characte
 
 ### 2.2.2 Automated evidence synthesis
 
-I conceived and built LiteRev [Orel 2023] with Aziza Merzouki (PhD, computer science), in Prof. Olivia Keiser's group. The tool searches open databases using natural-language or Boolean queries, removes duplicates, maps the available literature and suggests relevant papers in repeated rounds. I took the initiative to secure CHF 30,000 from UNIGE, CHF 10,000 from Venture Kick and CHF 20,000 from Mimosa, outside a group grant. The systematic review of AI in emergency medical services [Edjinedja 2026], within GESICA, uses LiteRev in its methods.
+I conceived and built LiteRev [Orel 2023] with Aziza Merzouki (PhD, computer science), in Prof. Olivia Keiser's group. The tool searches open databases using natural-language or Boolean queries, removes duplicates, maps the available literature and suggests relevant papers in repeated rounds. I took the initiative to secure CHF 30,000 from UNIGE, CHF 10,000 from the Fondation Ernst et Lucie Schmidheiny, CHF 10,000 from Venture Kick and CHF 20,000 from Mimosa, outside a group grant. The systematic review of AI in emergency medical services [Edjinedja 2026], within GESICA, uses LiteRev in its methods.
 
 ### 2.2.3 Outbreak and health-system modelling in Switzerland
 

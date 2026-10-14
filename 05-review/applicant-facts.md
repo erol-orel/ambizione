@@ -989,3 +989,5 @@ with Erol for decision before the letter is signed.
 ## 14 Oct: levels-from-evidence wording made consistent everywhere (summary x2, 2.1.3, T2.1, T4.1, both 2-page notes md/docx/pdf); background paragraph of the summary rewritten (econometrics, FRM, doctorate, LiteRev, GESICA). Replacement texts handed to Erol for his reviewing copy. 15 pages held.
 
 ## 14 Oct: Figure 1 redrawn as a general overview (inputs at onset, WP1 to WP4 flow, the test curve, the three crisis types); caption updated. Erol reviewing his own copy up to O1; replacement texts handed over in chat.
+
+## 14 Oct: LiteRev funding now lists the Fondation Ernst et Lucie Schmidheiny (CHF 10,000) alongside UNIGE 30,000, Venture Kick 10,000, Mimosa 20,000 (total CHF 70,000): plan 2.2.2 and mobility draft. Not in the CV files (no funding sentence there).
