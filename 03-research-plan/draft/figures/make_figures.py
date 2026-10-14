@@ -45,67 +45,83 @@ DEFS = ('<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" '
 
 # ---------------------------------------------------------------- Figure 1
 def fig1():
-    # Reproduces the applicant's 14 Oct design (3300 x 1305) as vector art, without semicolons.
-    W, H = 3300, 1305
+    # General overview: what exists at onset, what HEADSTART does (WP1 to WP4), what it tests, where.
+    W, H = 1400, 600
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
-         f'viewBox="0 0 {W} {H}">', f'<rect width="{W}" height="{H}" fill="white"/>']
+         f'viewBox="0 0 {W} {H}">', DEFS, f'<rect width="{W}" height="{H}" fill="white"/>']
     NAVY, GREEN, ORANGE, BLUE, GREY = "#1f3a5f", "#2e8b57", "#c8701a", "#1f5f8b", "#8a97a6"
-    GREEN_BG, ORANGE_BG, BLUE_BG, GREY_BG = "#eaf5ef", "#fdf3e6", "#e8f0f7", "#eef2f6"
-    SMALL = "#5b6675"
+    GREEN_BG, ORANGE_BG, BLUE_BG, GREY_BG = "#eaf5ef", "#fdf3e6", "#e8f0f7", "#f3f5f7"
 
     def fits(txt, size, width, bold=False):
         assert len(txt) * size * (0.56 if bold else 0.52) <= width, (txt, size, width)
 
-    def card(x, y, w, h, title, lines, small, border, title_col, bg, sw=5, rx=28, dark=False):
-        s.append(box(x, y, w, h, bg, border, rx, sw))
-        fits(title, 42, w - 60, True)
-        s.append(text(x + 38, y + 68, title, 42, title_col, weight="bold"))
-        yy = y + 128
-        for ln in lines:
-            fits(ln, 36, w - 60)
-            s.append(text(x + 38, yy, ln, 36, "white" if dark else INK)); yy += 48
-        for ln in small:
-            fits(ln, 30, w - 60)
-            s.append(text(x + 38, yy, ln, 30, "#dbe3ec" if dark else SMALL)); yy += 42
+    def label(x, y, t, size, col=INK, anchor="start", bold=False):
+        s.append(text(x, y, t, size, col, anchor, "bold" if bold else "normal"))
 
-    def varrow(x, y1, y2, col):
-        s.append(f'<line x1="{x}" y1="{y1}" x2="{x}" y2="{y2 - 26}" stroke="{col}" stroke-width="7"/>')
-        s.append(f'<path d="M {x - 18} {y2 - 30} L {x + 18} {y2 - 30} L {x} {y2} z" fill="{col}"/>')
-
-    s.append(text(55, 68, "Context data may be plentiful, while outcomes from the current episode are initially few.", 52, NAVY, weight="bold"))
-    # row 1
-    card(55, 115, 1005, 255, "CONTEXT DATA, OFTEN AVAILABLE",
-         ["Weather, air quality and calendar", "Wastewater and public surveillance"],
-         ["Public feeds or links through partners"], GREEN, GREEN, GREEN_BG)
-    card(1148, 115, 1005, 255, "OUTCOMES FROM THIS EPISODE",
-         ["Cause-specific calls and ED demand", "Occupancy and service pressure"],
-         ["Only a few observations at the start"], ORANGE, ORANGE, ORANGE_BG)
-    card(2240, 115, 1005, 255, "PUBLISHED STUDIES",
-         ["Effect estimates and uncertainty", "Variables, lags, model forms, thresholds"],
-         ["Evidence from other events and settings"], BLUE, BLUE, BLUE_BG)
-    # row 2
-    card(55, 425, 2098, 170, "SAME RAW INPUTS TO BOTH STRATEGIES",
-         ["Context feeds + historical local outcomes + outcomes observed so far"], [], GREY, NAVY, GREY_BG)
-    s.append(box(2240, 425, 1005, 170, BLUE_BG, BLUE, 28, 5))
-    s.append(text(2278, 493, "PREPARE THE EVIDENCE", 42, BLUE, weight="bold"))
-    s.append(text(2278, 540, "Extract, then check uncertainty and relevance", 30, INK))
-    s.append(text(2278, 580, "to Geneva before using it in a model", 30, INK))
-    # row 3
-    card(55, 650, 1495, 265, "REFERENCE STRATEGY",
-         ["Fits registered models to the shared data."],
-         ["No model inputs derived from HEADSTART extraction.", "Same selection and validity rules."], NAVY, NAVY, "white")
-    card(1620, 650, 1625, 265, "STRATEGY USING PUBLISHED EVIDENCE",
-         ["Uses the same data, plus findings from published studies."],
-         ["Parameter distributions retain extraction uncertainty.", "Evidence also informs variables, lags and model forms."], BLUE, BLUE, BLUE_BG)
-    # bottom
-    card(55, 980, 3190, 255, "REPLAY PAST EPISODES USING ONLY WHAT WAS AVAILABLE AT EACH DATE",
-         ["Compare probability forecasts with later outcomes, and assess calibration and operational value."],
-         ["A dashboard is considered only for validated demand-based applications and with service authorisation."],
-         NAVY, "white", NAVY, dark=True)
-    # arrows
-    varrow(557, 370, 425, GREEN); varrow(1650, 370, 425, ORANGE); varrow(2742, 370, 425, BLUE)
-    varrow(750, 595, 650, GREY); varrow(1860, 595, 650, GREY); varrow(2742, 595, 650, BLUE)
-    varrow(800, 915, 980, NAVY); varrow(2432, 915, 980, BLUE)
+    # ---------- row 1: what exists at the start of a crisis ----------
+    label(0, 30, "AT THE START OF A CRISIS", 20, NAVY, bold=True)
+    cards = [(0, "Published studies", BLUE, BLUE_BG), (330, "Context data", GREEN, GREEN_BG),
+             (660, "Outcomes of this episode", ORANGE, ORANGE_BG)]
+    for x, title, col, bg in cards:
+        s.append(box(x, 48, 300, 118, bg, col, 10, 2.2))
+        fits(title, 20, 280, True); label(x + 150, 82, title, 20, col, "middle", True)
+    # glyphs: stack of pages, tall bars, one short bar
+    for k in range(3):
+        s.append(f'<rect x="{112 + k*6}" y="{96 + k*6}" width="54" height="34" rx="3" fill="white" stroke="{BLUE}" stroke-width="2"/>')
+    for k, hgt in enumerate([34, 46, 40, 50, 44]):
+        s.append(f'<rect x="{420 + k*22}" y="{154 - hgt}" width="16" height="{hgt}" fill="{GREEN}" opacity="{0.55 + 0.09*k}"/>')
+    s.append(f'<rect x="770" y="140" width="16" height="14" fill="{ORANGE}"/>')
+    s.append(f'<rect x="794" y="146" width="16" height="8" fill="{ORANGE}"/>')
+    for k in range(3):
+        s.append(f'<rect x="{818 + k*24}" y="100" width="16" height="54" fill="none" stroke="{ORANGE}" stroke-dasharray="4,3" stroke-width="1.5"/>')
+    label(150, 160, "numbers, variables, lags, thresholds", 15, MUTE, "middle")
+    s.append(box(980, 48, 280, 118, GREY_BG, GREY, 10, 1.4))
+    label(1120, 82, "What is known", 22, NAVY, "middle", True)
+    label(1120, 112, "a lot elsewhere and in the past", 16, MUTE, "middle")
+    label(1120, 134, "a lot about today's conditions", 16, MUTE, "middle")
+    label(1120, 156, "very little about this episode's outcomes", 16, MUTE, "middle")
+    # ---------- row 2: what HEADSTART does ----------
+    label(0, 218, "WHAT HEADSTART DOES", 20, NAVY, bold=True)
+    steps = [("WP1", "Extract and grade", "the published evidence", BLUE),
+             ("WP2", "Model levels of", "pressure on the system", NAVY),
+             ("WP3", "Replay past crises", "with and without the evidence", NAVY),
+             ("WP4", "Measure the value", "for emergency decisions", NAVY)]
+    for k, (wp, l1, l2, col) in enumerate(steps):
+        x = k * 350
+        s.append(box(x, 236, 320, 96, BLUE_BG if k == 0 else GREY_BG, col, 10, 2.2 if k == 0 else 1.4))
+        label(x + 18, 268, wp, 22, col, bold=True)
+        fits(l1, 19, 230, True); label(x + 80, 268, l1, 19, INK, bold=True)
+        fits(l2, 16.5, 290); label(x + 80, 294, l2, 16.5, MUTE)
+        if k < 3:
+            s.append(arrow(x + 322, 284, x + 346, 284, MUTE))
+    # inputs feed the steps
+    s.append(arrow(150, 166, 150, 232, BLUE))
+    s.append(arrow(480, 166, 760, 232, GREEN))
+    s.append(arrow(810, 166, 800, 232, ORANGE))
+    # ---------- row 3: the test and where it runs ----------
+    label(0, 384, "THE TEST", 20, NAVY, bold=True)
+    px, py, pw, ph = 110, 404, 520, 128
+    s.append(f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" fill="white" stroke="none"/>')
+    s.append(f'<line x1="{px}" y1="{py+ph}" x2="{px+pw}" y2="{py+ph}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<line x1="{px}" y1="{py}" x2="{px}" y2="{py+ph}" stroke="{INK}" stroke-width="1.6"/>')
+    s.append(f'<path d="M {px+10} {py+30} C {px+180} {py+40} {px+380} {py+95} {px+pw-10} {py+112}" fill="none" stroke="{BLUE}" stroke-width="4"/>')
+    s.append(f'<path d="M {px+10} {py+118} C {px+150} {py+116} {px+380} {py+114} {px+pw-10} {py+112}" fill="none" stroke="{MUTE}" stroke-width="3" stroke-dasharray="7,6"/>')
+    label(px + pw + 12, py + 40, "with published evidence", 16, BLUE)
+    label(px + pw + 12, py + 118, "local data only", 16, MUTE)
+    label(px - 8, py + 8, "forecast skill", 15, MUTE, "end")
+    label(px, py + ph + 22, "crisis onset", 15, MUTE)
+    label(px + pw, py + ph + 22, "outcomes accumulate", 15, MUTE, "end")
+    label(px + 300, py + ph + 44, "each past episode replayed using only what was known at the time", 15, MUTE, "middle")
+    label(880, 384, "WHERE", 20, NAVY, bold=True)
+    chips = [("Respiratory epidemics", "main test", BLUE), ("Heatwaves", "second, if the first passes", NAVY),
+             ("Legionellosis", "year-4 extension", GREY)]
+    for k, (nm, sub, col) in enumerate(chips):
+        y = 400 + k * 50
+        s.append(box(880, y, 500, 42, GREY_BG, col, 21, 1.8))
+        fits(nm, 18, 220, True); label(900, y + 27, nm, 18, col, bold=True)
+        fits(sub, 15, 230); label(1360, y + 27, sub, 15, MUTE, "end")
+    label(880, 572, "Geneva, with the emergency services", 15, MUTE)
+    label(880, 592, "dashboard in observation mode, where authorised", 15, MUTE)
     s.append("</svg>")
     (OUT / "fig1-framework.svg").write_text("\n".join(s), encoding="utf-8")
 

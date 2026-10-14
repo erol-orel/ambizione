@@ -1,56 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="3300" height="1305" viewBox="0 0 3300 1305">
-<rect width="3300" height="1305" fill="white"/>
-<text x="55" y="68" font-family="Helvetica, Arial, sans-serif" font-size="52" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">Context data may be plentiful, while outcomes from the current episode are initially few.</text>
-<rect x="55" y="115" width="1005" height="255" rx="28" fill="#eaf5ef" stroke="#2e8b57" stroke-width="5"/>
-<text x="93" y="183" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#2e8b57" text-anchor="start" font-weight="bold" font-style="normal">CONTEXT DATA, OFTEN AVAILABLE</text>
-<text x="93" y="243" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Weather, air quality and calendar</text>
-<text x="93" y="291" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Wastewater and public surveillance</text>
-<text x="93" y="339" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#5b6675" text-anchor="start" font-weight="normal" font-style="normal">Public feeds or links through partners</text>
-<rect x="1148" y="115" width="1005" height="255" rx="28" fill="#fdf3e6" stroke="#c8701a" stroke-width="5"/>
-<text x="1186" y="183" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#c8701a" text-anchor="start" font-weight="bold" font-style="normal">OUTCOMES FROM THIS EPISODE</text>
-<text x="1186" y="243" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Cause-specific calls and ED demand</text>
-<text x="1186" y="291" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Occupancy and service pressure</text>
-<text x="1186" y="339" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#5b6675" text-anchor="start" font-weight="normal" font-style="normal">Only a few observations at the start</text>
-<rect x="2240" y="115" width="1005" height="255" rx="28" fill="#e8f0f7" stroke="#1f5f8b" stroke-width="5"/>
-<text x="2278" y="183" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">PUBLISHED STUDIES</text>
-<text x="2278" y="243" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Effect estimates and uncertainty</text>
-<text x="2278" y="291" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Variables, lags, model forms, thresholds</text>
-<text x="2278" y="339" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#5b6675" text-anchor="start" font-weight="normal" font-style="normal">Evidence from other events and settings</text>
-<rect x="55" y="425" width="2098" height="170" rx="28" fill="#eef2f6" stroke="#8a97a6" stroke-width="5"/>
-<text x="93" y="493" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">SAME RAW INPUTS TO BOTH STRATEGIES</text>
-<text x="93" y="553" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Context feeds + historical local outcomes + outcomes observed so far</text>
-<rect x="2240" y="425" width="1005" height="170" rx="28" fill="#e8f0f7" stroke="#1f5f8b" stroke-width="5"/>
-<text x="2278" y="493" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">PREPARE THE EVIDENCE</text>
-<text x="2278" y="540" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Extract, then check uncertainty and relevance</text>
-<text x="2278" y="580" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">to Geneva before using it in a model</text>
-<rect x="55" y="650" width="1495" height="265" rx="28" fill="white" stroke="#1f3a5f" stroke-width="5"/>
-<text x="93" y="718" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">REFERENCE STRATEGY</text>
-<text x="93" y="778" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Fits registered models to the shared data.</text>
-<text x="93" y="826" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#5b6675" text-anchor="start" font-weight="normal" font-style="normal">No model inputs derived from HEADSTART extraction.</text>
-<text x="93" y="868" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#5b6675" text-anchor="start" font-weight="normal" font-style="normal">Same selection and validity rules.</text>
-<rect x="1620" y="650" width="1625" height="265" rx="28" fill="#e8f0f7" stroke="#1f5f8b" stroke-width="5"/>
-<text x="1658" y="718" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">STRATEGY USING PUBLISHED EVIDENCE</text>
-<text x="1658" y="778" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Uses the same data, plus findings from published studies.</text>
-<text x="1658" y="826" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#5b6675" text-anchor="start" font-weight="normal" font-style="normal">Parameter distributions retain extraction uncertainty.</text>
-<text x="1658" y="868" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#5b6675" text-anchor="start" font-weight="normal" font-style="normal">Evidence also informs variables, lags and model forms.</text>
-<rect x="55" y="980" width="3190" height="255" rx="28" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="5"/>
-<text x="93" y="1048" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="white" text-anchor="start" font-weight="bold" font-style="normal">REPLAY PAST EPISODES USING ONLY WHAT WAS AVAILABLE AT EACH DATE</text>
-<text x="93" y="1108" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="white" text-anchor="start" font-weight="normal" font-style="normal">Compare probability forecasts with later outcomes, and assess calibration and operational value.</text>
-<text x="93" y="1156" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#dbe3ec" text-anchor="start" font-weight="normal" font-style="normal">A dashboard is considered only for validated demand-based applications and with service authorisation.</text>
-<line x1="557" y1="370" x2="557" y2="399" stroke="#2e8b57" stroke-width="7"/>
-<path d="M 539 395 L 575 395 L 557 425 z" fill="#2e8b57"/>
-<line x1="1650" y1="370" x2="1650" y2="399" stroke="#c8701a" stroke-width="7"/>
-<path d="M 1632 395 L 1668 395 L 1650 425 z" fill="#c8701a"/>
-<line x1="2742" y1="370" x2="2742" y2="399" stroke="#1f5f8b" stroke-width="7"/>
-<path d="M 2724 395 L 2760 395 L 2742 425 z" fill="#1f5f8b"/>
-<line x1="750" y1="595" x2="750" y2="624" stroke="#8a97a6" stroke-width="7"/>
-<path d="M 732 620 L 768 620 L 750 650 z" fill="#8a97a6"/>
-<line x1="1860" y1="595" x2="1860" y2="624" stroke="#8a97a6" stroke-width="7"/>
-<path d="M 1842 620 L 1878 620 L 1860 650 z" fill="#8a97a6"/>
-<line x1="2742" y1="595" x2="2742" y2="624" stroke="#1f5f8b" stroke-width="7"/>
-<path d="M 2724 620 L 2760 620 L 2742 650 z" fill="#1f5f8b"/>
-<line x1="800" y1="915" x2="800" y2="954" stroke="#1f3a5f" stroke-width="7"/>
-<path d="M 782 950 L 818 950 L 800 980 z" fill="#1f3a5f"/>
-<line x1="2432" y1="915" x2="2432" y2="954" stroke="#1f5f8b" stroke-width="7"/>
-<path d="M 2414 950 L 2450 950 L 2432 980 z" fill="#1f5f8b"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="600" viewBox="0 0 1400 600">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4e4e4e"/></marker></defs>
+<rect width="1400" height="600" fill="white"/>
+<text x="0" y="30" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">AT THE START OF A CRISIS</text>
+<rect x="0" y="48" width="300" height="118" rx="10" fill="#e8f0f7" stroke="#1f5f8b" stroke-width="2.2"/>
+<text x="150" y="82" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">Published studies</text>
+<rect x="330" y="48" width="300" height="118" rx="10" fill="#eaf5ef" stroke="#2e8b57" stroke-width="2.2"/>
+<text x="480" y="82" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2e8b57" text-anchor="middle" font-weight="bold" font-style="normal">Context data</text>
+<rect x="660" y="48" width="300" height="118" rx="10" fill="#fdf3e6" stroke="#c8701a" stroke-width="2.2"/>
+<text x="810" y="82" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#c8701a" text-anchor="middle" font-weight="bold" font-style="normal">Outcomes of this episode</text>
+<rect x="112" y="96" width="54" height="34" rx="3" fill="white" stroke="#1f5f8b" stroke-width="2"/>
+<rect x="118" y="102" width="54" height="34" rx="3" fill="white" stroke="#1f5f8b" stroke-width="2"/>
+<rect x="124" y="108" width="54" height="34" rx="3" fill="white" stroke="#1f5f8b" stroke-width="2"/>
+<rect x="420" y="120" width="16" height="34" fill="#2e8b57" opacity="0.55"/>
+<rect x="442" y="108" width="16" height="46" fill="#2e8b57" opacity="0.64"/>
+<rect x="464" y="114" width="16" height="40" fill="#2e8b57" opacity="0.73"/>
+<rect x="486" y="104" width="16" height="50" fill="#2e8b57" opacity="0.8200000000000001"/>
+<rect x="508" y="110" width="16" height="44" fill="#2e8b57" opacity="0.91"/>
+<rect x="770" y="140" width="16" height="14" fill="#c8701a"/>
+<rect x="794" y="146" width="16" height="8" fill="#c8701a"/>
+<rect x="818" y="100" width="16" height="54" fill="none" stroke="#c8701a" stroke-dasharray="4,3" stroke-width="1.5"/>
+<rect x="842" y="100" width="16" height="54" fill="none" stroke="#c8701a" stroke-dasharray="4,3" stroke-width="1.5"/>
+<rect x="866" y="100" width="16" height="54" fill="none" stroke="#c8701a" stroke-dasharray="4,3" stroke-width="1.5"/>
+<text x="150" y="160" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">numbers, variables, lags, thresholds</text>
+<rect x="980" y="48" width="280" height="118" rx="10" fill="#f3f5f7" stroke="#8a97a6" stroke-width="1.4"/>
+<text x="1120" y="82" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f3a5f" text-anchor="middle" font-weight="bold" font-style="normal">What is known</text>
+<text x="1120" y="112" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">a lot elsewhere and in the past</text>
+<text x="1120" y="134" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">a lot about today's conditions</text>
+<text x="1120" y="156" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">very little about this episode's outcomes</text>
+<text x="0" y="218" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WHAT HEADSTART DOES</text>
+<rect x="0" y="236" width="320" height="96" rx="10" fill="#e8f0f7" stroke="#1f5f8b" stroke-width="2.2"/>
+<text x="18" y="268" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP1</text>
+<text x="80" y="268" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">Extract and grade</text>
+<text x="80" y="294" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">the published evidence</text>
+<line x1="322" y1="284" x2="346" y2="284" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="350" y="236" width="320" height="96" rx="10" fill="#f3f5f7" stroke="#1f3a5f" stroke-width="1.4"/>
+<text x="368" y="268" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WP2</text>
+<text x="430" y="268" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">Model levels of</text>
+<text x="430" y="294" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">pressure on the system</text>
+<line x1="672" y1="284" x2="696" y2="284" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="700" y="236" width="320" height="96" rx="10" fill="#f3f5f7" stroke="#1f3a5f" stroke-width="1.4"/>
+<text x="718" y="268" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WP3</text>
+<text x="780" y="268" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">Replay past crises</text>
+<text x="780" y="294" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">with and without the evidence</text>
+<line x1="1022" y1="284" x2="1046" y2="284" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="1050" y="236" width="320" height="96" rx="10" fill="#f3f5f7" stroke="#1f3a5f" stroke-width="1.4"/>
+<text x="1068" y="268" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WP4</text>
+<text x="1130" y="268" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">Measure the value</text>
+<text x="1130" y="294" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">for emergency decisions</text>
+<line x1="150" y1="166" x2="150" y2="232" stroke="#1f5f8b" stroke-width="2.2" marker-end="url(#a)"/>
+<line x1="480" y1="166" x2="760" y2="232" stroke="#2e8b57" stroke-width="2.2" marker-end="url(#a)"/>
+<line x1="810" y1="166" x2="800" y2="232" stroke="#c8701a" stroke-width="2.2" marker-end="url(#a)"/>
+<text x="0" y="384" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">THE TEST</text>
+<rect x="110" y="404" width="520" height="128" fill="white" stroke="none"/>
+<line x1="110" y1="532" x2="630" y2="532" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="110" y1="404" x2="110" y2="532" stroke="#1a1a1a" stroke-width="1.6"/>
+<path d="M 120 434 C 290 444 490 499 620 516" fill="none" stroke="#1f5f8b" stroke-width="4"/>
+<path d="M 120 522 C 260 520 490 518 620 516" fill="none" stroke="#4e4e4e" stroke-width="3" stroke-dasharray="7,6"/>
+<text x="642" y="444" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f5f8b" text-anchor="start" font-weight="normal" font-style="normal">with published evidence</text>
+<text x="642" y="522" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">local data only</text>
+<text x="102" y="412" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">forecast skill</text>
+<text x="110" y="554" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">crisis onset</text>
+<text x="630" y="554" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">outcomes accumulate</text>
+<text x="410" y="576" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">each past episode replayed using only what was known at the time</text>
+<text x="880" y="384" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WHERE</text>
+<rect x="880" y="400" width="500" height="42" rx="21" fill="#f3f5f7" stroke="#1f5f8b" stroke-width="1.8"/>
+<text x="900" y="427" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">Respiratory epidemics</text>
+<text x="1360" y="427" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">main test</text>
+<rect x="880" y="450" width="500" height="42" rx="21" fill="#f3f5f7" stroke="#1f3a5f" stroke-width="1.8"/>
+<text x="900" y="477" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">Heatwaves</text>
+<text x="1360" y="477" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">second, if the first passes</text>
+<rect x="880" y="500" width="500" height="42" rx="21" fill="#f3f5f7" stroke="#8a97a6" stroke-width="1.8"/>
+<text x="900" y="527" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8a97a6" text-anchor="start" font-weight="bold" font-style="normal">Legionellosis</text>
+<text x="1360" y="527" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">year-4 extension</text>
+<text x="880" y="572" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Geneva, with the emergency services</text>
+<text x="880" y="592" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">dashboard in observation mode, where authorised</text>
 </svg>

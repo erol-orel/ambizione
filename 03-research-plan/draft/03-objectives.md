@@ -15,7 +15,7 @@ The central hypothesis is that published evidence can help estimate the relation
 
 ![Framework](figures/fig1-framework.svg)
 
-*Figure 1. The context data shared by both strategies, evidence from published studies, and evaluation against later outcomes.*
+*Figure 1. What exists at the start of a crisis, what HEADSTART does (WP1 to WP4), the test, and where it runs.*
 
 #### O1. Make published evidence usable without hiding its uncertainty
 
