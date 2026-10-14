@@ -960,3 +960,22 @@ regenerated with his task labels, no footnote. (3) Spacing: the full 6pt/10pt se
 one page, so the largest setting that fits 15 pages is kept: 2pt after paragraphs, 3 to 7pt
 before headings (both build scripts). Result: exactly 15 pages, ~51,300 chars, 47/47
 citations, no em-dash.
+
+## 14 Oct: EROL'S HANDWRITTEN NOTES FROM AN AMBIZIONE BRIEFING (two photos), transcribed
+
+Sheet 1: "Material: max 100K. Separate entries for each type of planned expense. Contact
+person: idea, but I can't stay at IGH (warning). Scientific independence: move department
+(warning). Teaching is a plus. Major achievements. Scientific achievements. Outside/outreach.
+Intent to future programme. Broad scientific profiles: collaborations!! (FNS)."
+Sheet 2: "Salary + project fund 250K = Ambizione grant. Phase 1: April 2027. Phase 2:
+interviews in June. Decision by mid-July 2027. ORCID list complete. Research plan: no title
+page, max 15 pages and 60K characters without bibliography, 10pt font and 1.5 line."
+Cross-check: equipment cap 100K, separate budget entries, 250K, 15 pages/60K/10pt/1.5, no
+title page, ORCID: all already in budget.md, CLAUDE.md and TODO.md. Phase 1 April 2027 and
+interviews June match TODO's 3-4 June 2027 panel entry; decision mid-July 2027 added here.
+Teaching: in the CV modules 2 and 4, no longer in the plan's 2.6 after the applicant's
+revamp (optional one-clause re-add). OPEN STRATEGIC POINT: the briefing note warns that the
+contact person and staying in the same institute can read as a lack of independence
+("move department"). Current design: Keiser (former supervisor) = contact person, host = ISG,
+with the independence argued organisationally in 2.6 and in the confirmation letter. Raised
+with Erol for decision before the letter is signed.
