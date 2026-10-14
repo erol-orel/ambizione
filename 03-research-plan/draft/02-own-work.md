@@ -1,10 +1,10 @@
 ## 2.2 Current state of personal research and competences required for the project
 
-My background combines fifteen years in quantitative finance, where I worked on risk, extreme values, regime models and stress testing as a certified Financial Risk Manager (FRM), with a doctorate in biomedical sciences at Geneva (defended 18 December 2023). This combination provides the methods for modelling rare events and the public-health training needed to apply them to emergency services.
+I trained as a quantitative economist and econometrician (MSc and DEA, University of Geneva), a discipline at the junction of statistics, mathematics and machine learning, built around modelling and prediction. I then spent fifteen years in quantitative finance, where I worked on risk, extreme values, regime models and stress testing as a certified Financial Risk Manager (FRM), before completing a doctorate in biomedical sciences at Geneva (defended 18 December 2023). This combination provides the technical methods for modelling and forecasting rare events and the public-health training needed to apply them to emergency services.
 
 ### 2.2.1 Prediction under sparse and imperfect information
 
-In [Orel 2022] I predicted individual HIV status from socio-behavioural characteristics across East and Southern Africa and examined where models transferred between countries. [Merzouki 2021] and [Esra 2023] developed related work. As last author of [Ng'ambi 2026] (accepted), on cardiovascular-disease classification across harmonised WHO STEPS surveys, I have taken a more senior role in this line of research. It provides direct experience with the question of when model relationships transfer between settings.
+In [Orel 2022] I predicted individual HIV status from socio-behavioural characteristics across East and Southern Africa and examined where models transferred between countries. [Merzouki 2021] and [Esra 2023] developed related work. As last author of [Ng'ambi 2026] (accepted), on cardiovascular-disease classification across harmonised WHO STEPS surveys, I have taken a more senior role in this line of research. It gives direct experience of when model relationships transfer between settings.
 
 ### 2.2.2 Automated evidence synthesis
 
@@ -26,4 +26,4 @@ The prototype reduces development risk, since its literature-search, extraction 
 
 I lead the data work for a cantonal study already under way (BASEC 2026-00324, ethics granted) that links confirmed legionellosis cases in Geneva to individual domestic hot-water installations. These linked data provide a contrasting setting for the year-four case-incidence extension.
 
-My quantitative-finance work provides experience in Bayesian hierarchical modelling, regime changes, extreme values and stress testing under misspecification. LiteRev-Evidence provides the extraction and pooling methods. My doctorate, Swiss COVID-19 work and GESICA provide the public-health and Geneva context.
+My finance work provides experience in Bayesian hierarchical modelling, regime changes, extreme values and stress testing under misspecification. LiteRev-Evidence provides extraction and pooling. My doctorate, Swiss COVID-19 work and GESICA provide the public-health and Geneva context.

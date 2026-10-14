@@ -17,7 +17,7 @@ The work has four linked parts. I will benchmark automated extraction against an
 
 The real-world tests are in Geneva and cover three crisis types with different drivers. Respiratory epidemics provide the primary test because published evidence is comparatively rich. Heat-related demand is tested second, and only if the respiratory test succeeds. Legionellosis is a year-four extension using a linked case-environment dataset on which I already lead the data work. It tests case-incidence forecasting and sits outside the emergency-demand comparison. Before clinical data are analysed, the methods will be tested on open Swiss series and released as a public benchmark. If published evidence improves forecasts, the project will show when and by how much. If it has no benefit or causes harm, the result will define where it should not be used. For validated demand-based applications that services authorise, forecasts will run in a daily observation-mode dashboard and be scored against outcomes as they arrive. The dashboard will not direct clinical care.
 
-My background combines fifteen years in quantitative finance, where I worked on rare-event risk, regime changes and stress testing, with a doctorate in biomedical sciences at Geneva. I conceived and built LiteRev with Aziza Merzouki in Olivia Keiser's group, then extended that work into LiteRev-Evidence, the prototype for structured evidence extraction and model comparison. Through GESICA, I also work with Geneva emergency and surveillance data. HEADSTART builds on these methods and data but tests a distinct question through a programme I will lead.
+Trained as an econometrician, I spent fifteen years in quantitative finance, where I worked on rare-event risk, regime changes and stress testing, before a doctorate in biomedical sciences at Geneva. I conceived and built LiteRev with Aziza Merzouki in Olivia Keiser's group, then extended that work into LiteRev-Evidence, the prototype for structured evidence extraction and model comparison. Through GESICA, I also work with Geneva emergency and surveillance data. HEADSTART builds on these methods and data but tests a distinct question through a programme I will lead.
 
 
 # 2. Proposed research
@@ -57,11 +57,11 @@ Current programmes include multi-model forecasting hubs such as ECDC RespiCast a
 
 ## 2.2 Current state of personal research and competences required for the project
 
-My background combines fifteen years in quantitative finance, where I worked on risk, extreme values, regime models and stress testing as a certified Financial Risk Manager (FRM), with a doctorate in biomedical sciences at Geneva (defended 18 December 2023). This combination provides the methods for modelling rare events and the public-health training needed to apply them to emergency services.
+I trained as a quantitative economist and econometrician (MSc and DEA, University of Geneva), a discipline at the junction of statistics, mathematics and machine learning, built around modelling and prediction. I then spent fifteen years in quantitative finance, where I worked on risk, extreme values, regime models and stress testing as a certified Financial Risk Manager (FRM), before completing a doctorate in biomedical sciences at Geneva (defended 18 December 2023). This combination provides the technical methods for modelling and forecasting rare events and the public-health training needed to apply them to emergency services.
 
 ### 2.2.1 Prediction under sparse and imperfect information
 
-In [Orel 2022] I predicted individual HIV status from socio-behavioural characteristics across East and Southern Africa and examined where models transferred between countries. [Merzouki 2021] and [Esra 2023] developed related work. As last author of [Ng'ambi 2026] (accepted), on cardiovascular-disease classification across harmonised WHO STEPS surveys, I have taken a more senior role in this line of research. It provides direct experience with the question of when model relationships transfer between settings.
+In [Orel 2022] I predicted individual HIV status from socio-behavioural characteristics across East and Southern Africa and examined where models transferred between countries. [Merzouki 2021] and [Esra 2023] developed related work. As last author of [Ng'ambi 2026] (accepted), on cardiovascular-disease classification across harmonised WHO STEPS surveys, I have taken a more senior role in this line of research. It gives direct experience of when model relationships transfer between settings.
 
 ### 2.2.2 Automated evidence synthesis
 
@@ -83,7 +83,7 @@ The prototype reduces development risk, since its literature-search, extraction 
 
 I lead the data work for a cantonal study already under way (BASEC 2026-00324, ethics granted) that links confirmed legionellosis cases in Geneva to individual domestic hot-water installations. These linked data provide a contrasting setting for the year-four case-incidence extension.
 
-My quantitative-finance work provides experience in Bayesian hierarchical modelling, regime changes, extreme values and stress testing under misspecification. LiteRev-Evidence provides the extraction and pooling methods. My doctorate, Swiss COVID-19 work and GESICA provide the public-health and Geneva context.
+My finance work provides experience in Bayesian hierarchical modelling, regime changes, extreme values and stress testing under misspecification. LiteRev-Evidence provides extraction and pooling. My doctorate, Swiss COVID-19 work and GESICA provide the public-health and Geneva context.
 
 
 ## 2.3 Detailed research plan
@@ -109,13 +109,13 @@ The central hypothesis is that published evidence can help estimate the relation
 
 > H1. Automated extraction will understate the uncertainty in quantitative evidence, including reported within-study uncertainty and variation between studies, making the resulting parameter distributions too narrow. A measurement-error layer should reduce this under-dispersion. Success will be assessed using pre-specified coverage and calibration measures on held-out studies adjudicated by independent human extractors.
 
-Omissions are common [Shankar 2026], and H1 tests whether they also reduce the estimated spread of the evidence and whether the correction restores useful uncertainty. The primary benchmark concerns parameter values, and the other classes are checked against published syntheses.
+Omissions are common [Shankar 2026], and H1 tests whether they also reduce the estimated spread and whether the correction restores useful uncertainty. The primary benchmark concerns parameter values, and the other classes are checked against published syntheses.
 
 #### O2. Represent escalation in a form that separates the state from the point forecast
 
 > C2, model adequacy criterion. The state model must recover interpretable levels of pressure and produce calibrated probabilities at a comparable false-alarm rate. This shared state scale allows forecasts from different candidate models to be compared in operational terms. It does not assume that a regime-switching model will outperform simpler threshold-based methods.
 
-Simulation tests whether the states and their transitions can be identified from the available data channels. Forecast calibration provides a second check. If the state model fails either criterion, the registered ordinal state-space fallback is used, and the main comparison of the two strategies still proceeds.
+Simulation tests whether the states and their transitions can be identified from the available data channels. Forecast calibration provides a second check. If the state model fails either criterion, the registered ordinal state-space fallback is used, and the main comparison still proceeds.
 
 #### O3. Test whether published evidence improves forecasts and identify when it harms
 
@@ -125,7 +125,7 @@ Simulation tests whether the states and their transitions can be identified from
 
 Δ is set to half the minimum improvement defined as meaningful under H3a. Under the registered simulations where published and outcome-generating distributions match, this 50% preservation rule allows adaptive weighting to give up no more than half of that pre-specified benefit.
 
-> H3c. Short-window changes in variability and lag-one autocorrelation will be tested for whether they improve forecasts beyond the context inputs, the local level and trend, and the published evidence.
+> H3c. Short-window changes in variability and lag-one autocorrelation will be tested for whether they improve forecasts beyond the context inputs, local level and trend, and published evidence.
 
 Primary confirmatory comparison. The evidence-informed and reference strategies use the same pre-registered selection procedure and are compared with the continuous ranked probability score (CRPS), which evaluates full probability forecasts. The primary test uses respiratory episodes and the pre-specified early-episode window. Heat is tested with the same comparison only if the respiratory test passes, and this fixed order controls the family-wise error rate. How the difference changes as more local outcomes arrive is a secondary analysis.
 
@@ -202,7 +202,7 @@ Risk and mitigation. If the states cannot be separated reliably, the registered 
 
 ##### T3.0. Outcome hierarchy, data-access gate and episode eligibility (M1–M14)
 
-The outcome hierarchy, access criteria and episode-eligibility rules are registered before forecast performance is examined.
+The outcome hierarchy, access criteria and episode-eligibility rules are registered before forecast performance is seen.
 
 Primary outcome. Daily respiratory-related emergency demand is derived from Geneva CASU-144 records using a pre-registered classification of call reasons and urgency levels, and it is not the raw total number of calls. The heat comparison uses the same series and construction, restricted to cause groups specified in advance (dehydration, renal and psychiatric causes). Respiratory-restricted and age-75-or-older analyses are sensitivity checks. ED presentations and ICU occupancy are additional observations for the shared pressure-state model. Weather, air quality, wastewater, sentinel consultations and calendar effects are context inputs.
 
@@ -242,7 +242,7 @@ Primary endpoint. For each episode and strategy, CRPS is averaged across eligibl
 
 ##### T3.4. Map benefit and failure (M28–M38)
 
-The analysis identifies episodes where published evidence improves or worsens forecasts and examines likely reasons, such as differences in population, outcome definition, service organisation, policy or time period, as well as extraction uncertainty and conflict with the local outcomes. Deliberately shifted priors provide stress tests. A key question is whether adaptive weighting reduces harm early enough. Results will show when the approach helps, when it does not, and why, rather than a single average effect.
+The analysis identifies episodes where published evidence improves or worsens forecasts and examines likely reasons, such as differences in population, outcome definition, service organisation, policy or time period, as well as extraction uncertainty and conflict with the local outcomes. Deliberately shifted priors provide stress tests. A key question is whether adaptive weighting reduces harm early enough. Results will show when the approach helps, when it does not, and why, not a single average effect.
 
 ##### T3.5. Test generalisation (M34–M42)
 
@@ -277,22 +277,22 @@ Expected outputs are four to six papers and reusable resources, including the ex
 
 Host. The project will be based at the Institute of Global Health, Faculty of Medicine, University of Geneva, with methodological collaboration from Data Science for Digital Health (Prof. Douglas Teodoro) and clinical collaboration from HUG emergency medicine (Prof. Thibaut Desmettre and Dr Robert Larribau, CASU-144).
 
-The Institute brings together epidemiology, infectious-disease modelling and evidence synthesis, and the programme will be hosted alongside its groups and led independently. DS4DH provides the biomedical natural-language-processing expertise needed for WP1, and GESICA has already established working links with emergency-medicine partners [Edjinedja 2026]. Existing infrastructure includes LiteRev-Evidence, the linked legionellosis study, UNIGE HPC and the University's secure clinical-data environment.
+The Institute brings together epidemiology, infectious-disease modelling and evidence synthesis, and the programme will be hosted alongside its groups and led independently. DS4DH provides the biomedical natural-language-processing expertise needed for WP1, and GESICA has already established working links with emergency-medicine partners [Edjinedja 2026]. Existing infrastructure includes LiteRev-Evidence, the legionellosis study, UNIGE HPC and the University's secure data environment.
 
 Commitments, by status.
 
 | Item                                                           | Status                   | Evidence or action                                                   |
 |----------------------------------------------------------------|--------------------------|----------------------------------------------------------------------|
-| Legionellosis linked data                                      | **Secured**              | BASEC 2026-00324, data via the médecin cantonal, SIG technical data  |
-| Host institute (ISG)                                           | **Agreed**               | Hosting accepted, SNSF-template signatures in preparation            |
-| Computing                                                      | **Secured**              | UNIGE HPC and secure-environment access in place                     |
-| DS4DH methodological collaboration                             | **Secured**              | Letter of support signed                                             |
+| Legionellosis linked data                                      | Secured              | BASEC 2026-00324, data via the médecin cantonal, SIG technical data  |
+| Host institute (ISG)                                           | Agreed               | Hosting accepted, SNSF-template signatures in preparation            |
+| Computing                                                      | Secured              | UNIGE HPC and secure-environment access in place                     |
+| DS4DH methodological collaboration                             | Secured              | Letter of support signed                                             |
 | SNSF institutional confirmation letter                         | Requested                | UNIGE Vice-Rectorate, standard administrative step                   |
-| **CASU-144 records, primary outcome**                          | **Access held (GESICA)** | Daily, near real time, project agreement and letter in preparation   |
+| CASU-144 records, primary outcome                          | Access held (GESICA) | Daily, near real time, project agreement and letter in preparation   |
 | ED presentations and ICU occupancy                             | In progress              | Extraction in discussion with HUG, letters requested                 |
 | COVID-19 hospitalisation series (HUG, daily)                   | Re-request planned       | Previously analysed [Orel 2024], validation and calibration series |
 | Pharmacien cantonal, wastewater and pharmacy sales             | Contacts established     | Extracts to formalise, partly within GESICA                          |
-| Open public series (surveillance, wastewater, deaths, weather) | **Public**               | Freely accessible, no agreement needed                               |
+| Open public series (surveillance, wastewater, deaths, weather) | Public               | Freely accessible, no agreement needed                               |
 
 The unresolved feasibility items are the ED/ICU extraction and the project-specific CASU-144 agreement. Each rests on an existing relationship, and neither is claimed as secured yet.
 
@@ -300,7 +300,7 @@ Requested project funds are capped at CHF 250,000 over four years, and my salary
 
 | Item                                                      | Rationale                                                                                            |
 |-----------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| Scientific/technical collaborator, **50% over 48 months** | T1.2 protocol and adjudication support, WP3 harmonisation and evaluation pipeline, reproducibility   |
+| Scientific/technical collaborator, 50% over 48 months | T1.2 protocol and adjudication support, WP3 harmonisation and evaluation pipeline, reproducibility   |
 | Second independent extractor                              | Contracted M3–M9, required for T1.2's dual-extraction design                                         |
 | Data access, secure storage and processing                | Project-specific extractions, secure-environment allocations and runs beyond existing infrastructure |
 | Travel, conferences, incoming visits                      | Presentation of results, international collaboration                                                 |
@@ -346,7 +346,7 @@ I have developed the methods, prototype and data relationships that make this pr
 | GESICA                        | Franco-Swiss crisis intelligence                                 | Contributor       | Decision support, no test of evidence-derived priors |
 | GeoAI4EI (Horizon Europe)     | European epidemic-intelligence toolbox                           | Contributor       | Infrastructure, no test of borrowed evidence         |
 | Legionellosis study (ongoing) | Geneva waterborne outbreak determinants                          | Data lead         | Supplies a contrasting validation extension          |
-| **Ambizione**                 | When published evidence improves forecasts, and when it misleads | **PI, full-time** | -                                                   |
+| Ambizione                 | When published evidence improves forecasts, and when it misleads | PI, full-time | -                                                   |
 
 HEADSTART is distinct from GESICA and GeoAI4EI, which develop epidemic-intelligence and decision-support capabilities rather than testing published evidence as a forecasting input.
 
@@ -354,9 +354,7 @@ I conceived and built LiteRev with Aziza Merzouki in Prof. Olivia Keiser's group
 
 Prof. Olivia Keiser led the group in which LiteRev was built and is also involved in the ongoing legionellosis study, GeoAI4EI and the MAS in Public Health, on which I have lectured in statistics and epidemiology since 2024. She has no scientific role in HEADSTART. Prof. Douglas Teodoro leads GESICA and supports the biomedical-NLP collaboration needed for WP1.
 
-The Institute of Global Health will host the project, but the research programme, hypotheses and analyses will be led by me rather than embedded in an existing group. The institutional and collaboration arrangements will be documented in the required letters. The collaborator and independent extractor support defined technical tasks, and scientific direction remains with the PI.
-
-Where this leads. By month 48, a validated answer and a first-author record, the basis for group leadership or a professorship.
+The Institute of Global Health will host the project, but the research programme, hypotheses and analyses will be led by me rather than embedded in an existing group. The institutional and collaboration arrangements will be documented in the required letters. The collaborator and independent extractor support defined technical tasks, and scientific direction remains with the PI. By month 48, a validated answer and a first-author record will be the basis for group leadership or a professorship.
 
 
 # Bibliography

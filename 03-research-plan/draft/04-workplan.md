@@ -58,7 +58,7 @@ Risk and mitigation. If the states cannot be separated reliably, the registered 
 
 ##### T3.0. Outcome hierarchy, data-access gate and episode eligibility (M1–M14)
 
-The outcome hierarchy, access criteria and episode-eligibility rules are registered before forecast performance is examined.
+The outcome hierarchy, access criteria and episode-eligibility rules are registered before forecast performance is seen.
 
 Primary outcome. Daily respiratory-related emergency demand is derived from Geneva CASU-144 records using a pre-registered classification of call reasons and urgency levels, and it is not the raw total number of calls. The heat comparison uses the same series and construction, restricted to cause groups specified in advance (dehydration, renal and psychiatric causes). Respiratory-restricted and age-75-or-older analyses are sensitivity checks. ED presentations and ICU occupancy are additional observations for the shared pressure-state model. Weather, air quality, wastewater, sentinel consultations and calendar effects are context inputs.
 
@@ -98,7 +98,7 @@ Primary endpoint. For each episode and strategy, CRPS is averaged across eligibl
 
 ##### T3.4. Map benefit and failure (M28–M38)
 
-The analysis identifies episodes where published evidence improves or worsens forecasts and examines likely reasons, such as differences in population, outcome definition, service organisation, policy or time period, as well as extraction uncertainty and conflict with the local outcomes. Deliberately shifted priors provide stress tests. A key question is whether adaptive weighting reduces harm early enough. Results will show when the approach helps, when it does not, and why, rather than a single average effect.
+The analysis identifies episodes where published evidence improves or worsens forecasts and examines likely reasons, such as differences in population, outcome definition, service organisation, policy or time period, as well as extraction uncertainty and conflict with the local outcomes. Deliberately shifted priors provide stress tests. A key question is whether adaptive weighting reduces harm early enough. Results will show when the approach helps, when it does not, and why, not a single average effect.
 
 ##### T3.5. Test generalisation (M34–M42)
 

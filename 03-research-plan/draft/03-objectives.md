@@ -21,13 +21,13 @@ The central hypothesis is that published evidence can help estimate the relation
 
 > H1. Automated extraction will understate the uncertainty in quantitative evidence, including reported within-study uncertainty and variation between studies, making the resulting parameter distributions too narrow. A measurement-error layer should reduce this under-dispersion. Success will be assessed using pre-specified coverage and calibration measures on held-out studies adjudicated by independent human extractors.
 
-Omissions are common [Shankar 2026], and H1 tests whether they also reduce the estimated spread of the evidence and whether the correction restores useful uncertainty. The primary benchmark concerns parameter values, and the other classes are checked against published syntheses.
+Omissions are common [Shankar 2026], and H1 tests whether they also reduce the estimated spread and whether the correction restores useful uncertainty. The primary benchmark concerns parameter values, and the other classes are checked against published syntheses.
 
 #### O2. Represent escalation in a form that separates the state from the point forecast
 
 > C2, model adequacy criterion. The state model must recover interpretable levels of pressure and produce calibrated probabilities at a comparable false-alarm rate. This shared state scale allows forecasts from different candidate models to be compared in operational terms. It does not assume that a regime-switching model will outperform simpler threshold-based methods.
 
-Simulation tests whether the states and their transitions can be identified from the available data channels. Forecast calibration provides a second check. If the state model fails either criterion, the registered ordinal state-space fallback is used, and the main comparison of the two strategies still proceeds.
+Simulation tests whether the states and their transitions can be identified from the available data channels. Forecast calibration provides a second check. If the state model fails either criterion, the registered ordinal state-space fallback is used, and the main comparison still proceeds.
 
 #### O3. Test whether published evidence improves forecasts and identify when it harms
 
@@ -37,7 +37,7 @@ Simulation tests whether the states and their transitions can be identified from
 
 Δ is set to half the minimum improvement defined as meaningful under H3a. Under the registered simulations where published and outcome-generating distributions match, this 50% preservation rule allows adaptive weighting to give up no more than half of that pre-specified benefit.
 
-> H3c. Short-window changes in variability and lag-one autocorrelation will be tested for whether they improve forecasts beyond the context inputs, the local level and trend, and the published evidence.
+> H3c. Short-window changes in variability and lag-one autocorrelation will be tested for whether they improve forecasts beyond the context inputs, local level and trend, and published evidence.
 
 Primary confirmatory comparison. The evidence-informed and reference strategies use the same pre-registered selection procedure and are compared with the continuous ranked probability score (CRPS), which evaluates full probability forecasts. The primary test uses respiratory episodes and the pre-specified early-episode window. Heat is tested with the same comparison only if the respiratory test passes, and this fixed order controls the family-wise error rate. How the difference changes as more local outcomes arrive is a secondary analysis.
 

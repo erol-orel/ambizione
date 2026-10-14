@@ -983,3 +983,5 @@ with Erol for decision before the letter is signed.
 ## 14 Oct: teaching clause re-added in 2.6 (MAS in Public Health, lecturing since 2024); independence design KEPT (Keiser contact person, ISG host) pending the RGO review. 15 pages held.
 
 ## 14 Oct: FRM certification added once, in the 2.2 opening sentence (applicant decision). 15 pages held.
+
+## 14 Oct: econometrics training added (2.2 opening + summary "Trained as an econometrician"); ALL BOLD REMOVED except the title line (applicant order); 2.6 closing sentence folded into the last paragraph; body spacing 1pt after, headings 3 to 7pt before; 15 pages held.

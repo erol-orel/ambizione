@@ -15,7 +15,7 @@ I have developed the methods, prototype and data relationships that make this pr
 | GESICA                        | Franco-Swiss crisis intelligence                                 | Contributor       | Decision support, no test of evidence-derived priors |
 | GeoAI4EI (Horizon Europe)     | European epidemic-intelligence toolbox                           | Contributor       | Infrastructure, no test of borrowed evidence         |
 | Legionellosis study (ongoing) | Geneva waterborne outbreak determinants                          | Data lead         | Supplies a contrasting validation extension          |
-| **Ambizione**                 | When published evidence improves forecasts, and when it misleads | **PI, full-time** | -                                                   |
+| Ambizione                 | When published evidence improves forecasts, and when it misleads | PI, full-time | -                                                   |
 
 HEADSTART is distinct from GESICA and GeoAI4EI, which develop epidemic-intelligence and decision-support capabilities rather than testing published evidence as a forecasting input.
 
@@ -23,6 +23,4 @@ I conceived and built LiteRev with Aziza Merzouki in Prof. Olivia Keiser's group
 
 Prof. Olivia Keiser led the group in which LiteRev was built and is also involved in the ongoing legionellosis study, GeoAI4EI and the MAS in Public Health, on which I have lectured in statistics and epidemiology since 2024. She has no scientific role in HEADSTART. Prof. Douglas Teodoro leads GESICA and supports the biomedical-NLP collaboration needed for WP1.
 
-The Institute of Global Health will host the project, but the research programme, hypotheses and analyses will be led by me rather than embedded in an existing group. The institutional and collaboration arrangements will be documented in the required letters. The collaborator and independent extractor support defined technical tasks, and scientific direction remains with the PI.
-
-Where this leads. By month 48, a validated answer and a first-author record, the basis for group leadership or a professorship.
+The Institute of Global Health will host the project, but the research programme, hypotheses and analyses will be led by me rather than embedded in an existing group. The institutional and collaboration arrangements will be documented in the required letters. The collaborator and independent extractor support defined technical tasks, and scientific direction remains with the PI. By month 48, a validated answer and a first-author record will be the basis for group leadership or a professorship.
