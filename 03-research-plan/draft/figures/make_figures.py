@@ -79,7 +79,7 @@ def fig1():
 
     # --- state model (centre) with threshold anchors ---
     mx0, my0, mw = 390, 176, 380
-    s.append(box(mx0, my0, mw, 240, "white", INK, 6, 1.8))
+    s.append(box(mx0, my0, mw, 256, "white", INK, 6, 1.8))
     s.append(text(mx0 + mw / 2, my0 + 30, "LATENT STATE MODEL (WP2)", 21, ACCENT, "middle", "bold"))
     states = [("routine", "below P75", 0), ("elevated", "P75 to P90", 1),
               ("strained", "P90–P97.5 or ICU > 85%", 2), ("critical", "above P97.5 / saturation", 3)]
@@ -91,6 +91,9 @@ def fig1():
         s.append(text(mx0 + 82, y + 25, nm, 18.5, INK, "middle", "bold" if i == 3 else "normal"))
         fits(anchor, 16.5, 214)
         s.append(text(mx0 + 158, y + 25, anchor, 16.5, MUTE))
+    note = "default levels, seeded from the evidence"
+    fits(note, 14.5, mw - 12)
+    s.append(text(mx0 + mw / 2, my0 + 247, note, 14.5, MUTE, "middle"))
     s.append(arrow(607, 134, 607, 172, ACCENT))      # priors into model
     s.append(arrow(324, 268, 386, 268, MUTE))        # local data into model
 

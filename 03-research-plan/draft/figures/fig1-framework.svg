@@ -20,7 +20,7 @@
 <text x="16" y="261" font-family="Helvetica, Arial, sans-serif" font-size="18.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">ED presentations</text>
 <text x="16" y="288" font-family="Helvetica, Arial, sans-serif" font-size="18.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">ICU occupancy</text>
 <text x="16" y="315" font-family="Helvetica, Arial, sans-serif" font-size="18.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">weather + surveillance</text>
-<rect x="390" y="176" width="380" height="240" rx="6" fill="white" stroke="#1a1a1a" stroke-width="1.8"/>
+<rect x="390" y="176" width="380" height="256" rx="6" fill="white" stroke="#1a1a1a" stroke-width="1.8"/>
 <text x="580.0" y="206" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">LATENT STATE MODEL (WP2)</text>
 <rect x="406" y="222" width="132" height="36" rx="4" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
 <text x="472" y="247" font-family="Helvetica, Arial, sans-serif" font-size="18.5" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">routine</text>
@@ -34,6 +34,7 @@
 <rect x="406" y="363" width="132" height="36" rx="4" fill="#e3edf4" stroke="#1f5f8b" stroke-width="1.4"/>
 <text x="472" y="388" font-family="Helvetica, Arial, sans-serif" font-size="18.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">critical</text>
 <text x="548" y="388" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">above P97.5 / saturation</text>
+<text x="580.0" y="423" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">default levels, seeded from the evidence</text>
 <line x1="607" y1="134" x2="607" y2="172" stroke="#1f5f8b" stroke-width="2.2" marker-end="url(#a)"/>
 <line x1="324" y1="268" x2="386" y2="268" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
 <rect x="1040" y="38" width="300" height="152" rx="6" fill="white" stroke="#1a1a1a" stroke-width="1.8"/>

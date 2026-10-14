@@ -854,3 +854,13 @@ last clause. Result: exactly 15 pages, 50,479 chars, 47 citations, no em-dash.
 OPEN QUESTION for Erol: the summary does not state the NUMBER of levels; the plan's default is
 four (T2.1, Figure 1). If he wants the number of levels itself chosen from the evidence per
 crisis, C2 and Figure 1 need a matching edit.
+
+## 14 Oct: NUMBER OF LEVELS ALSO FROM THE EVIDENCE (applicant order)
+
+Applied everywhere the four levels were hard-coded: summary ("levels whose number and
+thresholds start from what the literature reports"); §2.1.3 ("for instance routine, elevated,
+strained, critical"); T2.1 ("by default routine, elevated, strained, critical"; the anchors
+paragraph already says number and thresholds come from class-4 evidence, four-level
+percentile scheme as default); T4.1 ("the upper states, strained or critical in the default
+scheme"); Figure 1 (state box carries the note "default levels, seeded from the evidence").
+C2 names no number and needed no change. Rebuilt: 15 pages, 50,548 chars, no em-dash.
