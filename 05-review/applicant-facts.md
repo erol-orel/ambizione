@@ -995,3 +995,17 @@ with Erol for decision before the letter is signed.
 ## 14 Oct: Fondation Ernst et Lucie Schmidheiny added to the CV research output list (item 1 contribution line); cv-snsf-draft.docx/pdf rebuilt.
 
 ## 14 Oct (evening): applicant's v4 wording (summary, 2.1, 2.2, 2.3.1) imported into the draft files with the section A fixes of the claim inventory applied (em-dashes in H3b, new Figure 1 and caption, LiteRev authorship unified to "with Aziza Merzouki in Prof. Olivia Keiser's group", "Since 2024", "On my own initiative I raised ...", [Shankar 2026] style, FRM no longer implied for the whole finance period, "controlled comparison" not "experiments", UK spelling, Scope heading restored, broken 2.1.2 sentence repaired, "outcomes observed so far"). Page overflow (16) brought back to 15 by word trims in paragraphs ending on short lines and by dropping the T3.0 opening sentence (repeated by the Registration paragraph). Open decisions for Erol: fifteen years in finance vs CV 2007–2018, authorship form, remaining inventory answers (asked in chat).
+
+## 14 Oct (night): interactive walk-through of the plan with Erol, decisions applied
+- Hypotheses H1, C2, H3a, H3b, H3c, primary comparison, H4 rewritten in plain words (his instruction: simpler, straighter, no "rules fixed in advance" jargon, "validated" not "works").
+- Scope generalised: the outcome, the population and the pathogen of each test are NOT fixed in the plan. A short registered list (CASU-144 calls, ED visits by cause, admissions or occupancy, ICU occupancy) and the target is chosen on access, quality, resolution and usefulness before any performance comparison, then fixed (outcome-switching argument explained to Erol). "Not claimed" paragraph folded into scope, heading dropped. Geneva -> "the local setting" in method statements.
+- Legionellosis is now a plain THIRD TEST (year 4, case incidence), not an "extension", not excluded from the dashboard; "if time and data permit" removed everywhere incl. Figure 1 chip and Gantt label.
+- T1.2 benchmark = relevant papers of a registered systematic review per crisis type, full manual extraction when small, otherwise a random sample sized at registration (no fixed 300). Adjudication by discussion, recorded.
+- All WP tasks rewritten in plain words (T1.1 to T4.3); model list in T3.3 reduced to families.
+- Elicitation: 2 to 5 experienced people (was 15-20). No fixed paper count.
+- 2.3.3 replaced by one host sentence + entity table (person in charge, role, status) incl. GESICA and GeoAI4EI rows; no names for medecin/pharmacien cantonal; Keiser listed as contact person.
+- Budget: collaborator up to 40% over 48 months (RGO: ARE <= 40%), MASTER'S STUDENT as second extractor M3-M9. budget.md and RGO inputs to align.
+- 2.4 shortened; 2.5 plain + GESICA/GeoAI4EI sharing; 2.6: Keiser sentence reduced to the minimum ("my contact person ... we work together in GeoAI4EI and on the MAS"), "no scientific role" removed; GeoAI4EI added in 2.2.4, 2.3.3, 2.5.
+- FACT CORRECTION from Erol: ELEVEN years in finance, not fifteen (plan, CV module 1, README, both mobility files updated; CV docx to rebuild). LiteRev-Evidence: NO leak-free validation feature; other functions are prototype only, "not yet verified, measured or validated, and that is the work of this grant".
+- Erol is co-author of Edjinedja 2026 (3rd author), "our systematic review" is correct.
+- Erol will send a new version of 2.1/2.2 with further answers. Plan now 14 pages, 48,100 chars.

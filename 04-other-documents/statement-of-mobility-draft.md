@@ -34,7 +34,7 @@ travel.
 
 **Retrospective.** My institutional trajectory runs across communities rather than cities. After
 a master's in quantitative economics and a DEA in econometrics (2006, supervised by Prof. Eva
-Cantoni), I spent fifteen years in the financial sector before joining the Institute of Global
+Cantoni), I spent eleven years in the financial sector before joining the Institute of Global
 Health in 2019 for a doctorate in biomedical sciences (defended December 2023). Since then I have
 worked across institutional boundaries inside and beyond UNIGE: with the Data Science for Digital
 Health group (Department of Radiology and Medical Informatics) on biomedical NLP; with HUG
@@ -84,7 +84,7 @@ resources designed for exactly that use.
 
 ### 3. Intersectoral mobility
 
-**Retrospective - the strongest dimension.** Fifteen years in the financial sector as a
+**Retrospective - the strongest dimension.** Eleven years in the financial sector as a
 quantitative analyst and risk manager (2007–2018, including co-founding an asset-management
 firm), estimating rare and costly events: extreme-value methods for non-Gaussian tails, regime
 and factor models, stress testing, scenario analysis. In 2019 I left that career for biomedical

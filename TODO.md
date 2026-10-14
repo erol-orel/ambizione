@@ -128,3 +128,10 @@ confirmatory testing (respiratory primary, heat sequential).
 | CCER package | `04-other-documents/ccer/` (route, synopsis, data spec, checklist, inquiry) |
 | Working calendar | `CALENDAR.md` (v3, 6 Oct to 3 Nov) |
 | Call documents (primary sources) | `00-source-documents/call-documents/` |
+
+## 14 Oct evening, from the interactive walk-through (to apply when the walk-through reaches them)
+- Outcome no longer fixed to CASU-144: registered hierarchy (CASU-144 calls, HUG ED presentations, admissions or occupancy, HUG COVID-19 series [Orel 2024]), target selected on access, quality, resolution, operational relevance before any performance comparison. Align T3.0, T3.1, T3.3 (Test 1 "respiratory episodes"), summary, 2.1, 2.3.3 commitments table, Figure 1 chips.
+- Main respiratory test may use one pathogen or all three (decided at registration).
+- Expert elicitation: scale from n ≈ 15–20 to a realistic 2–5 participants (T4.1, H4 wording "experts").
+- Do not promise a fixed number of papers (2.3.2 outputs "four to six papers").
+- Remove unsupported claims where found; make WP methods easier to follow (plain words).

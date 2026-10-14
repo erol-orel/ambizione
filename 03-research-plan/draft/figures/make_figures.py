@@ -114,7 +114,7 @@ def fig1():
     label(px + 300, py + ph + 44, "each past episode replayed using only what was known at the time", 15, MUTE, "middle")
     label(880, 384, "WHERE", 20, NAVY, bold=True)
     chips = [("Respiratory epidemics", "main test", BLUE), ("Heatwaves", "second, if the first passes", NAVY),
-             ("Legionellosis", "year-4 extension", GREY)]
+             ("Legionellosis", "third test, year 4", GREY)]
     for k, (nm, sub, col) in enumerate(chips):
         y = 400 + k * 50
         s.append(box(880, y, 500, 42, GREY_BG, col, 21, 1.8))
@@ -145,7 +145,7 @@ WPS = [
         ("T3.2 Historical information set", 18, 30),
         ("T3.3 Candidate models and selection", 20, 34),
         ("T3.4 Benefit and failure analysis", 28, 38),
-        ("T3.5 Heat and legionellosis extension", 34, 42)]),
+        ("T3.5 Heat and legionellosis tests", 34, 42)]),
     ("WP4", 24, 48, [
         ("T4.1 Operational losses and thresholds", 24, 32),
         ("T4.2 Decision analysis and equity", 30, 40),

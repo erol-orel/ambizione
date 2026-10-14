@@ -1,34 +1,30 @@
 ### 2.3.3 Research environment, team and resources
 
-Host. The project will be based at the Institute of Global Health, Faculty of Medicine, University of Geneva, with methodological collaboration from Data Science for Digital Health (Prof. Douglas Teodoro) and clinical collaboration from HUG emergency medicine (Prof. Thibaut Desmettre and Dr Robert Larribau, CASU-144).
+The project is based at the Institute of Global Health (ISG), Faculty of Medicine, University of Geneva, which brings together epidemiology, infectious-disease modelling and evidence synthesis. The programme is led independently alongside the Institute's groups.
 
-The Institute brings together epidemiology, infectious-disease modelling and evidence synthesis, and the programme will be hosted alongside its groups and led independently. DS4DH provides the biomedical natural-language-processing expertise needed for WP1, and GESICA has already established working links with emergency-medicine partners [Edjinedja 2026]. Infrastructure includes LiteRev-Evidence, the legionellosis study, UNIGE HPC and its secure data environment.
+| Entity | Person in charge | Role in HEADSTART | Status |
+|---|---|---|---|
+| ISG, UNIGE | Prof. Olivia Keiser, contact person | Host institute | Hosting agreed, SNSF letters in preparation |
+| DS4DH, UNIGE | Prof. Douglas Teodoro | Biomedical text mining for WP1 | Letter of support signed |
+| HUG, emergency department | Prof. Thibaut Desmettre, head of department | ED and ICU data, clinical partner | Extraction in discussion, letter requested |
+| CASU-144, HUG | Dr Robert Larribau | Emergency-call data, clinical partner | Access held within GESICA, project agreement in preparation |
+| GESICA (Franco-Swiss) | Prof. Douglas Teodoro | Surveillance inventory, data access, emergency-medicine partners | Running |
+| GeoAI4EI (Horizon Europe) | Prof. Olivia Keiser | European epidemic-intelligence partners, exchange of methods | Running 2026–2030 |
+| Médecin cantonal and SIG | | Legionellosis linked data | Secured, BASEC 2026-00324 |
+| Pharmacien cantonal | | Wastewater and pharmacy sales | Contacts established |
+| UNIGE HPC and secure data environment | | Computing | In place |
+| Open public series | | Surveillance, wastewater, deaths, weather | Public |
 
-Commitments, by status.
-
-| Item                                                           | Status                   | Evidence or action                                                   |
-|----------------------------------------------------------------|--------------------------|----------------------------------------------------------------------|
-| Legionellosis linked data                                      | Secured              | BASEC 2026-00324, data via the médecin cantonal, SIG technical data  |
-| Host institute (ISG)                                           | Agreed               | Hosting accepted, SNSF-template signatures in preparation            |
-| Computing                                                      | Secured              | UNIGE HPC and secure-environment access in place                     |
-| DS4DH methodological collaboration                             | Secured              | Letter of support signed                                             |
-| SNSF institutional confirmation letter                         | Requested                | UNIGE Vice-Rectorate, standard administrative step                   |
-| CASU-144 records, primary outcome                          | Access held (GESICA) | Daily, near real time, project agreement and letter in preparation   |
-| ED presentations and ICU occupancy                             | In progress              | Extraction in discussion with HUG, letters requested                 |
-| COVID-19 hospitalisation series (HUG, daily)                   | Re-request planned       | Previously analysed [Orel 2024], validation and calibration series |
-| Pharmacien cantonal, wastewater and pharmacy sales             | Contacts established     | Extracts to formalise, partly within GESICA                          |
-| Open public series (surveillance, wastewater, deaths, weather) | Public               | Freely accessible, no agreement needed                               |
-
-The unresolved feasibility items are the ED/ICU extraction and the project-specific CASU-144 agreement. Each rests on an existing relationship, and neither is claimed as secured yet.
+The ED and ICU extraction and the project-specific CASU-144 agreement are not yet secured. Each rests on an existing working relationship.
 
 Project funds are capped at CHF 250,000 over four years, and my salary is separate. Under the 2026 rules, doctoral students and postdocs cannot be employed, but support personnel can.
 
-| Item                                                      | Rationale                                                                                            |
-|-----------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| Scientific/technical collaborator, 50% over 48 months | T1.2 protocol and adjudication support, WP3 harmonisation and evaluation pipeline, reproducibility   |
-| Second independent extractor                              | Contracted M3–M9, required for T1.2's dual-extraction design                                         |
-| Data access, secure storage and processing                | Project-specific extractions, secure-environment allocations and runs beyond existing infrastructure |
-| Travel, conferences, incoming visits                      | Presentation of results, international collaboration                                                 |
-| Other eligible direct costs                               | As justified in the final SNSF budget                                                                |
+| Item | Rationale |
+|---|---|
+| Scientific collaborator, up to 40% over 48 months | Benchmark support, data harmonisation, evaluation pipeline, reproducibility |
+| Master's student as second extractor, M3–M9 | Second extraction arm of the T1.2 benchmark |
+| Data access, secure storage and processing | Project-specific extractions and secure-environment runs beyond existing infrastructure |
+| Travel, conferences, incoming visits | Presentation of results, international collaboration |
+| Other eligible direct costs | As justified in the final SNSF budget |
 
-Before month 1 and outside the grant, I will finalise project-specific data agreements with HUG and CASU-144, confirm data reuse under the applicable governance and regulatory framework, and harden LiteRev-Evidence before clinical data are connected.
+Before month 1 and outside the grant, I will finalise the data agreements with HUG and CASU-144, confirm data reuse under the applicable governance rules, and harden LiteRev-Evidence before clinical data are connected.

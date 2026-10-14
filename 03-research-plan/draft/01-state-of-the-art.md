@@ -18,7 +18,7 @@ There are various ways that published evidence can inform forecasting. Studies c
 
 Automated extraction makes large-scale evidence synthesis possible, but extraction of numerical results is less reliable than extraction of categories (reported accuracy roughly 47–88% versus 74–96%), and omissions account for a large share of errors [Shankar 2026]. HEADSTART will test whether these errors systematically understate uncertainty and whether an explicit measurement-error model can correct the resulting distributions.
 
-Even when an estimate has been published, it may not apply to Geneva due to variations in population, case definitions, the health service or health-system organisation, and policy. Formal methods to assess the transferability of estimates exist [Bareinboim 2016; Dahabreh 2020; Degtiar 2023], but they have not been combined with automated evidence extraction, and their effect on forecasts of health-system demand at the onset of a crisis has not been assessed.
+Even when an estimate has been published, it may not apply to a given local setting due to variations in population, case definitions, the health service or health-system organisation, and policy. Formal methods to assess the transferability of estimates exist [Bareinboim 2016; Dahabreh 2020; Degtiar 2023], but they have not been combined with automated evidence extraction, and their effect on forecasts of health-system demand at the onset of a crisis has not been assessed.
 
 ### 2.1.3 Escalation of the demand for the service should also be assessed
 

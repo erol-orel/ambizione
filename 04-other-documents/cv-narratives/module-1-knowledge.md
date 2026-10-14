@@ -5,7 +5,7 @@
 
 ---
 
-I came to biomedical research after fifteen years as a quantitative analyst and risk manager,
+I came to biomedical research after eleven years as a quantitative analyst and risk manager,
 where my work concerned the prediction of rare, costly events: extreme value estimation for
 non-Gaussian tails, regime and factor models, stress testing and scenario analysis. That
 inheritance shapes everything below. My contribution to health research has consistently been to

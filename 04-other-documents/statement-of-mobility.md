@@ -18,7 +18,7 @@ MSc (2004), DEA (2006), PhD (2023) and current position are all at the Universit
 
 **1. Geneva is where this project is possible.** The justification is concrete: the linked cantonal case–installation data under BASEC 2026-00324, already under way; established HUG emergency, 144/CASU and intensive-care collaborations; infectious-disease and evidence-extraction expertise in the host institute; and the DS4DH biomedical-NLP collaboration needed for WP1.
 
-**2. Intersectoral and interdisciplinary mobility already occurred.** Fifteen years in quantitative finance followed by biomedical research is a major methodological transition. It brought regime-switching models, extreme-value estimation and stress-testing into health research. This should be presented as substantive intellectual/interdisciplinary mobility, not as a substitute for every other mobility dimension.
+**2. Intersectoral and interdisciplinary mobility already occurred.** Eleven years in quantitative finance followed by biomedical research is a major methodological transition. It brought regime-switching models, extreme-value estimation and stress-testing into health research. This should be presented as substantive intellectual/interdisciplinary mobility, not as a substitute for every other mobility dimension.
 
 **3. Equivalent mobility under Art. 9 §4(c), not a relocation.** The regulations require a
 prospective plan; they do not require a stay. Short visits and international collaborations are an
@@ -84,7 +84,7 @@ mentioned in passing.
 
 ### Ordering for the form
 
-1. **Intersectoral (dimension 3)** - fifteen years in quantitative risk, then a change of field.
+1. **Intersectoral (dimension 3)** - eleven years in quantitative risk, then a change of field.
    Real, documented, and the strongest element. Note that the SNSF defines this dimension as
    "experience in the public, private and non-profit sectors relevant for the proposed research"
    - which is exactly what it is.

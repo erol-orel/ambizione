@@ -37,7 +37,7 @@ Anything real here strengthens Module 2 substantially and should replace my hedg
 
 ## Threads that should run through all four
 
-- **The career change is an asset, not an explanation.** Fifteen years of quantitative finance is
+- **The career change is an asset, not an explanation.** Eleven years of quantitative finance is
   where the regime-switching, extreme-value and stress-testing methods come from. Say it once,
   clearly, in Module 1; let it be visible rather than repeated.
 - **Academic age.** PhD defended 18 December 2023. Roughly three years of academic age with
