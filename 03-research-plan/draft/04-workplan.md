@@ -34,7 +34,7 @@ The state model is a Bayesian hierarchical Markov regime-switching model [Hamilt
 
 ##### T2.2. Represent the critical tail *(M6–M14)*
 
-Rare exceedances are modelled with peaks over threshold and the generalised Pareto distribution, coupled to the probability of the critical state, with threshold sensitivity reported. This is supporting work, not a separate objective.
+Rare exceedances are modelled with peaks over threshold and the generalised Pareto distribution, coupled to the critical-state probability, with threshold sensitivity reported, as supporting work rather than a separate objective.
 
 ##### T2.3. Introduce evidence-derived priors *(M10–M20)*
 
@@ -50,7 +50,7 @@ Calibration uses methods suited to temporal dependence, with a conformal compone
 
 **Simulation is prior information, not data.** Fitting trajectories parameterised from the literature as if they were data would count the same information twice and disable the conflict diagnostic H3b depends on. Simulation therefore serves identifiability, structural constraints and prior predictive checks, and it never tightens the evidence prior.
 
-**Deliverables.** D2.1 specification and identifiability study, D2.2 open implementation, D2.3 methods paper.
+**Deliverables.** D2.1 specification and identifiability study, D2.2 open code, D2.3 methods paper.
 
 **Risk.** Weak regime separation. *Mitigation.* Simulation comes first, the ordinal fallback is ready, and the identifiability boundary is reported as a result rather than tuned until success.
 

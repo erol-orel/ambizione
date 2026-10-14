@@ -131,7 +131,7 @@ T2.1's identifiability study and T3.3's calibration checks either establish adeq
 
 #### O4. Establish whether predictive improvement matters for decisions
 
-> **H4.** For the demand-based archetypes, decision-analytic evaluation under emergency responders' losses and escalation thresholds can rank modelling strategies differently from generic accuracy criteria. The evidence-derived strategy is useful only when its gain crosses a decision threshold.
+> **H4.** For the demand-based archetypes, decision-analytic evaluation under responders' losses and escalation thresholds can rank modelling strategies differently from generic accuracy criteria. The evidence-derived strategy is useful only when its gain crosses a decision threshold.
 
 #### Scope. Three Geneva crisis archetypes, fixed for the grant
 
@@ -178,7 +178,7 @@ The state model is a Bayesian hierarchical Markov regime-switching model [Hamilt
 
 ##### T2.2. Represent the critical tail *(M6–M14)*
 
-Rare exceedances are modelled with peaks over threshold and the generalised Pareto distribution, coupled to the probability of the critical state, with threshold sensitivity reported. This is supporting work, not a separate objective.
+Rare exceedances are modelled with peaks over threshold and the generalised Pareto distribution, coupled to the critical-state probability, with threshold sensitivity reported, as supporting work rather than a separate objective.
 
 ##### T2.3. Introduce evidence-derived priors *(M10–M20)*
 
@@ -194,7 +194,7 @@ Calibration uses methods suited to temporal dependence, with a conformal compone
 
 **Simulation is prior information, not data.** Fitting trajectories parameterised from the literature as if they were data would count the same information twice and disable the conflict diagnostic H3b depends on. Simulation therefore serves identifiability, structural constraints and prior predictive checks, and it never tightens the evidence prior.
 
-**Deliverables.** D2.1 specification and identifiability study, D2.2 open implementation, D2.3 methods paper.
+**Deliverables.** D2.1 specification and identifiability study, D2.2 open code, D2.3 methods paper.
 
 **Risk.** Weak regime separation. *Mitigation.* Simulation comes first, the ordinal fallback is ready, and the identifiability boundary is reported as a result rather than tuned until success.
 
@@ -343,14 +343,14 @@ There is no serial chain. WP2 falls back to weakly informative priors if WP1 fin
 
 | Programme | Objective | My role | Distinction from Ambizione |
 | --- | --- | --- | --- |
-| GESICA | Franco-Swiss crisis intelligence | Contributor | No test of evidence priors |
-| GeoAI4EI (EU) | Epidemic-intelligence toolbox | Contributor | Infrastructure only |
-| Legionellosis (ongoing) | Waterborne outbreaks, Geneva | Data lead | Contrasting extension |
-| **Ambizione** | **Cold-start evidence borrowing** | **PI, 100%** | - |
+| GESICA | Franco-Swiss crisis intelligence | Contributor | Decision support, no test of evidence-derived priors |
+| GeoAI4EI (Horizon Europe) | European epidemic-intelligence toolbox | Contributor | Infrastructure, no test of borrowed evidence |
+| Legionellosis study (ongoing) | Geneva waterborne outbreak determinants | Data lead | Supplies a contrasting validation extension |
+| **Ambizione** | **When evidence borrowing helps at cold start, and when it harms** | **PI, full-time** | - |
 
 **This project does not build another epidemic-intelligence platform.** It uses existing infrastructures to test a question that is a work package of none of them.
 
-**The question and the methods are mine.** The question arose while I was building LiteRev-Evidence. It could pool published estimates into priors, and nothing showed whether they improved forecasting in a new setting. The methodological core came from fifteen years of quantitative finance, from no group I have worked in, and the platform was developed at UNIGE under my scientific direction.
+**The question and the methods are mine.** The question arose while building LiteRev-Evidence. It could pool published estimates into priors, and nothing showed whether they improved forecasting in a new setting. The methodological core came from fifteen years of quantitative finance, from no group I have worked in, and the platform was built at UNIGE under my scientific direction.
 
 **Collaborators and their roles.** Prof. Olivia Keiser leads the group in which I developed LiteRev. She also leads the legionellosis study, GeoAI4EI and the MAS on which I teach, and she co-authors my output, as expected at this stage, but she has **no scientific role in this project**. Prof. Douglas Teodoro leads GESICA and provides the WP1 biomedical-NLP collaboration.
 

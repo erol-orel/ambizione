@@ -12,14 +12,14 @@
 
 | Programme | Objective | My role | Distinction from Ambizione |
 | --- | --- | --- | --- |
-| GESICA | Franco-Swiss crisis intelligence | Contributor | No test of evidence priors |
-| GeoAI4EI (EU) | Epidemic-intelligence toolbox | Contributor | Infrastructure only |
-| Legionellosis (ongoing) | Waterborne outbreaks, Geneva | Data lead | Contrasting extension |
-| **Ambizione** | **Cold-start evidence borrowing** | **PI, 100%** | - |
+| GESICA | Franco-Swiss crisis intelligence | Contributor | Decision support, no test of evidence-derived priors |
+| GeoAI4EI (Horizon Europe) | European epidemic-intelligence toolbox | Contributor | Infrastructure, no test of borrowed evidence |
+| Legionellosis study (ongoing) | Geneva waterborne outbreak determinants | Data lead | Supplies a contrasting validation extension |
+| **Ambizione** | **When evidence borrowing helps at cold start, and when it harms** | **PI, full-time** | - |
 
 **This project does not build another epidemic-intelligence platform.** It uses existing infrastructures to test a question that is a work package of none of them.
 
-**The question and the methods are mine.** The question arose while I was building LiteRev-Evidence. It could pool published estimates into priors, and nothing showed whether they improved forecasting in a new setting. The methodological core came from fifteen years of quantitative finance, from no group I have worked in, and the platform was developed at UNIGE under my scientific direction.
+**The question and the methods are mine.** The question arose while building LiteRev-Evidence. It could pool published estimates into priors, and nothing showed whether they improved forecasting in a new setting. The methodological core came from fifteen years of quantitative finance, from no group I have worked in, and the platform was built at UNIGE under my scientific direction.
 
 **Collaborators and their roles.** Prof. Olivia Keiser leads the group in which I developed LiteRev. She also leads the legionellosis study, GeoAI4EI and the MAS on which I teach, and she co-authors my output, as expected at this stage, but she has **no scientific role in this project**. Prof. Douglas Teodoro leads GESICA and provides the WP1 biomedical-NLP collaboration.
 

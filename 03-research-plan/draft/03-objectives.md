@@ -43,7 +43,7 @@ T2.1's identifiability study and T3.3's calibration checks either establish adeq
 
 #### O4. Establish whether predictive improvement matters for decisions
 
-> **H4.** For the demand-based archetypes, decision-analytic evaluation under emergency responders' losses and escalation thresholds can rank modelling strategies differently from generic accuracy criteria. The evidence-derived strategy is useful only when its gain crosses a decision threshold.
+> **H4.** For the demand-based archetypes, decision-analytic evaluation under responders' losses and escalation thresholds can rank modelling strategies differently from generic accuracy criteria. The evidence-derived strategy is useful only when its gain crosses a decision threshold.
 
 #### Scope. Three Geneva crisis archetypes, fixed for the grant
 

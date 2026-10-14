@@ -878,3 +878,5 @@ overlaps (2.3.3 infrastructure merged into one paragraph, 2.5 operational paragr
 into impact, 2.2.4 GESICA inventory shortened), shortening table cells in 2.6 and 2.4 that
 wrapped, and trimming a few words in paragraphs whose last line held one or two words.
 Result: exactly 15 pages, ~52,000 chars, no em-dash.
+
+## 14 Oct: 2.6 programme table restored to its full labels (applicant order); three lines recovered by word trims in T2.2, D2 deliverables, H4 and 2.6. 15 pages held.
