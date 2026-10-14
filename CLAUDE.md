@@ -26,3 +26,6 @@
   pass and to new text; existing colons/semicolons in the plan are flagged in the review pass of
   the applicant's version, not rewritten silently. (Overrides the older advice above to use a
   colon or semicolon in place of an em-dash: use a comma, parentheses or a new sentence instead.)
+- **Deliverable rule (applicant, 14 Oct): after any change to the research plan, always send the
+  rebuilt `03-research-plan/FINAL-research-plan.docx` (not only the PDF). The applicant reviews
+  and edits in Word.
