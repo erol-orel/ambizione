@@ -985,3 +985,5 @@ with Erol for decision before the letter is signed.
 ## 14 Oct: FRM certification added once, in the 2.2 opening sentence (applicant decision). 15 pages held.
 
 ## 14 Oct: econometrics training added (2.2 opening + summary "Trained as an econometrician"); ALL BOLD REMOVED except the title line (applicant order); 2.6 closing sentence folded into the last paragraph; body spacing 1pt after, headings 3 to 7pt before; 15 pages held.
+
+## 14 Oct: levels-from-evidence wording made consistent everywhere (summary x2, 2.1.3, T2.1, T4.1, both 2-page notes md/docx/pdf); background paragraph of the summary rewritten (econometrics, FRM, doctorate, LiteRev, GESICA). Replacement texts handed to Erol for his reviewing copy. 15 pages held.

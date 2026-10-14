@@ -35,8 +35,9 @@ legionellosis study (BASEC 2026-00324).
    parameters from the literature, against a dual human-extraction benchmark, and correct the
    identified biases; the literature also supplies explanatory variables, recommended model
    families and outcome and threshold definitions.
-2. **Modelling** - represent the state of the care system as a latent regime process
-   (routine / elevated / strained / critical) rather than a threshold applied to a point
+2. **Modelling** - represent the state of the care system as ordered levels of pressure,
+   whose number and thresholds are taken first from the published evidence (by default
+   routine / elevated / strained / critical), rather than a threshold applied to a point
    forecast; epidemiological models (SEIR-type) enter only for epidemiological crises,
    environmental crises being driven by exposure-response structures.
 3. **Evaluation** - test, historical episode by historical episode, whether literature-derived

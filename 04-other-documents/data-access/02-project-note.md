@@ -39,8 +39,9 @@ et l'étude légionellose genevoise en cours (BASEC 2026-00324).
    quantitatifs depuis la littérature, contre un étalon en double extraction humaine, et
    corriger les biais identifiés ; la littérature fournit aussi les variables explicatives,
    les familles de modèles recommandées et les définitions d'issues et de seuils.
-2. **Modélisation** - représenter l'état du système de soins comme un processus à régimes
-   latents (habituel / tendu / sous tension / critique) plutôt que comme un seuil appliqué à
+2. **Modélisation** - représenter l'état du système de soins par des niveaux ordonnés de
+   pression, dont le nombre et les seuils sont d'abord tirés de la littérature publiée (par
+   défaut habituel / tendu / sous tension / critique), plutôt que par un seuil appliqué à
    une prévision ponctuelle ; les modèles épidémiologiques (type SEIR) n'interviennent que
    pour les crises épidémiologiques, les crises environnementales relevant de structures
    exposition–réponse.
