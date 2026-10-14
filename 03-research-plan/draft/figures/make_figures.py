@@ -45,102 +45,95 @@ DEFS = ('<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" '
 
 # ---------------------------------------------------------------- Figure 1
 def fig1():
-    W, H = 1400, 470
+    # Reproduces the applicant's 14 Oct design (3300 x 1305) as vector art, without semicolons.
+    W, H = 3300, 1305
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
-         f'viewBox="0 0 {W} {H}">', DEFS, f'<rect width="{W}" height="{H}" fill="white"/>']
+         f'viewBox="0 0 {W} {H}">', f'<rect width="{W}" height="{H}" fill="white"/>']
+    NAVY, GREEN, ORANGE, BLUE, GREY = "#1f3a5f", "#2e8b57", "#c8701a", "#1f5f8b", "#8a97a6"
+    GREEN_BG, ORANGE_BG, BLUE_BG, GREY_BG = "#eaf5ef", "#fdf3e6", "#e8f0f7", "#eef2f6"
+    SMALL = "#5b6675"
 
     def fits(txt, size, width, bold=False):
         assert len(txt) * size * (0.56 if bold else 0.52) <= width, (txt, size, width)
 
-    def panel(x, y, w, h, title, lines, accent=False, title_size=19, body=16.5):
-        s.append(box(x, y, w, h, ACCENT_BG if accent else FILL, ACCENT if accent else LINE, 6, 1.8 if accent else 1.4))
-        fits(title, title_size, w - 20, True)
-        s.append(text(x + w / 2, y + 27, title, title_size, ACCENT if accent else INK, "middle", "bold"))
-        yy = y + 50
+    def card(x, y, w, h, title, lines, small, border, title_col, bg, sw=5, rx=28, dark=False):
+        s.append(box(x, y, w, h, bg, border, rx, sw))
+        fits(title, 42, w - 60, True)
+        s.append(text(x + 38, y + 68, title, 42, title_col, weight="bold"))
+        yy = y + 128
         for ln in lines:
-            bold = ln.startswith("*")
-            ln = ln.lstrip("*")
-            fits(ln, body, w - 20, bold)
-            s.append(text(x + w / 2, yy, ln, body, INK if bold else MUTE, "middle", "bold" if bold else "normal"))
-            yy += 21
+            fits(ln, 36, w - 60)
+            s.append(text(x + 38, yy, ln, 36, "white" if dark else INK)); yy += 48
+        for ln in small:
+            fits(ln, 30, w - 60)
+            s.append(text(x + 38, yy, ln, 30, "#dbe3ec" if dark else SMALL)); yy += 42
 
-    # --- column 1: inputs available at onset ---
-    cx, cw = 0, 372
-    panel(cx, 20, cw, 118, "CONTEXT DATA, shared by both",
-          ["weather, air quality, calendar effects,", "wastewater and surveillance feeds,",
-           "*from public sources or partners"])
-    panel(cx, 158, cw, 118, "LOCAL OUTCOMES, shared by both",
-          ["long historical records of the service", "only a few outcomes from the new episode",
-           "*emergency demand by cause (CASU-144)"])
-    panel(cx, 296, cw, 154, "PUBLISHED STUDIES (WP1)",
-          ["extracted automatically, with provenance", "and certainty grades, benchmarked (H1)",
-           "parameter values, variables and lags,", "model forms, outcome thresholds",
-           "*relevance to Geneva assessed (T1.5)"], accent=True)
+    def varrow(x, y1, y2, col):
+        s.append(f'<line x1="{x}" y1="{y1}" x2="{x}" y2="{y2 - 26}" stroke="{col}" stroke-width="7"/>')
+        s.append(f'<path d="M {x - 18} {y2 - 30} L {x + 18} {y2 - 30} L {x} {y2} z" fill="{col}"/>')
 
-    # --- column 2: the two strategies and the pressure levels ---
-    sx, sw = 452, 400
-    panel(sx, 40, sw, 112, "REFERENCE STRATEGY",
-          ["candidate models fitted to context data", "and local outcomes only",
-           "*best chosen by registered rules"])
-    panel(sx, 190, sw, 134, "EVIDENCE-INFORMED STRATEGY",
-          ["the same candidates and inputs, plus the", "published-evidence distributions, variables",
-           "and model forms, with fixed or adaptive", "*weighting under evidence conflict"], accent=True)
-    panel(sx, 352, sw, 98, "PRESSURE LEVELS (WP2)",
-          ["routine, elevated, strained, critical", "*defaults, seeded from the evidence"])
-
-    # --- column 3: evaluation, decisions, updating ---
-    ex, ew = 932, 468
-    panel(ex, 20, ew, 150, "EVALUATION AGAINST LATER OUTCOMES (WP3)",
-          ["each past episode replayed from its onset,", "every forecast date uses only what was known then",
-           "*H3a, evidence-informed vs reference, CRPS skill", "respiratory first, heat only if respiratory passes"])
-    panel(ex, 190, ew, 112, "DECISION VALUE (WP4)",
-          ["losses and escalation thresholds elicited", "from emergency services, net benefit",
-           "*dashboard in observation mode, where authorised"])
-    panel(ex, 322, ew, 112, "LIVING UPDATE",
-          ["daily literature check, syntheses refreshed", "on a registered schedule",
-           "*changes only through pre-registered rules"])
-
-    # --- arrows ---
-    s.append(arrow(cx + cw, 79, sx - 4, 96, MUTE))            # context -> reference
-    s.append(arrow(cx + cw, 95, sx - 4, 257, MUTE))           # context -> evidence-informed
-    s.append(arrow(cx + cw, 210, sx - 4, 110, MUTE))          # outcomes -> reference
-    s.append(arrow(cx + cw, 226, sx - 4, 270, MUTE))          # outcomes -> evidence-informed
-    s.append(arrow(cx + cw, 373, sx - 4, 300, ACCENT))        # studies -> evidence-informed only
-    s.append(arrow(sx + sw / 2, 324, sx + sw / 2, 348, MUTE)) # strategies -> pressure levels
-    s.append(arrow(sx + sw, 96, ex - 4, 80, MUTE))            # reference -> evaluation
-    s.append(arrow(sx + sw, 257, ex - 4, 110, MUTE))          # evidence-informed -> evaluation
-    s.append(arrow(ex + ew / 2, 170, ex + ew / 2, 186, MUTE)) # evaluation -> decision
-    s.append(arrow(ex + ew / 2, 302, ex + ew / 2, 318, MUTE, "6,5"))  # decision -> living update
-    s.append(f'<path d="M {ex + ew / 2} 434 L {ex + ew / 2} 458 L {cx + cw / 2} 458 L {cx + cw / 2} 454" '
-             f'fill="none" stroke="{MUTE}" stroke-width="2.2" stroke-dasharray="6,5" marker-end="url(#a)"/>')
+    s.append(text(55, 68, "Context data may be plentiful, while outcomes from the current episode are initially few.", 52, NAVY, weight="bold"))
+    # row 1
+    card(55, 115, 1005, 255, "CONTEXT DATA, OFTEN AVAILABLE",
+         ["Weather, air quality and calendar", "Wastewater and public surveillance"],
+         ["Public feeds or links through partners"], GREEN, GREEN, GREEN_BG)
+    card(1148, 115, 1005, 255, "OUTCOMES FROM THIS EPISODE",
+         ["Cause-specific calls and ED demand", "Occupancy and service pressure"],
+         ["Only a few observations at the start"], ORANGE, ORANGE, ORANGE_BG)
+    card(2240, 115, 1005, 255, "PUBLISHED STUDIES",
+         ["Effect estimates and uncertainty", "Variables, lags, model forms, thresholds"],
+         ["Evidence from other events and settings"], BLUE, BLUE, BLUE_BG)
+    # row 2
+    card(55, 425, 2098, 170, "SAME RAW INPUTS TO BOTH STRATEGIES",
+         ["Context feeds + historical local outcomes + outcomes observed so far"], [], GREY, NAVY, GREY_BG)
+    s.append(box(2240, 425, 1005, 170, BLUE_BG, BLUE, 28, 5))
+    s.append(text(2278, 493, "PREPARE THE EVIDENCE", 42, BLUE, weight="bold"))
+    s.append(text(2278, 540, "Extract, then check uncertainty and relevance", 30, INK))
+    s.append(text(2278, 580, "to Geneva before using it in a model", 30, INK))
+    # row 3
+    card(55, 650, 1495, 265, "REFERENCE STRATEGY",
+         ["Fits registered models to the shared data."],
+         ["No model inputs derived from HEADSTART extraction.", "Same selection and validity rules."], NAVY, NAVY, "white")
+    card(1620, 650, 1625, 265, "STRATEGY USING PUBLISHED EVIDENCE",
+         ["Uses the same data, plus findings from published studies."],
+         ["Parameter distributions retain extraction uncertainty.", "Evidence also informs variables, lags and model forms."], BLUE, BLUE, BLUE_BG)
+    # bottom
+    card(55, 980, 3190, 255, "REPLAY PAST EPISODES USING ONLY WHAT WAS AVAILABLE AT EACH DATE",
+         ["Compare probability forecasts with later outcomes, and assess calibration and operational value."],
+         ["A dashboard is considered only for validated demand-based applications and with service authorisation."],
+         NAVY, "white", NAVY, dark=True)
+    # arrows
+    varrow(557, 370, 425, GREEN); varrow(1650, 370, 425, ORANGE); varrow(2742, 370, 425, BLUE)
+    varrow(750, 595, 650, GREY); varrow(1860, 595, 650, GREY); varrow(2742, 595, 650, BLUE)
+    varrow(800, 915, 980, NAVY); varrow(2432, 915, 980, BLUE)
     s.append("</svg>")
     (OUT / "fig1-framework.svg").write_text("\n".join(s), encoding="utf-8")
 
 
 WPS = [
     ("WP1", 1, 20, [
-        ("T1.1 evidence target + protocol", 1, 4),
-        ("T1.2 extraction benchmark", 3, 9),
-        ("T1.3 automated extraction error", 7, 14),
-        ("T1.4 evidence distributions", 12, 18),
-        ("T1.5 transportability screen", 15, 20)]),
+        ("T1.1 Evidence target and protocol", 1, 4),
+        ("T1.2 Extraction benchmark", 3, 9),
+        ("T1.3 Extraction error analysis", 7, 14),
+        ("T1.4 Evidence distributions", 12, 18),
+        ("T1.5 Transportability screen", 15, 20)]),
     ("WP2", 1, 28, [
-        ("T2.1 state model + identifiability", 1, 9),
-        ("T2.2 critical tail", 6, 14),
-        ("T2.3 evidence-derived priors", 10, 20),
-        ("T2.4 resilience indicators", 12, 20),
-        ("T2.5 calibration, automation, validity", 20, 28)]),
+        ("T2.1 State model and identifiability", 1, 9),
+        ("T2.2 Critical tail", 6, 14),
+        ("T2.3 Evidence-derived priors", 10, 20),
+        ("T2.4 Resilience indicators", 12, 20),
+        ("T2.5 Calibration and automation", 20, 28)]),
     ("WP3", 1, 42, [
-        ("T3.0 outcome hierarchy + registration", 1, 14),
-        ("T3.1 retrospective information set", 12, 20),
-        ("T3.2 information-set reconstruction", 18, 30),
-        ("T3.3 model library + automated selection", 20, 34),
-        ("T3.4 benefit + failure map", 28, 38),
-        ("T3.5 cross-archetype generalisation", 34, 42)]),
+        ("T3.0 Outcome hierarchy and registration", 1, 14),
+        ("T3.1 Retrospective information set", 12, 20),
+        ("T3.2 Historical information set", 18, 30),
+        ("T3.3 Candidate models and selection", 20, 34),
+        ("T3.4 Benefit and failure analysis", 28, 38),
+        ("T3.5 Heat and legionellosis extension", 34, 42)]),
     ("WP4", 24, 48, [
-        ("T4.1 losses + thresholds (SHELF)", 24, 32),
-        ("T4.2 decision analysis + equity audit", 30, 40),
-        ("T4.3 counterfactuals, observation dashboard", 34, 48)]),
+        ("T4.1 Operational losses and thresholds", 24, 32),
+        ("T4.2 Decision analysis and equity", 30, 40),
+        ("T4.3 Counterfactuals and dashboard", 34, 48)]),
 ]
 MILESTONES = [(9, "M1"), (12, "M2"), (20, "M3"), (34, "M4"), (40, "M5"), (48, "M6")]
 

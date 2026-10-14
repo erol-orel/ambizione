@@ -1,63 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="470" viewBox="0 0 1400 470">
-<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4e4e4e"/></marker></defs>
-<rect width="1400" height="470" fill="white"/>
-<rect x="0" y="20" width="372" height="118" rx="6" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="186.0" y="47" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">CONTEXT DATA, shared by both</text>
-<text x="186.0" y="70" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">weather, air quality, calendar effects,</text>
-<text x="186.0" y="91" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">wastewater and surveillance feeds,</text>
-<text x="186.0" y="112" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">from public sources or partners</text>
-<rect x="0" y="158" width="372" height="118" rx="6" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="186.0" y="185" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">LOCAL OUTCOMES, shared by both</text>
-<text x="186.0" y="208" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">long historical records of the service</text>
-<text x="186.0" y="229" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">only a few outcomes from the new episode</text>
-<text x="186.0" y="250" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">emergency demand by cause (CASU-144)</text>
-<rect x="0" y="296" width="372" height="154" rx="6" fill="#e3edf4" stroke="#1f5f8b" stroke-width="1.8"/>
-<text x="186.0" y="323" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">PUBLISHED STUDIES (WP1)</text>
-<text x="186.0" y="346" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">extracted automatically, with provenance</text>
-<text x="186.0" y="367" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">and certainty grades, benchmarked (H1)</text>
-<text x="186.0" y="388" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">parameter values, variables and lags,</text>
-<text x="186.0" y="409" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">model forms, outcome thresholds</text>
-<text x="186.0" y="430" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">relevance to Geneva assessed (T1.5)</text>
-<rect x="452" y="40" width="400" height="112" rx="6" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="652.0" y="67" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">REFERENCE STRATEGY</text>
-<text x="652.0" y="90" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">candidate models fitted to context data</text>
-<text x="652.0" y="111" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">and local outcomes only</text>
-<text x="652.0" y="132" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">best chosen by registered rules</text>
-<rect x="452" y="190" width="400" height="134" rx="6" fill="#e3edf4" stroke="#1f5f8b" stroke-width="1.8"/>
-<text x="652.0" y="217" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">EVIDENCE-INFORMED STRATEGY</text>
-<text x="652.0" y="240" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">the same candidates and inputs, plus the</text>
-<text x="652.0" y="261" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">published-evidence distributions, variables</text>
-<text x="652.0" y="282" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">and model forms, with fixed or adaptive</text>
-<text x="652.0" y="303" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">weighting under evidence conflict</text>
-<rect x="452" y="352" width="400" height="98" rx="6" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="652.0" y="379" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">PRESSURE LEVELS (WP2)</text>
-<text x="652.0" y="402" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">routine, elevated, strained, critical</text>
-<text x="652.0" y="423" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">defaults, seeded from the evidence</text>
-<rect x="932" y="20" width="468" height="150" rx="6" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="1166.0" y="47" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">EVALUATION AGAINST LATER OUTCOMES (WP3)</text>
-<text x="1166.0" y="70" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">each past episode replayed from its onset,</text>
-<text x="1166.0" y="91" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">every forecast date uses only what was known then</text>
-<text x="1166.0" y="112" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">H3a, evidence-informed vs reference, CRPS skill</text>
-<text x="1166.0" y="133" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">respiratory first, heat only if respiratory passes</text>
-<rect x="932" y="190" width="468" height="112" rx="6" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="1166.0" y="217" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">DECISION VALUE (WP4)</text>
-<text x="1166.0" y="240" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">losses and escalation thresholds elicited</text>
-<text x="1166.0" y="261" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">from emergency services, net benefit</text>
-<text x="1166.0" y="282" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">dashboard in observation mode, where authorised</text>
-<rect x="932" y="322" width="468" height="112" rx="6" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="1166.0" y="349" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">LIVING UPDATE</text>
-<text x="1166.0" y="372" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">daily literature check, syntheses refreshed</text>
-<text x="1166.0" y="393" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">on a registered schedule</text>
-<text x="1166.0" y="414" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold" font-style="normal">changes only through pre-registered rules</text>
-<line x1="372" y1="79" x2="448" y2="96" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
-<line x1="372" y1="95" x2="448" y2="257" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
-<line x1="372" y1="210" x2="448" y2="110" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
-<line x1="372" y1="226" x2="448" y2="270" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
-<line x1="372" y1="373" x2="448" y2="300" stroke="#1f5f8b" stroke-width="2.2" marker-end="url(#a)"/>
-<line x1="652.0" y1="324" x2="652.0" y2="348" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
-<line x1="852" y1="96" x2="928" y2="80" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
-<line x1="852" y1="257" x2="928" y2="110" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
-<line x1="1166.0" y1="170" x2="1166.0" y2="186" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
-<line x1="1166.0" y1="302" x2="1166.0" y2="318" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)" stroke-dasharray="6,5"/>
-<path d="M 1166.0 434 L 1166.0 458 L 186.0 458 L 186.0 454" fill="none" stroke="#4e4e4e" stroke-width="2.2" stroke-dasharray="6,5" marker-end="url(#a)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="3300" height="1305" viewBox="0 0 3300 1305">
+<rect width="3300" height="1305" fill="white"/>
+<text x="55" y="68" font-family="Helvetica, Arial, sans-serif" font-size="52" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">Context data may be plentiful, while outcomes from the current episode are initially few.</text>
+<rect x="55" y="115" width="1005" height="255" rx="28" fill="#eaf5ef" stroke="#2e8b57" stroke-width="5"/>
+<text x="93" y="183" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#2e8b57" text-anchor="start" font-weight="bold" font-style="normal">CONTEXT DATA, OFTEN AVAILABLE</text>
+<text x="93" y="243" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Weather, air quality and calendar</text>
+<text x="93" y="291" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Wastewater and public surveillance</text>
+<text x="93" y="339" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#5b6675" text-anchor="start" font-weight="normal" font-style="normal">Public feeds or links through partners</text>
+<rect x="1148" y="115" width="1005" height="255" rx="28" fill="#fdf3e6" stroke="#c8701a" stroke-width="5"/>
+<text x="1186" y="183" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#c8701a" text-anchor="start" font-weight="bold" font-style="normal">OUTCOMES FROM THIS EPISODE</text>
+<text x="1186" y="243" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Cause-specific calls and ED demand</text>
+<text x="1186" y="291" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Occupancy and service pressure</text>
+<text x="1186" y="339" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#5b6675" text-anchor="start" font-weight="normal" font-style="normal">Only a few observations at the start</text>
+<rect x="2240" y="115" width="1005" height="255" rx="28" fill="#e8f0f7" stroke="#1f5f8b" stroke-width="5"/>
+<text x="2278" y="183" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">PUBLISHED STUDIES</text>
+<text x="2278" y="243" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Effect estimates and uncertainty</text>
+<text x="2278" y="291" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Variables, lags, model forms, thresholds</text>
+<text x="2278" y="339" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#5b6675" text-anchor="start" font-weight="normal" font-style="normal">Evidence from other events and settings</text>
+<rect x="55" y="425" width="2098" height="170" rx="28" fill="#eef2f6" stroke="#8a97a6" stroke-width="5"/>
+<text x="93" y="493" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">SAME RAW INPUTS TO BOTH STRATEGIES</text>
+<text x="93" y="553" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Context feeds + historical local outcomes + outcomes observed so far</text>
+<rect x="2240" y="425" width="1005" height="170" rx="28" fill="#e8f0f7" stroke="#1f5f8b" stroke-width="5"/>
+<text x="2278" y="493" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">PREPARE THE EVIDENCE</text>
+<text x="2278" y="540" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Extract, then check uncertainty and relevance</text>
+<text x="2278" y="580" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">to Geneva before using it in a model</text>
+<rect x="55" y="650" width="1495" height="265" rx="28" fill="white" stroke="#1f3a5f" stroke-width="5"/>
+<text x="93" y="718" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">REFERENCE STRATEGY</text>
+<text x="93" y="778" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Fits registered models to the shared data.</text>
+<text x="93" y="826" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#5b6675" text-anchor="start" font-weight="normal" font-style="normal">No model inputs derived from HEADSTART extraction.</text>
+<text x="93" y="868" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#5b6675" text-anchor="start" font-weight="normal" font-style="normal">Same selection and validity rules.</text>
+<rect x="1620" y="650" width="1625" height="265" rx="28" fill="#e8f0f7" stroke="#1f5f8b" stroke-width="5"/>
+<text x="1658" y="718" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">STRATEGY USING PUBLISHED EVIDENCE</text>
+<text x="1658" y="778" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Uses the same data, plus findings from published studies.</text>
+<text x="1658" y="826" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#5b6675" text-anchor="start" font-weight="normal" font-style="normal">Parameter distributions retain extraction uncertainty.</text>
+<text x="1658" y="868" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#5b6675" text-anchor="start" font-weight="normal" font-style="normal">Evidence also informs variables, lags and model forms.</text>
+<rect x="55" y="980" width="3190" height="255" rx="28" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="5"/>
+<text x="93" y="1048" font-family="Helvetica, Arial, sans-serif" font-size="42" fill="white" text-anchor="start" font-weight="bold" font-style="normal">REPLAY PAST EPISODES USING ONLY WHAT WAS AVAILABLE AT EACH DATE</text>
+<text x="93" y="1108" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="white" text-anchor="start" font-weight="normal" font-style="normal">Compare probability forecasts with later outcomes, and assess calibration and operational value.</text>
+<text x="93" y="1156" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#dbe3ec" text-anchor="start" font-weight="normal" font-style="normal">A dashboard is considered only for validated demand-based applications and with service authorisation.</text>
+<line x1="557" y1="370" x2="557" y2="399" stroke="#2e8b57" stroke-width="7"/>
+<path d="M 539 395 L 575 395 L 557 425 z" fill="#2e8b57"/>
+<line x1="1650" y1="370" x2="1650" y2="399" stroke="#c8701a" stroke-width="7"/>
+<path d="M 1632 395 L 1668 395 L 1650 425 z" fill="#c8701a"/>
+<line x1="2742" y1="370" x2="2742" y2="399" stroke="#1f5f8b" stroke-width="7"/>
+<path d="M 2724 395 L 2760 395 L 2742 425 z" fill="#1f5f8b"/>
+<line x1="750" y1="595" x2="750" y2="624" stroke="#8a97a6" stroke-width="7"/>
+<path d="M 732 620 L 768 620 L 750 650 z" fill="#8a97a6"/>
+<line x1="1860" y1="595" x2="1860" y2="624" stroke="#8a97a6" stroke-width="7"/>
+<path d="M 1842 620 L 1878 620 L 1860 650 z" fill="#8a97a6"/>
+<line x1="2742" y1="595" x2="2742" y2="624" stroke="#1f5f8b" stroke-width="7"/>
+<path d="M 2724 620 L 2760 620 L 2742 650 z" fill="#1f5f8b"/>
+<line x1="800" y1="915" x2="800" y2="954" stroke="#1f3a5f" stroke-width="7"/>
+<path d="M 782 950 L 818 950 L 800 980 z" fill="#1f3a5f"/>
+<line x1="2432" y1="915" x2="2432" y2="954" stroke="#1f5f8b" stroke-width="7"/>
+<path d="M 2414 950 L 2450 950 L 2432 980 z" fill="#1f5f8b"/>
 </svg>

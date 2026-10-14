@@ -2,9 +2,9 @@
 
 I will lead WP2 and the confirmatory work in WP3, and lead WP1's protocol and WP4's decision analysis. A 50% scientific/technical collaborator for 48 months will support the extraction benchmark, data harmonisation, forecast-evaluation pipeline and reproducibility. A separately contracted independent extractor will provide the second extraction arm for T1.2 from months 3 to 9.
 
-The work packages can proceed in parallel. WP2 can use weakly informative distributions if the extraction benchmark reveals unacceptable error, the open-data evaluation can proceed without clinical records, and WP4's retrospective decision analysis does not depend on live deployment. The open-data track cannot replace the operational demand test, so access agreements remain an important pre-award task.
+The work packages can proceed in parallel. WP2 can use weakly informative distributions if extraction error proves unacceptable, the open-data evaluation can proceed without clinical records, and WP4's retrospective decision analysis does not depend on live deployment. The open-data track cannot replace the operational demand test, so access agreements remain a pre-award priority.
 
-![Work plan](figures/fig2-gantt.png)
+![Work plan](figures/fig2-gantt.svg)
 
 *Figure 2. Work packages, task durations and milestones across the 48-month project.*
 

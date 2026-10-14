@@ -17,7 +17,7 @@ I have developed the methods, prototype and data relationships that make this pr
 | Legionellosis study (ongoing) | Geneva waterborne outbreak determinants                          | Data lead         | Supplies a contrasting validation extension          |
 | **Ambizione**                 | When published evidence improves forecasts, and when it misleads | **PI, full-time** | -                                                   |
 
-HEADSTART is distinct from GESICA and GeoAI4EI. Those programmes develop epidemic-intelligence and decision-support capabilities. This project tests whether published quantitative evidence can improve forecasts when observations from the current local episode are still limited.
+HEADSTART is distinct from GESICA and GeoAI4EI, which develop epidemic-intelligence and decision-support capabilities rather than testing published evidence as a forecasting input.
 
 I conceived and built LiteRev with Aziza Merzouki in Prof. Olivia Keiser's group. My current extension, LiteRev-Evidence, adds structured numerical extraction and modelling. It can turn published estimates into parameter distributions, but it has not yet been established whether using those distributions improves forecasts in a new setting. My quantitative-finance work provides methods for rare events, regime changes and stress testing, and my work on LiteRev-Evidence provides the structured evidence pipeline. The research question and the confirmatory analyses for HEADSTART are mine.
 

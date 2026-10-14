@@ -67,9 +67,9 @@ for sid in ["Normal", "BodyText", "FirstParagraph", "Compact", "BlockText"]:
         new = blk.replace('</w:style>', '<w:pPr><w:jc w:val="both"/></w:pPr></w:style>', 1)
     s = s.replace(blk, new, 1)
 sfile.write_text(s)
-# Spacing between elements (applicant request, 14 Oct): body 6pt after, headings 10pt before / 4pt after
-for sid, before, after in [("Normal",0,120),("BodyText",0,120),("FirstParagraph",0,120),("Compact",0,60),
-                           ("Heading1",240,80),("Heading2",220,80),("Heading3",200,80),("Heading4",180,60),("Heading5",160,60)]:
+# Spacing between elements (applicant request, 14 Oct): body 2pt after, headings 3 to 7pt before / 1pt after
+for sid, before, after in [("Normal",0,40),("BodyText",0,40),("FirstParagraph",0,40),("Compact",0,20),
+                           ("Heading1",140,20),("Heading2",120,20),("Heading3",100,20),("Heading4",80,20),("Heading5",60,20)]:
     m3 = re.search(r'<w:style [^>]*w:styleId="%s".*?</w:style>' % sid, s, re.S)
     if not m3: continue
     blk = m3.group(0)

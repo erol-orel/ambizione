@@ -945,3 +945,18 @@ checked against the text, all match). SPACING: body 6pt after, headings 10pt bef
 after, in both pagecheck.sh and make-submission.sh. Note for later: his Figure 1 title and
 "Extract; check uncertainty" contain semicolons. PAGES: 16 (over the cap by his choice for
 now), ~53,900 chars; page trimming deferred at his request.
+
+## 14 Oct (night): BACK TO 15 PAGES; FIGURES REBUILT AS VECTORS WITHOUT SEMICOLONS
+
+Applicant order: trim to 15 pages by removing only the repetition, and remove the semicolons
+in the figure if quality holds. Done: (1) the 14 Oct repetition cuts reapplied (context-vs-
+outcome framing stated six times, second definition of a prior, T3.0 sentence duplicating
+T3.3, two restatements of the summary, 2.6 distinction paragraph, 2.3.3 open-data sentence,
+T3.5 duplicate, 2.2.4 inventory sentence) plus word trims in paragraphs ending on one or two
+words; no content removed. (2) Figure 1 reproduced as vector art in the applicant's own
+design (same layout, colours, labels) with the three semicolons/colon replaced ("plentiful,
+while outcomes...", "Extract, then check...", "later outcomes, and assess..."); Gantt
+regenerated with his task labels, no footnote. (3) Spacing: the full 6pt/10pt setting costs
+one page, so the largest setting that fits 15 pages is kept: 2pt after paragraphs, 3 to 7pt
+before headings (both build scripts). Result: exactly 15 pages, ~51,300 chars, 47/47
+citations, no em-dash.
