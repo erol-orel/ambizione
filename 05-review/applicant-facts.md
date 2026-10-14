@@ -1009,3 +1009,10 @@ with Erol for decision before the letter is signed.
 - FACT CORRECTION from Erol: ELEVEN years in finance, not fifteen (plan, CV module 1, README, both mobility files updated; CV docx to rebuild). LiteRev-Evidence: NO leak-free validation feature; other functions are prototype only, "not yet verified, measured or validated, and that is the work of this grant".
 - Erol is co-author of Edjinedja 2026 (3rd author), "our systematic review" is correct.
 - Erol will send a new version of 2.1/2.2 with further answers. Plan now 14 pages, 48,100 chars.
+
+## 15 Oct (early): walk-through continued, summary, 2.1 and 2.2 in plain words
+- Summary: paragraphs 1, 3, 4, 5 plain; paragraph 2 kept by Erol. "only if the first succeeds" removed: the heat test is ALWAYS RUN, confirmatory only if the respiratory test passes (2.3.1, T3.3, Figure 1 chip). "daily" removed. LiteRev authorship everywhere: "with Aziza Merzouki and (Prof.) Olivia Keiser" (Erol's choice, not "in her group"); 2.6 says she co-built LiteRev with him.
+- 2.1.1 to 2.1.5 plain; 2.1.5 question: "When local outcome data are still few, does evidence from earlier studies improve automated forecasts of what a health service will face?"
+- 2.2 opening paragraph REMOVED (repeated the summary). 2.2.1: Merzouki 2021 PRECEDES Orel 2022 ("a line of work shared with"), Ng'ambi 2026: Erol "supervised the statistical analysis", nothing more. 2.2.3: Estill 2020 did NOT motivate the question. The question grew out of the meeting between LiteRev and GESICA, later GeoAI4EI (now stated in 2.2.4). Bayesian hierarchical modelling: from finance mainly (kept there).
+- Erol will send a further corrected version of 2.2; check for discrepancies and reply one by one.
+- Plan: 14 pages, ~46,800 chars.
