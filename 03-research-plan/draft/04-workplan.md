@@ -24,7 +24,7 @@ Each finding is screened for how well it transfers to the local setting, looking
 
 Deliverables are D1.1 (open extraction benchmark), D1.2 (extraction-error analysis) and D1.3 (evidence-derived model-input library).
 
-Risk and mitigation. If expert time is limited, the benchmark narrows to the core parameter classes.
+Risk and mitigation. If manual extraction time is limited, the benchmark narrows to the core kinds of parameters.
 
 #### WP2. Model levels of health-system pressure (M1–M28)
 
@@ -56,7 +56,7 @@ Risk and mitigation. If the states cannot be separated reliably, the registered 
 
 #### WP3. Test forecasts using historically available information (M12–M42)
 
-##### T3.0. Outcome hierarchy, data-access gate and episode eligibility (M1–M14)
+##### T3.0. Outcomes, data gate and episode eligibility (M1–M14)
 
 Outcomes. The outcome of each test is not fixed in advance. It depends on what the published evidence defines and on the data available, for example emergency calls (CASU-144) filtered on the symptoms recorded for each call, emergency-department visits by cause, hospital admissions, bed or ICU occupancy, the HUG COVID-19 hospitalisation series I analysed before [Orel 2024], or well-known open series. The candidates are listed at registration in order of preference. The target is chosen on access, data quality, time resolution and usefulness for the services, before any forecast is compared. The causes and population groups used to filter it come from the evidence. Once chosen, the target stays fixed, so that no outcome can be picked afterwards because it gives better results. The other candidates serve as extra inputs for the pressure model. Weather, air quality, wastewater, sentinel consultations and calendar effects are context inputs. Open public series help validate the methods but do not replace local service data. The design is single-canton on purpose, and transfer is tested across the three crisis types and on the open national benchmark.
 
@@ -90,13 +90,13 @@ Main endpoint. For each episode and strategy, the CRPS is averaged over the fore
 
 The analysis finds the episodes where the published evidence helped and those where it hurt, and looks for the reasons, such as differences in population, outcome definition, service organisation, policy or period, extraction uncertainty, or conflict with the local outcomes. Deliberately shifted evidence serves as a stress test. A key question is whether adaptive weighting reduces harm early enough. The result is a map of when the approach helps, when it does not, and why, not a single average.
 
-##### T3.5. Test generalisation (M34–M42)
+##### T3.5. The second and third tests (M34–M42)
 
 The heat test is the second test. The legionellosis test, in year four, applies the same comparison to case-incidence forecasts at the start of an outbreak, using the linked case-environment data.
 
 Deliverables are D3.1 (reproducible historical forecast-evaluation pipeline), D3.2 (primary result), D3.3 (benefit and failure analysis) and D3.4 (analysis across crisis types).
 
-Risk and mitigation. Access to operational records may be delayed. Agreements are being pursued before the award. The open-data track can validate the reconstruction and evaluation methods without clinical data, but it cannot replace the main test of local emergency demand. If access fails, the scientific claim narrows and the decision analysis is limited accordingly.
+Risk and mitigation. Access to operational records may be delayed. Agreements are being pursued before the award. The open-data track can validate the reconstruction and evaluation methods without clinical data, but it cannot replace the main test on local service data. If access fails, the scientific claim narrows and the decision analysis is limited accordingly.
 
 #### WP4. From predictive skill to operational value (M24–M48)
 
@@ -104,7 +104,7 @@ Risk and mitigation. Access to operational records may be delayed. Agreements ar
 
 A structured elicitation (SHELF method) with two to five experienced people from HUG emergency medicine, CASU-144 regulation and capacity management puts numbers on the cost of escalating too early, too late or for nothing. The decision thresholds come from these costs. The decision studied is fixed in advance, namely escalating surge capacity when the forecast probability of the upper levels (strained or critical in the default scheme) passes the threshold. Models that forecast counts rather than levels are converted to the same level probabilities by a registered rule.
 
-##### T4.2. Decision-analytic evaluation and equity audit (M30–M40)
+##### T4.2. Decision-analytic evaluation and fairness audit (M30–M40)
 
 The WP3 forecasts are re-assessed on the decisions they would trigger, with net-benefit and decision-curve methods, to see whether the ranking of the models changes once the costs of wrong decisions are counted. Calibration and threshold performance are also checked across groups by age and sex. A model that is well calibrated overall but poor for a group that matters for decisions does not pass.
 

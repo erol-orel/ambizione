@@ -1,77 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="600" viewBox="0 0 1400 600">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4e4e4e"/></marker></defs>
-<rect width="1400" height="600" fill="white"/>
-<text x="0" y="30" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">AT THE START OF A CRISIS</text>
-<rect x="0" y="48" width="300" height="118" rx="10" fill="#e8f0f7" stroke="#1f5f8b" stroke-width="2.2"/>
-<text x="150" y="82" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">Published studies</text>
-<rect x="330" y="48" width="300" height="118" rx="10" fill="#eaf5ef" stroke="#2e8b57" stroke-width="2.2"/>
-<text x="480" y="82" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2e8b57" text-anchor="middle" font-weight="bold" font-style="normal">Context data</text>
-<rect x="660" y="48" width="300" height="118" rx="10" fill="#fdf3e6" stroke="#c8701a" stroke-width="2.2"/>
-<text x="810" y="82" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#c8701a" text-anchor="middle" font-weight="bold" font-style="normal">Outcomes of this episode</text>
-<rect x="112" y="96" width="54" height="34" rx="3" fill="white" stroke="#1f5f8b" stroke-width="2"/>
-<rect x="118" y="102" width="54" height="34" rx="3" fill="white" stroke="#1f5f8b" stroke-width="2"/>
-<rect x="124" y="108" width="54" height="34" rx="3" fill="white" stroke="#1f5f8b" stroke-width="2"/>
-<rect x="420" y="120" width="16" height="34" fill="#2e8b57" opacity="0.55"/>
-<rect x="442" y="108" width="16" height="46" fill="#2e8b57" opacity="0.64"/>
-<rect x="464" y="114" width="16" height="40" fill="#2e8b57" opacity="0.73"/>
-<rect x="486" y="104" width="16" height="50" fill="#2e8b57" opacity="0.8200000000000001"/>
-<rect x="508" y="110" width="16" height="44" fill="#2e8b57" opacity="0.91"/>
-<rect x="770" y="140" width="16" height="14" fill="#c8701a"/>
-<rect x="794" y="146" width="16" height="8" fill="#c8701a"/>
-<rect x="818" y="100" width="16" height="54" fill="none" stroke="#c8701a" stroke-dasharray="4,3" stroke-width="1.5"/>
-<rect x="842" y="100" width="16" height="54" fill="none" stroke="#c8701a" stroke-dasharray="4,3" stroke-width="1.5"/>
-<rect x="866" y="100" width="16" height="54" fill="none" stroke="#c8701a" stroke-dasharray="4,3" stroke-width="1.5"/>
-<text x="150" y="160" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">numbers, variables, lags, thresholds</text>
-<rect x="980" y="48" width="280" height="118" rx="10" fill="#f3f5f7" stroke="#8a97a6" stroke-width="1.4"/>
-<text x="1120" y="82" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f3a5f" text-anchor="middle" font-weight="bold" font-style="normal">What is known</text>
-<text x="1120" y="112" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">much from elsewhere and the past</text>
-<text x="1120" y="134" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">much about today's conditions</text>
-<text x="1120" y="156" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">little about this episode</text>
-<text x="0" y="218" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WHAT HEADSTART DOES</text>
-<rect x="0" y="236" width="320" height="96" rx="10" fill="#e8f0f7" stroke="#1f5f8b" stroke-width="2.2"/>
-<text x="18" y="268" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP1</text>
-<text x="80" y="268" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">Extract and grade</text>
-<text x="80" y="294" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">the published evidence</text>
-<line x1="322" y1="284" x2="346" y2="284" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
-<rect x="350" y="236" width="320" height="96" rx="10" fill="#f3f5f7" stroke="#1f3a5f" stroke-width="1.4"/>
-<text x="368" y="268" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WP2</text>
-<text x="430" y="268" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">Model levels of</text>
-<text x="430" y="294" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">pressure on the system</text>
-<line x1="672" y1="284" x2="696" y2="284" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
-<rect x="700" y="236" width="320" height="96" rx="10" fill="#f3f5f7" stroke="#1f3a5f" stroke-width="1.4"/>
-<text x="718" y="268" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WP3</text>
-<text x="780" y="268" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">Replay past crises</text>
-<text x="780" y="294" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">with and without the evidence</text>
-<line x1="1022" y1="284" x2="1046" y2="284" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
-<rect x="1050" y="236" width="320" height="96" rx="10" fill="#f3f5f7" stroke="#1f3a5f" stroke-width="1.4"/>
-<text x="1068" y="268" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WP4</text>
-<text x="1130" y="268" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">Measure the value</text>
-<text x="1130" y="294" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">for emergency decisions</text>
-<line x1="150" y1="166" x2="150" y2="232" stroke="#1f5f8b" stroke-width="2.2" marker-end="url(#a)"/>
-<line x1="480" y1="166" x2="760" y2="232" stroke="#2e8b57" stroke-width="2.2" marker-end="url(#a)"/>
-<line x1="810" y1="166" x2="800" y2="232" stroke="#c8701a" stroke-width="2.2" marker-end="url(#a)"/>
-<text x="0" y="384" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">THE TEST</text>
-<rect x="110" y="404" width="520" height="128" fill="white" stroke="none"/>
-<line x1="110" y1="532" x2="630" y2="532" stroke="#1a1a1a" stroke-width="1.6"/>
-<line x1="110" y1="404" x2="110" y2="532" stroke="#1a1a1a" stroke-width="1.6"/>
-<path d="M 120 434 C 290 444 490 499 620 516" fill="none" stroke="#1f5f8b" stroke-width="4"/>
-<path d="M 120 522 C 260 520 490 518 620 516" fill="none" stroke="#4e4e4e" stroke-width="3" stroke-dasharray="7,6"/>
-<text x="642" y="444" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f5f8b" text-anchor="start" font-weight="normal" font-style="normal">with published evidence</text>
-<text x="642" y="522" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">local data only</text>
-<text x="102" y="412" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">forecast skill</text>
-<text x="110" y="554" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">crisis onset</text>
-<text x="630" y="554" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">outcomes accumulate</text>
-<text x="410" y="576" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">each past episode replayed using only what was known at the time</text>
-<text x="880" y="384" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WHERE</text>
-<rect x="880" y="400" width="500" height="42" rx="21" fill="#f3f5f7" stroke="#1f5f8b" stroke-width="1.8"/>
-<text x="900" y="427" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">Respiratory epidemics</text>
-<text x="1360" y="427" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">main test</text>
-<rect x="880" y="450" width="500" height="42" rx="21" fill="#f3f5f7" stroke="#1f3a5f" stroke-width="1.8"/>
-<text x="900" y="477" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">Heatwaves</text>
-<text x="1360" y="477" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">second test</text>
-<rect x="880" y="500" width="500" height="42" rx="21" fill="#f3f5f7" stroke="#8a97a6" stroke-width="1.8"/>
-<text x="900" y="527" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8a97a6" text-anchor="start" font-weight="bold" font-style="normal">Legionellosis</text>
-<text x="1360" y="527" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">third test, year 4</text>
-<text x="880" y="572" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Geneva, with the emergency services</text>
-<text x="880" y="592" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">dashboard in observation mode, where authorised</text>
+<rect width="1400" height="760" fill="white"/>
+<text x="0" y="30" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">AT THE START OF A CRISIS</text>
+<line x1="0" y1="40" x2="1400" y2="40" stroke="#9a9a9a" stroke-width="0.8" opacity="0.6"/>
+<rect x="0" y="62" width="300" height="130" rx="10" fill="#e8f0f7" stroke="#1f5f8b" stroke-width="2.2"/>
+<text x="150.0" y="92" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">Published studies</text>
+<text x="150.0" y="178" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">numbers, variables, lags, thresholds</text>
+<rect x="340" y="62" width="300" height="130" rx="10" fill="#eaf5ef" stroke="#2e8b57" stroke-width="2.2"/>
+<text x="490.0" y="92" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#2e8b57" text-anchor="middle" font-weight="bold" font-style="normal">Context data</text>
+<text x="490.0" y="178" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">weather, air quality, wastewater</text>
+<rect x="680" y="62" width="300" height="130" rx="10" fill="#fdf3e6" stroke="#c8701a" stroke-width="2.2"/>
+<text x="830.0" y="92" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#c8701a" text-anchor="middle" font-weight="bold" font-style="normal">Outcomes of this episode</text>
+<text x="830.0" y="178" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">a few days, more each day</text>
+<rect x="118" y="110" width="54" height="32" rx="3" fill="white" stroke="#1f5f8b" stroke-width="2"/>
+<rect x="124" y="116" width="54" height="32" rx="3" fill="white" stroke="#1f5f8b" stroke-width="2"/>
+<rect x="130" y="122" width="54" height="32" rx="3" fill="white" stroke="#1f5f8b" stroke-width="2"/>
+<rect x="436" y="132" width="16" height="30" fill="#2e8b57" opacity="0.55"/>
+<rect x="458" y="120" width="16" height="42" fill="#2e8b57" opacity="0.64"/>
+<rect x="480" y="126" width="16" height="36" fill="#2e8b57" opacity="0.73"/>
+<rect x="502" y="116" width="16" height="46" fill="#2e8b57" opacity="0.8200000000000001"/>
+<rect x="524" y="122" width="16" height="40" fill="#2e8b57" opacity="0.91"/>
+<rect x="778" y="148" width="16" height="14" fill="#c8701a"/>
+<rect x="802" y="154" width="16" height="8" fill="#c8701a"/>
+<rect x="826" y="108" width="16" height="54" fill="none" stroke="#c8701a" stroke-dasharray="4,3" stroke-width="1.5"/>
+<rect x="850" y="108" width="16" height="54" fill="none" stroke="#c8701a" stroke-dasharray="4,3" stroke-width="1.5"/>
+<rect x="874" y="108" width="16" height="54" fill="none" stroke="#c8701a" stroke-dasharray="4,3" stroke-width="1.5"/>
+<rect x="1030" y="62" width="370" height="130" rx="10" fill="#f3f5f7" stroke="#8a97a6" stroke-width="1.4"/>
+<text x="1215" y="92" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f3a5f" text-anchor="middle" font-weight="bold" font-style="normal">What is known</text>
+<text x="1215" y="122" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">much from elsewhere and from the past</text>
+<text x="1215" y="146" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">much about today's conditions</text>
+<text x="1215" y="170" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">little about this episode's outcomes</text>
+<text x="0" y="262" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WHAT HEADSTART DOES</text>
+<line x1="0" y1="272" x2="1400" y2="272" stroke="#9a9a9a" stroke-width="0.8" opacity="0.6"/>
+<rect x="0" y="294" width="320" height="110" rx="10" fill="#e8f0f7" stroke="#1f5f8b" stroke-width="2.2"/>
+<text x="20" y="336" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP1</text>
+<text x="86" y="336" font-family="Helvetica, Arial, sans-serif" font-size="18.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">Extract and grade</text>
+<text x="86" y="364" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">the published evidence</text>
+<line x1="324" y1="349.0" x2="356" y2="349.0" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="360" y="294" width="320" height="110" rx="10" fill="#f3f5f7" stroke="#1f3a5f" stroke-width="1.4"/>
+<text x="380" y="336" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WP2</text>
+<text x="446" y="336" font-family="Helvetica, Arial, sans-serif" font-size="18.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">Model the levels of</text>
+<text x="446" y="364" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">pressure on the system</text>
+<line x1="684" y1="349.0" x2="716" y2="349.0" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="720" y="294" width="320" height="110" rx="10" fill="#f3f5f7" stroke="#1f3a5f" stroke-width="1.4"/>
+<text x="740" y="336" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WP3</text>
+<text x="806" y="336" font-family="Helvetica, Arial, sans-serif" font-size="18.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">Replay past crises</text>
+<text x="806" y="364" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">with and without the evidence</text>
+<line x1="1044" y1="349.0" x2="1076" y2="349.0" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="1080" y="294" width="320" height="110" rx="10" fill="#f3f5f7" stroke="#1f3a5f" stroke-width="1.4"/>
+<text x="1100" y="336" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WP4</text>
+<text x="1166" y="336" font-family="Helvetica, Arial, sans-serif" font-size="18.5" fill="#1a1a1a" text-anchor="start" font-weight="bold" font-style="normal">Measure the value</text>
+<text x="1166" y="364" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">for emergency decisions</text>
+<line x1="150" y1="192" x2="150" y2="288" stroke="#1f5f8b" stroke-width="2.2" marker-end="url(#a)"/>
+<line x1="490" y1="192" x2="760" y2="288" stroke="#2e8b57" stroke-width="2.2" marker-end="url(#a)"/>
+<line x1="830" y1="192" x2="820" y2="288" stroke="#c8701a" stroke-width="2.2" marker-end="url(#a)"/>
+<text x="0" y="474" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">THE TEST</text>
+<line x1="0" y1="484" x2="1400" y2="484" stroke="#9a9a9a" stroke-width="0.8" opacity="0.6"/>
+<line x1="110" y1="656" x2="610" y2="656" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="110" y1="506" x2="110" y2="656" stroke="#1a1a1a" stroke-width="1.6"/>
+<path d="M 120 538 C 280 550 470 618 600 638" fill="none" stroke="#1f5f8b" stroke-width="4"/>
+<path d="M 120 644 C 260 642 470 640 600 638" fill="none" stroke="#4e4e4e" stroke-width="3" stroke-dasharray="7,6"/>
+<text x="624" y="550" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f5f8b" text-anchor="start" font-weight="normal" font-style="normal">with published evidence</text>
+<text x="624" y="644" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">local data only</text>
+<text x="100" y="514" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">forecast skill</text>
+<text x="110" y="680" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">crisis onset</text>
+<text x="610" y="680" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">outcomes accumulate</text>
+<text x="360.0" y="704" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">each past episode replayed with only what was known at the time</text>
+<text x="360.0" y="726" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">same data for both strategies, outcome and thresholds registered before any test</text>
+<text x="880" y="474" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WHERE</text>
+<rect x="880" y="496" width="520" height="44" rx="22" fill="#f3f5f7" stroke="#1f5f8b" stroke-width="1.8"/>
+<text x="902" y="525" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">Respiratory epidemics</text>
+<text x="1378" y="525" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">main test</text>
+<rect x="880" y="554" width="520" height="44" rx="22" fill="#f3f5f7" stroke="#1f3a5f" stroke-width="1.8"/>
+<text x="902" y="583" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">Heat events</text>
+<text x="1378" y="583" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">second test</text>
+<rect x="880" y="612" width="520" height="44" rx="22" fill="#f3f5f7" stroke="#8a97a6" stroke-width="1.8"/>
+<text x="902" y="641" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#8a97a6" text-anchor="start" font-weight="bold" font-style="normal">Legionellosis</text>
+<text x="1378" y="641" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">third test, year 4</text>
+<text x="880" y="696" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Geneva, with the emergency services</text>
+<text x="880" y="720" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">dashboard in observation mode where authorised</text>
 </svg>

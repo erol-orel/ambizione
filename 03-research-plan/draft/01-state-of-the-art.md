@@ -28,6 +28,6 @@ Emergency services need to know not only how many calls or visits to expect, but
 
 A forecast is useful when it changes a decision for a good reason. Proper scoring rules judge probability forecasts, including their calibration [Gneiting 2007], and decision analysis judges them by their consequences [Vickers 2006]. Heat thresholds built on mortality need not match those for service demand [Lung 2021], and the link between air pollution and asthma emergencies varies between places [Zheng 2015]. HEADSTART therefore scores forecasts first statistically, then against the costs of wrong decisions as stated by emergency-service experts.
 
-### 2.1.5 The gap: evaluating evidence in a different context
+### 2.1.5 The gap, evaluating evidence in a different context
 
 Existing efforts include the ECDC RespiCast and CDC FluSight forecasting hubs, the GeoAI4EI project (Horizon Europe) and the GESICA project (France and Switzerland). HEADSTART asks a different question. When local outcome data are still few, does evidence from earlier studies improve automated forecasts of what a health service will face? It answers with a comparison registered in advance, the same data streams for both strategies, and a replay of the past that excludes later information.
