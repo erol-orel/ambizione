@@ -3,7 +3,7 @@
 > Rédigé sur le modèle du protocole légionellose v1.4 (BASEC 2026-00324). Les `[[…]]` sont les
 > éléments que seul le requérant ou les détenteurs de données peuvent fournir.
 
-**Titre :** COLDSTART - Valeur des connaissances publiées pour la prévision de la demande
+**Titre :** HEADSTART - Valeur des connaissances publiées pour la prévision de la demande
 d'urgence en début de crise sanitaire : réutilisation d'extraits agrégés des données
 opérationnelles genevoises (2015–2026)
 

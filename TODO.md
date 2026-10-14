@@ -50,7 +50,7 @@ confirmatory testing (respiratory primary, heat sequential).
 ## Blocked on other people: start all of these now
 
 - [ ] **⚠ Formulaire RGO by Mon 19 Oct (hard):** signed letter + FNS-format CV + UNIGE ethics
-      statement; answers pre-filled in `rgo-form-inputs.md`. Remaining RGO questions (salary
+      statement (RE-FILE under HEADSTART; no. 721 says Coldstart); answers pre-filled in `rgo-form-inputs.md`. Remaining RGO questions (salary
       class 19/9, support-personnel rates, declarations, accepted-project examples, relecture
       slot): `emails/00-rgo.md`.
 - [ ] **⚠ Host confirmation, two signatures by Thu 15 Oct (Fri 16 latest):** **Keiser (contact person) + Ray

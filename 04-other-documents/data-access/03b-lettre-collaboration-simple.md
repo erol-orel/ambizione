@@ -12,18 +12,18 @@
 `[[Papier à en-tête HUG / CASU 144]]`
 `[[Lieu, date]]`
 
-**Objet : lettre de collaboration - projet COLDSTART, candidature Ambizione FNS (Dr Erol Orel)**
+**Objet : lettre de collaboration - projet HEADSTART, candidature Ambizione FNS (Dr Erol Orel)**
 
 Madame, Monsieur,
 
 Par la présente, nous confirmons la collaboration de `[[service / département]]` avec le
-Dr Erol Orel dans le cadre du projet **COLDSTART**, soumis à l'appel Ambizione 2026 du Fonds
+Dr Erol Orel dans le cadre du projet **HEADSTART**, soumis à l'appel Ambizione 2026 du Fonds
 national suisse.
 
 Notre service collabore avec le Dr Orel depuis 2025 dans le cadre du projet Interreg
 GESICA.
 
-Dans le cadre du projet COLDSTART, nous confirmons notre intention de poursuivre cette
+Dans le cadre du projet HEADSTART, nous confirmons notre intention de poursuivre cette
 collaboration : par des échanges scientifiques réguliers et, sous réserve de l'approbation
 de la Commission cantonale d'éthique de la recherche et des procédures institutionnelles
 applicables, par la mise à disposition, le moment venu, d'extraits rétrospectifs agrégés,

@@ -88,7 +88,7 @@ Verbatim from the template. The institution commits to host the PI and to:
    **possible synergies**.
 2. **"A statement on the project's autonomy compared to other ongoing research objectives at the
    research institution."** - This is the decisive sentence for this application. The SNSF is
-   asking the *Institute*, not the applicant, to delimit COLDSTART from GESICA, GeoAI4EI and the
+   asking the *Institute*, not the applicant, to delimit HEADSTART from GESICA, GeoAI4EI and the
    legionellosis study. Hand whoever drafts the letter the delimitation table from §2.6 of the
    research plan so the two documents agree.
 3. **The contact person acknowledges that they can only support one applicant in the current call.**

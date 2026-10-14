@@ -16,7 +16,7 @@ Geneva, [date]
 
 The Institute of Global Health, Faculty of Medicine, University of Geneva, confirms its
 intention towards **Dr Erol Orel**, to adhere to the obligations listed below should an
-Ambizione grant be awarded by the SNSF for the proposal entitled **"COLDSTART: Using published evidence to forecast health-system crises when local outcome data are still too scarce"**.
+Ambizione grant be awarded by the SNSF for the proposal entitled **"HEADSTART: Forecasting health-system crises from published evidence when local outcome data are scarce"**.
 
 The research institution commits itself to host the principal investigator (PI) for the
 duration of the Ambizione grant and to:

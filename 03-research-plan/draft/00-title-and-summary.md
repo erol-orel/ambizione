@@ -1,4 +1,4 @@
-**COLDSTART: Using published evidence to forecast health-system crises when local outcome data are still too scarce**
+**HEADSTART: Forecasting health-system crises from published evidence when local outcome data are scarce**
 
 # 1. Summary
 

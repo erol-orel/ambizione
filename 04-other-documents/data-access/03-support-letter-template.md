@@ -25,12 +25,12 @@ Uploaded in mySNF under **"Other annexes"**.
 `[[Papier à en-tête HUG / CASU 144]]`
 `[[Lieu, date]]`
 
-**Objet : lettre de collaboration - projet COLDSTART, candidature Ambizione FNS (Dr Erol Orel)**
+**Objet : lettre de collaboration - projet HEADSTART, candidature Ambizione FNS (Dr Erol Orel)**
 
 Madame, Monsieur,
 
 Par la présente, nous confirmons la collaboration de `[[service / département]]` avec le Dr Erol
-Orel dans le cadre du projet **COLDSTART**, soumis à l'appel Ambizione 2026 du Fonds national
+Orel dans le cadre du projet **HEADSTART**, soumis à l'appel Ambizione 2026 du Fonds national
 suisse.
 
 `[[Service]]` collabore avec le Dr Orel depuis `[[année]]` dans le cadre du projet Interreg

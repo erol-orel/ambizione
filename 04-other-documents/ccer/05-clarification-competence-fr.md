@@ -24,7 +24,7 @@
 
 **Type de soumission :** Demande de clarification de compétence (art. 2 LRH)
 
-**Titre du projet :** COLDSTART - Valeur des connaissances publiées pour la prévision de la
+**Titre du projet :** HEADSTART - Valeur des connaissances publiées pour la prévision de la
 demande d'urgence en début de crise sanitaire : réutilisation d'extraits agrégés des données
 opérationnelles genevoises (2015–2026)
 

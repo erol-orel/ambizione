@@ -21,11 +21,11 @@ Target: submit **Thursday 15 October**, leaving the weekend and Monday as buffer
 | Dean of the Host Faculty | Professor Antoine Geissbühler |
 | Director of the Host Department | Professor Nicolas Ray |
 | Contact person at the Host Department | Professor Olivia Keiser |
-| Project Title | COLDSTART: Using published evidence to forecast health-system crises when local outcome data are still too scarce |
+| Project Title | HEADSTART: Forecasting health-system crises from published evidence when local outcome data are scarce |
 
 ## The 300-character summary (2 sentences + integration; goes into the vice-rector's letter)
 
-> COLDSTART tests whether published evidence, automatically extracted and pooled into priors,
+> HEADSTART tests whether published evidence, automatically extracted and pooled into priors,
 > improves emergency-demand forecasting at crisis onset, and when it misleads. An independent
 > programme at the Institute of Global Health, coherent with its epidemiology and
 > evidence-synthesis groups.
@@ -37,7 +37,8 @@ Target: submit **Thursday 15 October**, leaving the weekend and Monday as buffer
 1. **Detailed support letter**, dated and signed by **Keiser (contact person) + Ray (director)**:
    draft in `host-institution-letters.md`; signatures needed by **Tuesday 14 October**.
 2. **CV in SNSF format** (SNSF template; the applicant builds this from the portal CV).
-3. **Statement of ethical risks** from declaration-ethique.unige.ch (UNIGE login). Fill it
+3. **Statement of ethical risks** from declaration-ethique.unige.ch (UNIGE login). RE-FILE under the
+   new name HEADSTART (declaration no. 721 of 9 Oct says "Coldstart"). Fill it
    online, export the PDF. If no access, write to the RGO as the form instructs.
 
 ## Risk outline (free text, needed if any ethics question is answered yes)

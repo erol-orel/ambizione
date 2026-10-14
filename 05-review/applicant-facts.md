@@ -882,3 +882,20 @@ Result: exactly 15 pages, ~52,000 chars, no em-dash.
 ## 14 Oct: 2.6 programme table restored to its full labels (applicant order); three lines recovered by word trims in T2.2, D2 deliverables, H4 and 2.6. 15 pages held.
 
 ## 14 Oct: summary para 1 now "analogous events, elsewhere or in the past" (applicant question): published evidence on past local events is admissible as prior per T3.2 (referent = other populations, places or past events). 15 pages held.
+
+## 14 Oct: PROJECT RENAMED HEADSTART, TITLE SHORTENED (applicant decisions)
+
+Name: HEADSTART (the evidence gives the forecast a head start before local data exist; the
+opposite of a cold start, which remains the technical term in the text). Title: "HEADSTART:
+Forecasting health-system crises from published evidence when local outcome data are scarce"
+(90 chars, same information as before). FR: "HEADSTART - Prévoir les crises sanitaires à partir
+des données publiées quand les données locales manquent". Propagated to: plan (3 mentions;
+15 pages held), both 2-page notes md/docx/pdf (2 pages each), confirmation letter draft +
+SIGNABLE docx/pdf (2 pages, ready to print), HUG simple letter md/docx/pdf, DS4DH letter
+md/docx/pdf (Erol will ask Teodoro to RE-SIGN; the 12 Oct signed PDF under the old name stays
+archived in data-access/signed/), support-letter template, old collaboration draft docx,
+rgo-form-inputs (title + 300-char summary), host-institution-letters, CCER synopsis and
+clarification. NOT changed (records): sent emails 01/02/03-04/08, 05-review history,
+applicant-facts earlier entries. TO DO (Erol): re-file the UNIGE ethics declaration under
+HEADSTART (no. 721 says "Coldstart"), attach the new PDF to the RGO form; mention the rename
+in the next exchange with Desmettre/Larribau/Ray/Keiser/Calmy.

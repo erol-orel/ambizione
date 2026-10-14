@@ -5,7 +5,7 @@
 
 ---
 
-**COLDSTART: Using published evidence to forecast health-system crises when local outcome data are still too scarce**
+**HEADSTART: Forecasting health-system crises from published evidence when local outcome data are scarce**
 
 # 1. Summary
 
@@ -75,7 +75,7 @@ In [Orel 2024] I compared clinical severity between Delta and Omicron sub-lineag
 
 Since 2024 I have developed **LiteRev-Evidence**, which extends LiteRev into structured quantitative extraction and modelling. The full review pipeline runs in working form. A query is searched live across the open literature, the results are deduplicated, screened with PRISMA accounting and extracted for PICO elements, and the numbers are then **extracted with their provenance, graded for the certainty of the study design and pooled into parameter distributions**. At the model step the tool proposes candidate explanatory variables with their supporting articles and typed outcome definitions with ready-made emergency-demand targets (ED overload, bed occupancy, call surge). It **fits models across algorithm families with automated hyperparameter search, validates them on time series without leakage and ranks them on a stated metric**, and it builds compartmental components, parameterised from extracted ranges, that can re-enter the statistical model as predictors. **Living reviews re-run on schedule** for each scenario, and every update is previewed before it is applied. This is the evidence-to-model loop the proposal interrogates, in prototype form.
 
-For GESICA I built the data foundation of the Geneva–Vaud–Neuchâtel network, whose Geneva core COLDSTART uses. It covers **77 notifiable diseases in eight model classes** and a referenced inventory of **28 surveillance sources** (23 infectious, 5 environmental), each documented for coverage, resolution, latency, access and quality. The data landscape is mapped, not assumed.
+For GESICA I built the data foundation of the Geneva–Vaud–Neuchâtel network, whose Geneva core HEADSTART uses. It covers **77 notifiable diseases in eight model classes** and a referenced inventory of **28 surveillance sources** (23 infectious, 5 environmental), each documented for coverage, resolution, latency, access and quality. The data landscape is mapped, not assumed.
 
 **The prototype makes the research feasible rather than aspirational.** The fit, tune and rank mechanics that T3.3's selection engine registers already run in embryonic form. The grant adds the science (two arms, registered rules, episode-level inference), not the plumbing.
 
@@ -135,7 +135,7 @@ T2.1's identifiability study and T3.3's calibration checks either establish adeq
 
 #### Scope. Three Geneva crisis archetypes, fixed for the grant
 
-**COLDSTART's real-world scope is three health-system crisis archetypes, and no more.** (1) **Respiratory epidemics** carry the primary confirmatory test. SARS-CoV-2, influenza and RSV overlap syndromically and are surveilled together in Switzerland. (2) **Environmental heat events** carry the sequential generalisation test, with **air pollution (ozone, PM10) as co-exposure and effect modifier**, not as a separate domain. (3) **Waterborne outbreaks**, through Geneva legionellosis, form the contrasting extension in year 4 (T3.5). Further data serve benchmarking and sensitivity analyses only. For respiratory and heat, both arms score **the same quantity, built the same way**, namely daily emergency demand from the CASU-144 series restricted to the archetype's cause classes (T3.0). For epidemics this is respiratory-related demand. For heat it is **heat-sensitive demand**, because Swiss evidence places heat effects in dehydration, renal and psychiatric admissions, with a weak respiratory effect at older ages [Schulte 2024; Ragettli 2019]. Legionellosis instead forecasts case incidence (T3.5), outside this demand comparison. If the month-12 gate activates the registered fallback, both arms score it, built the same way, and the claim narrows.
+**HEADSTART's real-world scope is three health-system crisis archetypes, and no more.** (1) **Respiratory epidemics** carry the primary confirmatory test. SARS-CoV-2, influenza and RSV overlap syndromically and are surveilled together in Switzerland. (2) **Environmental heat events** carry the sequential generalisation test, with **air pollution (ozone, PM10) as co-exposure and effect modifier**, not as a separate domain. (3) **Waterborne outbreaks**, through Geneva legionellosis, form the contrasting extension in year 4 (T3.5). Further data serve benchmarking and sensitivity analyses only. For respiratory and heat, both arms score **the same quantity, built the same way**, namely daily emergency demand from the CASU-144 series restricted to the archetype's cause classes (T3.0). For epidemics this is respiratory-related demand. For heat it is **heat-sensitive demand**, because Swiss evidence places heat effects in dehydration, renal and psychiatric admissions, with a weak respiratory effect at older ages [Schulte 2024; Ragettli 2019]. Legionellosis instead forecasts case incidence (T3.5), outside this demand comparison. If the month-12 gate activates the registered fallback, both arms score it, built the same way, and the claim narrows.
 
 #### What the project does not claim
 
