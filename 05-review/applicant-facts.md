@@ -880,3 +880,5 @@ wrapped, and trimming a few words in paragraphs whose last line held one or two 
 Result: exactly 15 pages, ~52,000 chars, no em-dash.
 
 ## 14 Oct: 2.6 programme table restored to its full labels (applicant order); three lines recovered by word trims in T2.2, D2 deliverables, H4 and 2.6. 15 pages held.
+
+## 14 Oct: summary para 1 now "analogous events, elsewhere or in the past" (applicant question): published evidence on past local events is admissible as prior per T3.2 (referent = other populations, places or past events). 15 pages held.
