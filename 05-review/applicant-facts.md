@@ -829,3 +829,28 @@ dropped (stated in 2.3.1 and Test 1); (6) "no fourth operational domain" line dr
 more" kept); (7) "Ambizione consolidates my research time" dropped; (8) table cells shortened;
 (9) methods/data-protection paragraph compressed to one sentence. Pre-restyle originals kept in
 git (commit before this one) for any rollback.
+
+## 14 Oct: RESTYLE REJECTED, FREEZE LIFTED, SUMMARY REWRITTEN (applicant orders)
+
+Erol rejected the 13 Oct whole-plan restyle ("changed too much, poor on many aspects"). Sections
+2.1 to 2.6 and the figures reverted to the pre-restyle text (8a775d6^). Kept: his title and
+his opening summary paragraphs. He also lifted the freeze: "leave everything open to make it
+perfect, only 15 pages / 60k characters must stay" (CLAUDE.md and TODO.md updated). New
+points for the summary, applied: (1) no "hidden level of strain": the quantity to forecast and
+its form (count, threshold crossing, levels) depend on the crisis and the evidence; continuous
+quantities become levels whose thresholds start from the literature before being fixed;
+(2) the three crises are introduced with a story (respiratory = transmission + best documented,
+main test; heat = exposure, second and only if the first passes, transfer across mechanisms;
+legionellosis = built environment, few cases, hardest, year-4 extension on his linked data);
+(3) a fuller presentation of the applicant (finance on rare events and regime shifts, doctorate,
+LiteRev and LiteRev-Evidence, daily work with the canton's data via GESICA, origin of the
+question). Consistency edit: T2.1 state anchors now "start from the outcome and threshold
+definitions the literature reports (T1.1, class 4)" with the four-level percentile scheme as
+the default where the literature is silent; §2.3.1 lead-in now refers to "the summary's
+question". Page budget (summary is ~900 chars longer than before): repetition removed in
+§2.1.5 closing, §2.3.1 aim and "not claimed" paragraphs, T3.0 canton line, T3.3 primary
+endpoint opening, §2.3.3 preparatory work, §2.5 operational paragraph, §2.6 last line, §2.2.4
+last clause. Result: exactly 15 pages, 50,479 chars, 47 citations, no em-dash.
+OPEN QUESTION for Erol: the summary does not state the NUMBER of levels; the plan's default is
+four (T2.1, Figure 1). If he wants the number of levels itself chosen from the evidence per
+crisis, C2 and Figure 1 need a matching edit.

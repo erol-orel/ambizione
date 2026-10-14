@@ -1,6 +1,10 @@
 # To do: Ambizione, deadline 3 November 2026
 
-> ## ❄ PLAN FROZEN (7 Oct evening, commit 06b7e11, external sign-off 9.6/10) · OWN-WORDS WEEK
+> ## PLAN OPEN (freeze lifted by the applicant 14 Oct; only 15 pages / 60,000 chars bind) · OWN-WORDS WEEK
+>
+> (The 7 Oct freeze note below is kept for history; it no longer binds.)
+>
+> ## ❄ PLAN FROZEN (7 Oct evening, commit 06b7e11, external sign-off 9.6/10)
 >
 > Eighteen external audit rounds closed with "this is the version I would submit". **Do not
 > reopen the plan** - no new methods, domains or restructuring; reopen only on two-reader
