@@ -4,7 +4,7 @@
 
 ##### T1.1. Define the evidence target and register the protocol (M1–M4)
 
-The protocol covers four classes of evidence and is fixed before extraction. (1) Parameter values, the quantitative core, include weather-demand effects (temperature, heat-day exceedance, ozone and PM10), surge magnitude and timing, length-of-stay and occupancy distributions, and admission fractions. Transmission parameters and shedding-to-incidence conversions are secondary. (2) Explanatory variables and their lags reported as informative for each crisis type. (3) Model-form evidence on which algorithm families perform for which outcome and horizon [Wargon 2009]. (4) Outcome definitions and warning thresholds [Lung 2021]. These evidence classes inform candidate model inputs and the later interpretation of forecasts. The full extraction benchmark focuses on class 1, while classes 2–4 carry provenance and certainty grades and are validated against published syntheses.
+The protocol covers four classes of evidence and is fixed before extraction. (1) Parameter values, the quantitative core, include weather-demand effects (temperature, heat-day exceedance, ozone and PM10), surge magnitude and timing, length-of-stay and occupancy distributions, and admission fractions. Transmission parameters and shedding-to-incidence conversions are secondary. (2) Explanatory variables and their lags reported as informative for each crisis type. (3) Model-form evidence on which algorithm families perform for which outcome and horizon [Wargon 2009]. (4) Outcome definitions and warning thresholds [Lung 2021]. These evidence classes inform candidate model inputs and the later interpretation of forecasts. The extraction benchmark covers class 1, while classes 2–4 carry provenance and certainty grades and are checked against published syntheses.
 
 ##### T1.2. Build the quantitative extraction benchmark (M3–M9)
 
@@ -16,7 +16,7 @@ Automated extraction will be compared with the adjudicated benchmark on point es
 
 ##### T1.4. Construct uncertainty-aware evidence distributions (M12–M18)
 
-Extraction errors are represented as measurement error. The task compares inverse-variance and quality-weighted pooling, meta-analytic-predictive priors and power-prior methods. Each resulting parameter distribution records its sources, extraction uncertainty and the weight assigned to external evidence.
+Extraction errors are represented as measurement error. The task compares inverse-variance and quality-weighted pooling, meta-analytic-predictive priors and power-prior methods. Each parameter distribution records its sources, extraction uncertainty and the weight given to external evidence.
 
 ##### T1.5. Transportability screen (M15–M20)
 
@@ -30,7 +30,7 @@ Risk and mitigation. If expert time is limited, the benchmark narrows to the cor
 
 ##### T2.1. Specify and identify the state model (M1–M9)
 
-The model is a Bayesian hierarchical Markov regime-switching model [Hamilton 1989], meaning that it estimates how a system moves between ordered levels of pressure. Cause-filtered emergency calls are the primary observation channel, and ED presentations and ICU occupancy are added where access permits. Weather, air quality, calendar effects and epidemic indicators enter as explanatory variables. Before real data are fitted, simulation tests whether the states and their transitions can be recovered, including a version with emergency calls alone. If recovery is poor, the fallback is a simpler ordinal state-space model. The number of levels and their anchors are fixed at registration. Where the literature provides suitable definitions, these guide the number of levels and the thresholds. Otherwise the default is four levels on seasonal percentiles, routine below P75, elevated P75 to P90, strained P90 to P97.5 or under sustained capacity pressure (ICU occupancy above 85% or ED boarding above its seasonal P90), and critical above P97.5 or at capacity saturation. The highest applicable state prevails, and capacity saturation alone defines critical. These anchors inform the model but are not hard cut-offs. Later expert elicitation can refine their decision interpretation, not change the confirmatory state definitions.
+The model is a Bayesian hierarchical Markov regime-switching model [Hamilton 1989], meaning that it estimates how a system moves between ordered levels of pressure. Cause-filtered emergency calls are the primary observation channel, and ED presentations and ICU occupancy are added where access permits. Weather, air quality, calendar effects and epidemic indicators enter as explanatory variables. Before real data are fitted, simulation tests whether the states and their transitions can be recovered, including a version with emergency calls alone. If recovery is poor, the fallback is a simpler ordinal state-space model. The number of levels and their anchors are fixed at registration. Where the literature provides suitable definitions, these guide the number of levels and the thresholds. Otherwise the default is four levels on seasonal percentiles, routine below P75, elevated P75 to P90, strained P90 to P97.5 or under sustained capacity pressure (ICU occupancy above 85% or ED boarding above its seasonal P90), and critical above P97.5 or at capacity saturation. The highest applicable state prevails, and capacity saturation alone defines critical. These anchors inform the model but are not hard cut-offs. Later elicitation can refine their decision interpretation, not the confirmatory state definitions.
 
 ##### T2.2. Represent the critical tail (M6–M14)
 
@@ -57,8 +57,6 @@ Risk and mitigation. If the states cannot be separated reliably, the registered 
 #### WP3. Test forecasts using historically available information (M12–M42)
 
 ##### T3.0. Outcome hierarchy, data-access gate and episode eligibility (M1–M14)
-
-The outcome hierarchy, access criteria and episode-eligibility rules are registered before forecast performance is seen.
 
 Primary outcome. Daily respiratory-related emergency demand is derived from Geneva CASU-144 records using a pre-registered classification of call reasons and urgency levels, and it is not the raw total number of calls. The heat comparison uses the same series and construction, restricted to cause groups specified in advance (dehydration, renal and psychiatric causes). Respiratory-restricted and age-75-or-older analyses are sensitivity checks. ED presentations and ICU occupancy are additional observations for the shared pressure-state model. Weather, air quality, wastewater, sentinel consultations and calendar effects are context inputs.
 

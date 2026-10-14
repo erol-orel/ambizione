@@ -2,7 +2,7 @@
 
 Host. The project will be based at the Institute of Global Health, Faculty of Medicine, University of Geneva, with methodological collaboration from Data Science for Digital Health (Prof. Douglas Teodoro) and clinical collaboration from HUG emergency medicine (Prof. Thibaut Desmettre and Dr Robert Larribau, CASU-144).
 
-The Institute brings together epidemiology, infectious-disease modelling and evidence synthesis, and the programme will be hosted alongside its groups and led independently. DS4DH provides the biomedical natural-language-processing expertise needed for WP1, and GESICA has already established working links with emergency-medicine partners [Edjinedja 2026]. Existing infrastructure includes LiteRev-Evidence, the legionellosis study, UNIGE HPC and the University's secure data environment.
+The Institute brings together epidemiology, infectious-disease modelling and evidence synthesis, and the programme will be hosted alongside its groups and led independently. DS4DH provides the biomedical natural-language-processing expertise needed for WP1, and GESICA has already established working links with emergency-medicine partners [Edjinedja 2026]. Infrastructure includes LiteRev-Evidence, the legionellosis study, UNIGE HPC and its secure data environment.
 
 Commitments, by status.
 
@@ -21,7 +21,7 @@ Commitments, by status.
 
 The unresolved feasibility items are the ED/ICU extraction and the project-specific CASU-144 agreement. Each rests on an existing relationship, and neither is claimed as secured yet.
 
-Requested project funds are capped at CHF 250,000 over four years, and my salary is covered separately. Under the 2026 rules, doctoral students and postdocs cannot be employed through Ambizione, but support personnel can.
+Project funds are capped at CHF 250,000 over four years, and my salary is separate. Under the 2026 rules, doctoral students and postdocs cannot be employed, but support personnel can.
 
 | Item                                                      | Rationale                                                                                            |
 |-----------------------------------------------------------|------------------------------------------------------------------------------------------------------|

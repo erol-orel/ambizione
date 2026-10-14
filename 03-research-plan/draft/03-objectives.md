@@ -2,48 +2,50 @@
 
 ### 2.3.1 Objectives and hypotheses
 
-The central hypothesis is that published evidence can help estimate the relationship between these inputs and the target outcome, provided its uncertainty and relevance to Geneva are represented.
+The central hypothesis is that published evidence can help estimate the relationship between the inputs and the outcome of interest, provided its uncertainty and local relevance are represented.
 
-|     | Role               | Statement                                                                                              |
-|-----|--------------------|--------------------------------------------------------------------------------------------------------|
-| H1  | Evidence quality   | Does automated extraction preserve the uncertainty reported in studies?                                |
-| C2  | Model adequacy     | Can the model identify levels of pressure and estimate their probabilities reliably?                   |
-| H3a | Main hypothesis    | Does adding published evidence improve early forecasts when outcomes from the current episode are few? |
-| H3b | Safety check       | Can the model reduce reliance on published evidence when it conflicts with local outcomes?             |
-| H3c | Secondary question | Do short-term changes in variability add useful predictive information?                                |
-| H4  | Decision value     | Does any gain change an operational decision for the better?                                           |
+|     | Role               | Statement                                                                                                  |
+|-----|--------------------|------------------------------------------------------------------------------------------------------------|
+| H1  | Evidence quality   | Does automated extraction preserve the uncertainty reported in studies?                                    |
+| C2  | Model adequacy     | Can the model reliably detect and assign probabilities to different levels of pressure?                    |
+| H3a | Main hypothesis    | Does adding published evidence improve early forecasts when outcome data from the current episode are few? |
+| H3b | Safety check       | Can the model reduce reliance on published evidence when it conflicts with local outcomes?                 |
+| H3c | Secondary question | Do short-term changes in variability add useful predictive information?                                    |
+| H4  | Decision value     | Does any gain in forecast quality change an operational decision for the better?                           |
 
 ![Framework](figures/fig1-framework.svg)
 
 *Figure 1. What exists at the start of a crisis, what HEADSTART does (WP1 to WP4), the test, and where it runs.*
 
-#### O1. Make published evidence usable without hiding its uncertainty
+#### O1. Make published evidence usable while acknowledging its uncertainties
 
-> H1. Automated extraction will understate the uncertainty in quantitative evidence, including reported within-study uncertainty and variation between studies, making the resulting parameter distributions too narrow. A measurement-error layer should reduce this under-dispersion. Success will be assessed using pre-specified coverage and calibration measures on held-out studies adjudicated by independent human extractors.
+> H1. Automated extraction understates the uncertainty in quantitative evidence, including the uncertainty and variation reported within studies and between them. This makes the resulting parameter distributions too narrow. The addition of a measurement-error layer should reduce this under-dispersion. Success will be assessed using pre-specified coverage and calibration measures on held-out studies, which will be adjudicated by independent human extractors.
 
-Omissions are common [Shankar 2026], and H1 tests whether they also reduce the estimated spread and whether the correction restores useful uncertainty. The primary benchmark concerns parameter values, and the other classes are checked against published syntheses.
+Omissions are common [Shankar 2026], and H1 tests whether these also reduce the estimated spread, and whether the correction restores useful uncertainty. The primary benchmark concerns parameter values, and the other classes are checked against published syntheses.
 
 #### O2. Represent escalation in a form that separates the state from the point forecast
 
-> C2, model adequacy criterion. The state model must recover interpretable levels of pressure and produce calibrated probabilities at a comparable false-alarm rate. This shared state scale allows forecasts from different candidate models to be compared in operational terms. It does not assume that a regime-switching model will outperform simpler threshold-based methods.
+> C2. Model adequacy criterion. The state model must produce interpretable levels of pressure and calibrated probabilities at a comparable false-alarm rate. This shared state scale enables forecasts from various candidate models to be compared in operational terms. It does not assume that a regime-switching model will outperform simpler threshold-based methods.
 
-Simulation tests whether the states and their transitions can be identified from the available data channels. Forecast calibration provides a second check. If the state model fails either criterion, the registered ordinal state-space fallback is used, and the main comparison still proceeds.
+Simulation tests whether the states and their transitions can be identified from the available data channels. Forecast calibration provides a second check. If the state model fails either of these criteria, the registered ordinal state-space fallback is used and the main comparison still proceeds.
 
-#### O3. Test whether published evidence improves forecasts and identify when it harms
+#### O3. Test whether published evidence improves forecasts and identify instances where it is detrimental
 
-> H3a. During the early days of an episode, a strategy informed by published studies (parameter distributions, explanatory variables and lags, and candidate model forms) will produce better probabilistic forecasts than a reference strategy that uses the same context inputs, local records and outcomes observed so far, but not the literature-derived model inputs. How long any advantage persists as outcomes accumulate will be assessed secondarily.
+> H3a. During the early days of an episode, a strategy informed by published studies (e.g. parameter distributions, explanatory variables, lags and candidate model forms) will produce better probabilistic forecasts than a reference strategy using the same contextual inputs, local records and observed outcomes, but not literature-derived model inputs. Secondary assessment will determine how long any advantage persists as outcomes accumulate.
 >
-> H3b. When the published evidence is consistent with the process generating local outcomes, adaptive weighting, which reduces the weight given to that evidence when local results conflict with it, should perform no worse than fixed weighting, within the pre-specified margin Δ. When evidence is deliberately made inaccurate, adaptive weighting should outperform fixed weighting. This tests whether the model can limit harm rather than assume published evidence is always helpful.
+> H3b. When published evidence is consistent with the process generating local outcomes, adaptive weighting, which reduces the weight given to that evidence when local results conflict with it, should perform no worse than fixed weighting within the registered margin Δ.
+>
+> When evidence is deliberately inaccurate, adaptive weighting should outperform fixed weighting. This will test whether the model can limit harm rather than assuming that published evidence is always helpful.
+>
+> Δ is set to half the minimum improvement defined as meaningful under H3a. In registered simulations where the distributions of published evidence and the outcome-generating process match, the 50% preservation rule allows adaptive weighting to give up no more than half of the pre-specified benefit.
+>
+> H3c. Short-window changes in variability and lag-one autocorrelation will be tested to see if they improve forecasts beyond the context inputs, local level and trend, and published evidence.
+>
+> Primary confirmatory comparison. The evidence-informed and reference strategies use the same pre-registered selection procedure and are compared using the continuous ranked probability score (CRPS), which evaluates full probability forecasts. The primary test uses respiratory episodes and the pre-specified early-episode window. Heat is tested only if the respiratory test passes, and this fixed order controls the family-wise error rate. A secondary analysis examines how the difference changes as local outcomes accumulate.
 
-Δ is set to half the minimum improvement defined as meaningful under H3a. Under the registered simulations where published and outcome-generating distributions match, this 50% preservation rule allows adaptive weighting to give up no more than half of that pre-specified benefit.
+#### O4. Establish whether predictive improvement matters for decision-making
 
-> H3c. Short-window changes in variability and lag-one autocorrelation will be tested for whether they improve forecasts beyond the context inputs, local level and trend, and published evidence.
-
-Primary confirmatory comparison. The evidence-informed and reference strategies use the same pre-registered selection procedure and are compared with the continuous ranked probability score (CRPS), which evaluates full probability forecasts. The primary test uses respiratory episodes and the pre-specified early-episode window. Heat is tested with the same comparison only if the respiratory test passes, and this fixed order controls the family-wise error rate. How the difference changes as more local outcomes arrive is a secondary analysis.
-
-#### O4. Establish whether predictive improvement matters for decisions
-
-> H4. For the demand-based settings, the forecast with the best statistical score will not always be the best operational choice. Decision analysis will assess the models under losses and escalation thresholds elicited from emergency-service experts. An evidence-informed forecast is useful only if its gain changes a decision in a way that matters operationally.
+> H4. In demand-based settings, the forecast with the best statistical score will not necessarily be the best operational choice. Decision analysis will assess the models under losses and escalation thresholds elicited from emergency service experts. For an evidence-informed forecast to be useful, it must change a decision in a way that has operational significance.
 
 #### Scope. Three Geneva crisis types, fixed for the grant
 
