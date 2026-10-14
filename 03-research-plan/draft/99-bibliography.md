@@ -1,9 +1,5 @@
 # Bibliography
 
-- **[Angelopoulos 2023]** Angelopoulos AN, Bates S. Conformal prediction: a gentle introduction.
-  *Foundations and Trends in Machine Learning* 2023;16(4):494–591.
-- **[Barber 2023]** Barber RF, Candès EJ, Ramdas A, Tibshirani RJ. Conformal prediction beyond
-  exchangeability. *Annals of Statistics* 2023;51(2):816–845.
 - **[Bareinboim 2016]** Bareinboim E, Pearl J. Causal inference and the data-fusion problem.
   *Proceedings of the National Academy of Sciences* 2016;113(27):7345–7352.
   doi:10.1073/pnas.1510507113

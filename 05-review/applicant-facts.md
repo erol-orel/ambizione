@@ -1028,3 +1028,5 @@ with Erol for decision before the letter is signed.
 - Budget table: research assistants (master's students, at most 40%), database/dashboard services, conferences 2-3 per year and workshops, other costs. No "scientific collaborator".
 - REFERENCES NOW NUMBERED in order of first appearance (draft/numbered-refs.py, run by assemble.sh; drafts keep [Author Year] keys). SNSF prescribes no citation style; numbering saves ~1,300 characters.
 - Figure 1 "What is known" lines shortened; Gantt labels T3.0/T4.1/T4.2 shortened. Both figures re-rendered.
+
+## 15 Oct: realism cuts (applicant decision): conformal prediction (T2.5, Angelopoulos and Barber removed from the bibliography, 45 entries), commensurate-prior sensitivity (T2.3), value of information (T4.2), counterfactual capacity model (T4.3, heading, D4.3 and Gantt label updated).

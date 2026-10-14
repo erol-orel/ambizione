@@ -149,7 +149,7 @@ WPS = [
     ("WP4", 24, 48, [
         ("T4.1 Costs and thresholds", 24, 32),
         ("T4.2 Decision analysis and fairness", 30, 40),
-        ("T4.3 Counterfactuals and dashboard", 34, 48)]),
+        ("T4.3 Dashboard and living updates", 34, 48)]),
 ]
 MILESTONES = [(9, "M1"), (12, "M2"), (20, "M3"), (34, "M4"), (40, "M5"), (48, "M6")]
 

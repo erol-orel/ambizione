@@ -176,7 +176,7 @@ Rare, very high demand is modelled with extreme-value methods (peaks over a thre
 
 ##### T2.3. Include published evidence in the model parameters (M10–M20)
 
-The distributions built in WP1 feed the model parameters for which published evidence exists, such as weather effects, surge size and the moves between levels. Three ways of using them are compared. The first uses almost no outside information. The second uses the evidence distributions as they are. The third lowers the weight of the evidence when a registered conflict measure shows that local outcomes disagree with it. The conflict measure and the weight rule are fixed before evaluation. Power priors and commensurate priors are run as sensitivity checks.
+The distributions built in WP1 feed the model parameters for which published evidence exists, such as weather effects, surge size and the moves between levels. Three ways of using them are compared. The first uses almost no outside information. The second uses the evidence distributions as they are. The third lowers the weight of the evidence when a registered conflict measure shows that local outcomes disagree with it. The conflict measure and the weight rule are fixed before evaluation. Power priors are run as a sensitivity check.
 
 ##### T2.4. Add resilience indicators as a secondary information channel (M12–M20)
 
@@ -184,7 +184,7 @@ The two signals of H3c, the recent variability of demand and how much each day r
 
 ##### T2.5. Calibration, automation and validity monitoring (M20–M28)
 
-Forecast probabilities are calibrated with methods made for data that change over time, and conformal prediction [43, 44] is tried as an extra check where its assumptions hold. Public feeds (weather, air quality, wastewater, surveillance indicators) are loaded automatically as often as they are updated. Partner data are linked only under access agreements. The pipeline records when each value was observed and released, which version of the data and of the model was used, refits the models on a fixed schedule and checks after each fit that the residuals, the spread and the calibration are acceptable. Models that fail these checks are set aside. The working code is released within LiteRev-Evidence.
+Forecast probabilities are calibrated with methods made for data that change over time. Public feeds (weather, air quality, wastewater, surveillance indicators) are loaded automatically as often as they are updated. Partner data are linked only under access agreements. The pipeline records when each value was observed and released, which version of the data and of the model was used, refits the models on a fixed schedule and checks after each fit that the residuals, the spread and the calibration are acceptable. Models that fail these checks are set aside. The working code is released within LiteRev-Evidence.
 
 Simulated data are used only to test the model, never as extra observations. Treating simulations based on the literature as real outcomes would count the same information twice and spoil the test of conflict between the evidence and the local data.
 
@@ -208,7 +208,7 @@ Open-data track (M12–M24). Before clinical records are connected, the whole pi
 
 ##### T3.1. Assemble the retrospective information set (M12–M20)
 
-The outcome series are lined up with the context feeds and with each other on a daily grid. Missing values and reporting delays are measured, and recent days that are still incomplete are corrected with nowcasting [45, 46], because reporting tends to slow down under pressure and can look like an early warning. The HUG COVID-19 hospitalisation data I analysed before [35] are requested again as an extra series to check and calibrate the respiratory models. Pharmacy sales and wastewater measurements are requested through the cantonal pharmacist and used as early indicators where access and coverage allow.
+The outcome series are lined up with the context feeds and with each other on a daily grid. Missing values and reporting delays are measured, and recent days that are still incomplete are corrected with nowcasting [43, 44], because reporting tends to slow down under pressure and can look like an early warning. The HUG COVID-19 hospitalisation data I analysed before [35] are requested again as an extra series to check and calibrate the respiratory models. Pharmacy sales and wastewater measurements are requested through the cantonal pharmacist and used as early indicators where access and coverage allow.
 
 ##### T3.2. Reconstruct the true information set (M18–M30)
 
@@ -216,7 +216,7 @@ For each past episode, forecasts are made at successive dates using only what wa
 
 ##### T3.3. The model library and the automated selection engine (M20–M34)
 
-Two strategies are registered before evaluation. The reference strategy uses a registered set of standard forecasting models (seasonal regression, persistence, surveillance alarm methods [47], machine-learning learners and the WP2 pressure model with almost no outside information), fitted to the local history, the outcomes already seen in the episode and the context feeds, with nothing taken from the literature. The evidence-informed strategy uses the same inputs plus the WP1 distributions and the registered advice on variables, lags and model forms, in three versions, fixed evidence weights, adaptive weights, and adaptive weights plus the two signals of H3c. Transmission models are allowed only for infectious crises. The allowed candidates are fixed per crisis type at registration.
+Two strategies are registered before evaluation. The reference strategy uses a registered set of standard forecasting models (seasonal regression, persistence, surveillance alarm methods [45], machine-learning learners and the WP2 pressure model with almost no outside information), fitted to the local history, the outcomes already seen in the episode and the context feeds, with nothing taken from the literature. The evidence-informed strategy uses the same inputs plus the WP1 distributions and the registered advice on variables, lags and model forms, in three versions, fixed evidence weights, adaptive weights, and adaptive weights plus the two signals of H3c. Transmission models are allowed only for infectious crises. The allowed candidates are fixed per crisis type at registration.
 
 At each forecast date, each strategy picks its best candidate using only outcomes seen before that date, with the CRPS as the ranking criterion and log score and calibration as entry checks. The chosen model then forecasts the following period, whose outcomes played no part in the choice. Both strategies follow the same rules. The main comparison tests the whole evidence-informed strategy, and secondary comparisons separate the effect of the priors, of the variable and lag advice, and of the model forms.
 
@@ -244,13 +244,13 @@ A structured elicitation (SHELF method) with two to five experienced people from
 
 ##### T4.2. Decision-analytic evaluation and equity audit (M30–M40)
 
-The WP3 forecasts are re-assessed on the decisions they would trigger, with net-benefit, decision-curve and value-of-information methods, to see whether the ranking of the models changes once the costs of wrong decisions are counted. Calibration and threshold performance are also checked across groups by age and sex. A model that is well calibrated overall but poor for a group that matters for decisions does not pass.
+The WP3 forecasts are re-assessed on the decisions they would trigger, with net-benefit and decision-curve methods, to see whether the ranking of the models changes once the costs of wrong decisions are counted. Calibration and threshold performance are also checked across groups by age and sex. A model that is well calibrated overall but poor for a group that matters for decisions does not pass.
 
-##### T4.3. Counterfactuals, observation-mode dashboard and living updating (M34–M48)
+##### T4.3. Observation-mode dashboard and living updating (M34–M48)
 
-For selected past episodes, a simple capacity model estimates what might have changed had escalation followed the forecast. Uncertainty is carried through and the results are not presented as causal. Where a strategy passes the forecast and decision checks and the services authorise it, the project runs a daily dashboard in observation mode for that crisis type. It publishes forecasts, level probabilities and validity checks, records its outputs and scores them as outcomes arrive, and it does not direct clinical care. New studies are checked daily, and full syntheses are refreshed on a registered schedule [13]. Any change to priors, variables, thresholds or model choice is version-controlled and applied only under pre-registered rules. Without authorisation, the retrospective evaluation and the update protocol remain the deliverables.
+Where a strategy passes the forecast and decision checks and the services authorise it, the project runs a daily dashboard in observation mode for that crisis type. It publishes forecasts, level probabilities and validity checks, records its outputs and scores them as outcomes arrive, and it does not direct clinical care. New studies are checked daily, and full syntheses are refreshed on a registered schedule [13]. Any change to priors, variables, thresholds or model choice is version-controlled and applied only under pre-registered rules. Without authorisation, the retrospective evaluation and the update protocol remain the deliverables.
 
-Deliverables are D4.1 (cost structure and fairness audit), D4.2 (decision-analytic evaluation) and D4.3 (counterfactual analysis and, where authorised, the dashboard and update protocol).
+Deliverables are D4.1 (cost structure and fairness audit), D4.2 (decision-analytic evaluation) and D4.3 (the update protocol and, where authorised, the dashboard).
 
 Reproducibility and data protection. Code is version-controlled in R and Python under a registered analysis plan. Clinical data stay in the UNIGE secure environment under the applicable approvals. The benchmark and the software are released openly, with synthetic data where real data cannot be shared.
 
@@ -376,8 +376,6 @@ Prof. Olivia Keiser, my contact person at the Institute, co-built LiteRev with m
 40. Ragettli MS, Vicedo-Cabrera AM, Schindler C, Röösli M. Impact of the warm summer 2015 on emergency hospital admissions in Switzerland. *Environmental Health* 2019;18:66. doi:10.1186/s12940-019-0507-1
 41. Wargon M, Guidet B, Hoang TD, Hejblum G. A systematic review of models for forecasting the number of emergency department visits. *Emergency Medicine Journal* 2009;26(6):395–399. doi:10.1136/emj.2008.062380
 42. Hamilton JD. A new approach to the economic analysis of nonstationary time series and the business cycle. *Econometrica* 1989;57(2):357–384.
-43. Angelopoulos AN, Bates S. Conformal prediction: a gentle introduction. *Foundations and Trends in Machine Learning* 2023;16(4):494–591.
-44. Barber RF, Candès EJ, Ramdas A, Tibshirani RJ. Conformal prediction beyond exchangeability. *Annals of Statistics* 2023;51(2):816–845.
-45. Höhle M, an der Heiden M. Bayesian nowcasting during the STEC O104:H4 outbreak in Germany, 2011. *Biometrics* 2014;70(4):993–1002. doi:10.1111/biom.12194
-46. McGough SF, Johansson MA, Lipsitch M, Menzies NA. Nowcasting by Bayesian smoothing: a flexible, generalizable model for real-time epidemic tracking. *PLoS Computational Biology* 2020;16(4):e1007735. doi:10.1371/journal.pcbi.1007735
-47. Salmon M, Schumacher D, Höhle M. Monitoring count time series in R: aberration detection in public health surveillance. *Journal of Statistical Software* 2016;70(10):1–35. doi:10.18637/jss.v070.i10
+43. Höhle M, an der Heiden M. Bayesian nowcasting during the STEC O104:H4 outbreak in Germany, 2011. *Biometrics* 2014;70(4):993–1002. doi:10.1111/biom.12194
+44. McGough SF, Johansson MA, Lipsitch M, Menzies NA. Nowcasting by Bayesian smoothing: a flexible, generalizable model for real-time epidemic tracking. *PLoS Computational Biology* 2020;16(4):e1007735. doi:10.1371/journal.pcbi.1007735
+45. Salmon M, Schumacher D, Höhle M. Monitoring count time series in R: aberration detection in public health surveillance. *Journal of Statistical Software* 2016;70(10):1–35. doi:10.18637/jss.v070.i10

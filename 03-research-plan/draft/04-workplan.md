@@ -38,7 +38,7 @@ Rare, very high demand is modelled with extreme-value methods (peaks over a thre
 
 ##### T2.3. Include published evidence in the model parameters (M10–M20)
 
-The distributions built in WP1 feed the model parameters for which published evidence exists, such as weather effects, surge size and the moves between levels. Three ways of using them are compared. The first uses almost no outside information. The second uses the evidence distributions as they are. The third lowers the weight of the evidence when a registered conflict measure shows that local outcomes disagree with it. The conflict measure and the weight rule are fixed before evaluation. Power priors and commensurate priors are run as sensitivity checks.
+The distributions built in WP1 feed the model parameters for which published evidence exists, such as weather effects, surge size and the moves between levels. Three ways of using them are compared. The first uses almost no outside information. The second uses the evidence distributions as they are. The third lowers the weight of the evidence when a registered conflict measure shows that local outcomes disagree with it. The conflict measure and the weight rule are fixed before evaluation. Power priors are run as a sensitivity check.
 
 ##### T2.4. Add resilience indicators as a secondary information channel (M12–M20)
 
@@ -46,7 +46,7 @@ The two signals of H3c, the recent variability of demand and how much each day r
 
 ##### T2.5. Calibration, automation and validity monitoring (M20–M28)
 
-Forecast probabilities are calibrated with methods made for data that change over time, and conformal prediction [Angelopoulos 2023; Barber 2023] is tried as an extra check where its assumptions hold. Public feeds (weather, air quality, wastewater, surveillance indicators) are loaded automatically as often as they are updated. Partner data are linked only under access agreements. The pipeline records when each value was observed and released, which version of the data and of the model was used, refits the models on a fixed schedule and checks after each fit that the residuals, the spread and the calibration are acceptable. Models that fail these checks are set aside. The working code is released within LiteRev-Evidence.
+Forecast probabilities are calibrated with methods made for data that change over time. Public feeds (weather, air quality, wastewater, surveillance indicators) are loaded automatically as often as they are updated. Partner data are linked only under access agreements. The pipeline records when each value was observed and released, which version of the data and of the model was used, refits the models on a fixed schedule and checks after each fit that the residuals, the spread and the calibration are acceptable. Models that fail these checks are set aside. The working code is released within LiteRev-Evidence.
 
 Simulated data are used only to test the model, never as extra observations. Treating simulations based on the literature as real outcomes would count the same information twice and spoil the test of conflict between the evidence and the local data.
 
@@ -106,13 +106,13 @@ A structured elicitation (SHELF method) with two to five experienced people from
 
 ##### T4.2. Decision-analytic evaluation and equity audit (M30–M40)
 
-The WP3 forecasts are re-assessed on the decisions they would trigger, with net-benefit, decision-curve and value-of-information methods, to see whether the ranking of the models changes once the costs of wrong decisions are counted. Calibration and threshold performance are also checked across groups by age and sex. A model that is well calibrated overall but poor for a group that matters for decisions does not pass.
+The WP3 forecasts are re-assessed on the decisions they would trigger, with net-benefit and decision-curve methods, to see whether the ranking of the models changes once the costs of wrong decisions are counted. Calibration and threshold performance are also checked across groups by age and sex. A model that is well calibrated overall but poor for a group that matters for decisions does not pass.
 
-##### T4.3. Counterfactuals, observation-mode dashboard and living updating (M34–M48)
+##### T4.3. Observation-mode dashboard and living updating (M34–M48)
 
-For selected past episodes, a simple capacity model estimates what might have changed had escalation followed the forecast. Uncertainty is carried through and the results are not presented as causal. Where a strategy passes the forecast and decision checks and the services authorise it, the project runs a daily dashboard in observation mode for that crisis type. It publishes forecasts, level probabilities and validity checks, records its outputs and scores them as outcomes arrive, and it does not direct clinical care. New studies are checked daily, and full syntheses are refreshed on a registered schedule [Elliott 2014]. Any change to priors, variables, thresholds or model choice is version-controlled and applied only under pre-registered rules. Without authorisation, the retrospective evaluation and the update protocol remain the deliverables.
+Where a strategy passes the forecast and decision checks and the services authorise it, the project runs a daily dashboard in observation mode for that crisis type. It publishes forecasts, level probabilities and validity checks, records its outputs and scores them as outcomes arrive, and it does not direct clinical care. New studies are checked daily, and full syntheses are refreshed on a registered schedule [Elliott 2014]. Any change to priors, variables, thresholds or model choice is version-controlled and applied only under pre-registered rules. Without authorisation, the retrospective evaluation and the update protocol remain the deliverables.
 
-Deliverables are D4.1 (cost structure and fairness audit), D4.2 (decision-analytic evaluation) and D4.3 (counterfactual analysis and, where authorised, the dashboard and update protocol).
+Deliverables are D4.1 (cost structure and fairness audit), D4.2 (decision-analytic evaluation) and D4.3 (the update protocol and, where authorised, the dashboard).
 
 Reproducibility and data protection. Code is version-controlled in R and Python under a registered analysis plan. Clinical data stay in the UNIGE secure environment under the applicable approvals. The benchmark and the software are released openly, with synthetic data where real data cannot be shared.
 
