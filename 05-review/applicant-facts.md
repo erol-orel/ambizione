@@ -1016,3 +1016,7 @@ with Erol for decision before the letter is signed.
 - 2.2 opening paragraph REMOVED (repeated the summary). 2.2.1: Merzouki 2021 PRECEDES Orel 2022 ("a line of work shared with"), Ng'ambi 2026: Erol "supervised the statistical analysis", nothing more. 2.2.3: Estill 2020 did NOT motivate the question. The question grew out of the meeting between LiteRev and GESICA, later GeoAI4EI (now stated in 2.2.4). Bayesian hierarchical modelling: from finance mainly (kept there).
 - Erol will send a further corrected version of 2.2; check for discrepancies and reply one by one.
 - Plan: 14 pages, ~46,800 chars.
+
+## 15 Oct: 2.6 and figures walked through
+- FACT CORRECTIONS (Erol): Douglas Teodoro does NOT lead GESICA. Olivia Keiser is Erol's PI in GESICA (respiratory diseases) and PI in GeoAI4EI (Horizon Europe). GESICA role in the 2.6 table: "Contributor, data sourcing for respiratory diseases". 2.3.3 table rows corrected (GESICA: Keiser, UNIGE PI; GeoAI4EI: Keiser, PI). 2.6 paragraph 3 shortened to the independence point (repeated 2.2). Figures 1 and 2 confirmed as they stand.
+- Walk-through complete (steps 1 to 52). Plan 14 pages, ~46,400 chars.

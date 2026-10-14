@@ -8,8 +8,8 @@ The project is based at the Institute of Global Health (ISG), Faculty of Medicin
 | DS4DH, UNIGE | Prof. Douglas Teodoro | Biomedical text mining for WP1 | Letter of support signed |
 | HUG, emergency department | Prof. Thibaut Desmettre, head of department | ED and ICU data, clinical partner | Extraction in discussion, letter requested |
 | CASU-144, HUG | Dr Robert Larribau | Emergency-call data, clinical partner | Access held within GESICA, project agreement in preparation |
-| GESICA (Franco-Swiss) | Prof. Douglas Teodoro | Surveillance inventory, data access, emergency-medicine partners | Running |
-| GeoAI4EI (Horizon Europe) | Prof. Olivia Keiser | European epidemic-intelligence partners, exchange of methods | Running 2026–2030 |
+| GESICA (Franco-Swiss) | Prof. Olivia Keiser, UNIGE PI | Surveillance inventory, data access, emergency-medicine partners | Running |
+| GeoAI4EI (Horizon Europe) | Prof. Olivia Keiser, PI | European epidemic-intelligence partners, exchange of methods | Running 2026–2030 |
 | Médecin cantonal and SIG | | Legionellosis linked data | Secured, BASEC 2026-00324 |
 | Pharmacien cantonal | | Wastewater and pharmacy sales | Contacts established |
 | UNIGE HPC and secure data environment | | Computing | In place |

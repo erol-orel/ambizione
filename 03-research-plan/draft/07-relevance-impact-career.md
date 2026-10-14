@@ -8,17 +8,17 @@ The project will show whether outside evidence improves forecasts in the first w
 
 ## 2.6 Relevance for personal career development
 
-I have developed the methods, prototype and data relationships that make this project feasible, but much of that work has been carried out within existing programmes. HEADSTART gives me a separate scientific question and a programme that I will lead.
+I built the methods, the prototype and the data relationships that make this project feasible, mostly inside existing programmes. HEADSTART gives me my own scientific question and a programme that I lead.
 
 | Programme                     | Objective                                                        | My role           | Distinction from Ambizione                           |
 |-------------------------------|------------------------------------------------------------------|-------------------|------------------------------------------------------|
-| GESICA                        | Franco-Swiss crisis intelligence                                 | Contributor       | Decision support, no test of evidence-derived priors |
+| GESICA                        | Franco-Swiss crisis intelligence                                 | Contributor, data sourcing for respiratory diseases | Decision support, no test of evidence-derived priors |
 | GeoAI4EI (Horizon Europe)     | European epidemic-intelligence toolbox                           | Contributor       | Infrastructure, no test of borrowed evidence         |
 | Legionellosis study (ongoing) | Geneva waterborne outbreak determinants                          | Data lead         | Supplies the data of the third test          |
 | Ambizione                 | When published evidence improves forecasts, and when it misleads | PI, full-time | -                                                   |
 
-HEADSTART is distinct from GESICA and GeoAI4EI, which develop epidemic-intelligence and decision-support capabilities rather than testing published evidence as a forecasting input.
+GESICA and GeoAI4EI build epidemic-intelligence and decision-support tools. HEADSTART tests one thing they do not, whether published evidence is a sound input to forecasts.
 
-I conceived and built LiteRev with Aziza Merzouki and Prof. Olivia Keiser. My current extension, LiteRev-Evidence, adds structured numerical extraction and modelling. It can turn published estimates into parameter distributions, but whether using those distributions improves forecasts in a new setting has not been established. My quantitative-finance work provides methods for rare events, regime changes and stress testing, and LiteRev-Evidence provides the evidence pipeline. The research question and the confirmatory analyses of HEADSTART are mine.
+LiteRev-Evidence can already turn published estimates into parameter distributions, but nobody has shown whether using them improves forecasts in a new setting. That question, the design that answers it and the confirmatory analyses are mine.
 
-Prof. Olivia Keiser, my contact person at the Institute, co-built LiteRev with me and leads the legionellosis study, and we work together in GeoAI4EI (Horizon Europe) and on the MAS in Public Health, where I have lectured in statistics and epidemiology since 2024. Prof. Douglas Teodoro leads GESICA and supports the text-mining collaboration of WP1. HEADSTART is my own programme, hosted at the Institute of Global Health and led by me, with the collaborator and the master's student supporting defined technical tasks. By month 48, a validated answer and a first-author record will be the basis for group leadership or a professorship.
+Prof. Olivia Keiser, my contact person at the Institute, co-built LiteRev with me, leads the legionellosis study and is my PI in GESICA (respiratory diseases) and in GeoAI4EI (Horizon Europe). We also work together on the MAS in Public Health, where I have taught statistics and epidemiology since 2024. Prof. Douglas Teodoro (DS4DH) supports the text-mining work of WP1. HEADSTART is my own programme, hosted at the Institute of Global Health and led by me, with the collaborator and the master's student on defined technical tasks. By month 48, a validated answer and a first-author record will be the basis for leading a group or a professorship.
