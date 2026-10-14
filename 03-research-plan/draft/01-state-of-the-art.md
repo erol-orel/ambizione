@@ -4,7 +4,7 @@
 
 ### 2.1.1 Forecasts need outcome history as well as context data
 
-Syndromic surveillance detects departures from expected baselines [Farrington 1996; Noufaily 2013], and ensembles of forecasting models perform strongly when outcome data are rich [Cramer 2022; Sherratt 2023]. Emergency dispatch records move ahead of confirmed surveillance. The autumn wave of the 2009 A(H1N1) pandemic was seen eight days early in three European regions [Rosenkötter 2013], long series of emergency calls track influenza-like illness [Bonora 2025], and our systematic review maps the field [Edjinedja 2026].
+Syndromic surveillance detects departures from expected baselines [Farrington 1996; Noufaily 2013], and ensembles of forecasting models perform strongly when outcome data are rich [Cramer 2022; Sherratt 2023]. Emergency dispatch records move ahead of confirmed surveillance. The autumn wave of the 2009 A(H1N1) pandemic was seen eight days early in three European regions [Rosenkötter 2013], long series of emergency calls track influenza-like illness [Bonora 2025], and a systematic review maps the field [Edjinedja 2026].
 
 The usual problem is not a lack of context data. Weather, air quality, calendar effects, wastewater and some surveillance indicators are available in near real time and can be linked automatically to a forecasting model. What is missing at the start is data on the outcome itself. A new episode often differs from earlier ones in the population affected, the drivers and the severity, so the link between context and outcome has to be checked again as outcomes arrive.
 

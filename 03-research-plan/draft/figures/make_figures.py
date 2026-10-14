@@ -77,9 +77,9 @@ def fig1():
     label(150, 160, "numbers, variables, lags, thresholds", 15, MUTE, "middle")
     s.append(box(980, 48, 280, 118, GREY_BG, GREY, 10, 1.4))
     label(1120, 82, "What is known", 22, NAVY, "middle", True)
-    label(1120, 112, "a lot elsewhere and in the past", 16, MUTE, "middle")
-    label(1120, 134, "a lot about today's conditions", 16, MUTE, "middle")
-    label(1120, 156, "very little about this episode's outcomes", 16, MUTE, "middle")
+    label(1120, 112, "much from elsewhere and the past", 16, MUTE, "middle")
+    label(1120, 134, "much about today's conditions", 16, MUTE, "middle")
+    label(1120, 156, "little about this episode", 16, MUTE, "middle")
     # ---------- row 2: what HEADSTART does ----------
     label(0, 218, "WHAT HEADSTART DOES", 20, NAVY, bold=True)
     steps = [("WP1", "Extract and grade", "the published evidence", BLUE),
@@ -140,15 +140,15 @@ WPS = [
         ("T2.4 Resilience indicators", 12, 20),
         ("T2.5 Calibration and automation", 20, 28)]),
     ("WP3", 1, 42, [
-        ("T3.0 Outcome hierarchy and registration", 1, 14),
+        ("T3.0 Outcomes and registration", 1, 14),
         ("T3.1 Retrospective information set", 12, 20),
         ("T3.2 Historical information set", 18, 30),
         ("T3.3 Candidate models and selection", 20, 34),
         ("T3.4 Benefit and failure analysis", 28, 38),
         ("T3.5 Heat and legionellosis tests", 34, 42)]),
     ("WP4", 24, 48, [
-        ("T4.1 Operational losses and thresholds", 24, 32),
-        ("T4.2 Decision analysis and equity", 30, 40),
+        ("T4.1 Costs and thresholds", 24, 32),
+        ("T4.2 Decision analysis and fairness", 30, 40),
         ("T4.3 Counterfactuals and dashboard", 34, 48)]),
 ]
 MILESTONES = [(9, "M1"), (12, "M2"), (20, "M3"), (34, "M4"), (40, "M5"), (48, "M6")]

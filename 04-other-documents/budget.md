@@ -121,3 +121,17 @@ evaluation design - while the collaborator carries the labour-intensive specifie
 For an independence-focused scheme this division is arguably cleaner than a doctoral team: the
 hypotheses, the design and the scientific direction are unambiguously the applicant's, and the
 supporting role is technical rather than an independent scientific lead.
+
+
+## 15 Oct: applicant's correction of the salary start point and the ARE rule
+
+- Erol: "je commencerais a 19/10 je pense au mieux" (not 19/12 as in the RGO table). With one
+  annuity per year from 19/10 and the GE scale step of CHF 1,049 (19/12 131,330 -> 19/13
+  132,379 -> 19/14 133,428, constant step, 19/10 and 19/11 extrapolated, TO VERIFY on the
+  ge.ch scale): Y1 19/10 129,232; Y2 19/11 130,281; Y3 19/12 131,330; Y4 19/13 132,379.
+  Average CHF 130,805.50. If the RGO's two-annuities-per-year rule applies until annuity 12,
+  the average is higher (Y1 19/10, Y2 19/12, Y3 19/13, Y4 19/14 = 131,592.25). Enter the
+  average of the scenario Erol defends; HR confirms the exact amount after the award.
+- Support personnel (RGO, 14 Oct): ARE = master's students at MOST 40%; also IT services for a
+  database, conference travel (two to three per year), workshops. Plan 2.3.3 budget table
+  rewritten accordingly (no "scientific collaborator" line any more).

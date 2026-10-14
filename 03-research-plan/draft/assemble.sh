@@ -22,5 +22,6 @@ HDR
   done
   cat "$DIR/99-bibliography.md"
 } > "$OUT"
+python3 "$DIR/numbered-refs.py" "$OUT"
 echo "wrote $OUT"
 sh "$DIR/wordcount.sh" | tail -3

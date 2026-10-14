@@ -8,7 +8,7 @@ The project is based at the Institute of Global Health (ISG), Faculty of Medicin
 | DS4DH, UNIGE | Prof. Douglas Teodoro | Biomedical text mining for WP1 | Letter of support signed |
 | HUG, emergency department | Prof. Thibaut Desmettre, head of department | ED and ICU data, clinical partner | Extraction in discussion, letter requested |
 | CASU-144, HUG | Dr Robert Larribau | Emergency-call data, clinical partner | Access held within GESICA, project agreement in preparation |
-| GESICA (Franco-Swiss) | Prof. Olivia Keiser, UNIGE PI | Surveillance inventory, data access, emergency-medicine partners | Running |
+| GESICA (Franco-Swiss) | Prof. Olivia Keiser (UNIGE PI), Prof. Douglas Teodoro (Swiss data inventory) | Surveillance inventory, data access, emergency-medicine partners | Running |
 | GeoAI4EI (Horizon Europe) | Prof. Olivia Keiser, PI | European epidemic-intelligence partners, exchange of methods | Running 2026–2030 |
 | Médecin cantonal and SIG | | Legionellosis linked data | Secured, BASEC 2026-00324 |
 | Pharmacien cantonal | | Wastewater and pharmacy sales | Contacts established |
@@ -17,14 +17,13 @@ The project is based at the Institute of Global Health (ISG), Faculty of Medicin
 
 The ED and ICU extraction and the project-specific CASU-144 agreement are not yet secured. Each rests on an existing working relationship.
 
-Project funds are capped at CHF 250,000 over four years, and my salary is separate. Under the 2026 rules, doctoral students and postdocs cannot be employed, but support personnel can.
+Project funds are capped at CHF 250,000 over four years, and my salary is separate.
 
 | Item | Rationale |
 |---|---|
-| Scientific collaborator, up to 40% over 48 months | Benchmark support, data harmonisation, evaluation pipeline, reproducibility |
-| Master's student as second extractor, M3–M9 | Second extraction arm of the T1.2 benchmark |
-| Data access, secure storage and processing | Project-specific extractions and secure-environment runs beyond existing infrastructure |
-| Travel, conferences, incoming visits | Presentation of results, international collaboration |
+| Research assistants (master's students, at most 40%) | Second extraction arm of the T1.2 benchmark (M3–M9), data handling, evaluation pipeline, workshop organisation |
+| Database and dashboard services | Set-up of the project database, secure-environment runs and, where authorised, dashboard hosting |
+| Conferences, two to three per year, and workshops | Presentation of results, exchange with the forecasting hubs and the GESICA and GeoAI4EI partners |
 | Other eligible direct costs | As justified in the final SNSF budget |
 
 Before month 1 and outside the grant, I will finalise the data agreements with HUG and CASU-144, confirm data reuse under the applicable governance rules, and harden LiteRev-Evidence before clinical data are connected.

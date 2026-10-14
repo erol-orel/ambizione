@@ -17,7 +17,7 @@ natural language processing and machine learning.
 *Journal of Medical Internet Research* 2023;25:e39736.
 > *Contribution:* First author. Conceived the tool, designed and implemented the NLP,
 > dimensionality-reduction and clustering pipeline, conducted the performance evaluation, wrote
-> the manuscript. Raised its funding on my own initiative (UNIGE CHF 30,000, Fondation Ernst et
+> the manuscript. Funded by UNIGE CHF 30,000, the Fondation Ernst et
 > Lucie Schmidheiny CHF 10,000, Venture Kick CHF 10,000, Mimosa CHF 20,000). Now used by other
 > groups, including in the systematic review at item 5.
 

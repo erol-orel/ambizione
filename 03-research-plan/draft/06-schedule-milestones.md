@@ -1,6 +1,6 @@
 ## 2.4 Schedule and milestones
 
-I lead all four work packages. The scientific collaborator supports the benchmark, the data harmonisation, the evaluation pipeline and reproducibility, and a master's student provides the second extraction arm from months 3 to 9. The work packages run in parallel with fallbacks. WP2 can use weakly informative distributions if extraction error proves too large, the open-data track runs without clinical records, and the retrospective decision analysis of WP4 does not depend on live deployment. The open-data track cannot replace the test on local service data, so access agreements remain a priority before the award.
+I lead all four work packages. Research assistants (master's students) provide the second extraction arm from months 3 to 9 and support data handling and the evaluation pipeline. The work packages run in parallel with fallbacks. WP2 can use weakly informative distributions if extraction error proves too large, the open-data track runs without clinical records, and the retrospective decision analysis of WP4 does not depend on live deployment. The open-data track cannot replace the test on local service data, so access agreements remain a priority before the award.
 
 ![Work plan](figures/fig2-gantt.svg)
 
