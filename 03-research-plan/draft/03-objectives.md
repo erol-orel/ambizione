@@ -2,53 +2,53 @@
 
 ### 2.3.1 Objectives and hypotheses
 
-The objective is to determine **whether, and under what conditions, published quantitative evidence improves forecasts at the onset of a health-system crisis.** The summary's question is **H3a, the central hypothesis**. Each other row validates one link of the chain it depends on.
+The central hypothesis is that published evidence can help estimate the relationship between these inputs and the target outcome, provided its uncertainty and relevance to Geneva are represented.
 
-| | Role | Statement |
-| --- | --- | --- |
-| **H1** | Validation | Can the evidence be trusted enough to use? |
-| **C2** | Adequacy criterion | Is the state representation fit to compare borrowing in? |
-| **H3a** | **Central hypothesis** | **Does systematically extracted evidence improve cold-start forecast skill?** |
-| **H3b** | Robustness | Is adaptive borrowing safe when the prior is wrong? |
-| **H3c** | Secondary channel | Do resilience indicators add information beyond the evidence? |
-| **H4** | Decision value | Is the gain large enough to change an operational choice? |
+|     | Role               | Statement                                                                                              |
+|-----|--------------------|--------------------------------------------------------------------------------------------------------|
+| H1  | Evidence quality   | Does automated extraction preserve the uncertainty reported in studies?                                |
+| C2  | Model adequacy     | Can the model identify levels of pressure and estimate their probabilities reliably?                   |
+| H3a | Main hypothesis    | Does adding published evidence improve early forecasts when outcomes from the current episode are few? |
+| H3b | Safety check       | Can the model reduce reliance on published evidence when it conflicts with local outcomes?             |
+| H3c | Secondary question | Do short-term changes in variability add useful predictive information?                                |
+| H4  | Decision value     | Does any gain change an operational decision for the better?                                           |
 
 ![Framework](figures/fig1-framework.svg)
 
-*Figure 1. The cold-start problem, the evidence pipeline, the model library with automated selection, and the living update loop.*
+*Figure 1. The context data shared by both strategies, evidence from published studies, and evaluation against later outcomes.*
 
 #### O1. Make published evidence usable without hiding its uncertainty
 
-> **H1.** Automated extraction will systematically **understate the dispersion of the evidence-derived distribution** (reported within-study uncertainty and between-study heterogeneity) producing priors that are too concentrated. An explicit measurement-error layer will correct this under-dispersion. Success is assessed by a pre-specified criterion, coverage and calibration of intervals from the corrected distribution across held-out adjudicated studies.
+> H1. Automated extraction will understate the uncertainty in quantitative evidence, including reported within-study uncertainty and variation between studies, making the resulting parameter distributions too narrow. A measurement-error layer should reduce this under-dispersion. Success will be assessed using pre-specified coverage and calibration measures on held-out studies adjudicated by independent human extractors.
 
-Omissions dominate reported extraction errors [Shankar 2026], and whether they systematically shrink dispersion is exactly what H1 tests. If the loss cannot be corrected, that is a boundary condition. The evidence target spans four object classes (T1.1). H1 is tested on the quantitative core, and classes 2 to 4 are validated externally against published syntheses (T1.2).
+Omissions are a common extraction error [Shankar 2026]. H1 tests whether they also reduce the estimated spread of the evidence and whether the correction restores useful uncertainty. The primary benchmark concerns parameter values, and the other classes are checked against published syntheses.
 
 #### O2. Represent escalation in a form that separates the state from the point forecast
 
-> **C2, model adequacy criterion.** The latent-state representation must yield **identifiable** parameters and **calibrated** escalation-state probabilities at matched false-alarm rates. Its role is to be the common state representation in which borrowing strategies are compared. It is not a claim that regime switching generally beats thresholding a point forecast.
+> C2, model adequacy criterion. The state model must recover interpretable levels of pressure and produce calibrated probabilities at a comparable false-alarm rate. This shared state scale allows forecasts from different candidate models to be compared in operational terms. It does not assume that a regime-switching model will outperform simpler threshold-based methods.
 
-T2.1's identifiability study and T3.3's calibration checks either establish adequacy or trigger the ordinal fallback, and either outcome leaves H3a intact. Extreme-value modelling covers the critical tail, and resilience indicators are **supporting covariates**.
+Simulation tests whether the states and their transitions can be identified from the available data channels. Forecast calibration provides a second check. If the state model fails either criterion, the project uses the registered ordinal state-space fallback, and the main comparison of the two strategies still proceeds.
 
-#### O3. Test the cold-start hypothesis and map failure
+#### O3. Test whether published evidence improves forecasts and identify when it harms
 
-> **H3a.** An evidence-informed forecasting configuration (evidence-derived priors, explanatory-variable sets and model forms) improves probabilistic forecast skill during the early phase of a crisis. How long the advantage persists, and how it decays as local observations accumulate, is assessed secondarily.
+> H3a. During the early days of an episode, a strategy informed by published studies (parameter distributions, explanatory variables and lags, and candidate model forms) will produce better probabilistic forecasts than a reference strategy that uses the same context inputs, local records and outcomes observed so far, but not the literature-derived model inputs. How long any advantage persists as outcomes accumulate will be assessed secondarily.
+>
+> H3b. When the published evidence is consistent with the process generating local outcomes, adaptive weighting, which reduces the weight given to that evidence when local results conflict with it, should perform no worse than fixed weighting, within the pre-specified margin Δ. When evidence is deliberately made inaccurate, adaptive weighting should outperform fixed weighting. This tests whether the model can limit harm rather than assume published evidence is always helpful.
 
-> **H3b.** Adaptive borrowing, which discounts the evidence when conflict between prior and data emerges, is **non-inferior** to fixed borrowing under well-specified priors, within a pre-specified margin Δ on the CRPS skill score (the CRPS is a standard score for probabilistic forecasts), and is **superior** to fixed borrowing under deliberately misspecified priors.
+Δ is set to half the minimum improvement defined as meaningful under H3a. Under the registered simulations where published and outcome-generating distributions match, this 50% preservation rule allows adaptive weighting to give up no more than half of that pre-specified benefit.
 
-Δ is fixed at one half of the minimal relevant H3a improvement, a pre-specified 50% preservation fraction. Adaptive borrowing must retain at least half the gain that justifies borrowing at all, so Δ is a maximum acceptable loss, not a simulation convenience.
+> H3c. Short-window changes in outcome variability and lag-one autocorrelation will be tested for whether they improve forecasts beyond the context inputs, the local outcome level and trend, and the published evidence.
 
-> **H3c.** Resilience indicators add predictive information beyond the evidence-derived prior and the local level and trend when the outcome history is short.
-
-**Primary confirmatory comparison, stated once.** The **evidence-informed champion** is compared with the **local-only champion**, both produced by the identical pre-registered automated procedure (T3.3), on the **CRPS skill score**, over the pre-specified cold-start window, **on respiratory episodes only**. Heat repeats the identical contrast as a **sequential generalisation test**, run only if the respiratory test is met, and this fixed order controls the family-wise error rate. The **shape of the advantage as local data accumulate** is reported, and it should decay to nothing.
+Primary confirmatory comparison. The evidence-informed and reference strategies use the same pre-registered selection procedure and are compared with the continuous ranked probability score (CRPS), which evaluates full probability forecasts. The primary test uses respiratory episodes and the pre-specified early-episode window. Heat is tested with the same comparison only if the respiratory test passes, and this fixed order controls the family-wise error rate. How the difference changes as more local outcomes arrive is a secondary analysis.
 
 #### O4. Establish whether predictive improvement matters for decisions
 
-> **H4.** For the demand-based archetypes, decision-analytic evaluation under responders' losses and escalation thresholds can rank modelling strategies differently from generic accuracy criteria. The evidence-derived strategy is useful only when its gain crosses a decision threshold.
+> H4. For the demand-based settings, the forecast with the best statistical score will not always be the best operational choice. Decision analysis will assess the models under losses and escalation thresholds elicited from emergency-service experts. An evidence-informed forecast is useful only if its gain changes a decision in a way that matters operationally.
 
 #### Scope. Three Geneva crisis archetypes, fixed for the grant
 
-**HEADSTART's real-world scope is three health-system crisis archetypes, and no more.** (1) **Respiratory epidemics** carry the primary confirmatory test. SARS-CoV-2, influenza and RSV overlap syndromically and are surveilled together in Switzerland. (2) **Environmental heat events** carry the sequential generalisation test, with **air pollution (ozone, PM10) as co-exposure and effect modifier**, not as a separate domain. (3) **Waterborne outbreaks**, through Geneva legionellosis, form the contrasting extension in year 4 (T3.5). Further data serve benchmarking and sensitivity analyses only. For respiratory and heat, both arms score **the same quantity, built the same way**, namely daily emergency demand from the CASU-144 series restricted to the archetype's cause classes (T3.0). For epidemics this is respiratory-related demand. For heat it is **heat-sensitive demand**, because Swiss evidence places heat effects in dehydration, renal and psychiatric admissions, with a weak respiratory effect at older ages [Schulte 2024; Ragettli 2019]. Legionellosis instead forecasts case incidence (T3.5), outside this demand comparison. If the month-12 gate activates the registered fallback, both arms score it, built the same way, and the claim narrows.
+HEADSTART has three Geneva applications. (1) Respiratory epidemics, including SARS-CoV-2, influenza and RSV, provide the primary confirmatory test because the published evidence base is comparatively rich. (2) Heat events provide the sequential generalisation test, with ozone and PM10 treated as co-exposures or effect modifiers rather than separate domains. (3) Legionellosis provides a year-four case-incidence extension based on linked case-environment data. No fourth operational domain is planned. For respiratory and heat, both strategies forecast the same target, daily emergency demand from CASU-144, restricted to cause groups specified in advance. For respiratory epidemics, the target covers respiratory-related demand. For heat, it covers heat-sensitive demand, with dehydration, renal and psychiatric causes specified in advance, while respiratory-related demand and demand among people aged 75 or older are sensitivity analyses [Schulte 2024; Ragettli 2019]. Legionellosis forecasts case incidence and is outside the emergency-demand comparison. If CASU-144 fails the month-12 access and quality gate, the registered fallback is activated and the claim narrows.
 
 #### What the project does not claim
 
-The project does **not** aim to outperform forecast hubs in the data-rich regime, and it does not assume that literature-derived priors are beneficial. Its contribution is to establish **whether accumulated quantitative evidence can earn a formal role in forecasting before local outcome data become informative, together with a map of when it should not be trusted.**
+The project is not intended to outperform established forecasting hubs when long outcome histories are available. It does not assume that published evidence will improve forecasts in every setting, and it does not promise clinical decision-making by an automated system. The dashboard, where authorised, will operate in observation mode only.

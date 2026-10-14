@@ -1,28 +1,28 @@
 ## 2.5 Relevance and impact
 
-**A null result changes identifiable practice.** Modellers seed early-crisis models with parameters from a few studies, and evidence-synthesis platforms (mine included) assume pooled estimates are reusable as priors. A calibrated null tells both that the practice buys nothing where it matters most.
+If the method does not improve forecasts, that is still a useful result. It would show where using published estimates as model inputs adds little value or introduces too much risk, helping modellers and evidence platforms avoid assumptions that have not been tested.
 
-**Form of publication.** Peer-reviewed articles, preprints on submission and open access throughout. Benchmarks, the prior library and the code are released as **citable, versioned open resources**, and results are returned to the partners. The durable resources, subordinate to the central question, are **the extraction and replication benchmark**, **the public cold-start benchmark**, an **open reference framework** and a **decision-analytic evaluation framework**.
+Results will be published in peer-reviewed open-access articles, with preprints where appropriate. The extraction benchmark, forecasting benchmark, evidence-derived input library and code will be released as versioned, citable resources, and findings will be returned to the participating services.
 
-**Practical and societal impact.** In a crisis's first weeks, emergency systems decide whether to open capacity, redistribute resources or escalate before local outcomes are informative. The project quantifies whether external evidence improves those decisions, and with what residual uncertainty. Each validated archetype leaves a registered, automatically re-validated configuration with the services, and extending that nucleus into a multi-crisis surveillance platform is the post-grant pathway.
+The project will quantify whether external evidence improves forecasts during the first weeks of a crisis, under what conditions it helps, and how uncertain the result remains. For demand-based applications that pass validation and receive authorisation, the project will provide a registered forecasting configuration and an observation-mode dashboard. Broader deployment across additional crises is a possible post-grant development, not a required project outcome.
 
 ## 2.6 Relevance for personal career development
 
-**Why I am ready, and why now.** I have the methods, the prototype and the domain access, used so far inside other people's programmes. What I lacked is a research agenda of my own.
+I have developed the methods, prototype and data relationships that make this project feasible, but much of that work has been carried out within existing programmes. HEADSTART gives me a separate scientific question and a programme that I will lead.
 
-| Programme | Objective | My role | Distinction from Ambizione |
-| --- | --- | --- | --- |
-| GESICA | Franco-Swiss crisis intelligence | Contributor | Decision support, no test of evidence-derived priors |
-| GeoAI4EI (Horizon Europe) | European epidemic-intelligence toolbox | Contributor | Infrastructure, no test of borrowed evidence |
-| Legionellosis study (ongoing) | Geneva waterborne outbreak determinants | Data lead | Supplies a contrasting validation extension |
-| **Ambizione** | **When evidence borrowing helps at cold start, and when it harms** | **PI, full-time** | - |
+| Programme                     | Objective                                                        | My role           | Distinction from Ambizione                           |
+|-------------------------------|------------------------------------------------------------------|-------------------|------------------------------------------------------|
+| GESICA                        | Franco-Swiss crisis intelligence                                 | Contributor       | Decision support, no test of evidence-derived priors |
+| GeoAI4EI (Horizon Europe)     | European epidemic-intelligence toolbox                           | Contributor       | Infrastructure, no test of borrowed evidence         |
+| Legionellosis study (ongoing) | Geneva waterborne outbreak determinants                          | Data lead         | Supplies a contrasting validation extension          |
+| **Ambizione**                 | When published evidence improves forecasts, and when it misleads | **PI, full-time** | -                                                   |
 
-**This project does not build another epidemic-intelligence platform.** It uses existing infrastructures to test a question that is a work package of none of them.
+HEADSTART is distinct from GESICA and GeoAI4EI, which develop epidemic-intelligence and decision-support capabilities rather than testing published evidence as a forecasting input.
 
-**The question and the methods are mine.** The question arose while building LiteRev-Evidence. It could pool published estimates into priors, and nothing showed whether they improved forecasting in a new setting. The methodological core came from fifteen years of quantitative finance, from no group I have worked in, and the platform was built at UNIGE under my scientific direction.
+I conceived and built LiteRev with Aziza Merzouki in Prof. Olivia Keiser's group. My current extension, LiteRev-Evidence, adds structured numerical extraction and modelling. It can turn published estimates into parameter distributions, but it has not yet been established whether using those distributions improves forecasts in a new setting. My quantitative-finance work provides methods for rare events, regime changes and stress testing, and my work on LiteRev-Evidence provides the structured evidence pipeline. The research question and the confirmatory analyses for HEADSTART are mine.
 
-**Collaborators and their roles.** Prof. Olivia Keiser leads the group in which I developed LiteRev. She also leads the legionellosis study, GeoAI4EI and the MAS on which I teach, and she co-authors my output, as expected at this stage, but she has **no scientific role in this project**. Prof. Douglas Teodoro leads GESICA and provides the WP1 biomedical-NLP collaboration.
+Prof. Olivia Keiser led the group in which LiteRev was built and is also involved in the ongoing legionellosis study and GeoAI4EI. She has no scientific role in HEADSTART. Prof. Douglas Teodoro leads GESICA and supports the biomedical-NLP collaboration needed for WP1.
 
-**The organisational position is the transition.** Hosted by the **Institute of Global Health**, I will lead an independent programme alongside its groups rather than inside one, and the guarantees are in the confirmation letters. The programme is executable by the PI and budgeted support personnel. **No named individual other than the PI is scientifically load-bearing.**
+The Institute of Global Health will host the project, but the research programme, hypotheses and analyses will be led by me rather than embedded in an existing group. The institutional and collaboration arrangements will be documented in the required letters. The collaborator and independent extractor support defined technical tasks, and scientific direction remains with the PI.
 
-**Where this leads.** By month 48, a validated answer and a first-author record, the basis for group leadership or a professorship.
+Where this leads. By month 48, a validated answer and a first-author record, the basis for group leadership or a professorship.

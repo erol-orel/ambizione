@@ -899,3 +899,30 @@ clarification. NOT changed (records): sent emails 01/02/03-04/08, 05-review hist
 applicant-facts earlier entries. TO DO (Erol): re-file the UNIGE ethics declaration under
 HEADSTART (no. 721 says "Coldstart"), attach the new PDF to the RGO form; mention the rename
 in the next exchange with Desmettre/Larribau/Ray/Keiser/Calmy.
+
+## 14 Oct: APPLICANT'S REVAMP (docx) ADOPTED AS THE NEW BASE, checked and integrated
+
+Erol's full rewrite (HEADSTART-research-plan-submission.docx) replaces the 14 Oct text:
+sharper framing (context data available at onset, outcomes from the current episode scarce),
+reference strategy vs evidence-informed strategy sharing every input except the literature-
+derived ones, plain hedged English. Converted docx -> section files. CHECK RESULTS and fixes:
+(1) six bibliography entries had become uncited: [Orel 2023] restored in 2.2.2, the four
+critical-slowing-down papers restored in 2.1.3, [Salmon 2016] restored with a compact
+candidate list in T3.3 (47/47 sync again); (2) LiteRev authorship made consistent with the CV
+output list in summary, 2.2.2 and 2.6 ("I conceived and built LiteRev [Orel 2023] with Aziza
+Merzouki, in Prof. Olivia Keiser's group"), replacing "developed jointly by Keiser, Merzouki
+and me"; (3) "the four states" in O2 -> "the states", and T2.1 restored "number of levels"
+from the evidence (his 14 Oct decision); (4) H3b grammar ("no worse ... within the margin");
+(5) 50 semicolon/colon sentences reworded per his rule (0 remain outside headings, tables,
+citations); (6) Figure 1 REDRAWN to his new caption: context data and local outcomes shared
+by both strategies, published studies feeding only the evidence-informed strategy, pressure
+levels, evaluation against later outcomes, decision value, living update; (7) bibliography
+flattened to one alphabetical list (his request), no sections; (8) page budget: his text was
+~27 lines over, recovered by removing repeats (context-vs-outcome framing stated six times,
+second definition of a prior, T3.0 sentence duplicating T3.3, two restatements of the
+summary) and word trims. Result: 15 pages, ~52,000 chars.
+OPEN FOR EROL: (a) his new title "HEADSTART: Forecasting health-system demand with published
+evidence" drops "crises" and the scarce-data clause; the confirmation letter, notes and RGO
+inputs still carry the previous title: decide; (b) "archetype" vs "setting"/"crisis type"
+used interchangeably; (c) 2.6 no longer mentions the MAS teaching or co-authorship with
+Keiser (his cut, fine).
