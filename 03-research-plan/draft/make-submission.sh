@@ -71,6 +71,21 @@ for sid in ["Normal", "BodyText", "FirstParagraph", "Compact", "BlockText"]:
         new = blk.replace('</w:style>', '<w:pPr><w:jc w:val="both"/></w:pPr></w:style>', 1)
     s = s.replace(blk, new, 1)
 sfile.write_text(s)
+# Spacing between elements (applicant request, 14 Oct): body 6pt after, headings 10pt before / 4pt after
+for sid, before, after in [("Normal",0,120),("BodyText",0,120),("FirstParagraph",0,120),("Compact",0,60),
+                           ("Heading1",240,80),("Heading2",220,80),("Heading3",200,80),("Heading4",180,60),("Heading5",160,60)]:
+    m3 = re.search(r'<w:style [^>]*w:styleId="%s".*?</w:style>' % sid, s, re.S)
+    if not m3: continue
+    blk = m3.group(0)
+    sp = '<w:spacing w:before="%d" w:after="%d" w:line="360" w:lineRule="auto"/>' % (before, after)
+    if '<w:spacing' in blk:
+        new = re.sub(r'<w:spacing[^/]*/>', sp, blk, 1)
+    elif '<w:pPr>' in blk:
+        new = blk.replace('<w:pPr>', '<w:pPr>' + sp, 1)
+    else:
+        new = blk.replace('</w:style>', '<w:pPr>' + sp + '</w:pPr></w:style>', 1)
+    s = s.replace(blk, new, 1)
+sfile.write_text(s)
 d.write_text(x)
 PY
 zip -Xqr ../plan2.docx . && cd .. && soffice --headless --convert-to pdf --outdir . plan2.docx >/dev/null 2>&1

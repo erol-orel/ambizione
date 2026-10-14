@@ -5,17 +5,17 @@
 
 ---
 
-**HEADSTART: Forecasting health-system demand with published evidence**
+**HEADSTART: Forecasting health-system crises from published evidence when local outcome data are scarce**
 
 # 1. Summary
 
-At the start of a health crisis, many useful inputs are already available. Weather and air-quality measurements, calendar effects, wastewater and public surveillance data can often be obtained from public feeds or linked through established partners. The main gap is not usually a lack of these contextual data. It is the small number of reliable outcomes from the specific episode and local service that need to be forecast. Historical local records may be extensive, but they cannot immediately show how a new episode is affecting cause-specific emergency demand. The model must estimate and update that relationship as episode outcomes arrive.
+At the start of a health crisis, many useful inputs are already available. Weather and air-quality measurements, calendar effects, wastewater and public surveillance data can often be obtained from public feeds or linked through established partners. The main gap is not usually a lack of these contextual data. It is the small number of reliable outcomes from the specific episode and local service that need to be forecast. Historical local records may be extensive, but they cannot immediately show how a new episode is affecting cause-specific emergency demand. The model must estimate and update that relationship as outcomes from the episode arrive.
 
 HEADSTART asks whether published evidence from other settings and past events can improve forecasts before enough outcomes from the current episode are available, and whether the method can detect when that evidence is misleading. Published studies may inform plausible parameter values, useful explanatory variables and lags, candidate model forms, and outcome or warning thresholds. A prior is a probability distribution for model parameters before it is updated with outcomes from the current episode. It represents uncertainty rather than treating a published estimate as exact. HEADSTART will extract this information, measure extraction error and assess how relevant each finding is to Geneva. The main comparison is between a reference strategy and an evidence-informed strategy. Both use the same available context feeds, historical local outcome data and outcomes observed so far in the current episode. Only the evidence-informed strategy uses information extracted from published studies to shape its parameter distributions and model choices.
 
 The work has four linked parts. I will benchmark automated extraction against an independently adjudicated sample and measure how extraction errors affect the uncertainty carried into models. I will build a model that represents pressure on the health system in ordered levels, from routine to critical, while forecasting demand. I will then replay past episodes using only the information available at each forecast date and compare the two strategies. Finally, I will assess whether differences in forecast quality would change operational decisions. Both strategies receive the same weather, air-quality, calendar and surveillance feeds, and both use the same local outcome history. Candidate models are selected under the same rules, set before forecast performance is examined.
 
-The real-world tests are in Geneva and cover three settings with different drivers. Respiratory epidemics provide the primary test because published evidence is comparatively rich. Heat-related demand is tested second, and only if the respiratory test succeeds. Legionellosis is a year-four extension using a linked case-environment dataset on which I already lead the data work. It tests case-incidence forecasting and sits outside the emergency-demand comparison. Before clinical data are analysed, the methods will be tested on open Swiss series and released as a public benchmark. If published evidence improves forecasts, the project will show when and by how much. If it has no benefit or causes harm, the result will define where it should not be used. For validated demand-based applications that services authorise, forecasts will run in a daily observation-mode dashboard and be scored against outcomes as they arrive. The dashboard will not direct clinical care.
+The real-world tests are in Geneva and cover three crisis types with different drivers. Respiratory epidemics provide the primary test because published evidence is comparatively rich. Heat-related demand is tested second, and only if the respiratory test succeeds. Legionellosis is a year-four extension using a linked case-environment dataset on which I already lead the data work. It tests case-incidence forecasting and sits outside the emergency-demand comparison. Before clinical data are analysed, the methods will be tested on open Swiss series and released as a public benchmark. If published evidence improves forecasts, the project will show when and by how much. If it has no benefit or causes harm, the result will define where it should not be used. For validated demand-based applications that services authorise, forecasts will run in a daily observation-mode dashboard and be scored against outcomes as they arrive. The dashboard will not direct clinical care.
 
 My background combines fifteen years in quantitative finance, where I worked on rare-event risk, regime changes and stress testing, with a doctorate in biomedical sciences at Geneva. I conceived and built LiteRev with Aziza Merzouki in Olivia Keiser's group, then extended that work into LiteRev-Evidence, the prototype for structured evidence extraction and model comparison. Through GESICA, I also work with Geneva emergency and surveillance data. HEADSTART builds on these methods and data but tests a distinct question through a programme I will lead.
 
@@ -30,11 +30,11 @@ Syndromic surveillance detects departures from expected baselines [Farrington 19
 
 The limitation is not usually a lack of contextual inputs. Weather and air-quality measurements, calendar effects, wastewater and some surveillance indicators may be available in near real time through public feeds or partners, and they can be linked automatically to a forecasting model. What is missing at onset is enough reliable outcome data from the particular episode to estimate how those conditions are affecting this service now. Historical records help establish baseline patterns, but the new episode may differ in its drivers, affected population, severity or service response. The relationship between the available inputs and the local outcome must therefore be checked as new outcomes arrive.
 
-Google Flu Trends illustrates why indirect indicators cannot replace outcome validation. It overestimated influenza by more than a factor of two [Lazer 2014]. Published findings may help, provided their uncertainty and relevance to the local setting are assessed.
+At the beginning of an outbreak or heat event, a model may know tomorrow's temperature, today's wastewater signal and the calendar, while only a few cause-specific outcomes from that episode have been recorded. The issue is not a lack of contextual measurements. It is insufficient outcome information to estimate the current relationship with local demand. Google Flu Trends illustrates why indirect indicators cannot replace outcome validation. It overestimated influenza by more than a factor of two [Lazer 2014]. Published findings may help, provided their uncertainty and relevance to the local setting are assessed.
 
 ### 2.1.2 Published studies can inform forecasts if uncertainty and relevance are assessed
 
-Statistical models can use earlier studies to inform estimates for a new setting through priors. Methods include power priors [Ibrahim 2000], commensurate priors [Hobbs 2011] and robust meta-analytic-predictive priors [Schmidli 2014]. Informative priors have also been used to forecast disease with little local data [Cook 2023]. The unresolved question is whether an automated pipeline can extract published evidence, preserve its uncertainty, assess its relevance to the new setting and improve forecasts of local health-system demand at crisis onset.
+Statistical models can use earlier studies to inform estimates for a new setting. A prior is a probability distribution for a model parameter before outcomes from the current episode are observed. It represents what previous evidence suggests without treating those estimates as exact. Methods include power priors [Ibrahim 2000], commensurate priors [Hobbs 2011] and robust meta-analytic-predictive priors [Schmidli 2014]. Informative priors have also been used to forecast disease with little local data [Cook 2023]. The unresolved question is whether an automated pipeline can extract published evidence, preserve its uncertainty, assess its relevance to the new setting and improve forecasts of local health-system demand at crisis onset.
 
 Published studies can inform more than parameter values. They can suggest which variables and time lags to consider, which model forms are suitable for a given crisis and forecast horizon, and how outcomes or warning thresholds have been defined. Living systematic reviews keep evidence current [Elliott 2014]. To my knowledge, however, these different forms of evidence have not been tested together in an operational forecasting workflow under strict historical information constraints.
 
@@ -52,7 +52,7 @@ A forecast is useful when it changes a decision in a defensible way. Proper scor
 
 ### 2.1.5 The gap: testing published evidence in a new setting
 
-Current programmes include multi-model forecasting hubs such as ECDC RespiCast and US CDC FluSight, the Horizon Europe epidemic-intelligence project GeoAI4EI, and the Franco-Swiss GESICA programme. The question here is narrower. Does automatically extracted evidence from earlier studies improve forecasts of a local service's demand when observations from the current episode are still few? HEADSTART tests this under registered rules, with the same data streams for both strategies and a historical reconstruction that excludes later information.
+Current programmes include multi-model forecasting hubs such as ECDC RespiCast and US CDC FluSight, the Horizon Europe epidemic-intelligence project GeoAI4EI, and the Franco-Swiss GESICA programme. These efforts provide important forecasting, surveillance and decision-support capabilities. The specific question here is narrower. Does automatically extracted evidence from earlier studies improve forecasts of a local service's demand when observations from the current episode are still few? HEADSTART tests this under registered rules, with the same raw data streams available to both forecast strategies and historical reconstruction that excludes information not available at the time.
 
 
 ## 2.2 Current state of personal research and competences required for the project
@@ -73,13 +73,13 @@ In [Orel 2024] I compared clinical severity between Delta and Omicron sub-lineag
 
 ### 2.2.4 The prototype and test bed, LiteRev-Evidence
 
-Since 2024, I have extended LiteRev into LiteRev-Evidence, a working prototype for structured numerical extraction and modelling. It searches and deduplicates the literature, records screening decisions with PRISMA accounting, extracts study details and PICO elements (population, intervention, comparator and outcome), tracks the source and certainty of each extracted number, and pools results into distributions of plausible parameter values. It then suggests explanatory variables and their supporting studies, identifies candidate outcomes, fits models across algorithm families and evaluates them with time-series validation that prevents future observations from entering model selection. It also builds compartmental model components from published parameter ranges. Evidence updates are reviewed before they are applied. The prototype already contains the main steps to validate.
+Since 2024, I have extended LiteRev into LiteRev-Evidence, a working prototype for structured numerical extraction and modelling. It searches and deduplicates the literature, records screening decisions with PRISMA accounting, extracts study details and PICO elements (population, intervention, comparator and outcome), tracks the source and certainty of each extracted number, and pools results into distributions of plausible parameter values. It then suggests explanatory variables and their supporting studies, identifies candidate outcomes, fits models across algorithm families and evaluates them with time-series validation that prevents future observations from entering model selection. It also builds compartmental model components from published parameter ranges. Evidence updates are reviewed before they are applied. The prototype already contains the main steps HEADSTART will validate.
 
-For GESICA I built the data foundation for the Geneva–Vaud–Neuchâtel network, whose Geneva component HEADSTART uses. It covers 77 notifiable diseases in eight model classes and an inventory of 28 surveillance sources (23 infectious and 5 environmental). Each source is documented for coverage, resolution, latency, access and quality.
+For GESICA I built the data foundation for the Geneva–Vaud–Neuchâtel network, whose Geneva component HEADSTART uses. It covers 77 notifiable diseases in eight model classes and an inventory of 28 surveillance sources (23 infectious and 5 environmental). Each source is documented for coverage, resolution, latency, access and quality. This inventory provides a practical starting point for linking available inputs to the forecasting workflow.
 
 The prototype reduces development risk, since its literature-search, extraction and model-selection components already run in preliminary form. The grant focuses on the scientific questions that remain open, namely whether the extracted evidence is sufficiently reliable, whether it transfers to Geneva and whether it improves forecasts under the registered comparison.
 
-### 2.2.5 Linked data on a contrasting crisis archetype
+### 2.2.5 Linked data on a contrasting crisis type
 
 I lead the data work for a cantonal study already under way (BASEC 2026-00324, ethics granted) that links confirmed legionellosis cases in Geneva to individual domestic hot-water installations. These linked data provide a contrasting setting for the year-four case-incidence extension.
 
@@ -90,7 +90,7 @@ My quantitative-finance work provides experience in Bayesian hierarchical modell
 
 ### 2.3.1 Objectives and hypotheses
 
-The central hypothesis is that published evidence can help estimate the relationship between these inputs and the target outcome, provided its uncertainty and relevance to Geneva are represented.
+HEADSTART separates data that describe conditions from outcomes that show how those conditions affect a local service. Weather, air quality, calendar effects, wastewater and surveillance indicators may be abundant and linked automatically. The scarce information at the start of an episode is the number and quality of relevant local outcomes observed so far, such as cause-specific emergency demand. The central hypothesis is that published evidence can help estimate the relationship between these inputs and the target outcome, provided its uncertainty and relevance to Geneva are represented.
 
 |     | Role               | Statement                                                                                              |
 |-----|--------------------|--------------------------------------------------------------------------------------------------------|
@@ -101,7 +101,7 @@ The central hypothesis is that published evidence can help estimate the relation
 | H3c | Secondary question | Do short-term changes in variability add useful predictive information?                                |
 | H4  | Decision value     | Does any gain change an operational decision for the better?                                           |
 
-![Framework](figures/fig1-framework.svg)
+![Framework](figures/fig1-framework.png)
 
 *Figure 1. The context data shared by both strategies, evidence from published studies, and evaluation against later outcomes.*
 
@@ -109,23 +109,23 @@ The central hypothesis is that published evidence can help estimate the relation
 
 > H1. Automated extraction will understate the uncertainty in quantitative evidence, including reported within-study uncertainty and variation between studies, making the resulting parameter distributions too narrow. A measurement-error layer should reduce this under-dispersion. Success will be assessed using pre-specified coverage and calibration measures on held-out studies adjudicated by independent human extractors.
 
-Omissions are a common extraction error [Shankar 2026]. H1 tests whether they also reduce the estimated spread of the evidence and whether the correction restores useful uncertainty. The primary benchmark concerns parameter values, and the other classes are checked against published syntheses.
+Omissions are a common extraction error [Shankar 2026]. H1 tests whether they also reduce the estimated spread of the evidence and whether the correction restores useful uncertainty. If the error cannot be corrected, that defines a condition under which automated evidence should not be used as a model input. The primary benchmark concerns parameter values, and the other three evidence classes are checked against published syntheses.
 
 #### O2. Represent escalation in a form that separates the state from the point forecast
 
 > C2, model adequacy criterion. The state model must recover interpretable levels of pressure and produce calibrated probabilities at a comparable false-alarm rate. This shared state scale allows forecasts from different candidate models to be compared in operational terms. It does not assume that a regime-switching model will outperform simpler threshold-based methods.
 
-Simulation tests whether the states and their transitions can be identified from the available data channels. Forecast calibration provides a second check. If the state model fails either criterion, the project uses the registered ordinal state-space fallback, and the main comparison of the two strategies still proceeds.
+Simulation tests whether the states and their transitions can be identified from the available data channels. Forecast calibration provides a second check. If the state model fails either criterion, the project uses the registered ordinal state-space fallback, and the main comparison of the two forecast strategies can still proceed.
 
 #### O3. Test whether published evidence improves forecasts and identify when it harms
 
-> H3a. During the early days of an episode, a strategy informed by published studies (parameter distributions, explanatory variables and lags, and candidate model forms) will produce better probabilistic forecasts than a reference strategy that uses the same context inputs, local records and outcomes observed so far, but not the literature-derived model inputs. How long any advantage persists as outcomes accumulate will be assessed secondarily.
+> H3a. During the early days of an episode, a strategy informed by published studies (parameter distributions, explanatory variables and lags, and candidate model forms) will produce better probabilistic forecasts than a reference strategy that uses the same contextual inputs, historical local records and outcomes observed so far, but not the project's literature-derived model inputs. How long any advantage persists as outcomes accumulate will be assessed secondarily.
 >
 > H3b. When the published evidence is consistent with the process generating local outcomes, adaptive weighting, which reduces the weight given to that evidence when local results conflict with it, should perform no worse than fixed weighting, within the pre-specified margin Δ. When evidence is deliberately made inaccurate, adaptive weighting should outperform fixed weighting. This tests whether the model can limit harm rather than assume published evidence is always helpful.
 
 Δ is set to half the minimum improvement defined as meaningful under H3a. Under the registered simulations where published and outcome-generating distributions match, this 50% preservation rule allows adaptive weighting to give up no more than half of that pre-specified benefit.
 
-> H3c. Short-window changes in outcome variability and lag-one autocorrelation will be tested for whether they improve forecasts beyond the context inputs, the local outcome level and trend, and the published evidence.
+> H3c. Short-window changes in outcome variability and lag-one autocorrelation will be tested to see whether they improve forecasts beyond the available context inputs, the local outcome level and trend, and the published evidence.
 
 Primary confirmatory comparison. The evidence-informed and reference strategies use the same pre-registered selection procedure and are compared with the continuous ranked probability score (CRPS), which evaluates full probability forecasts. The primary test uses respiratory episodes and the pre-specified early-episode window. Heat is tested with the same comparison only if the respiratory test passes, and this fixed order controls the family-wise error rate. How the difference changes as more local outcomes arrive is a secondary analysis.
 
@@ -133,9 +133,9 @@ Primary confirmatory comparison. The evidence-informed and reference strategies 
 
 > H4. For the demand-based settings, the forecast with the best statistical score will not always be the best operational choice. Decision analysis will assess the models under losses and escalation thresholds elicited from emergency-service experts. An evidence-informed forecast is useful only if its gain changes a decision in a way that matters operationally.
 
-#### Scope. Three Geneva crisis archetypes, fixed for the grant
+#### Scope. Three Geneva crisis types, fixed for the grant
 
-HEADSTART has three Geneva applications. (1) Respiratory epidemics, including SARS-CoV-2, influenza and RSV, provide the primary confirmatory test because the published evidence base is comparatively rich. (2) Heat events provide the sequential generalisation test, with ozone and PM10 treated as co-exposures or effect modifiers rather than separate domains. (3) Legionellosis provides a year-four case-incidence extension based on linked case-environment data. No fourth operational domain is planned. For respiratory and heat, both strategies forecast the same target, daily emergency demand from CASU-144, restricted to cause groups specified in advance. For respiratory epidemics, the target covers respiratory-related demand. For heat, it covers heat-sensitive demand, with dehydration, renal and psychiatric causes specified in advance, while respiratory-related demand and demand among people aged 75 or older are sensitivity analyses [Schulte 2024; Ragettli 2019]. Legionellosis forecasts case incidence and is outside the emergency-demand comparison. If CASU-144 fails the month-12 access and quality gate, the registered fallback is activated and the claim narrows.
+HEADSTART covers three Geneva crisis types. (1) Respiratory epidemics, including SARS-CoV-2, influenza and RSV, provide the primary confirmatory test because the published evidence base is comparatively rich. (2) Heat events provide the sequential generalisation test, with ozone and PM10 treated as co-exposures or effect modifiers rather than separate domains. (3) Legionellosis provides a year-four case-incidence extension based on linked case-environment data. No fourth operational domain is planned. For respiratory and heat, both strategies forecast the same target, daily emergency demand from CASU-144, restricted to cause groups specified in advance. For respiratory epidemics, the target covers respiratory-related demand. For heat, it covers heat-sensitive demand, with dehydration, renal and psychiatric causes specified in advance, while respiratory-related demand and demand among people aged 75 or older are sensitivity analyses [Schulte 2024; Ragettli 2019]. Legionellosis forecasts case incidence and is outside the emergency-demand comparison. If CASU-144 fails the month-12 access and quality gate, the registered fallback is activated and the claim narrows.
 
 #### What the project does not claim
 
@@ -148,7 +148,7 @@ The project is not intended to outperform established forecasting hubs when long
 
 ##### T1.1. Define the evidence target and register the protocol (M1–M4)
 
-The protocol covers four classes of evidence and is fixed before extraction. (1) Parameter values, the quantitative core, include weather-demand effects (temperature, heat-day exceedance, ozone and PM10), surge magnitude and timing, length-of-stay and occupancy distributions, and admission fractions. Transmission parameters and shedding-to-incidence conversions are secondary. (2) Explanatory variables and their lags reported as informative for each crisis type. (3) Model-form evidence on which algorithm families perform for which outcome and horizon [Wargon 2009]. (4) Outcome definitions and warning thresholds [Lung 2021]. These evidence classes inform candidate model inputs and the later interpretation of forecasts. The full extraction benchmark focuses on class 1, while classes 2–4 carry provenance and certainty grades and are validated against published syntheses.
+The protocol covers four classes of evidence and is fixed before extraction. (1) Parameter values, the quantitative core, include weather-demand effects (temperature, heat-day exceedance, ozone and PM10), surge magnitude and timing, length-of-stay and occupancy distributions, and admission fractions. Transmission parameters and shedding-to-incidence conversions are secondary. (2) Explanatory variables and their lags reported as informative for each crisis type. (3) Model-form evidence on which algorithm families perform for which outcome and horizon [Wargon 2009]. (4) Outcome definitions and warning thresholds [Lung 2021]. These evidence classes inform candidate model inputs and the later interpretation of forecasts. Context streams such as observed weather or air quality are collected separately and made available to both forecast strategies, and the literature helps estimate their relationship with the target and select useful representations. The full extraction benchmark focuses on class 1, while classes 2–4 carry provenance and certainty grades and are validated against published syntheses.
 
 ##### T1.2. Build the quantitative extraction benchmark (M3–M9)
 
@@ -168,7 +168,7 @@ This task assesses effect modifiers and differences between study settings that 
 
 Deliverables are D1.1 (open extraction benchmark), D1.2 (extraction-error analysis) and D1.3 (evidence-derived model-input library).
 
-Risk and mitigation. If expert time is limited, the benchmark narrows to the core parameter classes.
+Risk and mitigation. If expert time is limited, the benchmark will be narrowed to the core parameter classes.
 
 #### WP2. Model levels of health-system pressure (M1–M28)
 
@@ -186,17 +186,17 @@ WP1's distributions are mapped to parameters for which published evidence is rel
 
 ##### T2.4. Add resilience indicators as a secondary information channel (M12–M20)
 
-Rolling variance and lag-one autocorrelation, possible indicators of changing dynamics, are tested as optional predictors of state transitions. The question is whether they add information beyond context inputs, recent outcome level and trend, and published evidence. A null result remains informative.
+Rolling variance and lag-one autocorrelation, two possible indicators of changes in system dynamics, are tested as optional predictors of state transitions. The question is whether they add information beyond context inputs, recent outcome level and trend, and published evidence. A null result remains informative.
 
 ##### T2.5. Calibration, automation and validity monitoring (M20–M28)
 
-The task uses calibration methods suited to time-dependent data and tests conformal prediction [Angelopoulos 2023; Barber 2023] as a robustness check if simulation supports its assumptions. Public context feeds, including weather, air quality, wastewater and surveillance indicators, are ingested automatically at their native update frequency. Partner data are linked only under access agreements. The pipeline records timestamps, data revisions and model versions, refits at the registered cadence, and checks residual structure, dispersion and calibration after each fit. Models failing pre-specified validity checks are excluded. A reference implementation is released in LiteRev-Evidence.
+The task uses calibration methods suited to time-dependent data and tests conformal prediction [Angelopoulos 2023; Barber 2023] as a robustness check if simulation supports its assumptions. Public context feeds, including weather, air quality, wastewater and surveillance indicators, are ingested automatically at their native update frequency. Partner data are linked only under the relevant access agreements. The pipeline records timestamps, data revisions and model versions, refits at the registered cadence, and checks residual structure, dispersion and calibration after each fit. Models that fail pre-specified validity checks are excluded. A reference implementation is released in LiteRev-Evidence.
 
 Simulated trajectories are used to test identifiability and model behaviour, not as extra observations. Treating literature-based simulations as real outcomes would count the same information twice and undermine the test for conflict between the prior and local data. Simulations therefore do not tighten the evidence-derived distributions.
 
 Deliverables are D2.1 (model specification and identifiability study), D2.2 (open implementation) and D2.3 (methods paper).
 
-Risk and mitigation. If the four states cannot be separated reliably, the registered ordinal model is used and the identifiability limit is reported.
+Risk and mitigation. If the states cannot be separated reliably, the registered ordinal model is used and the identifiability limit is reported.
 
 #### WP3. Test forecasts using historically available information (M12–M42)
 
@@ -204,7 +204,7 @@ Risk and mitigation. If the four states cannot be separated reliably, the regist
 
 The outcome hierarchy, access criteria and episode-eligibility rules are registered before forecast performance is examined.
 
-Primary outcome. Daily respiratory-related emergency demand is derived from Geneva CASU-144 records using a pre-registered classification of call reasons and urgency levels, and it is not the raw total number of calls. The heat comparison uses the same series and construction, restricted to cause groups specified in advance (dehydration, renal and psychiatric causes). Respiratory-restricted and age-75-or-older analyses are sensitivity checks. ED presentations and ICU occupancy are additional observations for the shared pressure-state model. Weather, air quality, wastewater, sentinel consultations and calendar effects are context inputs.
+Primary outcome. Daily respiratory-related emergency demand is derived from Geneva CASU-144 records using a pre-registered classification of call reasons and urgency levels, and it is not the raw total number of calls. The heat comparison uses the same series and construction, restricted to cause groups specified in advance (dehydration, renal and psychiatric causes). Respiratory-restricted and age-75-or-older analyses are sensitivity checks. ED presentations and ICU occupancy are additional observations for the shared pressure-state model. Weather, air quality, wastewater, sentinel consultations and calendar effects are context inputs. Both strategies receive the same available inputs, and the reference strategy does not use literature-derived information from HEADSTART.
 
 Outcome hierarchy and geography. The primary target is cause-filtered CASU-144 emergency demand in the canton of Geneva, at daily resolution. If it fails the month-12 access and quality gate, the registered hierarchy is activated, ED presentations by category, then ICU occupancy, then all-cause 144 engagements or hospital admissions for sensitivity analyses. Open series such as Sentinella and wastewater can support methodological validation but do not by themselves substitute for a successful emergency-demand test. This is a deliberate single-canton design, and transfer is tested across the three crisis types and on the open national benchmark.
 
@@ -212,7 +212,7 @@ Data-access gate. CASU-144 remains the pre-specified primary outcome. Criteria f
 
 Episode eligibility. An episode enters the confirmatory comparison only if the onset can be identified using the prospective onset rule, enough pre-onset history is available for the baseline, enough post-onset outcomes exist at the primary forecast horizon, the literature available at each historical origin can be reconstructed, future information can be excluded, and the episode can be separated from adjacent episodes. Ineligible episodes remain for sensitivity analyses. Co-circulating respiratory pathogens count as one demand episode.
 
-Registration. The outcome hierarchy, access gate and eligibility rules are registered first. After the month-12 checkpoint and inventory of eligible episodes, but before forecast performance is examined, a second registration fixes the early-episode window N, the primary horizon for each archetype and the non-inferiority margin Δ. Horizon choice follows a pre-specified operational criterion, not observed performance or episode-specific results.
+Registration. The outcome hierarchy, access gate and eligibility rules are registered first. After the month-12 checkpoint and inventory of eligible episodes, but before forecast performance is examined, a second registration fixes the early-episode window N, the primary horizon for each crisis type and the non-inferiority margin Δ. Horizon choice follows a pre-specified operational criterion, not observed performance or episode-specific results.
 
 Open-data validation track (M12–M24, secondary and pre-specified). Before clinical records are connected, the full evaluation pipeline runs on open Swiss series (federal respiratory surveillance, national wastewater data, weekly all-cause deaths and MeteoSwiss weather data). Archived multi-model forecasts provide contemporary comparators [Cramer 2022; Sherratt 2023]. The benchmark checks whether the historical-reconstruction and model-selection machinery works as intended. It also shows which context feeds can be linked from public sources, while the Geneva clinical data are needed to test the primary emergency-demand question.
 
@@ -222,11 +222,11 @@ The CASU-144 series is harmonised with available context feeds and other outcome
 
 ##### T3.2. Reconstruct the true information set (M18–M30)
 
-For each historical episode, successive forecast origins use only information available at that date. The confirmatory evidence comes from peer-reviewed papers and preprints published before each origin. Timestamped WHO/ECDC reports on events elsewhere are included only in a registered secondary analysis, which tests a broader evidence feed, not the primary literature-based strategy. Text describing the local episode is excluded from its evidence inputs because it may reveal the outcome being forecast. Each input has an observation timestamp and a release timestamp. When a source is revised, the reconstruction uses the version that was available at the historical origin, not the final corrected value. Automated feeds are replayed at their native update cadence. Candidate horizons are 7, 14 and 28 days, and the primary horizon is fixed at the second registration using the operational rule. The early-episode window is counted from an onset rule that uses only information available at the time.
+For each historical episode, successive forecast origins use only information available at that date. The confirmatory evidence comes from peer-reviewed papers and preprints published before each origin. Timestamped WHO/ECDC reports on events elsewhere are included only in a registered secondary analysis, which tests a broader evidence feed, not the primary literature-based strategy. Text describing the local episode is excluded from its evidence inputs because it may reveal the outcome being forecast. Each input has an observation timestamp and a release timestamp. When a source is revised, the reconstruction uses the version that was available at the historical origin, not the final corrected value. Automated feeds are replayed at their native update cadence. Candidate horizons are 7, 14 and 28 days, and the primary horizon is fixed at the second registration using the operational rule. The early-episode window is counted from an onset rule that uses only information available at each forecast date.
 
 ##### T3.3. The model library and the automated selection engine (M20–M34)
 
-The model candidates are registered before evaluation and organised into two strategies. The reference strategy uses statistical, surveillance and machine-learning candidates (a seasonal GLM with weekday and holiday terms, persistence, Farrington and Noufaily exceedance methods, Bayesian nowcasting [Salmon 2016], penalised, gradient-boosted and upper-tail quantile learners, and the WP2 state model with weakly informative distributions) fitted to historical local outcomes, outcomes already observed in the current episode, and available context feeds. It does not use the project's extracted evidence to set parameter distributions or guide scenario-specific variable, lag or model-form choices. The evidence-informed strategy uses the same raw input streams and outcome history, adding WP1's evidence-derived parameter distributions and registered recommendations about explanatory variables, lags and model forms. Its three versions use fixed evidence weights, adaptive weighting based on prior-data conflict, or adaptive weighting plus the secondary resilience indicators. Mechanistic transmission components are allowed only for infectious crises, and environmental crises use exposure-response relationships. Permitted candidates are fixed by archetype at registration.
+The model candidates are registered before evaluation and organised into two strategies. The reference strategy uses statistical, surveillance and machine-learning candidates (a seasonal GLM with weekday and holiday terms, persistence, Farrington and Noufaily exceedance methods, Bayesian nowcasting [Salmon 2016], penalised, gradient-boosted and upper-tail quantile learners, and the WP2 state model with weakly informative distributions) fitted to historical local outcomes, outcomes already observed in the current episode, and available context feeds. It does not use the project's extracted evidence to set parameter distributions or guide scenario-specific variable, lag or model-form choices. The evidence-informed strategy uses the same raw input streams and outcome history, adding WP1's evidence-derived parameter distributions and registered recommendations about explanatory variables, lags and model forms. Its three versions use fixed evidence weights, adaptive weighting based on prior-data conflict, or adaptive weighting plus the secondary resilience indicators. Mechanistic transmission components are allowed only for infectious crises, and environmental crises use exposure-response relationships. Permitted candidates are fixed by crisis type at registration.
 
 Model selection is nested to prevent leakage. At each historical forecast origin, each strategy selects its best eligible candidate using only inner rolling validation on outcomes observed before that date. The CRPS is the primary ranking criterion, while log score and calibration are pre-registered eligibility checks, not additional ranking criteria. The validity checks in T2.5 also apply. The selected model then produces the forecast for the later outer period, whose outcomes were not used in selection. Both strategies use the same selection rules. The main comparison tests the full evidence-informed strategy rather than one isolated algorithm, and secondary contrasts examine the contributions of parameter priors, variable/lag choices and model forms.
 
@@ -234,7 +234,7 @@ Confirmatory testing uses a fixed sequence.
 
 1.  Test 1, primary. Compare the evidence-informed strategy with the reference strategy on the episode-level CRPS skill score for respiratory episodes, over the registered early-episode window N. The test uses α = 0.05, two-sided, because harmful effects are as important as benefits. Success requires a paired-permutation p-value below α and a lower confidence bound above the pre-registered minimum relevant improvement.
 2.  Test 2, generalisation. If and only if Test 1 passes, repeat the same comparison for heat-sensitive emergency demand. The fixed order controls the family-wise error rate.
-3.  If Test 1 fails, H3a is not supported and the heat comparison is exploratory.
+3.  If Test 1 fails, H3a is not supported and the heat comparison is exploratory. The primary output is then the estimated benefit and harm across episodes and the conditions under which the method fails.
 
 All other comparisons are secondary. The reference strategy's candidate list and a pre-declared range of weakly informative parameter settings are fixed at registration. This prevents the comparator from being weakened after results are known.
 
@@ -242,13 +242,13 @@ Primary endpoint. For each episode and strategy, CRPS is averaged across eligibl
 
 ##### T3.4. Map benefit and failure (M28–M38)
 
-The analysis identifies episodes where published evidence improves or worsens forecasts and examines likely reasons, such as differences in population, outcome definition, service organisation, policy or time period, as well as extraction uncertainty and conflict with the local outcomes. Deliberately shifted priors provide stress tests. A key question is whether adaptive weighting reduces harm early enough to matter. Results will show when the approach helps, when it does not, and why, rather than a single average effect.
+The analysis identifies episodes where published evidence improves or worsens forecasts and examines likely reasons, such as differences in population, outcome definition, service organisation, policy or time period, as well as extraction uncertainty and conflict with the local outcomes. Deliberately shifted priors provide stress tests. A key question is whether adaptive weighting reduces harm early enough to matter. Results will show when the approach helps, when it does not, and why, rather than relying on a single average effect.
 
 ##### T3.5. Test generalisation (M34–M42)
 
-The heat test is the sequential generalisation. If time and data permit, the year-four legionellosis extension applies the same evidence-processing principles to case-incidence forecasts at outbreak onset.
+The heat test is the sequential generalisation. If time and the linked data permit, the year-four legionellosis extension applies the same evidence-processing principles to forecasts of case incidence at outbreak onset. It is a contrasting case study, not part of the emergency-demand confirmatory comparison.
 
-Deliverables are D3.1 (reproducible historical forecast-evaluation pipeline), D3.2 (primary result), D3.3 (benefit and failure analysis) and D3.4 (cross-archetype analysis).
+Deliverables are D3.1 (reproducible historical forecast-evaluation pipeline), D3.2 (primary result), D3.3 (benefit and failure analysis) and D3.4 (analysis across crisis types).
 
 Risk and mitigation. Access to operational records may be delayed. Agreements are being pursued before the award. The open-data track can validate the reconstruction and evaluation methods without clinical data, but it cannot replace the main test of local emergency demand. If access fails, the scientific claim narrows and the decision analysis is limited accordingly.
 
@@ -256,17 +256,17 @@ Risk and mitigation. Access to operational records may be delayed. Agreements ar
 
 ##### T4.1. Elicit operational losses and thresholds (M24–M32)
 
-A structured SHELF elicitation (n ≈ 15–20 experts from HUG emergency medicine, CASU-144 regulation and capacity management) will assess the consequences of early, late and unnecessary escalation. Thresholds are derived from these elicited losses. The primary decision is defined in advance. Surge-capacity escalation is triggered when the forecast probability of the strained or critical state exceeds the elicited threshold. For candidates that forecast counts rather than a state, a registered mapping converts the predictive distribution to the same escalation-state probabilities.
+A structured expert-elicitation exercise using SHELF (n ≈ 15–20 experts from HUG emergency medicine, CASU-144 regulation and capacity management) will assess the consequences of early, late and unnecessary escalation. Thresholds are derived from these elicited losses. The primary decision is defined in advance. Surge-capacity escalation is triggered when the forecast probability of the strained or critical state exceeds the elicited threshold. For candidates that forecast demand counts rather than a state, a registered mapping converts the predictive distribution to the same escalation-state probabilities.
 
 ##### T4.2. Decision-analytic evaluation and equity audit (M30–M40)
 
-The WP3 forecasts are assessed with net-benefit and decision-curve analysis and value-of-information methods to determine whether model rankings change when operational consequences are included. Calibration and threshold performance are also checked across aggregate groups defined by age, sex and neighbourhood deprivation. Overall calibration is not enough if the model performs poorly for a decision-relevant group.
+The WP3 forecasts are assessed with net-benefit and decision-curve analysis and value-of-information methods to determine whether model rankings change when operational consequences are included. Calibration and threshold performance are also checked across aggregate groups defined by age, sex and neighbourhood deprivation. Overall calibration is not enough if the model performs poorly for a group relevant to decisions.
 
 ##### T4.3. Counterfactuals, observation-mode dashboard and living updating (M34–M48)
 
 For selected historical episodes, a simple capacity model estimates what might have changed if escalation had followed the forecast signal. Uncertainty is propagated, and the results are not presented as causal estimates. Where a demand-based strategy passes forecast and decision-value checks and the services authorise it, the project will run a daily dashboard in observation mode. It will publish forecasts, pressure-state probabilities and validity checks, record outputs and score them against outcomes as those outcomes arrive, and it will not direct clinical care. Legionellosis remains a retrospective case-incidence extension and does not need to enter the capacity decision or dashboard. The literature monitor checks for new studies daily, while full scenario syntheses are refreshed on a registered schedule [Elliott 2014]. Updates to priors, variables, thresholds or model choice are version-controlled and applied only under pre-registered rules. If authorisation is not granted, the retrospective evaluation and documented update protocol remain deliverables.
 
-Deliverables are D4.1 (loss structure and equity audit), D4.2 (decision-analytic evaluation) and D4.3 (counterfactual analysis and, where authorised, the observation-mode dashboard and update protocol).
+Deliverables are D4.1 (elicited loss structure and equity audit), D4.2 (decision-analytic evaluation) and D4.3 (counterfactual analysis and, where authorised, the observation-mode dashboard and update protocol).
 
 Reproducibility and data protection. Code is version-controlled in R and Python under a registered analysis plan. Clinical data are processed in the UNIGE secure environment under applicable institutional and regulatory approvals. The extraction benchmark and software will be released openly, with synthetic equivalents where data cannot be shared.
 
@@ -277,7 +277,7 @@ Expected outputs are four to six papers and reusable resources, including the ex
 
 Host. The project will be based at the Institute of Global Health, Faculty of Medicine, University of Geneva, with methodological collaboration from Data Science for Digital Health (Prof. Douglas Teodoro) and clinical collaboration from HUG emergency medicine (Prof. Thibaut Desmettre and Dr Robert Larribau, CASU-144).
 
-The Institute brings together epidemiology, infectious-disease modelling and evidence synthesis, and the programme will be hosted alongside its groups and led independently. DS4DH provides the biomedical natural-language-processing expertise needed for WP1, and GESICA has already established working links with emergency-medicine partners [Edjinedja 2026]. Existing infrastructure includes LiteRev-Evidence, the linked legionellosis study, UNIGE HPC and the University's secure clinical-data environment.
+The Institute brings together epidemiology, infectious-disease modelling and evidence synthesis. The programme will be hosted alongside existing groups and led independently. DS4DH provides the biomedical natural-language-processing expertise needed for WP1, and GESICA has already established working links with emergency-medicine partners [Edjinedja 2026]. Existing infrastructure includes LiteRev-Evidence, the linked legionellosis study, UNIGE HPC and the University's secure clinical-data environment.
 
 Commitments, by status.
 
@@ -294,7 +294,7 @@ Commitments, by status.
 | Pharmacien cantonal, wastewater and pharmacy sales             | Contacts established     | Extracts to formalise, partly within GESICA                          |
 | Open public series (surveillance, wastewater, deaths, weather) | **Public**               | Freely accessible, no agreement needed                               |
 
-The main unresolved feasibility items are the ED/ICU extraction and the project-specific CASU-144 agreement. Each rests on an existing relationship, and neither is claimed as secured before its agreement exists.
+The main unresolved feasibility items are the ED/ICU extraction and the project-specific CASU-144 agreement. Each depends on an existing institutional relationship, but neither is described as fully secured before the relevant agreement is in place.
 
 Requested project funds are capped at CHF 250,000 over four years, and my salary is covered separately. Under the 2026 rules, doctoral students and postdocs cannot be employed through Ambizione, but support personnel can.
 
@@ -306,16 +306,16 @@ Requested project funds are capped at CHF 250,000 over four years, and my salary
 | Travel, conferences, incoming visits                      | Presentation of results, international collaboration                                                 |
 | Other eligible direct costs                               | As justified in the final SNSF budget                                                                |
 
-Before month 1 and outside the grant, I will finalise project-specific data agreements with HUG and CASU-144, confirm data reuse under the applicable governance and regulatory framework, and harden LiteRev-Evidence before clinical data are connected.
+Before month 1 and outside the grant, I will finalise project-specific data agreements with HUG and CASU-144, confirm data reuse under the applicable governance and regulatory framework, and harden LiteRev-Evidence before clinical data are connected. The open-data track and model fallbacks allow methods work to proceed if one data source is delayed.
 
 
 ## 2.4 Schedule and milestones
 
 I will lead WP2 and the confirmatory work in WP3, and lead WP1's protocol and WP4's decision analysis. A 50% scientific/technical collaborator for 48 months will support the extraction benchmark, data harmonisation, forecast-evaluation pipeline and reproducibility. A separately contracted independent extractor will provide the second extraction arm for T1.2 from months 3 to 9.
 
-The work packages can proceed in parallel. WP2 can use weakly informative distributions if the extraction benchmark reveals unacceptable error, the open-data evaluation can proceed without clinical records, and WP4's retrospective decision analysis does not depend on live deployment. The open-data track cannot replace the operational demand test, so access agreements remain a pre-award priority.
+The work packages can proceed in parallel. WP2 can use weakly informative distributions if the extraction benchmark reveals unacceptable error, the open-data evaluation can proceed without clinical records, and WP4's retrospective decision analysis does not depend on live deployment. The open-data track cannot replace the operational demand test, so access agreements remain an important pre-award task.
 
-![Work plan](figures/fig2-gantt.svg)
+![Work plan](figures/fig2-gantt.png)
 
 *Figure 2. Work packages, task durations and milestones across the 48-month project.*
 
@@ -326,7 +326,7 @@ The work packages can proceed in parallel. WP2 can use weakly informative distri
 | M3        | 20    | Open-data benchmark running, operational series harmonised (or fallback)                          |
 | M4        | 34    | Primary early-episode hypothesis tested by the forecast comparison                                |
 | M5        | 40    | Decision relevance established                                                                    |
-| M6        | 48    | Cross-archetype analysis complete; dashboard for validated demand-based settings where authorised |
+| M6        | 48    | Analysis across crisis types complete; dashboard for validated demand-based settings where authorised |
 
 
 ## 2.5 Relevance and impact
@@ -348,7 +348,7 @@ I have developed the methods, prototype and data relationships that make this pr
 | Legionellosis study (ongoing) | Geneva waterborne outbreak determinants                          | Data lead         | Supplies a contrasting validation extension          |
 | **Ambizione**                 | When published evidence improves forecasts, and when it misleads | **PI, full-time** | -                                                   |
 
-HEADSTART is distinct from GESICA and GeoAI4EI, which develop epidemic-intelligence and decision-support capabilities rather than testing published evidence as a forecasting input.
+HEADSTART is distinct from GESICA and GeoAI4EI. Those programmes develop epidemic-intelligence and decision-support capabilities. This project tests whether published quantitative evidence can improve forecasts when observations from the current local episode are still limited.
 
 I conceived and built LiteRev with Aziza Merzouki in Prof. Olivia Keiser's group. My current extension, LiteRev-Evidence, adds structured numerical extraction and modelling. It can turn published estimates into parameter distributions, but it has not yet been established whether using those distributions improves forecasts in a new setting. My quantitative-finance work provides methods for rare events, regime changes and stress testing, and my work on LiteRev-Evidence provides the structured evidence pipeline. The research question and the confirmatory analyses for HEADSTART are mine.
 

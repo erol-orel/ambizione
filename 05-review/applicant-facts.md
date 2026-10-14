@@ -926,3 +926,22 @@ evidence" drops "crises" and the scarce-data clause; the confirmation letter, no
 inputs still carry the previous title: decide; (b) "archetype" vs "setting"/"crisis type"
 used interchangeably; (c) 2.6 no longer mentions the MAS teaching or co-authorship with
 Keiser (his cut, fine).
+
+## 14 Oct (evening): SECOND REVAMP FILE INTEGRATED (HEADSTART-research-plan-with-figures.docx)
+
+Erol's instructions: keep the previous title ("HEADSTART: Forecasting health-system crises from
+published evidence when local outcome data are scarce", as on the letter), use "crisis type"
+everywhere, redo the whole check on this version with the correct figures, add spacing
+between elements, and ignore the page limit for now. Done: sources rebuilt from his file
+(full text, none of the 14 Oct repetition cuts); all fixes reapplied (citations [Orel 2023],
+CSD papers, [Salmon 2016] restored; LiteRev authorship consistent with the CV; "four states"
+-> "the states"; number of levels from the evidence in T2.1; H3b grammar; 50 semicolon/colon
+sentences reworded; 47/47 citation sync; flat alphabetical bibliography). "archetype" ->
+"crisis type" (0 left), "three settings"/"three Geneva applications" -> "three crisis types".
+FIGURES: his own PNGs from the docx now used (figures/fig1-framework.png: context data,
+outcomes from this episode, published studies, same raw inputs to both strategies, reference
+vs evidence-using strategy, replay; figures/fig2-gantt.png: his Gantt, bars and milestones
+checked against the text, all match). SPACING: body 6pt after, headings 10pt before / 4pt
+after, in both pagecheck.sh and make-submission.sh. Note for later: his Figure 1 title and
+"Extract; check uncertainty" contain semicolons. PAGES: 16 (over the cap by his choice for
+now), ~53,900 chars; page trimming deferred at his request.
