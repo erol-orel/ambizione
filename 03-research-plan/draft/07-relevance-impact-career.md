@@ -21,7 +21,7 @@ HEADSTART is distinct from GESICA and GeoAI4EI, which develop epidemic-intellige
 
 I conceived and built LiteRev with Aziza Merzouki in Prof. Olivia Keiser's group. My current extension, LiteRev-Evidence, adds structured numerical extraction and modelling. It can turn published estimates into parameter distributions, but it has not yet been established whether using those distributions improves forecasts in a new setting. My quantitative-finance work provides methods for rare events, regime changes and stress testing, and my work on LiteRev-Evidence provides the structured evidence pipeline. The research question and the confirmatory analyses for HEADSTART are mine.
 
-Prof. Olivia Keiser led the group in which LiteRev was built and is also involved in the ongoing legionellosis study and GeoAI4EI. She has no scientific role in HEADSTART. Prof. Douglas Teodoro leads GESICA and supports the biomedical-NLP collaboration needed for WP1.
+Prof. Olivia Keiser led the group in which LiteRev was built and is also involved in the ongoing legionellosis study, GeoAI4EI and the MAS in Public Health, on which I have lectured in statistics and epidemiology since 2024. She has no scientific role in HEADSTART. Prof. Douglas Teodoro leads GESICA and supports the biomedical-NLP collaboration needed for WP1.
 
 The Institute of Global Health will host the project, but the research programme, hypotheses and analyses will be led by me rather than embedded in an existing group. The institutional and collaboration arrangements will be documented in the required letters. The collaborator and independent extractor support defined technical tasks, and scientific direction remains with the PI.
 

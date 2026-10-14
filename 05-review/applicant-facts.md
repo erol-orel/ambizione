@@ -979,3 +979,5 @@ contact person and staying in the same institute can read as a lack of independe
 ("move department"). Current design: Keiser (former supervisor) = contact person, host = ISG,
 with the independence argued organisationally in 2.6 and in the confirmation letter. Raised
 with Erol for decision before the letter is signed.
+
+## 14 Oct: teaching clause re-added in 2.6 (MAS in Public Health, lecturing since 2024); independence design KEPT (Keiser contact person, ISG host) pending the RGO review. 15 pages held.
