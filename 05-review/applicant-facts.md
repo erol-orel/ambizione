@@ -864,3 +864,17 @@ paragraph already says number and thresholds come from class-4 evidence, four-le
 percentile scheme as default); T4.1 ("the upper states, strained or critical in the default
 scheme"); Figure 1 (state box carries the note "default levels, seeded from the evidence").
 C2 names no number and needed no change. Rebuilt: 15 pages, 50,548 chars, no em-dash.
+
+## 14 Oct: SECTIONS 2.1 TO 2.6 REWRITTEN IN THE SUMMARY'S REGISTER (applicant order)
+
+Second, targeted rewrite after the rejected 13 Oct restyle. Method: every paragraph keeps its
+full technical content (all hypotheses, numbers, rules, tasks, deliverables, risks; 47
+citations diffed identical) and gains the summary's qualities: a clear opening statement,
+full sentences with verbs, no colon or semicolon chains (none remain outside headings, tables
+and citation brackets), field terms kept where exact (archetype, latent state, CRPS explained
+once, rolling-origin). No mechanical word swaps this time. Figure labels aligned (no
+semicolons). Page budget: the plain prose cost ~2,700 chars; recovered by removing filler and
+overlaps (2.3.3 infrastructure merged into one paragraph, 2.5 operational paragraph merged
+into impact, 2.2.4 GESICA inventory shortened), shortening table cells in 2.6 and 2.4 that
+wrapped, and trimming a few words in paragraphs whose last line held one or two words.
+Result: exactly 15 pages, ~52,000 chars, no em-dash.
