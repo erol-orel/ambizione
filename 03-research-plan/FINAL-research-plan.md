@@ -57,7 +57,7 @@ Current programmes include multi-model forecasting hubs such as ECDC RespiCast a
 
 ## 2.2 Current state of personal research and competences required for the project
 
-My background combines fifteen years in quantitative finance, where I worked on risk, extreme values, regime models and stress testing, with a doctorate in biomedical sciences at Geneva (defended 18 December 2023). This combination provides the methods for modelling rare events and the public-health training needed to apply them to emergency services.
+My background combines fifteen years in quantitative finance, where I worked on risk, extreme values, regime models and stress testing as a certified Financial Risk Manager (FRM), with a doctorate in biomedical sciences at Geneva (defended 18 December 2023). This combination provides the methods for modelling rare events and the public-health training needed to apply them to emergency services.
 
 ### 2.2.1 Prediction under sparse and imperfect information
 

@@ -981,3 +981,5 @@ with the independence argued organisationally in 2.6 and in the confirmation let
 with Erol for decision before the letter is signed.
 
 ## 14 Oct: teaching clause re-added in 2.6 (MAS in Public Health, lecturing since 2024); independence design KEPT (Keiser contact person, ISG host) pending the RGO review. 15 pages held.
+
+## 14 Oct: FRM certification added once, in the 2.2 opening sentence (applicant decision). 15 pages held.
