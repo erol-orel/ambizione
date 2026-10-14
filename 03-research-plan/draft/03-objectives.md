@@ -37,7 +37,7 @@ Simulated data first test whether the levels and the moves between them can be r
 >
 > H3c. Two simple signals, the recent variability of demand and how strongly each day resembles the day before, are tested as extra predictors. The question is whether they add anything to the context data, the local level and trend, and the published evidence.
 >
-> Primary comparison. Both strategies choose their models with the same procedure and are scored with the continuous ranked probability score (CRPS), which rewards forecasts that put high probability near what actually happened. The main test uses respiratory episodes in their first days. Heat is tested only if the respiratory test passes, so that one test does not inflate the chance of a false positive in the other. A secondary analysis follows how the difference evolves as local outcomes come in.
+> Primary comparison. Both strategies choose their models with the same procedure and are scored with the continuous ranked probability score (CRPS), which rewards forecasts that put high probability near what actually happened. The main test uses respiratory episodes in their first days. The heat test is always run, but it counts as confirmatory only if the respiratory test passes, which keeps the overall false-positive rate under control. A secondary analysis follows how the difference evolves as local outcomes come in.
 
 #### O4. Establish whether predictive improvement matters for decision-making
 

@@ -113,7 +113,7 @@ def fig1():
     label(px + pw, py + ph + 22, "outcomes accumulate", 15, MUTE, "end")
     label(px + 300, py + ph + 44, "each past episode replayed using only what was known at the time", 15, MUTE, "middle")
     label(880, 384, "WHERE", 20, NAVY, bold=True)
-    chips = [("Respiratory epidemics", "main test", BLUE), ("Heatwaves", "second, if the first passes", NAVY),
+    chips = [("Respiratory epidemics", "main test", BLUE), ("Heatwaves", "second test", NAVY),
              ("Legionellosis", "third test, year 4", GREY)]
     for k, (nm, sub, col) in enumerate(chips):
         y = 400 + k * 50
