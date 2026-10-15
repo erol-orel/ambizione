@@ -106,20 +106,18 @@ def fig1():
     px, py, pw, ph = 135, 574, 490, 140
     s.append(f'<line x1="{px}" y1="{py+ph}" x2="{px+pw}" y2="{py+ph}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<line x1="{px}" y1="{py}" x2="{px}" y2="{py+ph}" stroke="{INK}" stroke-width="1.6"/>')
-    s.append(f'<path d="M {px+10} {py+30} C {px+170} {py+42} {px+360} {py+104} {px+pw-10} {py+122}" fill="none" stroke="{BLUE}" stroke-width="4"/>')
-    s.append(f'<path d="M {px+10} {py+128} C {px+150} {py+126} {px+360} {py+124} {px+pw-10} {py+122}" fill="none" stroke="{MUTE}" stroke-width="3" stroke-dasharray="7,6"/>')
+    s.append(f'<path d="M {px+10} {py+30} C {px+170} {py+40} {px+360} {py+92} {px+pw-10} {py+106}" fill="none" stroke="{BLUE}" stroke-width="4"/>')
+    s.append(f'<path d="M {px+10} {py+132} C {px+150} {py+131} {px+360} {py+120} {px+pw-10} {py+106}" fill="none" stroke="{MUTE}" stroke-width="3" stroke-dasharray="7,6"/>')
     label(px + pw + 14, py + 42, "evidence-informed strategy", 16, BLUE)
-    label(px + pw + 14, py + 128, "reference strategy, local data only", 16, MUTE)
+    label(px + pw + 14, py + 132, "reference strategy, local data only", 16, MUTE)
     label(px - 10, py + 8, "forecast quality", 15, MUTE, "end")
     label(px, py + ph + 24, "episode onset", 15, MUTE)
     label(px + pw, py + ph + 24, "more outcomes observed", 15, MUTE, "end")
-    label(px + pw/2, py + ph + 48, "each past episode replayed with only what was known at the time", 15, MUTE, "middle")
-    label(px + pw/2, py + ph + 70, "same feeds and same target for both strategies", 15, MUTE, "middle")
 
     label(880, 540, "THE GENEVA TEST SEQUENCE", 19, NAVY, bold=True)
     chips = [("1", "Respiratory epidemics", "primary confirmatory test", BLUE),
-             ("2", "Heat events", "second test, always run", GREEN),
-             ("3", "Legionellosis", "third test, year 4", ORANGE)]
+             ("2", "Heat events", "second test", GREEN),
+             ("3", "Legionellosis", "third test", ORANGE)]
     for k, (n, nm, sub, col) in enumerate(chips):
         y = 566 + k * 56
         s.append(box(880, y, 520, 44, GREY_BG, col, 22, 1.8))

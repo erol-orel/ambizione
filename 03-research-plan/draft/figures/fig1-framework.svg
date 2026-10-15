@@ -51,15 +51,13 @@
 <line x1="0" y1="550" x2="1400" y2="550" stroke="#9a9a9a" stroke-width="0.8" opacity="0.6"/>
 <line x1="135" y1="714" x2="625" y2="714" stroke="#1a1a1a" stroke-width="1.6"/>
 <line x1="135" y1="574" x2="135" y2="714" stroke="#1a1a1a" stroke-width="1.6"/>
-<path d="M 145 604 C 305 616 495 678 615 696" fill="none" stroke="#1f5f8b" stroke-width="4"/>
-<path d="M 145 702 C 285 700 495 698 615 696" fill="none" stroke="#4e4e4e" stroke-width="3" stroke-dasharray="7,6"/>
+<path d="M 145 604 C 305 614 495 666 615 680" fill="none" stroke="#1f5f8b" stroke-width="4"/>
+<path d="M 145 706 C 285 705 495 694 615 680" fill="none" stroke="#4e4e4e" stroke-width="3" stroke-dasharray="7,6"/>
 <text x="639" y="616" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f5f8b" text-anchor="start" font-weight="normal" font-style="normal">evidence-informed strategy</text>
-<text x="639" y="702" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">reference strategy, local data only</text>
+<text x="639" y="706" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">reference strategy, local data only</text>
 <text x="125" y="582" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">forecast quality</text>
 <text x="135" y="738" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">episode onset</text>
 <text x="625" y="738" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">more outcomes observed</text>
-<text x="380.0" y="762" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">each past episode replayed with only what was known at the time</text>
-<text x="380.0" y="784" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">same feeds and same target for both strategies</text>
 <text x="880" y="540" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">THE GENEVA TEST SEQUENCE</text>
 <rect x="880" y="566" width="520" height="44" rx="22" fill="#f3f5f7" stroke="#1f5f8b" stroke-width="1.8"/>
 <circle cx="906" cy="588" r="13" fill="white" stroke="#1f5f8b" stroke-width="2"/>
@@ -70,12 +68,12 @@
 <circle cx="906" cy="644" r="13" fill="white" stroke="#2e8b57" stroke-width="2"/>
 <text x="906" y="649" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#2e8b57" text-anchor="middle" font-weight="bold" font-style="normal">2</text>
 <text x="930" y="651" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2e8b57" text-anchor="start" font-weight="bold" font-style="normal">Heat events</text>
-<text x="1378" y="651" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">second test, always run</text>
+<text x="1378" y="651" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">second test</text>
 <rect x="880" y="678" width="520" height="44" rx="22" fill="#f3f5f7" stroke="#c8701a" stroke-width="1.8"/>
 <circle cx="906" cy="700" r="13" fill="white" stroke="#c8701a" stroke-width="2"/>
 <text x="906" y="705" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#c8701a" text-anchor="middle" font-weight="bold" font-style="normal">3</text>
 <text x="930" y="707" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c8701a" text-anchor="start" font-weight="bold" font-style="normal">Legionellosis</text>
-<text x="1378" y="707" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">third test, year 4</text>
+<text x="1378" y="707" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">third test</text>
 <text x="880" y="762" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Outcome, levels and thresholds registered before any test</text>
 <text x="880" y="786" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Dashboard in observation mode where authorised, never directs care</text>
 </g></svg>
