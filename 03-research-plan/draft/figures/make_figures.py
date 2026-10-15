@@ -79,8 +79,8 @@ def fig1():
         for i, ln in enumerate(lines):
             fits(ln, 16, CW - 40); label(x + CW/2, CY + 70 + i * 27, ln, 16, INK if i < 2 else MUTE, "middle")
     s.append(box(0, 228, W, 64, GREY_BG, GREY, 8, 1.2))
-    g1 = "The gap is rarely the context data. It is too little local outcome history to learn how context relates to this episode."
-    g2 = "The target is chosen before any model comparison, using registered criteria for relevance, access and data quality."
+    g1 = "The gap is rarely the context data. It is too little local outcome history to learn how context relates to this episode"
+    g2 = "The target is chosen before any model comparison, using registered criteria for relevance, access and data quality"
     fits(g1, 17, W - 40, True); label(W/2, 255, g1, 17, NAVY, "middle", True)
     fits(g2, 15, W - 40); label(W/2, 279, g2, 15, MUTE, "middle")
 
@@ -125,10 +125,8 @@ def fig1():
         s.append(box(880, y, 520, 44, GREY_BG, col, 22, 1.8))
         s.append(f'<circle cx="{906}" cy="{y+22}" r="13" fill="white" stroke="{col}" stroke-width="2"/>')
         label(906, y + 27, n, 14, col, "middle", True)
-        wn, ws = len(nm) * 18 * 0.56, len(sub) * 14.5 * 0.52
-        x0 = 930 + (450 - (wn + 16 + ws)) / 2
-        label(x0, y + 29, nm, 18, col, bold=True)
-        label(x0 + wn + 16, y + 29, sub, 14.5, MUTE)
+        fits(nm, 18, 220, True); label(930, y + 29, nm, 18, col, bold=True)
+        fits(sub, 14.5, 230); label(1378, y + 29, sub, 14.5, MUTE, "end")
     label(1140, 762, "Outcome, levels and thresholds registered before any test", 15, MUTE, "middle")
     label(1140, 786, "Dashboard in observation mode where authorised, never directs care", 15, MUTE, "middle")
     s.append("</g></svg>")
