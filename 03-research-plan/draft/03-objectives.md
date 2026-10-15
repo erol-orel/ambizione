@@ -31,7 +31,7 @@ Simulated data first test whether the levels and the moves between them can be r
 
 #### O3. Test whether published evidence improves forecasts and identify instances where it is detrimental
 
-> H3a. In the first days of an episode, a strategy that uses published studies (for parameter values, explanatory variables, lags and model forms) will forecast better than a reference strategy that uses the same context data, local history and outcomes seen so far, but nothing from the literature. How long this advantage lasts as outcomes come in is a secondary question.
+> H3a. In the first days of an episode, a strategy that uses published studies (for parameter values, explanatory variables, lags and model forms) will forecast better than a reference strategy that uses the same context data, local history and outcomes seen so far, but nothing from the literature. How long the advantage lasts is a secondary question.
 >
 > H3b. Adaptive weighting lowers the weight of the published evidence when local outcomes contradict it. When the evidence is right, adaptive weighting should do no worse than fixed weighting, within a margin Δ. When the evidence is deliberately shifted in location, scale or relevance to the local setting, adaptive weighting should do better. This checks that the model limits harm instead of trusting the literature blindly. Δ is half of the smallest improvement counted as meaningful under H3a, so adaptive weighting may give up at most half of that benefit when the evidence is right.
 >
@@ -41,7 +41,7 @@ Simulated data first test whether the levels and the moves between them can be r
 
 #### O4. Establish whether predictive improvement matters for decision-making
 
-> H4. The forecast with the best score is not always the most useful one for the services. The models are therefore also judged on the decisions they would trigger, using the costs of acting too early, too late or for nothing, as stated by emergency-service experts. An evidence-informed forecast counts as useful only if it changes a decision in a way that matters in practice.
+> H4. The forecast with the best score is not always the most useful one for the services. The models are therefore also judged on the decisions they would trigger, using the costs of acting too early, too late or for nothing, as stated by emergency-service experts. An evidence-informed forecast counts as useful only if it changes a decision that matters in practice.
 
 #### Scope. Three Geneva crisis types
 

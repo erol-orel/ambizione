@@ -24,7 +24,7 @@ Each finding is screened for how well it transfers to the local setting, looking
 
 Deliverables are D1.1 (open extraction benchmark), D1.2 (extraction-error analysis) and D1.3 (evidence-derived model-input library).
 
-Risk and mitigation. If manual extraction time is limited, the benchmark narrows to the core kinds of parameters.
+Risk and mitigation. If manual extraction time is limited, the benchmark narrows to the core parameters.
 
 #### WP2. Model the levels of pressure on the system (M1–M28)
 
@@ -62,7 +62,7 @@ Outcomes. The outcome of each test is not fixed in advance. It depends on what t
 
 Data gate. At month 12 the chosen target is checked against criteria on history length, resolution, reporting delay and completeness fixed in advance. If it fails, the next outcome in the list takes its place. Performance plays no part in this choice.
 
-Episode eligibility. An episode enters the main comparison only if its start can be identified without later information, it has enough history before it and enough outcomes after it, the literature available at each forecast date can be rebuilt, and it can be separated from neighbouring episodes. Other episodes serve for sensitivity analyses. Respiratory viruses circulating at the same time count as one episode.
+Episode eligibility. An episode enters the main comparison only if its start can be identified without later information, it has enough history before it and enough outcomes after it, the literature available at each forecast date can be rebuilt, and it can be separated from neighbouring episodes. Other episodes serve for sensitivity analyses. Co-circulating respiratory viruses count as one episode.
 
 Registration. The outcome list, the gate and the eligibility rules are registered first. After the month-12 check and a blinded inventory of the eligible episodes, but before any performance is seen, a second registration fixes the early-episode window N, the main forecast horizon per crisis type and the margin Δ. Horizons follow what the services need, not results.
 
@@ -70,7 +70,7 @@ Data hierarchy. The main test uses local service data, chosen from the registere
 
 ##### T3.1. Assemble the data (M12–M20)
 
-The outcome series are lined up with the context feeds and with each other on a daily grid. Missing values and reporting delays are measured, and recent days that are still incomplete are corrected with nowcasting [Höhle 2014; McGough 2020], because reporting tends to slow down under pressure and can look like an early warning. The HUG COVID-19 hospitalisation data I analysed before [Orel 2024] may be requested again as an extra check. Pharmacy sales and wastewater measurements are requested through the cantonal pharmacist and used as early indicators where access and coverage allow.
+The outcome series are lined up with the context feeds and with each other on a daily grid. Missing values and reporting delays are measured, and recent days that are still incomplete are corrected with nowcasting [Höhle 2014; McGough 2020], because reporting tends to slow down under pressure and can look like an early warning. The HUG COVID-19 hospitalisation data I analysed before [Orel 2024] may be requested again as an extra check. Pharmacy sales and wastewater measurements are requested through the cantonal pharmacist and used as early indicators where access allows.
 
 ##### T3.2. Replay with only what was known at the time (M18–M30)
 
@@ -96,7 +96,7 @@ The heat test is the second test. The legionellosis test, in year four, applies 
 
 Deliverables are D3.1 (reproducible historical forecast-evaluation pipeline), D3.2 (primary result), D3.3 (benefit and failure analysis) and D3.4 (analysis across crisis types).
 
-Risk and mitigation. Access to operational records may be delayed. Agreements are being pursued before the award. If no local series can be obtained, open Swiss data show that the methods work, but they cannot carry the main claim, which is then narrowed, and the decision analysis is limited accordingly.
+Risk and mitigation. Access to operational records may be delayed. Agreements are being pursued before the award. If no local series can be obtained, open Swiss data show that the methods work, but they cannot carry the main claim, which is then narrowed.
 
 #### WP4. From forecast skill to decision value (M24–M48)
 

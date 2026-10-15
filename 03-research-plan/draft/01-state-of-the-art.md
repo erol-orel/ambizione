@@ -16,7 +16,7 @@ Statistics has methods for using earlier studies in a new setting while keeping 
 
 Published studies offer more than parameter values. They suggest which variables and time lags matter, which types of models work, and how to define outcomes and warning thresholds. In some fields this evidence is kept up to date in living systematic reviews [Elliott 2014]. To my knowledge, these different forms of evidence have never been combined and tested in a real forecasting setting to make up for missing outcome data.
 
-Automated extraction makes large-scale evidence synthesis possible, but numbers are extracted less reliably than categories (reported accuracy roughly 47–88% against 74–96%), and omissions make up a large share of the errors [Shankar 2026]. HEADSTART tests whether these errors understate uncertainty in a systematic way and whether an explicit measurement-error model can correct the distributions.
+Automated extraction makes large-scale evidence synthesis possible, but numbers are extracted less reliably than categories (reported accuracy roughly 47–88% against 74–96%), and omissions make up a large share of the errors [Shankar 2026]. HEADSTART tests whether these errors understate uncertainty in a systematic way and whether a measurement-error model can correct them.
 
 Even a correctly extracted estimate may not apply locally, because populations, case definitions, service organisation and policy differ. Formal methods to assess transferability exist [Bareinboim 2016; Dahabreh 2020; Degtiar 2023], but they have not been combined with automated extraction, and their effect on forecasts at the start of a crisis has not been measured.
 
