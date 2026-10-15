@@ -1083,3 +1083,4 @@ with Erol for decision before the letter is signed.
 - Plan circulated to Olivia Keiser, Sara and Janne, comments requested by Sun 26 Oct (readers' deadline moves from 23 to 26 Oct).
 - Host confirmation letter (ISG, HEADSTART title) SIGNED by Olivia Keiser and Nicolas Ray.
 - Next: SNSF-portal CV, ORCID update, ethics declaration re-filed under the HEADSTART title, RGO form by Mon 19 Oct, plan sent to the RGO for relecture now (slot first come first served).
+- 15 Oct: SIGNED host confirmation letter received from Erol (docx with both signature images, dated 13 Oct, HEADSTART title, one-applicant acknowledgement present). Stored as 04-other-documents/signed/2026-10-15-lettre-confirmation-isg-SIGNED-Keiser-Ray.docx and .pdf. Minor: the letter uses the older terms "evidence-to-prior library" and "cold-start forecasting"; harmless in a host letter, not worth a re-signature.
