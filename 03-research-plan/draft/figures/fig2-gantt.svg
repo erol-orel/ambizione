@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="821" viewBox="0 0 1200 821">
+<svg xmlns="http://www.w3.org/2000/svg" width="1256" height="877" viewBox="0 0 1256 877">
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4e4e4e"/></marker></defs>
-<rect width="1200" height="821" fill="white"/>
+<rect width="1256" height="877" fill="white"/>
+<g transform="translate(28,28)">
 <text x="531.25" y="38" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 1</text>
 <rect x="622.5" y="48" width="182.5" height="655" fill="#f7f8fa"/>
 <text x="713.75" y="38" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 2</text>
@@ -87,4 +88,4 @@
 <polygon points="1170.0,749 1177.0,758 1170.0,767 1163.0,758" fill="#1f5f8b"/>
 <text x="1170.0" y="787" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M6</text>
 <text x="0" y="813" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Milestones.  M1 benchmark released · M2 model passes, data gate · M3 open-data benchmark, target chosen · M4 main test done · M5 decision value · M6 three tests, dashboard</text>
-</svg>
+</g></svg>

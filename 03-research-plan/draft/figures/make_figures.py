@@ -47,8 +47,10 @@ DEFS = ('<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" '
 def fig1():
     # General overview: what exists at onset, the gap, what HEADSTART does (WP1 to WP4), the test, the test sequence.
     W, H = 1400, 820
-    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
-         f'viewBox="0 0 {W} {H}">', DEFS, f'<rect width="{W}" height="{H}" fill="white"/>']
+    PAD = 28
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W+2*PAD}" height="{H+2*PAD}" '
+         f'viewBox="0 0 {W+2*PAD} {H+2*PAD}">', DEFS, f'<rect width="{W+2*PAD}" height="{H+2*PAD}" fill="white"/>',
+         f'<g transform="translate({PAD},{PAD})">']
     NAVY, GREEN, ORANGE, BLUE, GREY = "#1f3a5f", "#2e8b57", "#c8701a", "#1f5f8b", "#8a97a6"
     GREEN_BG, ORANGE_BG, BLUE_BG, GREY_BG = "#eaf5ef", "#fdf3e6", "#e8f0f7", "#f3f5f7"
 
@@ -127,7 +129,7 @@ def fig1():
         fits(sub, 14.5, 230); label(1378, y + 29, sub, 14.5, MUTE, "end")
     label(880, 762, "Outcome, levels and thresholds registered before any test", 15, MUTE)
     label(880, 786, "Dashboard in observation mode where authorised, never directs care", 15, MUTE)
-    s.append("</svg>")
+    s.append("</g></svg>")
     (OUT / "fig1-framework.svg").write_text("\n".join(s), encoding="utf-8")
 
 
@@ -171,8 +173,10 @@ def fig2():
     def mx(m):
         return L + (m / 48) * span
 
-    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
-         f'viewBox="0 0 {W} {H}">', DEFS, f'<rect width="{W}" height="{H}" fill="white"/>']
+    PAD = 28
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W+2*PAD}" height="{H+2*PAD}" '
+         f'viewBox="0 0 {W+2*PAD} {H+2*PAD}">', DEFS, f'<rect width="{W+2*PAD}" height="{H+2*PAD}" fill="white"/>',
+         f'<g transform="translate({PAD},{PAD})">']
 
     body_bottom = TOP + nrows * ROW + GAP * len(WPS)
     for yr in range(4):
@@ -211,7 +215,7 @@ def fig2():
     legend = " · ".join(f"{lab} {desc}" for _, lab, desc in MILESTONES)
     assert len("Milestones.  " + legend) * 13.5 * 0.5 <= W, legend
     s.append(text(0, body_bottom + 110, "Milestones.  " + legend, 13.5, MUTE))
-    s.append("</svg>")
+    s.append("</g></svg>")
     (OUT / "fig2-gantt.svg").write_text("\n".join(s))
 
 

@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820">
+<svg xmlns="http://www.w3.org/2000/svg" width="1456" height="876" viewBox="0 0 1456 876">
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4e4e4e"/></marker></defs>
-<rect width="1400" height="820" fill="white"/>
+<rect width="1456" height="876" fill="white"/>
+<g transform="translate(28,28)">
 <text x="0" y="30" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WHAT IS AVAILABLE WHEN A CRISIS STARTS</text>
 <line x1="0" y1="40" x2="1400" y2="40" stroke="#9a9a9a" stroke-width="0.8" opacity="0.6"/>
 <rect x="0" y="58" width="440" height="150" rx="10" fill="#e8f0f7" stroke="#1f5f8b" stroke-width="2.2"/>
@@ -77,4 +78,4 @@
 <text x="1378" y="707" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">third test, year 4</text>
 <text x="880" y="762" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Outcome, levels and thresholds registered before any test</text>
 <text x="880" y="786" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Dashboard in observation mode where authorised, never directs care</text>
-</svg>
+</g></svg>
