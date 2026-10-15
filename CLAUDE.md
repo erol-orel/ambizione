@@ -29,3 +29,6 @@
 - **Deliverable rule (applicant, 14 Oct): after any change to the research plan, always send the
   rebuilt `03-research-plan/FINAL-research-plan.docx` (not only the PDF). The applicant reviews
   and edits in Word.
+- **Page fitting deferred (applicant, 15 Oct):** do NOT trim text to hold 15 pages after each change.
+  Apply the requested changes, report the page count and the character count, and leave the fitting
+  to one final pass before submission. Only the 60,000-character limit is checked at every build.
