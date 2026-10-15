@@ -132,40 +132,40 @@ def fig1():
 
 
 WPS = [
-    ("WP1", "Evidence and model inputs", 1, 20, [
-        ("T1.1 Evidence target and protocol", 1, 4),
-        ("T1.2 Manual extraction benchmark", 3, 9),
-        ("T1.3 Automated extraction error", 7, 14),
-        ("T1.4 Evidence distributions", 12, 18),
-        ("T1.5 Transportability screen", 15, 20)]),
-    ("WP2", "Model demand and pressure", 1, 28, [
-        ("T2.1 Pressure model and identifiability", 1, 9),
-        ("T2.2 Critical tail", 6, 14),
-        ("T2.3 Evidence in the parameters", 10, 20),
-        ("T2.4 Resilience indicators", 12, 20),
-        ("T2.5 Calibration and automation", 20, 28)]),
-    ("WP3", "Historical forecast test", 1, 42, [
-        ("T3.0 Outcomes, data gate, registration", 1, 14),
+    ("WP1", "Published evidence into model inputs", 1, 20, [
+        ("T1.1 Fix what to look for, register", 1, 4),
+        ("T1.2 Build the manual benchmark", 3, 9),
+        ("T1.3 Measure extraction errors", 7, 14),
+        ("T1.4 Turn numbers into distributions", 12, 18),
+        ("T1.5 Check transfer to the local setting", 15, 20)]),
+    ("WP2", "Model the levels of pressure", 1, 28, [
+        ("T2.1 Build and test the pressure model", 1, 9),
+        ("T2.2 Model rare peaks of demand", 6, 14),
+        ("T2.3 Bring the evidence into the model", 10, 20),
+        ("T2.4 Test two early-warning signals", 12, 20),
+        ("T2.5 Calibrate, automate, check validity", 20, 28)]),
+    ("WP3", "Replay past crises and test", 1, 42, [
+        ("T3.0 Choose outcome, check data, register", 1, 14),
         ("T3.1 Assemble the data", 12, 20),
         ("T3.2 Replay with past information only", 18, 30),
-        ("T3.3 Model library and confirmatory tests", 20, 34),
-        ("T3.4 Map benefit and failure", 28, 38),
+        ("T3.3 Model library and the main tests", 20, 34),
+        ("T3.4 Map when evidence helps or harms", 28, 38),
         ("T3.5 Heat and legionellosis tests", 34, 42)]),
-    ("WP4", "Decision value and deployment", 24, 48, [
+    ("WP4", "From forecast skill to decision value", 24, 48, [
         ("T4.1 Elicit costs and thresholds", 24, 32),
-        ("T4.2 Decision analysis and fairness", 30, 40),
+        ("T4.2 Judge forecasts by the decisions", 30, 40),
         ("T4.3 Dashboard and living updates", 34, 48)]),
 ]
-MILESTONES = [(9, "M1", "benchmark released"), (12, "M2", "model passes, data gate"),
-              (20, "M3", "open-data benchmark, target chosen"), (34, "M4", "main test done"),
-              (40, "M5", "decision value"), (48, "M6", "three tests, dashboard")]
+MILESTONES = [(9, "M1", "manual benchmark released"), (12, "M2", "model checked, data gate"),
+              (20, "M3", "open-data benchmark, outcome chosen"), (34, "M4", "main test done"),
+              (40, "M5", "decision value measured"), (48, "M6", "three tests done, dashboard")]
 
 
 def fig2():
     L, R, TOP, ROW, GAP = 440, 30, 56, 25, 18
     W = 1200
     nrows = sum(len(w[4]) + 1 for w in WPS)
-    H = TOP + nrows * ROW + GAP * len(WPS) + 118
+    H = TOP + nrows * ROW + GAP * len(WPS) + 140
     span = W - L - R
 
     def mx(m):
@@ -210,9 +210,10 @@ def fig2():
         s.append(f'<polygon points="{x},{body_bottom+46} {x+7},{body_bottom+55} '
                  f'{x},{body_bottom+64} {x-7},{body_bottom+55}" fill="{ACCENT}"/>')
         s.append(text(x, body_bottom + 84, lab, 16.5, ACCENT, "middle", "bold"))
-    legend = " · ".join(f"{lab} {desc}" for _, lab, desc in MILESTONES)
-    assert len("Milestones.  " + legend) * 13.5 * 0.5 <= W, legend
-    s.append(text(0, body_bottom + 110, "Milestones.  " + legend, 13.5, MUTE))
+    l1 = "Milestones.  " + " · ".join(f"{lab} {desc}" for _, lab, desc in MILESTONES[:3])
+    l2 = " · ".join(f"{lab} {desc}" for _, lab, desc in MILESTONES[3:])
+    s.append(text(0, body_bottom + 110, l1, 14, MUTE))
+    s.append(text(0, body_bottom + 132, l2, 14, MUTE))
     s.append("</g></svg>")
     (OUT / "fig2-gantt.svg").write_text("\n".join(s))
 

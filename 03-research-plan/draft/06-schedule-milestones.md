@@ -8,9 +8,9 @@ I lead all four work packages. Research assistants (master's students) provide t
 
 | Milestone | Month | Criterion |
 |---|---|---|
-| M1 | 9 | Extraction benchmark released |
-| M2 | 12 | Pressure model passes the identifiability checks or fallback chosen, data gate checked |
-| M3 | 20 | Open-data benchmark complete, local outcome target selected and data harmonised, or access fallback activated |
-| M4 | 34 | Main hypothesis tested by the forecast comparison |
-| M5 | 40 | Decision relevance established |
-| M6 | 48 | Three crisis types analysed, dashboard running where authorised |
+| M1 | 9 | Manual benchmark released |
+| M2 | 12 | Pressure model passes its checks (or fallback chosen), data gate passed |
+| M3 | 20 | Open-data benchmark complete, outcome chosen and data ready (or access fallback) |
+| M4 | 34 | Main test done |
+| M5 | 40 | Decision value measured |
+| M6 | 48 | Three tests done, dashboard running where authorised |
