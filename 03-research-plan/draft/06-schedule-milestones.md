@@ -14,4 +14,4 @@ I lead all four work packages. Research assistants (master's students) provide t
 | MS4 | 20 | Second registration done, evidence inputs delivered |
 | MS5 | 34 | Main respiratory test done |
 | MS6 | 42 | Heat and legionellosis tests done |
-| MS7 | 48 | Decision value measured, dashboard running where authorised, all results reported |
+| MS7 | 48 | Decision value measured, dashboard for the validated demand tests where authorised, all results reported |

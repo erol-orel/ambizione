@@ -19,7 +19,7 @@ The central hypothesis is that published evidence can improve forecasts early in
 
 #### O1. Make published evidence usable while acknowledging its uncertainties
 
-> H1. When numbers are extracted from studies automatically, part of the uncertainty that the studies report is lost, both the uncertainty inside each study and the differences between studies. The distributions of plausible parameter values then come out too narrow. Adding a correction for extraction error should widen them back to a realistic size. To test this, a sample of studies is extracted manually and used as the reference. The automated results, with and without the correction, are compared with this reference. The correction is validated if the corrected distributions match the manual ones. Studies used to tune the correction are kept out of this test set.
+> H1. When numbers are extracted from studies automatically, part of the uncertainty that the studies report is lost, both the uncertainty inside each study and the differences between studies. The distributions of plausible parameter values then come out too narrow. Adding a correction for extraction error should widen them back to a realistic size. To test this, a sample of studies is extracted manually and used as the reference. The automated results, with and without the correction, are compared with this reference. The correction is validated if it brings the spread ratio of T1.3 close to one and improves interval coverage on the held-out studies. Studies used to tune the correction are kept out of this test set.
 
 Automated extraction also misses numbers entirely [Shankar 2026]. H1 tests whether these omissions narrow the distributions further and whether the correction restores a useful level of uncertainty. The benchmark is built on parameter values. The other kinds of evidence (variables, model forms, thresholds) are compared with published reviews instead.
 
@@ -31,7 +31,7 @@ Simulated data first test whether the levels and the moves between them can be r
 
 #### O3. Test whether published evidence improves forecasts and identify instances where it is detrimental
 
-> H3a. In the first days of an episode, a strategy that uses published studies (for parameter values, explanatory variables, lags and model forms) will forecast better than a reference strategy that uses the same context data, local history and outcomes seen so far, but nothing from the literature. How long the advantage lasts is a secondary question.
+> H3a. In the first days of an episode, a strategy that uses published studies (for parameter values, explanatory variables, lags and model forms) will forecast better than a reference strategy that uses the same context data, local history and outcomes seen so far, but no model inputs derived from the published evidence in WP1. How long it lasts is secondary.
 >
 > H3b. Adaptive weighting lowers the weight of the published evidence when local outcomes contradict it. When the evidence is right, adaptive weighting should do no worse than fixed weighting, within a margin Δ. When the evidence is deliberately shifted in location, scale or relevance to the local setting, adaptive weighting should do better. This checks that the model limits harm instead of trusting the literature blindly. Δ is half of the smallest improvement counted as meaningful under H3a, so adaptive weighting may give up at most half of that benefit when the evidence is right.
 >

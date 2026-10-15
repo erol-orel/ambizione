@@ -114,7 +114,7 @@ def fig1():
     label(px + pw, py + ph + 26, "more outcomes observed", 17, MUTE, "end")
     for i, ln in enumerate(["gain of the evidence-informed", "strategy over the reference"]):
         fits(ln, 17, 300); label(px + pw + 34, py + 44 + i * 24, ln, 17, BLUE)
-    for i, ln in enumerate(["largest at onset, fading as", "local outcomes accumulate", "(0 = no gain)", "", "reference = same feeds and", "outcomes, no published evidence"]):
+    for i, ln in enumerate(["largest at onset, fading as", "local outcomes accumulate", "(0 = no gain)", "", "reference = same feeds and", "outcomes, no WP1 evidence inputs"]):
         fits(ln, 17, 300); label(px + pw + 34, py + 106 + i * 24, ln, 17, MUTE)
 
     label(880, 566, "THE GENEVA TEST SEQUENCE", 21, NAVY, bold=True)
@@ -129,7 +129,7 @@ def fig1():
         fits(nm, 20, 240, True); label(934, y + 31, nm, 20, col, bold=True)
         fits(sub, 16, 210); label(1378, y + 31, sub, 16, MUTE, "end")
     label(1140, 798, "Outcome, levels and thresholds registered before any test", 17, MUTE, "middle")
-    label(1140, 824, "Dashboard only in observation mode, where authorised", 17, MUTE, "middle")
+    label(1140, 824, "Dashboard for validated demand tests, where authorised", 17, MUTE, "middle")
     s.append("</g></svg>")
     (OUT / "fig1-framework.svg").write_text("\n".join(s), encoding="utf-8")
 
@@ -165,7 +165,7 @@ MILESTONES = [(4, "MS1", "protocol and outcome candidates registered"),
               (20, "MS4", "second registration, evidence inputs delivered"),
               (34, "MS5", "main respiratory test done"),
               (42, "MS6", "heat and legionellosis tests done"),
-              (48, "MS7", "decision value measured, dashboard running")]
+              (48, "MS7", "decision value measured, dashboard where authorised")]
 
 
 def fig2():

@@ -59,7 +59,7 @@
 <text x="574" y="754" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">(0 = no gain)</text>
 <text x="574" y="778" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal"></text>
 <text x="574" y="802" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">reference = same feeds and</text>
-<text x="574" y="826" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">outcomes, no published evidence</text>
+<text x="574" y="826" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">outcomes, no WP1 evidence inputs</text>
 <text x="880" y="566" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">THE GENEVA TEST SEQUENCE</text>
 <rect x="880" y="594" width="520" height="48" rx="24" fill="#f3f5f7" stroke="#1f5f8b" stroke-width="1.8"/>
 <circle cx="908" cy="618" r="14" fill="white" stroke="#1f5f8b" stroke-width="2"/>
@@ -77,5 +77,5 @@
 <text x="934" y="745" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#c8701a" text-anchor="start" font-weight="bold" font-style="normal">Legionellosis</text>
 <text x="1378" y="745" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">third test</text>
 <text x="1140" y="798" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Outcome, levels and thresholds registered before any test</text>
-<text x="1140" y="824" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Dashboard only in observation mode, where authorised</text>
+<text x="1140" y="824" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Dashboard for validated demand tests, where authorised</text>
 </g></svg>

@@ -19,7 +19,8 @@ TEXTW = 11906 - 2*680
 def fix_tbl(m):
     tbl = m.group(0)
     tbl = re.sub(r'<w:tblW[^>]*/>', '<w:tblW w:w="%d" w:type="dxa"/>' % TEXTW, tbl)
-    tbl = tbl.replace('<w:tr>', '<w:tr><w:trPr><w:cantSplit/></w:trPr>') if '<w:trPr>' not in tbl else tbl
+    tbl = re.sub(r'<w:tr>(?!<w:trPr>)', '<w:tr><w:trPr><w:cantSplit/></w:trPr>', tbl)
+    tbl = re.sub(r'<w:trPr>(?!<w:cantSplit/>)', '<w:trPr><w:cantSplit/>', tbl)
     if '<w:tblLayout' not in tbl:
         tbl = tbl.replace('</w:tblPr>', '<w:tblLayout w:type="fixed"/></w:tblPr>', 1)
     ncols = len(re.findall(r'<w:gridCol[^>]*/>', tbl))

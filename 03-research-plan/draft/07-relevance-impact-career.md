@@ -4,7 +4,7 @@ If published evidence does not improve forecasts, that is still a useful result.
 
 Results are published in open-access journals, with preprints where appropriate. The extraction benchmark, the library of evidence-derived inputs, the code and, where open data are used, the forecasting benchmark are released as versioned, citable resources, and the findings go back to the participating services. The results and tools are also shared with GESICA and GeoAI4EI, which can carry them to the Franco-Swiss and European epidemic-intelligence networks.
 
-The project will show whether outside evidence improves forecasts in the first weeks of a crisis, under which conditions, and with how much certainty. For the crisis types that pass validation and are authorised, it delivers a registered forecasting configuration and a dashboard in observation mode. Wider deployment to other crises is a possible next step after the grant, not a promised outcome.
+The project will show whether outside evidence improves forecasts in the first weeks of a crisis, under which conditions, and with how much certainty. For the demand tests that pass validation and are authorised, it delivers a registered forecasting configuration and a dashboard in observation mode. Wider deployment to other crises is a possible next step after the grant, not a promised outcome.
 
 ## 2.6 Relevance for personal career development
 
