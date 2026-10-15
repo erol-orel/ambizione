@@ -34,10 +34,10 @@
 - **[Esra 2023]** Esra R, Carstens J, Le Roux S, Mabuto T, Eisenstein M, Keiser O, Orel E,
   Merzouki A, De Voux L, Maskew M, Sharpey-Schafer K. Validation and improvement of a machine
   learning model to predict interruptions in antiretroviral treatment in South Africa.
-  *Journal of Acquired Immune Deficiency Syndromes* 2023;92(1):42–49.
+  *Journal of Acquired Immune Deficiency Syndromes* 2023;92(1):42–49. doi:10.1097/QAI.0000000000003108
 - **[Estill 2020]** Estill J, Venkova-Marchevska P, Roelens M, Orel E, Temerev A, Flahault A,
   Keiser O. Future scenarios for the SARS-CoV-2 epidemic in Switzerland: an age-structured
-  model. *F1000Research* 2020;9.
+  model. *F1000Research* 2020;9:646. doi:10.12688/f1000research.24497.2
 - **[Farrington 1996]** Farrington CP, Andrews NJ, Beale AD, Catchpole MA. A statistical algorithm
   for the early detection of outbreaks of infectious disease. *Journal of the Royal Statistical
   Society Series A* 1996;159(3):547–563.

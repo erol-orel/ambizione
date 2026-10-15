@@ -35,6 +35,12 @@ def fix_tbl(m):
         it = iter(widths)
         tbl = re.sub(r'<w:gridCol[^>]*/>', lambda mm: '<w:gridCol w:w="%d"/>' % next(it), tbl)
     return tbl
+# page break before the bibliography heading
+i = x.find('Bibliography</w:t>')
+if i > 0:
+    j = x.rfind('<w:p>', 0, i); k = x.find('</w:pPr>', j)
+    if j > 0 and k > 0 and k < i:
+        x = x[:k+8] + '<w:r><w:br w:type="page"/></w:r>' + x[k+8:]
 x = re.sub(r'<w:tbl>.*?</w:tbl>', fix_tbl, x, flags=re.S)
 SIZES = [6640000, 6640000]  # both figures at the full 18.44 cm text width (EMU)
 def make_fixer(tag):

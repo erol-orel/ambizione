@@ -10,7 +10,8 @@ The project is based at the Institute of Global Health (ISG), Faculty of Medicin
 | Unité urgences santé (144), HUG | Dr Robert Larribau, head of unit | Emergency-call data, clinical partner | Access held within GESICA, project agreement in preparation |
 | GESICA (Franco-Swiss) | Prof. Olivia Keiser (UNIGE PI), Prof. Douglas Teodoro (Swiss data inventory) | Surveillance inventory, data access, emergency-medicine partners | Running |
 | GeoAI4EI (Horizon Europe) | Prof. Olivia Keiser, co-PI | European epidemic-intelligence partners, exchange of methods | Running 2026–2030 |
-| Médecin cantonal and SIG | Prof. Olivia Keiser, PI of the legionellosis study | Legionellosis linked data, analysis by the applicant | Study approved, BASEC 2026-00324 |
+| Legionellosis study (data via the médecin cantonal and SIG) | Prof. Olivia Keiser, study PI | Linked case-environment data, analysis by the applicant | Study approved, BASEC 2026-00324 |
+| HUG COVID-19 hospitalisation series | | Secondary validation and calibration series [Orel 2024] | Re-request planned, subject to availability |
 | Pharmacien cantonal | | Wastewater and pharmacy sales | Contacts established |
 | UNIGE HPC and secure data environment | | Computing | In place |
 | Open public series | | Surveillance, wastewater, deaths, weather | Public |

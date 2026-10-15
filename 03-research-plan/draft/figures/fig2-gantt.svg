@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1256" height="943" viewBox="0 0 1256 943">
+<svg xmlns="http://www.w3.org/2000/svg" width="1256" height="951" viewBox="0 0 1256 951">
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4e4e4e"/></marker></defs>
-<rect width="1256" height="943" fill="white"/>
+<rect width="1256" height="951" fill="white"/>
 <g transform="translate(28,28)">
 <text x="531.25" y="38" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 1</text>
 <rect x="622.5" y="48" width="182.5" height="655" fill="#f7f8fa"/>
@@ -90,19 +90,19 @@
 <line x1="1170.0" y1="48" x2="1170.0" y2="703" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
 <polygon points="1170.0,749 1177.0,758 1170.0,767 1163.0,758" fill="#1f5f8b"/>
 <text x="1170.0" y="787" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">MS7</text>
-<text x="0" y="813" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="start" font-weight="bold" font-style="normal">Milestones</text>
-<text x="110" y="813" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">MS1</text>
-<text x="150" y="813" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">protocol and outcome candidates registered</text>
-<text x="110" y="835" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">MS2</text>
-<text x="150" y="835" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">manual benchmark released</text>
-<text x="110" y="857" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">MS3</text>
-<text x="150" y="857" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">data gate passed, pressure model checked</text>
-<text x="110" y="879" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">MS4</text>
-<text x="150" y="879" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">second registration, open-data benchmark done</text>
-<text x="670" y="813" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">MS5</text>
-<text x="710" y="813" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">main respiratory test done</text>
-<text x="670" y="835" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">MS6</text>
-<text x="710" y="835" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">heat and legionellosis tests done</text>
-<text x="670" y="857" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">MS7</text>
-<text x="710" y="857" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">decision value measured, dashboard running</text>
+<text x="0" y="813" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="bold" font-style="normal">Milestones</text>
+<text x="120" y="813" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">MS1</text>
+<text x="168" y="813" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">protocol and outcome candidates registered</text>
+<text x="120" y="837" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">MS2</text>
+<text x="168" y="837" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">manual benchmark released</text>
+<text x="120" y="861" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">MS3</text>
+<text x="168" y="861" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">data gate passed, pressure model checked</text>
+<text x="120" y="885" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">MS4</text>
+<text x="168" y="885" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">second registration, evidence inputs delivered</text>
+<text x="680" y="813" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">MS5</text>
+<text x="728" y="813" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">main respiratory test done</text>
+<text x="680" y="837" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">MS6</text>
+<text x="728" y="837" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">heat and legionellosis tests done</text>
+<text x="680" y="861" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">MS7</text>
+<text x="728" y="861" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">decision value measured, dashboard running</text>
 </g></svg>
