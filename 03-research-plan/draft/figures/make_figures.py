@@ -45,8 +45,8 @@ DEFS = ('<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" '
 
 # ---------------------------------------------------------------- Figure 1
 def fig1():
-    # General overview: what exists at onset, what HEADSTART does (WP1 to WP4), what it tests, where.
-    W, H = 1400, 760
+    # General overview: what exists at onset, the gap, what HEADSTART does (WP1 to WP4), the test, the test sequence.
+    W, H = 1400, 820
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" '
          f'viewBox="0 0 {W} {H}">', DEFS, f'<rect width="{W}" height="{H}" fill="white"/>']
     NAVY, GREEN, ORANGE, BLUE, GREY = "#1f3a5f", "#2e8b57", "#c8701a", "#1f5f8b", "#8a97a6"
@@ -62,76 +62,71 @@ def fig1():
         label(0, y, t, 19, NAVY, bold=True)
         s.append(f'<line x1="0" y1="{y+10}" x2="{W}" y2="{y+10}" stroke="{LINE}" stroke-width="0.8" opacity="0.6"/>')
 
-    # ---------- row 1: what exists at the start of a crisis ----------
-    header(30, "AT THE START OF A CRISIS")
-    CW, CH, CY = 300, 130, 62
-    cards = [(0, "Published studies", BLUE, BLUE_BG, "numbers, variables, lags, thresholds"),
-             (340, "Context data", GREEN, GREEN_BG, "weather, air quality, wastewater"),
-             (680, "Outcomes of this episode", ORANGE, ORANGE_BG, "a few days, more each day")]
-    for x, title, col, bg, sub in cards:
+    # ---------- row 1: what is available when a crisis starts ----------
+    header(30, "WHAT IS AVAILABLE WHEN A CRISIS STARTS")
+    CW, CH, CY = 440, 150, 58
+    cards = [(0, "Published evidence", BLUE, BLUE_BG,
+              ["Parameter estimates and their uncertainty", "Predictors, lags, model types, thresholds", "From other settings and past events"]),
+             (480, "Context data", GREEN, GREEN_BG,
+              ["Weather, air quality and calendar effects", "Wastewater and surveillance indicators", "Often public or available through partners"]),
+             (960, "Local outcome candidates", ORANGE, ORANGE_BG,
+              ["Calls, ED visits, admissions, occupancy", "Chosen from what the data and the evidence allow", "Few, delayed or incomplete early in an episode"])]
+    for x, title, col, bg, lines in cards:
         s.append(box(x, CY, CW, CH, bg, col, 10, 2.2))
-        fits(title, 19, 280, True); label(x + CW/2, CY + 30, title, 19, col, "middle", True)
-        fits(sub, 14, 290); label(x + CW/2, CY + CH - 14, sub, 14, MUTE, "middle")
-    # glyphs: stack of pages, tall bars, one short bar then dashed placeholders
-    for k in range(3):
-        s.append(f'<rect x="{118 + k*6}" y="{CY + 48 + k*6}" width="54" height="32" rx="3" fill="white" stroke="{BLUE}" stroke-width="2"/>')
-    for k, hgt in enumerate([30, 42, 36, 46, 40]):
-        s.append(f'<rect x="{436 + k*22}" y="{CY + 100 - hgt}" width="16" height="{hgt}" fill="{GREEN}" opacity="{0.55 + 0.09*k}"/>')
-    s.append(f'<rect x="{778}" y="{CY + 86}" width="16" height="14" fill="{ORANGE}"/>')
-    s.append(f'<rect x="{802}" y="{CY + 92}" width="16" height="8" fill="{ORANGE}"/>')
-    for k in range(3):
-        s.append(f'<rect x="{826 + k*24}" y="{CY + 46}" width="16" height="54" fill="none" stroke="{ORANGE}" stroke-dasharray="4,3" stroke-width="1.5"/>')
-    s.append(box(1030, CY, 370, CH, GREY_BG, GREY, 10, 1.4))
-    label(1215, CY + 30, "What is known", 19, NAVY, "middle", True)
-    label(1215, CY + 60, "much from elsewhere and from the past", 15, MUTE, "middle")
-    label(1215, CY + 84, "much about today's conditions", 15, MUTE, "middle")
-    label(1215, CY + 108, "little about this episode's outcomes", 15, MUTE, "middle")
+        fits(title, 19, CW - 40, True); label(x + 20, CY + 36, title, 19, col, bold=True)
+        for i, ln in enumerate(lines):
+            fits(ln, 16, CW - 40); label(x + 20, CY + 70 + i * 27, ln, 16, INK if i < 2 else MUTE)
+    s.append(box(0, 228, W, 64, GREY_BG, GREY, 8, 1.2))
+    g1 = "The gap is rarely the context data. It is too little local outcome history to learn how context relates to this episode."
+    g2 = "The target is chosen before any model comparison, using registered criteria for relevance, access and data quality."
+    fits(g1, 17, W - 40, True); label(W/2, 255, g1, 17, NAVY, "middle", True)
+    fits(g2, 15, W - 40); label(W/2, 279, g2, 15, MUTE, "middle")
 
     # ---------- row 2: what HEADSTART does ----------
-    header(262, "WHAT HEADSTART DOES")
-    BY, BH, BW = 294, 110, 320
-    steps = [("WP1", "Extract and grade", "the published evidence", BLUE),
-             ("WP2", "Model the levels of", "pressure on the system", NAVY),
-             ("WP3", "Replay past crises", "with and without the evidence", NAVY),
-             ("WP4", "Measure the value", "for emergency decisions", NAVY)]
-    for k, (wp, l1, l2, col) in enumerate(steps):
+    header(340, "WHAT HEADSTART DOES")
+    BY, BH, BW = 372, 118, 320
+    steps = [("WP1", "Build evidence inputs", "Extract studies, assess uncertainty", "and relevance to the local setting", BLUE, BLUE_BG),
+             ("WP2", "Model levels of pressure", "Combine context and outcomes,", "estimate levels of system pressure", GREEN, GREEN_BG),
+             ("WP3", "Replay past episodes", "Compare two strategies with the", "same feeds and the same target", NAVY, GREY_BG),
+             ("WP4", "Test decision value", "Would a better forecast change", "a defensible operational decision?", ORANGE, ORANGE_BG)]
+    for k, (wp, l1, l2, l3, col, bg) in enumerate(steps):
         x = k * 360
-        s.append(box(x, BY, BW, BH, BLUE_BG if k == 0 else GREY_BG, col, 10, 2.2 if k == 0 else 1.4))
-        label(x + 20, BY + 42, wp, 22, col, bold=True)
-        fits(l1, 18.5, 220, True); label(x + 86, BY + 42, l1, 18.5, INK, bold=True)
-        fits(l2, 16, 250); label(x + 86, BY + 70, l2, 16, MUTE)
+        s.append(box(x, BY, BW, BH, bg, col, 10, 1.8))
+        label(x + 18, BY + 40, wp, 20, col, bold=True)
+        fits(l1, 17, 250, True); label(x + 68, BY + 40, l1, 17, col, bold=True)
+        fits(l2, 15, BW - 36); label(x + 18, BY + 72, l2, 15, INK)
+        fits(l3, 15, BW - 36); label(x + 18, BY + 96, l3, 15, INK)
         if k < 3:
             s.append(arrow(x + BW + 4, BY + BH/2, x + 356, BY + BH/2, MUTE))
-    # inputs feed the steps
-    s.append(arrow(150, CY + CH, 150, BY - 6, BLUE))
-    s.append(arrow(490, CY + CH, 760, BY - 6, GREEN))
-    s.append(arrow(830, CY + CH, 820, BY - 6, ORANGE))
 
-    # ---------- row 3: the test and where it runs ----------
-    header(474, "THE TEST")
-    px, py, pw, ph = 110, 506, 500, 150
+    # ---------- row 3: the test and the Geneva sequence ----------
+    header(540, "THE TEST (schematic hypothesis, not observed results)")
+    px, py, pw, ph = 135, 574, 490, 140
     s.append(f'<line x1="{px}" y1="{py+ph}" x2="{px+pw}" y2="{py+ph}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<line x1="{px}" y1="{py}" x2="{px}" y2="{py+ph}" stroke="{INK}" stroke-width="1.6"/>')
-    s.append(f'<path d="M {px+10} {py+32} C {px+170} {py+44} {px+360} {py+112} {px+pw-10} {py+132}" fill="none" stroke="{BLUE}" stroke-width="4"/>')
-    s.append(f'<path d="M {px+10} {py+138} C {px+150} {py+136} {px+360} {py+134} {px+pw-10} {py+132}" fill="none" stroke="{MUTE}" stroke-width="3" stroke-dasharray="7,6"/>')
-    label(px + pw + 14, py + 44, "with published evidence", 16, BLUE)
-    label(px + pw + 14, py + 138, "local data only", 16, MUTE)
-    label(px - 10, py + 8, "forecast skill", 15, MUTE, "end")
-    label(px, py + ph + 24, "crisis onset", 15, MUTE)
-    label(px + pw, py + ph + 24, "outcomes accumulate", 15, MUTE, "end")
+    s.append(f'<path d="M {px+10} {py+30} C {px+170} {py+42} {px+360} {py+104} {px+pw-10} {py+122}" fill="none" stroke="{BLUE}" stroke-width="4"/>')
+    s.append(f'<path d="M {px+10} {py+128} C {px+150} {py+126} {px+360} {py+124} {px+pw-10} {py+122}" fill="none" stroke="{MUTE}" stroke-width="3" stroke-dasharray="7,6"/>')
+    label(px + pw + 14, py + 42, "evidence-informed strategy", 16, BLUE)
+    label(px + pw + 14, py + 128, "reference strategy, local data only", 16, MUTE)
+    label(px - 10, py + 8, "forecast quality", 15, MUTE, "end")
+    label(px, py + ph + 24, "episode onset", 15, MUTE)
+    label(px + pw, py + ph + 24, "more outcomes observed", 15, MUTE, "end")
     label(px + pw/2, py + ph + 48, "each past episode replayed with only what was known at the time", 15, MUTE, "middle")
-    label(px + pw/2, py + ph + 70, "same data for both strategies, outcome and thresholds registered before any test", 15, MUTE, "middle")
+    label(px + pw/2, py + ph + 70, "same feeds and same target for both strategies", 15, MUTE, "middle")
 
-    label(880, 474, "WHERE", 19, NAVY, bold=True)
-    chips = [("Respiratory epidemics", "main test", BLUE), ("Heat events", "second test", NAVY),
-             ("Legionellosis", "third test, year 4", GREY)]
-    for k, (nm, sub, col) in enumerate(chips):
-        y = 496 + k * 58
+    label(880, 540, "THE GENEVA TEST SEQUENCE", 19, NAVY, bold=True)
+    chips = [("1", "Respiratory epidemics", "primary confirmatory test", BLUE),
+             ("2", "Heat events", "second test, always run", GREEN),
+             ("3", "Legionellosis", "third test, year 4", ORANGE)]
+    for k, (n, nm, sub, col) in enumerate(chips):
+        y = 566 + k * 56
         s.append(box(880, y, 520, 44, GREY_BG, col, 22, 1.8))
-        fits(nm, 18, 240, True); label(902, y + 29, nm, 18, col, bold=True)
-        fits(sub, 15, 230); label(1378, y + 29, sub, 15, MUTE, "end")
-    label(880, 696, "Geneva, with the emergency services", 15, MUTE)
-    label(880, 720, "dashboard in observation mode where authorised", 15, MUTE)
+        s.append(f'<circle cx="{906}" cy="{y+22}" r="13" fill="white" stroke="{col}" stroke-width="2"/>')
+        label(906, y + 27, n, 14, col, "middle", True)
+        fits(nm, 18, 220, True); label(930, y + 29, nm, 18, col, bold=True)
+        fits(sub, 14.5, 230); label(1378, y + 29, sub, 14.5, MUTE, "end")
+    label(880, 762, "Outcome, levels and thresholds registered before any test", 15, MUTE)
+    label(880, 786, "Dashboard in observation mode where authorised, never directs care", 15, MUTE)
     s.append("</svg>")
     (OUT / "fig1-framework.svg").write_text("\n".join(s), encoding="utf-8")
 

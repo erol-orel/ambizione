@@ -15,7 +15,7 @@ The central hypothesis is that published evidence can improve forecasts early in
 
 ![Framework](figures/fig1-framework.svg)
 
-*Figure 1. What exists at the start of a crisis, what HEADSTART does (WP1 to WP4), the test, and where it runs.*
+*Figure 1. What is available when a crisis starts, the gap, what HEADSTART does (WP1 to WP4), the test, and the Geneva test sequence.*
 
 #### O1. Make published evidence usable while acknowledging its uncertainties
 
