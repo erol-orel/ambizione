@@ -161,7 +161,7 @@ WPS = [
 ]
 MILESTONES = [(4, "MS1", "protocol and outcome candidates registered"),
               (9, "MS2", "manual benchmark released"),
-              (12, "MS3", "data check passed, pressure model checked"),
+              (12, "MS3", "data check passed, model works on simulated data"),
               (20, "MS4", "second registration, evidence inputs delivered"),
               (34, "MS5", "main respiratory test done"),
               (42, "MS6", "heat and legionellosis tests done"),
