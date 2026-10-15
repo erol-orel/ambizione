@@ -1078,3 +1078,8 @@ with Erol for decision before the letter is signed.
 - Summary: WP2 models the demand outcomes as levels of pressure, legionellosis evaluated separately as a case-count forecast at weekly or monthly resolution; WP4 "for the demand tests". T4.2: "WP3 demand forecasts", legionellosis case-count test outside the decision analysis. H1: correction validated if the median log-ratio of T1.3 moves closer to zero (spread ratio closer to one) and coverage improves at the pre-specified levels. Pages reported, not fitted.
 
 ## 15 Oct: eighth external audit (06:53 version): T1.3 duplicate definition removed (applied). Optional "pursue to signature" wording in 2.3.3 NOT applied (Erol's choice). Figures re-checked against the text: aligned, no change.
+
+## 15 Oct (later): status from Erol
+- Plan circulated to Olivia Keiser, Sara and Janne, comments requested by Sun 26 Oct (readers' deadline moves from 23 to 26 Oct).
+- Host confirmation letter (ISG, HEADSTART title) SIGNED by Olivia Keiser and Nicolas Ray.
+- Next: SNSF-portal CV, ORCID update, ethics declaration re-filed under the HEADSTART title, RGO form by Mon 19 Oct, plan sent to the RGO for relecture now (slot first come first served).
