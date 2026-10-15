@@ -45,18 +45,18 @@
 <text x="1240.0" y="468" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">a defensible operational decision?</text>
 <text x="0" y="540" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">THE TEST (schematic hypothesis, not observed results)</text>
 <line x1="0" y1="550" x2="1400" y2="550" stroke="#9a9a9a" stroke-width="0.8" opacity="0.6"/>
-<line x1="150" y1="714" x2="540" y2="714" stroke="#1a1a1a" stroke-width="1.6"/>
-<line x1="150" y1="574" x2="150" y2="714" stroke="#1a1a1a" stroke-width="1.6"/>
-<path d="M 160 598 C 300 608 480 686 530 712" fill="none" stroke="#1f5f8b" stroke-width="4"/>
+<line x1="150" y1="742" x2="540" y2="742" stroke="#1a1a1a" stroke-width="1.6"/>
+<line x1="150" y1="574" x2="150" y2="742" stroke="#1a1a1a" stroke-width="1.6"/>
+<path d="M 160 598 C 300 610 480 710 530 740" fill="none" stroke="#1f5f8b" stroke-width="4"/>
 <text x="140" y="582" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">skill score</text>
-<text x="140" y="718" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">0</text>
-<text x="150" y="738" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">episode onset</text>
-<text x="540" y="738" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">more outcomes observed</text>
-<text x="570" y="618" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f5f8b" text-anchor="start" font-weight="normal" font-style="normal">gain of the evidence-informed</text>
-<text x="570" y="640" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f5f8b" text-anchor="start" font-weight="normal" font-style="normal">strategy over the reference</text>
-<text x="570" y="674" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">largest at onset, fading as</text>
-<text x="570" y="696" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">local outcomes accumulate</text>
-<text x="570" y="718" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">(0 = no gain)</text>
+<text x="140" y="746" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">0</text>
+<text x="150" y="766" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">episode onset</text>
+<text x="540" y="766" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">more outcomes observed</text>
+<text x="570" y="630" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f5f8b" text-anchor="start" font-weight="normal" font-style="normal">gain of the evidence-informed</text>
+<text x="570" y="652" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1f5f8b" text-anchor="start" font-weight="normal" font-style="normal">strategy over the reference</text>
+<text x="570" y="692" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">largest at onset, fading as</text>
+<text x="570" y="714" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">local outcomes accumulate</text>
+<text x="570" y="736" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">(0 = no gain)</text>
 <text x="880" y="540" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">THE GENEVA TEST SEQUENCE</text>
 <rect x="880" y="566" width="520" height="44" rx="22" fill="#f3f5f7" stroke="#1f5f8b" stroke-width="1.8"/>
 <circle cx="906" cy="588" r="13" fill="white" stroke="#1f5f8b" stroke-width="2"/>
@@ -73,6 +73,6 @@
 <text x="906" y="705" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#c8701a" text-anchor="middle" font-weight="bold" font-style="normal">3</text>
 <text x="1043.78" y="707" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#c8701a" text-anchor="start" font-weight="bold" font-style="normal">Legionellosis</text>
 <text x="1190.82" y="707" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">third test</text>
-<text x="880" y="762" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Outcome, levels and thresholds registered before any test</text>
-<text x="880" y="786" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Dashboard in observation mode where authorised, never directs care</text>
+<text x="1140" y="762" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Outcome, levels and thresholds registered before any test</text>
+<text x="1140" y="786" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Dashboard in observation mode where authorised, never directs care</text>
 </g></svg>
