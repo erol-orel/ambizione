@@ -20,7 +20,7 @@ Automated extraction makes large-scale evidence synthesis possible, but numbers 
 
 Even a correctly extracted estimate may not apply locally, because populations, case definitions, service organisation and policy differ. Formal methods to assess transferability exist [Bareinboim 2016; Dahabreh 2020; Degtiar 2023], but they have not been combined with automated extraction, and their effect on forecasts at the start of a crisis has not been measured.
 
-### 2.1.3 Escalation of the demand for the service should also be assessed
+### 2.1.3 Forecast demand and levels of service pressure
 
 Emergency services need to know not only how many calls or visits to expect, but whether demand is heading for a level that calls for action. Surveillance research has used hidden Markov models to separate epidemic from non-epidemic periods [Le Strat 1999; Watkins 2009], and extreme-value methods describe rare peaks in demand [Coles 2001], including hospital congestion in Switzerland [Ranjbar 2022]. HEADSTART expresses its forecasts as ordered levels of pressure on the system, so that all candidate models can be compared on the same scale. The number of levels and their thresholds are taken first from the published definitions of outcomes and warning thresholds, and four levels (routine, elevated, strained, critical) are the default only where the literature is silent. Transmission models [Keeling 2008] are considered only for infectious crises, and heat is modelled through exposure and response. Rises in variance and in day-to-day correlation, which precede some transitions [Scheffer 2009] and have been studied in epidemics [O'Regan 2013; Brett 2018; Southall 2021], are tested as possible extra warning signs, not assumed to be reliable.
 

@@ -10,7 +10,7 @@ I lead all four work packages. Research assistants (master's students) provide t
 |---|---|---|
 | M1 | 9 | Extraction benchmark released |
 | M2 | 12 | Pressure model passes the identifiability checks, or fallback chosen |
-| M3 | 20 | Open-data benchmark running, service series harmonised (or fallback) |
+| M3 | 20 | Open-data benchmark complete, local outcome target selected and data harmonised, or access fallback activated |
 | M4 | 34 | Main hypothesis tested by the forecast comparison |
 | M5 | 40 | Decision relevance established |
 | M6 | 48 | Three crisis types analysed, dashboard running where authorised |
