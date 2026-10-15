@@ -24,6 +24,6 @@ The prototype lowers the development risk, since search, extraction and model se
 
 ### 2.2.5 The legionellosis study
 
-I carry out the full analysis of a cantonal study already under way (BASEC 2026-00324, ethics granted, PI Prof. Olivia Keiser) that links confirmed legionellosis cases in Geneva to individual domestic hot-water installations. These linked data are the basis of the third test, on legionellosis case incidence, in year four.
+I carry out the full analysis of a cantonal study already under way (BASEC 2026-00324, ethics granted, PI Prof. Olivia Keiser) that links confirmed legionellosis cases in Geneva to individual domestic hot-water installations. These linked data are the basis of the third test, on legionellosis case incidence, in year four. The dataset covers ten years of confirmed cases. Because cases are few, incidence is aggregated to monthly or, where counts allow, weekly series, and the forecast horizon is set accordingly at registration.
 
 Together these steps give me the methods for forecasting rare events, the evidence pipeline, and the Geneva and public-health context that HEADSTART needs.
