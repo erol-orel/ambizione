@@ -75,9 +75,9 @@ def fig1():
               ["Calls, ED visits, admissions, occupancy", "Chosen from what the data and the evidence allow", "Few, delayed or incomplete early in an episode"])]
     for x, title, col, bg, lines in cards:
         s.append(box(x, CY, CW, CH, bg, col, 10, 2.2))
-        fits(title, 19, CW - 40, True); label(x + 20, CY + 36, title, 19, col, bold=True)
+        fits(title, 19, CW - 40, True); label(x + CW/2, CY + 36, title, 19, col, "middle", True)
         for i, ln in enumerate(lines):
-            fits(ln, 16, CW - 40); label(x + 20, CY + 70 + i * 27, ln, 16, INK if i < 2 else MUTE)
+            fits(ln, 16, CW - 40); label(x + CW/2, CY + 70 + i * 27, ln, 16, INK if i < 2 else MUTE, "middle")
     s.append(box(0, 228, W, 64, GREY_BG, GREY, 8, 1.2))
     g1 = "The gap is rarely the context data. It is too little local outcome history to learn how context relates to this episode."
     g2 = "The target is chosen before any model comparison, using registered criteria for relevance, access and data quality."
@@ -94,10 +94,10 @@ def fig1():
     for k, (wp, l1, l2, l3, col, bg) in enumerate(steps):
         x = k * 360
         s.append(box(x, BY, BW, BH, bg, col, 10, 1.8))
-        label(x + 18, BY + 40, wp, 20, col, bold=True)
-        fits(l1, 17, 250, True); label(x + 68, BY + 40, l1, 17, col, bold=True)
-        fits(l2, 15, BW - 36); label(x + 18, BY + 72, l2, 15, INK)
-        fits(l3, 15, BW - 36); label(x + 18, BY + 96, l3, 15, INK)
+        head = f"{wp}  {l1}"
+        fits(head, 17, BW - 24, True); label(x + BW/2, BY + 40, head, 17, col, "middle", True)
+        fits(l2, 15, BW - 36); label(x + BW/2, BY + 72, l2, 15, INK, "middle")
+        fits(l3, 15, BW - 36); label(x + BW/2, BY + 96, l3, 15, INK, "middle")
         if k < 3:
             s.append(arrow(x + BW + 4, BY + BH/2, x + 356, BY + BH/2, MUTE))
 

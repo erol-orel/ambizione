@@ -5,48 +5,44 @@
 <text x="0" y="30" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WHAT IS AVAILABLE WHEN A CRISIS STARTS</text>
 <line x1="0" y1="40" x2="1400" y2="40" stroke="#9a9a9a" stroke-width="0.8" opacity="0.6"/>
 <rect x="0" y="58" width="440" height="150" rx="10" fill="#e8f0f7" stroke="#1f5f8b" stroke-width="2.2"/>
-<text x="20" y="94" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">Published evidence</text>
-<text x="20" y="128" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Parameter estimates and their uncertainty</text>
-<text x="20" y="155" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Predictors, lags, model types, thresholds</text>
-<text x="20" y="182" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">From other settings and past events</text>
+<text x="220.0" y="94" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">Published evidence</text>
+<text x="220.0" y="128" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">Parameter estimates and their uncertainty</text>
+<text x="220.0" y="155" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">Predictors, lags, model types, thresholds</text>
+<text x="220.0" y="182" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">From other settings and past events</text>
 <rect x="480" y="58" width="440" height="150" rx="10" fill="#eaf5ef" stroke="#2e8b57" stroke-width="2.2"/>
-<text x="500" y="94" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#2e8b57" text-anchor="start" font-weight="bold" font-style="normal">Context data</text>
-<text x="500" y="128" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Weather, air quality and calendar effects</text>
-<text x="500" y="155" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Wastewater and surveillance indicators</text>
-<text x="500" y="182" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Often public or available through partners</text>
+<text x="700.0" y="94" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#2e8b57" text-anchor="middle" font-weight="bold" font-style="normal">Context data</text>
+<text x="700.0" y="128" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">Weather, air quality and calendar effects</text>
+<text x="700.0" y="155" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">Wastewater and surveillance indicators</text>
+<text x="700.0" y="182" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Often public or available through partners</text>
 <rect x="960" y="58" width="440" height="150" rx="10" fill="#fdf3e6" stroke="#c8701a" stroke-width="2.2"/>
-<text x="980" y="94" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#c8701a" text-anchor="start" font-weight="bold" font-style="normal">Local outcome candidates</text>
-<text x="980" y="128" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Calls, ED visits, admissions, occupancy</text>
-<text x="980" y="155" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Chosen from what the data and the evidence allow</text>
-<text x="980" y="182" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Few, delayed or incomplete early in an episode</text>
+<text x="1180.0" y="94" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#c8701a" text-anchor="middle" font-weight="bold" font-style="normal">Local outcome candidates</text>
+<text x="1180.0" y="128" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">Calls, ED visits, admissions, occupancy</text>
+<text x="1180.0" y="155" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">Chosen from what the data and the evidence allow</text>
+<text x="1180.0" y="182" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Few, delayed or incomplete early in an episode</text>
 <rect x="0" y="228" width="1400" height="64" rx="8" fill="#f3f5f7" stroke="#8a97a6" stroke-width="1.2"/>
 <text x="700.0" y="255" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f3a5f" text-anchor="middle" font-weight="bold" font-style="normal">The gap is rarely the context data. It is too little local outcome history to learn how context relates to this episode.</text>
 <text x="700.0" y="279" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">The target is chosen before any model comparison, using registered criteria for relevance, access and data quality.</text>
 <text x="0" y="340" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WHAT HEADSTART DOES</text>
 <line x1="0" y1="350" x2="1400" y2="350" stroke="#9a9a9a" stroke-width="0.8" opacity="0.6"/>
 <rect x="0" y="372" width="320" height="118" rx="10" fill="#e8f0f7" stroke="#1f5f8b" stroke-width="1.8"/>
-<text x="18" y="412" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP1</text>
-<text x="68" y="412" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">Build evidence inputs</text>
-<text x="18" y="444" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Extract studies, assess uncertainty</text>
-<text x="18" y="468" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">and relevance to the local setting</text>
+<text x="160.0" y="412" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">WP1  Build evidence inputs</text>
+<text x="160.0" y="444" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">Extract studies, assess uncertainty</text>
+<text x="160.0" y="468" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">and relevance to the local setting</text>
 <line x1="324" y1="431.0" x2="356" y2="431.0" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
 <rect x="360" y="372" width="320" height="118" rx="10" fill="#eaf5ef" stroke="#2e8b57" stroke-width="1.8"/>
-<text x="378" y="412" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2e8b57" text-anchor="start" font-weight="bold" font-style="normal">WP2</text>
-<text x="428" y="412" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#2e8b57" text-anchor="start" font-weight="bold" font-style="normal">Model levels of pressure</text>
-<text x="378" y="444" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Combine context and outcomes,</text>
-<text x="378" y="468" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">estimate levels of system pressure</text>
+<text x="520.0" y="412" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#2e8b57" text-anchor="middle" font-weight="bold" font-style="normal">WP2  Model levels of pressure</text>
+<text x="520.0" y="444" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">Combine context and outcomes,</text>
+<text x="520.0" y="468" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">estimate levels of system pressure</text>
 <line x1="684" y1="431.0" x2="716" y2="431.0" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
 <rect x="720" y="372" width="320" height="118" rx="10" fill="#f3f5f7" stroke="#1f3a5f" stroke-width="1.8"/>
-<text x="738" y="412" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">WP3</text>
-<text x="788" y="412" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">Replay past episodes</text>
-<text x="738" y="444" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Compare two strategies with the</text>
-<text x="738" y="468" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">same feeds and the same target</text>
+<text x="880.0" y="412" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f3a5f" text-anchor="middle" font-weight="bold" font-style="normal">WP3  Replay past episodes</text>
+<text x="880.0" y="444" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">Compare two strategies with the</text>
+<text x="880.0" y="468" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">same feeds and the same target</text>
 <line x1="1044" y1="431.0" x2="1076" y2="431.0" stroke="#4e4e4e" stroke-width="2.2" marker-end="url(#a)"/>
 <rect x="1080" y="372" width="320" height="118" rx="10" fill="#fdf3e6" stroke="#c8701a" stroke-width="1.8"/>
-<text x="1098" y="412" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#c8701a" text-anchor="start" font-weight="bold" font-style="normal">WP4</text>
-<text x="1148" y="412" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#c8701a" text-anchor="start" font-weight="bold" font-style="normal">Test decision value</text>
-<text x="1098" y="444" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">Would a better forecast change</text>
-<text x="1098" y="468" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">a defensible operational decision?</text>
+<text x="1240.0" y="412" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#c8701a" text-anchor="middle" font-weight="bold" font-style="normal">WP4  Test decision value</text>
+<text x="1240.0" y="444" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">Would a better forecast change</text>
+<text x="1240.0" y="468" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="normal" font-style="normal">a defensible operational decision?</text>
 <text x="0" y="540" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#1f3a5f" text-anchor="start" font-weight="bold" font-style="normal">THE TEST (schematic hypothesis, not observed results)</text>
 <line x1="0" y1="550" x2="1400" y2="550" stroke="#9a9a9a" stroke-width="0.8" opacity="0.6"/>
 <line x1="135" y1="714" x2="625" y2="714" stroke="#1a1a1a" stroke-width="1.6"/>
