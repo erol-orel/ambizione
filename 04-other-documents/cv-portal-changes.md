@@ -15,7 +15,7 @@ record). Below, section by section, what to change and the text to paste.
 | Entry on the portal | Change |
 |---|---|
 | Research associate, UNIGE, 07.2019 - 12.2025 | End date is wrong, the position is ongoing. Set "ongoing" (no end date). Role: Senior Research Associate, Institute of Global Health. |
-| Lecturer / Reader, MAS en santé publique, 09.2025 - 06.2026 | The plan and the narrative say "since 2024". Which is right? If 2024, set the start to 09.2024 and "ongoing". If 2025, I change the plan and the CV draft to 2025 (three places). |
+| Lecturer / Reader, MAS en santé publique, 09.2025 - 06.2026 | Confirmed: since 2024. Set the start to 09.2024 and "ongoing". |
 | "-", Self-employed, 06.2014 - 05.2018 | Fill the role: Cofounder and data scientist, Market Intuitive Investment Managers, Geneva. |
 | missing | Add: Financial risk manager and senior quantitative analyst, Steenman Asset Management, Geneva, 2007 - 2014. |
 | missing | Add: Responsible for research, Service cantonal de recherche et d'information statistiques (SCRIS), Lausanne, 2007. |
@@ -53,7 +53,9 @@ CMI Communications; [5] Estill 2020 F1000Research 9:646; [6] Nwosu 2021 Nature C
 
 I conceived and built LiteRev with Aziza Merzouki and Olivia Keiser, a platform that searches
 the open literature from plain-language or Boolean queries, removes duplicates, maps the
-retrieved studies into topics and supports double screening with PRISMA accounting [1]. It grew
+retrieved studies into topics and supports double screening with PRISMA accounting. In its
+published evaluation it saved 56% of the screening work compared with a manual review (work saved
+over sampling) [1]. It grew
 out of a semi-automated review of HIV in Malawi [2]. The tool was funded by CHF 70,000 obtained
 with the group (UNIGE, Fondation Ernst et Lucie Schmidheiny, Venture Kick, Mimosa) and is used by
 other teams, including a systematic review of artificial intelligence in emergency medical
