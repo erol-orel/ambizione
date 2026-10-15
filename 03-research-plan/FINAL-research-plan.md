@@ -265,10 +265,10 @@ The project is based at the Institute of Global Health (ISG), Faculty of Medicin
 |---|---|---|---|
 | ISG, UNIGE | Prof. Olivia Keiser, contact person | Host institute | Hosting agreed, SNSF letters in preparation |
 | DS4DH, UNIGE | Prof. Douglas Teodoro | Biomedical text mining for WP1 | Letter of support signed |
-| HUG, emergency department | Prof. Thibaut Desmettre, head of department | ED and ICU data, clinical partner | Extraction in discussion, letter requested |
-| CASU-144, HUG | Dr Robert Larribau | Emergency-call data, clinical partner | Access held within GESICA, project agreement in preparation |
+| HUG, Service des urgences | Prof. Thibaut Desmettre, médecin-chef de service | ED and ICU data, clinical partner | Extraction in discussion, letter requested |
+| Unité urgences santé (144), HUG | Dr Robert Larribau, head of unit | Emergency-call data, clinical partner | Access held within GESICA, project agreement in preparation |
 | GESICA (Franco-Swiss) | Prof. Olivia Keiser (UNIGE PI), Prof. Douglas Teodoro (Swiss data inventory) | Surveillance inventory, data access, emergency-medicine partners | Running |
-| GeoAI4EI (Horizon Europe) | Prof. Olivia Keiser, PI | European epidemic-intelligence partners, exchange of methods | Running 2026–2030 |
+| GeoAI4EI (Horizon Europe) | Prof. Olivia Keiser, co-PI | European epidemic-intelligence partners, exchange of methods | Running 2026–2030 |
 | Médecin cantonal and SIG | | Legionellosis linked data | Secured, BASEC 2026-00324 |
 | Pharmacien cantonal | | Wastewater and pharmacy sales | Contacts established |
 | UNIGE HPC and secure data environment | | Computing | In place |
@@ -329,7 +329,7 @@ GESICA and GeoAI4EI build epidemic-intelligence and decision-support tools. HEAD
 
 LiteRev-Evidence can already turn published estimates into parameter distributions, but nobody has shown whether using them improves forecasts in a new setting. That question, the design that answers it and the confirmatory analyses are mine.
 
-Prof. Olivia Keiser, my contact person at the Institute, co-built LiteRev with me, leads the legionellosis study and is my PI in GESICA (respiratory diseases) and in GeoAI4EI (Horizon Europe). We also work together on the MAS in Public Health, where I have taught statistics and epidemiology since 2024. Prof. Douglas Teodoro (DS4DH) leads the data inventory of the Swiss part of GESICA and supports the text-mining work of WP1. HEADSTART is my own programme, hosted at the Institute of Global Health and led by me, with research assistants on defined technical tasks. By month 48, a validated answer and a first-author record will be the basis for leading a group or a professorship.
+Prof. Olivia Keiser, my contact person at the Institute, co-built LiteRev with me, leads the legionellosis study and is my PI in GESICA (respiratory diseases) and co-PI of GeoAI4EI (Horizon Europe). We also work together on the MAS in Public Health, where I have taught statistics and epidemiology since 2024. Prof. Douglas Teodoro (DS4DH) leads the data inventory of the Swiss part of GESICA and supports the text-mining work of WP1. HEADSTART is my own programme, hosted at the Institute of Global Health and led by me, with research assistants on defined technical tasks. By month 48, a validated answer and a first-author record will be the basis for leading a group or a professorship.
 
 
 # Bibliography
