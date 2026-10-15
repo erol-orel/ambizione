@@ -1,6 +1,6 @@
 ## 2.5 Relevance and impact
 
-If published evidence does not improve forecasts, that is still a useful result. It shows where using published estimates as model inputs adds little or carries too much risk, and spares modellers and evidence platforms an untested assumption.
+If published evidence does not improve forecasts, that is still a useful result. It shows where using published estimates as model inputs adds little or carries too much risk, and saves modellers and evidence platforms from an assumption that was never tested.
 
 Results are published in open-access journals, with preprints where appropriate. The extraction benchmark, the library of evidence-derived inputs, the code and, where open data are used, the forecasting benchmark are released as versioned, citable resources, and the findings go back to the participating services. The results and tools are also shared with GESICA and GeoAI4EI, which can carry them to the Franco-Swiss and European epidemic-intelligence networks.
 
@@ -8,7 +8,7 @@ The project will show whether outside evidence improves forecasts in the first w
 
 ## 2.6 Relevance for personal career development
 
-My academic path has moved from quantitative economics and financial risk modelling to biomedical research, prediction across settings and collaborative software development. I developed the modelling approach and the LiteRev-Evidence prototype, and contributed to mapping variables and data sources within existing collaborations. HEADSTART turns this experience into my own scientific question and a programme that I lead.
+My academic path has moved from quantitative economics and financial risk modelling to public health, prediction across settings and collaborative software development. I developed the modelling approach and the LiteRev-Evidence prototype, and contributed to mapping variables and data sources within existing collaborations. HEADSTART turns this experience into my own scientific question and a programme that I lead.
 
 | Programme                     | Objective                                                        | My role           | Distinction from Ambizione                           |
 |-------------------------------|------------------------------------------------------------------|-------------------|------------------------------------------------------|

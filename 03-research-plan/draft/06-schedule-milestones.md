@@ -10,7 +10,7 @@ I lead all four work packages. Research assistants (master's students) provide t
 |---|---|---|
 | MS1 | 4 | Extraction protocol and outcome candidates registered (first registration) |
 | MS2 | 9 | Manual benchmark released |
-| MS3 | 12 | Data gate passed, pressure model passes its checks (or fallbacks chosen) |
+| MS3 | 12 | Data check passed, pressure model checked, or fallbacks chosen |
 | MS4 | 20 | Second registration done, evidence inputs delivered |
 | MS5 | 34 | Main respiratory test done |
 | MS6 | 42 | Heat and legionellosis tests done |
