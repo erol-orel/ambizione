@@ -1,6 +1,6 @@
 ## 2.5 Relevance and impact
 
-If published evidence does not improve forecasts, that is still a useful result. It shows where using published estimates as model inputs adds little or carries too much risk.
+If published evidence does not improve forecasts, that is still a useful result. It shows where using published estimates as model inputs adds little or carries too much risk, and spares modellers and evidence platforms an untested assumption.
 
 Results are published in open-access journals, with preprints where appropriate. The extraction benchmark, the library of evidence-derived inputs, the code and, where open data are used, the forecasting benchmark are released as versioned, citable resources, and the findings go back to the participating services. The results and tools are also shared with GESICA and GeoAI4EI, which can carry them to the Franco-Swiss and European epidemic-intelligence networks.
 
@@ -8,13 +8,13 @@ The project will show whether outside evidence improves forecasts in the first w
 
 ## 2.6 Relevance for personal career development
 
-My path has moved from quantitative economics and financial risk modelling to biomedical research, prediction across settings and software development. I developed the modelling approach and the LiteRev-Evidence prototype, and contributed to mapping variables and data sources within existing collaborations. HEADSTART turns this into my own question and a programme that I lead.
+My academic path has moved from quantitative economics and financial risk modelling to biomedical research, prediction across settings and collaborative software development. I developed the modelling approach and the LiteRev-Evidence prototype, and contributed to mapping variables and data sources within existing collaborations. HEADSTART turns this experience into my own scientific question and a programme that I lead.
 
 | Programme                     | Objective                                                        | My role           | Distinction from Ambizione                           |
 |-------------------------------|------------------------------------------------------------------|-------------------|------------------------------------------------------|
 | GESICA                        | Franco-Swiss crisis intelligence                                 | Contributor, data sourcing for respiratory diseases | Decision support, no test of evidence-derived priors |
-| GeoAI4EI                      | European epidemic-intelligence toolbox                           | Contributor       | Infrastructure, no test of borrowed evidence         |
-| Legionellosis study           | Geneva waterborne outbreak determinants                          | Full analysis     | Supplies the data of the third test          |
+| GeoAI4EI (Horizon Europe)     | European epidemic-intelligence toolbox                           | Contributor       | Infrastructure, no test of borrowed evidence         |
+| Legionellosis study (ongoing) | Geneva waterborne outbreak determinants                          | Full analysis     | Supplies the data of the third test          |
 | Ambizione                 | When published evidence improves forecasts, and when it misleads | PI, full-time | -                                                   |
 
 GESICA and GeoAI4EI build epidemic-intelligence and decision-support tools. HEADSTART tests one thing they do not, whether published evidence is a sound input to forecasts.
