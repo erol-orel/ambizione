@@ -103,18 +103,18 @@ def fig1():
 
     # ---------- row 3: the test and the Geneva sequence ----------
     header(540, "THE TEST (schematic hypothesis, not observed results)")
-    px, py, pw, ph = 150, 574, 390, 168
+    px, py, pw, ph = 100, 574, 440, 186
     s.append(f'<line x1="{px}" y1="{py+ph}" x2="{px+pw}" y2="{py+ph}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<line x1="{px}" y1="{py}" x2="{px}" y2="{py+ph}" stroke="{INK}" stroke-width="1.6"/>')
-    s.append(f'<path d="M {px+10} {py+24} C {px+150} {py+36} {px+330} {py+136} {px+pw-10} {py+ph-2}" fill="none" stroke="{BLUE}" stroke-width="4"/>')
+    s.append(f'<path d="M {px+10} {py+24} C {px+170} {py+38} {px+370} {py+150} {px+pw-10} {py+ph-2}" fill="none" stroke="{BLUE}" stroke-width="4"/>')
     label(px - 10, py + 8, "skill score", 15, MUTE, "end")
     label(px - 10, py + ph + 4, "0", 15, MUTE, "end")
     label(px, py + ph + 24, "episode onset", 15, MUTE)
     label(px + pw, py + ph + 24, "more outcomes observed", 15, MUTE, "end")
     for i, ln in enumerate(["gain of the evidence-informed", "strategy over the reference"]):
-        fits(ln, 15, 280); label(px + pw + 30, py + 56 + i * 22, ln, 15, BLUE)
+        fits(ln, 15, 280); label(px + pw + 34, py + 62 + i * 22, ln, 15, BLUE)
     for i, ln in enumerate(["largest at onset, fading as", "local outcomes accumulate", "(0 = no gain)"]):
-        fits(ln, 15, 280); label(px + pw + 30, py + 118 + i * 22, ln, 15, MUTE)
+        fits(ln, 15, 280); label(px + pw + 34, py + 128 + i * 22, ln, 15, MUTE)
 
     label(880, 540, "THE GENEVA TEST SEQUENCE", 19, NAVY, bold=True)
     chips = [("1", "Respiratory epidemics", "primary confirmatory test", BLUE),
@@ -173,7 +173,7 @@ def fig2():
     L, R, TOP, ROW, GAP = 440, 30, 56, 25, 18
     W = 1200
     nrows = sum(len(w[4]) + 1 for w in WPS)
-    H = TOP + nrows * ROW + GAP * len(WPS) + 162
+    H = TOP + nrows * ROW + GAP * len(WPS) + 184
     span = W - L - R
 
     def mx(m):
@@ -218,12 +218,13 @@ def fig2():
         s.append(f'<polygon points="{x},{body_bottom+46} {x+7},{body_bottom+55} '
                  f'{x},{body_bottom+64} {x-7},{body_bottom+55}" fill="{ACCENT}"/>')
         s.append(text(x, body_bottom + 84, lab, 14.5, ACCENT, "middle", "bold"))
-    l1 = "Milestones.  " + " · ".join(f"{lab} {desc}" for _, lab, desc in MILESTONES[:3])
-    l2 = " · ".join(f"{lab} {desc}" for _, lab, desc in MILESTONES[3:5])
-    l3 = " · ".join(f"{lab} {desc}" for _, lab, desc in MILESTONES[5:])
-    for i, ln in enumerate([l1, l2, l3]):
-        assert len(ln) * 14 * 0.52 <= W, ln
-        s.append(text(0, body_bottom + 110 + i * 22, ln, 14, MUTE))
+    s.append(text(0, body_bottom + 110, "Milestones", 14, MUTE, weight="bold"))
+    cols = [MILESTONES[:4], MILESTONES[4:]]
+    for c, col in enumerate(cols):
+        for r, (_, lab, desc) in enumerate(col):
+            x, yy = 110 + c * 560, body_bottom + 110 + r * 22
+            s.append(text(x, yy, lab, 14, ACCENT, weight="bold"))
+            s.append(text(x + 40, yy, desc, 14, MUTE))
     s.append("</g></svg>")
     (OUT / "fig2-gantt.svg").write_text("\n".join(s))
 
