@@ -120,7 +120,7 @@ def fig1():
     label(880, 566, "THE GENEVA TEST SEQUENCE", 21, NAVY, bold=True)
     chips = [("1", "Respiratory epidemics", "primary confirmatory test", BLUE),
              ("2", "Heat events", "second test", GREEN),
-             ("3", "Legionellosis", "third test", ORANGE)]
+             ("3", "Legionellosis", "third test, case counts", ORANGE)]
     for k, (n, nm, sub, col) in enumerate(chips):
         y = 594 + k * 60
         s.append(box(880, y, 520, 48, GREY_BG, col, 24, 1.8))

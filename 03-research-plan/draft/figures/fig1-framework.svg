@@ -75,7 +75,7 @@
 <circle cx="908" cy="738" r="14" fill="white" stroke="#c8701a" stroke-width="2"/>
 <text x="908" y="743" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#c8701a" text-anchor="middle" font-weight="bold" font-style="normal">3</text>
 <text x="934" y="745" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#c8701a" text-anchor="start" font-weight="bold" font-style="normal">Legionellosis</text>
-<text x="1378" y="745" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">third test</text>
+<text x="1378" y="745" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#4e4e4e" text-anchor="end" font-weight="normal" font-style="normal">third test, case counts</text>
 <text x="1140" y="798" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Outcome, levels and thresholds registered before any test</text>
 <text x="1140" y="824" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Dashboard for validated demand tests, where authorised</text>
 </g></svg>
