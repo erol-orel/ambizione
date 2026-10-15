@@ -8,7 +8,7 @@ The project will show whether outside evidence improves forecasts in the first w
 
 ## 2.6 Relevance for personal career development
 
-My academic path has moved from quantitative economics and financial risk modelling to biomedical research, prediction across settings and collaborative software development. I built the methods, the prototype and the data relationships that make this project feasible, mostly inside existing programmes. HEADSTART gives me my own scientific question and a programme that I lead.
+My academic path has moved from quantitative economics and financial risk modelling to biomedical research, prediction across settings and collaborative software development. I developed the modelling approach and the LiteRev-Evidence prototype, and contributed to mapping variables and data sources within existing collaborations. HEADSTART turns this experience into my own scientific question and a programme that I lead.
 
 | Programme                     | Objective                                                        | My role           | Distinction from Ambizione                           |
 |-------------------------------|------------------------------------------------------------------|-------------------|------------------------------------------------------|
