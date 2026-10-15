@@ -103,16 +103,18 @@ def fig1():
 
     # ---------- row 3: the test and the Geneva sequence ----------
     header(540, "THE TEST (schematic hypothesis, not observed results)")
-    px, py, pw, ph = 135, 574, 490, 140
+    px, py, pw, ph = 150, 574, 390, 140
     s.append(f'<line x1="{px}" y1="{py+ph}" x2="{px+pw}" y2="{py+ph}" stroke="{INK}" stroke-width="1.6"/>')
     s.append(f'<line x1="{px}" y1="{py}" x2="{px}" y2="{py+ph}" stroke="{INK}" stroke-width="1.6"/>')
-    s.append(f'<path d="M {px+10} {py+30} C {px+170} {py+40} {px+360} {py+92} {px+pw-10} {py+106}" fill="none" stroke="{BLUE}" stroke-width="4"/>')
-    s.append(f'<path d="M {px+10} {py+132} C {px+150} {py+131} {px+360} {py+120} {px+pw-10} {py+106}" fill="none" stroke="{MUTE}" stroke-width="3" stroke-dasharray="7,6"/>')
-    label(px + pw + 14, py + 42, "evidence-informed strategy", 16, BLUE)
-    label(px + pw + 14, py + 132, "reference strategy, local data only", 16, MUTE)
-    label(px - 10, py + 8, "forecast quality", 15, MUTE, "end")
+    s.append(f'<path d="M {px+10} {py+24} C {px+150} {py+34} {px+330} {py+112} {px+pw-10} {py+ph-2}" fill="none" stroke="{BLUE}" stroke-width="4"/>')
+    label(px - 10, py + 8, "skill score", 15, MUTE, "end")
+    label(px - 10, py + ph + 4, "0", 15, MUTE, "end")
     label(px, py + ph + 24, "episode onset", 15, MUTE)
     label(px + pw, py + ph + 24, "more outcomes observed", 15, MUTE, "end")
+    for i, ln in enumerate(["gain of the evidence-informed", "strategy over the reference"]):
+        fits(ln, 15, 280); label(px + pw + 30, py + 44 + i * 22, ln, 15, BLUE)
+    for i, ln in enumerate(["largest at onset, fading as", "local outcomes accumulate", "(0 = no gain)"]):
+        fits(ln, 15, 280); label(px + pw + 30, py + 100 + i * 22, ln, 15, MUTE)
 
     label(880, 540, "THE GENEVA TEST SEQUENCE", 19, NAVY, bold=True)
     chips = [("1", "Respiratory epidemics", "primary confirmatory test", BLUE),
