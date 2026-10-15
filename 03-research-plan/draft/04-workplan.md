@@ -12,7 +12,7 @@ For each crisis type, a systematic review run under the registered protocol iden
 
 ##### T1.3. Measure the errors of automated extraction (M7–M14)
 
-The automated extraction is compared with the manual benchmark on four things, the values themselves, their uncertainty, the numbers it missed, and how much studies differ from each other. The main measure for H1 is simple. For each kind of parameter, the main measure for H1 is the median log-ratio of the standard deviations of the automated and manual distributions, by parameter class. A value below zero, which is a ratio below one, means the automated distribution is too narrow. Uncertainty inside studies and differences between studies are tracked separately and together, and repeated for each extraction model version.
+The automated extraction is compared with the manual benchmark on four things, the values themselves, their uncertainty, the numbers it missed, and how much studies differ from each other. For each parameter class, the main measure for H1 is the median log-ratio of the standard deviations of the automated and manual distributions. A value below zero means the automated distribution is narrower. Uncertainty inside studies and differences between studies are tracked separately and together, and the analysis is repeated for each extraction model version.
 
 ##### T1.4. Turn the numbers into distributions with their uncertainty (M12–M18)
 
