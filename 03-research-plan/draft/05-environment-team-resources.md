@@ -16,7 +16,7 @@ The project is based at the Institute of Global Health (ISG), Faculty of Medicin
 | UNIGE HPC and secure data environment | | Computing | In place |
 | Open public series | | Surveillance, wastewater, deaths, weather | Public |
 
-The ED and ICU extraction and the project-specific CASU-144 agreement are not yet secured. Each rests on an existing working relationship.
+The ED and ICU extraction and the project-specific CASU-144 agreement are not yet secured. Each rests on an existing relationship.
 
 Project funds are capped at CHF 250,000 over four years, and my salary is separate. The budget entered in mySNF gives the detailed cost calculation.
 

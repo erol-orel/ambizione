@@ -106,11 +106,11 @@ A structured elicitation (SHELF method) with two to five experienced people from
 
 ##### T4.2. Judge the forecasts by the decisions they trigger (M30–M40)
 
-The WP3 forecasts are re-assessed on the decisions they would trigger, with net-benefit and decision-curve methods, to see whether the ranking of the models changes once the costs of wrong decisions are counted. Calibration and threshold performance are also checked across age and sex where the selected data and the group sizes allow. A model that is well calibrated overall but poor for a group that matters for decisions does not pass.
+The WP3 forecasts are re-assessed on the decisions they would trigger, with net-benefit and decision-curve methods, to see whether the ranking of the models changes once the costs of wrong decisions are counted. Calibration and threshold performance are also checked across age and sex where the selected data and the group sizes allow. A model that is well calibrated overall but poor for a group that matters does not pass.
 
 ##### T4.3. Dashboard and living updates (M34–M48)
 
-For the demand tests that pass the forecast and decision checks and that the services authorise, the project runs a daily dashboard in observation mode. It publishes forecasts, level probabilities and validity checks, records its outputs and scores them as outcomes arrive, and it does not direct clinical care. New studies are checked daily, and full syntheses are refreshed on a registered schedule [Elliott 2014]. Any change to priors, variables, thresholds or model choice is version-controlled and applied only under pre-registered rules. Without authorisation, the retrospective evaluation and the update protocol remain the deliverables.
+For the demand tests that pass the forecast and decision checks and that the services authorise, the project runs a daily dashboard in observation mode. It publishes forecasts, level probabilities and validity checks, records its outputs and scores them as outcomes arrive, and it does not direct clinical care. New studies are checked daily, and full syntheses are refreshed on a registered schedule [Elliott 2014]. Any change to priors, variables, thresholds or model choice is version-controlled and applied only under pre-registered rules. Without authorisation, the retrospective evaluation and the update protocol are the deliverables.
 
 Deliverables are D4.1 (cost structure and fairness audit), D4.2 (decision-analytic evaluation) and D4.3 (the update protocol and, where authorised, the dashboard).
 

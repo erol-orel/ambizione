@@ -40,7 +40,7 @@ Published studies offer more than parameter values. They suggest which variables
 
 Automated extraction makes large-scale evidence synthesis possible, but numbers are extracted less reliably than categories (reported accuracy roughly 47–88% against 74–96%), and omissions make up a large share of the errors [14]. HEADSTART tests whether these errors understate uncertainty in a systematic way and whether a measurement-error model can correct them.
 
-Even a correctly extracted estimate may not apply locally, because populations, case definitions, service organisation and policy differ. Formal methods to assess transferability exist [15–17], but they have not been combined with automated extraction, and their effect on forecasts at the start of a crisis has not been measured.
+Even a correctly extracted estimate may not apply locally, because populations, case definitions, service organisation and policy differ. Formal methods to assess transferability exist [15–17], but they have not been combined with automated extraction or tested on forecasts at the start of a crisis.
 
 ### 2.1.3 Forecast demand and levels of service pressure
 
@@ -244,11 +244,11 @@ A structured elicitation (SHELF method) with two to five experienced people from
 
 ##### T4.2. Judge the forecasts by the decisions they trigger (M30–M40)
 
-The WP3 forecasts are re-assessed on the decisions they would trigger, with net-benefit and decision-curve methods, to see whether the ranking of the models changes once the costs of wrong decisions are counted. Calibration and threshold performance are also checked across age and sex where the selected data and the group sizes allow. A model that is well calibrated overall but poor for a group that matters for decisions does not pass.
+The WP3 forecasts are re-assessed on the decisions they would trigger, with net-benefit and decision-curve methods, to see whether the ranking of the models changes once the costs of wrong decisions are counted. Calibration and threshold performance are also checked across age and sex where the selected data and the group sizes allow. A model that is well calibrated overall but poor for a group that matters does not pass.
 
 ##### T4.3. Dashboard and living updates (M34–M48)
 
-For the demand tests that pass the forecast and decision checks and that the services authorise, the project runs a daily dashboard in observation mode. It publishes forecasts, level probabilities and validity checks, records its outputs and scores them as outcomes arrive, and it does not direct clinical care. New studies are checked daily, and full syntheses are refreshed on a registered schedule [13]. Any change to priors, variables, thresholds or model choice is version-controlled and applied only under pre-registered rules. Without authorisation, the retrospective evaluation and the update protocol remain the deliverables.
+For the demand tests that pass the forecast and decision checks and that the services authorise, the project runs a daily dashboard in observation mode. It publishes forecasts, level probabilities and validity checks, records its outputs and scores them as outcomes arrive, and it does not direct clinical care. New studies are checked daily, and full syntheses are refreshed on a registered schedule [13]. Any change to priors, variables, thresholds or model choice is version-controlled and applied only under pre-registered rules. Without authorisation, the retrospective evaluation and the update protocol are the deliverables.
 
 Deliverables are D4.1 (cost structure and fairness audit), D4.2 (decision-analytic evaluation) and D4.3 (the update protocol and, where authorised, the dashboard).
 
@@ -275,7 +275,7 @@ The project is based at the Institute of Global Health (ISG), Faculty of Medicin
 | UNIGE HPC and secure data environment | | Computing | In place |
 | Open public series | | Surveillance, wastewater, deaths, weather | Public |
 
-The ED and ICU extraction and the project-specific CASU-144 agreement are not yet secured. Each rests on an existing working relationship.
+The ED and ICU extraction and the project-specific CASU-144 agreement are not yet secured. Each rests on an existing relationship.
 
 Project funds are capped at CHF 250,000 over four years, and my salary is separate. The budget entered in mySNF gives the detailed cost calculation.
 
@@ -291,7 +291,7 @@ Before month 1 and outside the grant, I will finalise the data agreements with H
 
 ## 2.4 Schedule and milestones
 
-I lead all four work packages. Research assistants (master's students) provide the second extraction arm from months 3 to 9 and support data handling and the evaluation pipeline. The work packages run in parallel with fallbacks. WP2 can use weakly informative distributions if extraction error proves too large, and the retrospective decision analysis of WP4 does not depend on live deployment. Open Swiss data are the fallback if no local series can be obtained, so access agreements remain a priority before the award.
+I lead all four work packages. Research assistants (master's students) provide the second extraction arm from months 3 to 9 and support data handling and the evaluation pipeline. The work packages run in parallel with fallbacks. WP2 can use weakly informative distributions if extraction error proves too large, and the retrospective decision analysis of WP4 does not depend on live deployment. Open Swiss data are the fallback if no local series can be obtained, so access agreements come first.
 
 ![Work plan](figures/fig2-gantt.svg)
 
@@ -299,18 +299,18 @@ I lead all four work packages. Research assistants (master's students) provide t
 
 | Milestone | Month | Criterion |
 |---|---|---|
-| MS1 | 4 | Extraction protocol and outcome candidates registered (first registration) |
+| MS1 | 4 | Protocol and outcome candidates registered |
 | MS2 | 9 | Manual benchmark released |
-| MS3 | 12 | Data gate passed, pressure model passes its checks (or fallbacks chosen) |
+| MS3 | 12 | Data gate passed, pressure model checked or fallback chosen |
 | MS4 | 20 | Second registration done, evidence inputs delivered |
 | MS5 | 34 | Main respiratory test done |
 | MS6 | 42 | Heat and legionellosis tests done |
-| MS7 | 48 | Decision value measured, dashboard for the validated demand tests where authorised, all results reported |
+| MS7 | 48 | Decision value measured, dashboard for validated demand tests, results reported |
 
 
 ## 2.5 Relevance and impact
 
-If published evidence does not improve forecasts, that is still a useful result. It shows where using published estimates as model inputs adds little or carries too much risk, and spares modellers and evidence platforms an untested assumption.
+If published evidence does not improve forecasts, that is still a useful result. It shows where using published estimates as model inputs adds little or carries too much risk.
 
 Results are published in open-access journals, with preprints where appropriate. The extraction benchmark, the library of evidence-derived inputs, the code and, where open data are used, the forecasting benchmark are released as versioned, citable resources, and the findings go back to the participating services. The results and tools are also shared with GESICA and GeoAI4EI, which can carry them to the Franco-Swiss and European epidemic-intelligence networks.
 
@@ -318,13 +318,13 @@ The project will show whether outside evidence improves forecasts in the first w
 
 ## 2.6 Relevance for personal career development
 
-My academic path has moved from quantitative economics and financial risk modelling to biomedical research, prediction across settings and collaborative software development. I developed the modelling approach and the LiteRev-Evidence prototype, and contributed to mapping variables and data sources within existing collaborations. HEADSTART turns this experience into my own scientific question and a programme that I lead.
+My path has moved from quantitative economics and financial risk modelling to biomedical research, prediction across settings and software development. I developed the modelling approach and the LiteRev-Evidence prototype, and contributed to mapping variables and data sources within existing collaborations. HEADSTART turns this into my own question and a programme that I lead.
 
 | Programme                     | Objective                                                        | My role           | Distinction from Ambizione                           |
 |-------------------------------|------------------------------------------------------------------|-------------------|------------------------------------------------------|
 | GESICA                        | Franco-Swiss crisis intelligence                                 | Contributor, data sourcing for respiratory diseases | Decision support, no test of evidence-derived priors |
-| GeoAI4EI (Horizon Europe)     | European epidemic-intelligence toolbox                           | Contributor       | Infrastructure, no test of borrowed evidence         |
-| Legionellosis study (ongoing) | Geneva waterborne outbreak determinants                          | Full analysis     | Supplies the data of the third test          |
+| GeoAI4EI                      | European epidemic-intelligence toolbox                           | Contributor       | Infrastructure, no test of borrowed evidence         |
+| Legionellosis study           | Geneva waterborne outbreak determinants                          | Full analysis     | Supplies the data of the third test          |
 | Ambizione                 | When published evidence improves forecasts, and when it misleads | PI, full-time | -                                                   |
 
 GESICA and GeoAI4EI build epidemic-intelligence and decision-support tools. HEADSTART tests one thing they do not, whether published evidence is a sound input to forecasts.

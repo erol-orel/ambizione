@@ -18,7 +18,7 @@ Published studies offer more than parameter values. They suggest which variables
 
 Automated extraction makes large-scale evidence synthesis possible, but numbers are extracted less reliably than categories (reported accuracy roughly 47–88% against 74–96%), and omissions make up a large share of the errors [Shankar 2026]. HEADSTART tests whether these errors understate uncertainty in a systematic way and whether a measurement-error model can correct them.
 
-Even a correctly extracted estimate may not apply locally, because populations, case definitions, service organisation and policy differ. Formal methods to assess transferability exist [Bareinboim 2016; Dahabreh 2020; Degtiar 2023], but they have not been combined with automated extraction, and their effect on forecasts at the start of a crisis has not been measured.
+Even a correctly extracted estimate may not apply locally, because populations, case definitions, service organisation and policy differ. Formal methods to assess transferability exist [Bareinboim 2016; Dahabreh 2020; Degtiar 2023], but they have not been combined with automated extraction or tested on forecasts at the start of a crisis.
 
 ### 2.1.3 Forecast demand and levels of service pressure
 
