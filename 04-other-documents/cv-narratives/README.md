@@ -32,8 +32,8 @@ on the MAS in Public Health since 2024, mentoring within GESICA, and the researc
 grant would fund. Do not pad it. A short, honest Module 2 that names the trajectory reads better
 than a long one that inflates a co-authorship into mentorship.
 
-`[[Confirm: have you formally or informally co-supervised any master's or doctoral students?
-Anything real here strengthens Module 2 substantially and should replace my hedged wording.]]`
+Confirmed 15 Oct: eight MAS theses supervised since 2024 (completed or ongoing) and about six
+junior researchers mentored. Written into Module 2.
 
 ## Threads that should run through all four
 

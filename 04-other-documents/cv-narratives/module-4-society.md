@@ -6,7 +6,7 @@
 
 ---
 
-**Evidence for cantonal public health, with funding I raised.** Since 2025 I have led the data
+**Evidence for cantonal public health, with funding I helped secure.** Since 2025 I have led the data
 work on a study linking confirmed legionellosis cases in Geneva to individual domestic hot water
 installations, with technical, meteorological and territorial covariates. The question is
 practical and current: Switzerland is lowering hot water temperatures to meet energy targets,
@@ -16,12 +16,12 @@ records, and constructing a linkage that to my knowledge exists nowhere else. Et
 granted (BASEC 2026-00324), and the results and prioritisation tool go to the cantonal doctor to
 support surveillance and prevention planning.
 
-What I would highlight is not the analysis but the assembly. The study is funded by three
-partners I approached and convinced - **Services Industriels de Genève, the Office cantonal de
-l'énergie, and the Service du Médecin Cantonal** - spanning a utility, an energy regulator and a
-public health authority, each with different reasons to care and different constraints. Bringing
-them to a common protocol, and satisfying the data-protection requirements of all three, was most
-of the work. `[[Confirm the total figure - approximately CHF 90,000.]]`
+What I would highlight is not the analysis but the assembly. The study is funded by partners
+with different reasons to care and different constraints - **Services Industriels de Genève and
+the Office cantonal de l'énergie** (CHF 30,000 each, obtained), with a further CHF 30,000
+requested from the **Service du Médecin Cantonal** - a utility, an energy regulator and a public
+health authority. I co-wrote the funding applications. Bringing the partners to a common protocol,
+and satisfying the data-protection requirements of all three, was most of the work.
 
 **Emergency preparedness with the people who respond.** Through GESICA I work directly with HUG
 emergency medicine and the Geneva emergency response system on decision support for health

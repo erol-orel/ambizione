@@ -47,16 +47,15 @@ tertiary center. *CMI Communications* 2024.
 **5.** Ng'ambi W, Estill J, Keiser O, Merzouki FA, **Orel E**.
 Machine learning-based classification of self-reported cardiovascular disease history in Africa
 using harmonised multi-country WHO STEPS surveys: 2014–2019.
-**Accepted for publication.** `[[Venue, year, DOI once assigned]]`
-> *Contribution:* **Last (senior) author.** `[[State the actual role in one precise line - e.g.
-> supervised the machine-learning methodology and analysis design, guided the revision.]]`
+**Accepted for publication in *BMC Global and Public Health*, 2026.** Preprint: medRxiv, doi:10.64898/2026.02.23.26346870
+> *Contribution:* **Last (senior) author.** Supervised the statistical analysis and the code.
 > Senior-authoring the work of the first author marks the transition from contributing to
 > collaborative analyses to directing them.
 
 **6.** Edjinedja KL, Larribau R, **Orel E**, Cossus J, Elfahim O, Yendouname K, Vaussenat F,
 Teodoro D, Robert-Nicoud S, Barakat O, Desmettre T.
 Artificial intelligence in emergency medical services for disasters and health emergencies:
-a systematic review. `[[Submitted 2026 - update status and venue]]`
+a systematic review. Submitted to *Machine Learning and Knowledge Extraction*, 2026.
 > *Contribution:* Third author. Provided the methodological infrastructure (LiteRev, used in the
 > published methods to structure the review corpus) and guided its application through
 > screening and clustering, working with the doctoral researcher leading the review.
@@ -67,15 +66,14 @@ a systematic review. `[[Submitted 2026 - update status and venue]]`
 Mimbe E, Stoll B, Guillebert J, Comte E, Keiser O, Ciaffi L.
 SARS-CoV-2 antibody seroprevalence and associated risk factors in an urban district in Cameroon.
 *Nature Communications* 2021;12:5851. doi:10.1038/s41467-021-25946-0
-> *Contribution:* `[[State your specific role - statistical analysis? risk factor modelling?
-> One precise line is worth more than the author position, and this is your highest-visibility
-> venue.]]`
+> *Contribution:* Senior statistician mentoring the analysis team, including the sample size
+> calculation and the analysis plan.
 
 **8.** Estill J, Venkova-Marchevska P, Roelens M, **Orel E**, Temerev A, Flahault A, Keiser O.
 Future scenarios for the SARS-CoV-2 epidemic in Switzerland: an age-structured model.
-*F1000Research* 2020;9.
-> *Contribution:* `[[Specify - model implementation? scenario design?]]` Contributed to
-> age-structured scenario modelling produced for Swiss pandemic planning under time pressure.
+*F1000Research* 2020;9:646. doi:10.12688/f1000research.24497.2
+> *Contribution:* Collaborated on the analysis and the coding of the age-structured scenario
+> model produced for Swiss pandemic planning under time pressure.
 
 ## Module 4: Impact beyond the scientific community (2)
 
@@ -83,8 +81,7 @@ Future scenarios for the SARS-CoV-2 epidemic in Switzerland: an age-structured m
 Research resource, 2020–2021.
 > *Contribution:* Designed and built the dashboard (R Markdown) used for regional situational
 > awareness across the WHO African Region during the pandemic.
-> `[[If a URL, report or archived version exists, cite it - an output a reviewer cannot see is
-> hard to credit.]]`
+> The dashboard is no longer online, no public archive exists.
 
 **10. Orel E** (data lead), Keiser O (project leader).
 Legionellosis in Geneva: modelling of risk factors, geospatial and temporal analysis, and
@@ -92,8 +89,8 @@ development of a predictive tool. Study protocol and linked dataset, BASEC 2026-
 cantonale d'éthique de la recherche, Geneva, 2026.
 > *Contribution:* Designed and built the linkage between the cantonal legionellosis case registry
 > and individual hot water installation records - a dataset with no equivalent elsewhere - and
-> secured funding from Services Industriels de Genève, the Office cantonal de l'énergie and the
-> Service du Médecin Cantonal. `[[~CHF 90,000 - confirm.]]`
+> co-wrote the funding applications (CHF 30,000 each from Services Industriels de Genève and the
+> Office cantonal de l'énergie, CHF 30,000 requested from the Service du Médecin Cantonal).
 
 ---
 

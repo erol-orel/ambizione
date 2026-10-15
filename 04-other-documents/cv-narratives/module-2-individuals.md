@@ -13,9 +13,7 @@ enable other people's research.
 
 **Senior authorship.** I am last author on a machine-learning classification of self-reported
 cardiovascular disease history across harmonised multi-country WHO STEPS surveys (2014–2019), led
-by Wingston Ng'ambi and **accepted for publication**. `[[One sentence on what the role actually
-involved - supervising the methodology and analysis design, guiding the revision - in your own
-words; a reviewer reads a senior-author claim against its description.]]` It is the first paper in
+by Wingston Ng'ambi and **accepted for publication**. I supervised the statistical analysis and the code. It is the first paper in
 which my role was to direct another researcher's analysis rather than to conduct my own, and it
 marks the transition this grant would consolidate.
 
@@ -40,9 +38,10 @@ working alongside the first author through the screening and clustering stages. 
 usable by someone else, in their project rather than mine, is a form of contribution I value and
 intend to keep prioritising.
 
-`[[If you have co-supervised any master's students, interns or research assistants - formally or
-informally - name them and what they worked on. Even one concrete instance adds to this module,
-and it is the kind of thing people routinely forget to count.]]`
+**Supervision.** Since 2024 I have supervised eight MAS theses, completed or ongoing, on
+applied statistics and epidemiology questions brought by the students from their own services,
+and I have mentored about six junior researchers at the Institute, research assistants and
+interns, in data management and analysis.
 
 **Collaborative practice.** Within the GESICA consortium I work across an unusually
 heterogeneous team - emergency physicians, dispatch clinicians, computer scientists, engineers

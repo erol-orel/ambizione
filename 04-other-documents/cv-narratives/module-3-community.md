@@ -36,10 +36,8 @@ planned around open software and an openly released benchmark dataset. My view i
 where methods are the contribution, an unusable method is not really a contribution - a position
 that comes from working in an industry where a model nobody could run was a model nobody used.
 
-**Peer review and scientific exchange.** `[[Add specifics: journals you review for, conference
-programme committees, seminar organisation, editorial roles. This paragraph is currently the
-weakest in the module and it is easy to fix from your own records - reviewing invitations tend to
-live in email rather than on the CV.]]` I have presented this work at scientific meetings
+**Peer review and scientific exchange.** I review occasionally for Springer and PLOS journals,
+less often than I am asked, and I give priority to reviews in my own methods area. I have presented this work at scientific meetings
 including BioTechX Europe, the International Workshop on HIV Observational Databases, the UNIGE
 Data Science Day and a CODATA/DDI Alliance workshop.
 
