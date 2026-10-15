@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1256" height="899" viewBox="0 0 1256 899">
+<svg xmlns="http://www.w3.org/2000/svg" width="1256" height="921" viewBox="0 0 1256 921">
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4e4e4e"/></marker></defs>
-<rect width="1256" height="899" fill="white"/>
+<rect width="1256" height="921" fill="white"/>
 <g transform="translate(28,28)">
 <text x="531.25" y="38" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 1</text>
 <rect x="622.5" y="48" width="182.5" height="655" fill="#f7f8fa"/>
@@ -69,24 +69,28 @@
 <rect x="896.25" y="640" width="152.08333333333348" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
 <text x="52" y="678" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T4.3 Dashboard and living updates</text>
 <rect x="957.0833333333334" y="665" width="212.91666666666663" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<line x1="500.8333333333333" y1="48" x2="500.8333333333333" y2="703" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
+<polygon points="500.8333333333333,749 507.8333333333333,758 500.8333333333333,767 493.8333333333333,758" fill="#1f5f8b"/>
+<text x="500.8333333333333" y="787" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">MS1</text>
 <line x1="576.875" y1="48" x2="576.875" y2="703" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
 <polygon points="576.875,749 583.875,758 576.875,767 569.875,758" fill="#1f5f8b"/>
-<text x="576.875" y="787" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M1</text>
+<text x="576.875" y="787" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">MS2</text>
 <line x1="622.5" y1="48" x2="622.5" y2="703" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
 <polygon points="622.5,749 629.5,758 622.5,767 615.5,758" fill="#1f5f8b"/>
-<text x="622.5" y="787" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M2</text>
+<text x="622.5" y="787" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">MS3</text>
 <line x1="744.1666666666667" y1="48" x2="744.1666666666667" y2="703" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
 <polygon points="744.1666666666667,749 751.1666666666667,758 744.1666666666667,767 737.1666666666667,758" fill="#1f5f8b"/>
-<text x="744.1666666666667" y="787" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M3</text>
+<text x="744.1666666666667" y="787" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">MS4</text>
 <line x1="957.0833333333334" y1="48" x2="957.0833333333334" y2="703" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
 <polygon points="957.0833333333334,749 964.0833333333334,758 957.0833333333334,767 950.0833333333334,758" fill="#1f5f8b"/>
-<text x="957.0833333333334" y="787" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M4</text>
-<line x1="1048.3333333333335" y1="48" x2="1048.3333333333335" y2="703" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
-<polygon points="1048.3333333333335,749 1055.3333333333335,758 1048.3333333333335,767 1041.3333333333335,758" fill="#1f5f8b"/>
-<text x="1048.3333333333335" y="787" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M5</text>
+<text x="957.0833333333334" y="787" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">MS5</text>
+<line x1="1078.75" y1="48" x2="1078.75" y2="703" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
+<polygon points="1078.75,749 1085.75,758 1078.75,767 1071.75,758" fill="#1f5f8b"/>
+<text x="1078.75" y="787" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">MS6</text>
 <line x1="1170.0" y1="48" x2="1170.0" y2="703" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
 <polygon points="1170.0,749 1177.0,758 1170.0,767 1163.0,758" fill="#1f5f8b"/>
-<text x="1170.0" y="787" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M6</text>
-<text x="0" y="813" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Milestones.  M1 manual benchmark released · M2 model checked, data gate · M3 open-data benchmark, outcome chosen</text>
-<text x="0" y="835" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">M4 main test done · M5 decision value measured · M6 three tests done, dashboard</text>
+<text x="1170.0" y="787" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">MS7</text>
+<text x="0" y="813" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Milestones.  MS1 protocol and outcome candidates registered · MS2 manual benchmark released · MS3 data gate passed, pressure model checked</text>
+<text x="0" y="835" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">MS4 second registration, open-data benchmark done · MS5 main respiratory test done</text>
+<text x="0" y="857" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">MS6 heat and legionellosis tests done · MS7 decision value measured, dashboard running</text>
 </g></svg>

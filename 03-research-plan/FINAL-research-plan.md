@@ -298,12 +298,13 @@ I lead all four work packages. Research assistants (master's students) provide t
 
 | Milestone | Month | Criterion |
 |---|---|---|
-| M1 | 9 | Manual benchmark released |
-| M2 | 12 | Pressure model passes its checks (or fallback chosen), data gate passed |
-| M3 | 20 | Open-data benchmark complete, outcome chosen and data ready (or access fallback) |
-| M4 | 34 | Main test done |
-| M5 | 40 | Decision value measured |
-| M6 | 48 | Three tests done, dashboard running where authorised |
+| MS1 | 4 | Extraction protocol and outcome candidates registered (first registration) |
+| MS2 | 9 | Manual benchmark released |
+| MS3 | 12 | Data gate passed, pressure model passes its checks (or fallbacks chosen) |
+| MS4 | 20 | Second registration done, open-data benchmark complete, evidence inputs delivered |
+| MS5 | 34 | Main respiratory test done |
+| MS6 | 42 | Heat and legionellosis tests done |
+| MS7 | 48 | Decision value measured, dashboard running where authorised, all results reported |
 
 
 ## 2.5 Relevance and impact

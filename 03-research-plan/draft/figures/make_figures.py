@@ -125,8 +125,10 @@ def fig1():
         s.append(box(880, y, 520, 44, GREY_BG, col, 22, 1.8))
         s.append(f'<circle cx="{906}" cy="{y+22}" r="13" fill="white" stroke="{col}" stroke-width="2"/>')
         label(906, y + 27, n, 14, col, "middle", True)
-        fits(nm, 18, 220, True); label(930, y + 29, nm, 18, col, bold=True)
-        fits(sub, 14.5, 230); label(1378, y + 29, sub, 14.5, MUTE, "end")
+        wn, ws = len(nm) * 18 * 0.56, len(sub) * 14.5 * 0.52
+        x0 = 930 + (450 - (wn + 16 + ws)) / 2
+        label(x0, y + 29, nm, 18, col, bold=True)
+        label(x0 + wn + 16, y + 29, sub, 14.5, MUTE)
     label(880, 762, "Outcome, levels and thresholds registered before any test", 15, MUTE)
     label(880, 786, "Dashboard in observation mode where authorised, never directs care", 15, MUTE)
     s.append("</g></svg>")
@@ -158,16 +160,20 @@ WPS = [
         ("T4.2 Judge forecasts by the decisions", 30, 40),
         ("T4.3 Dashboard and living updates", 34, 48)]),
 ]
-MILESTONES = [(9, "M1", "manual benchmark released"), (12, "M2", "model checked, data gate"),
-              (20, "M3", "open-data benchmark, outcome chosen"), (34, "M4", "main test done"),
-              (40, "M5", "decision value measured"), (48, "M6", "three tests done, dashboard")]
+MILESTONES = [(4, "MS1", "protocol and outcome candidates registered"),
+              (9, "MS2", "manual benchmark released"),
+              (12, "MS3", "data gate passed, pressure model checked"),
+              (20, "MS4", "second registration, open-data benchmark done"),
+              (34, "MS5", "main respiratory test done"),
+              (42, "MS6", "heat and legionellosis tests done"),
+              (48, "MS7", "decision value measured, dashboard running")]
 
 
 def fig2():
     L, R, TOP, ROW, GAP = 440, 30, 56, 25, 18
     W = 1200
     nrows = sum(len(w[4]) + 1 for w in WPS)
-    H = TOP + nrows * ROW + GAP * len(WPS) + 140
+    H = TOP + nrows * ROW + GAP * len(WPS) + 162
     span = W - L - R
 
     def mx(m):
@@ -211,11 +217,13 @@ def fig2():
                  f'stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>')
         s.append(f'<polygon points="{x},{body_bottom+46} {x+7},{body_bottom+55} '
                  f'{x},{body_bottom+64} {x-7},{body_bottom+55}" fill="{ACCENT}"/>')
-        s.append(text(x, body_bottom + 84, lab, 16.5, ACCENT, "middle", "bold"))
+        s.append(text(x, body_bottom + 84, lab, 14.5, ACCENT, "middle", "bold"))
     l1 = "Milestones.  " + " · ".join(f"{lab} {desc}" for _, lab, desc in MILESTONES[:3])
-    l2 = " · ".join(f"{lab} {desc}" for _, lab, desc in MILESTONES[3:])
-    s.append(text(0, body_bottom + 110, l1, 14, MUTE))
-    s.append(text(0, body_bottom + 132, l2, 14, MUTE))
+    l2 = " · ".join(f"{lab} {desc}" for _, lab, desc in MILESTONES[3:5])
+    l3 = " · ".join(f"{lab} {desc}" for _, lab, desc in MILESTONES[5:])
+    for i, ln in enumerate([l1, l2, l3]):
+        assert len(ln) * 14 * 0.52 <= W, ln
+        s.append(text(0, body_bottom + 110 + i * 22, ln, 14, MUTE))
     s.append("</g></svg>")
     (OUT / "fig2-gantt.svg").write_text("\n".join(s))
 
