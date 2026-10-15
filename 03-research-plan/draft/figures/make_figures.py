@@ -132,40 +132,40 @@ def fig1():
 
 
 WPS = [
-    ("WP1", 1, 20, [
+    ("WP1", "Evidence and model inputs", 1, 20, [
         ("T1.1 Evidence target and protocol", 1, 4),
         ("T1.2 Manual extraction benchmark", 3, 9),
         ("T1.3 Automated extraction error", 7, 14),
         ("T1.4 Evidence distributions", 12, 18),
         ("T1.5 Transportability screen", 15, 20)]),
-    ("WP2", 1, 28, [
+    ("WP2", "Model demand and pressure", 1, 28, [
         ("T2.1 Pressure model and identifiability", 1, 9),
         ("T2.2 Critical tail", 6, 14),
         ("T2.3 Evidence in the parameters", 10, 20),
         ("T2.4 Resilience indicators", 12, 20),
         ("T2.5 Calibration and automation", 20, 28)]),
-    ("WP3", 1, 42, [
+    ("WP3", "Historical forecast test", 1, 42, [
         ("T3.0 Outcomes, data gate, registration", 1, 14),
         ("T3.1 Assemble the data", 12, 20),
         ("T3.2 Replay with past information only", 18, 30),
         ("T3.3 Model library and confirmatory tests", 20, 34),
         ("T3.4 Map benefit and failure", 28, 38),
         ("T3.5 Heat and legionellosis tests", 34, 42)]),
-    ("WP4", 24, 48, [
+    ("WP4", "Decision value and deployment", 24, 48, [
         ("T4.1 Elicit costs and thresholds", 24, 32),
         ("T4.2 Decision analysis and fairness", 30, 40),
         ("T4.3 Dashboard and living updates", 34, 48)]),
 ]
 MILESTONES = [(9, "M1", "benchmark released"), (12, "M2", "model passes, data gate"),
-              (20, "M3", "open-data benchmark"), (34, "M4", "main test done"),
+              (20, "M3", "open-data benchmark, target chosen"), (34, "M4", "main test done"),
               (40, "M5", "decision value"), (48, "M6", "three tests, dashboard")]
 
 
 def fig2():
-    L, R, TOP, ROW, GAP = 420, 30, 56, 25, 16
+    L, R, TOP, ROW, GAP = 440, 30, 56, 25, 18
     W = 1200
-    nrows = sum(len(w[3]) for w in WPS)
-    H = TOP + nrows * ROW + GAP * len(WPS) + 92
+    nrows = sum(len(w[4]) + 1 for w in WPS)
+    H = TOP + nrows * ROW + GAP * len(WPS) + 118
     span = W - L - R
 
     def mx(m):
@@ -184,11 +184,16 @@ def fig2():
         x = mx(yr * 12)
         s.append(f'<line x1="{x}" y1="{TOP-8}" x2="{x}" y2="{body_bottom}" '
                  f'stroke="{LINE}" stroke-width="0.9" stroke-dasharray="3,4"/>')
+        s.append(text(x, body_bottom + 20, str(yr * 12), 14, MUTE, "middle"))
+    s.append(text(mx(24), body_bottom + 38, "project month", 14, MUTE, "middle"))
 
     y = TOP
-    for code, a, b, tasks in WPS:
-        s.append(text(0, y + 18, code, 18, ACCENT, weight="bold"))
-        s.append(box(mx(a), y + 20, mx(b) - mx(a), 5, ACCENT, ACCENT, 2, 0))
+    for code, title, a, b, tasks in WPS:
+        assert len(f"{code}  {title}") * 17 * 0.56 <= L - 20, title
+        s.append(text(0, y + 18, code, 17, ACCENT, weight="bold"))
+        s.append(text(52, y + 18, title, 17, ACCENT, weight="bold"))
+        s.append(box(mx(a), y + 8, mx(b) - mx(a), 7, ACCENT, ACCENT, 2, 0))
+        y += ROW
         for tname, ta, tb in tasks:
             assert len(tname) * 16 * 0.52 <= L - 60, tname
             s.append(text(52, y + 18, tname, 16, INK))
@@ -200,11 +205,12 @@ def fig2():
         x = mx(m)
         s.append(f'<line x1="{x}" y1="{TOP-8}" x2="{x}" y2="{body_bottom}" stroke="{ACCENT}" '
                  f'stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>')
-        s.append(f'<polygon points="{x},{body_bottom+6} {x+7},{body_bottom+15} '
-                 f'{x},{body_bottom+24} {x-7},{body_bottom+15}" fill="{ACCENT}"/>')
-        s.append(text(x, body_bottom + 44, lab, 16.5, ACCENT, "middle", "bold"))
-    legend = "  ·  ".join(f"{lab} {desc}" for _, lab, desc in MILESTONES)
-    s.append(text(0, body_bottom + 78, "Milestones.  " + legend, 14.5, MUTE))
+        s.append(f'<polygon points="{x},{body_bottom+46} {x+7},{body_bottom+55} '
+                 f'{x},{body_bottom+64} {x-7},{body_bottom+55}" fill="{ACCENT}"/>')
+        s.append(text(x, body_bottom + 84, lab, 16.5, ACCENT, "middle", "bold"))
+    legend = " · ".join(f"{lab} {desc}" for _, lab, desc in MILESTONES)
+    assert len("Milestones.  " + legend) * 13.5 * 0.5 <= W, legend
+    s.append(text(0, body_bottom + 110, "Milestones.  " + legend, 13.5, MUTE))
     s.append("</svg>")
     (OUT / "fig2-gantt.svg").write_text("\n".join(s))
 

@@ -1,80 +1,90 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="687" viewBox="0 0 1200 687">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="821" viewBox="0 0 1200 821">
 <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#4e4e4e"/></marker></defs>
-<rect width="1200" height="687" fill="white"/>
-<text x="513.75" y="38" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 1</text>
-<rect x="607.5" y="48" width="187.5" height="547" fill="#f7f8fa"/>
-<text x="701.25" y="38" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 2</text>
-<text x="888.75" y="38" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 3</text>
-<rect x="982.5" y="48" width="187.5" height="547" fill="#f7f8fa"/>
-<text x="1076.25" y="38" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 4</text>
-<line x1="420.0" y1="48" x2="420.0" y2="595" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
-<line x1="607.5" y1="48" x2="607.5" y2="595" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
-<line x1="795.0" y1="48" x2="795.0" y2="595" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
-<line x1="982.5" y1="48" x2="982.5" y2="595" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
-<line x1="1170.0" y1="48" x2="1170.0" y2="595" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
-<text x="0" y="74" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP1</text>
-<rect x="435.625" y="76" width="296.875" height="5" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
-<text x="52" y="74" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.1 Evidence target and protocol</text>
-<rect x="435.625" y="61" width="46.875" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="52" y="99" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.2 Manual extraction benchmark</text>
-<rect x="466.875" y="86" width="93.75" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="52" y="124" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.3 Automated extraction error</text>
-<rect x="529.375" y="111" width="109.375" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="52" y="149" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.4 Evidence distributions</text>
-<rect x="607.5" y="136" width="93.75" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="52" y="174" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.5 Transportability screen</text>
-<rect x="654.375" y="161" width="78.125" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="0" y="215" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP2</text>
-<rect x="435.625" y="217" width="421.875" height="5" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
-<text x="52" y="215" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.1 Pressure model and identifiability</text>
-<rect x="435.625" y="202" width="125.0" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="52" y="240" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.2 Critical tail</text>
-<rect x="513.75" y="227" width="125.0" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="52" y="265" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.3 Evidence in the parameters</text>
-<rect x="576.25" y="252" width="156.25" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="52" y="290" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.4 Resilience indicators</text>
-<rect x="607.5" y="277" width="125.0" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="52" y="315" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.5 Calibration and automation</text>
-<rect x="732.5" y="302" width="125.0" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="0" y="356" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP3</text>
-<rect x="435.625" y="358" width="640.625" height="5" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
-<text x="52" y="356" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.0 Outcomes, data gate, registration</text>
-<rect x="435.625" y="343" width="203.125" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="52" y="381" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.1 Assemble the data</text>
-<rect x="607.5" y="368" width="125.0" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="52" y="406" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.2 Replay with past information only</text>
-<rect x="701.25" y="393" width="187.5" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="52" y="431" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.3 Model library and confirmatory tests</text>
-<rect x="732.5" y="418" width="218.75" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="52" y="456" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.4 Map benefit and failure</text>
-<rect x="857.5" y="443" width="156.25" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="52" y="481" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.5 Heat and legionellosis tests</text>
-<rect x="951.25" y="468" width="125.0" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="0" y="522" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP4</text>
-<rect x="795.0" y="524" width="375.0" height="5" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
-<text x="52" y="522" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T4.1 Elicit costs and thresholds</text>
-<rect x="795.0" y="509" width="125.0" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="52" y="547" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T4.2 Decision analysis and fairness</text>
-<rect x="888.75" y="534" width="156.25" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<text x="52" y="572" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T4.3 Dashboard and living updates</text>
-<rect x="951.25" y="559" width="218.75" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
-<line x1="560.625" y1="48" x2="560.625" y2="595" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
-<polygon points="560.625,601 567.625,610 560.625,619 553.625,610" fill="#1f5f8b"/>
-<text x="560.625" y="639" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M1</text>
-<line x1="607.5" y1="48" x2="607.5" y2="595" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
-<polygon points="607.5,601 614.5,610 607.5,619 600.5,610" fill="#1f5f8b"/>
-<text x="607.5" y="639" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M2</text>
-<line x1="732.5" y1="48" x2="732.5" y2="595" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
-<polygon points="732.5,601 739.5,610 732.5,619 725.5,610" fill="#1f5f8b"/>
-<text x="732.5" y="639" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M3</text>
-<line x1="951.25" y1="48" x2="951.25" y2="595" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
-<polygon points="951.25,601 958.25,610 951.25,619 944.25,610" fill="#1f5f8b"/>
-<text x="951.25" y="639" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M4</text>
-<line x1="1045.0" y1="48" x2="1045.0" y2="595" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
-<polygon points="1045.0,601 1052.0,610 1045.0,619 1038.0,610" fill="#1f5f8b"/>
-<text x="1045.0" y="639" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M5</text>
-<line x1="1170.0" y1="48" x2="1170.0" y2="595" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
-<polygon points="1170.0,601 1177.0,610 1170.0,619 1163.0,610" fill="#1f5f8b"/>
-<text x="1170.0" y="639" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M6</text>
-<text x="0" y="673" font-family="Helvetica, Arial, sans-serif" font-size="14.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Milestones.  M1 benchmark released  ·  M2 model passes, data gate  ·  M3 open-data benchmark  ·  M4 main test done  ·  M5 decision value  ·  M6 three tests, dashboard</text>
+<rect width="1200" height="821" fill="white"/>
+<text x="531.25" y="38" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 1</text>
+<rect x="622.5" y="48" width="182.5" height="655" fill="#f7f8fa"/>
+<text x="713.75" y="38" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 2</text>
+<text x="896.25" y="38" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 3</text>
+<rect x="987.5" y="48" width="182.5" height="655" fill="#f7f8fa"/>
+<text x="1078.75" y="38" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">Year 4</text>
+<line x1="440.0" y1="48" x2="440.0" y2="703" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
+<text x="440.0" y="723" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">0</text>
+<line x1="622.5" y1="48" x2="622.5" y2="703" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
+<text x="622.5" y="723" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">12</text>
+<line x1="805.0" y1="48" x2="805.0" y2="703" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
+<text x="805.0" y="723" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">24</text>
+<line x1="987.5" y1="48" x2="987.5" y2="703" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
+<text x="987.5" y="723" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">36</text>
+<line x1="1170.0" y1="48" x2="1170.0" y2="703" stroke="#9a9a9a" stroke-width="0.9" stroke-dasharray="3,4"/>
+<text x="1170.0" y="723" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">48</text>
+<text x="805.0" y="741" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4e4e4e" text-anchor="middle" font-weight="normal" font-style="normal">project month</text>
+<text x="0" y="74" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP1</text>
+<text x="52" y="74" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">Evidence and model inputs</text>
+<rect x="455.2083333333333" y="64" width="288.9583333333334" height="7" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
+<text x="52" y="99" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.1 Evidence target and protocol</text>
+<rect x="455.2083333333333" y="86" width="45.625" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="52" y="124" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.2 Manual extraction benchmark</text>
+<rect x="485.625" y="111" width="91.25" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="52" y="149" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.3 Automated extraction error</text>
+<rect x="546.4583333333334" y="136" width="106.45833333333337" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="52" y="174" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.4 Evidence distributions</text>
+<rect x="622.5" y="161" width="91.25" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="52" y="199" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T1.5 Transportability screen</text>
+<rect x="668.125" y="186" width="76.04166666666674" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="0" y="242" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP2</text>
+<text x="52" y="242" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">Model demand and pressure</text>
+<rect x="455.2083333333333" y="232" width="410.62500000000006" height="7" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
+<text x="52" y="267" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.1 Pressure model and identifiability</text>
+<rect x="455.2083333333333" y="254" width="121.66666666666669" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="52" y="292" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.2 Critical tail</text>
+<rect x="531.25" y="279" width="121.66666666666674" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="52" y="317" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.3 Evidence in the parameters</text>
+<rect x="592.0833333333334" y="304" width="152.08333333333337" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="52" y="342" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.4 Resilience indicators</text>
+<rect x="622.5" y="329" width="121.66666666666674" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="52" y="367" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T2.5 Calibration and automation</text>
+<rect x="744.1666666666667" y="354" width="121.66666666666663" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="0" y="410" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP3</text>
+<text x="52" y="410" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">Historical forecast test</text>
+<rect x="455.2083333333333" y="400" width="623.5416666666667" height="7" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
+<text x="52" y="435" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.0 Outcomes, data gate, registration</text>
+<rect x="455.2083333333333" y="422" width="197.70833333333343" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="52" y="460" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.1 Assemble the data</text>
+<rect x="622.5" y="447" width="121.66666666666674" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="52" y="485" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.2 Replay with past information only</text>
+<rect x="713.75" y="472" width="182.5" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="52" y="510" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.3 Model library and confirmatory tests</text>
+<rect x="744.1666666666667" y="497" width="212.91666666666663" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="52" y="535" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.4 Map benefit and failure</text>
+<rect x="865.8333333333334" y="522" width="152.08333333333326" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="52" y="560" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T3.5 Heat and legionellosis tests</text>
+<rect x="957.0833333333334" y="547" width="121.66666666666663" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="0" y="603" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">WP4</text>
+<text x="52" y="603" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#1f5f8b" text-anchor="start" font-weight="bold" font-style="normal">Decision value and deployment</text>
+<rect x="805.0" y="593" width="365.0" height="7" rx="2" fill="#1f5f8b" stroke="#1f5f8b" stroke-width="0"/>
+<text x="52" y="628" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T4.1 Elicit costs and thresholds</text>
+<rect x="805.0" y="615" width="121.66666666666663" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="52" y="653" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T4.2 Decision analysis and fairness</text>
+<rect x="896.25" y="640" width="152.08333333333348" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<text x="52" y="678" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#1a1a1a" text-anchor="start" font-weight="normal" font-style="normal">T4.3 Dashboard and living updates</text>
+<rect x="957.0833333333334" y="665" width="212.91666666666663" height="17" rx="3" fill="#f3f3f3" stroke="#9a9a9a" stroke-width="1.4"/>
+<line x1="576.875" y1="48" x2="576.875" y2="703" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
+<polygon points="576.875,749 583.875,758 576.875,767 569.875,758" fill="#1f5f8b"/>
+<text x="576.875" y="787" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M1</text>
+<line x1="622.5" y1="48" x2="622.5" y2="703" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
+<polygon points="622.5,749 629.5,758 622.5,767 615.5,758" fill="#1f5f8b"/>
+<text x="622.5" y="787" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M2</text>
+<line x1="744.1666666666667" y1="48" x2="744.1666666666667" y2="703" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
+<polygon points="744.1666666666667,749 751.1666666666667,758 744.1666666666667,767 737.1666666666667,758" fill="#1f5f8b"/>
+<text x="744.1666666666667" y="787" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M3</text>
+<line x1="957.0833333333334" y1="48" x2="957.0833333333334" y2="703" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
+<polygon points="957.0833333333334,749 964.0833333333334,758 957.0833333333334,767 950.0833333333334,758" fill="#1f5f8b"/>
+<text x="957.0833333333334" y="787" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M4</text>
+<line x1="1048.3333333333335" y1="48" x2="1048.3333333333335" y2="703" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
+<polygon points="1048.3333333333335,749 1055.3333333333335,758 1048.3333333333335,767 1041.3333333333335,758" fill="#1f5f8b"/>
+<text x="1048.3333333333335" y="787" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M5</text>
+<line x1="1170.0" y1="48" x2="1170.0" y2="703" stroke="#1f5f8b" stroke-width="1.4" stroke-dasharray="4,4" opacity="0.6"/>
+<polygon points="1170.0,749 1177.0,758 1170.0,767 1163.0,758" fill="#1f5f8b"/>
+<text x="1170.0" y="787" font-family="Helvetica, Arial, sans-serif" font-size="16.5" fill="#1f5f8b" text-anchor="middle" font-weight="bold" font-style="normal">M6</text>
+<text x="0" y="813" font-family="Helvetica, Arial, sans-serif" font-size="13.5" fill="#4e4e4e" text-anchor="start" font-weight="normal" font-style="normal">Milestones.  M1 benchmark released · M2 model passes, data gate · M3 open-data benchmark, target chosen · M4 main test done · M5 decision value · M6 three tests, dashboard</text>
 </svg>

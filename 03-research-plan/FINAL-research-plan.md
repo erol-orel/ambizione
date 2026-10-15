@@ -166,7 +166,7 @@ Risk and mitigation. If manual extraction time is limited, the benchmark narrows
 
 #### WP2. Model levels of health-system pressure (M1–M28)
 
-##### T2.1. Specify and identify the state model (M1–M9)
+##### T2.1. Specify and identify the pressure model (M1–M9)
 
 The model follows how pressure on the system moves between ordered levels, for example routine, elevated, strained and critical, and gives the probability of each level for each day. It is a Bayesian regime-switching model [42]. Its main input is the registered outcome, with other outcomes such as emergency-department visits and ICU occupancy added when access allows. Weather, air quality, calendar effects and epidemic indicators are the explanatory variables. The model is first tested on simulated data to check that it can find the levels and the moves between them, also with a single data series. If it cannot, a simpler ordinal model is used. The number of levels and their thresholds are fixed at registration, from the literature where it gives usable definitions. Otherwise four default levels are set on seasonal percentiles (routine below the 75th, elevated to the 90th, strained to the 97.5th or when capacity is under sustained pressure, with ICU occupancy above 85% or emergency-department boarding above its seasonal 90th percentile, and critical above the 97.5th or when capacity is saturated). The highest level that applies counts. These thresholds guide the model and are not hard cut-offs. Experts can later refine what each level means for decisions, not the definitions used in the main test.
 
@@ -192,7 +192,7 @@ Deliverables are D2.1 (model specification and identifiability study), D2.2 (ope
 
 Risk and mitigation. If the states cannot be separated reliably, the registered ordinal model is used and the identifiability limit is reported.
 
-#### WP3. Test forecasts using historically available information (M12–M42)
+#### WP3. Test forecasts using historically available information (M1–M42)
 
 ##### T3.0. Outcomes, data gate and episode eligibility (M1–M14)
 
@@ -238,7 +238,7 @@ Risk and mitigation. Access to operational records may be delayed. Agreements ar
 
 #### WP4. From predictive skill to operational value (M24–M48)
 
-##### T4.1. Elicit operational losses and thresholds (M24–M32)
+##### T4.1. Elicit costs and thresholds (M24–M32)
 
 A structured elicitation (SHELF method) with two to five experienced people from HUG emergency medicine, CASU-144 regulation and capacity management puts numbers on the cost of escalating too early, too late or for nothing. The decision thresholds come from these costs. The exercise sets transparent thresholds and is not a representative survey. The decision studied is fixed in advance, namely escalating surge capacity when the forecast probability of the upper levels (strained or critical in the default scheme) passes the threshold. Models that forecast counts rather than levels are converted to the same level probabilities by a registered rule.
 
@@ -299,7 +299,7 @@ I lead all four work packages. Research assistants (master's students) provide t
 | Milestone | Month | Criterion |
 |---|---|---|
 | M1 | 9 | Extraction benchmark released |
-| M2 | 12 | Pressure model passes the identifiability checks, or fallback chosen |
+| M2 | 12 | Pressure model passes the identifiability checks or fallback chosen, data gate checked |
 | M3 | 20 | Open-data benchmark complete, local outcome target selected and data harmonised, or access fallback activated |
 | M4 | 34 | Main hypothesis tested by the forecast comparison |
 | M5 | 40 | Decision relevance established |

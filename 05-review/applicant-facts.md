@@ -1043,3 +1043,5 @@ with Erol for decision before the letter is signed.
 - Result: 15 pages (page 15 has 28 lines), ~47,700 chars, 45 references, 0 em-dashes, 0 colons/semicolons in prose.
 
 ## 15 Oct: Figure 1 enriched with the content of Erol's own figure (three-line cards, gap banner, WP descriptions, schematic-hypothesis note, numbered Geneva test sequence with "always run" and "year 4"), same style and spacing; caption updated. Bibliographies of the two versions compared: identical 45 entries, his has the two conformal-prediction references that were cut on 15 Oct.
+
+## 15 Oct: Figure 2 enriched (WP titles from Erol's figure, month axis 0-48, milestone legend) and aligned with the text: WP3 span corrected in the text to M1-M42 (T3.0 starts at M1), T2.1 heading "pressure model", T4.1 heading "Elicit costs and thresholds", M2 criterion adds "data gate checked". All task months in the figure equal the task headings.
