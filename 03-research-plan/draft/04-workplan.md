@@ -104,7 +104,7 @@ A structured elicitation (SHELF method) with two to five experienced people from
 
 ##### T4.2. Judge the forecasts by the decisions they trigger (M30–M40)
 
-The WP3 forecasts are re-assessed on the decisions they would trigger, with net-benefit and decision-curve methods, to see whether the ranking of the models changes once the costs of wrong decisions are counted. Calibration and threshold performance are also checked across age and sex where the selected data and the group sizes allow. A model that is well calibrated overall but poor for a group that matters does not pass. The decision analysis needs a target that is linked to a real service decision. If only open surveillance data are available, the project reports the methodological validation and does not claim to have shown local decision value.
+The WP3 demand forecasts are re-assessed on the decisions they would trigger, with net-benefit and decision-curve methods, to see whether the ranking of the models changes once the costs of wrong decisions are counted. The legionellosis case-count test stays outside this decision analysis. Calibration and threshold performance are also checked across age and sex where the selected data and the group sizes allow. A model that is well calibrated overall but poor for a group that matters does not pass. The decision analysis needs a target that is linked to a real service decision. If only open surveillance data are available, the project reports the methodological validation and does not claim to have shown local decision value.
 
 ##### T4.3. Dashboard and living updates (M34–M48)
 

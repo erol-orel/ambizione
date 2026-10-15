@@ -1073,3 +1073,6 @@ with Erol for decision before the letter is signed.
 
 ## 15 Oct: sixth external audit (06:44 version) applied with Erol's approval
 - HUG COVID-19 series: "daily" restored, hedging removed (secondary check, subject to re-access and authorisation), table row "Daily secondary check series, previously analysed". CASU-144 classified by the symptoms in the exported data (urgency field not confirmed, removed). T4.2: decision analysis needs a target linked to a real service decision; with open data only, methodological validation is reported and no local decision value is claimed. MS3 "pressure model works on simulated data" (table and Figure 2). Pages reported, not fitted.
+
+## 15 Oct: seventh external audit (06:49 version) applied with Erol's approval
+- Summary: WP2 models the demand outcomes as levels of pressure, legionellosis evaluated separately as a case-count forecast at weekly or monthly resolution; WP4 "for the demand tests". T4.2: "WP3 demand forecasts", legionellosis case-count test outside the decision analysis. H1: correction validated if the median log-ratio of T1.3 moves closer to zero (spread ratio closer to one) and coverage improves at the pre-specified levels. Pages reported, not fitted.
