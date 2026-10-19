@@ -85,18 +85,17 @@ Learning and Knowledge Extraction.
 Since 2024 I have worked on Geneva's surveillance and emergency data. Within GESICA I mapped the
 variables and data sources for influenza, COVID-19, RSV and heat waves, in an inventory of 28
 sources documented for coverage, resolution, latency, access and quality, and I contribute to the
-European epidemic-intelligence toolbox of GeoAI4EI (Horizon Europe). I co-wrote the funding of a
-cantonal study that links confirmed legionellosis cases to the hot-water installations of
-buildings (CHF 30,000 each from Services Industriels de Genève and the Office cantonal de
-l'énergie, a further CHF 30,000 requested from the médecin cantonal), and I carry out its full
-analysis under ethics approval BASEC 2026-00324 [1]. During the pandemic I built the COVID-19
-epidemiological dashboard of the WHO African Region [2]. Since 2024 I lecture in statistics and
-epidemiology on the MAS in Public Health, I have supervised eight MAS theses and mentored about
-six junior researchers at the Institute, and I review occasionally for Springer and PLOS journals.
+European epidemic-intelligence toolbox of GeoAI4EI (Horizon Europe). I wrote the statistical
+analysis plan of a cantonal study that links confirmed legionellosis cases to the hot-water
+installations of buildings (CHF 30,000 each from Services Industriels de Genève and the Office
+cantonal de l'énergie, a further CHF 30,000 requested from the médecin cantonal), and I carry out
+its full analysis under ethics approval BASEC 2026-00324. During the pandemic I helped build the
+COVID-19 epidemiological dashboard of the WHO African Region. Since 2024 I lecture in statistics
+and epidemiology on the MAS in Public Health, I have supervised eight MAS theses and mentored about
+six junior researchers at the Institute, and I review occasionally for journals.
 
-Outputs: [1] Legionellosis in Geneva, study protocol and linked dataset, BASEC 2026-00324, 2026;
-[2] COVID-19 epidemiological dashboard for the WHO African Region, research resource, 2020-2021
-(no longer online).
+Outputs: none linked (the portal caps the three achievements at 10 outputs in total, 7 + 3 used).
+Final wording as entered by the applicant on 19 Oct (analysis plan, helped build, journals).
 
 ## 4. Checks before export
 

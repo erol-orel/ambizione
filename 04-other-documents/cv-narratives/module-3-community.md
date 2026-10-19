@@ -13,7 +13,7 @@ urban district of Cameroon published in *Nature Communications* (2021), and to a
 effort to support the sub-Saharan African COVID-19 response by pooling analytical capacity across
 institutions, published in *BMC Public Health* (2022). The second of these is, in a sense, a paper
 about the research community itself: what it takes to make distributed analytical capacity usable
-in an emergency. I also built and maintained an epidemiological dashboard for the WHO African
+in an emergency. I also helped build an epidemiological dashboard for the WHO African
 Region and contributed to regional incidence analysis published in *Epidemiology & Infection*.
 
 Closer to home, I contributed to age-structured scenario modelling for the Swiss SARS-CoV-2

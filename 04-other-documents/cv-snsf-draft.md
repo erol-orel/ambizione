@@ -47,7 +47,7 @@ quantitative finance.
 
 - LiteRev development: CHF 70,000 in total (UNIGE 30,000, Fondation Ernst et Lucie Schmidheiny
   10,000, Venture Kick 10,000, Mimosa 20,000), obtained with the group.
-- Legionellosis study (BASEC 2026-00324, PI Prof. Olivia Keiser): co-wrote the funding, CHF 30,000
+- Legionellosis study (BASEC 2026-00324, PI Prof. Olivia Keiser): wrote the statistical analysis plan, funding CHF 30,000
   from Services Industriels de Genève and CHF 30,000 from the Office cantonal de l'énergie
   obtained, CHF 30,000 from the Service du médecin cantonal requested.
 - GeoAI4EI (Horizon Europe): wrote the part of the proposal on speeding up literature reviews with

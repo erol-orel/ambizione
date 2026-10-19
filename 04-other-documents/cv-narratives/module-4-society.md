@@ -20,7 +20,7 @@ What I would highlight is not the analysis but the assembly. The study is funded
 with different reasons to care and different constraints - **Services Industriels de Genève and
 the Office cantonal de l'énergie** (CHF 30,000 each, obtained), with a further CHF 30,000
 requested from the **Service du Médecin Cantonal** - a utility, an energy regulator and a public
-health authority. I co-wrote the funding applications. Bringing the partners to a common protocol,
+health authority. I wrote the statistical analysis plan. Bringing the partners to a common protocol,
 and satisfying the data-protection requirements of all three, was most of the work.
 
 **Emergency preparedness with the people who respond.** Through GESICA I work directly with HUG

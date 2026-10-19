@@ -79,7 +79,7 @@ Future scenarios for the SARS-CoV-2 epidemic in Switzerland: an age-structured m
 
 **9. Orel E.** COVID-19 epidemiological dashboard for the WHO African Region.
 Research resource, 2020–2021.
-> *Contribution:* Designed and built the dashboard (R Markdown) used for regional situational
+> *Contribution:* Helped build the dashboard (R Markdown) used for regional situational
 > awareness across the WHO African Region during the pandemic.
 > The dashboard is no longer online, no public archive exists.
 
@@ -89,7 +89,7 @@ development of a predictive tool. Study protocol and linked dataset, BASEC 2026-
 cantonale d'éthique de la recherche, Geneva, 2026.
 > *Contribution:* Designed and built the linkage between the cantonal legionellosis case registry
 > and individual hot water installation records - a dataset with no equivalent elsewhere - and
-> co-wrote the funding applications (CHF 30,000 each from Services Industriels de Genève and the
+> wrote the statistical analysis plan (funding CHF 30,000 each from Services Industriels de Genève and the
 > Office cantonal de l'énergie, CHF 30,000 requested from the Service du Médecin Cantonal).
 
 ---
