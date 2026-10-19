@@ -43,7 +43,7 @@ you touch.
 | **Wed 14** | **Phone the silent**: Desmettre/Larribau (emailed 8 Oct), Teodoro (9 Oct). Gently confirm with Nicolas that "jeudi 16" in the email means Thursday 15 or Friday 16 at the latest. |
 | **Thu 15** | **Collect both signatures** (Keiser + Ray). Final check of the three RGO attachments. |
 | **Fri 16** | **SUBMIT THE FORMULAIRE RGO** (pre-filled in `rgo-form-inputs.md`). mySNF: start the application container, Basic Data, CV, ORCID; first mySNF character calibration. |
-| **Mon 19** | **RGO hard deadline** (only relevant if Friday failed). |
+| **Mon 19** | **RGO hard deadline. DONE: Formulaire RGO submitted 19 Oct** with the signed letter, the portal CV (finalised the same day) and ethics declaration no. 766. |
 
 ## Week 3: Mon 19 to Fri 23 October
 

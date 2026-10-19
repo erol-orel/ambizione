@@ -49,12 +49,12 @@ confirmatory testing (respiratory primary, heat sequential).
 
 ## Blocked on other people: start all of these now
 
-- [ ] **⚠ Formulaire RGO by Mon 19 Oct (hard):** signed letter (DONE, `signed/`) + FNS-format CV
+- [x] **Formulaire RGO SUBMITTED Mon 19 Oct** (letter + portal CV + ethics no. 766). Was: signed letter (DONE, `signed/`) + FNS-format CV
       (portal edits pending, `cv-portal-changes.md`) + UNIGE ethics statement (DONE, no. 766 of 19 Oct
       under HEADSTART, replaces no. 721); answers pre-filled in `rgo-form-inputs.md`. Remaining RGO questions (salary
       class 19/9, support-personnel rates, declarations, accepted-project examples, relecture
       slot): `emails/00-rgo.md`.
-- [ ] **⚠ Host confirmation, two signatures by Thu 15 Oct (Fri 16 latest):** **Keiser (contact person) + Ray
+- [x] **Host confirmation signed 15 Oct** (Keiser + Ray, in `signed/`). Was: **Keiser (contact person) + Ray
       (director)**, ready-to-sign draft in `lettre-confirmation-isg-draft.md` (letterhead!).
       Ask Keiser the Art. 8 §6 slot question first (`emails/08-keiser.md`); Ray ask in
       `emails/02-ray-host.md`.
@@ -68,7 +68,7 @@ confirmatory testing (respiratory primary, heat sequential).
 ## mySNF / portal mechanics (your account, start early)
 
 - [ ] Create/check the mySNF account, role "grant applicant" - processing takes days.
-- [ ] Compile the **CV + major achievements on portal.snf.ch** (fixed template; include your
+- [x] DONE 19 Oct (export archived as `cv-portal-export-2026-10-19.pdf`). Compile the **CV + major achievements on portal.snf.ch** (fixed template; include your
       contribution per publication; present **LiteRev-Evidence as a research output** under DORA).
 - [ ] Update the **ORCID profile** - its public content goes to reviewers.
 - [ ] Download the **statement-of-mobility form** from mySNF; fill in **Adobe Acrobat only**.
