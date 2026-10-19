@@ -3,11 +3,16 @@
 Source: the PDF exported from the portal on 15 Oct 2026 (3 pages, created with the 2022 CV
 record). Below, section by section, what to change and the text to paste.
 
+Cross-checked on 19 Oct against the applicant's full CV (`resume_publications_orel`, 4 pages). Items
+marked (full CV) were missing from the portal and from the first version of this list.
+
 ## 1. Education: two additions
 
 - Add, if the portal has a category for it (Further education / Other qualification):
   **Financial Risk Manager (FRM), Global Association of Risk Professionals, 2018.** It explains the
   eleven years of risk work that the plan relies on.
+- Add (full CV): **I-Teams Medical Innovation Program, Faculty of Medicine, University of Geneva,
+  2023.** Short entry, it shows the translational side of LiteRev.
 - PhD entry: keep. Dissertation title is not shown by the portal, nothing to do.
 
 ## 2. Employment: three corrections, two additions
@@ -19,9 +24,15 @@ record). Below, section by section, what to change and the text to paste.
 | "-", Self-employed, 06.2014 - 05.2018 | Fill the role: Cofounder and data scientist, Market Intuitive Investment Managers, Geneva. |
 | missing | Add: Financial risk manager and senior quantitative analyst, Steenman Asset Management, Geneva, 2007 - 2014. |
 | missing | Add: Responsible for research, Service cantonal de recherche et d'information statistiques (SCRIS), Lausanne, 2007. |
+| missing (full CV) | Add: Research assistant, Laboratory of Applied Economics (LEA), University of Geneva, 09.2005 - 06.2006. |
+| missing (full CV), optional | Add: Teaching assistant, statistical methods and statistical modelling, Faculty of Economics, University of Geneva, 09.2005 - 06.2006. |
 
 Without the two finance positions the record shows a gap from 2006 to 2014, and the eleven years
-of quantitative finance that the plan and the narrative describe are invisible to a reviewer.
+of quantitative finance that the plan and the narrative describe are invisible to a reviewer. The
+two 2005 to 2006 entries close the gap between the Licence and the first job and show early
+teaching. The portal's role names are fixed drop-downs (for example "Research associate /
+Scientific collaborator"), keep the closest category and put the exact title in the free field
+if one is offered.
 
 ## 3. Major achievements: rewrite the two, add a third
 
@@ -94,3 +105,14 @@ Outputs: [1] Legionellosis in Geneva, study protocol and linked dataset, BASEC 2
 - Remove "This project was interrupted for a while by the Covid pandemic" and "up to 70%" (the
   latter is not a published figure) if any of the old text survives.
 - Export the PDF after the changes, it is attachment 2 of the Formulaire RGO.
+
+## 5. Full CV (`resume_publications_orel`): small fixes if it is sent anywhere
+
+Not needed for the RGO form (which takes the SNSF-format CV), but worth correcting before any
+other use.
+
+- The BMJ Paediatrics Open paper (Ng'ambi 2022) appears twice in the publication list.
+- "Merzouki FA" in the first Ng'ambi entry should read "Merzouki A".
+- Missing recent items: Ng'ambi 2026 (accepted, BMC Global and Public Health), Edjinedja 2026
+  (submitted), the legionellosis study, GESICA and GeoAI4EI, supervision of eight MAS theses.
+- The Lecturer entry (2024 to current) is right there and wrong on the portal, align the portal.
