@@ -37,9 +37,10 @@ Target: submit **Thursday 15 October**, leaving the weekend and Monday as buffer
 1. **Detailed support letter**, dated and signed by **Keiser (contact person) + Ray (director)**:
    draft in `host-institution-letters.md`; signatures needed by **Tuesday 14 October**.
 2. **CV in SNSF format** (SNSF template; the applicant builds this from the portal CV).
-3. **Statement of ethical risks** from declaration-ethique.unige.ch (UNIGE login). RE-FILE under the
-   new name HEADSTART (declaration no. 721 of 9 Oct says "Coldstart"). Fill it
-   online, export the PDF. If no access, write to the RGO as the form instructs.
+3. **Statement of ethical risks**: DONE. Declaration no. 766 of 19 Oct 2026 under the HEADSTART
+   title, 01.09.2027 to 31.08.2031, all seven questions answered "Non"
+   (`declaration-ethique-unige-766-HEADSTART.pdf`). Replaces no. 721 of 9 Oct ("Coldstart",
+   scientific integrity "Oui"). Attach no. 766 only.
 
 ## Risk outline (free text, needed if any ethics question is answered yes)
 
