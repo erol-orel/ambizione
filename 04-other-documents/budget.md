@@ -128,7 +128,7 @@ gross is at most about CHF 90,000 at 100%, or if the other lines are cut to abou
 
 Scenario B fits with room. The headroom of about CHF 70,000 could raise the collaborator to 30%
 in years 2 to 4 (adds about 38,700) or extend the 40% to the full first year (M3 to M14, adds
-about 21,500), while staying under the cap.
+about 10,800), while staying under the cap.
 
 Sensitivity. Each CHF 10,000 of difference in the class-17 gross at 100% moves scenario A by
 about 19,700 and scenario B by about 10,200.
