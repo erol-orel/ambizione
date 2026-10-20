@@ -39,26 +39,27 @@ the total can be checked against the cap.
    on top of the current position. Whether years of research before the doctorate count is HR's
    decision and cannot be settled here.
 4. The exact amounts below annuity 12 are not in the RGO table. The scale's early steps are
-   larger than the top steps, so the extrapolation with a constant step of 1,049 is a lower
-   bound for 19/9 to 19/11.
+   larger than the top steps (the 2019 class average step was about 1,620 against about 1,010 at
+   the top), so the extrapolation with a constant step of 1,049 slightly overstates 19/9 to
+   19/11. HR's figure will be a little lower. mySNF corrects it at award.
 
 Best estimate for September 2027: 19/10 is the most likely floor, 19/11 to 19/12 is plausible if
 HR recognises the post-doctoral years at the change of function. Nothing in the rules lets it go
 lower than today.
 
-### The three possible entries (gross at 100%, one annuity per year from the start)
+### The possible entries (gross at 100%, one annuity per year from the start)
 
 | Scenario | Y1 | Y2 | Y3 | Y4 | Average to enter |
 |---|---:|---:|---:|---:|---:|
-| Floor, 19/10 at start (extrapolated below 19/12) | 129,232 | 130,281 | 131,330 | 132,379 | 130,806 |
-| Middle, 19/11 at start | 130,281 | 131,330 | 132,379 | 133,428 | 131,855 |
+| Applicant's choice (20 Oct), 19/9 at start, no annuity in 2027 | 128,183 | 129,232 | 130,281 | 131,330 | 129,757 |
+| 19/10 at start | 129,232 | 130,281 | 131,330 | 132,379 | 130,806 |
+| 19/11 at start | 130,281 | 131,330 | 132,379 | 133,428 | 131,855 |
 | RGO table, 19/12 at start | 131,330 | 132,379 | 133,428 | 134,477 | 132,904 |
 
-Recommendation. Enter the RGO figure, CHF 132,904. It is the grants office's own computation,
-the SNSF asks applicants to enter the maximum and corrects the amount with HR at award, and a
-lower entry gains nothing. If the applicant prefers to enter what he expects, the middle
-scenario is the honest point estimate. In all cases mySNF adds the 23% charges itself, about
-CHF 163,000 per year all-in at the RGO figure.
+Decision (applicant, 20 Oct). Enter the first row, 19/9 at the start, average CHF 129,757, or
+the four yearly figures if mySNF asks year by year. This is the cautious reading (2027 annuity
+not yet voted, no recognition assumed). mySNF adds the 23% charges itself, about CHF 159,600
+per year all-in. HR confirms the exact amount at award and it can only be higher.
 
 ## 2. Project funds, cap CHF 250,000 including charges
 
@@ -77,15 +78,56 @@ Planning rates (assumed, to confirm with the RGO or HR).
 | ARE, class 6 annuity 0, gross per month at 10% | CHF 455 | UNIGE ARE postings 2026-2027 |
 | ARE at 40%, gross per month | CHF 1,820 | Four times the 10% figure |
 
-Scenario A, collaborator at 40% for 48 months.
+On the categories. An ARE is by definition a student, enrolled in a bachelor or a master and
+without a master's degree at hiring, paid at class 6 annuity 0. The class-17 collaborator is a
+different category (adjoint-e scientifique I or collaborateur/trice scientifique I, PAT or
+scientific staff), not an ARE. The RGO's "ARE at most 40%" concerns the student only.
+
+Scenario A, the applicant's choice (20 Oct), fitted under the cap. Collaborator at 40% from M3,
+when the benchmark starts, to M48, that is 46 months. Master's student at a minimum, ARE at 10%
+for the seven benchmark months. Every expense listed.
+
+| Line | Detail | CHF |
+|---|---|---:|
+| Scientific collaborator, class 17, 40%, M3 to M48 (46 months) | gross 161,000, charges 23% | 198,030 |
+| Master's student, ARE 10%, M3 to M9 | gross 455 per month, 7 months, charges 23% | 3,918 |
+| Conferences | 8 European at 2,000 (fee, travel, three nights) and 1 overseas at 4,000 | 20,000 |
+| Short stays abroad | two stays of one to two weeks with forecasting groups, at 3,000 | 6,000 |
+| Visiting researchers | two incoming visitors hosted in Geneva, at 1,500 | 3,000 |
+| Workshops | elicitation workshop with the services (WP4) and final briefing, at 1,000 | 2,000 |
+| IT services, database | project database and secure-environment runs with UNIGE IT, about eight developer days | 8,000 |
+| IT services, dashboard | small hosted instance for observation mode, two years at 1,200 | 2,400 |
+| Open research data | deposit and curation of the benchmark, code and evaluation outputs | 2,000 |
+| Data access | HUG data-office extraction and preparation of the emergency series (to confirm) | 3,000 |
+| Regulatory fees | ethics commission fees for the Art. 34 submission | 1,500 |
+| Total | | 249,848 |
+| Headroom under CHF 250,000 | | 152 |
+
+Adjustment rule, since the class-17 gross is an assumption. Each CHF 5,000 of gross at 100%
+above 105,000 adds about 9,430 to the collaborator line. Cut in this order until the total is
+back under the cap. The overseas conference (4,000), one short stay (3,000), the HUG fee line
+(3,000), one visitor (1,500), then shorten the collaborator by one month (about 4,300 per
+month). If the gross is below 105,000, add back in the reverse order, then raise the student to
+20% (about 3,900 more).
+
+On the master's student. Paying a minimum is the right call. The thesis itself is academic work
+and is not paid, the ARE contract at 10% (about four hours a week) recognises the extraction
+work on the benchmark, keeps the student inside the University's rules and costs under 4,000.
+If the student, not the collaborator, is to be the second extractor of T1.2, raise to 20% for
+the seven months (7,835 with charges) and cut the overseas conference.
+
+Scenario A as first asked, 40% for 48 months from M1, for the record.
 
 | Line | Gross | With 23% charges |
 |---|---:|---:|
 | Class 17 at 40%, 48 months | 168,000 | 206,640 |
-| ARE at 40%, 7 months (second extractor, M3 to M9) | 12,740 | 15,670 |
-| Staff total | | 222,310 |
+| ARE at 10%, 7 months | 3,185 | 3,918 |
+| Staff total | | 210,558 |
 
-Scenario B, collaborator at 40% for 7 months, then 20% for 36 months.
+With the other lines above (47,900) it reaches 258,458, over the cap by about 8,500. Starting
+the hire at M3, where the plan places the benchmark, is what makes it fit.
+
+Scenario B, for reference, collaborator at 40% for 7 months, then 20% for 36 months.
 
 | Line | Gross | With 23% charges |
 |---|---:|---:|
@@ -94,7 +136,7 @@ Scenario B, collaborator at 40% for 7 months, then 20% for 36 months.
 | ARE at 40%, 7 months (second extractor, M3 to M9) | 12,740 | 15,670 |
 | Staff total | | 123,295 |
 
-### Other lines (assumed amounts, same in both scenarios)
+### Other lines as first drafted (before the fit, for reference)
 
 | Category in mySNF | Content | CHF |
 |---|---|---:|
@@ -115,35 +157,28 @@ software, GESICA and GeoAI4EI meeting travel (covered by the consortia, to confi
 
 ### Totals against the cap
 
-| | Scenario A | Scenario B |
+| | Scenario A fitted (M3 to M48) | Scenario B |
 |---|---:|---:|
-| Staff | 222,310 | 123,295 |
-| Other lines | 56,900 | 56,900 |
-| Total | 279,210 | 180,195 |
-| Against CHF 250,000 | over by 29,210 | under by 69,805 |
+| Staff including the student | 201,948 | 123,295 |
+| Other lines | 47,900 | 56,900 |
+| Total | 249,848 | 180,195 |
+| Against CHF 250,000 | under by 152 | under by 69,805 |
 
-Scenario A does not fit at the assumed class-17 rate. It would fit only if the collaborator's
-gross is at most about CHF 90,000 at 100%, or if the other lines are cut to about CHF 27,000
-(no overseas conference, no visitors, half the IT line, no data or regulatory fees).
-
-Scenario B fits with room. The headroom of about CHF 70,000 could raise the collaborator to 30%
-in years 2 to 4 (adds about 38,700) or extend the 40% to the full first year (M3 to M14, adds
-about 10,800), while staying under the cap.
-
-Sensitivity. Each CHF 10,000 of difference in the class-17 gross at 100% moves scenario A by
-about 19,700 and scenario B by about 10,200.
+The applicant chose scenario A (20 Oct). Scenario B stays here as the fallback if the RGO
+returns a class-17 gross well above 105,000.
 
 ## 3. Remarks to paste in mySNF (one per category, English)
 
-Staff, scientific collaborator (class 17, part-time). Supports the labour-intensive specified
-work. Second extraction arm of the manual benchmark in T1.2 (M3 to M9), then data handling,
-the rolling replay pipeline of WP3 and reproducibility of the evaluation code. The scientific
+Staff, scientific collaborator (class 17, 40%, M3 to M48). Supports the labour-intensive
+specified work. Second extraction arm of the manual benchmark in T1.2 (M3 to M9), then data
+handling, the rolling replay pipeline of WP3, the dashboard runs and reproducibility of the
+evaluation code. The scientific
 design, the models and the analyses are the applicant's (plan 2.3.3, 2.4). Doctoral students
 and postdocs are not employed, in line with the Ambizione rules.
 
-Staff, master's student (ARE). Second independent extractor for the T1.2 benchmark, seven months
-at 40%, under the registered extraction protocol (plan 2.3.3, T1.2). Hired through the
-University's ARE scheme.
+Staff, master's student (ARE, 10%, M3 to M9). Assists the manual extraction for the T1.2
+benchmark under the registered protocol, alongside a master's thesis on the project (plan 2.3.3,
+T1.2). Hired through the University's ARE scheme at the student rate.
 
 Travel, conferences. Two European conferences per year and one overseas over the grant, to
 present the registered results to the forecasting and evidence-synthesis communities (ESCAIDE,
@@ -204,6 +239,10 @@ data office, and ethics commission fees for the Art. 34 LRH authorisation or cla
   workshops, ARE at most 40%, IT services.
 - 15 Oct. Applicant: he would start at 19/10 at best. Plan table rewritten without the 50%
   collaborator.
+- 20 Oct, later. Applicant: enter 19/9 at the start (no 2027 annuity assumed), scenario A
+  preferred but never over the cap and without dropping much, all expenses listed, the
+  collaborator is class 17, question whether to pay the master's student a minimum. Answer: yes,
+  ARE at 10% for seven months. Fitted by starting the hire at M3.
 - 20 Oct. Applicant: current scale 19/9 (adjoint scientifique), annuities frozen three years,
   Ambizione status collaborateur scientifique II with annuities recalculated, no decrease
   possible. Staff intention: one external person at 40% (PAT, adjoint scientifique, class 17)
