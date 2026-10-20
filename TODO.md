@@ -85,6 +85,7 @@ confirmatory testing (respiratory primary, heat sequential).
 
 ## Writing that remains (all under your control)
 
+- [ ] **De-AI pass on the first pages (summary, 2.1, start of 2.2), applicant's own voice.** Triggered by Keiser's 19 Oct comment. ON HOLD until examples and reviews arrive from Olivia, Janne and the RGO office (applicant decision, 20 Oct). Tells listed in `05-review/applicant-facts.md`.
 - [ ] Plan placeholders: **0 remain**. Bibliography still carries **12 flag lines** (author
       lists, DOIs, statuses) - release-QA step 1. **Reserve is 6 characters: every addition
       needs an offsetting cut.**
