@@ -104,7 +104,7 @@ software, GESICA and GeoAI4EI meeting travel (covered by the consortia, to confi
 | Headroom under CHF 250,000 | 5,058 |
 
 Adjustment rule. If the ARE rate the RGO gives is higher than CHF 455 per month at 10%, each
-CHF 25 more per month adds about 2,600 to the staff total. Cut in this order. The HUG fee line
+CHF 25 more per month at 10% adds about 10,300 to the staff total over the 84 ARE-months. Cut in this order. The HUG fee line
 if the HUG confirms no fee (5,000), the overseas conference (4,000), one short stay (3,500).
 If the rate is lower, extend ARE 2 to M44 (about 13,400 for six months).
 
