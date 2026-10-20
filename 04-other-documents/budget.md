@@ -1,137 +1,212 @@
-# Budget: Ambizione 2026
+# Budget for mySNF (Ambizione 2026), working version of 20 October 2026
 
-The final 2026 Ambizione regulations cap **project funds at CHF 250,000 for four years**. Doctoral students and postdocs **cannot be employed through Ambizione**. The applicant's salary is covered separately by an Ambizione grant with salary; project funds are reserved for eligible project costs.
+Two things are entered in mySNF. The applicant's salary, which the grant pays separately, and the
+project funds, capped at CHF 250,000 over four years including social charges. The budget is
+line by line and frozen at submission. Each category has a "remarques" box, and the RGO advises
+to justify every amount there and to point to the plan sections (2.3.3 workplan, 2.4 resources,
+2.5 schedule). Open-access publication costs are not eligible here (separate mechanism).
 
-The application therefore does **not** budget a doctoral student or postdoc. It does budget a
-**scientific/technical collaborator** in the eligible other-employee category. This is a real
-resource, not a fallback: with no student or postdoctoral salary charged to the grant, the ceiling
-supports a substantial position alongside computing, data and mobility costs. Set the FTE and
-duration once the grants office confirms institutional salary rates, and state the scale concretely
-enough in §6 that a referee can see the work is resourced.
+Figures marked (assumed) are planning assumptions to be confirmed by the applicant or the RGO.
+Social charges are 23% in Geneva and mySNF adds them automatically. They are shown here so that
+the total can be checked against the cap.
 
-## Working budget structure
+## 1. Applicant salary
 
-| Category | Detail | Years | Cost (CHF) |
-| --- | --- | --- | ---: |
-| Scientific/technical collaborator | `[[FTE and duration; institutional salary rate]]` - WP1 extraction, WP3 pipeline, reproducibility | `[[ ]]` | `[[ ]]` |
-| Second independent extractor | `[[contracted or in-kind]]` - required by the dual-extraction design in T1.2 | `[[ ]]` | `[[ ]]` |
-| Computing / infrastructure use | Bayesian estimation, evidence processing, rolling-origin evaluation | `[[ ]]` | `[[ ]]` |
-| Data access / procurement | Directly project-linked data costs, if applicable | `[[ ]]` | `[[ ]]` |
-| Travel / mobility | Short visits, conferences, incoming visitors (Art. 11 §1e, h) | `[[ ]]` | `[[ ]]` |
-| Workshops / cooperation | Directly linked to the project, if needed | `[[ ]]` | `[[ ]]` |
-| Open Research Data | Making research data freely available - **eligible, but must be budgeted now; cannot be added later by supplementary grant** | `[[ ]]` | `[[ ]]` |
-| Other eligible direct costs | Only if specifically justified | `[[ ]]` | `[[ ]]` |
-| **Total project funds** | | | **≤ CHF 250,000** |
-| Applicant salary | Covered separately by Ambizione grant with salary | | **separate** |
+### What is known
 
-## ⚠ P0: the 50% × 48-month line must be costed before submission
+| Fact | Source |
+|---|---|
+| Current function adjoint scientifique, class 19, annuity 9 in 2026 | Applicant |
+| Annuities suspended in 2026 (no annuity paid, no indexation) | Office du personnel de l'Etat, conditions 2026 |
+| The Conseil d'Etat decided on 17 Sept 2026 to grant the annuity in 2027, without indexation | Press release on the 2027 draft budget |
+| The 2026 budget was never adopted (twelfths regime). The 2027 budget still has to pass the Grand Conseil | Same release |
+| Ambizione grantees at UNIGE are collaborateur/trice scientifique II, class 19 | RGO, 13 Oct |
+| Class 19 scale 2026, from the RGO table. 19/12 CHF 131,330, 19/13 132,379, 19/14 133,428, 19/15 134,477, one annuity = CHF 1,049 at this level | RGO, 13 Oct |
+| Class 19 in 2019 ran from CHF 101,376 (annuity 0) to 137,068 (annuity 22) | Grand Conseil written answer, 2019 |
+| The RGO's own estimate for year 1 was 19/12 (her text also mentions 19/11 for 2027-2028) | RGO, 13 Oct |
 
-The plan requests a scientific/technical collaborator at **50% over 48 months** (= 2.0
-FTE-years) plus a **contracted second extractor (M3–M9)**. The arithmetic is tight and must be
-run against real UNIGE rates before that sentence survives:
+### Reasoning on the annuity at the start, September 2027
 
-| Full-cost rate (employer, 100%) | 50% × 48 months costs | Left of CHF 250k for extractor + computing + travel + ORD |
-| ---: | ---: | ---: |
-| CHF 90k/yr | 180,000 | 70,000 |
-| CHF 100k/yr | 200,000 | 50,000 |
-| CHF 110k/yr | 220,000 | 30,000 |
-| CHF 120k/yr | 240,000 | **10,000 - does not work** |
+1. If the 2027 budget passes with the annuity, the applicant moves from 19/9 to 19/10 on
+   1 January 2027 and is at 19/10 when the grant starts. If the budget fails again and the
+   State runs on twelfths, no annuity is paid and he stays at 19/9.
+2. The change of function to collaborateur scientifique II is within class 19. Geneva staff
+   rules protect the acquired salary on a change of function inside the State and the
+   University, so the entry annuity cannot be below the current one. 19/9 or 19/10 is the floor.
+3. At appointment, UNIGE sets the annuity from the experience it recognises. For scientific
+   collaborators, post-doctoral experience is counted, and the RGO's figure (19/12 in year 1)
+   suggests she applied that recognition to the 3.75 years since the doctorate (December 2023)
+   on top of the current position. Whether years of research before the doctorate count is HR's
+   decision and cannot be settled here.
+4. The exact amounts below annuity 12 are not in the RGO table. The scale's early steps are
+   larger than the top steps, so the extrapolation with a constant step of 1,049 is a lower
+   bound for 19/9 to 19/11.
 
-**Decision rule once the RGO/HR rate arrives:** if the 50%×48 full cost exceeds ~CHF 190k,
-shorten the duration (50% × 36–42 months, aligned to WP1+WP3, M3–M42) rather than the
-percentage - the plan's task justification (benchmark, pipeline, reproducibility) maps to
-M3–M42 anyway. Update §2.3.3.3 and §2.4 of the plan in the same pass. The mySNF budget is
-line-item and frozen at submission.
+Best estimate for September 2027: 19/10 is the most likely floor, 19/11 to 19/12 is plausible if
+HR recognises the post-doctoral years at the change of function. Nothing in the rules lets it go
+lower than today.
 
-## RGO answers (Dr Roxana Vicovanu Bota, Research and Grants Office, 13 Oct 2026)
+### The three possible entries (gross at 100%, one annuity per year from the start)
 
-**Applicant salary (UNIGE scale, Etat de Genève; to be validated by HR):**
+| Scenario | Y1 | Y2 | Y3 | Y4 | Average to enter |
+|---|---:|---:|---:|---:|---:|
+| Floor, 19/10 at start (extrapolated below 19/12) | 129,232 | 130,281 | 131,330 | 132,379 | 130,806 |
+| Middle, 19/11 at start | 130,281 | 131,330 | 132,379 | 133,428 | 131,855 |
+| RGO table, 19/12 at start | 131,330 | 132,379 | 133,428 | 134,477 | 132,904 |
 
-| Project year | Class/annuité | Gross at 100% (CHF) |
-| --- | --- | ---: |
-| Year 1 (Sep 2027–Aug 2028) | 19/12 | 131,330 |
-| Year 2 | 19/13 | 132,379 |
-| Year 3 | 19/14 | 133,428 |
-| Year 4 | 19/15 | 134,477 |
-| **Average (RGO advice: enter the average)** | | **132,903.50** |
+Recommendation. Enter the RGO figure, CHF 132,904. It is the grants office's own computation,
+the SNSF asks applicants to enter the maximum and corrects the amount with HR at award, and a
+lower entry gains nothing. If the applicant prefers to enter what he expects, the middle
+scenario is the honest point estimate. In all cases mySNF adds the 23% charges itself, about
+CHF 163,000 per year all-in at the RGO figure.
 
-- **Enter in mySNF: CHF 132,904/year** (the RGO-advised average; it is the applicant's own scale
-  figure, above the indicative 115k, so it also satisfies the SNSF's "enter the maximum"
-  advice). If mySNF asks year by year, enter the four exact figures instead.
-- **Social charges: 23% in Geneva, calculated automatically by mySNF** (do not add them by
-  hand). For reference: ~CHF 163,471/year all-in, ~CHF 653,885 over four years.
-- If funded, HR confirms the exact salary to the SNSF before funds are released.
-- **Status at UNIGE:** Ambizione grantees are employed as **collaborateur/trice scientifique II,
-  class 19**.
-- (Her text says "19/11 in 2027-2028" but her table starts at 19/12; the table is what she
-  computed per project year and is used here. HR settles it after award.)
+## 2. Project funds, cap CHF 250,000 including charges
 
-**Budget-entry guidance (RGO):** anticipate expenses as far as possible; in each category's
-**"remarques" box, justify the amount and point to the plan sections** that motivate it (e.g.
-§2.3.3 workplan, §2.4 resources, §2.5 schedule). Typical eligible lines: travel for research
-outside Geneva; mobility stays (transport, accommodation); **2–3 conferences per year**;
-workshop organisation; **ARE (auxiliaires de recherche et d'enseignement, master's students,
-max 40%)**; IT services (database, developer). Precise lines (salaries) precise; conference
-travel may be estimated.
+### Staff
 
-**Still missing: the support-personnel rate** (the question was not in the sent email). The
-50%×48 decision rule below cannot run without it. Follow-up drafted:
-`emails/00b-rgo-followup.md`. Idea from the RGO list: the **second independent extractor
-(M3–M9) as an ARE** (master's student, ≤40%) fits T1.2 exactly and is cheap; the plan's wording
-("separately contracted independent extractor") already covers it, no plan change needed.
+Two people, as the applicant intends. A part-time scientific collaborator or adjoint-e
+scientifique I, class 17, external to the group, and a master's student paid as ARE (auxiliaire
+de recherche et d'enseignement).
 
-**Relecture:** first come, first served, finished versions only (Dr Vicovanu Bota and
-Christiane Bezuchet). The plan is frozen and complete: send it now, not after the reader round.
-**Accepted-project examples:** not provided by the RGO; ask in the host department.
+Planning rates (assumed, to confirm with the RGO or HR).
 
-## Rules taken from the call documents
+| Item | Value | Basis |
+|---|---:|---|
+| Class 17, gross at 100%, entry annuity around 4 to 6 | CHF 105,000 | 2019 range 92,832 to 125,526 indexed by about 3.5%, middle of the lower third |
+| Employer charges | 23% | RGO |
+| ARE, class 6 annuity 0, gross per month at 10% | CHF 455 | UNIGE ARE postings 2026-2027 |
+| ARE at 40%, gross per month | CHF 1,820 | Four times the 10% figure |
 
-- **Ceiling: CHF 250,000 for four years** (Art. 10 §4), i.e. ~CHF 62,500/year. Pro-rated if shorter.
-- **Applicant salary is separate** and covered by the grant. The guidelines give an indicative
-  **~CHF 115,000/annum gross at 100%**; the applicant is currently at **UNIGE class 19, annuité 9 -
-  above that figure**. Per the SNSF's own advice (by phone/email to the applicant): **enter the
-  maximum in mySNF**; the SNSF then adjusts to the canton and the individual situation. Get the
-  exact class-19/9 gross from UNIGE HR for the entry, and let mySNF auto-calculate the social
-  contributions for the selected institution. The exact salary is confirmed with the institution
-  at the latest for approved grants (Guidelines 2.9).
-- **Work quota is 100%** (Art. 1 §4, Art. 6 §1c). 80% is permissible only for care duties or further
-  qualification.
-- **Equipment and material of enduring value: max CHF 100,000** overall. Not a live constraint here.
-- **Open-access publication costs are NOT eligible** and must be applied for separately via mySNF.
-  Do not put APCs in this budget. Open *Research Data* costs are eligible - see the table.
-- **The budget must be as detailed as possible**: separate entries for equipment, infrastructure
-  access, consumables, travel, support personnel.
-- **Changes to the budget after submission are not possible.**
-- Personnel salary rates differ by institution - get UNIGE's standards from HR in advance.
-- **All requested support personnel must be justified in the research plan** (Guidelines 4.3). §2.4
-  does this: one collaborator, three named tasks.
+Scenario A, collaborator at 40% for 48 months.
 
-## Budget principle
+| Line | Gross | With 23% charges |
+|---|---:|---:|
+| Class 17 at 40%, 48 months | 168,000 | 206,640 |
+| ARE at 40%, 7 months (second extractor, M3 to M9) | 12,740 | 15,670 |
+| Staff total | | 222,310 |
 
-The scientific programme is deliberately PI-led. The budget should fund only activities that cannot be absorbed by the host's normal infrastructure or the PI's own Ambizione salary. Basic equipment, normal operations, ordinary software licences/subscriptions and other non-eligible institutional costs should not be charged to the project.
+Scenario B, collaborator at 40% for 7 months, then 20% for 36 months.
 
-The grants office should provide the final institutional salary rates and confirm which direct costs are eligible. The final SNSF budget must be entered in mySNF using the official 2026 categories and annual allocations; the four-year project-fund total must remain within the CHF 250,000 ceiling.
+| Line | Gross | With 23% charges |
+|---|---:|---:|
+| Class 17 at 40%, 7 months (M3 to M9) | 24,500 | 30,135 |
+| Class 17 at 20%, 36 months (M10 to M45) | 63,000 | 77,490 |
+| ARE at 40%, 7 months (second extractor, M3 to M9) | 12,740 | 15,670 |
+| Staff total | | 123,295 |
 
-## Resource implication for the research plan
+### Other lines (assumed amounts, same in both scenarios)
 
-The workplan assumes **no doctoral or postdoctoral employee**, and a funded scientific/technical
-collaborator alongside the PI. The PI carries the scientific core - WP2 and the confirmatory
-evaluation design - while the collaborator carries the labour-intensive specified work.
+| Category in mySNF | Content | CHF |
+|---|---|---:|
+| Travel, conferences | Two European conferences per year at 2,000 (fee, travel, three nights) and one overseas at 4,000 over the grant | 20,000 |
+| Travel, mobility | Two short stays of one to two weeks with forecasting groups abroad, at 3,500 each | 7,000 |
+| Travel, incoming | Two visiting researchers hosted in Geneva, at 1,500 each | 3,000 |
+| Workshops | Elicitation workshop with the emergency services (WP4, M36 to M40) and a final results briefing, at 1,500 each | 3,000 |
+| IT services | Project database set-up and secure-environment runs with UNIGE IT, about ten developer days at 1,000, plus hosting | 12,000 |
+| IT services, dashboard | Small cloud or institutional instance for the daily observation-mode dashboard, two years at 1,200 | 2,400 |
+| Open research data | Deposit and curation of the extraction benchmark, the code and the evaluation outputs | 2,000 |
+| Data access | HUG data-office extraction and preparation fees for the emergency series (to confirm, may be zero) | 5,000 |
+| Regulatory fees | Ethics commission fees for the Art. 34 LRH authorisation or clarification | 2,500 |
+| Other lines total | | 56,900 |
 
-For an independence-focused scheme this division is arguably cleaner than a doctoral team: the
-hypotheses, the design and the scientific direction are unambiguously the applicant's, and the
-supporting role is technical rather than an independent scientific lead.
+Not budgeted, by rule or because the host provides them. Open-access fees (separate SNSF
+mechanism), computing on the UNIGE HPC (free for UNIGE researchers), laptops and ordinary
+software, GESICA and GeoAI4EI meeting travel (covered by the consortia, to confirm).
 
+### Totals against the cap
 
-## 15 Oct: applicant's correction of the salary start point and the ARE rule
+| | Scenario A | Scenario B |
+|---|---:|---:|
+| Staff | 222,310 | 123,295 |
+| Other lines | 56,900 | 56,900 |
+| Total | 279,210 | 180,195 |
+| Against CHF 250,000 | over by 29,210 | under by 69,805 |
 
-- Erol: "je commencerais a 19/10 je pense au mieux" (not 19/12 as in the RGO table). With one
-  annuity per year from 19/10 and the GE scale step of CHF 1,049 (19/12 131,330 -> 19/13
-  132,379 -> 19/14 133,428, constant step, 19/10 and 19/11 extrapolated, TO VERIFY on the
-  ge.ch scale): Y1 19/10 129,232; Y2 19/11 130,281; Y3 19/12 131,330; Y4 19/13 132,379.
-  Average CHF 130,805.50. If the RGO's two-annuities-per-year rule applies until annuity 12,
-  the average is higher (Y1 19/10, Y2 19/12, Y3 19/13, Y4 19/14 = 131,592.25). Enter the
-  average of the scenario Erol defends; HR confirms the exact amount after the award.
-- Support personnel (RGO, 14 Oct): ARE = master's students at MOST 40%; also IT services for a
-  database, conference travel (two to three per year), workshops. Plan 2.3.3 budget table
-  rewritten accordingly (no "scientific collaborator" line any more).
+Scenario A does not fit at the assumed class-17 rate. It would fit only if the collaborator's
+gross is at most about CHF 90,000 at 100%, or if the other lines are cut to about CHF 27,000
+(no overseas conference, no visitors, half the IT line, no data or regulatory fees).
+
+Scenario B fits with room. The headroom of about CHF 70,000 could raise the collaborator to 30%
+in years 2 to 4 (adds about 38,700) or extend the 40% to the full first year (M3 to M14, adds
+about 21,500), while staying under the cap.
+
+Sensitivity. Each CHF 10,000 of difference in the class-17 gross at 100% moves scenario A by
+about 19,700 and scenario B by about 10,200.
+
+## 3. Remarks to paste in mySNF (one per category, English)
+
+Staff, scientific collaborator (class 17, part-time). Supports the labour-intensive specified
+work. Second extraction arm of the manual benchmark in T1.2 (M3 to M9), then data handling,
+the rolling replay pipeline of WP3 and reproducibility of the evaluation code. The scientific
+design, the models and the analyses are the applicant's (plan 2.3.3, 2.4). Doctoral students
+and postdocs are not employed, in line with the Ambizione rules.
+
+Staff, master's student (ARE). Second independent extractor for the T1.2 benchmark, seven months
+at 40%, under the registered extraction protocol (plan 2.3.3, T1.2). Hired through the
+University's ARE scheme.
+
+Travel, conferences. Two European conferences per year and one overseas over the grant, to
+present the registered results to the forecasting and evidence-synthesis communities (ESCAIDE,
+Epidemics, International Symposium on Forecasting, ISBA, ICASR). Estimated at CHF 2,000 per
+European conference and CHF 4,000 overseas (plan 2.6, statement of mobility).
+
+Travel, mobility. Two short stays of one to two weeks with groups working on forecast evaluation
+and nowcasting, hosts to be arranged once first results exist. Two visiting researchers hosted in
+Geneva to reuse the open benchmark and code (statement of mobility, Regulations Art. 9 §4c).
+
+Workshops. One elicitation workshop with two to five experienced people from the Geneva
+emergency services to set the costs of wrong decisions (plan 2.3.3, T4.1), and one final
+briefing of results to the data partners (plan 2.6).
+
+IT services. Set-up of the project database and of the secure-environment runs with UNIGE IT
+services, and a small instance for the daily dashboard in observation mode for the demand tests
+that pass validation and that the services authorise (plan 2.3.3, T3.6 and WP4, 2.4).
+
+Open research data. Deposit and curation of the open extraction benchmark (D1.1), the code and
+the evaluation outputs in a public repository with a persistent identifier (plan 2.6). Budgeted
+now since it cannot be added later.
+
+Data access and regulatory fees. Extraction and preparation of the emergency series by the HUG
+data office, and ethics commission fees for the Art. 34 LRH authorisation or clarification
+(plan 2.4, data governance).
+
+## 4. To confirm before entry
+
+1. With the RGO. That a class-17 scientific collaborator or adjoint-e scientifique I at 40% is
+   eligible under the 2026 rules (her list named ARE at most 40%, the applicant's intention is a
+   PAT position plus an ARE), and the gross at 100% HR would apply to such a hire.
+2. With the RGO or HR. The annuity UNIGE would set for the applicant as collaborateur
+   scientifique II in September 2027, if an answer is possible before submission.
+3. With the HUG data office. Whether extraction fees apply to the emergency series, and how much.
+4. With the CCER. Its fee schedule for the planned submission.
+5. In the plan. Table in 2.3.3 currently says "Research assistants (master's students, at most
+   40%)". If the class-17 position is confirmed, the line becomes "Scientific collaborator
+   (class 17, part-time) and a master's student (ARE)". This is a plan edit and waits for the
+   applicant's go-ahead, with the reviewers' comments.
+
+## 5. Rules from the call documents (unchanged)
+
+- Project funds capped at CHF 250,000 for four years (Art. 10 §4), pro-rated if shorter.
+- Applicant salary separate, work quota 100% (80% only for care duties or further
+  qualification). The SNSF confirms the exact salary with the institution for approved grants.
+- Doctoral students and postdocs cannot be employed. Other staff can, and must be justified in
+  the plan (Guidelines 4.3), which 2.4 does.
+- Equipment of enduring value at most CHF 100,000, not a live constraint.
+- Open-access publication costs not eligible here. Open research data costs eligible, to be
+  budgeted now.
+- No budget change after submission.
+
+## 6. Decision log
+
+- 13 Oct. RGO salary table from 19/12, average CHF 132,903.50, charges 23%, status collaborateur
+  scientifique II class 19. Budget guidance, justify every line in the remarks.
+- 14 Oct. RGO list of typical lines. Travel, mobility stays, two to three conferences per year,
+  workshops, ARE at most 40%, IT services.
+- 15 Oct. Applicant: he would start at 19/10 at best. Plan table rewritten without the 50%
+  collaborator.
+- 20 Oct. Applicant: current scale 19/9 (adjoint scientifique), annuities frozen three years,
+  Ambizione status collaborateur scientifique II with annuities recalculated, no decrease
+  possible. Staff intention: one external person at 40% (PAT, adjoint scientifique, class 17)
+  plus a paid master's student. Two simulations requested (40% for 48 months, 40% for 7 months
+  then 20% for 36 months). Conferences: two per year in Europe plus one overseas. All other
+  expenses to be included.
