@@ -1099,3 +1099,4 @@ with Erol for decision before the letter is signed.
 ## 21 Oct: summary paragraph 1 approved as written
 - "Every winter, respiratory infections such as influenza, RSV and COVID-19 push up emergency calls ... will behave like the last one." Approved word for word by the applicant. Frozen for later passes.
 - Same day: RGO comments (Vicovanu Bota, Bezuchet) and Keiser's 56 Word comments received. Layout changed to 2 cm margins, Times New Roman 10pt, black headings, page numbers (15 pages). Consolidated revision proposal in `05-review/revision-proposal-2026-10-21.md`, awaiting block-by-block approval. Applicant decisions: no GESICA label on the choice of crises, drop "eleven years" everywhere, GeoAI4EI row "UNIGE, IDMM group", legionellosis between reframing and exploratory extension.
+- 21 Oct (applicant): LiteRev-Evidence has never been run on test cases. Correct wording is "it runs, but it has not been tested or validated". Never write "works on test cases".

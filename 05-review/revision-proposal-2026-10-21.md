@@ -117,8 +117,8 @@ in the applicant's favour). Citations stay as they are, the text around them cha
 > outcome, keeps each extracted number with its source and a grade of how certain the extraction
 > is, pools the numbers from several studies into a distribution of plausible values, lists the
 > explanatory variables and the outcome definitions that studies use, and fits first forecasting
-> models. Each new piece of evidence is shown to me before it enters a model. These parts run on
-> test cases and have not been validated, alone or as one pipeline. What does not exist yet, and
+> models. Each new piece of evidence is shown to me before it enters a model. These parts run, but
+> none of them has been tested or validated, alone or as one pipeline. What does not exist yet, and
 > what HEADSTART builds and tests, is the measurement and correction of extraction errors, the
 > screening of each finding for transfer to the local setting, a way of choosing the model that
 > uses only what was known at the forecast date, and the registered comparison that says whether
