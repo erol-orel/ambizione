@@ -1,7 +1,7 @@
 #!/bin/bash
 # Render the plan (without bibliography) at SNSF-compliant specs and count pages.
 # Specs per Guidelines 4.3: A4, min 10pt, 1.5 line spacing; bibliography excluded.
-# Layout: 1.5 cm margins (margins are not prescribed), compact headings.
+# Layout: 2 cm margins (RGO advice, 21 Oct), Times New Roman, black headings, compact headings.
 cd "$(dirname "$0")"
 T=$(mktemp -d)
 cat 00-title-and-summary.md 01-state-of-the-art.md 02-own-work.md 03-objectives.md \
@@ -12,10 +12,10 @@ cd "$T" && mkdir u && cd u && unzip -oq ../plan.docx
 python3 - <<'PY'
 import pathlib, re
 d = pathlib.Path("word/document.xml"); x = d.read_text()
-sect = '<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="570" w:right="680" w:bottom="570" w:left="680" w:header="567" w:footer="567" w:gutter="0"/></w:sectPr>'
+sect = '<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1134" w:right="1134" w:bottom="1134" w:left="1134" w:header="567" w:footer="567" w:gutter="0"/></w:sectPr>'
 x = x.replace('<w:sectPr />', sect)
 # Tables: fixed layout, full text width, content-proportional columns
-TEXTW = 11906 - 2*680
+TEXTW = 11906 - 2*1134
 def fix_tbl(m):
     tbl = m.group(0)
     tbl = re.sub(r'<w:tblW[^>]*/>', '<w:tblW w:w="%d" w:type="dxa"/>' % TEXTW, tbl)
@@ -40,7 +40,7 @@ def fix_tbl(m):
     return tbl
 x = re.sub(r'<w:tbl>.*?</w:tbl>', fix_tbl, x, flags=re.S)
 # Figures: cap width at 12 cm, keep aspect
-SIZES = [6640000, 6640000]  # both figures at the full 18.44 cm text width (EMU)
+SIZES = [6120130, 6120130]  # both figures at the full 17.0 cm text width (EMU)
 def make_fixer(tag):
     state = {"i": -1}
     def fix(m):
@@ -83,6 +83,15 @@ for sid, before, after in [("Normal",0,20),("BodyText",0,20),("FirstParagraph",0
         new = blk.replace('</w:style>', '<w:pPr>' + sp + '</w:pPr></w:style>', 1)
     s = s.replace(blk, new, 1)
 sfile.write_text(s)
+
+# Layout per RGO advice (21 Oct 2026): Times New Roman 10pt, black headings and title, 2 cm margins
+s = sfile.read_text()
+FONT = "Times New Roman"
+s = re.sub(r'<w:rFonts [^>]*/>', '<w:rFonts w:ascii="%s" w:hAnsi="%s" w:cs="%s"/>' % (FONT, FONT, FONT), s)
+s = re.sub(r'(<w:rPrDefault>\s*<w:rPr>)', r'\1<w:rFonts w:ascii="%s" w:hAnsi="%s" w:cs="%s"/>' % (FONT, FONT, FONT), s, 1)
+s = re.sub(r'<w:color w:themeColor="accent1"[^/]*/>', '<w:color w:val="000000"/>', s)
+sfile.write_text(s)
+
 d.write_text(x)
 PY
 zip -Xqr ../plan2.docx . && cd .. && soffice --headless --convert-to pdf --outdir . plan2.docx >/dev/null 2>&1

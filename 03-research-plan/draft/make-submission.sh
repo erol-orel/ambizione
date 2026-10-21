@@ -1,6 +1,6 @@
 #!/bin/bash
 # Build the submission-formatted docx + PDF (FULL document incl. bibliography)
-# using the same layout as pagecheck.sh (A4, 10pt, 1.5 spacing, 1.4 cm margins).
+# using the same layout as pagecheck.sh (A4, 10pt, 1.5 spacing, 2 cm margins, Times New Roman, black headings, page numbers).
 cd "$(dirname "$0")"
 OUT="$(cd .. && pwd)"
 bash assemble.sh >/dev/null
@@ -11,9 +11,9 @@ cd "$T" && mkdir u && cd u && unzip -oq ../plan.docx
 python3 - <<'PY'
 import pathlib, re
 d = pathlib.Path("word/document.xml"); x = d.read_text()
-sect = '<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="570" w:right="680" w:bottom="570" w:left="680" w:header="567" w:footer="567" w:gutter="0"/></w:sectPr>'
+sect = '<w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1134" w:right="1134" w:bottom="1134" w:left="1134" w:header="567" w:footer="567" w:gutter="0"/></w:sectPr>'
 x = x.replace('<w:sectPr />', sect)
-TEXTW = 11906 - 2*680
+TEXTW = 11906 - 2*1134
 def fix_tbl(m):
     tbl = m.group(0)
     tbl = re.sub(r'<w:tblW[^>]*/>', '<w:tblW w:w="%d" w:type="dxa"/>' % TEXTW, tbl)
@@ -43,7 +43,7 @@ if i > 0:
     if j > 0 and k > 0 and k < i:
         x = x[:k+8] + '<w:r><w:br w:type="page"/></w:r>' + x[k+8:]
 x = re.sub(r'<w:tbl>.*?</w:tbl>', fix_tbl, x, flags=re.S)
-SIZES = [6640000, 6640000]  # both figures at the full 18.44 cm text width (EMU)
+SIZES = [6120130, 6120130]  # both figures at the full 17.0 cm text width (EMU)
 def make_fixer(tag):
     state = {"i": -1}
     def fix(m):
@@ -93,6 +93,26 @@ for sid, before, after in [("Normal",0,20),("BodyText",0,20),("FirstParagraph",0
         new = blk.replace('</w:style>', '<w:pPr>' + sp + '</w:pPr></w:style>', 1)
     s = s.replace(blk, new, 1)
 sfile.write_text(s)
+
+# Layout per RGO advice (21 Oct 2026): Times New Roman 10pt, black headings and title, 2 cm margins
+s = sfile.read_text()
+FONT = "Times New Roman"
+s = re.sub(r'<w:rFonts [^>]*/>', '<w:rFonts w:ascii="%s" w:hAnsi="%s" w:cs="%s"/>' % (FONT, FONT, FONT), s)
+s = re.sub(r'(<w:rPrDefault>\s*<w:rPr>)', r'\1<w:rFonts w:ascii="%s" w:hAnsi="%s" w:cs="%s"/>' % (FONT, FONT, FONT), s, 1)
+s = re.sub(r'<w:color w:themeColor="accent1"[^/]*/>', '<w:color w:val="000000"/>', s)
+sfile.write_text(s)
+
+# Page numbers in the footer (RGO advice, 21 Oct 2026)
+ft = pathlib.Path("word/footer1.xml")
+ft.write_text('<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:ftr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:p><w:pPr><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman"/><w:sz w:val="18"/></w:rPr><w:fldChar w:fldCharType="begin"/></w:r><w:r><w:rPr><w:sz w:val="18"/></w:rPr><w:instrText xml:space="preserve"> PAGE </w:instrText></w:r><w:r><w:rPr><w:sz w:val="18"/></w:rPr><w:fldChar w:fldCharType="separate"/></w:r><w:r><w:rPr><w:sz w:val="18"/></w:rPr><w:t>1</w:t></w:r><w:r><w:rPr><w:sz w:val="18"/></w:rPr><w:fldChar w:fldCharType="end"/></w:r></w:p></w:ftr>')
+rel = pathlib.Path("word/_rels/document.xml.rels"); r = rel.read_text()
+r = r.replace('</Relationships>', '<Relationship Id="rIdFooter1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer" Target="footer1.xml"/></Relationships>')
+rel.write_text(r)
+ct = pathlib.Path("[Content_Types].xml"); c = ct.read_text()
+c = c.replace('</Types>', '<Override PartName="/word/footer1.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml"/></Types>')
+ct.write_text(c)
+x = x.replace('<w:sectPr><w:pgSz', '<w:sectPr><w:footerReference w:type="default" r:id="rIdFooter1"/><w:pgSz', 1)
+
 d.write_text(x)
 PY
 zip -Xqr ../plan2.docx . && cd .. && soffice --headless --convert-to pdf --outdir . plan2.docx >/dev/null 2>&1
