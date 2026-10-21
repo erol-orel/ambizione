@@ -2,8 +2,8 @@
 
 Written after the comments of Roxana Vicovanu Bota and Christiane Bezuchet (RGO, 21 Oct) and of
 Olivia Keiser (19 and 20 Oct). Not applied to the plan. For the applicant to rework in his own
-words. The facts match the plan as it stands. The draft is 6,730 characters including spaces,
-against 3,441 for the current summary, about 3,300 more. Page 15 has room for about 16 lines,
+words. The facts match the plan as it stands. The draft is 9,154 characters including spaces,
+against 3,441 for the current summary, about 5,700 more. Page 15 has room for about 16 lines,
 so the plan stays at 15 pages if the body edits are neutral.
 
 What the draft does, in order. Who faces the problem and what a crisis does to the services.
@@ -20,7 +20,7 @@ career paragraph.
 
 ## 1. Summary (proposed)
 
-(Paragraphs 1 to 3 approved word for word by the applicant on 21 Oct, frozen. Paragraph 4 proposed, under review. Paragraphs 5 to 7 are the earlier draft, still to review.)
+(Paragraphs 1 to 3 approved word for word by the applicant on 21 Oct. Paragraphs 4 to 11 are the applicant's own text of 21 Oct with four agreed insertions, pressure levels at the end of stage 2, the reason for respiratory first and the legionellosis wording in stage 3, and "It runs, but it has not yet been tested" in paragraph 4. Open: a sentence on rules fixed in advance for the choice of outcome, see note after the text.)
 
 Every winter, respiratory infections such as influenza, RSV and COVID-19 push up emergency
 calls, emergency-department visits and hospital admissions in Geneva, as everywhere else. In
@@ -59,48 +59,23 @@ review does. It means searching the literature, screening hundreds or thousands 
 reading the relevant ones and extracting the information by hand. It takes months, so it is rarely done for forecasting, and it is out of date by the time a
 crisis comes. Software can now do a large part of this work.
 
-With colleagues I built LiteRev, a tool that searches the literature and sorts the papers by
-topic, and other teams use it. I have since extended it to pull out of each study what a
-forecaster needs, the numbers, the variables, the definitions, the kind of model. This extension
-is a prototype. It works on test cases but it has not been proven, and two doubts hang over it.
-A machine reads papers less carefully than a person. It may take an estimate but miss the range
-around it, miss a number altogether, or put together studies that should not be mixed, and it
-then makes the evidence look more certain than it is. And a result that held in another city or
-another season may not hold in Geneva, because the people, the services, the climate or the way
-cases are counted differ. These two doubts, the quality of what is extracted and whether it
-applies here, are what this project is about. The idea is to measure the errors and correct
-them, to check each finding for how well it fits Geneva, and to use what survives as the starting
-point of the local forecast until the local data take over. Finding out when published evidence
-misleads matters as much as showing when it helps.
+With colleagues, I developed LiteRev, a tool that searches scientific papers and ranks them by how relevant they are to a given question. This helps researchers find the studies they need to read without having to go through so many papers. I have since extended the tool so that it can extract useful information from each study for forecasting and update that information as new studies are published. This extension is a prototype. It runs, but it has not yet been tested, and more work is needed before it can be used in HEADSTART.
 
-The work has four parts. I will first compare automated extraction with extraction done by hand
-on the same studies, measure the errors and widen the uncertainty where the machine is
-overconfident, because an overconfident input produces an overconfident forecast. I will then
-build a model that expresses demand as levels of pressure on the service, for example
-routine, elevated, strained and critical, with the thresholds taken from published definitions
-where they exist. I will replay past Geneva episodes day by day, using only what was known on
-each day, and compare two forecasting strategies that share the same local data and context and
-differ only in whether they use the published evidence. Finally I will ask the emergency services
-what a wrong decision costs them, and judge the forecasts by the decisions they would have
-triggered, not by statistics alone.
+HEADSTART will build on this work in several stages. The first is to establish whether the tool can reliably extract the information needed from scientific papers. I will compare its results with information extracted manually from a set of studies, including papers that were not used during development. This will show how often the tool makes mistakes, which types of information are most difficult to extract, and whether some errors are more serious than others. I will then develop ways to detect these errors and account for them when using the extracted information in forecasts. The tool will also need to handle new studies as they appear without allowing changes in the scientific literature to introduce errors or inconsistencies into the information already collected.
 
-The tests are chosen by how much the crisis weighs on the services and by how much can be
-learnt. Respiratory epidemics come first. They carry most of the seasonal pressure on emergency
-services and hospitals, they are followed by several fast signals at once (emergency calls,
-sentinel practices, wastewater) and the literature on them is large. Heat waves come second,
-because they strain the same services and can be forecast from the same kind of data.
-Legionellosis, a lung infection caught from water systems rather than from other people, is a
-third and rarer case. It is tested in the last year on a different question, forecasting monthly
-case counts from ten years of cases linked to building data, to see whether the method carries
-over to an outbreak with an environmental source. The exact outcome of each test, for example
-calls classified by the symptoms recorded or hospital admissions, is chosen before any forecast is
-made, by criteria registered in advance such as data access, completeness and reporting delay.
+The second stage is to turn this information into something that can improve a forecast. Published studies report findings from different populations, places and periods, and their results do not always agree. I will develop methods to combine these findings while accounting for their reliability and relevance to the situation being forecast. Evidence from other settings will provide an initial basis for prediction when local data are limited. As data from Geneva become available, the forecasts will be updated to reflect local patterns. The methods will also need to allow for changes over time, since relationships observed in the past may no longer hold during a new outbreak or an unusually severe event. The forecasts might also be expressed as levels of pressure rather than plain counts. A number of admissions means little on its own, but set against the beds a hospital has, or a number of calls against what a call centre can take on a normal day, it says how close the service is to its limit. Published studies and official plans already define such levels, and the capacity figures are public, so the two can be put together.
 
-At the end the project will say, for each type of crisis, whether published evidence improves
-early forecasts, by how much and for how long, and where it should not be trusted. For the demand
-forecasts that pass these checks and that the services authorise, a daily dashboard will run
-alongside their work in observation mode, with no role in clinical care. The methods, the
-extraction benchmark and the code will be open for other services and other places to reuse.
+The third stage is to establish what HEADSTART should forecast and which data can support it. The project will assess the availability, quality and time resolution of relevant health and environmental data, and define measurable outcomes that reflect the development of a health crisis. The initial work will focus on respiratory illness and related demand for healthcare and emergency services, because these epidemics put the heaviest and most regular pressure on the services and are followed by several data streams at once, with further applications to heat-related health problems and, as an exploratory extension, legionellosis, a rarer infection with an environmental source, for which I am currently working on a predictive model for Geneva and where our findings will be a good fit to test the tool on a different kind of health threat. These applications involve different types of outcomes and different warning periods, so they will be studied separately rather than treated as if they were the same forecasting problem.
+
+The fourth stage is to test whether the forecasts would have been useful in real time. I will reconstruct past forecasts using only the information that was available on each date. This is essential because a method can appear accurate when tested with information that would not actually have been available when a warning was needed. I will compare HEADSTART with simple reference methods and the approaches currently used where these can be established. The evaluation will cover how early the system can detect a rise in demand, how often it misses an event, how often it issues a warning that is not followed by an increase, and how much uncertainty remains in its predictions. The tests will be repeated across different periods and health events to establish whether the results are consistent rather than driven by a few exceptional cases.
+
+The fifth stage is to determine how well the approach works in Geneva and why it sometimes fails. Evidence from other places may improve predictions, but differences in populations, climate, healthcare services and the way cases are recorded may also make that evidence less useful. I will examine which types of evidence improve forecasts, which have little value, and which may lead to misleading predictions. This will help establish when published research can support local forecasting and when greater weight should be given to local data.
+
+Finally, I will assess whether better predictions could make a practical difference. An accurate forecast is not necessarily useful if it arrives too late, gives little indication of the likely increase in demand, or cannot be translated into action. I will therefore examine how warnings could be presented, how different warning thresholds affect the balance between missed events and unnecessary alerts, and whether the resulting information could help services prepare. If the earlier stages support it, this work could lead to a limited trial in which forecasts are produced alongside normal practice, without initially directing operational decisions.
+
+Together, these stages will establish whether scientific knowledge can be combined with current data to provide earlier and more reliable warnings of health crises. They will also show what is needed to make the approach work, where its limits lie, and whether its benefits justify the effort required to use it. The project will not assume that combining more information leads to better forecasts. That is one of the main claims HEADSTART is designed to test.
+
+Open point (applicant's item 4). Proposed sentence for stage 3, after "define measurable outcomes that reflect the development of a health crisis": "The choice among them will follow rules written down before any result is seen, for example that the data must be complete and arrive quickly, so that no outcome is picked afterwards because it happens to give good results." Not inserted.
 
 ---
 
