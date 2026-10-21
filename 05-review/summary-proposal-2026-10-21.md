@@ -20,7 +20,7 @@ career paragraph.
 
 ## 1. Summary (proposed)
 
-(Paragraphs 1 and 2 approved word for word by the applicant on 21 Oct, frozen. Paragraphs 3 and 4 proposed, under review. Paragraphs 5 to 7 are the earlier draft, still to review.)
+(Paragraphs 1 to 3 approved word for word by the applicant on 21 Oct, frozen. Paragraph 4 proposed, under review. Paragraphs 5 to 7 are the earlier draft, still to review.)
 
 Every winter, respiratory infections such as influenza, RSV and COVID-19 push up emergency
 calls, emergency-department visits and hospital admissions in Geneva, as everywhere else. In
