@@ -2,8 +2,8 @@
 
 Written after the comments of Roxana Vicovanu Bota and Christiane Bezuchet (RGO, 21 Oct) and of
 Olivia Keiser (19 and 20 Oct). Not applied to the plan. For the applicant to rework in his own
-words. The facts match the plan as it stands. The draft is 4,993 characters including spaces,
-against 3,441 for the current summary, about 1600 more. Page 15 has room for about 16 lines,
+words. The facts match the plan as it stands. The draft is 6,730 characters including spaces,
+against 3,441 for the current summary, about 3,300 more. Page 15 has room for about 16 lines,
 so the plan stays at 15 pages if the body edits are neutral.
 
 What the draft does, in order. Who faces the problem and what a crisis does to the services.
@@ -20,7 +20,7 @@ career paragraph.
 
 ## 1. Summary (proposed)
 
-(Paragraph 1 approved word for word by the applicant on 21 Oct. Do not touch it in later passes.)
+(Paragraphs 1 to 3 approved word for word by the applicant on 21 Oct, frozen. Paragraph 4 proposed. Paragraphs 5 to 7 are the earlier draft, still to review.)
 
 Every winter, respiratory infections such as influenza, RSV and COVID-19 push up emergency
 calls, emergency-department visits and hospital admissions in Geneva, as everywhere else. In
@@ -30,29 +30,49 @@ staff or warn the public, and the earliest decisions are the ones that count mos
 the local figures of the new episode are still few, and nobody knows yet whether this season's
 virus or this heat wave will behave like the last one.
 
-A great deal of context is available from the first day, such as weather, air quality, school
-holidays, wastewater measurements and routine surveillance. What the forecasting models lack at
-the start is enough local outcome data, that is enough days of calls, visits or admissions from
-the current episode to learn how this context translates into demand this time. Long records of
-past seasons help, but a new episode often differs in who is affected and how severe it is, so
-the link has to be learnt again as the days come in.
+On the first day of an episode, a lot is already known. The weather, the air quality, the school
+holidays, the virus load in the wastewater and the routine surveillance figures are all there.
+What is missing is the local outcome, that is enough days of calls, visits or admissions from this
+episode to see how these things turn into demand this time. Past seasons help, but no two
+episodes are alike, and the reasons are many. The cause itself changes, a new variant, a different
+mix of viruses, a heat wave that comes earlier, lasts longer or arrives with pollution. The
+population changes, in its immunity, its age, where it lives and how vulnerable it is. Behaviour
+and policy change, holidays, travel, mask wearing, vaccination campaigns, warnings that were or
+were not given. The services change, in their beds, their staff, how they triage and how they
+record their cases. And several of these things can change at once. So the link between what is
+observed and what the services will face has to be learnt again, each time, from the first days
+of the episode. To start forecasting anyway, a model needs to know many things that the local
+data cannot yet tell, such as which signals to watch, how much and how fast a signal moves
+demand, how the illness spreads, how long people stay in hospital, which groups are hit first,
+what kind of model has worked before for this kind of crisis, and what level of demand counts as
+serious for the services.
 
-Meanwhile, published studies from other places and past seasons describe how demand reacted to
-similar situations, for example how many extra visits each degree above a temperature threshold
-produced in another city, or how fast admissions rose after the first wave of calls. Bringing
-this knowledge together is what a systematic review does. It means searching the literature,
-screening hundreds or thousands of papers, reading the relevant ones and copying out the numbers
-by hand. It takes months, so it is rarely done for forecasting, and it is out of date by the time
-a crisis comes. Software can now do a large part of this work. With colleagues I built LiteRev, a
-tool that searches and sorts the literature, and I have extended it to extract numbers from
-studies. Two problems remain. Numbers extracted by a machine are less reliable than numbers
-extracted by hand, and the machine tends to understate how uncertain they are. And a finding that
-held elsewhere may not hold in Geneva, because the population, the services and the way cases
-are recorded differ. HEADSTART tests whether published evidence, extracted this way, can be used
-safely at the start of a crisis. The idea is to measure and correct these errors, to assess how
-well each finding transfers to the local setting, and to use the result as the starting point of
-the local model until the local data take over. Detecting when published evidence misleads
-matters as much as showing when it helps.
+Much of this has been measured before, in other places or in past seasons, and the results are
+in published studies. One study has counted how many more people come to an emergency department
+for each extra degree on a hot day. Another has measured how many days pass between a rise in
+emergency calls and a rise in admissions. A heat plan states the temperature at which it sends a
+warning. A review of past epidemics says which models forecast best in the first weeks. A
+hospital has reported how long its COVID-19 patients stayed and what share needed intensive care.
+None of this is exactly Geneva, but at the start it is the best starting point there is, and the
+local data can correct it day by day. Bringing this knowledge together is what a systematic
+review does. It means searching the literature, screening hundreds or thousands of papers,
+reading the relevant ones and copying out the numbers, the variables and the definitions by
+hand. It takes months, so it is rarely done for forecasting, and it is out of date by the time a
+crisis comes. Software can now do a large part of this work.
+
+With colleagues I built LiteRev, a tool that searches the literature and sorts the papers by
+topic, and other teams use it. I have since extended it to pull out of each study what a
+forecaster needs, the numbers, the variables, the definitions, the kind of model. This extension
+is a prototype. It works on test cases but it has not been proven, and two doubts hang over it.
+A machine reads papers less carefully than a person. It may take an estimate but miss the range
+around it, miss a number altogether, or put together studies that should not be mixed, and it
+then makes the evidence look more certain than it is. And a result that held in another city or
+another season may not hold in Geneva, because the people, the services, the climate or the way
+cases are counted differ. These two doubts, the quality of what is extracted and whether it
+applies here, are what this project is about. The idea is to measure the errors and correct
+them, to check each finding for how well it fits Geneva, and to use what survives as the starting
+point of the local forecast until the local data take over. Finding out when published evidence
+misleads matters as much as showing when it helps.
 
 The work has four parts. I will first compare automated extraction with extraction done by hand
 on the same studies, measure the errors and widen the uncertainty where the machine is
