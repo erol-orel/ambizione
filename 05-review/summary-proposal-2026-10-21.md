@@ -2,13 +2,16 @@
 
 Written after the comments of Roxana Vicovanu Bota and Christiane Bezuchet (RGO, 21 Oct) and of
 Olivia Keiser (19 and 20 Oct). Not applied to the plan. For the applicant to rework in his own
-words. The facts match the plan as it stands. The draft is 4,357 characters including spaces,
-against 3,441 for the current summary, about 900 more. Page 15 has room for about 16 lines,
+words. The facts match the plan as it stands. The draft is 4,993 characters including spaces,
+against 3,441 for the current summary, about 1600 more. Page 15 has room for about 16 lines,
 so the plan stays at 15 pages if the body edits are neutral.
 
 What the draft does, in order. Who faces the problem and what a crisis does to the services.
-What is available from day one and what is missing, and for whom. The idea in plain words, with
-an example of what a published finding looks like. The four parts, each with one concrete
+What is available from day one and what is missing, and for whom. What published studies hold,
+what a systematic review is and why it is too slow, what software now does and the two problems
+that remain (extraction errors, transfer), then the idea in plain words. (Applicant, 21 Oct:
+Keiser wants the complete story including the literature-review piece, not a summary that skips
+it.) The four parts, each with one concrete
 example. The three tests, justified by weight on the services and by what can be learnt, with
 legionellosis brought in as the rarer environmental case. What comes out for the services. No
 career paragraph.
@@ -32,20 +35,27 @@ the current episode to learn how this context translates into demand this time. 
 past seasons help, but a new episode often differs in who is affected and how severe it is, so
 the link has to be learnt again as the days come in.
 
-Meanwhile, many published studies describe how demand reacted to similar situations elsewhere,
-for example how many extra visits each degree above a temperature threshold produced in another
-city, or how quickly admissions rose after the first wave of calls in a past season. This
-knowledge is rarely used in forecasting, partly because it is scattered across thousands of
-papers and partly because what held elsewhere may not hold here. HEADSTART tests whether it can
-be used safely. The idea is to extract such findings automatically from the literature together
-with their uncertainty, to assess how well they transfer to the local setting, and to use them as
-the starting point of the local model until the local data take over. Detecting when published
-evidence misleads matters as much as showing when it helps.
+Meanwhile, published studies from other places and past seasons describe how demand reacted to
+similar situations, for example how many extra visits each degree above a temperature threshold
+produced in another city, or how fast admissions rose after the first wave of calls. Bringing
+this knowledge together is what a systematic review does. It means searching the literature,
+screening hundreds or thousands of papers, reading the relevant ones and copying out the numbers
+by hand. It takes months, so it is rarely done for forecasting, and it is out of date by the time
+a crisis comes. Software can now do a large part of this work. With colleagues I built LiteRev, a
+tool that searches and sorts the literature, and I have extended it to extract numbers from
+studies. Two problems remain. Numbers extracted by a machine are less reliable than numbers
+extracted by hand, and the machine tends to understate how uncertain they are. And a finding that
+held elsewhere may not hold in Geneva, because the population, the services and the way cases
+are recorded differ. HEADSTART tests whether published evidence, extracted this way, can be used
+safely at the start of a crisis. The idea is to measure and correct these errors, to assess how
+well each finding transfers to the local setting, and to use the result as the starting point of
+the local model until the local data take over. Detecting when published evidence misleads
+matters as much as showing when it helps.
 
-The work has four parts. I will first measure how reliable automated extraction is, by comparing
-it with extraction done by hand on the same studies, and correct the uncertainty where the
-machine is overconfident, because an overconfident input produces an overconfident forecast. I
-will then build a model that expresses demand as levels of pressure on the service, for example
+The work has four parts. I will first compare automated extraction with extraction done by hand
+on the same studies, measure the errors and widen the uncertainty where the machine is
+overconfident, because an overconfident input produces an overconfident forecast. I will then
+build a model that expresses demand as levels of pressure on the service, for example
 routine, elevated, strained and critical, with the thresholds taken from published definitions
 where they exist. I will replay past Geneva episodes day by day, using only what was known on
 each day, and compare two forecasting strategies that share the same local data and context and
