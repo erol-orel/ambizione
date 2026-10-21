@@ -1095,3 +1095,7 @@ with Erol for decision before the letter is signed.
 ## 20 Oct: Keiser's first reaction (19 Oct, 22:00): "far too much AI language" in the first paragraphs, write as if for a child
 - Applicant's decision: change nothing until Olivia, Janne and the RGO office send examples and reviews. Then a de-AI pass on the summary, 2.1 and the opening of 2.2, written by the applicant in his own words, with me checking facts, losses and counts only.
 - Tells identified for that pass (not applied): "not X, it is Y" contrasts, triads, project name as subject, balanced antitheses, numbered march, short punch lines, claim-style headings, no connective tissue, textbook definitions instead of examples.
+
+## 21 Oct: summary paragraph 1 approved as written
+- "Every winter, respiratory infections such as influenza, RSV and COVID-19 push up emergency calls ... will behave like the last one." Approved word for word by the applicant. Frozen for later passes.
+- Same day: RGO comments (Vicovanu Bota, Bezuchet) and Keiser's 56 Word comments received. Layout changed to 2 cm margins, Times New Roman 10pt, black headings, page numbers (15 pages). Consolidated revision proposal in `05-review/revision-proposal-2026-10-21.md`, awaiting block-by-block approval. Applicant decisions: no GESICA label on the choice of crises, drop "eleven years" everywhere, GeoAI4EI row "UNIGE, IDMM group", legionellosis between reframing and exploratory extension.

@@ -20,6 +20,8 @@ career paragraph.
 
 ## 1. Summary (proposed)
 
+(Paragraph 1 approved word for word by the applicant on 21 Oct. Do not touch it in later passes.)
+
 Every winter, respiratory infections such as influenza, RSV and COVID-19 push up emergency
 calls, emergency-department visits and hospital admissions in Geneva, as everywhere else. In
 summer a heat wave does the same within days. The people who run the emergency call centre, the
