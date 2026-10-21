@@ -2,8 +2,9 @@
 
 Written after the comments of Roxana Vicovanu Bota and Christiane Bezuchet (RGO, 21 Oct) and of
 Olivia Keiser (19 and 20 Oct). Not applied to the plan. For the applicant to rework in his own
-words. The facts match the plan as it stands. The draft is 4,690 characters including spaces,
-against 4,370 for the current summary.
+words. The facts match the plan as it stands. The draft is 4,357 characters including spaces,
+against 3,441 for the current summary, about 900 more. Page 15 has room for about 16 lines,
+so the plan stays at 15 pages if the body edits are neutral.
 
 What the draft does, in order. Who faces the problem and what a crisis does to the services.
 What is available from day one and what is missing, and for whom. The idea in plain words, with
