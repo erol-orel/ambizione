@@ -56,8 +56,7 @@ hospital has reported how long its COVID-19 patients stayed and what share neede
 None of this is exactly Geneva, but at the start it is the best starting point there is, and the
 local data can correct it day by day. Bringing this knowledge together is what a systematic
 review does. It means searching the literature, screening hundreds or thousands of papers,
-reading the relevant ones and copying out the numbers, the variables and the definitions by
-hand. It takes months, so it is rarely done for forecasting, and it is out of date by the time a
+reading the relevant ones and extracting the information by hand. It takes months, so it is rarely done for forecasting, and it is out of date by the time a
 crisis comes. Software can now do a large part of this work.
 
 With colleagues I built LiteRev, a tool that searches the literature and sorts the papers by
