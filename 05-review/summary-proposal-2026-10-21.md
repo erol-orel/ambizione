@@ -20,12 +20,11 @@ career paragraph.
 
 ## 1. Summary (proposed)
 
-(Paragraphs 1 to 3 approved word for word by the applicant on 21 Oct. Paragraphs 4 to 11 are the applicant's own text of 21 Oct with four agreed insertions, pressure levels at the end of stage 2, the reason for respiratory first and the legionellosis wording in stage 3, and "It runs, but it has not yet been tested" in paragraph 4. Open: a sentence on rules fixed in advance for the choice of outcome, see note after the text.)
+(Version of 21 Oct evening, all eleven paragraphs approved by the applicant after nine rounds. Handed to the applicant for his own sentence-by-sentence rework in Word. Open: a sentence on rules fixed in advance for the choice of outcome, see note after the text.)
 
 Every winter, respiratory infections such as influenza, RSV and COVID-19 push up emergency
 calls, emergency-department visits and hospital admissions in Geneva, as everywhere else. In
-summer a heat wave does the same within days. The people who run the emergency call centre, the
-emergency department and the hospital beds have to decide early whether to open beds, bring in
+summer a heat wave does the same within days. The people who run the emergency call centre, the emergency department and the hospital wards have to decide early whether to open beds, bring in
 staff or warn the public, and the earliest decisions are the ones that count most. At that point
 the local figures of the new episode are still few, and nobody knows yet whether this season's
 virus or this heat wave will behave like the last one.
@@ -43,9 +42,7 @@ record their cases. And several of these things can change at once. So the link 
 observed and what the services will face has to be learnt again, each time, from the first days
 of the episode. To start forecasting anyway, a model needs to know many things that the local
 data cannot yet tell, such as which signals to watch, how much and how fast a signal moves
-demand, how the illness spreads, how long people stay in hospital, which groups are hit first,
-what kind of model has worked before for this kind of crisis, and what level of demand counts as
-serious for the services.
+demand, how the illness spreads, how long people stay in hospital, which groups are hit first, and what level of demand counts as serious for the services.
 
 Much of this has been measured before, in other places or in past seasons, and the results are
 in published studies. One study has counted how many more people come to an emergency department
@@ -53,7 +50,7 @@ for each extra degree on a hot day. Another has measured how many days pass betw
 emergency calls and a rise in admissions. A heat plan states the temperature at which it sends a
 warning. A review of past epidemics says which models forecast best in the first weeks. A
 hospital has reported how long its COVID-19 patients stayed and what share needed intensive care.
-None of this is exactly Geneva, but at the start it is the best starting point there is, and the
+None of this fits Geneva exactly, but in the first days of an episode it is the best starting point there is, and the
 local data can correct it day by day. Bringing this knowledge together is what a systematic
 review does. It means searching the literature, screening hundreds or thousands of papers,
 reading the relevant ones and extracting the information by hand. It takes months, so it is rarely done for forecasting, and it is out of date by the time a
